@@ -153,9 +153,8 @@
 
 <div class="sharebox">
     
-<div class="notification is-danger">
-    You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.
-</div>
+<div class="sharethis-inline-share-buttons"></div>
+<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
 
 </div>
 
@@ -164,11 +163,23 @@
 <div class="comments">
     <h3 class="title is-4">Comments</h3>
     
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://y8ncastle.github.io/2020/08/12/blog-move-noti/';
+        this.page.identifier = '2020/08/12/blog-move-noti/';
+        
+        this.language = 'en';
+        
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
 <div id="disqus_thread">
-    
-    <div class="notification is-danger">
-        You forgot to set the <code>shortname</code> for Disqus. Please set it in <code>_config.yml</code>.
-    </div>
     
     <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
