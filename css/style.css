@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body, button, input, select, textarea {
-  font-family: "Nanum Gothic", "Georgia", "STZhongsong", "Microsoft YaHei", serif; }
+  font-family: "Nanum Gothic", serif; }
 
 a.tag.article-tag {
   font-size: 0.9rem;
