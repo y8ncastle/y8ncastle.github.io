@@ -2,7 +2,7 @@
 <html class="has-navbar-fixed-top">
 <head>
     <meta charset="utf-8">
-<title>Tags - Zay Jeong Blog</title>
+<title>태그 목록 - Zay Jeong Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
@@ -24,13 +24,9 @@
 <meta property="og:url" content="https://y8ncastle.github.io/tags/index.html">
 <meta property="og:site_name" content="Zay Jeong Blog">
 <meta property="og:description" content="Zay Jeong&#39;s IT Blog (Personal Development)">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="ko_KR">
 <meta property="article:author" content="Zay Jeong">
 <meta property="article:tag" content="자유">
-<meta property="article:tag" content="안드로이드">
-<meta property="article:tag" content="프로젝트">
-<meta property="article:tag" content="android">
-<meta property="article:tag" content="project">
 <meta property="article:tag" content="백준">
 <meta property="article:tag" content="백준온라인저지">
 <meta property="article:tag" content="최대공약수와최소공배수">
@@ -38,6 +34,10 @@
 <meta property="article:tag" content="baekjoon">
 <meta property="article:tag" content="boj">
 <meta property="article:tag" content="boj2609">
+<meta property="article:tag" content="안드로이드">
+<meta property="article:tag" content="프로젝트">
+<meta property="article:tag" content="android">
+<meta property="article:tag" content="project">
 <meta name="twitter:card" content="summary">
 
 
@@ -126,7 +126,7 @@
         
         <div class="navbar-menu navbar-end">
             
-            <a class="navbar-item search" title="Search" href="javascript:;">
+            <a class="navbar-item search" title="검색" href="javascript:;">
                 <i class="fas fa-search"></i>
             </a>
             
@@ -146,7 +146,7 @@
     <section class="section section-heading">
     <div class="container">
         <div class="content">
-            <h5>#Tags</h5>
+            <h5>#태그 목록</h5>
         </div>
     </div>
 </section>
@@ -156,22 +156,6 @@
             
             <span class="column is-narrow">
                 <a class="tag is-light article-tag" href="/tags/%EC%9E%90%EC%9C%A0/">#자유&nbsp;(1)</a>
-            </span>
-            
-            <span class="column is-narrow">
-                <a class="tag is-light article-tag" href="/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/">#안드로이드&nbsp;(2)</a>
-            </span>
-            
-            <span class="column is-narrow">
-                <a class="tag is-light article-tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#프로젝트&nbsp;(2)</a>
-            </span>
-            
-            <span class="column is-narrow">
-                <a class="tag is-light article-tag" href="/tags/android/">#android&nbsp;(2)</a>
-            </span>
-            
-            <span class="column is-narrow">
-                <a class="tag is-light article-tag" href="/tags/project/">#project&nbsp;(2)</a>
             </span>
             
             <span class="column is-narrow">
@@ -200,6 +184,22 @@
             
             <span class="column is-narrow">
                 <a class="tag is-light article-tag" href="/tags/boj2609/">#boj2609&nbsp;(1)</a>
+            </span>
+            
+            <span class="column is-narrow">
+                <a class="tag is-light article-tag" href="/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/">#안드로이드&nbsp;(2)</a>
+            </span>
+            
+            <span class="column is-narrow">
+                <a class="tag is-light article-tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#프로젝트&nbsp;(2)</a>
+            </span>
+            
+            <span class="column is-narrow">
+                <a class="tag is-light article-tag" href="/tags/android/">#android&nbsp;(2)</a>
+            </span>
+            
+            <span class="column is-narrow">
+                <a class="tag is-light article-tag" href="/tags/project/">#project&nbsp;(2)</a>
             </span>
             
         </div>
@@ -286,7 +286,7 @@
     window.FontAwesomeConfig = {
         searchPseudoElements: true
     }
-    moment.locale("en-AU");
+    moment.locale("ko");
 </script>
 
 
@@ -412,7 +412,7 @@
     <div class="searchbox-mask"></div>
     <div class="searchbox-container ins-search-container">
         <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="Type something..." />
+            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
             <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="searchbox-result-wrapper ins-section-wrapper">
@@ -424,11 +424,11 @@
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Posts',
-                PAGES: 'Pages',
-                CATEGORIES: 'Categories',
-                TAGS: 'Tags',
-                UNTITLED: '(Untitled)',
+                POSTS: '글',
+                PAGES: '페이지',
+                CATEGORIES: '카테고리 목록',
+                TAGS: '태그 목록',
+                UNTITLED: '(제목없음)',
             },
             CONTENT_URL: '/content.json',
         };
