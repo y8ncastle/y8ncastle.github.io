@@ -148,6 +148,61 @@
         <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
+            <a href="/2020/08/15/boj-11006-c/" itemprop="url">[백준] 11006 - 남욱이의 닭장</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2020-08-15T13:02:14.000Z" itemprop="datePublished">8월 15 2020</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            5분 소요 (약 702 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/90312951-634cc580-df43-11ea-94c7-ea7c65e9e5e9.png" width="80%"></p>
+<br><br>
+
+<h3 id="&#xBB38;&#xC81C;-&#xD480;&#xC774;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xD480;&#xC774;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xD480;&#xC774; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xD480;&#xC774; &#xC815;&#xBCF4;</h3><hr>
+<ul>
+<li>&#xBC31;&#xC900; &#xC628;&#xB77C;&#xC778; &#xC800;&#xC9C0; - <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/11006">11006, &#xB0A8;&#xC6B1;&#xC774;&#xC758; &#xB2ED;&#xC7A5;</a></li>
+<li>&#xD480;&#xC774; &#xC5B8;&#xC5B4;: <code>C</code><br><br><br></li>
+</ul>
+<h3 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h3><p>&#xACC4;&#xB780;&#xC9D1;&#xC744; &#xC6B4;&#xC601;&#xD558;&#xB294; &#xB0A8;&#xC6B1;&#xC774;&#xB294; &#xB9E4;&#xC77C; &#xB2ED;&#xC7A5;&#xC5D0;&#xC11C; &#xB2EC;&#xAC40;&#xC744; &#xC218;&#xAC70;&#xD574;&#xAC04;&#xB2E4;. &#xC5B4;&#xB290;&#xB0A0; &#xB2ED;&#xC7A5;&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xBCF4;&#xB2C8; &#xC77C;&#xBD80; &#xB2ED;&#xC758; &#xB2E4;&#xB9AC;&#xAC00; &#xD558;&#xB098;&#xC529; &#xC0AC;&#xB77C;&#xC84C;&#xB2E4;. &#xB0A8;&#xC6B1;&#xC774;&#xB294; &#xC5BC;&#xB9C8;&#xB098; &#xB9CE;&#xC740; &#xB2ED;&#xB4E4;&#xC774; &#xD55C; &#xB2E4;&#xB9AC;&#xB97C; &#xC783;&#xC5C8;&#xB294;&#xC9C0; &#xC54C;&#xACE0; &#xC2F6;&#xC5C8;&#xC9C0;&#xB9CC; &#xB2ED;&#xC774; &#xB108;&#xBB34; &#xB9CE;&#xC544; &#xC140; &#xC218; &#xC5C6;&#xC5C8;&#xACE0;, &#xB300;&#xC2E0; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xB2E4;&#xB9AC; &#xC218;&#xB97C; &#xC14C;&#xB2E4;. &#xACE0;&#xBBFC;&#xD558;&#xB294; &#xB0A8;&#xC6B1;&#xC774;&#xB97C; &#xC704;&#xD574; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xB2E4;&#xB9AC; &#xC218;&#xC758; &#xD569;&#xACFC; &#xB2ED;&#xC758; &#xC218;&#xB97C; &#xAC00;&#xC9C0;&#xACE0; &#xC774;&#xAC83;&#xC744; &#xD574;&#xACB0;&#xD574;&#xC8FC;&#xC790;.</p>
+<p>&#xCCAB;&#xC9F8; &#xC904;&#xC5D0; &#xCD1D; &#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xC758; &#xC218; T (T &#x2264; 25) &#xAC00;, &#xB458;&#xC9F8; &#xC904; &#xBD80;&#xD130; T + 1&#xC9F8; &#xC904; &#xAE4C;&#xC9C0; &#xB9E4; &#xC904; &#xB9C8;&#xB2E4; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xB2E4;&#xB9AC; &#xC218;&#xC758; &#xD569; N (1 &#x2264; N &#x2264; 300) &#xACFC; &#xB2ED;&#xC758; &#xC218; M (M &#x2264; N &#x2264; 2M) &#xC774; &#xACF5;&#xBC31;&#xC744; &#xAC04;&#xACA9;&#xC73C;&#xB85C; &#xC785;&#xB825;&#xB41C;&#xB2E4;.</p>
+<p>&#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xB9C8;&#xB2E4; &#xD55C; &#xC904;&#xC5D0; &#xB2E4;&#xB9AC;&#xAC00; &#xC798;&#xB9B0; &#xB2ED;&#xC758; &#xC218; U&#xC640; &#xBA40;&#xCA61;&#xD55C; &#xB2ED;&#xC758; &#xC218; T&#xB97C; &#xACF5;&#xBC31;&#xC744; &#xAC04;&#xACA9;&#xC73C;&#xB85C; &#xCD9C;&#xB825;&#xD55C;&#xB2E4;.<br><br><br></p>
+<h3 id="&#xC791;&#xC131;&#xD55C;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;"><a href="#&#xC791;&#xC131;&#xD55C;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;" class="headerlink" title="&#xC791;&#xC131;&#xD55C; &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;"></a>&#xC791;&#xC131;&#xD55C; &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;</h3><figure class="highlight c hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{</span><br><span class="line">    <span class="hljs-keyword">int</span> t, n, m, i;</span><br><span class="line"></span><br><span class="line">    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;t);</span><br><span class="line"></span><br><span class="line">    <span class="hljs-keyword">for</span> (i=<span class="hljs-number">0</span>; i&lt;t; i++) {</span><br><span class="line">        <span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d %d&quot;</span>, &amp;n, &amp;m);</span><br><span class="line">        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d %d\n&quot;</span>, <span class="hljs-number">2</span>*m-n, m-(<span class="hljs-number">2</span>*m-n));</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<br>
+
+<h3 id="&#xCD9C;&#xB825;-&#xACB0;&#xACFC;"><a href="#&#xCD9C;&#xB825;-&#xACB0;&#xACFC;" class="headerlink" title="&#xCD9C;&#xB825; &#xACB0;&#xACFC;"></a>&#xCD9C;&#xB825; &#xACB0;&#xACFC;</h3><p><img src="https://user-images.githubusercontent.com/52089296/90312954-6647b600-df43-11ea-92be-a98060fd8f6b.png" alt="BOJ_11006_C"><br><br></p>
+<h3 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h3><p>&#xC774; &#xBB38;&#xC81C;&#xB294; &#x2018;&#xC548; &#xD47C; &#xBB38;&#xC81C; &#xB79C;&#xB364;&#x2019; &#xC73C;&#xB85C; &#xBF51;&#xC740; &#xBB38;&#xC81C;&#xC778;&#xB370;, &#xBB38;&#xC81C; &#xC790;&#xCCB4;&#xB294; &#xC26C;&#xC6B4; &#xD3B8;&#xC774;&#xC5C8;&#xB2E4;. &#xAC00;&#xC7A5; &#xBA3C;&#xC800;, &#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xC758; &#xC218;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; t, &#xB2ED;&#xC758; &#xB2E4;&#xB9AC; &#xC218;&#xC758; &#xD569;&#xC744; &#xB098;&#xD0C0;&#xB0B4;&#xB294; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; n, &#xB2ED;&#xC758; &#xC218;&#xB97C; &#xB098;&#xD0C0;&#xB0B4;&#xB294; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; m, &#xADF8;&#xB9AC;&#xACE0; &#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xB9CC;&#xD07C; for&#xBB38;&#xC744; &#xB3CC;&#xBA70; &#xBE44;&#xAD50;&#xD558;&#xAE30; &#xC704;&#xD558;&#xC5EC; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xC784;&#xC2DC; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; i&#xB97C; &#xC120;&#xC5B8;&#xD558;&#xC600;&#xB2E4;.</p>
+<p>&#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xB97C; &#xC785;&#xB825; &#xBC1B;&#xC740; &#xD6C4;&#xC5D0; &#xB2E4;&#xB9AC;&#xAC00; &#xC798;&#xB9B0; &#xB2ED;&#xC758; &#xC218;&#xC640; &#xBA40;&#xCA61;&#xD55C; &#xB2ED;&#xC758; &#xC218;&#xB97C; &#xCD94;&#xAC00;&#xB85C; &#xC785;&#xB825; &#xBC1B;&#xC558;&#xB294;&#xB370;, &#xC774; &#xB54C; &#xB2E8;&#xC21C;&#xD55C; &#xACC4;&#xC0B0;&#xB9CC;&#xC73C;&#xB85C;&#xB3C4; &#xBC14;&#xB85C; &#xCD9C;&#xB825;&#xD558;&#xC5EC; &#xADF8; &#xACB0;&#xACFC;&#xB97C; &#xB098;&#xD0C0;&#xB0BC; &#xC218; &#xC788;&#xC5C8;&#xB2E4;. &#xCCAB; &#xBC88;&#xC9F8;&#xB85C; &#xCD9C;&#xB825;&#xB418;&#xB294; &#xAC12;&#xC740; &#xB2E4;&#xB9AC;&#xAC00; &#xC798;&#xB9B0; &#xB2ED;&#xC758; &#xC218;&#xC778;&#xB370;, &#xC774; &#xACBD;&#xC6B0; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xC218; * 2&#xB97C; &#xD55C; &#xAC12;&#xC5D0;&#xC11C; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xB2E4;&#xB9AC; &#xC218;&#xB97C; &#xBE7C;&#xBA74; &#xADF8; &#xC218;&#xB97C; &#xACC4;&#xC0B0; &#xD560; &#xC218; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; 2 * m - n&#xC73C;&#xB85C; &#xC218;&#xC2DD;&#xC744; &#xC138;&#xC6E0;&#xB2E4;.</p>
+<p>&#xB450; &#xBC88;&#xC9F8;&#xB85C; &#xCD9C;&#xB825;&#xB418;&#xB294; &#xAC12;&#xC740; &#xBA40;&#xCA61;&#xD55C; &#xB2ED;&#xC758; &#xC218;&#xC778;&#xB370;, &#xC774; &#xACBD;&#xC6B0; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xC218;&#xC5D0;&#xC11C; &#xBC29;&#xAE08; &#xC804;&#xC5D0; &#xACC4;&#xC0B0; &#xD588;&#xB358; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xC218; * 2&#xB97C; &#xD55C; &#xAC12;&#xC5D0;&#xC11C; &#xBAA8;&#xB4E0; &#xB2ED;&#xC758; &#xB2E4;&#xB9AC; &#xC218;&#xB97C; &#xBE80; &#xAC12;&#xC744; &#xBE7C;&#xC8FC;&#xBA74; &#xADF8; &#xC218;&#xB97C; &#xACC4;&#xC0B0; &#xD560; &#xC218; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; m - (2 * m - n) &#xC73C;&#xB85C; &#xC218;&#xC2DD;&#xC744; &#xC138;&#xC6CC; &#xBCFC; &#xC218; &#xC788;&#xC5C8;&#xB2E4;. &#xC774; &#xBB38;&#xC81C;&#xB294; &#xAC04;&#xB2E8;&#xD55C; &#xC218;&#xC2DD; &#xACC4;&#xC0B0;&#xB9CC;&#xC73C;&#xB85C;&#xB3C4; &#xC27D;&#xAC8C; &#xD480;&#xB9AC;&#xB294; &#xBB38;&#xC81C;&#xC600;&#xB358; &#xAC83; &#xAC19;&#xC544; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xACE0;&#xCC30;&#xC740; &#xD558;&#xC9C0; &#xC54A;&#xC544;&#xB3C4; &#xB420; &#xAC83; &#xAC19;&#xB2E4;.</p>
+</body></html>
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
             <a href="/2020/08/15/boj-1065-c/" itemprop="url">[백준] 1065 - 한수</a>
         
     </h1>
