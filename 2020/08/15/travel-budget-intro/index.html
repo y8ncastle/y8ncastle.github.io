@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+    <meta charset="utf-8">
+<title>Travel Budget 화면 및 실제 사용 방식 - Zay Jeong Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
+
+
+
+
+<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
+
+
+
+<meta name="keywords" content="IT, Blockchain, Android, Development">
+
+
+
+    <meta name="description" content="&amp;#xC571; &amp;#xCD08;&amp;#xAE30; &amp;#xC124;&amp;#xC815; [&amp;#xADF8;&amp;#xB9BC; 1] &amp;#xC758; &amp;#xC774;&amp;#xBBF8;&amp;#xC9C0;&amp;#xC640; &amp;#xAC19;&amp;#xC774; &amp;#xC571;&amp;#xC744; &amp;#xCC98;&amp;#xC74C; &amp;#xC774;&amp;#xC6A9;&amp;#xD558;&amp;#xAC8C; &amp;#xB418">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Travel Budget 화면 및 실제 사용 방식">
+<meta property="og:url" content="https://y8ncastle.github.io/2020/08/15/travel-budget-intro/index.html">
+<meta property="og:site_name" content="Zay Jeong Blog">
+<meta property="og:description" content="&amp;#xC571; &amp;#xCD08;&amp;#xAE30; &amp;#xC124;&amp;#xC815; [&amp;#xADF8;&amp;#xB9BC; 1] &amp;#xC758; &amp;#xC774;&amp;#xBBF8;&amp;#xC9C0;&amp;#xC640; &amp;#xAC19;&amp;#xC774; &amp;#xC571;&amp;#xC744; &amp;#xCC98;&amp;#xC74C; &amp;#xC774;&amp;#xC6A9;&amp;#xD558;&amp;#xAC8C; &amp;#xB418">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/90313237-e242fd80-df45-11ea-8940-10e181b25ef1.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/90313239-e66f1b00-df45-11ea-8c0c-ba5fa371c207.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/90313240-e7a04800-df45-11ea-9694-f185a0307992.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/90313241-e838de80-df45-11ea-86eb-c33981209cd0.png">
+<meta property="article:published_time" content="2020-08-15T13:25:00.000Z">
+<meta property="article:modified_time" content="2020-08-15T13:44:55.358Z">
+<meta property="article:author" content="Zay Jeong">
+<meta property="article:tag" content="안드로이드">
+<meta property="article:tag" content="프로젝트">
+<meta property="article:tag" content="android">
+<meta property="article:tag" content="project">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/90313237-e242fd80-df45-11ea-8940-10e181b25ef1.png">
+
+
+
+
+
+<link rel="icon" href="/images/favicon/favicon.ico">
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
+<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168776470-2');
+</script>
+
+
+    
+
+
+<meta name="generator" content="Hexo 5.0.2"></head>
+<body>
+    
+<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item navbar-logo" href="/">
+                
+                <img src="/images/logo.png" alt="" height="28">
+                
+            </a>
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="navbar-menu navbar-start">
+            
+            <a class="navbar-item "
+               href="/about">About</a>
+            
+            <a class="navbar-item "
+               href="/categories">Categories</a>
+            
+            <a class="navbar-item "
+               href="/tags">Tags</a>
+            
+            <a class="navbar-item "
+               href="/archives">Archives</a>
+            
+            <a class="navbar-item "
+               href="/cv">CV</a>
+            
+        </div>
+        
+        <div class="navbar-menu navbar-end">
+            
+            <a class="navbar-item search" title="검색" href="javascript:;">
+                <i class="fas fa-search"></i>
+            </a>
+            
+            
+            
+            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+               
+            
+        </div>
+    </div>
+</nav>
+
+    <section class="section">
+    <div class="container">
+    <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            Travel Budget 화면 및 실제 사용 방식
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2020-08-15T13:25:00.000Z" itemprop="datePublished">8월 15 2020</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Personal-Project/">Personal Project</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            7분 소요 (약 1119 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img alt="[&#xADF8;&#xB9BC; 1] (&#xC67C;&#xCABD;&#xBD80;&#xD130;) &#xC571; &#xC2A4;&#xD50C;&#xB798;&#xC2DC; &#xC774;&#xBBF8;&#xC9C0; / &#xC571; &#xCD08;&#xAE30; &#xC774;&#xC6A9; &#xBB38;&#xAD6C; / &#xD1B5;&#xD654; &#xC120;&#xD0DD; &#xBC0F; &#xC608;&#xC0B0; &#xC124;&#xC815;" src="https://user-images.githubusercontent.com/52089296/90313237-e242fd80-df45-11ea-8940-10e181b25ef1.png" width="80%"></p>
+<br><br>
+
+<h3 id="&#xC571;-&#xCD08;&#xAE30;-&#xC124;&#xC815;"><a href="#&#xC571;-&#xCD08;&#xAE30;-&#xC124;&#xC815;" class="headerlink" title="&#xC571; &#xCD08;&#xAE30; &#xC124;&#xC815;"></a>&#xC571; &#xCD08;&#xAE30; &#xC124;&#xC815;</h3><hr>
+<p>[&#xADF8;&#xB9BC; 1] &#xC758; &#xC774;&#xBBF8;&#xC9C0;&#xC640; &#xAC19;&#xC774; &#xC571;&#xC744; &#xCC98;&#xC74C; &#xC774;&#xC6A9;&#xD558;&#xAC8C; &#xB418;&#xB294; &#xACBD;&#xC6B0; &#xD639;&#xC740; &#xC571;&#xC744; &#xC774;&#xC6A9;&#xD558;&#xB2E4;&#xAC00; &#xCD08;&#xAE30;&#xD654; &#xD558;&#xB294; &#xACBD;&#xC6B0;, <code>&#xCD08;&#xAE30; &#xC124;&#xC815; &#xBAA8;&#xB4DC;</code>&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xAC8C; &#xB41C;&#xB2E4;. &#xCD08;&#xAE30; &#xC124;&#xC815; &#xBD80;&#xBD84;&#xC5D0;&#xC11C;&#xB294; <code>&#xD2B9;&#xC815; &#xAD6D;&#xAC00;&#xC758; &#xD654;&#xD3D0; &#xB2E8;&#xC704;&#xB97C; &#xACB0;&#xC815;&#xD558;&#xACE0; &#xC608;&#xC0B0;&#xC744; &#xC124;&#xC815;</code>&#xD558;&#xAC8C; &#xB41C;&#xB2E4;. &#xC571; &#xB0B4;&#xC5D0;&#xB294; 27&#xAC1C; &#xC815;&#xB3C4;&#xC758; &#xAD6D;&#xAC00;&#xC640; &#xADF8;&#xC5D0; &#xB9DE;&#xB294; &#xD1B5;&#xD654; &#xB2E8;&#xC704;&#xAC00; &#xB4F1;&#xB85D;&#xB418;&#xC5B4; &#xC788;&#xC73C;&#xBA70;, &#xADF8; &#xC678;&#xC758; &#xB2E8;&#xC704;&#xC5D0; &#xB300;&#xD574;&#xC11C;&#xB294; &#x2018;&#xAE30;&#xD0C0;&#x2019;&#xB85C; &#xAC04;&#xC8FC;&#xD558;&#xACE0; &#x2018;&#xC6D0;&#x2019;&#xC73C;&#xB85C; &#xD45C;&#xC2DC;&#xD558;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xB2E4;. &#xC608;&#xC0B0;&#xC740; &#xAC80;&#xC815;&#xC0C9; &#xC6D0;&#xC744; &#xC6C0;&#xC9C1;&#xC774;&#xBA74;&#xC11C; &#xC124;&#xC815;&#xD560; &#xC218; &#xC788;&#xC73C;&#xBA70;, &#xAC00;&#xC7A5; &#xC624;&#xB978;&#xCABD;&#xC73C;&#xB85C; &#xC704;&#xCE58;&#xC2DC;&#xD0A4;&#xBA74; &#xC9C1;&#xC811; &#xC785;&#xB825;&#xC744; &#xD1B5;&#xD55C; &#xC124;&#xC815;&#xB3C4; &#xAC00;&#xB2A5;&#xD558;&#xB2E4;. &#xAD00;&#xB828; &#xC774;&#xBBF8;&#xC9C0;&#xB4E4;&#xC740; &#xC774;&#xBBF8;&#xC9C0; &#xC18C;&#xC2A4; &#xAC8C;&#xC2DC;&#xBB3C;&#xC744; &#xD1B5;&#xD574; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xB2E4;.<br><br><br></p>
+<p align="center"><img alt="[&#xADF8;&#xB9BC; 2] (&#xC67C;&#xCABD;&#xBD80;&#xD130;) &#xC571; &#xBA54;&#xC778; &#xD654;&#xBA74; / &#xB0B4;&#xC5ED; &#xCD94;&#xAC00; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; / &#xCD08;&#xAE30;&#xD654; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;" src="https://user-images.githubusercontent.com/52089296/90313239-e66f1b00-df45-11ea-8c0c-ba5fa371c207.png" width="80%"></p>
+<br><br>
+
+<h3 id="&#xBA54;&#xC778;-&#xD654;&#xBA74;-&#xAD6C;&#xC131;-&#xBC0F;-&#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;-1"><a href="#&#xBA54;&#xC778;-&#xD654;&#xBA74;-&#xAD6C;&#xC131;-&#xBC0F;-&#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;-1" class="headerlink" title="&#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131; &#xBC0F; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; - 1"></a>&#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131; &#xBC0F; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; - 1</h3><hr>
+<p>[&#xADF8;&#xB9BC; 2] &#xB294; &#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131;&#xC744; &#xBCF4;&#xC5EC;&#xC8FC;&#xBA70;, &#xCD08;&#xAE30;&#xC5D0; &#xC124;&#xC815;&#xD55C; &#xC608;&#xC0B0;&#xC774; &#xC0C1;&#xB2E8;&#xC5D0; &#xD45C;&#xC2DC;&#xB41C;&#xB2E4;. &#xC608;&#xC0B0;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xACBD;&#xC6B0;, <code>&#xB0B4;&#xC5ED;&#xCD94;&#xAC00;</code> &#xBC84;&#xD2BC;&#xC744; &#xB204;&#xB974;&#xAC8C; &#xB418;&#xBA74; &#xB0B4;&#xC5ED;&#xCD94;&#xAC00; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;&#xAC00; &#xB098;&#xC624;&#xB294;&#xB370;, &#xC18C;&#xBE44; &#xB0B4;&#xC6A9;&#xACFC; &#xC18C;&#xBE44; &#xAE08;&#xC561;&#xC744; &#xC785;&#xB825;&#xD558;&#xACE0; &#xCD94;&#xAC00;&#xD558;&#xAC8C; &#xB418;&#xBA74; &#xBA54;&#xC778; &#xD654;&#xBA74;&#xC758; <code>&#xC608;&#xC0B0; &#xC0AC;&#xC6A9; &#xB0B4;&#xC5ED;</code>&#xC5D0; &#xC21C;&#xCC28;&#xC801;&#xC73C;&#xB85C; &#xB4F1;&#xB85D;&#xB41C;&#xB2E4;. &#xCD5C;&#xC0C1;&#xB2E8;&#xC758; &#xB610; &#xB2E4;&#xB978; &#xBC84;&#xD2BC;&#xC778; <code>&#xCD08;&#xAE30;&#xD654;</code> &#xBC84;&#xD2BC;&#xC740; &#xC571;&#xC744; &#xB354; &#xC774;&#xC0C1; &#xC0AC;&#xC6A9;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xACBD;&#xC6B0;&#xB098; &#xC0C8;&#xB85C;&#xC6B4; &#xC9C0;&#xC5ED;&#xC73C;&#xB85C;&#xC758; &#xC5EC;&#xD589;&#xC744; &#xC704;&#xD574; &#xAE30;&#xC874;&#xC5D0; &#xC791;&#xC131;&#xD55C; &#xB0B4;&#xC5ED;&#xC744; &#xC0AD;&#xC81C;&#xD574;&#xC57C; &#xD560; &#xACBD;&#xC6B0;&#xC5D0; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294; &#xAE30;&#xB2A5;&#xC774;&#xB2E4;. &#xC774; &#xB610;&#xD55C; &#xCD08;&#xAE30;&#xD654; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;&#xB97C; &#xD1B5;&#xD574; &#xC9C4;&#xD589;&#xD558;&#xAC8C; &#xB418;&#xBA70;, &#xCD08;&#xAE30;&#xD654; &#xBC84;&#xD2BC; &#xD074;&#xB9AD; &#xD6C4; &#xC571;&#xC744; &#xC7AC;&#xC2E4;&#xD589;&#xD558;&#xBA74; &#xB41C;&#xB2E4;.<br><br><br></p>
+<p align="center"><img alt="[&#xADF8;&#xB9BC; 3] (&#xC67C;&#xCABD;&#xBD80;&#xD130;) &#xC608;&#xC0B0; &#xBD84;&#xD560; &#xC124;&#xC815; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; / &#xC608;&#xC0B0; &#xAE08;&#xC561; &#xBCC0;&#xACBD; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; / &#xAE30;&#xC874; &#xAE30;&#xB85D; &#xBC31;&#xC5C5; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;" src="https://user-images.githubusercontent.com/52089296/90313240-e7a04800-df45-11ea-9694-f185a0307992.png" width="80%"></p>
+<br><br>
+
+<h3 id="&#xBA54;&#xC778;-&#xD654;&#xBA74;-&#xAD6C;&#xC131;-&#xBC0F;-&#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;-2"><a href="#&#xBA54;&#xC778;-&#xD654;&#xBA74;-&#xAD6C;&#xC131;-&#xBC0F;-&#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;-2" class="headerlink" title="&#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131; &#xBC0F; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; - 2"></a>&#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131; &#xBC0F; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; - 2</h3><hr>
+<p>[&#xADF8;&#xB9BC; 3] &#xC5ED;&#xC2DC; &#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131;&#xC744; &#xBCF4;&#xC5EC;&#xC8FC;&#xACE0; &#xC788;&#xB2E4;. &#xC774;&#xBBF8;&#xC9C0; 3&#xAC1C; &#xBAA8;&#xB450; &#xBA54;&#xC778;&#xC5D0;&#xC11C; &#xC774;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294; &#xAE30;&#xB2A5;&#xB4E4;&#xC758; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;&#xB4E4;&#xC778;&#xB370;, &#xCCAB; &#xBC88;&#xC9F8;&#xB294; <code>&#xC608;&#xC0B0; &#xBD84;&#xD560; &#xC124;&#xC815;</code> &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;&#xC774;&#xB2E4;. &#xD574;&#xB2F9; &#xAE30;&#xB2A5;&#xC740; &#xD558;&#xB8E8; &#xB2E8;&#xC704;&#xC758; &#xC608;&#xC0B0;&#xC744; &#xC124;&#xC815;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xD558;&#xBA70;, &#xC5EC;&#xD589; &#xAE30;&#xAC04;&#xACFC; &#xBD84;&#xD560; &#xAE08;&#xC561;&#xC744; &#xC124;&#xC815;&#xD558;&#xAC8C; &#xB418;&#xBA74; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xC608;&#xC0B0;&#xC744; &#xC124;&#xC815;&#xD558;&#xC5EC; &#xB9E4;&#xC77C;&#xB9E4;&#xC77C; &#xC815;&#xD574;&#xC9C4; &#xAE08;&#xC561;&#xC73C;&#xB85C; &#xCD08;&#xAE30;&#xD654;&#xD558;&#xC5EC; &#xBCF4;&#xC5EC;&#xC900;&#xB2E4;. &#xC5EC;&#xD589; &#xAE30;&#xAC04;&#xB9CC; &#xACB0;&#xC815;&#xD558;&#xACE0; &#xBD84;&#xD560; &#xAE08;&#xC561;&#xC744; 0&#xC73C;&#xB85C; &#xC124;&#xC815;&#xD558;&#xBA74; &#xAE30;&#xAC04;&#xC5D0; &#xB9DE;&#xAC8C; &#xC790;&#xB3D9; &#xBD84;&#xD560;&#xB418;&#xC5B4; &#xC608;&#xC0B0;&#xC774; &#xC124;&#xC815;&#xB418;&#xACE0;, &#xC5EC;&#xD589; &#xAE30;&#xAC04; &#xBC0F; &#xBD84;&#xD560; &#xAE08;&#xC561;&#xC744; &#xC124;&#xC815;&#xD558;&#xBA74; &#xBD84;&#xD560; &#xAE08;&#xC561;&#xB9CC;&#xD07C;&#xC744; &#xC608;&#xC0B0;&#xC73C;&#xB85C; &#xC124;&#xC815;&#xD558;&#xACE0; &#xAE30;&#xAC04;&#xC774; &#xC9C0;&#xB098;&#xBA74; &#xBD84;&#xD560; &#xC815;&#xBCF4;&#xAC00; &#xCD08;&#xAE30;&#xD654; &#xB41C;&#xB2E4;. &#xB9C8;&#xC9C0;&#xB9C9;&#xC73C;&#xB85C;, &#xC5EC;&#xD589; &#xAE30;&#xAC04;&#xACFC; &#xBD84;&#xD560; &#xAE08;&#xC561; &#xBAA8;&#xB450;&#xB97C; 0&#xC73C;&#xB85C; &#xC124;&#xC815;&#xD558;&#xBA74; &#xC774; &#xB610;&#xD55C; &#xC5ED;&#xC2DC; &#xBD84;&#xD560; &#xC815;&#xBCF4;&#xB97C; &#xCD08;&#xAE30;&#xD654; &#xC2DC;&#xD0A8;&#xB2E4;. &#xC911;&#xAC04;&#xC5D0; &#xC608;&#xC0B0;&#xC744; &#xBCC0;&#xACBD;&#xD574;&#xC57C; &#xD560; &#xC77C;&#xC774; &#xC0DD;&#xAE30;&#xB294; &#xACBD;&#xC6B0;, <code>&#xC608;&#xC0B0; &#xAE08;&#xC561; &#xBCC0;&#xACBD; &#xAE30;&#xB2A5;</code>&#xC744; &#xD1B5;&#xD574; &#xC218;&#xC815;&#xD558;&#xBA74; &#xB41C;&#xB2E4;. &#xC774; &#xAC12;&#xC740; &#xCD08;&#xAE30;&#xC758; &#xC608;&#xC0B0;&#xC744; &#xBCC0;&#xACBD;&#xD558;&#xB294; &#xAC83;&#xC774;&#xBA70;, &#xD604;&#xC7AC; &#xB0A8;&#xC740; &#xC608;&#xC0B0; &#xC815;&#xBCF4;&#xB97C; &#xBCC0;&#xACBD;&#xC2DC;&#xD0A4;&#xC9C0;&#xB294; &#xC54A;&#xB294;&#xB2E4;. &#xB9C8;&#xC9C0;&#xB9C9;&#xC73C;&#xB85C;, &#xC608;&#xC0B0; &#xC815;&#xBCF4;&#xB4E4;&#xC744; &#xAE30;&#xB85D;&#xD558;&#xACE0; &#xADF8; &#xB0B4;&#xC6A9;&#xB4E4;&#xC744; &#xBA54;&#xBAA8;&#xB9AC;&#xC5D0; &#xC800;&#xC7A5;&#xD558;&#xACE0; &#xC2F6;&#xC740; &#xACBD;&#xC6B0;, <code>&#xAE30;&#xC874; &#xAE30;&#xB85D; &#xBC31;&#xC5C5; &#xAE30;&#xB2A5;</code>&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xBA74; &#xB41C;&#xB2E4;. &#xD574;&#xB2F9; &#xBC84;&#xD2BC;&#xC744; &#xD074;&#xB9AD;&#xD558;&#xAC8C; &#xB418;&#xBA74; &#xAE30;&#xC874;&#xC5D0; &#xAE30;&#xB85D;&#xD55C; &#xB0B4;&#xC6A9;&#xB4E4;&#xC744; &#xBA54;&#xBAA8;&#xC7A5; &#xD615;&#xC2DD;&#xC73C;&#xB85C; &#xB0A0;&#xC9DC;, &#xB0B4;&#xC6A9; &#xADF8;&#xB9AC;&#xACE0; &#xAE08;&#xC561; &#xC21C;&#xC11C;&#xB85C; &#xAE30;&#xB85D;&#xD558;&#xC5EC; &#xC800;&#xC7A5;&#xD55C;&#xB2E4;.<br><br><br></p>
+<p align="center"><img alt="[&#xADF8;&#xB9BC; 4] (&#xC67C;&#xCABD;&#xBD80;&#xD130;) &#xC608;&#xC0B0; &#xBD84;&#xD560; &#xC124;&#xC815;&#xD55C; &#xACBD;&#xC6B0; / &#xC608;&#xC0B0; &#xC0AC;&#xC6A9; &#xB0B4;&#xC5ED;&#xC744; &#xAE30;&#xB85D;&#xD55C; &#xACBD;&#xC6B0; / &#xAE30;&#xB85D;&#xD55C; &#xC608;&#xC0B0; &#xC815;&#xBCF4;&#xB97C; &#xBCC0;&#xACBD;&#xD558;&#xB294; &#xACBD;&#xC6B0;" src="https://user-images.githubusercontent.com/52089296/90313241-e838de80-df45-11ea-86eb-c33981209cd0.png" width="80%"></p>
+<br><br>
+
+<h3 id="&#xBA54;&#xC778;-&#xD654;&#xBA74;-&#xAD6C;&#xC131;-&#xBC0F;-&#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;-3"><a href="#&#xBA54;&#xC778;-&#xD654;&#xBA74;-&#xAD6C;&#xC131;-&#xBC0F;-&#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;-3" class="headerlink" title="&#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131; &#xBC0F; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; - 3"></a>&#xBA54;&#xC778; &#xD654;&#xBA74; &#xAD6C;&#xC131; &#xBC0F; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8; - 3</h3><hr>
+<p>[&#xADF8;&#xB9BC; 4] &#xC758; &#xCCAB; &#xBC88;&#xC9F8; &#xC774;&#xBBF8;&#xC9C0;&#xB294; &#xC608;&#xC0B0; &#xBD84;&#xD560; &#xC124;&#xC815;&#xC744; &#xB9C8;&#xCE5C; &#xC0C1;&#xD0DC;&#xB97C; &#xBCF4;&#xC5EC;&#xC900;&#xB2E4;. &#xAE30;&#xC874;&#xC5D0; 500&#xB9CC;&#xC6D0;&#xC758; &#xC608;&#xC0B0;&#xC744; &#xC124;&#xC815;&#xD558;&#xC600;&#xACE0;, &#xC5EC;&#xD589; &#xAE30;&#xAC04;&#xC744; 5&#xC77C;&#xB85C; &#xC815;&#xD558;&#xC5EC; &#xD558;&#xB8E8; &#xC608;&#xC0B0;&#xC774; 100&#xB9CC;&#xC6D0;&#xC73C;&#xB85C; &#xC790;&#xB3D9; &#xBD84;&#xD560;&#xB418;&#xC5C8;&#xB2E4;. &#xC774;&#xC640; &#xAC19;&#xC774; &#xC608;&#xC0B0;&#xC744; &#xBD84;&#xD560;&#xD558;&#xBA74; &#xD558;&#xB8E8;&#xC5D0; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294; &#xC608;&#xC0B0;&#xC744; &#xC815;&#xD558;&#xACE0; &#xADF8;&#xC5D0; &#xB9DE;&#xCDB0; &#xC18C;&#xBE44;&#xD560; &#xC218; &#xC788;&#xB2E4;. &#xB450; &#xBC88;&#xC9F8; &#xC774;&#xBBF8;&#xC9C0;&#xB294; &#xB0B4;&#xC5ED;&#xC744; &#xCD94;&#xAC00;&#xD55C; &#xACBD;&#xC6B0;&#xC5D0; &#xC608;&#xC0B0; &#xC0AC;&#xC6A9; &#xB0B4;&#xC5ED;&#xC5D0; &#xB4F1;&#xB85D;&#xB41C; &#xC0C1;&#xD0DC;&#xC774;&#xB2E4;. &#xB0B4;&#xC5ED;&#xCD94;&#xAC00;&#xB97C; &#xD1B5;&#xD574; &#xC608;&#xC0B0; &#xC18C;&#xBE44; &#xB0B4;&#xC5ED;&#xC744; &#xCD94;&#xAC00;&#xD558;&#xAC8C; &#xB418;&#xBA74; &#xCD94;&#xAC00;&#xD55C; &#xB0A0;&#xC9DC;, &#xB0B4;&#xC6A9; &#xADF8;&#xB9AC;&#xACE0; &#xAC00;&#xACA9;&#xC744; &#xC21C;&#xC11C;&#xB300;&#xB85C; &#xB4F1;&#xB85D;&#xD558;&#xC5EC; &#xB9AC;&#xC2A4;&#xD2B8; &#xD615;&#xD0DC;&#xB85C; &#xBCF4;&#xC5EC;&#xC900;&#xB2E4;. &#xB9C8;&#xC9C0;&#xB9C9; &#xC774;&#xBBF8;&#xC9C0;&#xB294; &#xAE30;&#xC874;&#xC5D0; &#xB4F1;&#xB85D;&#xD55C; &#xC608;&#xC0B0; &#xC0AC;&#xC6A9; &#xC815;&#xBCF4;&#xB97C; &#xBCC0;&#xACBD;&#xD560; &#xC218; &#xC788;&#xB294; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;&#xC774;&#xB2E4;. &#xAE30;&#xC874;&#xC5D0; &#xB4F1;&#xB85D;&#xD55C; &#xB0B4;&#xC6A9;&#xC744; &#xD074;&#xB9AD;&#xD558;&#xBA74; &#xB0B4;&#xC6A9; &#xC218;&#xC815; &#xBC0F; &#xC0AD;&#xC81C;&#xAC00; &#xAC00;&#xB2A5;&#xD558;&#xB2E4;.</p>
+</body></html>
+    
+    </div>
+    
+    <div class="columns is-variable is-1 is-multiline is-mobile">
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/">#안드로이드</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#프로젝트</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/android/">#android</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/project/">#project</a></span>
+    
+    </div>
+    
+    
+    <div class="columns is-mobile is-multiline article-nav">
+        <span class="column is-12-mobile is-half-desktop is-hidden-mobile article-nav-prev">
+            
+        </span>
+        <span class="column is-12-mobile is-half-desktop  article-nav-next">
+            
+            <a href="/2020/08/15/travel-budget/">여행 예산 관리 서비스 &#39;Travel Budget&#39;</a>
+            
+        </span>
+    </div>
+    
+</article>
+
+
+<div class="sharebox">
+    
+<div class="sharethis-inline-share-buttons"></div>
+<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
+
+</div>
+
+
+
+<div class="comments">
+    <h3 class="title is-4">댓글</h3>
+    
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://y8ncastle.github.io/2020/08/15/travel-budget-intro/';
+        this.page.identifier = '2020/08/15/travel-budget-intro/';
+        
+        this.language = 'ko';
+        
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<div id="disqus_thread">
+    
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="columns content">
+            <div class="column is-narrow has-text-centered">
+                &copy; 2020 Zay Jeong&nbsp;
+                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
+                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
+
+            
+            <div class="column is-narrow">
+                <div class="columns is-mobile is-multiline is-centered">
+                
+                    
+                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
+                    
+                    GitHub
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
+                    
+                    LinkedIn
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
+                    
+                    Instagram
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
+                    
+                    Facebook
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
+                    
+                    BOJ
+                    
+                </a>
+                
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+
+<!-- test if the browser is outdated -->
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // plugin function, place inside DOM ready function
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        })
+    });
+</script>
+
+<script>
+    window.FontAwesomeConfig = {
+        searchPseudoElements: true
+    }
+    moment.locale("ko");
+</script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+</script>
+
+    
+    
+    
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            if (typeof($.fn.lightGallery) === 'function') {
+                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof($.fn.justifiedGallery) === 'function') {
+                $('.justified-gallery').justifiedGallery();
+            }
+        });
+    })(jQuery);
+</script>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <style>
+        .hljs {
+            position: relative;
+        }
+
+        .hljs .clipboard-btn {
+            float: right;
+            color: #9a9a9a;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hljs .clipboard-btn:hover {
+          color: #8a8a8a;
+        }
+
+        .hljs > .clipboard-btn {
+            display: none;
+            position: absolute;
+            right: 4px;
+            top: 4px;
+        }
+
+        .hljs:hover > .clipboard-btn {
+            display: inline;
+        }
+
+        .hljs > figcaption > .clipboard-btn {
+            margin-right: 4px;
+        }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $('figure.hljs').each(function(i, figure) {
+          var codeId = 'code-' + i;
+          var code = figure.querySelector('.code');
+          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
+          code.id = codeId;
+          copyButton.addClass('clipboard-btn');
+          copyButton.attr('data-clipboard-target-id', codeId);
+
+          var figcaption = figure.querySelector('figcaption');
+
+          if (figcaption) {
+            figcaption.append(copyButton[0]);
+          } else {
+            figure.prepend(copyButton[0]);
+          }
+        })
+
+        var clipboard = new ClipboardJS('.clipboard-btn', {
+          target: function(trigger) {
+            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+          }
+        });
+        clipboard.on('success', function(e) {
+          e.clearSelection();
+        })
+      })
+    </script>
+
+    
+    
+
+    
+
+
+
+<script src="/js/script.js"></script>
+
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '글',
+                PAGES: '페이지',
+                CATEGORIES: '카테고리 목록',
+                TAGS: '태그 목록',
+                UNTITLED: '(제목없음)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+    
+</body>
+</html>
