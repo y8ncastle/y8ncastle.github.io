@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+    <meta charset="utf-8">
+<title>[백준] 10820 - 문자열 분석 - Zay Jeong Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
+
+
+
+
+<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
+
+
+
+<meta name="keywords" content="IT, Blockchain, Android, Development">
+
+
+
+    <meta name="description" content="&amp;#xBB38;&amp;#xC81C; &amp;#xD480;&amp;#xC774; &amp;#xC815;&amp;#xBCF4;  &amp;#xBC31;&amp;#xC900; &amp;#xC628;&amp;#xB77C;&amp;#xC778; &amp;#xC800;&amp;#xC9C0; - 10820, &amp;#xBB38;&amp;#xC790;&amp;#xC5F4; &amp;#xBD84;&amp;#xC11D; &amp;#xD480;&amp;#xC774; &amp;#xC5B8;&amp;#xC5B4;: J">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[백준] 10820 - 문자열 분석">
+<meta property="og:url" content="https://y8ncastle.github.io/2018/04/09/boj-10820-java/index.html">
+<meta property="og:site_name" content="Zay Jeong Blog">
+<meta property="og:description" content="&amp;#xBB38;&amp;#xC81C; &amp;#xD480;&amp;#xC774; &amp;#xC815;&amp;#xBCF4;  &amp;#xBC31;&amp;#xC900; &amp;#xC628;&amp;#xB77C;&amp;#xC778; &amp;#xC800;&amp;#xC9C0; - 10820, &amp;#xBB38;&amp;#xC790;&amp;#xC5F4; &amp;#xBD84;&amp;#xC11D; &amp;#xD480;&amp;#xC774; &amp;#xC5B8;&amp;#xC5B4;: J">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103455242-d73f0d00-4d2e-11eb-81b2-70aaa9c4445b.png">
+<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103455245-dad29400-4d2e-11eb-8821-cb55a15c325d.png">
+<meta property="article:published_time" content="2018-04-09T11:25:00.000Z">
+<meta property="article:modified_time" content="2021-01-02T10:25:32.533Z">
+<meta property="article:author" content="Zay Jeong">
+<meta property="article:tag" content="백준">
+<meta property="article:tag" content="백준온라인저지">
+<meta property="article:tag" content="baekjoon">
+<meta property="article:tag" content="boj">
+<meta property="article:tag" content="문자열분석">
+<meta property="article:tag" content="10820">
+<meta property="article:tag" content="boj10820">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/103455242-d73f0d00-4d2e-11eb-81b2-70aaa9c4445b.png">
+
+
+
+
+
+<link rel="icon" href="/images/favicon/favicon.ico">
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
+<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168776470-2');
+</script>
+
+
+    
+
+
+<meta name="generator" content="Hexo 5.0.2"></head>
+<body>
+    
+<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item navbar-logo" href="/">
+                
+                <img src="/images/logo.png" alt="" height="28">
+                
+            </a>
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="navbar-menu navbar-start">
+            
+            <a class="navbar-item "
+               href="/about">About</a>
+            
+            <a class="navbar-item "
+               href="/categories">Categories</a>
+            
+            <a class="navbar-item "
+               href="/tags">Tags</a>
+            
+            <a class="navbar-item "
+               href="/archives">Archives</a>
+            
+            <a class="navbar-item "
+               href="/cv">CV</a>
+            
+        </div>
+        
+        <div class="navbar-menu navbar-end">
+            
+            <a class="navbar-item search" title="검색" href="javascript:;">
+                <i class="fas fa-search"></i>
+            </a>
+            
+            
+            
+            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+               
+            
+        </div>
+    </div>
+</nav>
+
+    <section class="section">
+    <div class="container">
+    <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            [백준] 10820 - 문자열 분석
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2018-04-09T11:25:00.000Z" itemprop="datePublished">4월 9 2018</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            8분 소요 (약 1215 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103455242-d73f0d00-4d2e-11eb-81b2-70aaa9c4445b.png" width="60%"></p>
+
+<h3 id="&#xBB38;&#xC81C;-&#xD480;&#xC774;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xD480;&#xC774;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xD480;&#xC774; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xD480;&#xC774; &#xC815;&#xBCF4;</h3><hr>
+<ul>
+<li>&#xBC31;&#xC900; &#xC628;&#xB77C;&#xC778; &#xC800;&#xC9C0; - <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/10820">10820, &#xBB38;&#xC790;&#xC5F4; &#xBD84;&#xC11D;</a></li>
+<li>&#xD480;&#xC774; &#xC5B8;&#xC5B4;: <code>Java</code><br><br><br></li>
+</ul>
+<h3 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h3><p>&#xBB38;&#xC790;&#xC5F4; N&#xAC1C;&#xAC00; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;. &#xC774; &#xB54C;, &#xBB38;&#xC790;&#xC5F4;&#xC5D0; &#xD3EC;&#xD568;&#xB418;&#xC5B4; &#xC788;&#xB294; &#xC18C;&#xBB38;&#xC790;, &#xB300;&#xBB38;&#xC790;, &#xC22B;&#xC790;, &#xACF5;&#xBC31;&#xC758; &#xAC1C;&#xC218;&#xB97C; &#xAD6C;&#xD558;&#xB294; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC744; &#xC791;&#xC131;&#xD558;&#xC2DC;&#xC624;. &#xAC01; &#xBB38;&#xC790;&#xC5F4;&#xC740; &#xC54C;&#xD30C;&#xBCB3; &#xC18C;&#xBB38;&#xC790;, &#xB300;&#xBB38;&#xC790;, &#xC22B;&#xC790;, &#xACF5;&#xBC31;&#xC73C;&#xB85C;&#xB9CC; &#xC774;&#xB8E8;&#xC5B4;&#xC838; &#xC788;&#xB2E4;.  </p>
+<p>&#xCCAB;&#xC9F8; &#xC904;&#xBD80;&#xD130; N&#xBC88;&#xC9F8; &#xC904;&#xAE4C;&#xC9C0; &#xBB38;&#xC790;&#xC5F4;&#xC774; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;. (1 &#x2264; N &#x2264; 100) &#xBB38;&#xC790;&#xC5F4;&#xC758; &#xAE38;&#xC774;&#xB294; 100&#xC744; &#xB118;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;.  </p>
+<p>&#xCCAB;&#xC9F8; &#xC904;&#xBD80;&#xD130; N&#xBC88;&#xC9F8; &#xC904;&#xAE4C;&#xC9C0; &#xAC01;&#xAC01;&#xC758; &#xBB38;&#xC790;&#xC5F4;&#xC5D0; &#xB300;&#xD574;&#xC11C; &#xC18C;&#xBB38;&#xC790;, &#xB300;&#xBB38;&#xC790;, &#xC22B;&#xC790;, &#xACF5;&#xBC31;&#xC758; &#xAC1C;&#xC218;&#xB97C; &#xACF5;&#xBC31;&#xC73C;&#xB85C; &#xAD6C;&#xBD84;&#xD574; &#xCD9C;&#xB825;&#xD55C;&#xB2E4;.<br><br><br></p>
+<h3 id="&#xC791;&#xC131;&#xD55C;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;"><a href="#&#xC791;&#xC131;&#xD55C;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;" class="headerlink" title="&#xC791;&#xC131;&#xD55C; &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;"></a>&#xC791;&#xC131;&#xD55C; &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;</h3><figure class="highlight java hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-keyword">import</span> java.io.BufferedReader;</span><br><span class="line"><span class="hljs-keyword">import</span> java.io.IOException;</span><br><span class="line"><span class="hljs-keyword">import</span> java.io.InputStreamReader;</span><br><span class="line"></span><br><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span> </span>{</span><br><span class="line">    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> IOException </span>{</span><br><span class="line">        <span class="hljs-keyword">int</span> count, i, lower, upper, num, space;</span><br><span class="line">        String words = <span class="hljs-string">&quot;&quot;</span>;</span><br><span class="line"></span><br><span class="line">        BufferedReader br = <span class="hljs-keyword">new</span> BufferedReader(<span class="hljs-keyword">new</span> InputStreamReader(System.in));</span><br><span class="line"></span><br><span class="line">        <span class="hljs-keyword">while</span> ((words = br.readLine()) != <span class="hljs-keyword">null</span>) {</span><br><span class="line">            lower=<span class="hljs-number">0</span>; upper=<span class="hljs-number">0</span>; num=<span class="hljs-number">0</span>; space=<span class="hljs-number">0</span>;</span><br><span class="line">            count = words.length();</span><br><span class="line"></span><br><span class="line">            <span class="hljs-keyword">for</span> (i=<span class="hljs-number">0</span>; i&lt;count; i++) {</span><br><span class="line">                <span class="hljs-keyword">if</span> (words.toCharArray()[i] == <span class="hljs-string">&apos; &apos;</span>)</span><br><span class="line">                    space++;</span><br><span class="line">                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (words.toCharArray()[i] &gt;= <span class="hljs-number">48</span> &amp;&amp; words.toCharArray()[i] &lt;= <span class="hljs-number">57</span>)</span><br><span class="line">                    num++;</span><br><span class="line">                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (words.toCharArray()[i] &gt;= <span class="hljs-number">65</span> &amp;&amp; words.toCharArray()[i] &lt;= <span class="hljs-number">90</span>)</span><br><span class="line">                    upper++;</span><br><span class="line">                <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (words.toCharArray()[i] &gt;= <span class="hljs-number">97</span> &amp;&amp; words.toCharArray()[i] &lt;= <span class="hljs-number">122</span>)</span><br><span class="line">                    lower++;</span><br><span class="line">            }</span><br><span class="line"></span><br><span class="line">            System.out.println(lower + <span class="hljs-string">&quot; &quot;</span> + upper + <span class="hljs-string">&quot; &quot;</span> + num + <span class="hljs-string">&quot; &quot;</span> + space + <span class="hljs-string">&quot; &quot;</span>);</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<br>
+
+<h3 id="&#xCD9C;&#xB825;-&#xACB0;&#xACFC;"><a href="#&#xCD9C;&#xB825;-&#xACB0;&#xACFC;" class="headerlink" title="&#xCD9C;&#xB825; &#xACB0;&#xACFC;"></a>&#xCD9C;&#xB825; &#xACB0;&#xACFC;</h3><p><img src="https://user-images.githubusercontent.com/52089296/103455245-dad29400-4d2e-11eb-8821-cb55a15c325d.png" alt="BOJ_10820_JAVA"><br><br></p>
+<h3 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h3><p>Java&#xC5D0;&#xC11C;&#xC758; &#xC785;&#xB825;&#xC740; &#xBCF4;&#xD1B5; Scanner&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xBC1B;&#xC544;&#xC654;&#xB294;&#xB370;, &#xC774;&#xBC88; &#xBB38;&#xC81C;&#xB97C; &#xD480;&#xBA74;&#xC11C; &#xC785;&#xB825;&#xC744; &#xC704;&#xD574; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xB610; &#xB2E4;&#xB978; &#xBC29;&#xBC95;&#xC778; BufferedReader, InputStreamReader&#xC5D0; &#xB300;&#xD574; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xACF5;&#xBD80;&#xD558;&#xAC8C; &#xB418;&#xC5C8;&#xB2E4;. &#xAC00;&#xC7A5; &#xBA3C;&#xC800;, &#xBB38;&#xC790;&#xC5F4;&#xC758; &#xAE38;&#xC774;&#xB97C; &#xD310;&#xB2E8;&#xD558;&#xAE30; &#xC704;&#xD574; &#xC0AC;&#xC6A9;&#xD560; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; count, &#xBB38;&#xC790;&#xC5F4;&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xB294; &#xAE00;&#xC790; &#xD558;&#xB098;&#xD558;&#xB098;&#xB97C; &#xD655;&#xC778;&#xD558;&#xB294; &#xACBD;&#xC6B0; for&#xBB38;&#xC744; &#xB3CC;&#xC544;&#xC57C; &#xD558;&#xB294;&#xB370;, &#xADF8;&#xC5D0; &#xC0AC;&#xC6A9;&#xD560; &#xC784;&#xC2DC; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; i, &#xADF8;&#xB9AC;&#xACE0; &#xC18C;&#xBB38;&#xC790;, &#xB300;&#xBB38;&#xC790;, &#xC22B;&#xC790;, &#xACF5;&#xBC31;&#xC744; &#xB098;&#xD0C0;&#xB0B4;&#xB294; &#xAC01;&#xAC01;&#xC758; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; lower, upper, num, space&#xB97C; &#xC120;&#xC5B8;&#xD558;&#xC600;&#xB2E4;.  </p>
+<p>&#xC774; &#xBB38;&#xC81C;&#xC5D0;&#xC11C;&#xB294; &#xC785;&#xB825;&#xC744; &#xBC1B;&#xB294; &#xD69F;&#xC218;&#xAC00; &#xC815;&#xD574;&#xC838; &#xC788;&#xC9C0; &#xC54A;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xD30C;&#xC77C;&#xC758; &#xB05D;&#xC5D0; &#xB3C4;&#xB2EC;&#xD55C; &#xACBD;&#xC6B0; &#xC989;, EOF&#xC758; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC774; &#xC885;&#xB8CC;&#xB418;&#xB3C4;&#xB85D; &#xC124;&#xC815;&#xD574;&#xC57C; &#xD588;&#xB2E4;. C&#xB85C; &#xCF54;&#xB529;&#xD588;&#xC744; &#xB54C;&#xB294; &#xB2E8;&#xC21C;&#xD788; while(scanf(&#x201C;%d&#x201D;, &amp;temp) != EOF)&#xC640; &#xAC19;&#xC740; &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xC791;&#xC131;&#xD558;&#xBA74; &#xB3D9;&#xC791;&#xD588;&#xC5C8;&#xB294;&#xB370;, Java&#xC5D0;&#xC11C;&#xB294; &#xADF8; &#xBC29;&#xBC95;&#xC744; &#xBAB0;&#xB77C; &#xC778;&#xD130;&#xB137;&#xC5D0;&#xC11C; &#xADF8; &#xB0B4;&#xC6A9;&#xC744; &#xAC80;&#xC0C9;&#xD574;&#xBCF4;&#xC558;&#xB2E4;. Scanner&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; EOF&#xC5D0; &#xB3C4;&#xB2EC;&#xD55C; &#xACBD;&#xC6B0;&#xC5D0; while&#xBB38;&#xC744; &#xD0C8;&#xCD9C;&#xD560; &#xC218; &#xC788;&#xB294; &#xBC29;&#xBC95;&#xB3C4; &#xC874;&#xC7AC;&#xD588;&#xC9C0;&#xB9CC;, BufferedReader&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xBA74; Scanner&#xBCF4;&#xB2E4; &#xB354; &#xBE60;&#xB978; &#xC18D;&#xB3C4;&#xB85C; &#xC785;&#xB825; &#xBC1B;&#xC744; &#xC218; &#xC788;&#xB2E4;&#xB294; &#xC810;&#xACFC; while((words = br.readLine()) != null)&#xACFC; &#xAC19;&#xC774; &#xAC04;&#xB2E8;&#xD788; &#xD45C;&#xD604; &#xD560; &#xC218; &#xC788;&#xB2E4;&#xB294; &#xC810;&#xC744; &#xAE68;&#xB2EB;&#xACE0; BufferedReader&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xCF54;&#xB4DC;&#xB97C; &#xC791;&#xC131;&#xD574;&#xBCF4;&#xC558;&#xB2E4;.  </p>
+<p>&#xC774; BufferedReader&#xB294; &#xD55C; &#xC904;&#xC744; &#xD1B5;&#xC9F8;&#xB85C; &#xC785;&#xB825;&#xBC1B;&#xB294; &#xBC29;&#xBC95;&#xC774;&#xC5B4;&#xC11C; &#xCD08;&#xBC18;&#xC5D0; &#xC120;&#xC5B8;&#xD574;&#xC57C; &#xD560; &#xAC83;&#xC740; &#xB9CE;&#xC9C0;&#xB9CC; Scanner&#xBCF4;&#xB2E4;&#xB294; &#xBE44;&#xAD50;&#xC801; &#xBE60;&#xB97C; &#xC218; &#xC788;&#xB2E4;&#xB294; &#xC7A5;&#xC810;&#xC774; &#xC788;&#xB2E4;&#xACE0; &#xD55C;&#xB2E4;. &#xC0AC;&#xC2E4; &#xD559;&#xAD50;&#xC5D0;&#xC11C; Java&#xB97C; &#xC218;&#xAC15;&#xD588;&#xC744; &#xB54C; &#xC774; &#xB0B4;&#xC6A9;&#xC744; &#xACF5;&#xBD80;&#xD558;&#xAE34; &#xD588;&#xC5C8;&#xC9C0;&#xB9CC; &#xBB54;&#xAC00; &#xBCF5;&#xC7A1;&#xD558;&#xAE30;&#xB3C4; &#xD558;&#xACE0; &#xC5B4;&#xB824;&#xC6B4; &#xAC83; &#xAC19;&#xC544; &#xD53C;&#xD558;&#xAE30;&#xB9CC; &#xD588;&#xC5C8;&#xB294;&#xB370;, &#xB354; &#xC720;&#xC6A9;&#xD558;&#xACE0; &#xBE60;&#xB974;&#xAC8C; &#xC4F0;&#xC77C; &#xC218; &#xC788;&#xB2E4;&#xACE0; &#xD558;&#xB2C8; &#xC55E;&#xC73C;&#xB85C; &#xC798; &#xC54C;&#xC544;&#xB450;&#xC5B4;&#xC57C; &#xD560; &#xAC83; &#xAC19;&#xB2E4;. &#xB2E4;&#xB9CC;, BufferedReader&#xB97C; &#xC4F8; &#xB54C; &#xC608;&#xC678;&#xC0AC;&#xD56D;&#xC774; &#xC0DD;&#xAE30;&#xAE30;&#xB3C4; &#xD558;&#xC600;&#xB294;&#xB370;, &#xADF8; &#xBD80;&#xBD84;&#xC740; throws IOException&#xC73C;&#xB85C; &#xC608;&#xC678;&#xCC98;&#xB9AC; &#xD574;&#xC90C;&#xC73C;&#xB85C;&#xC368; &#xD574;&#xACB0;&#xD558;&#xC600;&#xB2E4;.  </p>
+<p>&#xC785;&#xB825;&#xC758; &#xB05D;&#xC774; &#xB098;&#xC62C; &#xB54C;&#xAE4C;&#xC9C0; while&#xBB38;&#xC744; &#xB3CC;&#xB824; &#xBB38;&#xC790;&#xC5F4;&#xC744; &#xC785;&#xB825;&#xBC1B;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xACE0;, &#xC785;&#xB825;&#xBC1B;&#xC740; &#xBB38;&#xC790;&#xC5F4; words&#xB97C; &#xD55C; &#xAE00;&#xC790;&#xC529; &#xD655;&#xC778;&#xD574;&#xBCF4;&#xAE30; &#xC704;&#xD558;&#xC5EC; toCharArray() &#xD568;&#xC218;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xBC30;&#xC5F4;&#xCC98;&#xB7FC; &#xCDE8;&#xAE09;&#xD558;&#xACE0;, &#xB4E4;&#xC5B4;&#xAC00;&#xB294; &#xAC12;&#xB4E4;&#xC744; &#xC544;&#xC2A4;&#xD0A4;&#xCF54;&#xB4DC; &#xD639;&#xC740; &#xACF5;&#xBC31; &#xAE30;&#xD638;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xAC01;&#xAC01; &#xBE44;&#xAD50;&#xD558;&#xC600;&#xB2E4;. &#xC22B;&#xC790; &#xAD6C;&#xAC04;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xC544;&#xC2A4;&#xD0A4;&#xCF54;&#xB4DC; 48<del>57, &#xB300;&#xBB38;&#xC790; &#xAD6C;&#xAC04;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xC544;&#xC2A4;&#xD0A4;&#xCF54;&#xB4DC; 65</del>90, &#xC18C;&#xBB38;&#xC790; &#xAD6C;&#xAC04;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xC544;&#xC2A4;&#xD0A4;&#xCF54;&#xB4DC; 97~122&#xC640; &#xACF5;&#xBC31; &#xAE30;&#xD638; &#x2018; &#x2018; &#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xB4E4;&#xC5B4;&#xAC00;&#xB294; &#xAC12;&#xB4E4;&#xC744; &#xD558;&#xB098;&#xD558;&#xB098; &#xBE44;&#xAD50;&#xD558;&#xACE0;, &#xD574;&#xB2F9; &#xAC12;&#xC5D0; &#xB9DE;&#xAC8C; &#xADF8; &#xBCC0;&#xC218;&#xC758; &#xAC12;&#xC744; &#xD558;&#xB098;&#xC529; &#xC99D;&#xAC00;&#xC2DC;&#xCF1C; &#xC8FC;&#xC5C8;&#xB2E4;. &#xB9C8;&#xC9C0;&#xB9C9;&#xC73C;&#xB85C;, &#xBB38;&#xC790;&#xC5F4;&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xB294; &#xD558;&#xB098;&#xD558;&#xB098;&#xC758; &#xBB38;&#xC790;&#xB4E4;&#xC744; &#xBE44;&#xAD50;&#xD55C; &#xD6C4;&#xC5D0; &#xBCC0;&#xC218;&#xC5D0; &#xAC12;&#xB4E4;&#xC774; &#xC54C;&#xB9DE;&#xAC8C; &#xB4E4;&#xC5B4;&#xAC00;&#xBA74; &#xADF8; &#xAC12;&#xB4E4;&#xC744; &#xC5F4;&#xAC70;&#xD558;&#xC5EC; &#xCD9C;&#xB825;&#xD574;&#xC8FC;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xB2E4;.  </p>
+<p>&#xD3C9;&#xC18C;&#xC5D0; Java &#xAD00;&#xB828; &#xBB38;&#xC81C;&#xB97C; &#xD480; &#xB54C; &#xB9CE;&#xC740; &#xC0AC;&#xB78C;&#xB4E4;&#xC774; BufferedReader&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC785;&#xB825;&#xC744; &#xBC1B;&#xB294; &#xAC83;&#xC744; &#xBCF4;&#xACE0; &#xC65C; &#xADF8;&#xB807;&#xAC8C; &#xC4F0;&#xB294;&#xC9C0; &#xC774;&#xD574;&#xB97C; &#xBABB; &#xD588;&#xC5C8;&#xB294;&#xB370;, Scanner&#xB97C; &#xC0AC;&#xC6A9;&#xD55C; &#xC0AC;&#xB78C;&#xB4E4;&#xACFC; BufferedReader&#xB97C; &#xC0AC;&#xC6A9;&#xD55C; &#xC0AC;&#xB78C;&#xB4E4;&#xC758; &#xCF54;&#xB4DC;&#xB97C; &#xBE44;&#xAD50;&#xD574; &#xBCF8; &#xACB0;&#xACFC;, &#xD655;&#xC2E4;&#xD788; &#xC2DC;&#xAC04; &#xB2E8;&#xCD95;&#xBA74;&#xC5D0;&#xC11C; &#xC720;&#xC6A9;&#xD558;&#xB2E4;&#xB294; &#xC810;&#xC744; &#xC54C;&#xAC8C; &#xB418;&#xC5C8;&#xACE0;, &#xD639;&#xC2DC; &#xB2E4;&#xB978; &#xBD80;&#xBD84;&#xC5D0;&#xC11C;&#xB3C4; &#xB354; &#xD070; &#xC774;&#xC810;&#xC774; &#xC788;&#xB294;&#xC9C0; &#xC55E;&#xC73C;&#xB85C; &#xC4F0;&#xBA74;&#xC11C; &#xB354; &#xC54C;&#xC544;&#xBD10;&#xC57C; &#xD560; &#xAC83; &#xAC19;&#xB2E4;.</p>
+</body></html>
+    
+    </div>
+    
+    <div class="columns is-variable is-1 is-multiline is-mobile">
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EB%B0%B1%EC%A4%80/">#백준</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EB%B0%B1%EC%A4%80%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%A0%80%EC%A7%80/">#백준온라인저지</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/baekjoon/">#baekjoon</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/boj/">#boj</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B6%84%EC%84%9D/">#문자열분석</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/10820/">#10820</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/boj10820/">#boj10820</a></span>
+    
+    </div>
+    
+    
+    <div class="columns is-mobile is-multiline article-nav">
+        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
+            
+            <a href="/2018/04/10/boj-11006-c/">[백준] 11006 - 남욱이의 닭장</a>
+            
+        </span>
+        <span class="column is-12-mobile is-half-desktop  article-nav-next">
+            
+            <a href="/2018/04/06/boj-1065-c/">[백준] 1065 - 한수</a>
+            
+        </span>
+    </div>
+    
+</article>
+
+
+<div class="sharebox">
+    
+<div class="sharethis-inline-share-buttons"></div>
+<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
+
+</div>
+
+
+
+<div class="comments">
+    <h3 class="title is-4">댓글</h3>
+    
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://y8ncastle.github.io/2018/04/09/boj-10820-java/';
+        this.page.identifier = '2018/04/09/boj-10820-java/';
+        
+        this.language = 'ko';
+        
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<div id="disqus_thread">
+    
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="columns content">
+            <div class="column is-narrow has-text-centered">
+                &copy; 2021 Zay Jeong&nbsp;
+                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
+                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
+
+            
+            <div class="column is-narrow">
+                <div class="columns is-mobile is-multiline is-centered">
+                
+                    
+                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
+                    
+                    GitHub
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
+                    
+                    LinkedIn
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
+                    
+                    Instagram
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
+                    
+                    Facebook
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
+                    
+                    BOJ
+                    
+                </a>
+                
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+
+<!-- test if the browser is outdated -->
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // plugin function, place inside DOM ready function
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        })
+    });
+</script>
+
+<script>
+    window.FontAwesomeConfig = {
+        searchPseudoElements: true
+    }
+    moment.locale("ko");
+</script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+</script>
+
+    
+    
+    
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            if (typeof($.fn.lightGallery) === 'function') {
+                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof($.fn.justifiedGallery) === 'function') {
+                $('.justified-gallery').justifiedGallery();
+            }
+        });
+    })(jQuery);
+</script>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <style>
+        .hljs {
+            position: relative;
+        }
+
+        .hljs .clipboard-btn {
+            float: right;
+            color: #9a9a9a;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hljs .clipboard-btn:hover {
+          color: #8a8a8a;
+        }
+
+        .hljs > .clipboard-btn {
+            display: none;
+            position: absolute;
+            right: 4px;
+            top: 4px;
+        }
+
+        .hljs:hover > .clipboard-btn {
+            display: inline;
+        }
+
+        .hljs > figcaption > .clipboard-btn {
+            margin-right: 4px;
+        }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $('figure.hljs').each(function(i, figure) {
+          var codeId = 'code-' + i;
+          var code = figure.querySelector('.code');
+          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
+          code.id = codeId;
+          copyButton.addClass('clipboard-btn');
+          copyButton.attr('data-clipboard-target-id', codeId);
+
+          var figcaption = figure.querySelector('figcaption');
+
+          if (figcaption) {
+            figcaption.append(copyButton[0]);
+          } else {
+            figure.prepend(copyButton[0]);
+          }
+        })
+
+        var clipboard = new ClipboardJS('.clipboard-btn', {
+          target: function(trigger) {
+            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+          }
+        });
+        clipboard.on('success', function(e) {
+          e.clearSelection();
+        })
+      })
+    </script>
+
+    
+    
+
+    
+
+
+
+<script src="/js/script.js"></script>
+
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '글',
+                PAGES: '페이지',
+                CATEGORIES: '카테고리 목록',
+                TAGS: '태그 목록',
+                UNTITLED: '(제목없음)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+    
+</body>
+</html>
