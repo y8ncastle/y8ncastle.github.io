@@ -148,6 +148,64 @@
         <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
+            <a href="/2019/05/24/boj-11004-c/" itemprop="url">[백준] 11004 - K번째 수</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2019-05-23T15:00:00.000Z" itemprop="datePublished">5월 24 2019</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            2분 소요 (약 251 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/102032922-6d9da400-3dfd-11eb-9828-92abef9334c9.png" width="60%"></p>  <br><br>
+
+<h2 id="&#xBB38;&#xC81C;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xC815;&#xBCF4;</h2><ul>
+<li>&#xBB38;&#xC81C; &#xC774;&#xB984;: <strong>K&#xBC88;&#xC9F8; &#xC218;</strong></li>
+<li>&#xBB38;&#xC81C; &#xBC88;&#xD638;: 11004</li>
+<li>&#xBB38;&#xC81C; &#xC720;&#xD615;: &#xC54C;&#xACE0;&#xB9AC;&#xC998; - &#xC815;&#xB82C;</li>
+<li>&#xD480;&#xC774; &#xC5B8;&#xC5B4;: <strong><code>C</code></strong></li>
+<li>&#xC81C;&#xCD9C; &#xC2DC;&#xAC04;: 2019&#xB144; 5&#xC6D4; 23&#xC77C; 23&#xC2DC; 49&#xBD84; 11&#xCD08;</li>
+<li>&#xC6D0;&#xBCF8; &#xB9C1;&#xD06C;: <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/11004">https://www.acmicpc.net/problem/11004</a>  <br><br></li>
+</ul>
+<h2 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h2><p>&#xC218; N&#xAC1C; A1, A2, &#x2026;, AN&#xC774; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;. A&#xB97C; &#xC624;&#xB984;&#xCC28;&#xC21C; &#xC815;&#xB82C;&#xD588;&#xC744; &#xB54C;, &#xC55E;&#xC5D0;&#xC11C;&#xBD80;&#xD130; K&#xBC88;&#xC9F8; &#xC788;&#xB294; &#xC218;&#xB97C; &#xAD6C;&#xD558;&#xB294; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC744; &#xC791;&#xC131;&#xD558;&#xC2DC;&#xC624;.  <br><br></p>
+<h2 id="&#xC785;&#xB825;"><a href="#&#xC785;&#xB825;" class="headerlink" title="&#xC785;&#xB825;"></a>&#xC785;&#xB825;</h2><p>&#xCCAB;&#xC9F8; &#xC904;&#xC5D0; N(1 &#x2264; N &#x2264; 5,000,000)&#xACFC; K (1 &#x2264; K &#x2264; N)&#xC774; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;.  </p>
+<p>&#xB458;&#xC9F8;&#xC5D0;&#xB294; A1, A2, &#x2026;, AN&#xC774; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;. (-10^9 &#x2264; Ai &#x2264; 10^9)  <br><br></p>
+<h2 id="&#xCD9C;&#xB825;"><a href="#&#xCD9C;&#xB825;" class="headerlink" title="&#xCD9C;&#xB825;"></a>&#xCD9C;&#xB825;</h2><p>A&#xB97C; &#xC815;&#xB82C;&#xD588;&#xC744; &#xB54C;, &#xC55E;&#xC5D0;&#xC11C;&#xBD80;&#xD130; K&#xBC88;&#xC9F8; &#xC788;&#xB294; &#xC218;&#xB97C; &#xCD9C;&#xB825;&#xD55C;&#xB2E4;.  <br><br></p>
+<h2 id="&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;"><a href="#&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;" class="headerlink" title="&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;"></a>&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;</h2><p align="center"><img src="https://user-images.githubusercontent.com/52089296/102032921-6d9da400-3dfd-11eb-9c9e-458265d9c467.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/102032920-6d050d80-3dfd-11eb-9a5f-5f624291e3be.png"></p>  <br><br>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/102032919-6c6c7700-3dfd-11eb-83b7-cec292d38ad2.png"></p>  <br><br>
+
+<h2 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h2><p>&#xBA54;&#xBAA8;&#xB9AC;&#xC640; &#xC2DC;&#xAC04;&#xC774; &#xC5B4;&#xB9C8;&#xC5B4;&#xB9C8;&#xD558;&#xAC8C; &#xB098;&#xC654;&#xB2E4;.  </p>
+<p>&#xAC04;&#xBC1C;&#xC758; &#xCC28;&#xB85C; 2&#xCD08; &#xC548;&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xAE30;&#xB294; &#xD588;&#xB294;&#xB370; &#xBCD1;&#xD569; &#xC815;&#xB82C;&#xC744; &#xC774;&#xC6A9;&#xD574;&#xC11C; &#xBB38;&#xC81C;&#xB97C; &#xD480;&#xBA74; &#xD6A8;&#xC728;&#xC774; &#xB5A8;&#xC5B4;&#xC9C0;&#xB294; &#xBB38;&#xC81C;&#xC600;&#xB358; &#xAC83; &#xAC19;&#xB2E4;.  </p>
+<p>&#xD574;&#xACB0;&#xC740; &#xD588;&#xC9C0;&#xB9CC; &#xC0C8;&#xB85C;&#xC6B4; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xB3C4; &#xCC3E;&#xC544;&#xBD10;&#xC57C;&#xACA0;&#xB2E4;.</p>
+</body></html>
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
             <a href="/2019/05/22/boj-17203-c/" itemprop="url">[백준] 17203 - ∑|ΔEasyMAX|</a>
         
     </h1>
@@ -719,69 +777,6 @@
 
 
     
-        <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            <a href="/2019/05/13/boj-14490-java/" itemprop="url">[백준] 14490 - 백대열</a>
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2019-05-13T13:20:00.000Z" itemprop="datePublished">5월 13 2019</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            2분 소요 (약 346 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101865836-b0236e80-3bba-11eb-8b47-b85117ff14fc.png" width="60%"></p>  <br><br>
-
-<h2 id="&#xBB38;&#xC81C;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xC815;&#xBCF4;</h2><ul>
-<li>&#xBB38;&#xC81C; &#xC774;&#xB984;: <strong>&#xBC31;&#xB300;&#xC5F4;</strong></li>
-<li>&#xBB38;&#xC81C; &#xBC88;&#xD638;: 14490</li>
-<li>&#xBB38;&#xC81C; &#xC720;&#xD615;: -</li>
-<li>&#xD480;&#xC774; &#xC5B8;&#xC5B4;: <strong><code>Java</code></strong></li>
-<li>&#xC81C;&#xCD9C; &#xC2DC;&#xAC04;: 2019&#xB144; 5&#xC6D4; 13&#xC77C; 22&#xC2DC; 7&#xBD84; 46&#xCD08;</li>
-<li>&#xC6D0;&#xBCF8; &#xB9C1;&#xD06C;: <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/14490">https://www.acmicpc.net/problem/14490</a>  <br><br></li>
-</ul>
-<h2 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h2><p>&#xB300;&#xC5F4;&#xC774;&#xB294; &#xC6B1;&#xC81C;&#xC758; &#xCE5C;&#xAD6C;&#xB2E4;.</p>
-<ul>
-<li>&#x201C;&#xC57C; &#xBC31;&#xB300;&#xC5F4;&#xC744; &#xC57D;&#xBD84;&#xD558;&#xBA74; &#xBB54;&#xC9C0; &#xC54C;&#xC544;?&#x201D;</li>
-<li>&#x201C;??&#x201D;</li>
-<li>&#x201C;&#xC2ED;&#xB300;&#xC77C;&#xC774;&#xC57C;~ &#xD558;&#xD558;!&#x201D;  </li>
-</ul>
-<p>n:m&#xC774; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;. &#xC6B1;&#xC81C;&#xB97C; &#xB3C4;&#xC640;&#xC8FC;&#xC790;. (&#x2026;)  <br><br></p>
-<h2 id="&#xC785;&#xB825;"><a href="#&#xC785;&#xB825;" class="headerlink" title="&#xC785;&#xB825;"></a>&#xC785;&#xB825;</h2><p>n&#xACFC; m&#xC774; :&#xC744; &#xC0AC;&#xC774;&#xC5D0; &#xB450;&#xACE0; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;. (1 &lt;= n, m &lt;= 100,000,000)  <br><br></p>
-<h2 id="&#xCD9C;&#xB825;"><a href="#&#xCD9C;&#xB825;" class="headerlink" title="&#xCD9C;&#xB825;"></a>&#xCD9C;&#xB825;</h2><p>&#xB450; &#xC218;&#xB97C; &#xCD5C;&#xB300;&#xD55C;&#xC73C;&#xB85C; &#xC57D;&#xBD84;&#xD558;&#xC5EC; &#xCD9C;&#xB825;&#xD55C;&#xB2E4;.  <br><br></p>
-<h2 id="&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;"><a href="#&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;" class="headerlink" title="&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;"></a>&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;</h2><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101865840-b1549b80-3bba-11eb-883d-d615a9517efe.png"></p>  <br><br>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101865839-b1549b80-3bba-11eb-9a3b-bed64835b9a8.png"></p>  <br><br>
-
-<h2 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h2><p>&#xC624;&#xB298;&#xC740; &#xC885;&#xC77C; &#xBA58;&#xBD95;&#xC774;&#xC5C8;&#xB2E4;..  </p>
-<p>&#xC624;&#xD6C4; 5&#xC2DC;&#xCBE4;&#xBD80;&#xD130; &#xC2A4;&#xD0DD; &#xAD00;&#xB828; &#xBB38;&#xC81C;&#xB97C; &#xCF54;&#xB529;&#xD558;&#xAE30; &#xC2DC;&#xC791;&#xD588;&#xB294;&#xB370;, &#xC790;&#xB8CC;&#xAD6C;&#xC870;&#xB97C; &#xBC30;&#xC6B0;&#xC9C0; &#xC54A;&#xACE0; &#xC54C;&#xACE0;&#xB9AC;&#xC998; &#xAC15;&#xC758;&#xB97C; &#xB4E3;&#xB294; &#xBC14;&#xB78C;&#xC5D0; &#xC2A4;&#xD0DD;&#xC744; &#xC81C;&#xB300;&#xB85C; &#xC0AC;&#xC6A9;&#xD574;&#xBCF4;&#xB294;&#xAC74; &#xCC98;&#xC74C;&#xC774;&#xAE30;&#xB3C4; &#xD588;&#xACE0;, 3&#xC2DC;&#xAC04; &#xBC18; &#xB3D9;&#xC548; &#xD574;&#xACB0;&#xC744; &#xBABB;&#xD558;&#xB2E4;&#xAC00; &#xACB0;&#xAD6D; &#xB2E4;&#xB978; &#xBB38;&#xC81C;&#xB85C; &#xB118;&#xC5B4;&#xAC14;&#xB2E4;.  </p>
-<p>&#xAE30;&#xBCF8; &#xC785;&#xCD9C;&#xB825; &#xCF00;&#xC774;&#xC2A4;&#xC5D0; &#xB098;&#xC624;&#xB294; &#xAC74; &#xB2E4; &#xB9DE;&#xCDC4;&#xB294;&#xB370; &#xC548; &#xB418;&#xB294; &#xC774;&#xC720;&#xAC00;.. &#x3160;&#x3160;  </p>
-<p>&#xC774; &#xBB38;&#xC81C; &#xC804;&#xC5D0;&#xB3C4; &#xD55C; &#xBB38;&#xC81C; &#xC2E4;&#xD328;&#xD558;&#xACE0;, &#xC774; &#xBB38;&#xC81C;&#xB97C; &#xBCF4;&#xBA74;&#xC11C; &#xC544;.. &#xCD5C;&#xB300;&#xACF5;&#xC57D;&#xC218;&#xB85C; &#xD480;&#xBA74; &#xB418;&#xACA0;&#xAD6C;&#xB098;&#xD558;&#xACE0; &#xAC04;&#xB2E8;&#xD788; &#xC0DD;&#xAC01;&#xD558;&#xACE0; &#xD480;&#xC5C8;&#xB294;&#xB370; &#xC0DD;&#xAC01;&#xBCF4;&#xB2E4; &#xC2DC;&#xAC04;&#xC774; &#xB108;&#xBB34; &#xAE38;&#xAC8C; &#xB098;&#xC654;&#xB2E4;. &#x3160;&#x3160; &#xCF54;&#xB529; &#xC2E4;&#xB825; &#xCD5C;&#xC545;&#xC774;&#xB2E4;.. &#xC9C4;&#xC9DC; &#xACF5;&#xBD80; &#xC5F4;&#xC2EC;&#xD788; &#xC880; &#xD574;&#xC57C;&#xACA0;&#xB2E4;.</p>
-</body></html>
-    
-    </div>
-    
-    
-</article>
-
-
-
-
-    
     
         
 <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
@@ -798,6 +793,8 @@
         <li><a class="pagination-link" href="/tags/boj/page/2/">2</a></li>
         
         <li><a class="pagination-link" href="/tags/boj/page/3/">3</a></li>
+        
+        <li><a class="pagination-link" href="/tags/boj/page/4/">4</a></li>
         
     </ul>
 </nav>
