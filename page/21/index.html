@@ -141,6 +141,65 @@
         <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
+            <a href="/2019/05/03/boj-3062-java/" itemprop="url">[백준] 3062 - 수 뒤집기</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2019-05-03T12:01:00.000Z" itemprop="datePublished">5월 3 2019</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            3분 소요 (약 461 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101725610-4b9ddc00-3af4-11eb-8772-b934892f9f67.png" width="60%"></p>  <br><br>
+
+<h2 id="&#xBB38;&#xC81C;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xC815;&#xBCF4;</h2><ul>
+<li>&#xBB38;&#xC81C; &#xC774;&#xB984;: <strong>&#xC218; &#xB4A4;&#xC9D1;&#xAE30;</strong></li>
+<li>&#xBB38;&#xC81C; &#xBC88;&#xD638;: 3062</li>
+<li>&#xBB38;&#xC81C; &#xC720;&#xD615;: -</li>
+<li>&#xD480;&#xC774; &#xC5B8;&#xC5B4;: <strong><code>Java</code></strong></li>
+<li>&#xC81C;&#xCD9C; &#xC2DC;&#xAC04;: 2019&#xB144; 5&#xC6D4; 3&#xC77C; 17&#xC2DC; 32&#xBD84; 22&#xCD08;</li>
+<li>&#xC6D0;&#xBCF8; &#xB9C1;&#xD06C;: <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/3062">https://www.acmicpc.net/problem/3062</a>  <br><br></li>
+</ul>
+<h2 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h2><p>&#xC218; 124&#xB97C; &#xB4A4;&#xC9D1;&#xC73C;&#xBA74; 421&#xC774; &#xB418;&#xACE0; &#xC774; &#xB450; &#xC218;&#xB97C; &#xD569;&#xD558;&#xBA74; 545&#xAC00; &#xB41C;&#xB2E4;. 124&#xC640; &#xAC19;&#xC774; &#xC6D0;&#xB798; &#xC218;&#xC640; &#xB4A4;&#xC9D1;&#xC740; &#xC218;&#xB97C; &#xD569;&#xD55C; &#xC218;&#xAC00; &#xC88C;&#xC6B0; &#xB300;&#xCE6D;&#xC774; &#xB418;&#xB294;&#xC9C0; &#xD14C;&#xC2A4;&#xD2B8; &#xD558;&#xB294; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC744; &#xC791;&#xC131;&#xD558;&#xC2DC;&#xC624;.  <br><br></p>
+<h2 id="&#xC785;&#xB825;"><a href="#&#xC785;&#xB825;" class="headerlink" title="&#xC785;&#xB825;"></a>&#xC785;&#xB825;</h2><p>&#xC785;&#xB825;&#xC758; &#xCCAB; &#xC904;&#xC5D0;&#xB294; &#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xC758; &#xAC1C;&#xC218; T&#xAC00; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;. &#xAC01; &#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xB294; &#xD55C; &#xC904;&#xC5D0; &#xD558;&#xB098;&#xC758; &#xC815;&#xC218; N(10 &#x2264; N &#x2264; 100000)&#xC774; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;.  <br><br></p>
+<h2 id="&#xCD9C;&#xB825;"><a href="#&#xCD9C;&#xB825;" class="headerlink" title="&#xCD9C;&#xB825;"></a>&#xCD9C;&#xB825;</h2><p>&#xAC01; &#xD14C;&#xC2A4;&#xD2B8; &#xCF00;&#xC774;&#xC2A4;&#xC5D0; &#xB300;&#xD574;&#xC11C; &#xC6D0;&#xB798; &#xC218;&#xC640; &#xB4A4;&#xC9D1;&#xC740; &#xC218;&#xB97C; &#xD569;&#xD55C; &#xC218;&#xAC00; &#xC88C;&#xC6B0; &#xB300;&#xCE6D;&#xC774; &#xB418;&#xBA74; YES&#xB97C; &#xC544;&#xB2C8;&#xBA74; NO&#xB97C; &#xD55C; &#xC904;&#xC5D0; &#xD558;&#xB098;&#xC529; &#xCD9C;&#xB825;&#xD55C;&#xB2E4;.  <br><br></p>
+<h2 id="&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;"><a href="#&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;" class="headerlink" title="&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;"></a>&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;</h2><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101725616-4d679f80-3af4-11eb-9b0b-bb559bece041.png"></p>  
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103454552-b8d61300-4d28-11eb-9480-4c3183e7f00a.png"></p>  
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101725615-4ccf0900-3af4-11eb-9622-98012896a085.png"></p>  <br><br>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101725613-4ccf0900-3af4-11eb-9169-769f4ca7bb78.png"></p>  <br><br>
+
+<h2 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h2><p>&#xC774;&#xBC88;&#xBD80;&#xD130; BufferedReader&#xC640; InputStreamReader&#xB97C; &#xC751;&#xC6A9;&#xD558;&#xC5EC; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC77D;&#xB3C4;&#xB85D; &#xCC98;&#xB9AC;&#xD558;&#xC600;&#xB2E4;.  </p>
+<p>&#xB370;&#xC774;&#xD130;&#xB97C; &#xC815;&#xC218;&#xAC00; &#xC544;&#xB2CC; &#xBB38;&#xC790;&#xC5F4;&#xB85C; &#xBD88;&#xB7EC;&#xC624;&#xACE0;, &#xBC84;&#xD37C;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xB9E8; &#xB4A4;&#xC5D0;&#xC11C;&#xBD80;&#xD130; &#xAC12;&#xC744; &#xD558;&#xB098;&#xC529; &#xCD94;&#xAC00;&#xD558;&#xC5EC; &#xD655;&#xC778;&#xD558;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xB2E4;. &#xC774;&#xBC88;&#xC5D0; &#xBC84;&#xD37C;&#xB97C; &#xC4F0;&#xBA74;&#xC11C; &#xC54C;&#xAC8C; &#xB41C; &#xC810;&#xC740; String &#xD615;&#xD0DC;&#xAC00; &#xC544;&#xB2C8;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; String &#xD615;&#xD0DC;&#xB85C; &#xC0AC;&#xC6A9;&#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C;&#xB294; &#xD615;&#xBCC0;&#xD658;&#xC744; &#xD574;&#xC918;&#xC57C; &#xD55C;&#xB2E4;&#xB294; &#xAC83;&#xC774;&#xC5C8;&#xB2E4;.  </p>
+<p>&#xC774;&#xBC88; &#xBB38;&#xC81C;&#xB97C; &#xD480;&#xBA74;&#xC11C; &#xBC84;&#xD37C;&#xC5D0; &#xB300;&#xD574;&#xC11C;&#xB3C4; &#xACF5;&#xBD80;&#xD560; &#xC218; &#xC788;&#xC5C8;&#xACE0;, &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; append &#xD568;&#xC218;&#xB294; &#xC54C;&#xACE0; &#xC788;&#xC5C8;&#xC9C0;&#xB9CC; delete &#xD568;&#xC218;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xD55C;&#xBC88;&#xC5D0; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC9C0;&#xC6B8; &#xC218; &#xC788;&#xB294; &#xBD80;&#xBD84;&#xC740; &#xB610; &#xCC98;&#xC74C; &#xC54C;&#xAC8C; &#xB418;&#xC5C8;&#xB2E4;.  </p>
+<p>&#xADF8;&#xAC83; &#xC774;&#xC678;&#xC5D0;&#xB294; &#xB2E8;&#xC21C;&#xD788; &#xBC30;&#xC5F4;&#xC744; &#xC120;&#xC5B8;&#xD558;&#xACE0; &#xACBD;&#xC6B0;&#xC5D0; &#xB530;&#xB77C; &#xCC98;&#xB9AC;&#xD558;&#xB3C4;&#xB85D; &#xD588;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC5B4;&#xB824;&#xC6B4; &#xC810;&#xC740; &#xC5C6;&#xC5C8;&#xACE0;, &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;&#xB294; &#xAE38;&#xC5C8;&#xC9C0;&#xB9CC; &#xAF64; &#xB192;&#xC740; &#xC21C;&#xC704;&#xC5D0; &#xB9CC;&#xC871;&#xD55C;&#xB2E4;.</p>
+</body></html>
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
             <a href="/2019/05/02/boj-2789-java/" itemprop="url">[백준] 2789 - DOM</a>
         
     </h1>
@@ -392,68 +451,6 @@
 <li>&#xBC31;&#xC900; &#xC628;&#xB77C;&#xC778; 4880 What&#x2019;s Next? &#xBB38;&#xC81C; &#xD480;&#xC774;</li>
 <li>[&#xD300; &#xD504;&#xB85C;&#xC81D;&#xD2B8;] &#xC571;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xB2E4;&#xAE30;&#xB2A5; &#xC634;&#xB2C8; &#xCE74; &#xC81C;&#xC5B4; &#xC124;&#xACC4; 3~5&#xC6D4; &#xC8FC;&#xAC04; &#xBCF4;&#xACE0;&#xC11C; &#xC815;&#xB9AC;</li>
 </ul>
-</body></html>
-    
-    </div>
-    
-    
-</article>
-
-
-
-
-    
-        <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            <a href="/2019/04/29/boj-10551-c/" itemprop="url">[백준] 10551 - STROJOPIS</a>
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2019-04-29T03:54:00.000Z" itemprop="datePublished">4월 29 2019</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            5분 소요 (약 689 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101722340-5c971f00-3aed-11eb-90ae-6edb75198a15.png" width="60%"></p>  <br><br>
-
-<h2 id="&#xBB38;&#xC81C;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xC815;&#xBCF4;</h2><ul>
-<li>&#xBB38;&#xC81C; &#xC774;&#xB984;: <strong>STROJOPIS (&#xC6D0;&#xBB38;)</strong></li>
-<li>&#xBB38;&#xC81C; &#xBC88;&#xD638;: 10551</li>
-<li>&#xBB38;&#xC81C; &#xC720;&#xD615;: &#xC54C;&#xACE0;&#xB9AC;&#xC998; - &#xAD6C;&#xD604;</li>
-<li>&#xD480;&#xC774; &#xC5B8;&#xC5B4;: <strong><code>C</code></strong></li>
-<li>&#xC81C;&#xCD9C; &#xC2DC;&#xAC04;: 2019&#xB144; 4&#xC6D4; 29&#xC77C; 12&#xC2DC; 37&#xBD84; 50&#xCD08;</li>
-<li>&#xC6D0;&#xBCF8; &#xB9C1;&#xD06C;: <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/10551">https://www.acmicpc.net/problem/10551</a>  <br><br></li>
-</ul>
-<h2 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h2><p>Proper typing is becoming an essential part of culture. If you are still not using all ten fingers for typing, you have to re-learn typing &#x2013; then you will type faster and feel more comfortable and enjoyable.  </p>
-<p>There are a lot of web sites teaching proper typing. The following image depicts the basic principle; the keys needed to press with the same finger are of the same color. The yellow keys need to be pressed with the pinky, the blue ones with the ring finger, the green ones with the middle finger and the red ones with the index finger. Naturally, the left hand presses the left side of the keyboard (starting with keys 5, T, G, B to the left), the right hand presses the right side (starting with keys 6, Y, H, N to the right). Thumbs are responsible for space.  </p>
-<p>Please note: the image depicts the US layout. For programming purposes, it is advised to switch to this layout because a lot of special characters, like [], are easier to type. The US layout can be easily set on any operation system.  </p>
-<p>Your task is to output how many times each finger, excluding thumbs, participated in typing the given string properly.  <br><br></p>
-<h2 id="&#xC785;&#xB825;"><a href="#&#xC785;&#xB825;" class="headerlink" title="&#xC785;&#xB825;"></a>&#xC785;&#xB825;</h2><p>The first and only line of input contains of a string consisting of at least one and at most fifty characters. The string doesn&#x2019;t contain whitespaces and consists only of characters depicted on the image above.  <br><br></p>
-<h2 id="&#xCD9C;&#xB825;"><a href="#&#xCD9C;&#xB825;" class="headerlink" title="&#xCD9C;&#xB825;"></a>&#xCD9C;&#xB825;</h2><p>The output must consist of eight lines, in each line one integer denoting the number of presses of each finger, excluding thumbs, observed from left to right.  <br><br></p>
-<h2 id="&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;"><a href="#&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;" class="headerlink" title="&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;"></a>&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;</h2><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101722339-5c971f00-3aed-11eb-9bc1-979ff4f0508e.png"></p>  
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101722338-5bfe8880-3aed-11eb-9695-1c8a8706e3ad.png"></p>  <br><br>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101722336-5b65f200-3aed-11eb-9d98-b1fe4873504a.png"></p>  <br><br>
-
-<h2 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h2><p>&#xB4DC;&#xB514;&#xC5B4; &#xD50C;&#xB79C; 2020 &#xBC31;&#xC900; &#xC628;&#xB77C;&#xC778;&#xC758; &#xCCAB; &#xBB38;&#xC81C;&#xB97C; &#xD480;&#xAE30; &#xC2DC;&#xC791;&#xD588;&#xB2E4;.  </p>
-<p>&#xC624;&#xB79C;&#xB9CC;&#xC5D0; C&#xB97C; &#xD574;&#xC11C; &#xD5F7;&#xAC08;&#xB9AC;&#xB294; &#xBD80;&#xBD84;&#xB3C4; &#xC788;&#xC5C8;&#xC9C0;&#xB9CC; &#xC26C;&#xC6B4; &#xBB38;&#xC81C;&#xBD80;&#xD130; &#xB2E4;&#xC2DC; &#xC2DC;&#xC791;&#xD574;&#xBCF4;&#xB824;&#xACE0; &#xD55C;&#xB2E4;. &#xC6D0;&#xBB38; &#xAC19;&#xC740; &#xACBD;&#xC6B0;&#xB294; &#xD2B9;&#xBCC4;&#xD788; &#xC5B4;&#xB824;&#xC6B4; &#xACBD;&#xC6B0;&#xB97C; &#xC81C;&#xC678;&#xD558;&#xACE0;&#xB294; &#xAC00;&#xB2A5;&#xD558;&#xBA74; &#xBC88;&#xC5ED;&#xBCF8; &#xC5C6;&#xC774; &#xADF8;&#xB300;&#xB85C; &#xC9C4;&#xD589;&#xD560; &#xC608;&#xC815;&#xC774;&#xACE0;, C&#xC640; Java&#xB97C; &#xC801;&#xC808;&#xD788; &#xBC88;&#xAC08;&#xC544;&#xAC00;&#xBA74;&#xC11C; &#xBB38;&#xC81C;&#xD480;&#xC774;&#xB97C; &#xC9C4;&#xD589;&#xD560; &#xAC83;&#xC774;&#xB2E4;.  </p>
-<p>&#xC774;&#xBC88; &#xBB38;&#xC81C;&#xB294; &#xD0A4;&#xBCF4;&#xB4DC;&#xB97C; &#xB204;&#xB974;&#xB294; &#xC190;&#xAC00;&#xB77D;&#xC758; &#xC704;&#xCE58;&#xC5D0; &#xB530;&#xB77C; &#xAC01;&#xAC01;&#xC758; &#xD569;&#xACC4;&#xB97C; &#xCE74;&#xC6B4;&#xD2B8;&#xD558;&#xB294; &#xAC83;&#xC774;&#xC5C8;&#xB294;&#xB370;, key&#xB77C;&#xB294; &#xBC30;&#xC5F4; &#xC548;&#xC5D0; &#xD0A4;&#xBCF4;&#xB4DC;&#xC758; &#xAE00;&#xC790;&#xB97C; &#xC21C;&#xC11C;&#xB300;&#xB85C; &#xB300;&#xC785;&#xC2DC;&#xCF1C;&#xB450;&#xACE0;, &#xC870;&#xAC74;&#xBB38;&#xC744; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC55E;&#xC5D0;&#xC11C;&#xBD80;&#xD130; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xC190;&#xAC00;&#xB77D;&#xC758; &#xC218;&#xB9CC;&#xD07C; &#xC798;&#xB77C; &#xCE74;&#xC6B4;&#xD2B8; &#xC218;&#xB97C; &#xC99D;&#xAC00;&#xC2DC;&#xCF30;&#xB2E4;.  </p>
-<p>&#xBB38;&#xC81C; &#xD480;&#xC774; &#xC911; &#xBC30;&#xC5F4; &#xC548;&#xC758; &#x2018; &#xAE30;&#xD638;&#xB97C; &#x2018;&apos;&#xB85C; &#xC785;&#xB825;&#xD574;&#xC57C; &#xD55C;&#xB2E4;&#xB294; &#xC0AC;&#xC2E4;&#xC744; &#xC78A;&#xACE0; &#xC5B4;&#xB5BB;&#xAC8C; &#x2018;&#xB97C; &#xB123;&#xC5B4;&#xC57C; &#xD560;&#xAE4C; &#xC7A0;&#xC2DC; &#xACE0;&#xBBFC;&#xD558;&#xAE30;&#xB3C4; &#xD588;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xC81C;&#xCD9C; &#xB2F9;&#xC2DC; C&#xC5B8;&#xC5B4; &#xAE30;&#xC900; 9&#xC704;&#xC5D0; &#xC62C;&#xB790;&#xACE0;, &#xB2E4;&#xB978; &#xBD84;&#xB4E4;&#xC758; &#xD480;&#xC774;&#xB97C; &#xBCF4;&#xB2C8; 2&#xCC28;&#xC6D0; &#xBC30;&#xC5F4;&#xC744; &#xC774;&#xC6A9;&#xD558;&#xC2E0; &#xBD84;&#xB3C4; &#xACC4;&#xC168;&#xB2E4;. &#xBB38;&#xC81C;&#xB97C; &#xD480;&#xACE0;&#xB098;&#xC11C; &#xBE44;&#xAD50;&#xD574; &#xBCF4;&#xB2C8; &#xADF8;&#xAC8C; &#xB354; &#xD6A8;&#xC728;&#xC801;&#xC774;&#xB77C;&#xB294; &#xC0DD;&#xAC01;&#xC774; &#xB4E4;&#xAE30;&#xB3C4; &#xD588;&#xC9C0;&#xB9CC; &#xBA54;&#xBAA8;&#xB9AC;&#xAC00; &#xC624;&#xD788;&#xB824; &#xB354; &#xB192;&#xAC8C; &#xB098;&#xC640;&#xC11C; &#xC774;&#xAC8C; &#xB354; &#xB098;&#xC740; &#xD480;&#xC774;&#xC778;&#xAC00; &#xC2F6;&#xAE30;&#xB3C4; &#xD558;&#xB2E4;.</p>
 </body></html>
     
     </div>
