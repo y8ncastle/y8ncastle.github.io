@@ -141,6 +141,67 @@
         <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
+            <a href="/2019/05/12/boj-10250-c/" itemprop="url">[백준] 10250 - ACM Hotel</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2019-05-12T08:13:00.000Z" itemprop="datePublished">5월 12 2019</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            5분 소요 (약 823 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101862789-5e78e500-3bb6-11eb-9650-d4b23ee76c53.png" width="60%"></p>  <br><br>
+
+<h2 id="&#xBB38;&#xC81C;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xC815;&#xBCF4;</h2><ul>
+<li>&#xBB38;&#xC81C; &#xC774;&#xB984;: <strong>ACM Hotel (&#xC6D0;&#xBB38;)</strong></li>
+<li>&#xBB38;&#xC81C; &#xBC88;&#xD638;: 10250</li>
+<li>&#xBB38;&#xC81C; &#xC720;&#xD615;: -</li>
+<li>&#xD480;&#xC774; &#xC5B8;&#xC5B4;: <strong><code>C</code></strong></li>
+<li>&#xC81C;&#xCD9C; &#xC2DC;&#xAC04;: 2019&#xB144; 5&#xC6D4; 12&#xC77C; 17&#xC2DC; 2&#xBD84; 12&#xCD08;</li>
+<li>&#xC6D0;&#xBCF8; &#xB9C1;&#xD06C;: <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/10250">https://www.acmicpc.net/problem/10250</a>  <br><br></li>
+</ul>
+<h2 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h2><p>Jiwoo, the manager of the ACM Hotel, is about to assign the vacant rooms to the guests upon their arrival. According to customers&#x2019; survey, the customers prefer the rooms which are close to the main entrance on-walk. Jiwoo likes to assign the rooms on this policy. Write a program to help Jiwoo on assigning the rooms for the guests.  </p>
+<p>For simplicity, let&#x2019;s assume that the ACM hotel is a rectangular shape, an H story building with W rooms on each floor (1 &#x2264; H, W &#x2264; 99)  and that the only one elevator is on the leftmost side (see Figure 1). Let&#x2019;s call this kind of hotel as H &#xD7; W shaped. The main entrance is located on the first floor near the elevator. You may ignore the distance between the gate and the elevator. Also assume that the distances between neighboring rooms are all the same, the unit distance, and that all the rooms only in the front side of the hotel.  </p>
+<p>The rooms are numbered in YXX or YYXX style where Y or YY denotes the number of the floor and XX, the index of the room counted from the left. Therefore the room shaded in Figure 1 should be 305.  </p>
+<p>The customers do not concern the distance moved in the elevator though the room on the lower floor is preferred than that on the higher floor if the walking distance is same. For instance, the room 301 is preferred than the room 102 since the customer should walk for two units for the latter but one unit, for the former. Additionally, the room 2101 is preferred than the room 102.  </p>
+<p>Your program should compute the room number which should be assigned for the N-th guest according to this policy assuming that all the rooms are vacant initially. The first guest should be assigned to 101, the second guest to 201, and so on. In Figure 1, for example, the 10th guest should be assigned to the room 402 since H = 6.  <br><br></p>
+<h2 id="&#xC785;&#xB825;"><a href="#&#xC785;&#xB825;" class="headerlink" title="&#xC785;&#xB825;"></a>&#xC785;&#xB825;</h2><p>Your program is to read from standard input. The input consists of T test cases. The number of test cases T is given in the first line of the input. Each test case consists of a single line containing and integers H, W, and N: the number of floors, the number of rooms on each floor, and the index of the arrival time of the guest to be assigned a room, respectively, where 1 &#x2264; H, W &#x2264; 99 and 1 &#x2264; N &#x2264; H &#xD7; W.  <br><br></p>
+<h2 id="&#xCD9C;&#xB825;"><a href="#&#xCD9C;&#xB825;" class="headerlink" title="&#xCD9C;&#xB825;"></a>&#xCD9C;&#xB825;</h2><p>Your program is to write to standard output. Print exactly one line for each test case. The line should contain the room number of the given hotel, where the N-th guest should be assigned.  <br><br></p>
+<h2 id="&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;"><a href="#&#xACB0;&#xACFC;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;-&#xBC0F;-&#xB7AD;&#xD06C;" class="headerlink" title="&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;"></a>&#xACB0;&#xACFC; - &#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBC0F; &#xB7AD;&#xD06C;</h2><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101862795-5faa1200-3bb6-11eb-9d47-7a96e08700c8.png"></p>  <br><br>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101862793-5faa1200-3bb6-11eb-9d3d-b44f4959fc66.png"></p>  <br><br>
+
+<h2 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h2><p>&#xCD08;&#xAE30;&#xC5D0; 3&#xAC1C;&#xC758; for&#xBB38;&#xC744; &#xADF8;&#xB300;&#xB85C; &#xC801;&#xC6A9;&#xD588;&#xB294;&#xB370; &#xC911;&#xAC04;&#xC5D0; break&#xBB38;&#xC744; &#xC774;&#xC6A9;&#xD574; &#xCD5C;&#xC0C1;&#xC704; for&#xBB38;&#xC73C;&#xB85C; &#xD0C8;&#xCD9C;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC560;&#xB9E4;&#xD588;&#xB2E4;.  </p>
+<p>&#xCC98;&#xC74C;&#xC5D0;&#xB294; goto&#xBB38;&#xB3C4; &#xC0DD;&#xAC01;&#xD574;&#xBCF4;&#xACE0;, &#xAD00;&#xB828;&#xB41C; &#xB0B4;&#xC6A9;&#xC744; &#xCC3E;&#xC544;&#xBCF4;&#xB2C8; flag&#xB098; labeling&#xC744; &#xD1B5;&#xD574; &#xD2B9;&#xC815; for&#xBB38;&#xC744; &#xD0C8;&#xCD9C;&#xD560; &#xC218; &#xC788;&#xB2E4;&#xACE0; &#xD558;&#xB294;&#xB370;, &#xC2E4;&#xBB34;&#xC801;&#xC73C;&#xB85C;&#xB294; &#xC774;&#xB7EC;&#xD55C; &#xAE30;&#xB2A5;&#xBCF4;&#xB2E4; &#xD568;&#xC218;&#xB97C; &#xC774;&#xC6A9;&#xD55C; return &#xBC29;&#xC2DD;&#xC744; &#xC870;&#xAE08; &#xB354; &#xC120;&#xD638;&#xD55C;&#xB2E4;&#xACE0; &#xD574;&#xC11C; &#xD568;&#xC218;&#xB97C; &#xCD94;&#xAC00;&#xD558;&#xC5EC; return&#xC73C;&#xB85C; &#xAC12;&#xC744; &#xB0B4;&#xB3C4;&#xB85D; &#xD588;&#xB2E4;.  </p>
+<p>&#xC774;&#xBC88;&#xC5D0; &#xB7AD;&#xD06C;&#xB97C; &#xBCF4;&#xACE0; &#xC0DD;&#xAC01;&#xBCF4;&#xB2E4; &#xB0B4;&#xAC00; &#xC9E0; &#xC904;&#xC774; &#xB108;&#xBB34; &#xAE38;&#xAD6C;&#xB098; &#xC2F6;&#xC5B4;&#xC11C; &#xBD24;&#xB294;&#xB370; &#xAC00;&#xB3C5;&#xC131;&#xC744; &#xACE0;&#xB824;&#xD558;&#xC9C0; &#xC54A;&#xACE0; &#xC555;&#xCD95;&#xD574;&#xC11C; &#xBB38;&#xC81C;&#xB97C; &#xD478;&#xC2E0; &#xBD84;&#xB4E4;&#xC774; &#xB108;&#xBB34; &#xB9CE;&#xC774; &#xACC4;&#xC2DC;&#xACE0;, &#xBA54;&#xBAA8;&#xB9AC;&#xB3C4; &#xBC31;&#xC900;&#xC628;&#xB77C;&#xC778; &#xCEF4;&#xD30C;&#xC77C;&#xB7EC;&#xC5D0; &#xC758;&#xD574; &#xC5B4;&#xB290; &#xC815;&#xB3C4; &#xBCC0;&#xB3D9;&#xB420; &#xC218; &#xC788;&#xB294; &#xAC83;&#xC73C;&#xB85C; &#xBCF4;&#xC544; &#xB7AD;&#xD06C; &#xC815;&#xBCF4;&#xB294; &#xC5C5;&#xB85C;&#xB4DC;&#xD574;&#xB3C4; &#xD06C;&#xAC8C; &#xC0DD;&#xAC01;&#xD558;&#xC9C0; &#xC54A;&#xACE0; &#xBB38;&#xC81C;&#xB97C; &#xD480;&#xC5C8;&#xB2E4;&#xB294; &#xC810;&#xC5D0;&#xB9CC; &#xC9D1;&#xC911;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xD574;&#xC57C;&#xACA0;&#xB2E4;. &#xBB3C;&#xB860; &#xB0B4;&#xAC00; &#xD47C; &#xBC29;&#xC2DD;&#xB3C4; &#xB354; &#xC904;&#xC77C; &#xC218; &#xC788;&#xAC8C; &#xBC14;&#xAFB8;&#xAE34; &#xD574;&#xC57C; &#xD55C;&#xB2E4; &#x3160;&#x3160;  </p>
+<p>&#xADF8;&#xB798;&#xB3C4; &#xC608;&#xC804;&#xC5D0; &#xBABB; &#xD480;&#xC5C8;&#xB358; &#xBB38;&#xC81C;&#xB4E4;&#xC744; &#xD558;&#xB098;&#xB458;&#xC529; &#xD480;&#xC5B4;&#xAC00;&#xB294; &#xAC83;&#xB9CC;&#xC73C;&#xB85C;&#xB3C4; &#xD589;&#xBCF5;&#xD558;&#xB2E4; &#x314E;&#x314E;</p>
+</body></html>
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
             <a href="/2019/05/11/boj-1977-c/" itemprop="url">[백준] 1977 - 완전제곱수</a>
         
     </h1>
@@ -356,51 +417,6 @@
 
 
     
-        <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            <a href="/2019/05/11/x-corps/" itemprop="url">[팀 프로젝트] 실전문제연구단 (X-Corps)</a>
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2019-05-11T07:01:00.000Z" itemprop="datePublished">5월 11 2019</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Team-Project/">Team Project</a><span>></span><a class="article-category-link" href="/categories/Team-Project/X-Corps/">X-Corps</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            1분 소요 (약 118 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/101860780-e0b2da80-3bb1-11eb-8145-bbb64d2290b3.png" width="70%"></p>  <br><br>
-
-<h2 id="&#xC2E4;&#xC804;&#xBB38;&#xC81C;&#xC5F0;&#xAD6C;&#xB2E8;-X-Corps-&#xC774;&#xB780;"><a href="#&#xC2E4;&#xC804;&#xBB38;&#xC81C;&#xC5F0;&#xAD6C;&#xB2E8;-X-Corps-&#xC774;&#xB780;" class="headerlink" title="&#xC2E4;&#xC804;&#xBB38;&#xC81C;&#xC5F0;&#xAD6C;&#xB2E8; (X-Corps) &#xC774;&#xB780;?"></a>&#xC2E4;&#xC804;&#xBB38;&#xC81C;&#xC5F0;&#xAD6C;&#xB2E8; (X-Corps) &#xC774;&#xB780;?</h2><p>&#xB300;&#xD559;(&#xC6D0;)&#xC0DD;, &#xC9C0;&#xB3C4;&#xAD50;&#xC218;, &#xC0B0;&#xC5C5;&#xCCB4; &#xBA58;&#xD1A0;&#xAC00; &#xC2E4;&#xC804;&#xBB38;&#xC81C;&#xC5F0;&#xAD6C;&#xD300;&#xC744; &#xAD6C;&#xC131;&#xD558;&#xC5EC; &#xCC3D;&#xC758;&#xC801;&#xC774;&#xACE0; &#xB3C4;&#xC804;&#xC801;&#xC778; &#xC544;&#xC774;&#xB514;&#xC5B4;(X-Mind)&#xB97C; &#xD1B5;&#xD574; &#xC0B0;&#xC5C5; &#xBB38;&#xC81C;&#xC758; &#xD574;&#xACB0;, &#xCC3D;&#xC5C5; &#xAD00;&#xB828; &#xC5F0;&#xAD6C;, &#xC0AC;&#xD68C; &#xBB38;&#xC81C;&#xB97C; &#xC5F0;&#xAD6C;&#xD568;&#xC73C;&#xB85C;&#xC368; &#xD604;&#xC7A5;&#xC2E4;&#xBB34;&#xB2A5;&#xB825;&#xC744; &#xAC16;&#xCD98; &#xC774;&#xACF5;&#xACC4; &#xC778;&#xC7AC; &#xC591;&#xC131;&#xC744; &#xBAA9;&#xD45C;&#xB85C; &#xD558;&#xB294; &#xC0AC;&#xC5C5;&#xB2E8;  <br><br></p>
-<p><a target="_blank" rel="noopener" href="https://www.facebook.com/pg/HanbatCorps">https://www.facebook.com/pg/HanbatCorps</a><br><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UChSQIDjCwMrtpusu-3Z5JUQ">https://www.youtube.com/channel/UChSQIDjCwMrtpusu-3Z5JUQ</a>  <br><br><br></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101860779-df81ad80-3bb1-11eb-8522-336cdd2291e4.png" width="75%"></p>  <br><br>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101860784-e1e40780-3bb1-11eb-8e01-2c68cf95ae55.png" width="70%"></p>  <br><br>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101860782-e14b7100-3bb1-11eb-9650-3047c6e0df50.png" width="70%"></p>  <br><br>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/101860781-e14b7100-3bb1-11eb-8d3f-f6fb957779c6.png" width="70%"></p>
-</body></html>
-    
-    </div>
-    
-    
-</article>
-
-
-
-
-    
     
         
 <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
@@ -424,7 +440,7 @@
         
         <li><span class="pagination-ellipsis">&hellip;</span></li>
         
-        <li><a class="pagination-link" href="/page/26/">26</a></li>
+        <li><a class="pagination-link" href="/page/27/">27</a></li>
         
     </ul>
 </nav>
