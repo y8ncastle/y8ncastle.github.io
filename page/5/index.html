@@ -141,6 +141,208 @@
         <article class="article content gallery" itemscope itemprop="blogPost">
     <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
         
+            <a href="/2020/01/12/sogang-ethereum/" itemprop="url">[2019.12.24] 이더리움 이론 및 실습 - 이동현 연구원</a>
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2020-01-12T04:08:00.000Z" itemprop="datePublished">1월 12 2020</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/Blockchain/">Blockchain</a><span>></span><a class="article-category-link" href="/categories/Blockchain/Ethereum/">Ethereum</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            10분 소요 (약 1456 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103251134-c3a44700-49ba-11eb-9e51-6e826f7d6575.jpg" width="70%"></p>  <br><br><br>
+
+<h2 id="&#xC774;&#xB354;&#xB9AC;&#xC6C0;-&#xAC1C;&#xC694;"><a href="#&#xC774;&#xB354;&#xB9AC;&#xC6C0;-&#xAC1C;&#xC694;" class="headerlink" title="&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xAC1C;&#xC694;"></a>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xAC1C;&#xC694;</h2><ul>
+<li><p>&#xBE44;&#xD2B8;&#xCF54;&#xC778;&#xBCF4;&#xB2E4; &#xD6E8;&#xC52C; &#xBE60;&#xB978; &#xCC98;&#xB9AC;&#xC2DC;&#xAC04;&#xC744; &#xAC00;&#xC9C4;&#xB2E4;. (&#xBE14;&#xB85D; &#xD569;&#xC758;&#xC2DC;&#xAC04; &#xC57D; 20&#xCD08;)</p>
+</li>
+<li><p>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC758; <code>&#xC644;&#xC804; &#xD29C;&#xB9C1;&#xC131;&#xC744; &#xC81C;&#xACF5;</code>&#xD55C;&#xB2E4;. (Dapp &#xAE30;&#xBC18;&#xC758; &#xD3B8;&#xB9AC;&#xD568; &#xC81C;&#xACF5;)</p>
+</li>
+<li><p>&#xAE30;&#xC874; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC740; &#xC911;&#xC559; &#xC9D1;&#xC911;&#xD654;&#xB41C; &#xC11C;&#xBC84;&#xC640; &#xC5EC;&#xB7EC; &#xAC1C;&#xC758; &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8;&#xB4E4;&#xC774; &#xD1B5;&#xC2E0;&#xD558;&#xB294; &#xAD6C;&#xC870;&#xB77C;&#xBA74; <code>Dapp(&#xBD84;&#xC0B0;&#xD615; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;)</code>&#xC740; &#xAC01;&#xAC01;&#xC758; &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8;&#xAC00; &#xC11C;&#xB85C; &#xAC04;&#xC5D0; &#xC5F0;&#xACB0;&#xD560; &#xC218; &#xC788;&#xC5B4; &#xB370;&#xC774;&#xD130; &#xBC0F; &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xACF5;&#xC720;&#xD558;&#xBA74;&#xC11C; &#xD0C8;&#xC911;&#xC559;&#xD654; &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xD1B5;&#xC2E0;&#xC744; &#xD55C;&#xB2E4;.</p>
+</li>
+</ul>
+<p><br><br></p>
+<h2 id="&#xC774;&#xB354;&#xB9AC;&#xC6C0;-&#xAD6C;&#xC131;-&#xC694;&#xC18C;"><a href="#&#xC774;&#xB354;&#xB9AC;&#xC6C0;-&#xAD6C;&#xC131;-&#xC694;&#xC18C;" class="headerlink" title="&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xAD6C;&#xC131; &#xC694;&#xC18C;"></a>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xAD6C;&#xC131; &#xC694;&#xC18C;</h2><br>
+
+<p><strong>[&#xC0C1;&#xD0DC;]</strong>  <br></p>
+<ul>
+<li><p>&#xAC70;&#xB798; &#xAE30;&#xB85D;&#xBFD0;&#xB9CC; &#xC544;&#xB2CC; &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xC2E4;&#xD589;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xC815;&#xBCF4;</p>
+</li>
+<li><p>&#xC5B4;&#xB290; &#xD55C; &#xC2DC;&#xC810;&#xC5D0; &#xB300;&#xD55C; ETH&#xC758; &#xC794;&#xC561; &#xBC0F; &#xAE30;&#xD0C0; &#xC815;&#xBCF4;&#xB97C; &#xB2F4;&#xACE0; &#xC788;&#xB294; &#xACC4;&#xC815;&#xB4E4;&#xC758; &#xC9D1;&#xD569;</p>
+</li>
+<li><p><code>&#xC0C1;&#xD0DC; &#xC804;&#xC774;</code>: &#xBE14;&#xB85D; &#xCC44;&#xAD74;&#xB85C; &#xC778;&#xD55C; &#xAC70;&#xB798;&#xB0B4;&#xC5ED; &#xCD94;&#xAC00; &#xC2DC; &#xC0C1;&#xD0DC; &#xC804;&#xC774;&#xAC00; &#xBC1C;&#xC0DD;&#xD55C;&#xB2E4;. (&#xC5C5;&#xB370;&#xC774;&#xD2B8;)</p>
+</li>
+<li><p><code>&#xBA38;&#xD074; &#xD328;&#xD2B8;&#xB9AC;&#xC2DC;&#xC544; &#xD2B8;&#xB9AC; (Merkle Patricia Trie, &#xC0C1;&#xD0DC; &#xC804;&#xC774; &#xD2B8;&#xB9AC;)</code>   </p>
+<ul>
+<li>&#xC0C1;&#xD0DC; &#xC804;&#xC774; &#xB370;&#xC774;&#xD130;&#xB97C; &#xAE30;&#xC874; &#xBA38;&#xD074; &#xD2B8;&#xB9AC;&#xC5D0; &#xC800;&#xC7A5;&#xD558;&#xBA74; &#xB0AD;&#xBE44;&#xAC00; &#xB108;&#xBB34; &#xC2EC;&#xD558;&#xB2E4;&#xB294; &#xC0DD;&#xAC01;&#xC5D0; &#xBE44;&#xD0C8;&#xB9AD; &#xBD80;&#xD14C;&#xB9B0;&#xC774; &#xBCC0;&#xD615;&#xB41C; &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xAC1C;&#xBC1C;</li>
+</ul>
+</li>
+</ul>
+<p><br><br></p>
+<p><strong>[&#xACC4;&#xC815;]</strong>  <br></p>
+<ul>
+<li><p>&#xAC70;&#xB798;&#xC5D0; &#xD544;&#xC694;&#xD55C; &#xACC4;&#xC88C; &#xAC19;&#xC740; &#xC815;&#xBCF4;</p>
+</li>
+<li><p><code>&#xC678;&#xBD80; &#xC18C;&#xC720; &#xACC4;&#xC815; (EOA, External Owned Account)</code></p>
+<ul>
+<li>&#xAC70;&#xB798;&#xB97C; &#xC704;&#xD55C; &#xC794;&#xC561; &#xAD00;&#xB9AC;, &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xD589;, &#xAC1C;&#xC778; &#xD0A4;&#xB97C; &#xD1B5;&#xD55C; &#xC8FC;&#xC18C; &#xAD00;&#xB9AC;</li>
+</ul>
+</li>
+<li><p><code>&#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xACC4;&#xC815; (CA, Contract Account)</code></p>
+<ul>
+<li>&#xC8FC;&#xC18C;&#xB294; &#xC788;&#xC73C;&#xB098; &#xAC1C;&#xC778; &#xD0A4;&#xB294; &#xC5C6;&#xC74C;, &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xCF54;&#xB4DC; &#xBCF4;&#xC720;, &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0; &#xB300;&#xD55C; &#xD574;&#xC2DC; &#xAC12;</li>
+</ul>
+</li>
+<li><p>&#xC0DD;&#xC131;&#xC744; &#xC704;&#xD574; <code>PKI (Public Key Infrastructure)</code> &#xAD6C;&#xC870;&#xB97C; &#xC774;&#xC6A9;&#xD55C;&#xB2E4;.</p>
+</li>
+<li><p><code>&#xAC1C;&#xC778;&#xD0A4; &#xC0DD;&#xC131;</code>: 256bit&#xC758; &#xBB34;&#xC791;&#xC704; &#xC22B;&#xC790; (64&#xC790;&#xB9AC;&#xC758; Hex &#xAC12;&#xC73C;&#xB85C; &#xC778;&#xCF54;&#xB529;)</p>
+</li>
+<li><p><code>&#xD0C0;&#xC6D0;&#xACE1;&#xC120; &#xC804;&#xC790;&#xC11C;&#xBA85; &#xC54C;&#xACE0;&#xB9AC;&#xC998; (ECDSA, Secp256k1)</code>&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xACF5;&#xAC1C;&#xD0A4; &#xC0DD;&#xC131;</p>
+<ul>
+<li>&#xD0C0;&#xC6D0;&#xACE1;&#xC120; &#xD615;&#xD0DC;&#xC758; &#xADF8;&#xB798;&#xD504;&#xC5D0; &#xB300;&#xC785;&#xD558;&#xC5EC; &#xD0A4;&#xC758; &#xC30D;&#xC744; &#xB9CC;&#xB4E6;</li>
+</ul>
+</li>
+<li><p><code>Keccak-256 Hashing</code>: &#xD574;&#xC2DC;&#xD558;&#xB294; &#xD568;&#xC218; - &#xB9C8;&#xC9C0;&#xB9C9; 20Byte&#xB9CC; &#xCD94;&#xB824;&#xC11C; &#xACC4;&#xC815; &#xC8FC;&#xC18C;&#xB97C; &#xACB0;&#xC815;&#xD55C;&#xB2E4;.</p>
+</li>
+</ul>
+<p><br><br></p>
+<p><strong>[Consensus Algorithm (&#xD569;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998;)]</strong>  <br></p>
+<ul>
+<li><p>Ethash (Proof of Work)</p>
+</li>
+<li><p>&#xAE30;&#xC874; &#xBE44;&#xD2B8;&#xCF54;&#xC778;&#xC758; &#xBB38;&#xC81C;&#xC810;&#xC778; <code>ASIC(&#xD2B9;&#xC218; &#xBAA9;&#xC801; &#xBC18;&#xB3C4;&#xCCB4;)&#xC744; &#xC0AC;&#xC6A9;&#xD55C; &#xB9C8;&#xC774;&#xB2DD; &#xD480;&#xC758; &#xB3C5;&#xC810;&#xC744; &#xB9C9;&#xAE30; &#xC704;&#xD574; &#xB3C4;&#xC785;</code></p>
+</li>
+<li><p>&#xBAA8;&#xB4E0; &#xB178;&#xB4DC;&#xB4E4;&#xC774; &#xBE14;&#xB85D;&#xC744; &#xC0DD;&#xC131;&#xD558;&#xAE30; &#xC704;&#xD574; &#xCE90;&#xC2DC; &#xB370;&#xC774;&#xD130;(&#xC4F0;&#xB808;&#xAE30; &#xAC12;)&#xB85C; &#xB370;&#xC774;&#xD130; &#xC14B;&#xC744; &#xC0DD;&#xC131;&#xD558;&#xACE0; &#xC77C;&#xBD80;&#xB97C; &#xD568;&#xAED8; &#xD574;&#xC2F1;&#xD558;&#xAC8C; &#xD55C;&#xB2E4;.</p>
+<ul>
+<li>ASIC &#xC800;&#xD56D;&#xC131;&#xC740; &#xB192;&#xC9C0;&#xB9CC; &#xCE90;&#xC2DC; &#xB370;&#xC774;&#xD130;&#xB97C; &#xAC00;&#xC9C0;&#xACE0; &#xC788;&#xB294; &#xC790;&#xCCB4;&#xB9CC;&#xC73C;&#xB85C; &#xBD88;&#xD544;&#xC694;&#xD55C; &#xC5F0;&#xC0B0;&#xC774; &#xC774;&#xB8E8;&#xC5B4;&#xC9C0;&#xACE0; &#xC774;&#xB85C; &#xC778;&#xD55C; &#xC804;&#xB825; &#xB0AD;&#xBE44;&#xC640; &#xB9C8;&#xC774;&#xB2DD; &#xD480;&#xC758; &#xC9D1;&#xC911;&#xD654; &#xBB38;&#xC81C;&#xB294; &#xD574;&#xACB0;&#xD558;&#xC9C0; &#xBABB;&#xD558;&#xC600;&#xB2E4;.</li>
+</ul>
+</li>
+<li><p><code>Casper FFG(Friendly Finality Gadget, Proof of State)&#xB97C; &#xB3C4;&#xC785;&#xD558;&#xACE0;&#xC790; &#xC2DC;&#xB3C4;</code> &#xC911;&#xC5D0; &#xC788;&#xB2E4;.</p>
+<ul>
+<li>PoW + PoS&#xC758; &#xD558;&#xC774;&#xBE0C;&#xB9AC;&#xB4DC; &#xBC29;&#xC2DD;</li>
+<li>1~49&#xBC88;&#xC9F8; &#xBE14;&#xB85D;&#xC740; PoW, 50&#xBC88;&#xC9F8; &#xBE14;&#xB85D;&#xC740; PoS &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xCC44;&#xAD74;</li>
+</ul>
+</li>
+</ul>
+<p><br><br></p>
+<p><strong>[GHOST (Greedy Heaviest Object Sub-tree)]</strong>  <br></p>
+<ul>
+<li><p>&#xBE14;&#xB85D;&#xC774; &#xC0DD;&#xC131;&#xB418;&#xB2E4;&#xAC00; &#xBD84;&#xAE30;&#xAC00; &#xC0DD;&#xAE30;&#xB294; &#xC2DC;&#xC810;&#xC5D0; &#xC5C9;&#xD074; &#xBE14;&#xB85D;&#xC774; &#xC0DD;&#xC131;&#xB418;&#xB294;&#xB370;, &#xC774;&#xB7EC;&#xD55C; &#xBB38;&#xC81C;&#xC810;&#xC744; &#xAC1C;&#xC120;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xD504;&#xB85C;&#xD1A0;&#xCF5C;&#xC774;&#xB2E4;.</p>
+</li>
+<li><p>&#xD2B9;&#xC815; &#xC8FC;&#xAE30;&#xB9C8;&#xB2E4; &#xBD84;&#xAE30;&#xAC00; &#xBC1C;&#xC0DD;&#xD55C; &#xBE14;&#xB85D;&#xC744; &#xC0C8;&#xB85C;&#xC6B4; &#xCCB4;&#xC778;&#xC73C;&#xB85C; &#xC5F0;&#xACB0;&#xD558;&#xBA70;, Genesis &#xBE14;&#xB85D;&#xBD80;&#xD130; &#xC2DC;&#xC791;&#xD558;&#xC5EC; &#xAC00;&#xC7A5; &#xB9CE;&#xC740; sub-tree&#xB97C; &#xAC00;&#xC9C4; &#xCABD;&#xC744; &#xC120;&#xD0DD;&#xD558;&#xB3C4;&#xB85D; &#xD55C;&#xB2E4;.</p>
+</li>
+</ul>
+<p><br><br></p>
+<p><strong>[Smart Contract]</strong>  <br></p>
+<ul>
+<li><p>Solidity Language&#xB85C; &#xACC4;&#xC57D;&#xC11C;&#xB97C; &#xC791;&#xC131;</p>
+</li>
+<li><p>&#xAC70;&#xB798;&#xB97C; &#xD558;&#xACE0;&#xC790; &#xD560; &#xB54C; &#xC870;&#xAC74;&#xC744; &#xB9CC;&#xC871;&#xD558;&#xB294; &#xC9C0;&#xB97C; &#xD310;&#xB2E8;&#xD558;&#xB294; &#xCF54;&#xB4DC;&#xAC00; &#xC791;&#xC131;&#xB418;&#xC5B4; &#xC788;&#xB2E4;.</p>
+</li>
+</ul>
+<p><br><br></p>
+<p><strong>[GAS]</strong>  <br></p>
+<ul>
+<li><p>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xB97C; &#xAD6C;&#xB3D9;&#xD558;&#xAC8C; &#xD558;&#xB294; &#xAE30;&#xBCF8; &#xB2E8;&#xC704;</p>
+</li>
+<li><p>&#xCEF4;&#xD4E8;&#xD305; &#xD30C;&#xC6CC;&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xB370; &#xC4F0;&#xB294; &#xC218;&#xC218;&#xB8CC; (&#xD2B8;&#xB79C;&#xC7AD;&#xC158;, &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xD589;)</p>
+</li>
+<li><p>&#xAE30;&#xBCF8; &#xB2E8;&#xC704;: <code>Gwei</code> (0.000000001 ETH)</p>
+</li>
+<li><p><code>&#xD544;&#xC694; &#xC218;&#xC218;&#xB8CC;</code>: &#xCD5C;&#xB300; &#xAC00;&#xC2A4; * &#xAC00;&#xC2A4; &#xAC00;&#xACA9;</p>
+</li>
+</ul>
+<p><br><br></p>
+<p><strong>[EVM (Ethereum Virtual Machine)]</strong>  <br></p>
+<ul>
+<li><p>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xC2E4;&#xD589;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xAC00;&#xC0C1; &#xBA38;&#xC2E0;</p>
+<ul>
+<li>&#xD29C;&#xB9C1; &#xC644;&#xC804; &#xBA38;&#xC2E0;</li>
+<li>&#xC2A4;&#xD0DD; &#xAE30;&#xBC18; &#xAD6C;&#xC870;</li>
+<li>32Byte&#xC758; &#xBA54;&#xBAA8;&#xB9AC;</li>
+</ul>
+</li>
+<li><p>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC8FC;&#xC18C; &#xC5F0;&#xC0B0;(160bit), 256bit &#xC554;&#xD638;&#xD654; &#xC54C;&#xACE0;&#xB9AC;&#xC998; &#xB4F1;&#xC774; &#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xAD6C;&#xC870; &#xC5F0;&#xC0B0;&#xC5D0; &#xCD5C;&#xC801;&#xD654; &#xB418;&#xC5B4;&#xC788;&#xB2E4;.</p>
+</li>
+</ul>
+<p><br><br><br></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103251137-c4d57400-49ba-11eb-9116-aab96fb7ac9a.png" width="60%"></p>  <br><br><br>
+
+<h2 id="&#xC774;&#xB354;&#xB9AC;&#xC6C0;-&#xB3D9;&#xC791;-&#xBA54;&#xCEE4;&#xB2C8;&#xC998;"><a href="#&#xC774;&#xB354;&#xB9AC;&#xC6C0;-&#xB3D9;&#xC791;-&#xBA54;&#xCEE4;&#xB2C8;&#xC998;" class="headerlink" title="&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xB3D9;&#xC791; &#xBA54;&#xCEE4;&#xB2C8;&#xC998;"></a>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xB3D9;&#xC791; &#xBA54;&#xCEE4;&#xB2C8;&#xC998;</h2><ul>
+<li>&#xACC4;&#xC815;, &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC0DD;&#xC131; &#x2192; &#xC11C;&#xBA85; &#x2192; &#xAC80;&#xC99D; &#x2192; &#xCC44;&#xAD74;</li>
+</ul>
+<p><br><br></p>
+<h2 id="&#xBA38;&#xD074;-&#xD328;&#xD2B8;&#xB9AC;&#xC2DC;&#xC544;-&#xD2B8;&#xB9AC;-&#xD2B9;&#xC9D5;"><a href="#&#xBA38;&#xD074;-&#xD328;&#xD2B8;&#xB9AC;&#xC2DC;&#xC544;-&#xD2B8;&#xB9AC;-&#xD2B9;&#xC9D5;" class="headerlink" title="&#xBA38;&#xD074; &#xD328;&#xD2B8;&#xB9AC;&#xC2DC;&#xC544; &#xD2B8;&#xB9AC; &#xD2B9;&#xC9D5;"></a>&#xBA38;&#xD074; &#xD328;&#xD2B8;&#xB9AC;&#xC2DC;&#xC544; &#xD2B8;&#xB9AC; &#xD2B9;&#xC9D5;</h2><ul>
+<li><p><code>Transaction Trie</code>: &#xAC01; &#xBE14;&#xB85D;&#xB9C8;&#xB2E4; &#xD2B8;&#xB79C;&#xC7AD;&#xC158;&#xC744; &#xC704;&#xD55C; &#xBCC4;&#xB3C4;&#xC758; &#xD2B8;&#xB9AC; &#xC874;&#xC7AC;</p>
+</li>
+<li><p><code>Storage Trie</code>: &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0; &#xAD00;&#xB828;&#xB41C; &#xBAA8;&#xB4E0; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC788;&#xB294; &#xD2B8;&#xB9AC;, &#xAC01; &#xACC4;&#xC815;&#xC5D0; &#xC874;&#xC7AC;</p>
+</li>
+<li><p><code>Receipts Trie</code>: &#xBAA8;&#xB4E0; &#xBE14;&#xB85D;&#xC5D0; &#xC800;&#xC7A5;</p>
+</li>
+<li><p><code>State Trie</code>: World State&#xB97C; &#xAC00;&#xC9C0;&#xAE30; &#xC704;&#xD55C; &#xD2B8;&#xB9AC;</p>
+</li>
+</ul>
+<p><br><br></p>
+<h2 id="&#xAD00;&#xB828;-&#xAE30;&#xC220;-&#xBC0F;-&#xC6A9;&#xC5B4;-&#xC815;&#xB9AC;"><a href="#&#xAD00;&#xB828;-&#xAE30;&#xC220;-&#xBC0F;-&#xC6A9;&#xC5B4;-&#xC815;&#xB9AC;" class="headerlink" title="&#xAD00;&#xB828; &#xAE30;&#xC220; &#xBC0F; &#xC6A9;&#xC5B4; &#xC815;&#xB9AC;"></a>&#xAD00;&#xB828; &#xAE30;&#xC220; &#xBC0F; &#xC6A9;&#xC5B4; &#xC815;&#xB9AC;</h2><ul>
+<li><p><code>&#xC5C9;&#xD074; &#xBE14;&#xB85D;</code>: &#xB3D9;&#xC77C;&#xD55C; &#xC2DC;&#xC810;&#xC5D0; &#xCC44;&#xAD74;&#xB41C; &#xBE14;&#xB85D; &#xC911; &#xCC44;&#xAD74; &#xB09C;&#xC774;&#xB3C4;&#xAC00; &#xB0AE;&#xC544; &#xBA54;&#xC778; &#xCCB4;&#xC778;&#xC5D0; &#xC5F0;&#xACB0;&#xB418;&#xC9C0; &#xBABB;&#xD55C; &#xBE14;&#xB85D;</p>
+</li>
+<li><p>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;&#xC5D0; &#xD544;&#xC694;&#xD55C; &#xAC00;&#xC0C1; &#xBA38;&#xC2E0;&#xC740; <code>vagrant &#xB610;&#xB294; docker &#xB4F1;&#xC744; &#xC774;&#xC6A9;</code>&#xD55C;&#xB2E4;.</p>
+</li>
+<li><p><code>EIP</code>: &#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC81C;&#xC548;&#xC0AC;&#xD56D; &#xC815;&#xBCF4;</p>
+</li>
+<li><p><code>Coinbase</code>: &#xD1A0;&#xD070;&#xC758; &#xBCA0;&#xC774;&#xC2A4;&#xAC00; &#xB418;&#xB294; &#xAD6C;&#xC870;</p>
+</li>
+<li><p><code>Geth</code>: Go-Ethereum Client </p>
+</li>
+<li><p><code>&#xB178;&#xB4DC; &#xC5F0;&#xACB0;</code>: add peer&#xB97C; &#xD574;&#xB3C4; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC5F0;&#xACB0;&#xC774; &#xBC14;&#xB85C; &#xB418;&#xC9C0; &#xC54A;&#xC744; &#xC218;&#xB3C4; &#xC788;&#xB2E4;.</p>
+</li>
+</ul>
+<p><br><br></p>
+<h2 id="&#xAE30;&#xD0C0;-&#xC804;&#xBB38;&#xAC00;-&#xC758;&#xACAC;"><a href="#&#xAE30;&#xD0C0;-&#xC804;&#xBB38;&#xAC00;-&#xC758;&#xACAC;" class="headerlink" title="&#xAE30;&#xD0C0; &#xC804;&#xBB38;&#xAC00; &#xC758;&#xACAC;"></a>&#xAE30;&#xD0C0; &#xC804;&#xBB38;&#xAC00; &#xC758;&#xACAC;</h2><ul>
+<li><p>&#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xAC1C;&#xBC1C; &#xD658;&#xACBD;&#xC5D0;&#xC11C; TPS&#xB294; &#xAD6C;&#xC131; &#xD615;&#xD0DC;&#xC5D0; &#xB530;&#xB77C; &#xB9E4;&#xC6B0; &#xBE60;&#xB978; &#xC18D;&#xB3C4; &#xAD6C;&#xD604;&#xB3C4; &#xAC00;&#xB2A5;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC774;&#xBCF4;&#xB2E4;&#xB294; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xC131;(Public or Private)&#xACFC; &#xD569;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC744; &#xC6B0;&#xC120;&#xC801;&#xC778; &#xD3C9;&#xAC00; &#xC9C0;&#xD45C;&#xB85C; &#xBD10;&#xC57C; &#xD55C;&#xB2E4;.</p>
+</li>
+<li><p>&#xC778;&#xD130;&#xB137;&#xC744; &#xD1B5;&#xD574; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xB97C; &#xC5F0;&#xACB0;&#xD558;&#xB294; &#xACFC;&#xC815;&#xC774; &#xD544;&#xC694;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC808;&#xB300;&#xC801;&#xC778; &#xD0C8;&#xC911;&#xC559;&#xD654;&#xB294; &#xBD88;&#xAC00;&#xB2A5;&#xD558;&#xB2E4;.</p>
+<ul>
+<li>&#xC2E4;&#xC9C8;&#xC801;&#xC73C;&#xB85C;&#xB294; &#xBD84;&#xC0B0;&#xD615; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC5D0; &#xAC00;&#xAE5D;&#xB2E4;&#xACE0; &#xBD10;&#xC57C; &#xD55C;&#xB2E4;.</li>
+<li>&#xC644;&#xC804;&#xD788; &#xAD6C;&#xD604;&#xB418;&#xB824;&#xBA74; &#xC804;&#xCCB4;&#xC801;&#xC778; &#xAD6C;&#xC870; &#xBCC0;&#xD654;&#xAC00; &#xD544;&#xC694;&#xD558;&#xB2E4;.</li>
+</ul>
+</li>
+<li><p>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0;&#xC11C; <code>&#xC608;&#xC678;&#xCC98;&#xB9AC;&#xAC00; &#xC798; &#xB418;&#xC5B4; &#xC788;&#xB294; &#xAC83;&#xC774; &#xC0C1;&#xB2F9;&#xD788; &#xC911;&#xC694;</code>&#xD558;&#xB2E4;.</p>
+</li>
+</ul>
+<p><br><br></p>
+<h2 id="&#xCC38;&#xACE0;-&#xC790;&#xB8CC;"><a href="#&#xCC38;&#xACE0;-&#xC790;&#xB8CC;" class="headerlink" title="&#xCC38;&#xACE0; &#xC790;&#xB8CC;"></a>&#xCC38;&#xACE0; &#xC790;&#xB8CC;</h2><ul>
+<li><code>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95; &#xC2E4;&#xC2B5; &#xC790;&#xB8CC;</code>: <a target="_blank" rel="noopener" href="https://github.com/ldh1428a/etheruem">https://github.com/ldh1428a/etheruem</a></li>
+</ul>
+<p><br><br><br></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103251136-c43cdd80-49ba-11eb-8423-52f461c05447.jpg" width="60%"></p>
+</body></html>
+    
+    </div>
+    
+    
+</article>
+
+
+
+
+    
+        <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
             <a href="/2020/01/12/sogang-blockchain-introduction/" itemprop="url">[2019.12.23] 블록체인 입문 교육 - 윤석빈 교수님</a>
         
     </h1>
@@ -1389,54 +1591,6 @@
 <td><strong>95</strong> /100</td>
 </tr>
 </tbody></table>
-</body></html>
-    
-    </div>
-    
-    
-</article>
-
-
-
-
-    
-        <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            <a href="/2019/12/20/sogang-univ-cert/" itemprop="url">[플랜 2020] 서강대학교 대학원 컴퓨터공학 석사과정 합격</a>
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2019-12-20T10:17:00.000Z" itemprop="datePublished">12월 20 2019</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Achievement/">Achievement</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            2분 소요 (약 331 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103190380-065f1400-4914-11eb-8645-074b32dc0fe5.jpg" width="90%"></p>  <br><br><br>
-
-<h2 id="&#xD50C;&#xB79C;-2020-&#xB124;-&#xBC88;&#xC9F8;-&#xB2E4;&#xC12F;-&#xBC88;&#xC9F8;-&#xBAA9;&#xD45C;-&#xC608;&#xBE44;-&#xB2EC;&#xC131;"><a href="#&#xD50C;&#xB79C;-2020-&#xB124;-&#xBC88;&#xC9F8;-&#xB2E4;&#xC12F;-&#xBC88;&#xC9F8;-&#xBAA9;&#xD45C;-&#xC608;&#xBE44;-&#xB2EC;&#xC131;" class="headerlink" title="&#xD50C;&#xB79C; 2020 &#xB124; &#xBC88;&#xC9F8;, &#xB2E4;&#xC12F; &#xBC88;&#xC9F8; &#xBAA9;&#xD45C; &#xC608;&#xBE44; &#xB2EC;&#xC131;"></a>&#xD50C;&#xB79C; 2020 &#xB124; &#xBC88;&#xC9F8;, &#xB2E4;&#xC12F; &#xBC88;&#xC9F8; &#xBAA9;&#xD45C; &#xC608;&#xBE44; &#xB2EC;&#xC131;</h2><br>
-
-<p>&#xD50C;&#xB79C; 2020&#xC758; &#xBAA9;&#xD45C;&#xB97C; &#xC774;&#xC81C; &#xB300;&#xBD80;&#xBD84; &#xB2EC;&#xC131;&#xD574;&#xAC00;&#xACE0; &#xC788;&#xB294; &#xAC83; &#xAC19;&#xB2E4;.  </p>
-<p>&#xB0B4;&#xB144;&#xC5D0; &#xC11C;&#xC6B8;&#xC5D0;&#xC11C; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xC804;&#xBB38;&#xAD50;&#xC721;&#xC744; &#xC774;&#xC218;&#xD558;&#xACE0; &#xCD94;&#xAC00;&#xB85C; &#xC554;&#xD638;&#xD654;&#xD3D0; &#xAE30;&#xC220; &#xC5F0;&#xAD6C; &#xBC0F; &#xC751;&#xC6A9;&#xAE4C;&#xC9C0; &#xD558;&#xB294; &#xAC83;&#xC744; &#xBAA9;&#xD45C;&#xB85C; &#xD50C;&#xB79C; 2020&#xC744; &#xACC4;&#xD68D;&#xD588;&#xB294;&#xB370; &#xADF8; &#xBD80;&#xBD84;&#xC740; &#xC11C;&#xAC15;&#xB300;&#xD559;&#xAD50; &#xB300;&#xD559;&#xC6D0;&#xC744; &#xD1B5;&#xD574; &#xC774;&#xB8F0; &#xC218; &#xC788;&#xC744; &#xAC83; &#xAC19;&#xB2E4;.  </p>
-<p>2019&#xB144; 12&#xC6D4; 7&#xC77C;&#xC5D0; &#xC751;&#xC2DC;&#xD588;&#xB358; &#xC77C;&#xBC18;&#xC804;&#xD615; 2&#xCC28; &#xBA74;&#xC811; &#xC9C4;&#xD589; &#xD6C4; &#xC88B;&#xC9C0; &#xC54A;&#xC740; &#xACB0;&#xACFC;&#xB97C; &#xC5BB;&#xC744; &#xAC83;&#xC73C;&#xB85C; &#xC608;&#xC0C1;&#xD588;&#xC5C8;&#xC9C0;&#xB9CC; &#xC815;&#xB9D0; &#xC6B4;&#xC774; &#xC88B;&#xAC8C;&#xB3C4; &#xD569;&#xACA9;&#xD588;&#xB2E4;.  </p>
-<p>&#xC55E;&#xC73C;&#xB85C; &#xC11C;&#xAC15;&#xB300; &#xC9C0;&#xB2A5;&#xD615; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xC5F0;&#xAD6C;&#xC13C;&#xD130;&#xC640; &#xBC15;&#xC218;&#xC6A9; &#xAD50;&#xC218;&#xB2D8;(&#xC11C;&#xAC15;&#xB300;&#xD559;&#xAD50; &#xCEF4;&#xD4E8;&#xD130;&#xACF5;&#xD559;&#xACFC;, &#xD55C;&#xAD6D;&#xBE14;&#xB85D;&#xCCB4;&#xC778;&#xD559;&#xD68C;&#xC7A5;) &#xC5F0;&#xAD6C;&#xC2E4;&#xC5D0;&#xC11C; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xAD00;&#xB828; &#xAC1C;&#xB150;&#xC744; &#xCC98;&#xC74C;&#xBD80;&#xD130; &#xC0C1;&#xC138;&#xD558;&#xAC8C; &#xBC30;&#xC6B0;&#xACE0;, &#xB2E4;&#xC591;&#xD55C; &#xC751;&#xC6A9; &#xBD84;&#xC57C;&#xB97C; &#xC5F0;&#xAD6C;&#xD558;&#xBA74;&#xC11C; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xC804;&#xBB38;&#xAC00;&#xAC00; &#xB418;&#xB294; &#xAC83;&#xC774; &#xCD5C;&#xC885;&#xC801;&#xC778; &#xBAA9;&#xD45C;&#xC774;&#xB2E4;.  </p>
-<p>&#xACC4;&#xD68D;&#xC744; &#xC138;&#xC6B0;&#xB294; &#xAC83;&#xC774; &#xC790;&#xAE30; &#xAC1C;&#xBC1C;&#xC5D0; &#xB9CE;&#xC740; &#xB3C4;&#xC6C0;&#xC744; &#xC8FC;&#xB294; &#xAC83; &#xAC19;&#xC544; &#xD50C;&#xB79C; 2020 &#xC774;&#xD6C4;&#xC5D0;&#xB3C4; &#xB0B4;&#xAC00; &#xD560; &#xC77C;&#xB4E4;&#xC744; &#xC815;&#xB9AC;&#xD558;&#xBA74;&#xC11C; &#xAFB8;&#xC900;&#xD788; &#xACC4;&#xD68D;&#xC744; &#xC138;&#xC6B0;&#xB3C4;&#xB85D; &#xD574;&#xC57C;&#xACA0;&#xB2E4;.  </p>
-<p><strong>&#xBF51;&#xC544;&#xC8FC;&#xC154;&#xC11C; &#xAC10;&#xC0AC;&#xD569;&#xB2C8;&#xB2E4;! &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xD559;&#xC5C5;&#xC5F0;&#xC7A5;! :)</strong>  <br><br><br><br></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103190383-07904100-4914-11eb-8c90-2d0c57917db3.jpg" width="60%"></p>
 </body></html>
     
     </div>
