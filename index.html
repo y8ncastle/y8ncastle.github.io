@@ -176,15 +176,18 @@
 <ol start="2">
 <li>&#xD130;&#xBBF8;&#xB110;&#xC5D0;&#xC11C; <code>geth</code> &#xC2E4;&#xD589;</li>
 </ol>
-<p><br><br></p>
+<br>
+
 <ol start="3">
-<li><p><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>geth --datadir &quot;&#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85;&quot; account new</code>  </p>
-<ul>
+<li><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>geth --datadir &quot;&#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85;&quot; account new</code>  <ul>
 <li>&#xC774;&#xD6C4; &#xD574;&#xB2F9; &#xD3F4;&#xB354;&#xC5D0; keystore &#xD30C;&#xC77C;&#xACFC; &#xACF5;&#xAC1C;&#xD0A4;&#xAC00; &#xC0DD;&#xC131;&#xB428;</li>
 </ul>
 </li>
-<li><p>Genesis block &#xCF54;&#xB4DC; &#xC791;&#xC131; (&#xC784;&#xC758;&#xC758; .json &#xD30C;&#xC77C; &#xC0DD;&#xC131;)</p>
-</li>
+</ol>
+<br>
+
+<ol start="4">
+<li>Genesis block &#xCF54;&#xB4DC; &#xC791;&#xC131; (&#xC784;&#xC758;&#xC758; .json &#xD30C;&#xC77C; &#xC0DD;&#xC131;)</li>
 </ol>
 <br>
 
@@ -193,12 +196,17 @@
 <br>
 
 <ol start="5">
-<li><p><strong>Genesis Block &#xC0DD;&#xC131;</strong>: &#xACC4;&#xC815; &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9;&#xD55C; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xACC4;&#xC815; &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></p>
-</li>
-<li><p><strong>&#xB178;&#xB4DC; &#xC2E4;&#xD589;</strong>: <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85;</code></p>
-</li>
-<li><p><strong>&#xB178;&#xB4DC; &#xC2E4;&#xD589; &#xBC0F; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC811;&#xC18D;</strong>: <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85; --networkid &#xC22B;&#xC790; console</code></p>
-<ul>
+<li><strong>Genesis Block &#xC0DD;&#xC131;</strong>: &#xACC4;&#xC815; &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9;&#xD55C; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xACC4;&#xC815; &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></li>
+</ol>
+<br>
+
+<ol start="6">
+<li><strong>&#xB178;&#xB4DC; &#xC2E4;&#xD589;</strong>: <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85;</code></li>
+</ol>
+<br>
+
+<ol start="7">
+<li><strong>&#xB178;&#xB4DC; &#xC2E4;&#xD589; &#xBC0F; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC811;&#xC18D;</strong>: <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85; --networkid &#xC22B;&#xC790; console</code><ul>
 <li>&#xC22B;&#xC790;&#xC5D0;&#xB294; &#xBA54;&#xC778;&#xB137;&#xACFC; &#xD14C;&#xC2A4;&#xD2B8;&#xB137;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xD558;&#xB294; 1~4&#xBC88;&#xC744; &#xC81C;&#xC678;&#xD558;&#xACE0; &#xC544;&#xBB34; &#xC22B;&#xC790;&#xB098; &#xB300;&#xC785;</li>
 </ul>
 </li>
@@ -245,22 +253,33 @@
 </ul>
 <p><br><br><br></p>
 <ol start="8">
-<li><p><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>personal.newAccount()</code></p>
-</li>
-<li><p><strong>&#xACC4;&#xC815; &#xD655;&#xC778;</strong>: <code>personal.listWallets</code></p>
-</li>
-<li><p><strong>&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xBC1C;&#xC0DD;</strong>: <code>eth.sendTransaction({from:&quot;&#xBCF4;&#xB0B4;&#xB294; &#xC8FC;&#xC18C;&quot;, to:&quot;&#xBC1B;&#xB294; &#xC8FC;&#xC18C;&quot;, value:&#xC804;&#xC1A1;&#xB7C9;})</code> &#xB610;&#xB294; <code>eth.sendTransaction({from:&#xBCF4;&#xB0B4;&#xB294; &#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, to:&#xBC1B;&#xB294; &#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, value:&#xC804;&#xC1A1;&#xB7C9;})</code></p>
-<ul>
+<li><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>personal.newAccount()</code></li>
+</ol>
+<br>
+
+<ol start="9">
+<li><strong>&#xACC4;&#xC815; &#xD655;&#xC778;</strong>: <code>personal.listWallets</code></li>
+</ol>
+<br>
+
+<ol start="10">
+<li><strong>&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xBC1C;&#xC0DD;</strong>: <code>eth.sendTransaction({from:&quot;&#xBCF4;&#xB0B4;&#xB294; &#xC8FC;&#xC18C;&quot;, to:&quot;&#xBC1B;&#xB294; &#xC8FC;&#xC18C;&quot;, value:&#xC804;&#xC1A1;&#xB7C9;})</code> &#xB610;&#xB294; <code>eth.sendTransaction({from:&#xBCF4;&#xB0B4;&#xB294; &#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, to:&#xBC1B;&#xB294; &#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, value:&#xC804;&#xC1A1;&#xB7C9;})</code><ul>
 <li>&#xCD08;&#xAE30; &#xC124;&#xC815; &#xC2DC; &#xACC4;&#xC815;&#xC774; &#xC7A0;&#xACA8; &#xC788;&#xC74C; (<strong>11&#xBC88;&#xC5D0;&#xC11C; &#xD574;&#xACB0;</strong>)</li>
 </ul>
 </li>
-<li><p><strong>&#xACC4;&#xC815; &#xC7A0;&#xAE08; &#xD574;&#xC81C;</strong>: <code>personal.unlockAccount(&#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, &apos;&#xBE44;&#xBC00;&#xBC88;&#xD638;&apos;)</code> &#xB610;&#xB294; <code>personal.unlockAccount(&quot;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&quot;, &apos;&#xBE44;&#xBC00;&#xBC88;&#xD638;&apos;)</code></p>
-<ul>
+</ol>
+<br>
+
+<ol start="11">
+<li><strong>&#xACC4;&#xC815; &#xC7A0;&#xAE08; &#xD574;&#xC81C;</strong>: <code>personal.unlockAccount(&#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, &apos;&#xBE44;&#xBC00;&#xBC88;&#xD638;&apos;)</code> &#xB610;&#xB294; <code>personal.unlockAccount(&quot;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&quot;, &apos;&#xBE44;&#xBC00;&#xBC88;&#xD638;&apos;)</code><ul>
 <li>&#xC544;&#xC9C1; &#xBE14;&#xB85D;&#xC774; &#xC0DD;&#xC131;&#xB418;&#xC9C0; &#xC54A;&#xC558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBC18;&#xC601;&#xB418;&#xC9C0; &#xC54A;&#xC74C;</li>
 </ul>
 </li>
-<li><p><strong>&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC870;&#xD68C;</strong>: <code>eth.getTransaction(&quot;&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xD574;&#xC2DC;&#xAC12;&quot;)</code></p>
-</li>
+</ol>
+<br>
+
+<ol start="12">
+<li><strong>&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC870;&#xD68C;</strong>: <code>eth.getTransaction(&quot;&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xD574;&#xC2DC;&#xAC12;&quot;)</code></li>
 </ol>
 <ul>
 <li><strong>Pending &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC870;&#xD68C;</strong>: <code>eth.pendingTransactions</code><ul>
@@ -268,17 +287,23 @@
 </ul>
 </li>
 </ul>
+<br>
+
 <ol start="13">
 <li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xBCF4;&#xC0C1;&#xBC1B;&#xC744; &#xC9C0;&#xAC11; &#xD655;&#xC778;</strong>: <code>eth.coinbase</code></li>
 </ol>
 <ul>
 <li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xBCF4;&#xC0C1;&#xBC1B;&#xC744; &#xC9C0;&#xAC11; &#xBCC0;&#xACBD;</strong>: `eth.setEtherbase(&#x201C;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#x201D;)</li>
 </ul>
+<br>
+
 <ol start="14">
-<li><p><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC2DC;&#xC791;</strong>: <code>miner.start()</code></p>
-</li>
-<li><p><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC885;&#xB8CC;</strong>: <code>miner.stop()</code></p>
-</li>
+<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC2DC;&#xC791;</strong>: <code>miner.start()</code></li>
+</ol>
+<br>
+
+<ol start="15">
+<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC885;&#xB8CC;</strong>: <code>miner.stop()</code></li>
 </ol>
 <p><br><br><br></p>
 <h2 id="&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;"><a href="#&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;" class="headerlink" title="&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;"></a>&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;</h2><br>
