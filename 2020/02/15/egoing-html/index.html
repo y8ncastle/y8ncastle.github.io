@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+    <meta charset="utf-8">
+<title>HTML 기초 용어 정리 by 생활코딩 - Zay Jeong Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
+
+
+
+
+<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
+
+
+
+<meta name="keywords" content="IT, Blockchain, Android, Development">
+
+
+
+    <meta name="description" content="&amp;#xC6A9;&amp;#xC5B4; &amp;#xC815;&amp;#xB9AC;     &amp;#xD45C;&amp;#xD604; &amp;#xC774;&amp;#xB984; &amp;#xD0DC;&amp;#xADF8; &amp;#xAE30;&amp;#xB2A5;    &lt;&gt; - &amp;#xC5F4;&amp;#xB9AC;&amp;#xB294; &amp;#xD45C;&amp;#xD604;   &lt;&#x2F;&gt; - &amp;#xB2EB;&amp;#xD788;&amp;#xB">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML 기초 용어 정리 by 생활코딩">
+<meta property="og:url" content="https://y8ncastle.github.io/2020/02/15/egoing-html/index.html">
+<meta property="og:site_name" content="Zay Jeong Blog">
+<meta property="og:description" content="&amp;#xC6A9;&amp;#xC5B4; &amp;#xC815;&amp;#xB9AC;     &amp;#xD45C;&amp;#xD604; &amp;#xC774;&amp;#xB984; &amp;#xD0DC;&amp;#xADF8; &amp;#xAE30;&amp;#xB2A5;    &lt;&gt; - &amp;#xC5F4;&amp;#xB9AC;&amp;#xB294; &amp;#xD45C;&amp;#xD604;   &lt;&#x2F;&gt; - &amp;#xB2EB;&amp;#xD788;&amp;#xB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103329780-bf068e00-4aa1-11eb-8add-ad82f75e5cfb.png">
+<meta property="article:published_time" content="2020-02-15T04:59:00.000Z">
+<meta property="article:modified_time" content="2020-12-31T06:25:24.000Z">
+<meta property="article:author" content="Zay Jeong">
+<meta property="article:tag" content="생활코딩">
+<meta property="article:tag" content="opentutorials">
+<meta property="article:tag" content="HTML">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/103329780-bf068e00-4aa1-11eb-8add-ad82f75e5cfb.png">
+
+
+
+
+
+<link rel="icon" href="/images/favicon/favicon.ico">
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
+<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-168776470-2');
+</script>
+
+
+    
+
+
+<meta name="generator" content="Hexo 5.0.2"></head>
+<body>
+    
+<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item navbar-logo" href="/">
+                
+                <img src="/images/logo.png" alt="" height="28">
+                
+            </a>
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="navbar-menu navbar-start">
+            
+            <a class="navbar-item "
+               href="/about">About</a>
+            
+            <a class="navbar-item "
+               href="/categories">Categories</a>
+            
+            <a class="navbar-item "
+               href="/tags">Tags</a>
+            
+            <a class="navbar-item "
+               href="/archives">Archives</a>
+            
+            <a class="navbar-item "
+               href="/cv">CV</a>
+            
+        </div>
+        
+        <div class="navbar-menu navbar-end">
+            
+            <a class="navbar-item search" title="검색" href="javascript:;">
+                <i class="fas fa-search"></i>
+            </a>
+            
+            
+            
+            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+               
+            
+        </div>
+    </div>
+</nav>
+
+    <section class="section">
+    <div class="container">
+    <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            HTML 기초 용어 정리 by 생활코딩
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        <span class="column is-narrow">
+            <time datetime="2020-02-15T04:59:00.000Z" itemprop="datePublished">2월 15 2020</time>
+        </span>
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/HTML/">HTML</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            9분 소요 (약 1303 단어)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103329780-bf068e00-4aa1-11eb-8add-ad82f75e5cfb.png" width="70%" alt="&#xCD9C;&#xCC98;: &#xC0DD;&#xD65C;&#xCF54;&#xB529; (https://opentutorials.org/)"></p>  <br><br><br>
+
+<h2 id="&#xC6A9;&#xC5B4;-&#xC815;&#xB9AC;"><a href="#&#xC6A9;&#xC5B4;-&#xC815;&#xB9AC;" class="headerlink" title="&#xC6A9;&#xC5B4; &#xC815;&#xB9AC;"></a>&#xC6A9;&#xC5B4; &#xC815;&#xB9AC;</h2><br>
+
+<table>
+<thead>
+<tr>
+<th><strong>&#xD45C;&#xD604;</strong></th>
+<th><strong>&#xC774;&#xB984;</strong></th>
+<th><strong>&#xD0DC;&#xADF8; &#xAE30;&#xB2A5;</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>&lt;&gt;</code></td>
+<td>-</td>
+<td>&#xC5F4;&#xB9AC;&#xB294; &#xD45C;&#xD604;</td>
+</tr>
+<tr>
+<td><code>&lt;/&gt;</code></td>
+<td>-</td>
+<td>&#xB2EB;&#xD788;&#xB294; &#xD45C;&#xD604;</td>
+</tr>
+<tr>
+<td><code>&lt;!doctype html&gt;</code></td>
+<td>-</td>
+<td>&#xC6F9;&#xD398;&#xC774;&#xC9C0;&#xAC00; HTML&#xB85C;&#xC368; &#xB9CC;&#xB4E4;&#xC5B4;&#xC84C;&#xB2E4;&#xB294; &#xAC83;&#xC744; &#xD45C;&#xD604;&#xD558;&#xAE30; &#xC704;&#xD574; &#xBB38;&#xC11C;&#xC758; &#xC2DC;&#xC791;&#xC5D0; &#xC791;&#xC131;&#xD558;&#xB294; &#xD45C;&#xD604;</td>
+</tr>
+<tr>
+<td><code>&lt;html&gt;</code></td>
+<td>-</td>
+<td>Head&#xC640; body &#xD0DC;&#xADF8;&#xB97C; &#xAC10;&#xC2F8;&#xAE30;&#xB85C; &#xC57D;&#xC18D;&#xD55C; &#xD558;&#xB098;&#xC758; &#xD45C;&#xD604;</td>
+</tr>
+<tr>
+<td><code>&lt;head&gt;</code></td>
+<td>-</td>
+<td>&#xBB38;&#xC11C;&#xC758; &#xC18D;&#xC131;&#xC744; &#xC9C0;&#xC815;</td>
+</tr>
+<tr>
+<td><code>&lt;title&gt;</code></td>
+<td>-</td>
+<td>&#xC6F9; &#xBB38;&#xC11C;&#xC758; &#xC81C;&#xBAA9;&#xC744; &#xC124;&#xC815;</td>
+</tr>
+<tr>
+<td><code>&lt;meta charset=&quot;utf-8&quot;&gt;</code></td>
+<td>-</td>
+<td>&#xC6F9;&#xBE0C;&#xB77C;&#xC6B0;&#xC800;&#xC5D0;&#xAC8C; UTF-8 &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xC5F4;&#xB3C4;&#xB85D; &#xD558;&#xB294; &#xD45C;&#xD604;<br>(&#xC6F9;&#xD398;&#xC774;&#xC9C0;&#xC5D0; &#xC800;&#xC7A5;&#xB41C; &#xBB38;&#xC790; &#xD45C;&#xD604; &#xBC29;&#xC2DD;&#xACFC; &#xC6F9;&#xBE0C;&#xB77C;&#xC6B0;&#xC800;&#xAC00; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xD574;&#xC11D;&#xD558;&#xB294;<br>&#xBC29;&#xC2DD;&#xC774; &#xB2E4;&#xB97C; &#xB54C; &#xC774;&#xC0C1;&#xD55C; &#xBB38;&#xC790;&#xB97C; &#xD45C;&#xC2DC;&#xD558;&#xAC8C; &#xB418;&#xB294;&#xB370;, &#xC124;&#xC815;&#xC774; &#xC5C6;&#xC73C;&#xBA74; &#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C;<br>&#xC601;&#xC5B4;&#xAC00; &#xC544;&#xB2CC; &#xBB38;&#xC790;&#xB294; &#xAE68;&#xC838;&#xC11C; &#xB098;&#xC634;)</td>
+</tr>
+<tr>
+<td><code>&lt;body&gt;</code></td>
+<td>-</td>
+<td>&#xBCF8;&#xBB38; &#xB0B4;&#xC6A9; &#xD45C;&#xD604;</td>
+</tr>
+<tr>
+<td><code>&lt;h1&gt; ~ &lt;h6&gt;</code></td>
+<td>Heading</td>
+<td>&#xC81C;&#xBAA9; &#xD45C;&#xD604; (&#xC77C;&#xBC18;&#xC801;&#xC778; &#xD14D;&#xC2A4;&#xD2B8;&#xBCF4;&#xB2E4;&#xB294; &#xAE00;&#xC528;&#xAC00; &#xB450;&#xAECD;&#xACE0; &#xC904;&#xBC14;&#xAFC8;&#xC774; &#xB428;)</td>
+</tr>
+<tr>
+<td><code>&lt;strong&gt;</code></td>
+<td>-</td>
+<td>&#xAE00;&#xC528;&#xB97C; &#xC9C4;&#xD558;&#xAC8C; &#xD568;</td>
+</tr>
+<tr>
+<td><code>&lt;u&gt;</code></td>
+<td>Underline</td>
+<td>&#xBC11;&#xC904; &#xD45C;&#xC2DC;</td>
+</tr>
+<tr>
+<td><code>&lt;br&gt;</code></td>
+<td>-</td>
+<td>&#xC904; &#xBC14;&#xAFC8; (&#xB2EB;&#xD798; &#xD0DC;&#xADF8; &#xC5C6;&#xC74C;)</td>
+</tr>
+<tr>
+<td><code>&lt;p&gt;</code></td>
+<td>Paragraph</td>
+<td>&#xB2E8;&#xB77D; &#xD45C;&#xD604; (&#xD558;&#xB098;&#xC758; &#xB2E8;&#xB77D;&#xC744; &#xADF8;&#xB8F9;&#xD551;)</td>
+</tr>
+<tr>
+<td><code>&lt;li&gt;</code></td>
+<td>List</td>
+<td>&#xBAA9;&#xCC28; &#xD45C;&#xD604; (ul &#xD0DC;&#xADF8;&#xB97C; &#xD544;&#xC694;&#xB85C; &#xD568;)</td>
+</tr>
+<tr>
+<td><code>&lt;ol&gt;</code></td>
+<td>Ordered list</td>
+<td>ul&#xC758; &#xC815;&#xB82C;&#xB41C; &#xD615;&#xD0DC; (&#xC790;&#xB3D9; &#xB118;&#xBC84;&#xB9C1;)</td>
+</tr>
+<tr>
+<td><code>&lt;ul&gt;</code></td>
+<td>Unordered list</td>
+<td>li&#xC758; &#xBD80;&#xBAA8; &#xD0DC;&#xADF8; (li &#xD0DC;&#xADF8;&#xC640; &#xC544;&#xC8FC; &#xBC00;&#xC811;&#xD55C; &#xAD00;&#xACC4;)</td>
+</tr>
+<tr>
+<td><code>&lt;img src=&quot;&#xC704;&#xCE58;&quot;&gt;</code></td>
+<td>-</td>
+<td>&#xC774;&#xBBF8;&#xC9C0; &#xD45C;&#xD604;</td>
+</tr>
+<tr>
+<td><code>&lt;a&gt;</code></td>
+<td>Anchor</td>
+<td>&#xB9C1;&#xD06C; &#xD45C;&#xD604;</td>
+</tr>
+<tr>
+<td><code>&lt;iframe src=&quot;&#xC704;&#xCE58;&quot;&gt;</code></td>
+<td>-</td>
+<td>&#xB3D9;&#xC601;&#xC0C1; &#xD45C;&#xD604;</td>
+</tr>
+</tbody></table>
+<p><br><br><br></p>
+<h2 id="&#xC18D;&#xC131;-&#xC815;&#xB9AC;"><a href="#&#xC18D;&#xC131;-&#xC815;&#xB9AC;" class="headerlink" title="&#xC18D;&#xC131; &#xC815;&#xB9AC;"></a>&#xC18D;&#xC131; &#xC815;&#xB9AC;</h2><br>
+
+<blockquote>
+<p><strong>&#xC18D;&#xC131; (attribute)</strong>: &#xD0DC;&#xADF8;&#xC758; &#xC774;&#xB984;&#xB9CC;&#xC73C;&#xB85C;&#xB294; &#xC815;&#xBCF4;&#xAC00; &#xBD80;&#xC871;&#xD558;&#xC5EC; &#xB9CC;&#xB4E4;&#xC5B4;&#xC9C4; &#xBB38;&#xBC95;</p>
+</blockquote>
+<p><br><br></p>
+<table>
+<thead>
+<tr>
+<th><strong>&#xD0DC;&#xADF8; &#xD45C;&#xD604;</strong></th>
+<th><strong>&#xC18D;&#xC131;&#xBA85;</strong></th>
+<th><strong>&#xC18D;&#xC131; &#xAE30;&#xB2A5;</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>&lt;img&gt;</code></td>
+<td>width=&#x201D;&#xD06C;&#xAE30; &#xD639;&#xC740; &#xD37C;&#xC13C;&#xD2B8; &#xBE44;&#xC728;&#x201D;</td>
+<td>&#xC0AC;&#xC9C4;&#xC758; &#xD06C;&#xAE30; &#xC870;&#xC815;</td>
+</tr>
+<tr>
+<td></td>
+<td>alt=&#x201D;&#xB0B4;&#xC6A9;&#x201D;</td>
+<td>&#xC0AC;&#xC9C4;&#xC774; &#xC5C6;&#xC744; &#xACBD;&#xC6B0; &#xD14D;&#xC2A4;&#xD2B8; &#xB300;&#xCCB4;</td>
+</tr>
+<tr>
+<td><code>&lt;a&gt;</code></td>
+<td>href=&#x201D;&#xC704;&#xCE58;&#x201D; (HyperText Reference)</td>
+<td>&#xD558;&#xC774;&#xD37C;&#xB9C1;&#xD06C; (&#xC774; &#xAC12;&#xC744; &#xCC38;&#xC870;)</td>
+</tr>
+<tr>
+<td></td>
+<td>target=&#x201D;_blank&#x201D;</td>
+<td>&#xD398;&#xC774;&#xC9C0;&#xAC00; &#xC0C8; &#xCC3D;&#xC5D0;&#xC11C; &#xC5F4;&#xB9AC;&#xB3C4;&#xB85D; &#xD568;</td>
+</tr>
+<tr>
+<td></td>
+<td>title=&#x201D;&#xB0B4;&#xC6A9;&#x201D;</td>
+<td>&#xB9C1;&#xD06C;&#xAC00; &#xC5B4;&#xB5A4; &#xB0B4;&#xC6A9;&#xC744; &#xB2F4;&#xACE0; &#xC788;&#xB294;&#xC9C0; &#xD234;&#xD301;&#xC73C;&#xB85C; &#xBCF4;&#xC5EC;&#xC90C;</td>
+</tr>
+<tr>
+<td><code>&lt;iframe&gt;</code></td>
+<td>width=&#x201D;&#xD06C;&#xAE30; &#xD639;&#xC740; &#xD37C;&#xC13C;&#xD2B8; &#xBE44;&#xC728;&#x201D;</td>
+<td>&#xC22B;&#xC790; &#xD06C;&#xAE30;&#xB9CC;&#xD07C; &#xD3ED; &#xC124;&#xC815;</td>
+</tr>
+<tr>
+<td></td>
+<td>height=&#x201D;&#xD06C;&#xAE30; &#xD639;&#xC740; &#xD37C;&#xC13C;&#xD2B8; &#xBE44;&#xC728;&#x201D;</td>
+<td>&#xC22B;&#xC790; &#xD06C;&#xAE30;&#xB9CC;&#xD07C; &#xB192;&#xC774; &#xC124;&#xC815;</td>
+</tr>
+<tr>
+<td></td>
+<td>frameborder=&#x201D;&#xC22B;&#xC790;&#x201D;</td>
+<td>&#xB3D9;&#xC601;&#xC0C1; &#xD14C;&#xB450;&#xB9AC; &#xB450;&#xAED8; &#xC124;&#xC815;</td>
+</tr>
+<tr>
+<td></td>
+<td>allowfullscreen</td>
+<td>&#xC804;&#xCCB4;&#xD654;&#xBA74; &#xC9C0;&#xC6D0;</td>
+</tr>
+</tbody></table>
+<p><br><br><br></p>
+<h2 id="&#xC778;&#xD130;&#xB137;-&#xBC0F;-HTML&#xC758;-&#xC5ED;&#xC0AC;"><a href="#&#xC778;&#xD130;&#xB137;-&#xBC0F;-HTML&#xC758;-&#xC5ED;&#xC0AC;" class="headerlink" title="&#xC778;&#xD130;&#xB137; &#xBC0F; HTML&#xC758; &#xC5ED;&#xC0AC;"></a>&#xC778;&#xD130;&#xB137; &#xBC0F; HTML&#xC758; &#xC5ED;&#xC0AC;</h2><br>
+
+<p>&#xC815;&#xBCF4;&#xC0AC;&#xD68C;&#xC5D0;&#xC11C; HTML&#xC744; &#xC758;&#xBBF8;&#xC5D0; &#xB9DE;&#xAC8C; &#xC798; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xAC83;&#xC740; &#xBE44;&#xC988;&#xB2C8;&#xC2A4;&#xC801;&#xC778; &#xCE21;&#xBA74;&#xC5D0;&#xC11C; &#xB9E4;&#xC6B0; &#xC911;&#xC694;&#xD558;&#xB2E4;.  </p>
+<p>&#xC6F9;&#xC740; &#xBAA8;&#xB4E0; &#xC6B4;&#xC601;&#xCCB4;&#xC81C;&#xC5D0;&#xC11C; &#xB3D9;&#xC791;&#xD558;&#xACE0;, &#xC6F9;&#xD398;&#xC774;&#xC9C0;&#xC758; &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;&#xB294; &#xB204;&#xAD6C;&#xB098; &#xBCFC; &#xC218; &#xC788;&#xC73C;&#xBA70;, &#xC6F9; &#xC790;&#xCCB4;&#xB294; &#xC800;&#xC791;&#xAD8C;&#xC774; &#xC5C6;&#xB294; &#xC21C;&#xC218;&#xD55C; &#xACF5;&#xACF5;&#xC7AC;&#xC774;&#xB2E4;. &#xC6F9;&#xC758; &#xC774;&#xB7EC;&#xD55C; &#xD2B9;&#xC9D5;&#xB4E4;&#xC774; &#xB2E4;&#xB978; &#xAE30;&#xC220;&#xB4E4;&#xACFC; &#xAD6C;&#xBCC4;&#xB418;&#xB294; &#xD2B9;&#xBCC4;&#xD55C; &#xAC83;&#xC73C;&#xB85C; &#xB9CC;&#xB4E0;&#xB2E4;.  </p>
+<p>1990&#xB144;&#xC5D0; &#xC2DC;&#xC791;&#xB41C; &#xC774;&#xD6C4;&#xB85C; &#xACC4;&#xC18D;&#xD574;&#xC11C; &#xAC00;&#xC7A5; &#xC911;&#xC694;&#xD55C; &#xC815;&#xBCF4;&#xAE30;&#xC220;&#xB85C; &#xAD70;&#xB9BC;&#xD558;&#xBA74;&#xC11C; &#xC810;&#xC810; &#xBCF5;&#xC7A1;&#xD574;&#xC84C;&#xACE0;, &#xB2E8;&#xC21C;&#xD788; &#xC9C0;&#xC2DD;&#xC5D0; &#xB300;&#xD55C; &#xC18C;&#xBE44;&#xC790;&#xB85C; &#xC0B4; &#xAC83;&#xC774; &#xC544;&#xB2C8;&#xB77C;&#xBA74; &#xCEF4;&#xD4E8;&#xD130;, &#xC778;&#xD130;&#xB137;, &#xC6F9;&#xACFC; &#xAC19;&#xC774; &#xD601;&#xC2E0;&#xC801;&#xC778; &#xAC83;&#xC744; &#xB9CC;&#xB4E4;&#xAE30; &#xC704;&#xD574; &#xC6F9;&#xC758; &#xC5ED;&#xC0AC;&#xB97C; &#xC54C;&#xC544;&#xC57C; &#xD55C;&#xB2E4;.  </p>
+<p>&#xC6F9;&#xC740; &#xC778;&#xD130;&#xB137;&#xC758; &#xBD80;&#xBD84;&#xC9D1;&#xD569;&#xC774;&#xBA70;, &#xC6F9;&#xACFC; &#xB3D9;&#xAE09;&#xC778; &#xAE30;&#xC220;&#xC774; &#xBCC4;&#xCC98;&#xB7FC; &#xB9CE;&#xC774; &#xC788;&#xAE30;&#xB3C4; &#xD558;&#xB2E4;.  </p>
+<p>&#xBBF8;&#xAD6D;&#xC5D0;&#xC11C; 1960&#xB144;&#xB300; &#xD575;&#xACF5;&#xACA9;&#xC774; &#xC77C;&#xC5B4;&#xB0AC;&#xC744; &#xB54C; &#xD1B5;&#xC2E0; &#xC2DC;&#xC2A4;&#xD15C;&#xC5D0; &#xC2EC;&#xAC01;&#xD55C; &#xCDE8;&#xC57D;&#xC810;&#xC774; &#xC788;&#xB2E4;&#xB294; &#xAC83;&#xC744; &#xBC1C;&#xACAC;&#xD558;&#xACE0; &#xC911;&#xC559;&#xC9D1;&#xC911;&#xC801;&#xC778; &#xD1B5;&#xC2E0; &#xC2DC;&#xC2A4;&#xD15C;&#xC744; &#xBD84;&#xC0B0;&#xB41C; &#xD615;&#xD0DC;&#xC758; &#xD1B5;&#xC2E0; &#xC2DC;&#xC2A4;&#xD15C;&#xC73C;&#xB85C; &#xBC14;&#xAFB8;&#xB294; &#xAD6C;&#xC0C1;&#xC744; &#xD558;&#xC600;&#xACE0;, &#xC774;&#xB294; &#xC778;&#xD130;&#xB137;&#xC758; &#xC2DC;&#xC791;&#xC774;&#xC5C8;&#xB2E4;.  </p>
+<p>&#xC218;&#xB9CE;&#xC740; &#xD1B5;&#xC2E0; &#xC7A5;&#xCE58;&#xB4E4;&#xC774; &#xAC01;&#xC790; &#xC77C;&#xC885;&#xC758; &#xC804;&#xD654;&#xAD6D; &#xC5ED;&#xD560;&#xC744; &#xD558;&#xB294; &#xC0C1;&#xD638;&#xBD80;&#xC870; &#xC2DC;&#xC2A4;&#xD15C;&#xC774; &#xC778;&#xD130;&#xB137;&#xC774;&#xBA70;, &#xC911;&#xC559;&#xC740; &#xC5C6;&#xB2E4;.  </p>
+<p>&#xB610;&#xD55C; &#xC6F9;&#xC740; &#xC2A4;&#xC704;&#xC2A4;&#xC5D0;&#xC11C; &#xCC98;&#xC74C;&#xC73C;&#xB85C; &#xD0C4;&#xC0DD;&#xD558;&#xC600;&#xB294;&#xB370;, &#xC81C;&#xB124;&#xBC14;&#xC758; &#xC720;&#xB7FD; &#xC785;&#xC790;&#xBB3C;&#xB9AC;&#xC5F0;&#xAD6C;&#xC18C;(CERN)&#xB77C;&#xB294; &#xC800;&#xBA85;&#xD55C; &#xC5F0;&#xAD6C;&#xC18C;&#xC5D0;&#xC11C; &#xD300; &#xBC84;&#xB108;&#xC2A4; &#xB9AC;&#xC5D0; &#xC758;&#xD574; &#xCC3D;&#xC2DC;&#xB418;&#xC5C8;&#xB2E4;.  </p>
+<br>
+
+<blockquote>
+<p><strong>&#xC138;&#xACC4; &#xCD5C;&#xCD08;&#xC758; &#xC6F9; &#xD398;&#xC774;&#xC9C0;</strong>: <a target="_blank" rel="noopener" href="http://info.cern.ch/">http://info.cern.ch</a></p>
+</blockquote>
+<br>
+
+<p>&#xC778;&#xD130;&#xB137;&#xC774; &#xB3D9;&#xC791;&#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C;&#xB294; &#xCEF4;&#xD4E8;&#xD130;&#xAC00; &#xCD5C;&#xC18C; 2&#xB300;&#xAC00; &#xC788;&#xC5B4;&#xC57C; &#xD558;&#xBA70;, 1&#xB300;&#xB9CC; &#xC788;&#xB2E4;&#xBA74; &#xADF8;&#xAC83;&#xC740; &#xC778;&#xD130;&#xB137;&#xC774; &#xC544;&#xB2C8;&#xACE0;, 3&#xB300;&#xAC00; &#xC788;&#xB2E4;&#xBA74; &#xBCF8;&#xC9C8;&#xC801;&#xC774;&#xB77C;&#xACE0; &#xD560; &#xC218; &#xC5C6;&#xB2E4;. &#xC6F9; &#xBE0C;&#xB77C;&#xC6B0;&#xC800;&#xB294; &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8;&#xC5D0;&#xC11C; &#xB3D9;&#xC791;&#xD558;&#xBA70; &#xC6F9; &#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8;(&#xC694;&#xCCAD;&#xD558;&#xB294; &#xCEF4;&#xD4E8;&#xD130;)&#xB77C;&#xACE0; &#xD55C;&#xB2E4;. &#xBC18;&#xB300;&#xB85C; &#xC6F9; &#xC11C;&#xBC84;&#xB294; &#xC11C;&#xBC84; &#xCEF4;&#xD4E8;&#xD130;&#xC774;&#xBA70; &#xC6F9;&#xC11C;&#xBC84;(&#xC751;&#xB2F5;&#xD558;&#xB294; &#xCEF4;&#xD4E8;&#xD130;)&#xB77C;&#xACE0; &#xBD80;&#xB978;&#xB2E4;.  </p>
+<p>Github&#xAC00; &#xC81C;&#xACF5;&#xD558;&#xB294; &#xC5EC;&#xB7EC; &#xAE30;&#xB2A5; &#xC911; &#xC6F9;&#xD638;&#xC2A4;&#xD305; &#xAE30;&#xB2A5;&#xC744; &#xC774;&#xC6A9;&#xD574; &#xD648;&#xD398;&#xC774;&#xC9C0;&#xB97C; &#xC6B4;&#xC601;&#xD560; &#xC218; &#xC788;&#xC73C;&#xBA70;, &#xC774;&#xB294; &#xD398;&#xC774;&#xC9C0; &#xAE30;&#xB2A5;&#xC744; &#xD65C;&#xC131;&#xD654;&#xD588;&#xC744; &#xB54C; &#xB3D9;&#xC791;&#xD55C;&#xB2E4;.  </p>
+<p>HTML&#xC740; &#xC6F9;&#xBE0C;&#xB77C;&#xC6B0;&#xC800;&#xAC00; &#xD574;&#xC11D;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC11C;&#xBC84;&#xC5D0;&#xC11C;&#xB294; &#xD2B9;&#xBCC4;&#xD788; &#xD574;&#xC904; &#xC77C;&#xC774; &#xC5C6;&#xACE0;, &#xC774;&#xB7EC;&#xD55C; &#xD2B9;&#xC131;&#xC744; &#xC815;&#xC801;(static)&#xC774;&#xB77C;&#xACE0; &#xD55C;&#xB2E4;. &#xD604;&#xC7AC;&#xB294; php, Python, Ruby, Java &#xB4F1;&#xC744; &#xD1B5;&#xD574; &#xB3D9;&#xC801;(dynamic) &#xC6F9;&#xD398;&#xC774;&#xC9C0;&#xB3C4; &#xAD6C;&#xD604;&#xD560; &#xC218; &#xC788;&#xB2E4;.  <br><br><br></p>
+<h2 id="&#xD14C;&#xC2A4;&#xD2B8;-&#xCF54;&#xB4DC;"><a href="#&#xD14C;&#xC2A4;&#xD2B8;-&#xCF54;&#xB4DC;" class="headerlink" title="&#xD14C;&#xC2A4;&#xD2B8; &#xCF54;&#xB4DC;"></a>&#xD14C;&#xC2A4;&#xD2B8; &#xCF54;&#xB4DC;</h2><br>
+
+<figure class="highlight html hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span></span><br><span class="line">  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Egoing test page<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span></span><br><span class="line">  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span></span><br><span class="line">  <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Html<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></span><br><span class="line">  <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>CSS<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></span><br><span class="line">  <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>JavaScript<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></span><br><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>HTML<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span></span><br><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://www.w3.org/TR/html5/&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span> <span class="hljs-attr">title</span>=<span class="hljs-string">&quot;html5 specification&quot;</span>&gt;</span>Hypertext Markup Language (HTML) is the standard markup language for <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>creating <span class="hljs-tag">&lt;<span class="hljs-name">u</span>&gt;</span>web<span class="hljs-tag">&lt;/<span class="hljs-name">u</span>&gt;</span> pages<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span> and web applications.Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span><br><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;margin-top:45px;&quot;</span>&gt;</span>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;560&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;315&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://www.youtube.com/embed/jSJM9iOiQ1g&quot;</span> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">&quot;10&quot;</span> <span class="hljs-attr">allowfullscreen</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><br><br><br></p>
+<blockquote>
+<p><strong>&#xCD9C;&#xCC98;</strong>: &#xC0DD;&#xD65C;&#xCF54;&#xB529; (<a target="_blank" rel="noopener" href="https://opentutorials.org/course/3084">https://opentutorials.org/course/3084</a>)</p>
+</blockquote>
+</body></html>
+    
+    </div>
+    
+    <div class="columns is-variable is-1 is-multiline is-mobile">
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/">#생활코딩</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/opentutorials/">#opentutorials</a></span>
+    
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/HTML/">#HTML</a></span>
+    
+    </div>
+    
+    
+    <div class="columns is-mobile is-multiline article-nav">
+        <span class="column is-12-mobile is-half-desktop is-hidden-mobile article-nav-prev">
+            
+        </span>
+        <span class="column is-12-mobile is-half-desktop  article-nav-next">
+            
+            <a href="/2020/02/15/kcse-2020/">[2020.02.03-02.05] KCSE 2020 (한국 소프트웨어공학 학술대회)</a>
+            
+        </span>
+    </div>
+    
+</article>
+
+
+<div class="sharebox">
+    
+<div class="sharethis-inline-share-buttons"></div>
+<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
+
+</div>
+
+
+
+<div class="comments">
+    <h3 class="title is-4">댓글</h3>
+    
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://y8ncastle.github.io/2020/02/15/egoing-html/';
+        this.page.identifier = '2020/02/15/egoing-html/';
+        
+        this.language = 'ko';
+        
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<div id="disqus_thread">
+    
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="columns content">
+            <div class="column is-narrow has-text-centered">
+                &copy; 2021 Zay Jeong&nbsp;
+                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
+                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
+
+            
+            <div class="column is-narrow">
+                <div class="columns is-mobile is-multiline is-centered">
+                
+                    
+                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
+                    
+                    GitHub
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
+                    
+                    LinkedIn
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
+                    
+                    Instagram
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
+                    
+                    Facebook
+                    
+                </a>
+                
+                    
+                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
+                    
+                    BOJ
+                    
+                </a>
+                
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+
+<!-- test if the browser is outdated -->
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // plugin function, place inside DOM ready function
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        })
+    });
+</script>
+
+<script>
+    window.FontAwesomeConfig = {
+        searchPseudoElements: true
+    }
+    moment.locale("ko");
+</script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+</script>
+
+    
+    
+    
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            if (typeof($.fn.lightGallery) === 'function') {
+                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof($.fn.justifiedGallery) === 'function') {
+                $('.justified-gallery').justifiedGallery();
+            }
+        });
+    })(jQuery);
+</script>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <style>
+        .hljs {
+            position: relative;
+        }
+
+        .hljs .clipboard-btn {
+            float: right;
+            color: #9a9a9a;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hljs .clipboard-btn:hover {
+          color: #8a8a8a;
+        }
+
+        .hljs > .clipboard-btn {
+            display: none;
+            position: absolute;
+            right: 4px;
+            top: 4px;
+        }
+
+        .hljs:hover > .clipboard-btn {
+            display: inline;
+        }
+
+        .hljs > figcaption > .clipboard-btn {
+            margin-right: 4px;
+        }
+    </style>
+    <script>
+      $(document).ready(function () {
+        $('figure.hljs').each(function(i, figure) {
+          var codeId = 'code-' + i;
+          var code = figure.querySelector('.code');
+          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
+          code.id = codeId;
+          copyButton.addClass('clipboard-btn');
+          copyButton.attr('data-clipboard-target-id', codeId);
+
+          var figcaption = figure.querySelector('figcaption');
+
+          if (figcaption) {
+            figcaption.append(copyButton[0]);
+          } else {
+            figure.prepend(copyButton[0]);
+          }
+        })
+
+        var clipboard = new ClipboardJS('.clipboard-btn', {
+          target: function(trigger) {
+            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
+          }
+        });
+        clipboard.on('success', function(e) {
+          e.clearSelection();
+        })
+      })
+    </script>
+
+    
+    
+
+    
+
+
+
+<script src="/js/script.js"></script>
+
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '글',
+                PAGES: '페이지',
+                CATEGORIES: '카테고리 목록',
+                TAGS: '태그 목록',
+                UNTITLED: '(제목없음)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+    
+</body>
+</html>
