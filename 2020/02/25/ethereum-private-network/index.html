@@ -30,7 +30,7 @@
 <meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332372-021a2e80-4aad-11eb-94ef-eec119b905f9.png">
 <meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332370-00e90180-4aad-11eb-9805-b7b8ca0d0993.png">
 <meta property="article:published_time" content="2020-02-25T08:27:00.000Z">
-<meta property="article:modified_time" content="2021-01-03T08:06:09.720Z">
+<meta property="article:modified_time" content="2021-01-03T08:08:25.277Z">
 <meta property="article:author" content="Zay Jeong">
 <meta property="article:tag" content="블록체인">
 <meta property="article:tag" content="blockchain">
@@ -323,10 +323,12 @@
 <h2 id="&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;"><a href="#&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;" class="headerlink" title="&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;"></a>&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;</h2><br>
 
 <ol>
-<li><p>&#xAC01; &#xB178;&#xB4DC;&#xB97C; &#xAD6C;&#xC131;&#xD560; &#xC0C8;&#xB85C;&#xC6B4; &#xD3F4;&#xB354; <code>node1 ~ node4</code>&#xB97C; &#xB9CC;&#xB4E4;&#xACE0; &#xAC01;&#xAC01; &#xACC4;&#xC815; &#xC0DD;&#xC131;</p>
-</li>
-<li><p>Genesis block &#xCF54;&#xB4DC; &#xC791;&#xC131; (&#xC784;&#xC758;&#xC758; .json &#xD30C;&#xC77C; &#xC0DD;&#xC131;)</p>
-</li>
+<li>&#xAC01; &#xB178;&#xB4DC;&#xB97C; &#xAD6C;&#xC131;&#xD560; &#xC0C8;&#xB85C;&#xC6B4; &#xD3F4;&#xB354; <code>node1 ~ node4</code>&#xB97C; &#xB9CC;&#xB4E4;&#xACE0; &#xAC01;&#xAC01; &#xACC4;&#xC815; &#xC0DD;&#xC131;</li>
+</ol>
+<br>
+
+<ol start="2">
+<li>Genesis block &#xCF54;&#xB4DC; &#xC791;&#xC131; (&#xC784;&#xC758;&#xC758; .json &#xD30C;&#xC77C; &#xC0DD;&#xC131;)</li>
 </ol>
 <br>
 
@@ -335,39 +337,71 @@
 <br>
 
 <ol start="3">
-<li><p>Genesis block &#xD30C;&#xC77C;&#xC744; &#xAC01; &#xB178;&#xB4DC; &#xD3F4;&#xB354;&#xC5D0; &#xBCF5;&#xC0AC;</p>
-</li>
-<li><p>&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></p>
-</li>
-<li><p><strong>&#xB178;&#xB4DC;1 &#xAD6C;&#xB3D9;</strong>: <code>geth --networkid &#xC55E;&#xC5D0;&#xC11C; &#xC124;&#xC815;&#xD55C; &#xC22B;&#xC790; --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; --rpc --rpcport 8545 --rpcaddr &quot;0.0.0.0&quot; --rpccorsdomain &quot;*&quot; --rpcapi &quot;admin,db,eth,debug,miner,net,shh,txpool,personal,web3&quot; --port 30303 --allow-insecure-unlock console</code></p>
-</li>
-<li><p>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;1&#xC5D0;&#xC11C; &#xB178;&#xB4DC;2 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;</p>
-<ul>
+<li>Genesis block &#xD30C;&#xC77C;&#xC744; &#xAC01; &#xB178;&#xB4DC; &#xD3F4;&#xB354;&#xC5D0; &#xBCF5;&#xC0AC;</li>
+</ol>
+<br>
+
+<ol start="4">
+<li>&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></li>
+</ol>
+<br>
+
+<ol start="5">
+<li><strong>&#xB178;&#xB4DC;1 &#xAD6C;&#xB3D9;</strong>: <code>geth --networkid &#xC55E;&#xC5D0;&#xC11C; &#xC124;&#xC815;&#xD55C; &#xC22B;&#xC790; --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; --rpc --rpcport 8545 --rpcaddr &quot;0.0.0.0&quot; --rpccorsdomain &quot;*&quot; --rpcapi &quot;admin,db,eth,debug,miner,net,shh,txpool,personal,web3&quot; --port 30303 --allow-insecure-unlock console</code></li>
+</ol>
+<br>
+
+<ol start="6">
+<li>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;1&#xC5D0;&#xC11C; &#xB178;&#xB4DC;2 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;<ul>
 <li>&#xB2E8;, &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85;&#xC740; <code>&#xB178;&#xB4DC;2 &#xD3F4;&#xB354;&#xBA85;</code>&#xC73C;&#xB85C;, rpcport&#xB294; 8545&#xC5D0;&#xC11C; <code>8546</code>&#xC73C;&#xB85C;, port&#xB294; 30303&#xC5D0;&#xC11C; <code>30304 --ipcdisable</code>&#xB85C; &#xAD50;&#xCCB4;</li>
 </ul>
 </li>
-<li><p>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;2&#xC5D0;&#xC11C; &#xB178;&#xB4DC;3 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;</p>
-<ul>
+</ol>
+<br>
+
+<ol start="7">
+<li>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;2&#xC5D0;&#xC11C; &#xB178;&#xB4DC;3 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;<ul>
 <li>&#xB2E8;, &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85;&#xC740; <code>&#xB178;&#xB4DC;3 &#xD3F4;&#xB354;&#xBA85;</code>&#xC73C;&#xB85C;, rpcport&#xB294; 8545&#xC5D0;&#xC11C; <code>8547</code>&#xC73C;&#xB85C;, port&#xB294; 30303&#xC5D0;&#xC11C; <code>30305 --ipcdisable</code>&#xB85C; &#xAD50;&#xCCB4;</li>
 </ul>
 </li>
-<li><p>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;3&#xC5D0;&#xC11C; &#xB178;&#xB4DC;4 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;</p>
-<ul>
+</ol>
+<br>
+
+<ol start="8">
+<li>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;3&#xC5D0;&#xC11C; &#xB178;&#xB4DC;4 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;<ul>
 <li>&#xB2E8;, &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85;&#xC740; <code>&#xB178;&#xB4DC;4 &#xD3F4;&#xB354;&#xBA85;</code>&#xC73C;&#xB85C;, rpcport&#xB294; 8545&#xC5D0;&#xC11C; <code>8548</code>&#xC73C;&#xB85C;, port&#xB294; 30303&#xC5D0;&#xC11C; <code>30306 --ipcdisable</code>&#xB85C; &#xAD50;&#xCCB4;</li>
 </ul>
 </li>
-<li><p>&#xB178;&#xB4DC;1 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD55C; &#xD6C4; <code>admin</code></p>
-</li>
-<li><p>admin &#xC815;&#xBCF4;&#xC5D0;&#xC11C; &#xB098;&#xC624;&#xB294; <strong>enode</strong> &#xAC12; &#xBCF5;&#xC0AC;</p>
-</li>
-<li><p>&#xB178;&#xB4DC;2, 3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;1&#xC758; enode&#xAC12;&quot;)</code> </p>
-</li>
-<li><p>&#xB178;&#xB4DC;3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;2&#xC758; enode&#xAC12;&quot;)</code></p>
-</li>
-<li><p>&#xB178;&#xB4DC;4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;3&#xC758; enode&#xAC12;&quot;)</code></p>
-</li>
-<li><p>&#xB178;&#xB4DC; &#xAC04; &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC804;&#xC1A1; &#xBC0F; &#xBE14;&#xB85D; &#xC0DD;&#xC131;</p>
-</li>
+</ol>
+<br>
+
+<ol start="9">
+<li>&#xB178;&#xB4DC;1 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD55C; &#xD6C4; <code>admin</code></li>
+</ol>
+<br>
+
+<ol start="10">
+<li>admin &#xC815;&#xBCF4;&#xC5D0;&#xC11C; &#xB098;&#xC624;&#xB294; <strong>enode</strong> &#xAC12; &#xBCF5;&#xC0AC;</li>
+</ol>
+<br>
+
+<ol start="11">
+<li>&#xB178;&#xB4DC;2, 3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;1&#xC758; enode&#xAC12;&quot;)</code> </li>
+</ol>
+<br>
+
+<ol start="12">
+<li>&#xB178;&#xB4DC;3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;2&#xC758; enode&#xAC12;&quot;)</code></li>
+</ol>
+<br>
+
+<ol start="13">
+<li>&#xB178;&#xB4DC;4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;3&#xC758; enode&#xAC12;&quot;)</code></li>
+</ol>
+<br>
+
+<ol start="14">
+<li>&#xB178;&#xB4DC; &#xAC04; &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC804;&#xC1A1; &#xBC0F; &#xBE14;&#xB85D; &#xC0DD;&#xC131;</li>
 </ol>
 <p><br><br><br></p>
 <h2 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;</h2><br>
@@ -643,14 +677,22 @@
 <h2 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;</h2><br>
 
 <ol>
-<li><p><strong>&#xBA54;&#xD0C0;&#xB9C8;&#xC2A4;&#xD06C; &#xC124;&#xCE58;</strong> - <a target="_blank" rel="noopener" href="https://metamask.io/">https://metamask.io</a></p>
-</li>
-<li><p>&#xBA54;&#xD0C0;&#xB9C8;&#xC2A4;&#xD06C; &#xACC4;&#xC815; &#xC0DD;&#xC131; &#xD6C4; <strong>Ropsten &#xD14C;&#xC2A4;&#xD2B8;&#xB137; faucet</strong> &#xC0AC;&#xC774;&#xD2B8;&#xB85C;&#xBD80;&#xD130; 1 &#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC218;&#xB839; - <a target="_blank" rel="noopener" href="https://faucet.ropsten.be/">https://faucet.ropsten.be/</a></p>
-</li>
-<li><p><code>Remix</code> - <code>Deploy &amp; Run Transactions</code> - <code>Environment</code>&#xC5D0;&#xC11C; <code>Injected Web3</code> &#xC120;&#xD0DD;</p>
-</li>
-<li><p>Solidity &#xD30C;&#xC77C; &#xC791;&#xC131; &#xD6C4; &#xCEF4;&#xD30C;&#xC77C;&#xB7EC;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xACE0; &#xCEF4;&#xD30C;&#xC77C;</p>
-</li>
+<li><strong>&#xBA54;&#xD0C0;&#xB9C8;&#xC2A4;&#xD06C; &#xC124;&#xCE58;</strong> - <a target="_blank" rel="noopener" href="https://metamask.io/">https://metamask.io</a></li>
+</ol>
+<br>
+
+<ol start="2">
+<li>&#xBA54;&#xD0C0;&#xB9C8;&#xC2A4;&#xD06C; &#xACC4;&#xC815; &#xC0DD;&#xC131; &#xD6C4; <strong>Ropsten &#xD14C;&#xC2A4;&#xD2B8;&#xB137; faucet</strong> &#xC0AC;&#xC774;&#xD2B8;&#xB85C;&#xBD80;&#xD130; 1 &#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC218;&#xB839; - <a target="_blank" rel="noopener" href="https://faucet.ropsten.be/">https://faucet.ropsten.be/</a></li>
+</ol>
+<br>
+
+<ol start="3">
+<li><code>Remix</code> - <code>Deploy &amp; Run Transactions</code> - <code>Environment</code>&#xC5D0;&#xC11C; <code>Injected Web3</code> &#xC120;&#xD0DD;</li>
+</ol>
+<br>
+
+<ol start="4">
+<li>Solidity &#xD30C;&#xC77C; &#xC791;&#xC131; &#xD6C4; &#xCEF4;&#xD30C;&#xC77C;&#xB7EC;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xACE0; &#xCEF4;&#xD30C;&#xC77C;</li>
 </ol>
 <br>
 
