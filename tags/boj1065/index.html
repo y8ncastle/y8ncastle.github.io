@@ -1,445 +1,61 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-<head>
-    <meta charset="utf-8">
-<title>태그: BOJ1065 - Zay Jeong Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
-
-
-
-
-<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
-
-
-
-<meta name="keywords" content="IT, Blockchain, Android, Development">
-
-
-
-    <meta name="description" content="Zay Jeong&#39;s IT Blog (Personal Development)">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Zay Jeong Blog">
-<meta property="og:url" content="https://y8ncastle.me/tags/BOJ1065/index.html">
-<meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="Zay Jeong&#39;s IT Blog (Personal Development)">
-<meta property="og:locale" content="ko_KR">
-<meta property="article:author" content="Zay Jeong">
-<meta property="article:tag" content="IT, Blockchain, Android, Development">
-<meta name="twitter:card" content="summary">
-
-
-
-
-
-<link rel="icon" href="/images/favicon/favicon.ico">
-
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>태그: BOJ1065 - Zay Jeong Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Zay (Yoonsung), Jeong"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zay (Yoonsung), Jeong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Zay Jeong&amp;#39;s IT Blog (Personal Development)"><meta property="og:type" content="blog"><meta property="og:title" content="Zay Jeong Blog"><meta property="og:url" content="https://y8ncastle.me/"><meta property="og:site_name" content="Zay Jeong Blog"><meta property="og:description" content="Zay Jeong&amp;#39;s IT Blog (Personal Development)"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://y8ncastle.me/img/og_image.png"><meta property="article:author" content="Zay Jeong"><meta property="article:tag" content="IT, Blockchain, Android, Development"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://y8ncastle.me"},"headline":"Zay Jeong Blog","image":["https://y8ncastle.me/img/og_image.png"],"author":{"@type":"Person","name":"Zay Jeong"},"description":"Zay Jeong&#39;s IT Blog (Personal Development)"}</script><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168776470-2');
-</script>
-
-
-    
-
-
-<meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-    
-<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
-                
-                <img src="/images/logo.png" alt="" height="28">
-                
-            </a>
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="navbar-menu navbar-start">
-            
-            <a class="navbar-item "
-               href="/about">About</a>
-            
-            <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item "
-               href="/tags">Tags</a>
-            
-            <a class="navbar-item "
-               href="/archives">Archives</a>
-            
-            <a class="navbar-item "
-               href="/cv">CV</a>
-            
-        </div>
-        
-        <div class="navbar-menu navbar-end">
-            
-            <a class="navbar-item search" title="검색" href="javascript:;">
-                <i class="fas fa-search"></i>
-            </a>
-            
-            
-            
-            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-               
-            
-        </div>
-    </div>
-</nav>
-
-    <section class="section section-heading">
-    <div class="container">
-        <div class="content">
-            <h5>#BOJ1065</h5>
-        </div>
-    </div>
-</section>
-<section class="section">
-    <div class="container">
-    
-        <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            <a href="/2018/04/06/boj-1065-c/" itemprop="url">[백준] 1065 - 한수</a>
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2018-04-06T07:44:00.000Z" itemprop="datePublished">4월 6 2018</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            8분 소요 (약 1209 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/90307506-b27a0280-df11-11ea-84cf-87ade4d0f98d.png" width="50%"></p>
+        gtag('config', 'UA-168776470-2');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.0.2"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">홈</a><a class="navbar-item" href="/about">CV</a><a class="navbar-item" href="/categories">카테고리</a><a class="navbar-item" href="/archives">타임라인</a><a class="navbar-item" href="/tags">태그 모음</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/tags">태그</a></li><li class="is-active"><a href="#" aria-current="page">BOJ1065</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2018-04-06T07:44:00.000Z" title="2018. 4. 6. 오후 4:44:00">2018-04-06</time>&nbsp;최초 게시 됨</span><span class="level-item"><time dateTime="2021-01-08T06:00:52.000Z" title="2021. 1. 8. 오후 3:00:52">2021-01-08</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Baekjoon-Online-Judge/">Baekjoon Online Judge</a></span><span class="level-item">8분 소요 (약 1209 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2018/04/06/boj-1065-c/">[백준] 1065 - 한수</a></h1><div class="content"><p align="center"><img src="https://user-images.githubusercontent.com/52089296/90307506-b27a0280-df11-11ea-84cf-87ade4d0f98d.png" width="50%"></p>
 
 <p><br><br></p>
-<h3 id="&#xBB38;&#xC81C;-&#xD480;&#xC774;-&#xC815;&#xBCF4;"><a href="#&#xBB38;&#xC81C;-&#xD480;&#xC774;-&#xC815;&#xBCF4;" class="headerlink" title="&#xBB38;&#xC81C; &#xD480;&#xC774; &#xC815;&#xBCF4;"></a>&#xBB38;&#xC81C; &#xD480;&#xC774; &#xC815;&#xBCF4;</h3><hr>
+<h3 id="문제-풀이-정보"><a href="#문제-풀이-정보" class="headerlink" title="문제 풀이 정보"></a>문제 풀이 정보</h3><hr>
 <ul>
-<li>&#xBC31;&#xC900; &#xC628;&#xB77C;&#xC778; &#xC800;&#xC9C0; - <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/1065">1065, &#xD55C;&#xC218;</a></li>
-<li><strong>&#xD480;&#xC774; &#xC5B8;&#xC5B4;</strong>: <code>C</code></li>
+<li>백준 온라인 저지 - <a target="_blank" rel="noopener" href="https://www.acmicpc.net/problem/1065">1065, 한수</a></li>
+<li><strong>풀이 언어</strong>: <code>C</code></li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xBB38;&#xC81C;"><a href="#&#xBB38;&#xC81C;" class="headerlink" title="&#xBB38;&#xC81C;"></a>&#xBB38;&#xC81C;</h3><p>&#xC5B4;&#xB5A4; &#xC591;&#xC758; &#xC815;&#xC218; X&#xC758; &#xC790;&#xB9AC;&#xC218;&#xAC00; &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC744; &#xC774;&#xB8EC;&#xB2E4;&#xBA74;, &#xADF8; &#xC218;&#xB97C; &#xD55C;&#xC218;&#xB77C;&#xACE0; &#xD55C;&#xB2E4;. &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC740; &#xC5F0;&#xC18D;&#xB41C; &#xB450; &#xAC1C;&#xC758; &#xC218;&#xC758; &#xCC28;&#xC774;&#xAC00; &#xC77C;&#xC815;&#xD55C; &#xC218;&#xC5F4;&#xC744; &#xB9D0;&#xD55C;&#xB2E4;. N&#xC774; &#xC8FC;&#xC5B4;&#xC84C;&#xC744; &#xB54C;, 1&#xBCF4;&#xB2E4; &#xD06C;&#xAC70;&#xB098; &#xAC19;&#xACE0;, N&#xBCF4;&#xB2E4; &#xC791;&#xAC70;&#xB098; &#xAC19;&#xC740; &#xD55C;&#xC218;&#xC758; &#xAC1C;&#xC218;&#xB97C; &#xCD9C;&#xB825;&#xD558;&#xB294; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC744; &#xC791;&#xC131;&#xD558;&#xC2DC;&#xC624;.</p>
-<p>&#xCCAB;&#xC9F8; &#xC904;&#xC5D0; 1,000&#xBCF4;&#xB2E4; &#xC791;&#xAC70;&#xB098; &#xAC19;&#xC740; &#xC790;&#xC5F0;&#xC218; N&#xC774; &#xC8FC;&#xC5B4;&#xC9C4;&#xB2E4;.</p>
-<p>&#xCCAB;&#xC9F8; &#xC904;&#xC5D0; 1&#xBCF4;&#xB2E4; &#xD06C;&#xAC70;&#xB098; &#xAC19;&#xACE0;, N&#xBCF4;&#xB2E4; &#xC791;&#xAC70;&#xB098; &#xAC19;&#xC740; &#xD55C;&#xC218;&#xC758; &#xAC1C;&#xC218;&#xB97C; &#xCD9C;&#xB825;&#xD55C;&#xB2E4;.</p>
-<p><br><br></p>
-<h3 id="&#xC791;&#xC131;&#xD55C;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;"><a href="#&#xC791;&#xC131;&#xD55C;-&#xC18C;&#xC2A4;&#xCF54;&#xB4DC;" class="headerlink" title="&#xC791;&#xC131;&#xD55C; &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;"></a>&#xC791;&#xC131;&#xD55C; &#xC18C;&#xC2A4;&#xCF54;&#xB4DC;</h3><figure class="highlight c hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">check</span><span class="hljs-params">(<span class="hljs-keyword">int</span> num)</span> </span>{</span><br><span class="line">    <span class="hljs-keyword">int</span> i, count=<span class="hljs-number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="hljs-keyword">for</span> (i=<span class="hljs-number">1</span>; i&lt;=num; i++) {</span><br><span class="line">        <span class="hljs-keyword">if</span> (i &lt; <span class="hljs-number">100</span>)</span><br><span class="line">            count++;</span><br><span class="line">        <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (i &gt;= <span class="hljs-number">100</span> &amp;&amp; i &lt; <span class="hljs-number">1000</span>) {</span><br><span class="line">            <span class="hljs-keyword">if</span> ((i/<span class="hljs-number">10</span> - <span class="hljs-number">10</span>*(i/<span class="hljs-number">100</span>) - i/<span class="hljs-number">100</span>) == (i%<span class="hljs-number">10</span> - (i/<span class="hljs-number">10</span> - <span class="hljs-number">10</span>*(i/<span class="hljs-number">100</span>))))</span><br><span class="line">                count++;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="hljs-keyword">return</span> count;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{</span><br><span class="line">    <span class="hljs-keyword">int</span> n;</span><br><span class="line"></span><br><span class="line">    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d&quot;</span>, &amp;n);</span><br><span class="line">    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d&quot;</span>, check(n));</span><br><span class="line"></span><br><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
-
-<p><br><br></p>
-<h3 id="&#xCD9C;&#xB825;-&#xACB0;&#xACFC;"><a href="#&#xCD9C;&#xB825;-&#xACB0;&#xACFC;" class="headerlink" title="&#xCD9C;&#xB825; &#xACB0;&#xACFC;"></a>&#xCD9C;&#xB825; &#xACB0;&#xACFC;</h3><p><img src="https://user-images.githubusercontent.com/52089296/90307512-be65c480-df11-11ea-8702-2ea56b9b094c.png"></p>
-<p><br><br></p>
-<h3 id="&#xBA54;&#xBAA8;"><a href="#&#xBA54;&#xBAA8;" class="headerlink" title="&#xBA54;&#xBAA8;"></a>&#xBA54;&#xBAA8;</h3><p>&#xC774; &#xBB38;&#xC81C;&#xB294; &#xBC14;&#xB85C; &#xC9C1;&#xC804;&#xC5D0; &#xD480;&#xC5C8;&#xB358; <code>&#xC140;&#xD504; &#xB118;&#xBC84;</code>&#xC640; &#xC720;&#xC0AC;&#xD55C; &#xACE0;&#xBBFC;&#xC744; &#xD558;&#xAC8C; &#xB9CC;&#xB4E4;&#xC5C8;&#xB358; &#xBB38;&#xC81C;&#xC600;&#xB2E4;. &#xBB38;&#xC81C; &#xBD84;&#xB958;&#xAC00; &#xD568;&#xC218;&#xB85C; &#xB418;&#xC5B4; &#xC788;&#xC5B4;&#xC11C; &#xBA54;&#xC778;&#xC5D0;&#xC11C;&#xB294; &#xD568;&#xC218;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC774; &#xB3D9;&#xC791;&#xD558;&#xB3C4;&#xB85D; &#xAD6C;&#xD604;&#xD558;&#xC600;&#xB2E4;. &#xC6B0;&#xC120;, &#xC785;&#xB825;&#xD560; &#xC790;&#xC5F0;&#xC218;&#xB97C; &#xB098;&#xD0C0;&#xB0B4;&#xAE30; &#xC704;&#xD574; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; n&#xC744; &#xC120;&#xC5B8;&#xD55C; &#xD6C4; &#xAC12;&#xC744; &#xBC1B;&#xC544;&#xC654;&#xB2E4;. &#xADF8;&#xB7F0; &#xB2E4;&#xC74C; &#xD568;&#xC218;&#xC5D0;&#xC11C; &#xBC1B;&#xC544;&#xC628; &#xAC12;&#xC744; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xACB0;&#xACFC;&#xB97C; &#xCD9C;&#xB825;&#xD558;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xB294;&#xB370; &#xD568;&#xC218;&#xC758; &#xAD6C;&#xC870;&#xB294; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xB2E4;. &#xD568;&#xC218; check&#xB294; &#xC785;&#xB825;&#xBC1B;&#xC740; &#xC790;&#xC5F0;&#xC218; &#xAC12;&#xC744; &#xAC00;&#xC838;&#xC640; &#xADF8; &#xAC12;&#xB9CC;&#xD07C; for&#xBB38;&#xC744; &#xB3CC;&#xBA70; &#xAC12;&#xC744; &#xBE44;&#xAD50;&#xD558;&#xACE0;, count&#xB77C;&#xB294; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218;&#xB97C; &#xBC18;&#xD658;&#xD558;&#xB3C4;&#xB85D; &#xB418;&#xC5B4; &#xC788;&#xB2E4;. for&#xBB38;&#xC744; &#xB3CC;&#xB9AC;&#xAE30; &#xC704;&#xD574; &#xC784;&#xC2DC; &#xC815;&#xC218;&#xD615; &#xBCC0;&#xC218; i&#xB97C; &#xC120;&#xC5B8;&#xD558;&#xC600;&#xACE0;, &#xB0B4;&#xBD80;&#xC5D0;&#xC11C;&#xB294; &#xC790;&#xB9AC;&#xC218;&#xC5D0; &#xB530;&#xB77C; &#xBE44;&#xAD50;&#xB97C; &#xC9C4;&#xD589;&#xD55C;&#xB2E4;. </p>
-<p>&#xC6B0;&#xC120;, 1&#xBD80;&#xD130; 99&#xAE4C;&#xC9C0;&#xC758; &#xC22B;&#xC790;&#xB294; &#xC5B4;&#xB5A0;&#xD55C; &#xC22B;&#xC790;&#xAC00; &#xB098;&#xC624;&#xB354;&#xB77C;&#xB3C4; &#xBAA8;&#xB450; &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294; &#xAC12;&#xC774;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBAA8;&#xB450; count &#xAC12;&#xC744; &#xC99D;&#xAC00;&#xC2DC;&#xCF1C;&#xC8FC;&#xACE0;, 100&#xC790;&#xB9AC; &#xC22B;&#xC790;&#xAC00; &#xB098;&#xC624;&#xB294; &#xACBD;&#xC6B0;, &#xAC01; &#xC790;&#xB9AC;&#xC218;&#xC758; &#xD615;&#xD0DC;&#xAC00; &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC744; &#xAC16;&#xCD94;&#xAC8C; &#xB418;&#xB294; &#xACBD;&#xC6B0;&#xB97C; &#xC218;&#xC2DD;&#xC73C;&#xB85C; &#xD655;&#xC778;&#xD574;&#xBCF4;&#xC558;&#xB2E4;. 100&#xC790;&#xB9AC; &#xC218;&#xAC00; &#xB4E4;&#xC5B4;&#xC654;&#xC744; &#xB54C;, 10&#xC758; &#xC790;&#xB9AC;&#xC5D0;&#xC11C; 100&#xC758; &#xC790;&#xB9AC; &#xC218;&#xB97C; &#xBE80; &#xAC12;&#xACFC; 1&#xC758; &#xC790;&#xB9AC;&#xC5D0;&#xC11C; 10&#xC758; &#xC790;&#xB9AC; &#xC218;&#xB97C; &#xBE80; &#xAC12;&#xC774; &#xAC19;&#xC740; &#xACBD;&#xC6B0;&#xC5D0; count&#xB97C; &#xC99D;&#xAC00;&#xC2DC;&#xCF1C; &#xC8FC;&#xC5C8;&#xB2E4;. &#xC790;&#xC138;&#xD55C; &#xACC4;&#xC0B0; &#xBC29;&#xBC95;&#xC744; &#xC0DD;&#xAC01;&#xD574;&#xBCF4;&#xBA74; (&#xC6D0;&#xB798; &#xAC12;&#xC744; 10&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12; - &#xC6D0;&#xB798; &#xAC12;&#xC744; 100&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12;&#xC5D0; 10&#xC744; &#xACF1;&#xD55C; &#xAC12; - &#xC6D0;&#xB798; &#xAC12;&#xC744; 100&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12;)&#xACFC; (&#xC6D0;&#xB798; &#xAC12;&#xC744; 10&#xC73C;&#xB85C; &#xB098;&#xB208; &#xB098;&#xBA38;&#xC9C0; - (&#xC6D0;&#xB798; &#xAC12;&#xC744; 10&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12; - &#xC6D0;&#xB798; &#xAC12;&#xC744; 100&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12;&#xC5D0; 10&#xC744; &#xACF1;&#xD55C; &#xAC12;))&#xC744; &#xBE44;&#xAD50;&#xD558;&#xB294; &#xAC83;&#xC774;&#xB2E4;.</p>
-<p>&#xC608;&#xB97C; &#xB4E4;&#xBA74;, 468&#xC774;&#xB77C;&#xB294; &#xC218;&#xAC00; &#xC785;&#xB825; &#xB418;&#xC5C8;&#xC744; &#xB54C;, &#x2460; &#xC6D0;&#xB798; &#xAC12;&#xC744; 10&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12; : 46 - &#x2461; &#xC6D0;&#xB798; &#xAC12;&#xC744; 100&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12;&#xC5D0; 10&#xC744; &#xACF1;&#xD55C; &#xAC12; : 4 * 10 = 40 - &#x2462; &#xC6D0;&#xB798; &#xAC12;&#xC744; 100&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12; : 4, &#xC989;, 46 - 40 - 4 = 2&#xC784;&#xC744; &#xD1B5;&#xD574; &#xBE44;&#xAD50; &#xC2DD;&#xC758; &#xC55E; &#xBD80;&#xBD84; &#xB0B4;&#xC6A9;&#xC744; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xACE0;, &#x2463; &#xC6D0;&#xB798; &#xAC12;&#xC744; 10&#xC73C;&#xB85C; &#xB098;&#xB208; &#xB098;&#xBA38;&#xC9C0; : 8 - (&#x2464; &#xC6D0;&#xB798; &#xAC12;&#xC744; 10&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12; : 46 - &#x2465; &#xC6D0;&#xB798; &#xAC12;&#xC744; 100&#xC73C;&#xB85C; &#xB098;&#xB208; &#xAC12;&#xC5D0; 10&#xC744; &#xACF1;&#xD55C; &#xAC12; : 4 * 10 = 40), &#xC989;, 8 - (46 - 40) = 2&#xC784;&#xC744; &#xD1B5;&#xD574; &#xBE44;&#xAD50; &#xC2DD;&#xC758; &#xB4B7; &#xBD80;&#xBD84; &#xB0B4;&#xC6A9;&#xC744; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xB2E4;. &#xACB0;&#xACFC;&#xC801;&#xC73C;&#xB85C; &#xC67C;&#xCABD; &#xC2DD;&#xC758; &#xAC12;&#xACFC; &#xC624;&#xB978;&#xCABD; &#xC2DD;&#xC758; &#xAC12;&#xC774; &#xAC19;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC784;&#xC744; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC73C;&#xBA70;, &#xB9CC;&#xC57D; &#xAC01; &#xC790;&#xB9AC;&#xC218;&#xAC00; &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC744; &#xC774;&#xB8E8;&#xB294; &#xC218;&#xAC00; &#xC544;&#xB2C8;&#xB77C;&#xBA74; &#xC11C;&#xB85C; &#xB2E4;&#xB978; &#xAC12;&#xC774; &#xB098;&#xC62C; &#xAC83;&#xC774;&#xB2E4;. &#xC774;&#xAC83;&#xC774; &#xC131;&#xB9BD;&#xB418;&#xB294; &#xACBD;&#xC6B0; count&#xB97C; &#xC99D;&#xAC00;&#xC2DC;&#xD0A4;&#xACE0; &#xB9C8;&#xC9C0;&#xB9C9;&#xC5D0; count &#xAC12;&#xC744; &#xBC18;&#xD658;&#xD558;&#xC5EC; &#xD55C;&#xC218;&#xC758; &#xAC1C;&#xC218;&#xB97C; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC5C8;&#xB2E4;.</p>
-<p>&#xC140;&#xD504; &#xB118;&#xBC84;&#xC640; &#xD478;&#xB294; &#xBC29;&#xC2DD;&#xC774; &#xC5BC;&#xCD94; &#xBE44;&#xC2B7;&#xD55C; &#xB290;&#xB08C;&#xC774;&#xC5B4;&#xC11C; &#xD478;&#xB294;&#xB370; &#xD070; &#xC5B4;&#xB824;&#xC6C0;&#xC740; &#xC5C6;&#xC5C8;&#xC9C0;&#xB9CC; &#xC218;&#xC2DD;&#xC744; &#xC785;&#xB825;&#xD560; &#xB54C; &#xAD04;&#xD638;&#xC758; &#xC704;&#xCE58;&#xB97C; &#xC815;&#xD655;&#xD558;&#xAC8C; &#xB450;&#xC9C0; &#xC54A;&#xC544;&#xC11C; &#xACC4;&#xC0B0;&#xC774; &#xC81C;&#xB300;&#xB85C; &#xB418;&#xC9C0; &#xC54A;&#xB294; &#xD604;&#xC0C1;&#xC774; &#xBC1C;&#xC0DD;&#xB418;&#xAE30;&#xB3C4; &#xD558;&#xC600;&#xB2E4;. &#xADF8; &#xBD80;&#xBD84;&#xC740; &#xB9C8;&#xC9C0;&#xB9C9;&#xAE4C;&#xC9C0; &#xACE0;&#xBBFC;&#xD558;&#xC5EC; &#xC218;&#xC815;&#xD558;&#xC600;&#xACE0;, &#xC774; &#xBB38;&#xC81C;&#xC5D0;&#xC11C; &#xD63C;&#xB3D9;&#xC744; &#xACAA;&#xC5C8;&#xB358; &#xBD80;&#xBD84;&#xC740; &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC5D0; &#xB300;&#xD55C; &#xAC1C;&#xB150;&#xC801;&#xC778; &#xBD80;&#xBD84;&#xC774;&#xC5C8;&#xB2E4;. &#xC0AC;&#xC2E4; &#xC2E4;&#xC81C; &#xB4F1;&#xCC28;&#xC218;&#xC5F4;&#xC740; &#xB450; &#xAC1C; &#xC774;&#xC0C1;&#xC758; &#xC218;&#xAC00; &#xC874;&#xC7AC;&#xD560; &#xB54C;, &#xACF5;&#xCC28;&#xAC00; 0&#xC774; &#xC544;&#xB2C8;&#xBA74;&#xC11C; &#xC77C;&#xC815;&#xD55C; &#xC218;&#xB85C; &#xC810;&#xC810; &#xC99D;&#xAC00;&#xD558;&#xB294; &#xD615;&#xD0DC;&#xC758; &#xBAA8;&#xC2B5;&#xC744; &#xC0DD;&#xAC01;&#xD558;&#xACE0; &#xC788;&#xC5C8;&#xB294;&#xB370;, &#xB9C9;&#xC0C1; &#xBB38;&#xC81C;&#xB97C; &#xD480; &#xB54C; &#xBCF4;&#xB2C8; 110&#xAE4C;&#xC9C0;&#xC758; &#xC785;&#xB825; &#xC870;&#xAC74;&#xC5D0;&#xC11C; 99&#xAC1C;&#xC758; &#xB2F5;&#xC774; &#xB098;&#xC624;&#xB294; &#xAC83;&#xC744; &#xBCF4;&#xACE0; 1~9&#xAE4C;&#xC9C0;&#xC758; &#xC22B;&#xC790;&#xAC00; &#xD3EC;&#xD568; &#xB420; &#xC218; &#xC788;&#xB2E4;&#xB294; &#xC810;, &#xADF8;&#xB9AC;&#xACE0; 11&#xC774;&#xB098; 22&#xC640; &#xAC19;&#xC774; &#xACF5;&#xCC28;&#xAC00; 0&#xC784;&#xC5D0;&#xB3C4; &#xBD88;&#xAD6C;&#xD558;&#xACE0; &#xC778;&#xC815;&#xC774; &#xB41C;&#xB2E4;&#xB294; &#xC810;&#xC744; &#xBCF4;&#xACE0; &#xBB38;&#xC81C;&#xC5D0; &#xB300;&#xD55C; &#xC811;&#xADFC;&#xC744; &#xB2EC;&#xB9AC;&#xD574;&#xC11C; &#xC0DD;&#xAC01;&#xD574; &#xBCF4;&#xC558;&#xB358; &#xAC83; &#xAC19;&#xB2E4;.</p>
-</body></html>
-    
-    </div>
-    
-    
-</article>
-
-
-
-
-    
-    
-    </div>
-</section>
-    <footer class="footer">
-    <div class="container">
-        <div class="columns content">
-            <div class="column is-narrow has-text-centered">
-                &copy; 2021 Zay Jeong&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
-            </div>
-            <div class="column is-hidden-mobile"></div>
-
-            
-            <div class="column is-narrow">
-                <div class="columns is-mobile is-multiline is-centered">
-                
-                    
-                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
-                    
-                    GitHub
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
-                    
-                    LinkedIn
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
-                    
-                    Instagram
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
-                    
-                    Facebook
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
-                    
-                    BOJ
-                    
-                </a>
-                
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-
-<!-- test if the browser is outdated -->
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // plugin function, place inside DOM ready function
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        })
-    });
-</script>
-
-<script>
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-    moment.locale("ko");
-</script>
-
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script>
-    MathJax.Hub.Config({
-        "HTML-CSS": {
-            matchFontHeight: false
-        },
-        SVG: {
-            matchFontHeight: false
-        },
-        CommonHTML: {
-            matchFontHeight: false
-        },
-        tex2jax: {
-            inlineMath: [
-                ['$','$'],
-                ['\\(','\\)']
-            ]
-        }
-    });
-</script>
-
-    
-    
-    
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
-<script>
-    (function ($) {
-        $(document).ready(function () {
-            if (typeof($.fn.lightGallery) === 'function') {
-                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+<h3 id="문제"><a href="#문제" class="headerlink" title="문제"></a>문제</h3><p>어떤 양의 정수 X의 자리수가 등차수열을 이룬다면, 그 수를 한수라고 한다. 등차수열은 연속된 두 개의 수의 차이가 일정한 수열을 말한다. N이 주어졌을 때, 1보다 크거나 같고, N보다 작거나 같은 한수의 개수를 출력하는 프로그램을 작성하시오.</p>
+<p>첫째 줄에 1,000보다 작거나 같은 자연수 N이 주어진다.</p>
+<p>첫째 줄에 1보다 크거나 같고, N보다 작거나 같은 한수의 개수를 출력한다.</p></div><a class="article-more button is-small is-size-7" href="/2018/04/06/boj-1065-c/#more">자세히 보기</a></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="제이정 (Zay Jeong)"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">제이정 (Zay Jeong)</p><p class="is-size-6 is-block">대학원생, 블록체인 연구원</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 서울</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">183</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">338</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/y8ncastle" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/y8ncastle"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/y8ncastle"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/y8ncastle"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/zay.jeong"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">관련 링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.acmicpc.net/user/zarch4894" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-right"><span class="level-item tag">www.acmicpc.net</span></span></a></li><li><a class="level is-mobile" href="https://youtube.com/playlist?list=PL93hJn5LGgIMVNoSYrI6_PGfVJp6L05x_" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Youtube</span></span><span class="level-right"><span class="level-item tag">youtube.com</span></span></a></li><li><a class="level is-mobile" href="https://medium.com/@y8ncastle" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Medium</span></span><span class="level-right"><span class="level-item tag">medium.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%EA%B5%90%EC%9C%A1-Blockchain/"><span class="level-start"><span class="level-item">&lt;교육&gt; Blockchain</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Academy/"><span class="level-start"><span class="level-item">Academy</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Achievement/"><span class="level-start"><span class="level-item">Achievement</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/Baekjoon-Online-Judge/"><span class="level-start"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-end"><span class="level-item tag">31</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/"><span class="level-start"><span class="level-item">Blockchain</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><span class="level-start"><span class="level-item">&lt;교육&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Hyperledger-Fabric/"><span class="level-start"><span class="level-item">&lt;교육&gt; Hyperledger Fabric</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><span class="level-start"><span class="level-item">&lt;실습&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%9D%B4%EB%A1%A0-Bitcoin/"><span class="level-start"><span class="level-item">&lt;이론&gt; Bitcoin</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/Ethereum/"><span class="level-start"><span class="level-item">Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/CSS/"><span class="level-start"><span class="level-item">CSS</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Crypto-Community/"><span class="level-start"><span class="level-item">Crypto Community</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Exhibition/"><span class="level-start"><span class="level-item">Exhibition</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Education/"><span class="level-start"><span class="level-item">IT Education</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Free-Board/"><span class="level-start"><span class="level-item">IT Free Board</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/"><span class="level-start"><span class="level-item">Personal Project</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><span class="level-start"><span class="level-item">&lt;개인&gt; Android</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Ethereum/"><span class="level-start"><span class="level-item">&lt;개인&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/Plan/"><span class="level-start"><span class="level-item">Plan</span></span><span class="level-end"><span class="level-item tag">49</span></span></a></li><li><a class="level is-mobile" href="/categories/Seminar/"><span class="level-start"><span class="level-item">Seminar</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/"><span class="level-start"><span class="level-item">Team Project</span></span><span class="level-end"><span class="level-item tag">32</span></span></a><ul><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-Hanium/"><span class="level-start"><span class="level-item">&lt;팀&gt; Hanium</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-MRM/"><span class="level-start"><span class="level-item">&lt;팀&gt; MRM</span></span><span class="level-end"><span class="level-item tag">25</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-On-Books/"><span class="level-start"><span class="level-item">&lt;팀&gt; On Books</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-X-Corps/"><span class="level-start"><span class="level-item">&lt;팀&gt; X-Corps</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/X-Corps/"><span class="level-start"><span class="level-item">X-Corps</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 포스트</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-03-01T11:21:00.000Z">2020-03-01</time></p><p class="title"><a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a></p><p class="categories"><a href="/categories/Plan/">Plan</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T08:27:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/ethereum-private-network/">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</a></p><p class="categories"><a href="/categories/Blockchain/">Blockchain</a> / <a href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T02:50:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a></p><p class="categories"><a href="/categories/CSS/">CSS</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T14:37:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/hanbat-diploma/">국립 한밭대학교 정보통신공학 학사 학위 취득</a></p><p class="categories"><a href="/categories/Achievement/">Achievement</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T02:36:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/youtube-seminar-20-3/">[2020.02.17] A New Privacy Protection Security Scheme for Blockchain (BaSE Lab 유튜브 세미나 20-3차)</a></p><p class="categories"><a href="/categories/Seminar/">Seminar</a></p></div></article></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Zay Jeong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
             }
-            if (typeof($.fn.justifiedGallery) === 'function') {
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
                 $('.justified-gallery').justifiedGallery();
             }
-        });
-    })(jQuery);
-</script>
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-    <style>
-        .hljs {
-            position: relative;
-        }
-
-        .hljs .clipboard-btn {
-            float: right;
-            color: #9a9a9a;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .hljs .clipboard-btn:hover {
-          color: #8a8a8a;
-        }
-
-        .hljs > .clipboard-btn {
-            display: none;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-        }
-
-        .hljs:hover > .clipboard-btn {
-            display: inline;
-        }
-
-        .hljs > figcaption > .clipboard-btn {
-            margin-right: 4px;
-        }
-    </style>
-    <script>
-      $(document).ready(function () {
-        $('figure.hljs').each(function(i, figure) {
-          var codeId = 'code-' + i;
-          var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
-          code.id = codeId;
-          copyButton.addClass('clipboard-btn');
-          copyButton.attr('data-clipboard-target-id', codeId);
-
-          var figcaption = figure.querySelector('figcaption');
-
-          if (figcaption) {
-            figcaption.append(copyButton[0]);
-          } else {
-            figure.prepend(copyButton[0]);
-          }
-        })
-
-        var clipboard = new ClipboardJS('.clipboard-btn', {
-          target: function(trigger) {
-            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-          }
-        });
-        clipboard.on('success', function(e) {
-          e.clearSelection();
-        })
-      })
-    </script>
-
-    
-    
-
-    
-
-
-
-<script src="/js/script.js"></script>
-
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-mask"></div>
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '글',
-                PAGES: '페이지',
-                CATEGORIES: '카테고리 목록',
-                TAGS: '태그 목록',
-                UNTITLED: '(제목없음)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-    
-</body>
-</html>
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="검색할 내용을 입력하세요"></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"검색할 내용을 입력하세요","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>

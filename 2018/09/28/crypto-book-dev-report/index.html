@@ -1,213 +1,15 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-<head>
-    <meta charset="utf-8">
-<title>암호화폐 가계부 개발 중단 및 개발일지 총정리 - Zay Jeong Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
-
-
-
-
-<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
-
-
-
-<meta name="keywords" content="IT, Blockchain, Android, Development">
-
-
-
-    <meta name="description" content="&amp;#xC571; &amp;#xAC1C;&amp;#xBC1C; &amp;#xC911;&amp;#xB2E8; &amp;#xC0AC;&amp;#xC720; &amp;#xC554;&amp;#xD638;&amp;#xD654;&amp;#xD3D0; &amp;#xC5D0;&amp;#xC5B4;&amp;#xB4DC;&amp;#xB78D;, &amp;#xBC14;&amp;#xC6B4;&amp;#xD2F0; &amp;#xCC38;&amp;#xC5EC; &amp;#xBC0F; &amp;#xD22C;&amp;#xC790;&amp;#xB97">
-<meta property="og:type" content="article">
-<meta property="og:title" content="암호화폐 가계부 개발 중단 및 개발일지 총정리">
-<meta property="og:url" content="https://y8ncastle.me/2018/09/28/crypto-book-dev-report/index.html">
-<meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="&amp;#xC571; &amp;#xAC1C;&amp;#xBC1C; &amp;#xC911;&amp;#xB2E8; &amp;#xC0AC;&amp;#xC720; &amp;#xC554;&amp;#xD638;&amp;#xD654;&amp;#xD3D0; &amp;#xC5D0;&amp;#xC5B4;&amp;#xB4DC;&amp;#xB78D;, &amp;#xBC14;&amp;#xC6B4;&amp;#xD2F0; &amp;#xCC38;&amp;#xC5EC; &amp;#xBC0F; &amp;#xD22C;&amp;#xC790;&amp;#xB97">
-<meta property="og:locale" content="ko_KR">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587607-e7ade180-3a27-11eb-9e47-48ab153c057d.png">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587606-e7154b00-3a27-11eb-9001-1184771e952a.png">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587605-e7154b00-3a27-11eb-8e5b-f70b167fa9e5.png">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587603-e67cb480-3a27-11eb-9493-b3bc64062314.png">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587600-e54b8780-3a27-11eb-9d8d-1e3eec244279.png">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587609-e7ade180-3a27-11eb-81d9-abbbf0af3a7b.png">
-<meta property="og:image" content="https://via.placeholder.com/15/2e2624/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/281f1c/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/3b8dcc/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/b884b8/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/ffffff/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/fff75f/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/8fdbf2/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/fc9b4c/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/f47d8c/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/8fdbf2/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/939393/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/6bb6db/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/1a85c6/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/b884b8/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/a454a8/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/e85c68/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/5183c3/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/8d8d8d/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/333333/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/939393/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/8d8d8d/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/494949/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/7f7f7f/000000?text=+">
-<meta property="og:image" content="https://via.placeholder.com/15/333333/000000?text=+">
-<meta property="article:published_time" content="2018-09-28T12:54:00.000Z">
-<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
-<meta property="article:author" content="Zay Jeong">
-<meta property="article:tag" content="프로젝트">
-<meta property="article:tag" content="Project">
-<meta property="article:tag" content="안드로이드">
-<meta property="article:tag" content="암호화폐">
-<meta property="article:tag" content="Android">
-<meta property="article:tag" content="Cryptocurrency">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/101587607-e7ade180-3a27-11eb-9e47-48ab153c057d.png">
-
-
-
-
-
-<link rel="icon" href="/images/favicon/favicon.ico">
-
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>암호화폐 가계부 개발 중단 및 개발일지 총정리 - Zay Jeong Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Zay (Yoonsung), Jeong"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zay (Yoonsung), Jeong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="앱 개발 중단 사유 암호화폐 에어드랍, 바운티 참여 및 투자를 하게 되면서 수 백 종류 그리고 1,000만개 이상의 토큰 및 코인을 수집하게 되다보니 어딘가에 이 정보들을 기록하지 않으면 관리하는 것이 매우 힘들 것이라 생각이 되어 암호화폐 가계부 앱 개발을 계획했었다.   하지만 최근에 우연히 발견하게 된 앱이 하나 있는데 그 앱이 내가 개발하고자 하는"><meta property="og:type" content="blog"><meta property="og:title" content="암호화폐 가계부 개발 중단 및 개발일지 총정리"><meta property="og:url" content="https://y8ncastle.me/2018/09/28/crypto-book-dev-report/"><meta property="og:site_name" content="Zay Jeong Blog"><meta property="og:description" content="앱 개발 중단 사유 암호화폐 에어드랍, 바운티 참여 및 투자를 하게 되면서 수 백 종류 그리고 1,000만개 이상의 토큰 및 코인을 수집하게 되다보니 어딘가에 이 정보들을 기록하지 않으면 관리하는 것이 매우 힘들 것이라 생각이 되어 암호화폐 가계부 앱 개발을 계획했었다.   하지만 최근에 우연히 발견하게 된 앱이 하나 있는데 그 앱이 내가 개발하고자 하는"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587607-e7ade180-3a27-11eb-9e47-48ab153c057d.png"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587606-e7154b00-3a27-11eb-9001-1184771e952a.png"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587605-e7154b00-3a27-11eb-8e5b-f70b167fa9e5.png"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587603-e67cb480-3a27-11eb-9493-b3bc64062314.png"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587600-e54b8780-3a27-11eb-9d8d-1e3eec244279.png"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/101587609-e7ade180-3a27-11eb-81d9-abbbf0af3a7b.png"><meta property="og:image" content="https://via.placeholder.com/15/2e2624/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/281f1c/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/3b8dcc/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/b884b8/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/ffffff/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/fff75f/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/8fdbf2/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/fc9b4c/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/f47d8c/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/8fdbf2/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/939393/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/6bb6db/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/1a85c6/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/b884b8/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/a454a8/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/e85c68/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/5183c3/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/8d8d8d/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/333333/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/939393/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/8d8d8d/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/494949/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/7f7f7f/000000?text=+"><meta property="og:image" content="https://via.placeholder.com/15/333333/000000?text=+"><meta property="article:published_time" content="2018-09-28T12:54:00.000Z"><meta property="article:modified_time" content="2021-01-08T06:00:52.000Z"><meta property="article:author" content="Zay Jeong"><meta property="article:tag" content="프로젝트"><meta property="article:tag" content="Project"><meta property="article:tag" content="안드로이드"><meta property="article:tag" content="암호화폐"><meta property="article:tag" content="Android"><meta property="article:tag" content="Cryptocurrency"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://user-images.githubusercontent.com/52089296/101587607-e7ade180-3a27-11eb-9e47-48ab153c057d.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://y8ncastle.me/2018/09/28/crypto-book-dev-report/"},"headline":"Zay Jeong Blog","image":["https://user-images.githubusercontent.com/52089296/101587607-e7ade180-3a27-11eb-9e47-48ab153c057d.png","https://user-images.githubusercontent.com/52089296/101587606-e7154b00-3a27-11eb-9001-1184771e952a.png","https://user-images.githubusercontent.com/52089296/101587605-e7154b00-3a27-11eb-8e5b-f70b167fa9e5.png","https://user-images.githubusercontent.com/52089296/101587603-e67cb480-3a27-11eb-9493-b3bc64062314.png","https://user-images.githubusercontent.com/52089296/101587600-e54b8780-3a27-11eb-9d8d-1e3eec244279.png","https://user-images.githubusercontent.com/52089296/101587609-e7ade180-3a27-11eb-81d9-abbbf0af3a7b.png"],"datePublished":"2018-09-28T12:54:00.000Z","dateModified":"2021-01-08T06:00:52.000Z","author":{"@type":"Person","name":"Zay Jeong"},"description":"앱 개발 중단 사유 암호화폐 에어드랍, 바운티 참여 및 투자를 하게 되면서 수 백 종류 그리고 1,000만개 이상의 토큰 및 코인을 수집하게 되다보니 어딘가에 이 정보들을 기록하지 않으면 관리하는 것이 매우 힘들 것이라 생각이 되어 암호화폐 가계부 앱 개발을 계획했었다.   하지만 최근에 우연히 발견하게 된 앱이 하나 있는데 그 앱이 내가 개발하고자 하는"}</script><link rel="canonical" href="https://y8ncastle.me/2018/09/28/crypto-book-dev-report/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168776470-2');
-</script>
-
-
-    
-
-
-<meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-    
-<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
-                
-                <img src="/images/logo.png" alt="" height="28">
-                
-            </a>
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="navbar-menu navbar-start">
-            
-            <a class="navbar-item "
-               href="/about">About</a>
-            
-            <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item "
-               href="/tags">Tags</a>
-            
-            <a class="navbar-item "
-               href="/archives">Archives</a>
-            
-            <a class="navbar-item "
-               href="/cv">CV</a>
-            
-        </div>
-        
-        <div class="navbar-menu navbar-end">
-            
-            <a class="navbar-item search" title="검색" href="javascript:;">
-                <i class="fas fa-search"></i>
-            </a>
-            
-            
-            
-            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-               
-            
-        </div>
-    </div>
-</nav>
-
-    <section class="section">
-    <div class="container">
-    <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            암호화폐 가계부 개발 중단 및 개발일지 총정리
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2018-09-28T12:54:00.000Z" itemprop="datePublished">9월 28 2018</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Personal-Project/">Personal Project</a><span>></span><a class="article-category-link" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><개인> Android</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            20분 소요 (약 2997 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><h3 id="&#xC571;-&#xAC1C;&#xBC1C;-&#xC911;&#xB2E8;-&#xC0AC;&#xC720;"><a href="#&#xC571;-&#xAC1C;&#xBC1C;-&#xC911;&#xB2E8;-&#xC0AC;&#xC720;" class="headerlink" title="&#xC571; &#xAC1C;&#xBC1C; &#xC911;&#xB2E8; &#xC0AC;&#xC720;"></a>&#xC571; &#xAC1C;&#xBC1C; &#xC911;&#xB2E8; &#xC0AC;&#xC720;</h3><hr>
-<p>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC5D0;&#xC5B4;&#xB4DC;&#xB78D;, &#xBC14;&#xC6B4;&#xD2F0; &#xCC38;&#xC5EC; &#xBC0F; &#xD22C;&#xC790;&#xB97C; &#xD558;&#xAC8C; &#xB418;&#xBA74;&#xC11C; &#xC218; &#xBC31; &#xC885;&#xB958; &#xADF8;&#xB9AC;&#xACE0; 1,000&#xB9CC;&#xAC1C; &#xC774;&#xC0C1;&#xC758; &#xD1A0;&#xD070; &#xBC0F; &#xCF54;&#xC778;&#xC744; &#xC218;&#xC9D1;&#xD558;&#xAC8C; &#xB418;&#xB2E4;&#xBCF4;&#xB2C8; &#xC5B4;&#xB518;&#xAC00;&#xC5D0; &#xC774; &#xC815;&#xBCF4;&#xB4E4;&#xC744; &#xAE30;&#xB85D;&#xD558;&#xC9C0; &#xC54A;&#xC73C;&#xBA74; &#xAD00;&#xB9AC;&#xD558;&#xB294; &#xAC83;&#xC774; &#xB9E4;&#xC6B0; &#xD798;&#xB4E4; &#xAC83;&#xC774;&#xB77C; &#xC0DD;&#xAC01;&#xC774; &#xB418;&#xC5B4; <code>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC00;&#xACC4;&#xBD80;</code> &#xC571; &#xAC1C;&#xBC1C;&#xC744; &#xACC4;&#xD68D;&#xD588;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xD558;&#xC9C0;&#xB9CC; &#xCD5C;&#xADFC;&#xC5D0; &#xC6B0;&#xC5F0;&#xD788; &#xBC1C;&#xACAC;&#xD558;&#xAC8C; &#xB41C; &#xC571;&#xC774; &#xD558;&#xB098; &#xC788;&#xB294;&#xB370; &#xADF8; &#xC571;&#xC774; &#xB0B4;&#xAC00; &#xAC1C;&#xBC1C;&#xD558;&#xACE0;&#xC790; &#xD558;&#xB294; &#xC0AC;&#xD56D;&#xB4E4;&#xC744; &#xBAA8;&#xB450; &#xD3EC;&#xD568;&#xD558;&#xACE0; &#xC788;&#xB294; &#xAC83;&#xC740; &#xC544;&#xB2C8;&#xC9C0;&#xB9CC; &#xD544;&#xC694;&#xD55C; &#xAE30;&#xB2A5;&#xB4E4;&#xC740; &#xB300;&#xBD80;&#xBD84; &#xAC16;&#xCD94;&#xACE0; &#xC788;&#xC5B4; &#xAC1C;&#xC218;&#xAC00; &#xB354; &#xB9CE;&#xC544;&#xC9C0;&#xAE30; &#xC804;&#xC5D0; &#xADF8; &#xC571;&#xC744; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC815;&#xB9AC;&#xD558;&#xBA74;&#xC11C; &#xC548;&#xC804;&#xD558;&#xAC8C; &#xBCF4;&#xAD00;&#xD558;&#xB294; &#xAC83;&#xC774; &#xB354; &#xB3C4;&#xC6C0;&#xC774; &#xB420; &#xAC83;&#xC774;&#xB77C;&#xB294; &#xC0DD;&#xAC01;&#xC774; &#xB4E4;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xC544;&#xC9C1; &#xC571;&#xC744; &#xAC1C;&#xBC1C;&#xD558;&#xB294; &#xBD80;&#xBD84;&#xC5D0; &#xC788;&#xC5B4; &#xC11C;&#xBC84;&#xB97C; &#xC5F0;&#xB3D9;&#xD55C; DB &#xAD6C;&#xCD95;&#xC774; &#xBD88;&#xAC00;&#xB2A5;&#xD55C; &#xC0C1;&#xD669;&#xC774;&#xACE0;, &#xC0DD;&#xAC01;&#xD55C; &#xAE30;&#xB2A5;&#xB4E4;&#xC744; &#xBAA8;&#xB450; &#xB123;&#xAE30;&#xC5D0;&#xB294; &#xC544;&#xC9C1; &#xC880; &#xBD80;&#xC871;&#xD558;&#xB2E4;&#xB294; &#xC0DD;&#xAC01;&#xC774; &#xB4E4;&#xC5B4;&#xC11C; &#xC774;&#xBBF8; &#xAC1C;&#xBC1C;&#xB41C; &#xC571;&#xC744; &#xB300;&#xCCB4;&#xD574;&#xC11C; &#xC0AC;&#xC6A9;&#xD558;&#xB824;&#xACE0; &#xD55C;&#xB2E4;. &#xD558;&#xC9C0;&#xB9CC; &#xC774;&#xBC88; &#xC571;&#xC744; &#xAC1C;&#xBC1C;&#xD558;&#xBA74;&#xC11C; &#xB9CE;&#xC740; &#xAC83;&#xB4E4;&#xC744; &#xBC30;&#xC6B0;&#xAC8C; &#xB418;&#xC5C8;&#xB294;&#xB370;, HTTP &#xD1B5;&#xC2E0; &#xBC0F; JSON &#xD30C;&#xC2F1; &#xBC29;&#xBC95;&#xC744; &#xD1B5;&#xD55C; &#xAC12; &#xCD94;&#xCD9C;, &#xC774;&#xBBF8;&#xC9C0; &#xC560;&#xB2C8;&#xBA54;&#xC774;&#xC158; &#xC801;&#xC6A9;, &#xC778;&#xD150;&#xD2B8; &#xBC29;&#xC2DD;&#xC758; &#xBCC0;&#xD654; &#xB4F1; &#xAE30;&#xC874;&#xC5D0; &#xC0AC;&#xC6A9;&#xD574;&#xBCF4;&#xC9C0; &#xC54A;&#xC740; &#xBD80;&#xBD84;&#xB4E4;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xBA74;&#xC11C; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xACF5;&#xBD80;&#xB97C; &#xD560; &#xC218; &#xC788;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xC544;&#xB974;&#xBC14;&#xC774;&#xD2B8;&#xB97C; &#xD55C;&#xB3D9;&#xC548; &#xD558;&#xC9C0; &#xC54A;&#xB294; &#xC0C1;&#xD0DC;&#xC5D0;&#xC11C; &#xC5F4;&#xC2EC;&#xD788; &#xAC1C;&#xBC1C;&#xC5D0; &#xC784;&#xD588;&#xB294;&#xB370;, &#xC774;&#xC81C; &#xB300;&#xCCB4;&#xD560; &#xC571;&#xC774; &#xC0DD;&#xACBC;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC77C;&#xC790;&#xB9AC;&#xB97C; &#xCC3E;&#xC544;&#xC57C; &#xD560; &#xAC83; &#xAC19;&#xACE0;, &#xC544;&#xC26C;&#xC6B4; &#xC810;&#xC774;&#xB77C;&#xBA74; &#xACC4;&#xD68D;&#xD588;&#xB358; &#xBD80;&#xBD84;&#xC744; &#xB9C8;&#xBB34;&#xB9AC; &#xD558;&#xC9C0; &#xBABB;&#xD588;&#xB2E4;&#xB294; &#xC810;&#xC774;&#xB2E4;. &#xADF8;&#xB798;&#xB3C4; &#xB108;&#xBB34; &#xB9CE;&#xC740; &#xC815;&#xBCF4;&#xB4E4;&#xC744; &#xBBF8;&#xB9AC; &#xC815;&#xB9AC;&#xD574; &#xB458; &#xC218; &#xC788;&#xC5B4;&#xC11C; &#xC18D;&#xC740; &#xD6C4;&#xB828;&#xD558;&#xB2E4;. &#xB9C8;&#xC9C0;&#xB9C9; &#xCD1D;&#xC815;&#xB9AC;&#xB85C; &#xC9C0;&#xAE08;&#xAE4C;&#xC9C0; &#xAC1C;&#xBC1C;&#xD574; &#xC654;&#xB358; &#xBD80;&#xBD84;&#xB4E4;&#xC744; &#xC815;&#xB9AC;&#xD574;&#xBCF4;&#xACE0;, &#xAC1C;&#xBC1C;&#xC744; &#xC911;&#xB2E8;&#xD588;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; Github&#xC5D0;&#xB294; &#xD544;&#xC218;&#xC801;&#xC778; &#xCF54;&#xB4DC; &#xBA87; &#xAC1C;&#xB9CC; &#xC62C;&#xB824;&#xB450;&#xB824;&#xACE0; &#xD55C;&#xB2E4;.</p>
+        gtag('config', 'UA-168776470-2');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.0.2"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">홈</a><a class="navbar-item" href="/about">CV</a><a class="navbar-item" href="/categories">카테고리</a><a class="navbar-item" href="/archives">타임라인</a><a class="navbar-item" href="/tags">태그 모음</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2018-09-28T12:54:00.000Z" title="2018. 9. 28. 오후 9:54:00">2018-09-28</time>&nbsp;최초 게시 됨</span><span class="level-item"><time dateTime="2021-01-08T06:00:52.000Z" title="2021. 1. 8. 오후 3:00:52">2021-01-08</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Personal-Project/">Personal Project</a><span> / </span><a class="link-muted" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/">&lt;개인&gt; Android</a></span><span class="level-item">20분 소요 (약 2997 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">암호화폐 가계부 개발 중단 및 개발일지 총정리</h1><div class="content"><h3 id="앱-개발-중단-사유"><a href="#앱-개발-중단-사유" class="headerlink" title="앱 개발 중단 사유"></a>앱 개발 중단 사유</h3><hr>
+<p>암호화폐 에어드랍, 바운티 참여 및 투자를 하게 되면서 수 백 종류 그리고 1,000만개 이상의 토큰 및 코인을 수집하게 되다보니 어딘가에 이 정보들을 기록하지 않으면 관리하는 것이 매우 힘들 것이라 생각이 되어 <code>암호화폐 가계부</code> 앱 개발을 계획했었다.  </p>
+<p>하지만 최근에 우연히 발견하게 된 앱이 하나 있는데 그 앱이 내가 개발하고자 하는 사항들을 모두 포함하고 있는 것은 아니지만 필요한 기능들은 대부분 갖추고 있어 개수가 더 많아지기 전에 그 앱을 이용하여 정리하면서 안전하게 보관하는 것이 더 도움이 될 것이라는 생각이 들었다.  </p>
+<p>아직 앱을 개발하는 부분에 있어 서버를 연동한 DB 구축이 불가능한 상황이고, 생각한 기능들을 모두 넣기에는 아직 좀 부족하다는 생각이 들어서 이미 개발된 앱을 대체해서 사용하려고 한다. 하지만 이번 앱을 개발하면서 많은 것들을 배우게 되었는데, HTTP 통신 및 JSON 파싱 방법을 통한 값 추출, 이미지 애니메이션 적용, 인텐트 방식의 변화 등 기존에 사용해보지 않은 부분들을 사용하면서 추가적인 공부를 할 수 있었다.  </p>
+<p>아르바이트를 한동안 하지 않는 상태에서 열심히 개발에 임했는데, 이제 대체할 앱이 생겼기 때문에 일자리를 찾아야 할 것 같고, 아쉬운 점이라면 계획했던 부분을 마무리 하지 못했다는 점이다. 그래도 너무 많은 정보들을 미리 정리해 둘 수 있어서 속은 후련하다. 마지막 총정리로 지금까지 개발해 왔던 부분들을 정리해보고, 개발을 중단했기 때문에 Github에는 필수적인 코드 몇 개만 올려두려고 한다.</p>
 <p><br><br></p>
-<h3 id="&#xB9AC;&#xB274;&#xC5BC;-&#xAC1C;&#xBC1C;-&#xC774;&#xBBF8;&#xC9C0;&#xB4E4;"><a href="#&#xB9AC;&#xB274;&#xC5BC;-&#xAC1C;&#xBC1C;-&#xC774;&#xBBF8;&#xC9C0;&#xB4E4;" class="headerlink" title="&#xB9AC;&#xB274;&#xC5BC; &#xAC1C;&#xBC1C; &#xC774;&#xBBF8;&#xC9C0;&#xB4E4;"></a>&#xB9AC;&#xB274;&#xC5BC; &#xAC1C;&#xBC1C; &#xC774;&#xBBF8;&#xC9C0;&#xB4E4;</h3><hr>
+<h3 id="리뉴얼-개발-이미지들"><a href="#리뉴얼-개발-이미지들" class="headerlink" title="리뉴얼 개발 이미지들"></a>리뉴얼 개발 이미지들</h3><hr>
 <p align="center"><img src="https://user-images.githubusercontent.com/52089296/101587607-e7ade180-3a27-11eb-9e47-48ab153c057d.png" width="90%"></p>  
 
 <p><br><br></p>
@@ -226,7 +28,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/52089296/101587609-e7ade180-3a27-11eb-81d9-abbbf0af3a7b.png" width="90%"></p>  
 
 <p><br><br></p>
-<h3 id="&#xC571;-&#xAC1C;&#xBC1C;-&#xBCC0;&#xC218;"><a href="#&#xC571;-&#xAC1C;&#xBC1C;-&#xBCC0;&#xC218;" class="headerlink" title="&#xC571; &#xAC1C;&#xBC1C; &#xBCC0;&#xC218;"></a>&#xC571; &#xAC1C;&#xBC1C; &#xBCC0;&#xC218;</h3><hr>
+<h3 id="앱-개발-변수"><a href="#앱-개발-변수" class="headerlink" title="앱 개발 변수"></a>앱 개발 변수</h3><hr>
 <table>
 <thead>
 <tr>
@@ -238,871 +40,871 @@
 </thead>
 <tbody><tr>
 <td><strong>first_use_intro.xml</strong></td>
-<td>&#xC811;&#xADFC; &#xD5C8;&#xC6A9;</td>
+<td>접근 허용</td>
 <td>b_access</td>
 <td>b_acc</td>
 </tr>
 <tr>
 <td><strong>main.xml</strong></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;1</td>
+<td>플레이트1</td>
 <td>plate_main_1</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xB2E8; &#xD648; &#xC544;&#xC774;&#xCF58;</td>
+<td>상단 홈 아이콘</td>
 <td>home_refresh</td>
 <td>h_refresh</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD654;&#xD3D0; &#xB2E8;&#xC704; &#xC120;&#xD0DD;</td>
+<td>화폐 단위 선택</td>
 <td>cur_selector</td>
 <td>cur_sel</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xC778; &#xD658;&#xACBD;&#xC124;&#xC815;</td>
+<td>메인 환경설정</td>
 <td>settings</td>
 <td>sets</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;2</td>
+<td>플레이트2</td>
 <td>plate_main_2</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD94;&#xC815; &#xBCF4;&#xC720; &#xC790;&#xC0B0;</td>
+<td>추정 보유 자산</td>
 <td>sum_of_asset</td>
 <td>sum_ass</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;3</td>
+<td>플레이트3</td>
 <td>plate_main_3</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCC38;&#xC5EC; &#xD68D;&#xB4DD; &#xBE44;&#xC728;</td>
+<td>참여 획득 비율</td>
 <td>part_ratio</td>
 <td>p_ratio</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC5D0;&#xC5B4;&#xB4DC;&#xB78D;</td>
+<td>에어드랍</td>
 <td>airdrop_count</td>
 <td>air_c</td>
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xCC38;&#xC5EC;</td>
+<td>ICO 참여</td>
 <td>ico_count</td>
 <td>ico_c</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAE30;&#xD0C0; &#xD22C;&#xC790;</td>
+<td>기타 투자</td>
 <td>invest_count</td>
 <td>invest_c</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xC778; &#xC911;&#xAC04; &#xB77C;&#xC778;</td>
+<td>메인 중간 라인</td>
 <td>line</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;4</td>
+<td>플레이트4</td>
 <td>plate_main_4</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC554;&#xD638;&#xD654;&#xD3D0;</td>
+<td>보유 암호화폐</td>
 <td>belong_crypto</td>
 <td>be_crypto</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBBF8;&#xBD84;&#xBC30; &#xC554;&#xD638;&#xD654;&#xD3D0;</td>
+<td>미분배 암호화폐</td>
 <td>no_dist_crypto</td>
 <td>nd_crypto</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD604;&#xAE08;&#xD654; &#xAC00;&#xB2A5; &#xAE08;&#xC561;</td>
+<td>현금화 가능 금액</td>
 <td>encash</td>
 <td>cash</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;5</td>
+<td>플레이트5</td>
 <td>plate_main_5</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xB2EC;&#xB7EC; &#xD658;&#xC728;</td>
+<td>달러 환율</td>
 <td>usd_rate</td>
 <td>usd_r</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC5D4;&#xD654; &#xD658;&#xC728;</td>
+<td>엔화 환율</td>
 <td>jpy_rate</td>
 <td>jpy_r</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC704;&#xC548;&#xD654; &#xD658;&#xC728;</td>
+<td>위안화 환율</td>
 <td>cny_rate</td>
 <td>cny_r</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;6</td>
+<td>플레이트6</td>
 <td>plate_main_6</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xC778;-&#xD648; &#xBC84;&#xD2BC;</td>
+<td>메인-홈 버튼</td>
 <td>main_home</td>
 <td>m_home</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xC778;-&#xBCF4;&#xC720; &#xC554;&#xD638;&#xD654;&#xD3D0; &#xBC84;&#xD2BC;</td>
+<td>메인-보유 암호화폐 버튼</td>
 <td>main_to_balance</td>
 <td>m_to_b</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xC778;-&#xCD94;&#xAC00; &#xBC84;&#xD2BC;</td>
+<td>메인-추가 버튼</td>
 <td>main_plus</td>
 <td>m_plus</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xC778;-&#xD1B5;&#xACC4; &#xBC84;&#xD2BC;</td>
+<td>메인-통계 버튼</td>
 <td>main_to_statistic</td>
 <td>m_to_s</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xC778;-&#xC9C0;&#xAC11; &#xBC84;&#xD2BC;</td>
+<td>메인-지갑 버튼</td>
 <td>main_to_wallet</td>
 <td>m_to_w</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD658;&#xC728;&#xC815;&#xBCF4;</td>
+<td>환율정보</td>
 <td>exchange_info</td>
 <td>ex_info</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC228;&#xACA8;&#xC9C4; &#xD50C;&#xB808;&#xC774;&#xD2B8;7</td>
+<td>숨겨진 플레이트7</td>
 <td>plate_main_7</td>
 <td>p_main_7</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC228;&#xACA8;&#xC9C4; &#xD50C;&#xB808;&#xC774;&#xD2B8;7-1</td>
+<td>숨겨진 플레이트7-1</td>
 <td>plate_main_7_1</td>
 <td>p_main_71</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC228;&#xACA8;&#xC9C4; &#xD50C;&#xB808;&#xC774;&#xD2B8;7-2</td>
+<td>숨겨진 플레이트7-2</td>
 <td>plate_main_7_2</td>
 <td>p_main_72</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBE60;&#xB978; &#xCD94;&#xAC00;</td>
+<td>빠른 추가</td>
 <td>add_fast</td>
 <td>add_f</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC138; &#xCD94;&#xAC00;</td>
+<td>상세 추가</td>
 <td>add_detail</td>
 <td>add_d</td>
 </tr>
 <tr>
 <td><strong>balance.xml</strong></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;1</td>
+<td>플레이트1</td>
 <td>plate_balance_1</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xB2E8; &#xD648; &#xC544;&#xC774;&#xCF58;</td>
+<td>상단 홈 아이콘</td>
 <td>home_b_refresh</td>
 <td>hb_refresh</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD654;&#xD3D0; &#xB2E8;&#xC704; &#xC120;&#xD0DD;</td>
+<td>화폐 단위 선택</td>
 <td>cur_selector2</td>
 <td>cur_sel2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC815;&#xB82C; &#xAE30;&#xC900; &#xC124;&#xC815;</td>
+<td>정렬 기준 설정</td>
 <td>order</td>
 <td>b_or</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;2</td>
+<td>플레이트2</td>
 <td>plate_balance_2</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAC80;&#xC0C9;&#xCC3D;</td>
+<td>검색창</td>
 <td>search_window</td>
 <td>s_window</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAC80;&#xC0C9;&#xBC84;&#xD2BC;</td>
+<td>검색버튼</td>
 <td>search</td>
 <td>find</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;3</td>
+<td>플레이트3</td>
 <td>plate_balance_3</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xB9AC;&#xC2A4;&#xD2B8;</td>
+<td>암호화폐 리스트</td>
 <td>crypto_list</td>
 <td>b_list</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;4</td>
+<td>플레이트4</td>
 <td>plate_balance_4</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720;-&#xBA54;&#xC778;&#xD654;&#xBA74; &#xBC84;&#xD2BC;</td>
+<td>보유-메인화면 버튼</td>
 <td>balance_to_main</td>
 <td>b_to_m</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720;-&#xD1B5;&#xACC4; &#xBC84;&#xD2BC;</td>
+<td>보유-통계 버튼</td>
 <td>balance_to_statistic</td>
 <td>b_to_s</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720;-&#xC9C0;&#xAC11; &#xBC84;&#xD2BC;</td>
+<td>보유-지갑 버튼</td>
 <td>balance_to_wallet</td>
 <td>b_to_w</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C8;&#xB85C;&#xACE0;&#xCE68;</td>
+<td>새로고침</td>
 <td>balance_refresh</td>
 <td>b_refresh</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAC80;&#xC0C9;&#xCC3D; &#xCDE8;&#xC18C;</td>
+<td>검색창 취소</td>
 <td>balance_cancel</td>
 <td>b_cancel</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBE48; &#xD654;&#xBA74;</td>
+<td>빈 화면</td>
 <td>empty_plate</td>
 <td>e_plate</td>
 </tr>
 <tr>
 <td><strong>balance_list.xml</strong></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC774;&#xBBF8;&#xC9C0;</td>
+<td>암호화폐 이미지</td>
 <td>list_image</td>
 <td>image</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85;</td>
+<td>암호화폐명</td>
 <td>list_name</td>
 <td>names</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC57D;&#xC5B4;</td>
+<td>암호화폐 약어</td>
 <td>list_s_name</td>
 <td>s_names</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC1C;&#xC218;</td>
+<td>암호화폐 개수</td>
 <td>list_amount</td>
 <td>amounts</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC00;&#xACA9;</td>
+<td>암호화폐 가격</td>
 <td>list_price</td>
 <td>prices</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xBCC0;&#xB3D9;&#xB960;</td>
+<td>암호화폐 변동률</td>
 <td>list_ex</td>
 <td>exs</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCC0;&#xB3D9;&#xB960; &#xC0C9;&#xC0C1;</td>
+<td>변동률 색상</td>
 <td>ex_color</td>
 <td>ex_c</td>
 </tr>
 <tr>
 <td><strong>dialog_add_fast.xml</strong></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85;</td>
+<td>암호화폐명</td>
 <td>crypto_name</td>
 <td>tc_name</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC57D;&#xC5B4;</td>
+<td>암호화폐 약어</td>
 <td>crypto_s_name</td>
 <td>tc_s_name</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85; &#xC911;&#xBCF5;&#xAC80;&#xC0AC;</td>
+<td>암호화폐명 중복검사</td>
 <td>crypto_name_check</td>
 <td>tc_name_check</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC1C;&#xC218;</td>
+<td>암호화폐 개수</td>
 <td>crypto_amount</td>
 <td>tc_amount</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xCD08; &#xAC00;&#xCE58;</td>
+<td>최초 가치</td>
 <td>crypto_first_price</td>
 <td>tc_first_price</td>
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xD22C;&#xC790; &#xBC84;&#xD2BC;</td>
+<td>ICO 투자 버튼</td>
 <td>part_ico</td>
 <td>tc_part_ico</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC5D0;&#xC5B4;&#xB4DC;&#xB78D;, &#xBC14;&#xC6B4;&#xD2F0; &#xBC84;&#xD2BC;</td>
+<td>에어드랍, 바운티 버튼</td>
 <td>part_airdrop</td>
 <td>tc_part_airdrop</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAC1C;&#xC778; &#xD22C;&#xC790; &#xBC84;&#xD2BC;</td>
+<td>개인 투자 버튼</td>
 <td>part_invest</td>
 <td>tc_part_invest</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD604;&#xC7AC; &#xBCF4;&#xC720;&#xD558;&#xACE0; &#xC788;&#xC74C;</td>
+<td>현재 보유하고 있음</td>
 <td>check_belonging</td>
 <td>tc_check_belonging</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBE60;&#xB978; &#xCD94;&#xAC00; &#xB4F1;&#xB85D;</td>
+<td>빠른 추가 등록</td>
 <td>add_fast_register</td>
 <td>tc_add_register</td>
 </tr>
 <tr>
 <td><strong>dialog_add_detail.xml</strong></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85;</td>
+<td>암호화폐명</td>
 <td>crypto_name2</td>
 <td>tc_name2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC57D;&#xC5B4;</td>
+<td>암호화폐 약어</td>
 <td>crypto_s_name2</td>
 <td>tc_s_name2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85; &#xC911;&#xBCF5;&#xAC80;&#xC0AC;</td>
+<td>암호화폐명 중복검사</td>
 <td>crypto_name_check2</td>
 <td>tc_name_check2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC1C;&#xC218;</td>
+<td>암호화폐 개수</td>
 <td>crypto_amount2</td>
 <td>tc_amount2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xCD08; &#xAC00;&#xCE58;</td>
+<td>최초 가치</td>
 <td>crypto_first_price2</td>
 <td>tc_first_price2</td>
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xD22C;&#xC790; &#xBC84;&#xD2BC;</td>
+<td>ICO 투자 버튼</td>
 <td>part_ico2</td>
 <td>tc_part_ico2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC5D0;&#xC5B4;&#xB4DC;&#xB78D;, &#xBC14;&#xC6B4;&#xD2F0; &#xBC84;&#xD2BC;</td>
+<td>에어드랍, 바운티 버튼</td>
 <td>part_airdrop2</td>
 <td>tc_part_airdrop2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAC1C;&#xC778; &#xD22C;&#xC790; &#xBC84;&#xD2BC;</td>
+<td>개인 투자 버튼</td>
 <td>part_invest2</td>
 <td>tc_part_invest2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAE30;&#xBC18; &#xD50C;&#xB7AB;&#xD3FC;</td>
+<td>기반 플랫폼</td>
 <td>crypto_platform</td>
 <td>tc_platform</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD1D; &#xBC1C;&#xD589;&#xB7C9;</td>
+<td>총 발행량</td>
 <td>crypto_total_supply</td>
 <td>tc_total_supply</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC8FC;&#xC18C;</td>
+<td>컨트랙트 주소</td>
 <td>crypto_contract</td>
 <td>tc_contract</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC790;&#xB9AC;&#xC218;</td>
+<td>자리수</td>
 <td>crypto_decimal</td>
 <td>tc_decimal</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD604;&#xC7AC; &#xBCF4;&#xC720;&#xD558;&#xACE0; &#xC788;&#xC74C;</td>
+<td>현재 보유하고 있음</td>
 <td>check_belonging2</td>
 <td>tc_check_belonging2</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC704;&#xCE58;</td>
+<td>보유 위치</td>
 <td>check_belonging_loc</td>
 <td>tc_belonging_loc</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC138; &#xCD94;&#xAC00; &#xB4F1;&#xB85D;</td>
+<td>상세 추가 등록</td>
 <td>add_detail_register</td>
 <td>tc_detail_register</td>
 </tr>
 <tr>
 <td><strong>crypto_detail.xml</strong></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;1</td>
+<td>플레이트1</td>
 <td>plate_detail_1</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xB2E8; &#xD648; &#xC544;&#xC774;&#xCF58;</td>
+<td>상단 홈 아이콘</td>
 <td>home_d_refresh</td>
 <td>hd_refresh</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC544;&#xC774;&#xCF58;</td>
+<td>암호화폐 아이콘</td>
 <td>detail_icon</td>
 <td>d_icon</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85;</td>
+<td>암호화폐명</td>
 <td>detail_name</td>
 <td>d_name</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC57D;&#xC5B4;</td>
+<td>암호화폐 약어</td>
 <td>detail_s_name</td>
 <td>d_s_name</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC1C;&#xC218;</td>
+<td>암호화폐 개수</td>
 <td>detail_amount</td>
 <td>d_amount</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xCD08; &#xAC00;&#xCE58;</td>
+<td>최초 가치</td>
 <td>detail_first_price</td>
 <td>d_first_price</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xADFC; &#xAC00;&#xCE58;</td>
+<td>최근 가치</td>
 <td>detail_recent_price</td>
 <td>d_recent_price</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC7A5; &#xC5F0;&#xB3D9; &#xC815;&#xBCF4;</td>
+<td>상장 연동 정보</td>
 <td>detail_price_info</td>
 <td>d_price_info</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC5EC;&#xBD80;</td>
+<td>보유 여부</td>
 <td>detail_belonging</td>
 <td>d_belonging</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC704;&#xCE58;</td>
+<td>보유 위치</td>
 <td>detail_belonging_loc</td>
 <td>d_belonging_loc</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC9C0;&#xAE09; &#xC608;&#xC815;&#xC77C;</td>
+<td>지급 예정일</td>
 <td>detail_anticipate_date</td>
 <td>d_anticipate_date</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC7A5; &#xC704;&#xCE58;</td>
+<td>상장 위치</td>
 <td>detail_list_on</td>
 <td>d_list_on</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE4;&#xC2A4;&#xD140; &#xD0A4;</td>
+<td>커스텀 키</td>
 <td>detail_custom_key</td>
 <td>d_custom_key</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE4;&#xC2A4;&#xD140; &#xC8FC;&#xC18C;</td>
+<td>커스텀 주소</td>
 <td>detail_custom_adr</td>
 <td>d_custom_adr</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAE30;&#xBC18; &#xD50C;&#xB7AB;&#xD3FC;</td>
+<td>기반 플랫폼</td>
 <td>detail_platform</td>
 <td>d_platform</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD1D; &#xBC1C;&#xD589;&#xB7C9;</td>
+<td>총 발행량</td>
 <td>detail_total_supply</td>
 <td>d_total_supply</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC8FC;&#xC18C;</td>
+<td>컨트랙트 주소</td>
 <td>detail_contract</td>
 <td>d_contract</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC18C;&#xC218;&#xC810; &#xC790;&#xB9AC;&#xC218;</td>
+<td>소수점 자리수</td>
 <td>detail_decimal</td>
 <td>d_decimal</td>
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xC2DC;&#xC791;&#xC77C;</td>
+<td>ICO 시작일</td>
 <td>detail_ico_start</td>
 <td>d_ico_start</td>
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xC885;&#xB8CC;&#xC77C;</td>
+<td>ICO 종료일</td>
 <td>detail_ico_end</td>
 <td>d_ico_end</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAD00;&#xB828; &#xD648;&#xD398;&#xC774;&#xC9C0;</td>
+<td>관련 홈페이지</td>
 <td>detail_web_adr</td>
 <td>d_web_adr</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC124;&#xBA85;</td>
+<td>암호화폐 설명</td>
 <td>detail_description</td>
 <td>d_description</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC7A5;&#xD3D0;&#xC9C0; &#xC5EC;&#xBD80;</td>
+<td>상장폐지 여부</td>
 <td>detail_delist</td>
 <td>d_delist</td>
 </tr>
 <tr>
 <td></td>
-<td>KYC &#xD544;&#xC694; &#xC5EC;&#xBD80;</td>
+<td>KYC 필요 여부</td>
 <td>detail_kyc_need</td>
 <td>d_kyc_need</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD604;&#xAE08;&#xD654; &#xAC00;&#xB2A5; &#xC5EC;&#xBD80;</td>
+<td>현금화 가능 여부</td>
 <td>detail_encash</td>
 <td>d_encash</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xB4F1;&#xB85D;&#xC77C;</td>
+<td>암호화폐 등록일</td>
 <td>detail_register_date</td>
 <td>d_register_date</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC815;&#xBCF4; &#xCD5C;&#xC885; &#xC218;&#xC815;&#xC77C;</td>
+<td>정보 최종 수정일</td>
 <td>detail_change_date</td>
 <td>d_change_date</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD94;&#xAC00; &#xBA54;&#xBAA8;</td>
+<td>추가 메모</td>
 <td>detail_memo</td>
 <td>d_memo</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD604;&#xAE08;&#xD654; &#xBC84;&#xD2BC;</td>
+<td>현금화 버튼</td>
 <td>button_detail_encash</td>
 <td>bd_detail_encash</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCC0;&#xACBD; &#xBC84;&#xD2BC;</td>
+<td>변경 버튼</td>
 <td>button_detail_modi</td>
 <td>bd_detail_modi</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0AD;&#xC81C; &#xBC84;&#xD2BC;</td>
+<td>삭제 버튼</td>
 <td>button_detail_delete</td>
 <td>bd_detail_delete</td>
 </tr>
 <tr>
 <td><strong>dialog_crypto_delete.xml</strong></td>
-<td>&#xD655;&#xC778; &#xBC84;&#xD2BC; (&#xC0AD;&#xC81C;)</td>
+<td>확인 버튼 (삭제)</td>
 <td>d_button_detail_del</td>
 <td>db_detail_del</td>
 </tr>
 <tr>
 <td><strong>dialog_crypto_encash.xml</strong></td>
-<td>&#xD655;&#xC778; &#xBC84;&#xD2BC; (&#xD604;&#xAE08;&#xD654;)</td>
+<td>확인 버튼 (현금화)</td>
 <td>d_button_detail_encash</td>
 <td>db_detail_encash</td>
 </tr>
 <tr>
 <td><strong>dialog_detail_modi.xml</strong></td>
-<td>&#xD50C;&#xB808;&#xC774;&#xD2B8;1</td>
+<td>플레이트1</td>
 <td>plate_detail_modi_1</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xB2E8; &#xD648; &#xC544;&#xC774;&#xCF58;</td>
+<td>상단 홈 아이콘</td>
 <td>home_dm_refresh</td>
 <td>hdm_refresh</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC544;&#xC774;&#xCF58;</td>
+<td>암호화폐 아이콘</td>
 <td>detail_modi_icon</td>
 <td>dm_icon</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85;</td>
+<td>암호화폐명</td>
 <td>detail_modi_name</td>
 <td>dm_name</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC57D;&#xC5B4;</td>
+<td>암호화폐 약어</td>
 <td>detail_modi_s_name</td>
 <td>dm_s_name</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC1C;&#xC218;</td>
+<td>암호화폐 개수</td>
 <td>detail_modi_amount</td>
 <td>dm_amount</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xCD08; &#xAC00;&#xCE58;</td>
+<td>최초 가치</td>
 <td>detail_modi_first_price</td>
 <td>dm_first_price</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xADFC; &#xAC00;&#xCE58;</td>
+<td>최근 가치</td>
 <td>detail_modi_recent_price</td>
 <td>dm_recent_price</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC5EC;&#xBD80;</td>
+<td>보유 여부</td>
 <td>detail_modi_belonging</td>
 <td>dm_belonging</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC704;&#xCE58;</td>
+<td>보유 위치</td>
 <td>detail_modi_belonging_loc</td>
 <td>dm_belonging_loc</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC9C0;&#xAE09; &#xC608;&#xC815;&#xC77C;</td>
+<td>지급 예정일</td>
 <td>detail_modi_anticipate_date</td>
 <td>dm_anticipate_date</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC7A5; &#xC704;&#xCE58;</td>
+<td>상장 위치</td>
 <td>detail_modi_list_on</td>
 <td>dm_list_on</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE4;&#xC2A4;&#xD140; &#xD0A4;</td>
+<td>커스텀 키</td>
 <td>detail_modi_custom_key</td>
 <td>dm_custom_key</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE4;&#xC2A4;&#xD140; &#xC8FC;&#xC18C;</td>
+<td>커스텀 주소</td>
 <td>detail_modi_custom_adr</td>
 <td>dm_custom_adr</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAE30;&#xBC18; &#xD50C;&#xB7AB;&#xD3FC;</td>
+<td>기반 플랫폼</td>
 <td>detail_modi_platform</td>
 <td>dm_platform</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD1D; &#xBC1C;&#xD589;&#xB7C9;</td>
+<td>총 발행량</td>
 <td>detail_modi_total_supply</td>
 <td>dm_total_supply</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC8FC;&#xC18C;</td>
+<td>컨트랙트 주소</td>
 <td>detail_modi_contract</td>
 <td>dm_contract</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC18C;&#xC218;&#xC810; &#xC790;&#xB9AC;&#xC218;</td>
+<td>소수점 자리수</td>
 <td>detail_modi_decimal</td>
 <td>dm_decimal</td>
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xC2DC;&#xC791;&#xC77C;</td>
+<td>ICO 시작일</td>
 <td>detail_modi_ico_start</td>
 <td>dm_ico_start</td>
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xC885;&#xB8CC;&#xC77C;</td>
+<td>ICO 종료일</td>
 <td>detail_modi_ico_end</td>
 <td>dm_ico_end</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAD00;&#xB828; &#xD648;&#xD398;&#xC774;&#xC9C0;</td>
+<td>관련 홈페이지</td>
 <td>detail_modi_web_adr</td>
 <td>dm_web_adr</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC124;&#xBA85;</td>
+<td>암호화폐 설명</td>
 <td>detail_modi_description</td>
 <td>dm_description</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC7A5;&#xD3D0;&#xC9C0; &#xC5EC;&#xBD80;</td>
+<td>상장폐지 여부</td>
 <td>detail_modi_delist</td>
 <td>dm_delist</td>
 </tr>
 <tr>
 <td></td>
-<td>KYC &#xD544;&#xC694; &#xC5EC;&#xBD80;</td>
+<td>KYC 필요 여부</td>
 <td>detail_modi_kyc_need</td>
 <td>dm_kyc_need</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD604;&#xAE08;&#xD654; &#xAC00;&#xB2A5; &#xC5EC;&#xBD80;</td>
+<td>현금화 가능 여부</td>
 <td>detail_modi_encash</td>
 <td>dm_encash</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xB4F1;&#xB85D;&#xC77C;</td>
+<td>암호화폐 등록일</td>
 <td>detail_modi_register_date</td>
 <td>dm_register_date</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC815;&#xBCF4; &#xCD5C;&#xC885; &#xC218;&#xC815;&#xC77C;</td>
+<td>정보 최종 수정일</td>
 <td>detail_modi_change_date</td>
 <td>dm_change_date</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD94;&#xAC00; &#xBA54;&#xBAA8;</td>
+<td>추가 메모</td>
 <td>detail_modi_memo</td>
 <td>dm_memo</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCC0;&#xACBD;&#xC644;&#xB8CC; &#xBC84;&#xD2BC;</td>
+<td>변경완료 버튼</td>
 <td>button_modi_detail_modi</td>
 <td>bdm_modi</td>
 </tr>
 </tbody></table>
 <p><br><br></p>
-<h3 id="&#xC571;-&#xAC1C;&#xBC1C;-&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;"><a href="#&#xC571;-&#xAC1C;&#xBC1C;-&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;" class="headerlink" title="&#xC571; &#xAC1C;&#xBC1C; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;"></a>&#xC571; &#xAC1C;&#xBC1C; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;</h3><hr>
+<h3 id="앱-개발-데이터베이스"><a href="#앱-개발-데이터베이스" class="headerlink" title="앱 개발 데이터베이스"></a>앱 개발 데이터베이스</h3><hr>
 <table>
 <thead>
 <tr>
@@ -1117,7 +919,7 @@
 </thead>
 <tbody><tr>
 <td><strong>Balance</strong></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85;</td>
+<td>암호화폐명</td>
 <td>name</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1126,7 +928,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC57D;&#xC5B4;</td>
+<td>암호화폐 약어</td>
 <td>s_name</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1135,43 +937,43 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xAC1C;&#xC218;</td>
+<td>암호화폐 개수</td>
 <td>amount</td>
 <td>VARCHAR2</td>
 <td>21</td>
 <td>65</td>
-<td>9,999&#xC5B5;</td>
+<td>9,999억</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xCD08; &#xC124;&#xC815; &#xAC00;&#xCE58;</td>
+<td>최초 설정 가치</td>
 <td>first_price</td>
 <td>VARCHAR2</td>
 <td>15</td>
 <td>50</td>
-<td>9,999&#xC5B5;</td>
+<td>9,999억</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xADFC; &#xAC00;&#xCE58;</td>
+<td>최근 가치</td>
 <td>recent_price</td>
 <td>VARCHAR2</td>
 <td>15</td>
 <td>50</td>
-<td>9,999&#xC5B5;</td>
+<td>9,999억</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC5EC;&#xBD80;</td>
+<td>보유 여부</td>
 <td>belonging</td>
 <td>INTEGER</td>
 <td>-</td>
 <td>-</td>
-<td>0: &#xBCF4;&#xC720;<br>1: &#xBBF8;&#xBCF4;&#xC720;</td>
+<td>0: 보유<br>1: 미보유</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xC704;&#xCE58;</td>
+<td>보유 위치</td>
 <td>belonging_loc</td>
 <td>VARCHAR2</td>
 <td>1000</td>
@@ -1180,7 +982,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xCC38;&#xC5EC; &#xBC29;&#xC2DD;</td>
+<td>참여 방식</td>
 <td>way_to_get</td>
 <td>INTEGER</td>
 <td>-</td>
@@ -1189,7 +991,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xAE30;&#xBC18; &#xD50C;&#xB7AB;&#xD3FC;</td>
+<td>기반 플랫폼</td>
 <td>platform</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1198,7 +1000,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC9C0;&#xC815; &#xC0C1;&#xC7A5; &#xAC70;&#xB798;&#xC18C;</td>
+<td>지정 상장 거래소</td>
 <td>exchange</td>
 <td>VARCHAR2</td>
 <td>100</td>
@@ -1207,7 +1009,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE4;&#xC2A4;&#xD140; &#xC8FC;&#xC18C;</td>
+<td>커스텀 주소</td>
 <td>custom_adr</td>
 <td>VARCHAR2</td>
 <td>1000</td>
@@ -1216,7 +1018,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE4;&#xC2A4;&#xD140; &#xD0A4;</td>
+<td>커스텀 키</td>
 <td>custom_key</td>
 <td>VARCHAR2</td>
 <td>1000</td>
@@ -1225,16 +1027,16 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xCD1D; &#xBC1C;&#xD589;&#xB7C9;</td>
+<td>총 발행량</td>
 <td>total_supply</td>
 <td>VARCHAR2</td>
 <td>25</td>
 <td>80</td>
-<td>9,999&#xC870;</td>
+<td>9,999조</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC8FC;&#xC18C;</td>
+<td>컨트랙트 주소</td>
 <td>contract</td>
 <td>VARCHAR2</td>
 <td>100</td>
@@ -1243,7 +1045,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC790;&#xB9AC;&#xC218;</td>
+<td>자리수</td>
 <td>decimal</td>
 <td>INTEGER</td>
 <td>-</td>
@@ -1252,7 +1054,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC124;&#xBA85;</td>
+<td>암호화폐 설명</td>
 <td>description</td>
 <td>VARCHAR2</td>
 <td>1000</td>
@@ -1261,7 +1063,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xAD00;&#xB828; &#xC0AC;&#xC774;&#xD2B8;</td>
+<td>관련 사이트</td>
 <td>web_adr</td>
 <td>VARCHAR2</td>
 <td>1000</td>
@@ -1270,7 +1072,7 @@
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xC2DC;&#xC791;&#xC77C;</td>
+<td>ICO 시작일</td>
 <td>ico_start</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1279,7 +1081,7 @@
 </tr>
 <tr>
 <td></td>
-<td>ICO &#xB9C8;&#xAC10;&#xC77C;</td>
+<td>ICO 마감일</td>
 <td>ico_end</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1288,34 +1090,34 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC7A5;&#xD3D0;&#xC9C0; &#xC5EC;&#xBD80;</td>
+<td>상장폐지 여부</td>
 <td>list_bool</td>
 <td>INTEGER</td>
 <td>-</td>
 <td>-</td>
-<td>0: &#xBE44;&#xC0C1;&#xC7A5;<br>1: &#xC0C1;&#xC7A5;<br>2: &#xC0C1;&#xC7A5;&#xD3D0;&#xC9C0;</td>
+<td>0: 비상장<br>1: 상장<br>2: 상장폐지</td>
 </tr>
 <tr>
 <td></td>
-<td>KYC &#xC5EC;&#xBD80;</td>
+<td>KYC 여부</td>
 <td>kyc_bool</td>
 <td>INTEGER</td>
 <td>-</td>
 <td>-</td>
-<td>0: &#xD655;&#xC778; &#xD544;&#xC694;<br>1: &#xD544;&#xC694;<br>2: &#xCC28;&#xD6C4; &#xB4F1;&#xB85D; &#xD544;&#xC694;<br>3: &#xB4F1;&#xB85D; &#xC644;&#xB8CC;</td>
+<td>0: 확인 필요<br>1: 필요<br>2: 차후 등록 필요<br>3: 등록 완료</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD604;&#xAE08;&#xD654; &#xAC00;&#xB2A5; &#xC5EC;&#xBD80;</td>
+<td>현금화 가능 여부</td>
 <td>encash_bool</td>
 <td>INTEGER</td>
 <td>-</td>
 <td>-</td>
-<td>0: &#xBD88;&#xAC00;&#xB2A5;<br>1: &#xAC00;&#xB2A5;</td>
+<td>0: 불가능<br>1: 가능</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBA54;&#xBAA8;</td>
+<td>메모</td>
 <td>memo</td>
 <td>VARCHAR2</td>
 <td>1500</td>
@@ -1324,7 +1126,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC815;&#xBCF4; &#xCD5C;&#xCD08; &#xCD94;&#xAC00;&#xC77C;</td>
+<td>정보 최초 추가일</td>
 <td>register_date</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1333,7 +1135,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC815;&#xBCF4; &#xCD5C;&#xC885; &#xC218;&#xC815;&#xC77C;</td>
+<td>정보 최종 수정일</td>
 <td>change_date</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1342,7 +1144,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC9C0;&#xAE09; &#xC608;&#xC0C1;&#xC77C;</td>
+<td>지급 예상일</td>
 <td>anticipate_date</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1351,7 +1153,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xCEE4;&#xC2A4;&#xD140; &#xC774;&#xBBF8;&#xC9C0;</td>
+<td>커스텀 이미지</td>
 <td>custom_image</td>
 <td>VARCHAR2</td>
 <td>15</td>
@@ -1360,7 +1162,7 @@
 </tr>
 <tr>
 <td><strong>Settings</strong></td>
-<td>&#xBE44;&#xBC00;&#xBC88;&#xD638;</td>
+<td>비밀번호</td>
 <td>password</td>
 <td>VARCHAR2</td>
 <td>4</td>
@@ -1369,16 +1171,16 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC9C0;&#xAC11; &#xC54C;&#xB9BC; &#xC124;&#xC815;</td>
+<td>지갑 알림 설정</td>
 <td>push_bool</td>
 <td>INTEGER</td>
 <td>-</td>
 <td>-</td>
-<td>0: &#xAEBC;&#xC9D0;<br>1: &#xCF1C;&#xC9D0;</td>
+<td>0: 꺼짐<br>1: 켜짐</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xB2EC;&#xB7EC;&#xD654; &#xAC31;&#xC2E0;</td>
+<td>달러화 갱신</td>
 <td>ex_usd</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1387,7 +1189,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC5D4;&#xD654; &#xAC31;&#xC2E0;</td>
+<td>엔화 갱신</td>
 <td>ex_jpy</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1396,7 +1198,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC704;&#xC548;&#xD654; &#xAC31;&#xC2E0;</td>
+<td>위안화 갱신</td>
 <td>ex_cny</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1405,7 +1207,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xD658;&#xC728; &#xAC31;&#xC2E0;&#xC77C;</td>
+<td>환율 갱신일</td>
 <td>ex_date</td>
 <td>VARCHAR2</td>
 <td>10</td>
@@ -1414,7 +1216,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xD658;&#xC728; &#xAC31;&#xC2E0; &#xAE30;&#xC900; &#xBB38;&#xAD6C;</td>
+<td>환율 갱신 기준 문구</td>
 <td>ex_date_comp</td>
 <td>VARCHAR2</td>
 <td>55</td>
@@ -1423,7 +1225,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xD654;&#xD3D0; &#xB2E8;&#xC704; &#xC815;&#xB82C;</td>
+<td>화폐 단위 정렬</td>
 <td>cur_order</td>
 <td>INTEGER</td>
 <td>-</td>
@@ -1432,25 +1234,25 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xBBF8;&#xBD84;&#xBC30; &#xD45C;&#xC2DC; &#xC5EC;&#xBD80;</td>
+<td>미분배 표시 여부</td>
 <td>no_dist_display</td>
 <td>INTEGER</td>
 <td>-</td>
 <td>-</td>
-<td>0: &#xD45C;&#xC2DC;&#xD568;<br>1: &#xD45C;&#xC2DC; &#xC548;&#xD568;</td>
+<td>0: 표시함<br>1: 표시 안함</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xAC80;&#xC0C9; &#xC815;&#xB82C;</td>
+<td>검색 정렬</td>
 <td>search_order</td>
 <td>INTEGER</td>
 <td>-</td>
 <td>-</td>
-<td>0: &#xB4F1;&#xB85D;&#xC21C; (&#xAE30;&#xBCF8;)<br>1: &#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85; &#xC624;&#xB984;&#xCC28;&#xC21C;<br>2: &#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85; &#xB0B4;&#xB9BC;&#xCC28;&#xC21C;<br>3: &#xAC1C;&#xC218; &#xC624;&#xB984;&#xCC28;&#xC21C;<br>4: &#xAC1C;&#xC218; &#xB0B4;&#xB9BC;&#xCC28;&#xC21C;<br>5: &#xCD5C;&#xADFC; &#xAC00;&#xCE58; &#xC624;&#xB984;&#xCC28;&#xC21C;<br>6: &#xCD5C;&#xADFC; &#xAC00;&#xCE58; &#xB0B4;&#xB9BC;&#xCC28;&#xC21C;</td>
+<td>0: 등록순 (기본)<br>1: 암호화폐명 오름차순<br>2: 암호화폐명 내림차순<br>3: 개수 오름차순<br>4: 개수 내림차순<br>5: 최근 가치 오름차순<br>6: 최근 가치 내림차순</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xCD94;&#xAC00; &#xD69F;&#xC218;</td>
+<td>암호화폐 추가 횟수</td>
 <td>add_count</td>
 <td>INTEGER</td>
 <td>-</td>
@@ -1459,25 +1261,25 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xBCF4;&#xC720; &#xCD5C;&#xACE0; &#xAC00;&#xCE58;</td>
+<td>보유 최고 가치</td>
 <td>biggest</td>
 <td>VARCHAR2</td>
 <td>27</td>
 <td>85</td>
-<td>9,999&#xD574;</td>
+<td>9,999해</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD658;&#xC804; &#xCD1D; &#xAE08;&#xC561;</td>
+<td>환전 총 금액</td>
 <td>encashed</td>
 <td>VARCHAR2</td>
 <td>27</td>
 <td>85</td>
-<td>9,999&#xD574;</td>
+<td>9,999해</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xCD08; &#xB4F1;&#xB85D;&#xC77C;</td>
+<td>최초 등록일</td>
 <td>first_add</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1486,7 +1288,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xCD5C;&#xADFC; &#xB4F1;&#xB85D;&#xC77C;</td>
+<td>최근 등록일</td>
 <td>recent_add</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1495,7 +1297,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC815;&#xBCF4; &#xAE30;&#xC900;</td>
+<td>정보 기준</td>
 <td>info</td>
 <td>VARCHAR2</td>
 <td>2</td>
@@ -1504,7 +1306,7 @@
 </tr>
 <tr>
 <td><strong>Wallet</strong></td>
-<td>&#xC9C0;&#xAC11; &#xC774;&#xB984;</td>
+<td>지갑 이름</td>
 <td>w_name</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1513,7 +1315,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;</td>
+<td>지갑 주소</td>
 <td>w_adr</td>
 <td>VARCHAR2</td>
 <td>100</td>
@@ -1522,7 +1324,7 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xD50C;&#xB7AB;&#xD3FC;</td>
+<td>플랫폼</td>
 <td>w_platform</td>
 <td>VARCHAR2</td>
 <td>20</td>
@@ -1531,16 +1333,16 @@
 </tr>
 <tr>
 <td></td>
-<td>&#xB9C8;&#xC9C0;&#xB9C9; &#xBCF4;&#xAD00; &#xAC1C;&#xC218;</td>
+<td>마지막 보관 개수</td>
 <td>w_count</td>
 <td>VARCHAR2</td>
 <td>8</td>
 <td>10</td>
-<td>9,999&#xB9CC;</td>
+<td>9,999만</td>
 </tr>
 </tbody></table>
 <p><br><br></p>
-<h3 id="&#xC571;-&#xAC1C;&#xBC1C;-&#xC0C9;&#xC0C1;-&#xCF54;&#xB4DC;"><a href="#&#xC571;-&#xAC1C;&#xBC1C;-&#xC0C9;&#xC0C1;-&#xCF54;&#xB4DC;" class="headerlink" title="&#xC571; &#xAC1C;&#xBC1C; &#xC0C9;&#xC0C1; &#xCF54;&#xB4DC;"></a>&#xC571; &#xAC1C;&#xBC1C; &#xC0C9;&#xC0C1; &#xCF54;&#xB4DC;</h3><hr>
+<h3 id="앱-개발-색상-코드"><a href="#앱-개발-색상-코드" class="headerlink" title="앱 개발 색상 코드"></a>앱 개발 색상 코드</h3><hr>
 <table>
 <thead>
 <tr>
@@ -1553,441 +1355,186 @@
 </thead>
 <tbody><tr>
 <td><strong>splash</strong></td>
-<td>&#xBC30;&#xACBD;</td>
-<td>2E2624 &#xA0;<img src="https://via.placeholder.com/15/2e2624/000000?text=+" alt="#2e2624"></td>
-<td>281F1C &#xA0;<img src="https://via.placeholder.com/15/281f1c/000000?text=+" alt="#281f1c"></td>
-<td>&#xADF8;&#xB77C;&#xB370;&#xC774;&#xC158;</td>
+<td>배경</td>
+<td>2E2624 &nbsp;<img src="https://via.placeholder.com/15/2e2624/000000?text=+" alt="#2e2624"></td>
+<td>281F1C &nbsp;<img src="https://via.placeholder.com/15/281f1c/000000?text=+" alt="#281f1c"></td>
+<td>그라데이션</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xB85C;&#xACE0;-&#xD30C;&#xB791;</td>
-<td>3B8DCC &#xA0;<img src="https://via.placeholder.com/15/3b8dcc/000000?text=+" alt="#3b8dcc"></td>
-<td>B884B8 &#xA0;<img src="https://via.placeholder.com/15/b884b8/000000?text=+" alt="#b884b8"></td>
-<td>&#xADF8;&#xB77C;&#xB370;&#xC774;&#xC158;</td>
+<td>로고-파랑</td>
+<td>3B8DCC &nbsp;<img src="https://via.placeholder.com/15/3b8dcc/000000?text=+" alt="#3b8dcc"></td>
+<td>B884B8 &nbsp;<img src="https://via.placeholder.com/15/b884b8/000000?text=+" alt="#b884b8"></td>
+<td>그라데이션</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xB85C;&#xACE0;-&#xD558;&#xC591;</td>
-<td>FFFFFF &#xA0;<img src="https://via.placeholder.com/15/ffffff/000000?text=+" alt="#ffffff"></td>
+<td>로고-하양</td>
+<td>FFFFFF &nbsp;<img src="https://via.placeholder.com/15/ffffff/000000?text=+" alt="#ffffff"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td><strong>main</strong></td>
-<td>&#xCD94;&#xC815; &#xBCF4;&#xC720; &#xC790;&#xC0B0;</td>
-<td>FFF75F &#xA0;<img src="https://via.placeholder.com/15/fff75f/000000?text=+" alt="#fff75f"></td>
+<td>추정 보유 자산</td>
+<td>FFF75F &nbsp;<img src="https://via.placeholder.com/15/fff75f/000000?text=+" alt="#fff75f"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xCC38;&#xC5EC; &#xD68D;&#xB4DD; &#xBE44;&#xC728;</td>
-<td>8FDBF2 &#xA0;<img src="https://via.placeholder.com/15/8fdbf2/000000?text=+" alt="#8fdbf2"></td>
+<td>참여 획득 비율</td>
+<td>8FDBF2 &nbsp;<img src="https://via.placeholder.com/15/8fdbf2/000000?text=+" alt="#8fdbf2"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC5D0;&#xC5B4;&#xB4DC;&#xB78D; &#xC815;&#xBCF4;</td>
-<td>FC9B4C &#xA0;<img src="https://via.placeholder.com/15/fc9b4c/000000?text=+" alt="#fc9b4c"></td>
+<td>에어드랍 정보</td>
+<td>FC9B4C &nbsp;<img src="https://via.placeholder.com/15/fc9b4c/000000?text=+" alt="#fc9b4c"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD658;&#xC728; &#xC0C1;&#xC2B9;</td>
-<td>F47D8C &#xA0;<img src="https://via.placeholder.com/15/f47d8c/000000?text=+" alt="#f47d8c"></td>
+<td>환율 상승</td>
+<td>F47D8C &nbsp;<img src="https://via.placeholder.com/15/f47d8c/000000?text=+" alt="#f47d8c"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD658;&#xC728; &#xD558;&#xB77D;</td>
-<td>8FDBF2 &#xA0;<img src="https://via.placeholder.com/15/8fdbf2/000000?text=+" alt="#8fdbf2"></td>
+<td>환율 하락</td>
+<td>8FDBF2 &nbsp;<img src="https://via.placeholder.com/15/8fdbf2/000000?text=+" alt="#8fdbf2"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xD658;&#xC728; &#xC815;&#xBCF4;</td>
-<td>939393 &#xA0;<img src="https://via.placeholder.com/15/939393/000000?text=+" alt="#939393"></td>
+<td>환율 정보</td>
+<td>939393 &nbsp;<img src="https://via.placeholder.com/15/939393/000000?text=+" alt="#939393"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBE60;&#xB978; &#xCD94;&#xAC00;</td>
-<td>6BB6DB &#xA0;<img src="https://via.placeholder.com/15/6bb6db/000000?text=+" alt="#6bb6db"></td>
-<td>1A85C6 &#xA0;<img src="https://via.placeholder.com/15/1a85c6/000000?text=+" alt="#1a85c6"></td>
-<td>&#xADF8;&#xB77C;&#xB370;&#xC774;&#xC158;</td>
+<td>빠른 추가</td>
+<td>6BB6DB &nbsp;<img src="https://via.placeholder.com/15/6bb6db/000000?text=+" alt="#6bb6db"></td>
+<td>1A85C6 &nbsp;<img src="https://via.placeholder.com/15/1a85c6/000000?text=+" alt="#1a85c6"></td>
+<td>그라데이션</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC0C1;&#xC138; &#xCD94;&#xAC00;</td>
-<td>B884B8 &#xA0;<img src="https://via.placeholder.com/15/b884b8/000000?text=+" alt="#b884b8"></td>
-<td>A454A8 &#xA0;<img src="https://via.placeholder.com/15/a454a8/000000?text=+" alt="#a454a8"></td>
-<td>&#xADF8;&#xB77C;&#xB370;&#xC774;&#xC158;</td>
+<td>상세 추가</td>
+<td>B884B8 &nbsp;<img src="https://via.placeholder.com/15/b884b8/000000?text=+" alt="#b884b8"></td>
+<td>A454A8 &nbsp;<img src="https://via.placeholder.com/15/a454a8/000000?text=+" alt="#a454a8"></td>
+<td>그라데이션</td>
 </tr>
 <tr>
 <td><strong>balance</strong></td>
-<td>&#xBCC0;&#xB3D9;&#xB960; &#xC0C1;&#xC2B9;</td>
-<td>E85C68 &#xA0;<img src="https://via.placeholder.com/15/e85c68/000000?text=+" alt="#e85c68"></td>
+<td>변동률 상승</td>
+<td>E85C68 &nbsp;<img src="https://via.placeholder.com/15/e85c68/000000?text=+" alt="#e85c68"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBCC0;&#xB3D9;&#xB960; &#xD558;&#xB77D;</td>
-<td>5183C3 &#xA0;<img src="https://via.placeholder.com/15/5183c3/000000?text=+" alt="#5183c3"></td>
+<td>변동률 하락</td>
+<td>5183C3 &nbsp;<img src="https://via.placeholder.com/15/5183c3/000000?text=+" alt="#5183c3"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xBE44;&#xC0C1;&#xC7A5;</td>
-<td>8D8D8D &#xA0;<img src="https://via.placeholder.com/15/8d8d8d/000000?text=+" alt="#8d8d8d"></td>
+<td>비상장</td>
+<td>8D8D8D &nbsp;<img src="https://via.placeholder.com/15/8d8d8d/000000?text=+" alt="#8d8d8d"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td><strong>dialog_add_fast</strong></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xBA85;</td>
-<td>333333 &#xA0;<img src="https://via.placeholder.com/15/333333/000000?text=+" alt="#333333"></td>
+<td>암호화폐명</td>
+<td>333333 &nbsp;<img src="https://via.placeholder.com/15/333333/000000?text=+" alt="#333333"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>EditText &#xD78C;&#xD2B8;</td>
-<td>939393 &#xA0;<img src="https://via.placeholder.com/15/939393/000000?text=+" alt="#939393"></td>
+<td>EditText 힌트</td>
+<td>939393 &nbsp;<img src="https://via.placeholder.com/15/939393/000000?text=+" alt="#939393"></td>
 <td>-</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC911;&#xBCF5;&#xAC80;&#xC0AC;</td>
-<td>8D8D8D &#xA0;<img src="https://via.placeholder.com/15/8d8d8d/000000?text=+" alt="#8d8d8d"></td>
-<td>494949 &#xA0;<img src="https://via.placeholder.com/15/494949/000000?text=+" alt="#494949"></td>
-<td>&#xADF8;&#xB77C;&#xB370;&#xC774;&#xC158;</td>
+<td>암호화폐 중복검사</td>
+<td>8D8D8D &nbsp;<img src="https://via.placeholder.com/15/8d8d8d/000000?text=+" alt="#8d8d8d"></td>
+<td>494949 &nbsp;<img src="https://via.placeholder.com/15/494949/000000?text=+" alt="#494949"></td>
+<td>그라데이션</td>
 </tr>
 <tr>
 <td><strong>dialog_crypto_delete</strong></td>
-<td>&#xC554;&#xD638;&#xD654;&#xD3D0; &#xC0AD;&#xC81C; &#xBC30;&#xACBD;</td>
-<td>7F7F7F &#xA0;<img src="https://via.placeholder.com/15/7f7f7f/000000?text=+" alt="#7f7f7f"></td>
-<td>333333 &#xA0;<img src="https://via.placeholder.com/15/333333/000000?text=+" alt="#333333"></td>
-<td>&#xADF8;&#xB77C;&#xB370;&#xC774;&#xC158;</td>
+<td>암호화폐 삭제 배경</td>
+<td>7F7F7F &nbsp;<img src="https://via.placeholder.com/15/7f7f7f/000000?text=+" alt="#7f7f7f"></td>
+<td>333333 &nbsp;<img src="https://via.placeholder.com/15/333333/000000?text=+" alt="#333333"></td>
+<td>그라데이션</td>
 </tr>
 </tbody></table>
 <p><br><br></p>
 <blockquote>
-<p>&#x24D2; CryptoBook (Paused), All rights reserved. / YOONSUNG, JEONG&#x2019;s CODE CHAIN, 2018</p>
+<p>ⓒ CryptoBook (Paused), All rights reserved. / YOONSUNG, JEONG’s CODE CHAIN, 2018</p>
 </blockquote>
-</body></html>
-    
-    </div>
-    
-    <div class="columns is-variable is-1 is-multiline is-mobile">
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#프로젝트</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Project/">#Project</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/">#안드로이드</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">#암호화폐</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Android/">#Android</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Cryptocurrency/">#Cryptocurrency</a></span>
-    
-    </div>
-    
-    
-    <div class="columns is-mobile is-multiline article-nav">
-        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
-            
-            <a href="/2019/01/10/dailycoinews-correspondent-id/">데일리코인뉴스 (Daily Coin News) 특파원증</a>
-            
-        </span>
-        <span class="column is-12-mobile is-half-desktop  article-nav-next">
-            
-            <a href="/2018/08/31/crypto-book-before-renewal/">암호화폐 가계부 리뉴얼 전 디자인 초안들</a>
-            
-        </span>
-    </div>
-    
-</article>
-
-
-<div class="sharebox">
-    
-<div class="sharethis-inline-share-buttons"></div>
-<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
-
-</div>
-
-
-
-<div class="comments">
-    <h3 class="title is-4">댓글</h3>
-    
-<script>
-    var disqus_config = function () {
-        this.page.url = 'https://y8ncastle.me/2018/09/28/crypto-book-dev-report/';
-        this.page.identifier = '2018/09/28/crypto-book-dev-report/';
-        
-        this.language = 'ko';
-        
-    };
-    (function() {
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<div id="disqus_thread">
-    
-    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</div>
-
-    </div>
-</section>
-    <footer class="footer">
-    <div class="container">
-        <div class="columns content">
-            <div class="column is-narrow has-text-centered">
-                &copy; 2021 Zay Jeong&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
-            </div>
-            <div class="column is-hidden-mobile"></div>
-
-            
-            <div class="column is-narrow">
-                <div class="columns is-mobile is-multiline is-centered">
-                
-                    
-                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
-                    
-                    GitHub
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
-                    
-                    LinkedIn
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
-                    
-                    Instagram
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
-                    
-                    Facebook
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
-                    
-                    BOJ
-                    
-                </a>
-                
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-
-<!-- test if the browser is outdated -->
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // plugin function, place inside DOM ready function
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        })
-    });
-</script>
-
-<script>
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-    moment.locale("ko");
-</script>
-
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script>
-    MathJax.Hub.Config({
-        "HTML-CSS": {
-            matchFontHeight: false
-        },
-        SVG: {
-            matchFontHeight: false
-        },
-        CommonHTML: {
-            matchFontHeight: false
-        },
-        tex2jax: {
-            inlineMath: [
-                ['$','$'],
-                ['\\(','\\)']
-            ]
-        }
-    });
-</script>
-
-    
-    
-    
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
-<script>
-    (function ($) {
-        $(document).ready(function () {
-            if (typeof($.fn.lightGallery) === 'function') {
-                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+</div><div class="article-licensing box"><div class="licensing-title"><p>암호화폐 가계부 개발 중단 및 개발일지 총정리</p><p><a href="https://y8ncastle.me/2018/09/28/crypto-book-dev-report/">https://y8ncastle.me/2018/09/28/crypto-book-dev-report/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Zay Jeong</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2018-09-28</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-01-08</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">프로젝트</a><a class="link-muted mr-2" rel="tag" href="/tags/Project/">Project</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/">안드로이드</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</a><a class="link-muted mr-2" rel="tag" href="/tags/Android/">Android</a><a class="link-muted mr-2" rel="tag" href="/tags/Cryptocurrency/">Cryptocurrency</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2019/01/10/dailycoinews-correspondent-id/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">데일리코인뉴스 (Daily Coin News) 특파원증</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2018/08/31/crypto-book-before-renewal/"><span class="level-item">암호화폐 가계부 리뉴얼 전 디자인 초안들</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://y8ncastle.me/2018/09/28/crypto-book-dev-report/';
+            this.page.identifier = '2018/09/28/crypto-book-dev-report/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'zayjeong' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="제이정 (Zay Jeong)"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">제이정 (Zay Jeong)</p><p class="is-size-6 is-block">대학원생, 블록체인 연구원</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 서울</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">183</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">338</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/y8ncastle" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/y8ncastle"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/y8ncastle"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/y8ncastle"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/zay.jeong"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">관련 링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.acmicpc.net/user/zarch4894" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-right"><span class="level-item tag">www.acmicpc.net</span></span></a></li><li><a class="level is-mobile" href="https://youtube.com/playlist?list=PL93hJn5LGgIMVNoSYrI6_PGfVJp6L05x_" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Youtube</span></span><span class="level-right"><span class="level-item tag">youtube.com</span></span></a></li><li><a class="level is-mobile" href="https://medium.com/@y8ncastle" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Medium</span></span><span class="level-right"><span class="level-item tag">medium.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%EA%B5%90%EC%9C%A1-Blockchain/"><span class="level-start"><span class="level-item">&lt;교육&gt; Blockchain</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Academy/"><span class="level-start"><span class="level-item">Academy</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Achievement/"><span class="level-start"><span class="level-item">Achievement</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/Baekjoon-Online-Judge/"><span class="level-start"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-end"><span class="level-item tag">31</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/"><span class="level-start"><span class="level-item">Blockchain</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><span class="level-start"><span class="level-item">&lt;교육&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Hyperledger-Fabric/"><span class="level-start"><span class="level-item">&lt;교육&gt; Hyperledger Fabric</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><span class="level-start"><span class="level-item">&lt;실습&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%9D%B4%EB%A1%A0-Bitcoin/"><span class="level-start"><span class="level-item">&lt;이론&gt; Bitcoin</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/Ethereum/"><span class="level-start"><span class="level-item">Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/CSS/"><span class="level-start"><span class="level-item">CSS</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Crypto-Community/"><span class="level-start"><span class="level-item">Crypto Community</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Exhibition/"><span class="level-start"><span class="level-item">Exhibition</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Education/"><span class="level-start"><span class="level-item">IT Education</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Free-Board/"><span class="level-start"><span class="level-item">IT Free Board</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/"><span class="level-start"><span class="level-item">Personal Project</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><span class="level-start"><span class="level-item">&lt;개인&gt; Android</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Ethereum/"><span class="level-start"><span class="level-item">&lt;개인&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/Plan/"><span class="level-start"><span class="level-item">Plan</span></span><span class="level-end"><span class="level-item tag">49</span></span></a></li><li><a class="level is-mobile" href="/categories/Seminar/"><span class="level-start"><span class="level-item">Seminar</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/"><span class="level-start"><span class="level-item">Team Project</span></span><span class="level-end"><span class="level-item tag">32</span></span></a><ul><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-Hanium/"><span class="level-start"><span class="level-item">&lt;팀&gt; Hanium</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-MRM/"><span class="level-start"><span class="level-item">&lt;팀&gt; MRM</span></span><span class="level-end"><span class="level-item tag">25</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-On-Books/"><span class="level-start"><span class="level-item">&lt;팀&gt; On Books</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-X-Corps/"><span class="level-start"><span class="level-item">&lt;팀&gt; X-Corps</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/X-Corps/"><span class="level-start"><span class="level-item">X-Corps</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 포스트</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-03-01T11:21:00.000Z">2020-03-01</time></p><p class="title"><a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a></p><p class="categories"><a href="/categories/Plan/">Plan</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T08:27:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/ethereum-private-network/">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</a></p><p class="categories"><a href="/categories/Blockchain/">Blockchain</a> / <a href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T02:50:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a></p><p class="categories"><a href="/categories/CSS/">CSS</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T14:37:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/hanbat-diploma/">국립 한밭대학교 정보통신공학 학사 학위 취득</a></p><p class="categories"><a href="/categories/Achievement/">Achievement</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T02:36:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/youtube-seminar-20-3/">[2020.02.17] A New Privacy Protection Security Scheme for Blockchain (BaSE Lab 유튜브 세미나 20-3차)</a></p><p class="categories"><a href="/categories/Seminar/">Seminar</a></p></div></article></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Zay Jeong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
             }
-            if (typeof($.fn.justifiedGallery) === 'function') {
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
                 $('.justified-gallery').justifiedGallery();
             }
-        });
-    })(jQuery);
-</script>
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-    <style>
-        .hljs {
-            position: relative;
-        }
-
-        .hljs .clipboard-btn {
-            float: right;
-            color: #9a9a9a;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .hljs .clipboard-btn:hover {
-          color: #8a8a8a;
-        }
-
-        .hljs > .clipboard-btn {
-            display: none;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-        }
-
-        .hljs:hover > .clipboard-btn {
-            display: inline;
-        }
-
-        .hljs > figcaption > .clipboard-btn {
-            margin-right: 4px;
-        }
-    </style>
-    <script>
-      $(document).ready(function () {
-        $('figure.hljs').each(function(i, figure) {
-          var codeId = 'code-' + i;
-          var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
-          code.id = codeId;
-          copyButton.addClass('clipboard-btn');
-          copyButton.attr('data-clipboard-target-id', codeId);
-
-          var figcaption = figure.querySelector('figcaption');
-
-          if (figcaption) {
-            figcaption.append(copyButton[0]);
-          } else {
-            figure.prepend(copyButton[0]);
-          }
-        })
-
-        var clipboard = new ClipboardJS('.clipboard-btn', {
-          target: function(trigger) {
-            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-          }
-        });
-        clipboard.on('success', function(e) {
-          e.clearSelection();
-        })
-      })
-    </script>
-
-    
-    
-
-    
-
-
-
-<script src="/js/script.js"></script>
-
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-mask"></div>
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '글',
-                PAGES: '페이지',
-                CATEGORIES: '카테고리 목록',
-                TAGS: '태그 목록',
-                UNTITLED: '(제목없음)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-    
-</body>
-</html>
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="검색할 내용을 입력하세요"></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"검색할 내용을 입력하세요","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>

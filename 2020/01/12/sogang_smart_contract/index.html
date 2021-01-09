@@ -1,190 +1,18 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-<head>
-    <meta charset="utf-8">
-<title>[2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원 - Zay Jeong Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
-
-
-
-
-<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
-
-
-
-<meta name="keywords" content="IT, Blockchain, Android, Development">
-
-
-
-    <meta name="description" content="Remix Ethereum IDE: http:&#x2F;&#x2F;remix.ethereum.org&#x2F; (JSON RPC&amp;#xB97C; &amp;#xD1B5;&amp;#xD574; &amp;#xBC1C;&amp;#xD589;)  [Compiler setup]  Solidity version select   Metamask &amp;#xC5F0;&amp;#xACB0; &amp;#xC2DC; Environment - I">
-<meta property="og:type" content="article">
-<meta property="og:title" content="[2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원">
-<meta property="og:url" content="https://y8ncastle.me/2020/01/12/sogang_smart_contract/index.html">
-<meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="Remix Ethereum IDE: http:&#x2F;&#x2F;remix.ethereum.org&#x2F; (JSON RPC&amp;#xB97C; &amp;#xD1B5;&amp;#xD574; &amp;#xBC1C;&amp;#xD589;)  [Compiler setup]  Solidity version select   Metamask &amp;#xC5F0;&amp;#xACB0; &amp;#xC2DC; Environment - I">
-<meta property="og:locale" content="ko_KR">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103251136-c43cdd80-49ba-11eb-8423-52f461c05447.jpg">
-<meta property="article:published_time" content="2020-01-12T04:39:00.000Z">
-<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
-<meta property="article:author" content="Zay Jeong">
-<meta property="article:tag" content="블록체인">
-<meta property="article:tag" content="Blockchain">
-<meta property="article:tag" content="이더리움">
-<meta property="article:tag" content="스마트 컨트랙트">
-<meta property="article:tag" content="Ethereum">
-<meta property="article:tag" content="Smart Contract">
-<meta property="article:tag" content="서울블록체인지원센터">
-<meta property="article:tag" content="Seoul Blockchain Center">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg">
-
-
-
-
-
-<link rel="icon" href="/images/favicon/favicon.ico">
-
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>[2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원 - Zay Jeong Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Zay (Yoonsung), Jeong"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zay (Yoonsung), Jeong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Remix Ethereum IDE: http:&amp;#x2F;&amp;#x2F;remix.ethereum.org&amp;#x2F; (JSON RPC를 통해 발행)  [Compiler setup]  Solidity version select   Metamask 연결 시 Environment - Injected Web3 선택 (네트워크 주소가 바로 아래 표시됨)       Auto compile"><meta property="og:type" content="blog"><meta property="og:title" content="[2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원"><meta property="og:url" content="https://y8ncastle.me/2020/01/12/sogang_smart_contract/"><meta property="og:site_name" content="Zay Jeong Blog"><meta property="og:description" content="Remix Ethereum IDE: http:&amp;#x2F;&amp;#x2F;remix.ethereum.org&amp;#x2F; (JSON RPC를 통해 발행)  [Compiler setup]  Solidity version select   Metamask 연결 시 Environment - Injected Web3 선택 (네트워크 주소가 바로 아래 표시됨)       Auto compile"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103251136-c43cdd80-49ba-11eb-8423-52f461c05447.jpg"><meta property="article:published_time" content="2020-01-12T04:39:00.000Z"><meta property="article:modified_time" content="2021-01-08T06:00:52.000Z"><meta property="article:author" content="Zay Jeong"><meta property="article:tag" content="블록체인"><meta property="article:tag" content="Blockchain"><meta property="article:tag" content="이더리움"><meta property="article:tag" content="스마트 컨트랙트"><meta property="article:tag" content="Ethereum"><meta property="article:tag" content="Smart Contract"><meta property="article:tag" content="서울블록체인지원센터"><meta property="article:tag" content="Seoul Blockchain Center"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://y8ncastle.me/2020/01/12/sogang_smart_contract/"},"headline":"Zay Jeong Blog","image":["https://user-images.githubusercontent.com/52089296/103251136-c43cdd80-49ba-11eb-8423-52f461c05447.jpg"],"datePublished":"2020-01-12T04:39:00.000Z","dateModified":"2021-01-08T06:00:52.000Z","author":{"@type":"Person","name":"Zay Jeong"},"description":"Remix Ethereum IDE: http:&#x2F;&#x2F;remix.ethereum.org&#x2F; (JSON RPC를 통해 발행)  [Compiler setup]  Solidity version select   Metamask 연결 시 Environment - Injected Web3 선택 (네트워크 주소가 바로 아래 표시됨)       Auto compile"}</script><link rel="canonical" href="https://y8ncastle.me/2020/01/12/sogang_smart_contract/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168776470-2');
-</script>
-
-
-    
-
-
-<meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-    
-<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
-                
-                <img src="/images/logo.png" alt="" height="28">
-                
-            </a>
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="navbar-menu navbar-start">
-            
-            <a class="navbar-item "
-               href="/about">About</a>
-            
-            <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item "
-               href="/tags">Tags</a>
-            
-            <a class="navbar-item "
-               href="/archives">Archives</a>
-            
-            <a class="navbar-item "
-               href="/cv">CV</a>
-            
-        </div>
-        
-        <div class="navbar-menu navbar-end">
-            
-            <a class="navbar-item search" title="검색" href="javascript:;">
-                <i class="fas fa-search"></i>
-            </a>
-            
-            
-            
-            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-               
-            
-        </div>
-    </div>
-</nav>
-
-    <section class="section">
-    <div class="container">
-    <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            [2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2020-01-12T04:39:00.000Z" itemprop="datePublished">1월 12 2020</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Blockchain/">Blockchain</a><span>></span><a class="article-category-link" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><교육> Ethereum</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            12분 소요 (약 1814 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg" width="70%"></p>  
+        gtag('config', 'UA-168776470-2');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.0.2"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">홈</a><a class="navbar-item" href="/about">CV</a><a class="navbar-item" href="/categories">카테고리</a><a class="navbar-item" href="/archives">타임라인</a><a class="navbar-item" href="/tags">태그 모음</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2020-01-12T04:39:00.000Z" title="2020. 1. 12. 오후 1:39:00">2020-01-12</time>&nbsp;최초 게시 됨</span><span class="level-item"><time dateTime="2021-01-08T06:00:52.000Z" title="2021. 1. 8. 오후 3:00:52">2021-01-08</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Blockchain/">Blockchain</a><span> / </span><a class="link-muted" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/">&lt;교육&gt; Ethereum</a></span><span class="level-item">12분 소요 (약 1814 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">[2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원</h1><div class="content"><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg" width="70%"></p>  
 
 <p><br><br></p>
 <h3 id="Remix"><a href="#Remix" class="headerlink" title="Remix"></a>Remix</h3><hr>
-<p><strong>Ethereum IDE</strong>: <a target="_blank" rel="noopener" href="http://remix.ethereum.org/">http://remix.ethereum.org/</a> (JSON RPC&#xB97C; &#xD1B5;&#xD574; &#xBC1C;&#xD589;)</p>
+<p><strong>Ethereum IDE</strong>: <a target="_blank" rel="noopener" href="http://remix.ethereum.org/">http://remix.ethereum.org/</a> (JSON RPC를 통해 발행)</p>
 <p><br><br></p>
 <p><strong>[Compiler setup]</strong></p>
 <ol>
 <li><code>Solidity version select</code>  <ul>
-<li>Metamask &#xC5F0;&#xACB0; &#xC2DC; Environment - Injected Web3 &#xC120;&#xD0DD; (&#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC8FC;&#xC18C;&#xAC00; &#xBC14;&#xB85C; &#xC544;&#xB798; &#xD45C;&#xC2DC;&#xB428;)</li>
+<li>Metamask 연결 시 Environment - Injected Web3 선택 (네트워크 주소가 바로 아래 표시됨)</li>
 </ul>
 </li>
 </ol>
@@ -193,37 +21,37 @@
 <ol start="2">
 <li><p><code>Auto compile</code></p>
 </li>
-<li><p><code>File explorers</code> (Solidity &#xD30C;&#xC77C;&#xB4E4;&#xC774; &#xC788;&#xB294; &#xACF3;)</p>
+<li><p><code>File explorers</code> (Solidity 파일들이 있는 곳)</p>
 </li>
-<li><p><code>Create new file</code> &#xD074;&#xB9AD; &#xD6C4; &#xCF54;&#xB4DC; &#xC791;&#xC131;</p>
+<li><p><code>Create new file</code> 클릭 후 코드 작성</p>
 </li>
 </ol>
 <br>
 
 <ol start="5">
-<li><code>Deploy &amp; Run transactions</code> - &#xCEF4;&#xD30C;&#xC77C;&#xC774; &#xB418;&#xC5C8;&#xB2E4;&#xBA74; Solidity compiler&#xC5D0; &#xCCB4;&#xD06C; &#xD45C;&#xC2DC;&#xAC00; &#xB418;&#xC5B4; &#xC788;&#xC744; &#xAC83;<ul>
-<li>Deploy &#xD074;&#xB9AD;&#xC73C;&#xB85C; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC0C1;&#xC5D0; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xBC1C;&#xD589;</li>
-<li>Deploy contracts &#xC67C;&#xCABD; &#xD654;&#xC0B4;&#xD45C; &#xD074;&#xB9AD; &#xD6C4; get&#xC5D0;&#xC11C; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC798; &#xB098;&#xC624;&#xB294;&#xC9C0; &#xD655;&#xC778;</li>
-<li>set&#xC744; &#xB2E4;&#xB978; &#xAC12;&#xC73C;&#xB85C; &#xC785;&#xB825;&#xD558;&#xBA74;&#xC11C; &#xD14C;&#xC2A4;&#xD2B8; &#xAC00;&#xB2A5;</li>
-<li>&#xD074;&#xB9BD;&#xBCF4;&#xB4DC; &#xD074;&#xB9AD;&#xC2DC; &#xD574;&#xB2F9; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC8FC;&#xC18C; &#xBCF5;&#xC0AC; &#xBC0F; &#xD655;&#xC778; &#xAC00;&#xB2A5;</li>
+<li><code>Deploy &amp; Run transactions</code> - 컴파일이 되었다면 Solidity compiler에 체크 표시가 되어 있을 것<ul>
+<li>Deploy 클릭으로 네트워크 상에 컨트랙트 발행</li>
+<li>Deploy contracts 왼쪽 화살표 클릭 후 get에서 데이터가 잘 나오는지 확인</li>
+<li>set을 다른 값으로 입력하면서 테스트 가능</li>
+<li>클립보드 클릭시 해당 컨트랙트 주소 복사 및 확인 가능</li>
 </ul>
 </li>
 </ol>
 <br>
 
 <ul>
-<li>At address &#xBD80;&#xBD84;&#xC5D0; &#xC8FC;&#xC18C;&#xB97C; &#xB123;&#xC73C;&#xBA74; &#xD574;&#xB2F9; &#xC8FC;&#xC18C;&#xC758; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xD589; &#xAC00;&#xB2A5;</li>
+<li>At address 부분에 주소를 넣으면 해당 주소의 컨트랙트 실행 가능</li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xAE30;&#xBCF8;-&#xD615;&#xD0DC;"><a href="#&#xAE30;&#xBCF8;-&#xD615;&#xD0DC;" class="headerlink" title="&#xAE30;&#xBCF8; &#xD615;&#xD0DC;"></a>&#xAE30;&#xBCF8; &#xD615;&#xD0DC;</h3><hr>
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">pragma solidty &gt;= 0.4.22 &lt; 0.6.0;</span><br><span class="line"></span><br><span class="line">contract Contract {</span><br><span class="line">    uint256 data; // &#xBCC0;&#xC218; &#xC0DD;&#xC131; (Type &#xD615;&#xC5D0; &#xB9DE;&#xAC8C; &#xC791;&#xC131;), unsigned int(256bit)</span><br><span class="line">        </span><br><span class="line">    Constructor() public { // Contract&#xAC00; &#xBC1C;&#xD589;&#xB418;&#xBA74;&#xC11C; &#xAC00;&#xC7A5; &#xBA3C;&#xC800; &#xC2E4;&#xD589;&#xB418;&#xB294; &#xAC83; (&#xCD08;&#xAE30;&#xD654;)</span><br><span class="line">        data = 0;</span><br><span class="line">    } // &#x2192; &#xACC4;&#xC57D;&#xC5D0; &#xB2F4;&#xC744; &#xB0B4;&#xC6A9;</span><br><span class="line">    function get() public view returns(uint256) { // &#xC5EC;&#xB7EC; &#xAC1C; &#xB9AC;&#xD134; &#xAC00;&#xB2A5;</span><br><span class="line">        return data;</span><br><span class="line">    }</span><br><span class="line">    function set(uint256 _data) public {</span><br><span class="line">        data = _data;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="기본-형태"><a href="#기본-형태" class="headerlink" title="기본 형태"></a>기본 형태</h3><hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">pragma solidty &gt;&#x3D; 0.4.22 &lt; 0.6.0;</span><br><span class="line"></span><br><span class="line">contract Contract &#123;</span><br><span class="line">    uint256 data; &#x2F;&#x2F; 변수 생성 (Type 형에 맞게 작성), unsigned int(256bit)</span><br><span class="line">        </span><br><span class="line">    Constructor() public &#123; &#x2F;&#x2F; Contract가 발행되면서 가장 먼저 실행되는 것 (초기화)</span><br><span class="line">        data &#x3D; 0;</span><br><span class="line">    &#125; &#x2F;&#x2F; → 계약에 담을 내용</span><br><span class="line">    function get() public view returns(uint256) &#123; &#x2F;&#x2F; 여러 개 리턴 가능</span><br><span class="line">        return data;</span><br><span class="line">    &#125;</span><br><span class="line">    function set(uint256 _data) public &#123;</span><br><span class="line">        data &#x3D; _data;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><br><br></p>
-<h3 id="Solidity-&#xC608;&#xC81C;-&#xACC4;&#xC0B0;&#xAE30;-SafeMath"><a href="#Solidity-&#xC608;&#xC81C;-&#xACC4;&#xC0B0;&#xAE30;-SafeMath" class="headerlink" title="Solidity &#xC608;&#xC81C; - &#xACC4;&#xC0B0;&#xAE30; (SafeMath)"></a>Solidity &#xC608;&#xC81C; - &#xACC4;&#xC0B0;&#xAE30; (SafeMath)</h3><hr>
+<h3 id="Solidity-예제-계산기-SafeMath"><a href="#Solidity-예제-계산기-SafeMath" class="headerlink" title="Solidity 예제 - 계산기 (SafeMath)"></a>Solidity 예제 - 계산기 (SafeMath)</h3><hr>
 <ul>
-<li><p>&#xC5F0;&#xC0B0; &#xACFC;&#xC815;&#xC740; &#xC774;&#xAC83;&#xC744; &#xC774;&#xC6A9;&#xD574;&#xC11C; &#xD558;&#xBA74; &#xC88B;&#xB2E4;.</p>
+<li><p>연산 과정은 이것을 이용해서 하면 좋다.</p>
 </li>
-<li><p>&#xB367;&#xC148;, &#xBE84;&#xC148; &#xB4F1; &#xC5F0;&#xC0B0; &#xACFC;&#xC815;&#xC2DC; underflow, overflow&#xAC00; &#xBC1C;&#xC0DD;&#xD558;&#xBA74; Library&#xC5D0;&#xC11C; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xCC3E;&#xC544; &#xC608;&#xC678;&#xCC98;&#xB9AC; &#xD55C;&#xB2E4;. (&#xC74C;&#xC218; &#xB610;&#xB294; Max &#xAC12; &#xCD08;&#xACFC;)</p>
+<li><p>덧셈, 뺄셈 등 연산 과정시 underflow, overflow가 발생하면 Library에서 자동으로 찾아 예외처리 한다. (음수 또는 Max 값 초과)</p>
 </li>
 <li><p>using SafeMath for uint</p>
 </li>
@@ -231,34 +59,34 @@
 <br>
 
 <ul>
-<li><strong>&#xC694;&#xAD6C; &#xC870;&#xAC74; &#xAE30;&#xC785;</strong>: <code>require(&quot;&#xC870;&#xAC74;&quot;, &quot;&#xC870;&#xAC74; &#xBD88;&#xC77C;&#xCE58; &#xC2DC; &#xC5D0;&#xB7EC; &#xD45C;&#xAE30; &#xB0B4;&#xC6A9;&quot;)</code></li>
+<li><strong>요구 조건 기입</strong>: <code>require(&quot;조건&quot;, &quot;조건 불일치 시 에러 표기 내용&quot;)</code></li>
 </ul>
 <p><br><br></p>
-<h3 id="Solidity-&#xC608;&#xC81C;-Ballot"><a href="#Solidity-&#xC608;&#xC81C;-Ballot" class="headerlink" title="Solidity &#xC608;&#xC81C; - Ballot"></a>Solidity &#xC608;&#xC81C; - Ballot</h3><hr>
+<h3 id="Solidity-예제-Ballot"><a href="#Solidity-예제-Ballot" class="headerlink" title="Solidity 예제 - Ballot"></a>Solidity 예제 - Ballot</h3><hr>
 <ul>
-<li><p>&#xD22C;&#xD45C;&#xC5D0; &#xAD00;&#xB828;&#xB41C; &#xAE30;&#xBCF8;&#xC801;&#xC778; &#xC608;&#xC81C;</p>
+<li><p>투표에 관련된 기본적인 예제</p>
 </li>
-<li><p>&#xAE30;&#xBCF8;&#xC801;&#xC778; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xAD6C;&#xC131; &#xCF54;&#xB4DC;&#xB4E4;&#xC774; &#xB4E4;&#xC5B4;&#xC788;&#xB2E4;.</p>
+<li><p>기본적인 컨트랙트 구성 코드들이 들어있다.</p>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD55C; &#xAC1C;&#xC758; &#xD22C;&#xD45C; &#xB2F9; &#xD558;&#xB098;&#xC758; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xC791;&#xC131;&#xD558;&#xC5EC; &#xAC01; &#xC120;&#xD0DD;&#xB9C8;&#xB2E4; &#xB204;&#xC801; &#xD22C;&#xD45C;&#xC218;&#xB97C; &#xC81C;&#xACF5;&#xD558;&#xC5EC; &#xC758;&#xC7A5; &#xC5ED;&#xD560;&#xC744; &#xC218;&#xD589;&#xD558;&#xB294; &#xC791;&#xC131;&#xC790;&#xAC00; &#xAC01; &#xC8FC;&#xC18C;&#xC5D0; &#xAC1C;&#xBCC4;&#xC801; &#xD22C;&#xD45C;&#xAD8C;&#xC744; &#xBD80;&#xC5EC;&#xD55C;&#xB2E4;. &#xD22C;&#xD45C;&#xAD8C;&#xC744; &#xBC1B;&#xC740; &#xC0AC;&#xB78C;&#xB4E4;&#xC740; &#xD22C;&#xD45C;&#xB97C; &#xD558;&#xAC70;&#xB098; &#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xC5D0;&#xAC8C; &#xD22C;&#xD45C;&#xAD8C;&#xC744; &#xC704;&#xC784;&#xD560; &#xC218; &#xC788;&#xB2E4;.  </li>
+<li>한 개의 투표 당 하나의 컨트랙트를 작성하여 각 선택마다 누적 투표수를 제공하여 의장 역할을 수행하는 작성자가 각 주소에 개별적 투표권을 부여한다. 투표권을 받은 사람들은 투표를 하거나 다른 사람에게 투표권을 위임할 수 있다.  </li>
 </ul>
 <br>
 
 <blockquote>
-<p>&#xCC38;&#xACE0;: <a target="_blank" rel="noopener" href="https://solidity-kr.readthedocs.io/ko/latest/solidity-by-example.html">https://solidity-kr.readthedocs.io/ko/latest/solidity-by-example.html</a></p>
+<p>참고: <a target="_blank" rel="noopener" href="https://solidity-kr.readthedocs.io/ko/latest/solidity-by-example.html">https://solidity-kr.readthedocs.io/ko/latest/solidity-by-example.html</a></p>
 </blockquote>
 <p><br><br></p>
-<p><strong>[&#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBD84;&#xC11D;]</strong></p>
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;=0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract Ballot {</span><br><span class="line">    struct Voter {</span><br><span class="line">        uint weight;</span><br><span class="line">        bool voted;</span><br><span class="line">        uint8 vote;</span><br><span class="line">        address delegate;</span><br><span class="line">    }</span><br><span class="line">    struct Proposal {</span><br><span class="line">        uint voteCount;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    address chairperson; // &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xC0DD;&#xC131;&#xD55C; &#xC0AC;&#xB78C;</span><br><span class="line">    mapping(address =&gt; Voter) voters; // &#xAC01;&#xAC01;&#xC758; &#xAC00;&#xB2A5;&#xD55C; &#xC8FC;&#xC18C;&#xC5D0; &#xB300;&#xD574; Voter &#xAD6C;&#xC870;&#xCCB4;&#xB97C; &#xC800;&#xC7A5;&#xD558;&#xB294; &#xC0C1;&#xD0DC;&#xBCC0;&#xC218; &#xC120;&#xC5B8;</span><br><span class="line">    Proposal[] proposals; // &#xB3D9;&#xC801; &#xAD6C;&#xC870;&#xCCB4; &#xBC30;&#xC5F4;</span><br><span class="line"></span><br><span class="line">    /// Create a new ballot with $(_numProposals) different proposals.</span><br><span class="line">    // Proposal.Names &#xC911; &#xD558;&#xB098;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xC0C8;&#xB85C;&#xC6B4; &#xD22C;&#xD45C;&#xAD8C; &#xC0DD;&#xC131;</span><br><span class="line">    constructor(uint8 _numProposals) public {</span><br><span class="line">        chairperson = msg.sender;</span><br><span class="line">        voters[chairperson].weight = 1;</span><br><span class="line">        proposals.length = _numProposals; // _numProposals&#xB85C;&#xBD80;&#xD130; Proposal&#xC758; &#xAE38;&#xC774;&#xB97C; &#xC785;&#xB825;&#xBC1B;&#xC74C;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    /// Give $(toVoter) the right to vote on this ballot.</span><br><span class="line">    /// May only be called by $(chairperson).</span><br><span class="line">    function giveRightToVote(address toVoter) public { // &#xD568;&#xC218;&#xB97C; &#xC2E4;&#xD589;&#xD55C; &#xC0AC;&#xB78C;&#xC758; &#xACC4;&#xC88C; &#xC8FC;&#xC18C;&#xC640; chairperson&#xC774; &#xB2E4;&#xB974;&#xAC70;&#xB098; voter&#xB97C; &#xC9C0;&#xC815;&#xD558;&#xB294; &#xACC4;&#xC88C;&#xAC00; &#xC774;&#xBBF8; &#xD22C;&#xD45C;&#xB97C; &#xD55C; &#xC0C1;&#xD669;&#xC774;&#xB77C;&#xBA74; &#xC774; &#xD568;&#xC218;&#xB294; &#xC885;&#xB8CC;, &#xC774;&#xC804;&#xC5D0; &#xBC18;&#xB300;&#xB418;&#xB294; &#xB0B4;&#xC6A9;&#xC774; &#xC870;&#xAC74;)</span><br><span class="line">        if (msg.sender != chairperson || voters[toVoter].voted) return;</span><br><span class="line">        voters[toVoter].weight = 1;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    /// Delegate your vote to the voter $(to).</span><br><span class="line">    // Voter&#xC5D0;&#xAC8C; &#xC774; &#xD22C;&#xD45C;&#xAD8C;&#xC5D0; &#xB300;&#xD55C; &#xAD8C;&#xD55C; &#xBD80;&#xC5EC; (Chairperson&#xC73C;&#xB85C;&#xBD80;&#xD130; &#xD638;&#xCD9C; &#xBC1B;&#xC744; &#xC218; &#xC788;&#xC74C;)</span><br><span class="line">    function delegate(address to) public {</span><br><span class="line">        Voter storage sender = voters[msg.sender]; // assigns reference</span><br><span class="line">        if (sender.voted) return;</span><br><span class="line">        while (voters[to].delegate != address(0) &amp;&amp; voters[to].delegate != msg.sender)</span><br><span class="line">            to = voters[to].delegate;</span><br><span class="line">        if (to == msg.sender) return;</span><br><span class="line">        sender.voted = true;</span><br><span class="line">        sender.delegate = to;</span><br><span class="line">        Voter storage delegateTo = voters[to];</span><br><span class="line">        if (delegateTo.voted)</span><br><span class="line">            proposals[delegateTo.vote].voteCount += sender.weight;</span><br><span class="line">        else</span><br><span class="line">            delegateTo.weight += sender.weight;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    /// Give a single vote to proposal $(toProposal).</span><br><span class="line">    function vote(uint8 toProposal) public {</span><br><span class="line">        Voter storage sender = voters[msg.sender]; // Voters&#xB294; &#xB9E4;&#xD551; &#xBCC0;&#xC218;. &#xACC4;&#xC88C;&#xC8FC;&#xC18C;&#xB97C; &#xAC00;&#xC9C0;&#xACE0; &#xC778;&#xB371;&#xC2A4;&#xB97C; &#xC811;&#xADFC;&#xD558;&#xAC8C; &#xD574;&#xC8FC;&#xB294; &#xAC83;, sender&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xB294; &#xC0AC;&#xB78C;&#xB4E4;&#xC740; &#xC2E4;&#xC81C;&#xB85C; &#xD22C;&#xD45C;&#xC5D0; &#xCC38;&#xC5EC;&#xD558;&#xB294; &#xC0AC;&#xB78C;&#xB4E4;&#xC744; &#xAC00;&#xB9AC;&#xD0B4;</span><br><span class="line">        if (sender.voted || toProposal &gt;= proposals.length) return; // &#xC81C;&#xC548; &#xC218;&#xB97C; &#xCD08;&#xACFC;&#xD558;&#xB294; &#xACBD;&#xC6B0; &#xD568;&#xC218; &#xC2E4;&#xD589;&#xC744; &#xC885;&#xB8CC;&#xC2DC;&#xD0B4;</span><br><span class="line">        sender.voted = true;</span><br><span class="line">        sender.vote = toProposal;</span><br><span class="line">        proposals[toProposal].voteCount += sender.weight;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    function winningProposal() public view returns (uint8 _winningProposal) { // &#xCD5C;&#xC885; &#xACB0;&#xACFC;&#xB97C; &#xCD9C;&#xB825;</span><br><span class="line">        uint256 winningVoteCount = 0;</span><br><span class="line">        for (uint8 prop = 0; prop &lt; proposals.length; prop++) // &#xCD1D; Proposal &#xAC1C;&#xC218;&#xB9CC;&#xD07C; &#xBC18;&#xBCF5;&#xD558;&#xBA74;&#xC11C; voteCount&#xBCF4;&#xB2E4; &#xD074; &#xB54C; &#xAE4C;&#xC9C0; &#xBC18;&#xBCF5;&#xD558;&#xBA70; &#xCD5C;&#xB2E4; &#xD22C;&#xD45C; &#xAC12;&#xC744; &#xD655;&#xC778;</span><br><span class="line">            if (proposals[prop].voteCount &gt; winningVoteCount) {</span><br><span class="line">                winningVoteCount = proposals[prop].voteCount;</span><br><span class="line">                _winningProposal = prop;</span><br><span class="line">            }</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<p><strong>[소스코드 분석]</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;&#x3D;0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract Ballot &#123;</span><br><span class="line">    struct Voter &#123;</span><br><span class="line">        uint weight;</span><br><span class="line">        bool voted;</span><br><span class="line">        uint8 vote;</span><br><span class="line">        address delegate;</span><br><span class="line">    &#125;</span><br><span class="line">    struct Proposal &#123;</span><br><span class="line">        uint voteCount;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    address chairperson; &#x2F;&#x2F; 컨트랙트를 생성한 사람</span><br><span class="line">    mapping(address &#x3D;&gt; Voter) voters; &#x2F;&#x2F; 각각의 가능한 주소에 대해 Voter 구조체를 저장하는 상태변수 선언</span><br><span class="line">    Proposal[] proposals; &#x2F;&#x2F; 동적 구조체 배열</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Create a new ballot with $(_numProposals) different proposals.</span><br><span class="line">    &#x2F;&#x2F; Proposal.Names 중 하나를 선택하기 위한 새로운 투표권 생성</span><br><span class="line">    constructor(uint8 _numProposals) public &#123;</span><br><span class="line">        chairperson &#x3D; msg.sender;</span><br><span class="line">        voters[chairperson].weight &#x3D; 1;</span><br><span class="line">        proposals.length &#x3D; _numProposals; &#x2F;&#x2F; _numProposals로부터 Proposal의 길이를 입력받음</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Give $(toVoter) the right to vote on this ballot.</span><br><span class="line">    &#x2F;&#x2F;&#x2F; May only be called by $(chairperson).</span><br><span class="line">    function giveRightToVote(address toVoter) public &#123; &#x2F;&#x2F; 함수를 실행한 사람의 계좌 주소와 chairperson이 다르거나 voter를 지정하는 계좌가 이미 투표를 한 상황이라면 이 함수는 종료, 이전에 반대되는 내용이 조건)</span><br><span class="line">        if (msg.sender !&#x3D; chairperson || voters[toVoter].voted) return;</span><br><span class="line">        voters[toVoter].weight &#x3D; 1;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Delegate your vote to the voter $(to).</span><br><span class="line">    &#x2F;&#x2F; Voter에게 이 투표권에 대한 권한 부여 (Chairperson으로부터 호출 받을 수 있음)</span><br><span class="line">    function delegate(address to) public &#123;</span><br><span class="line">        Voter storage sender &#x3D; voters[msg.sender]; &#x2F;&#x2F; assigns reference</span><br><span class="line">        if (sender.voted) return;</span><br><span class="line">        while (voters[to].delegate !&#x3D; address(0) &amp;&amp; voters[to].delegate !&#x3D; msg.sender)</span><br><span class="line">            to &#x3D; voters[to].delegate;</span><br><span class="line">        if (to &#x3D;&#x3D; msg.sender) return;</span><br><span class="line">        sender.voted &#x3D; true;</span><br><span class="line">        sender.delegate &#x3D; to;</span><br><span class="line">        Voter storage delegateTo &#x3D; voters[to];</span><br><span class="line">        if (delegateTo.voted)</span><br><span class="line">            proposals[delegateTo.vote].voteCount +&#x3D; sender.weight;</span><br><span class="line">        else</span><br><span class="line">            delegateTo.weight +&#x3D; sender.weight;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Give a single vote to proposal $(toProposal).</span><br><span class="line">    function vote(uint8 toProposal) public &#123;</span><br><span class="line">        Voter storage sender &#x3D; voters[msg.sender]; &#x2F;&#x2F; Voters는 매핑 변수. 계좌주소를 가지고 인덱스를 접근하게 해주는 것, sender에 들어가는 사람들은 실제로 투표에 참여하는 사람들을 가리킴</span><br><span class="line">        if (sender.voted || toProposal &gt;&#x3D; proposals.length) return; &#x2F;&#x2F; 제안 수를 초과하는 경우 함수 실행을 종료시킴</span><br><span class="line">        sender.voted &#x3D; true;</span><br><span class="line">        sender.vote &#x3D; toProposal;</span><br><span class="line">        proposals[toProposal].voteCount +&#x3D; sender.weight;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    function winningProposal() public view returns (uint8 _winningProposal) &#123; &#x2F;&#x2F; 최종 결과를 출력</span><br><span class="line">        uint256 winningVoteCount &#x3D; 0;</span><br><span class="line">        for (uint8 prop &#x3D; 0; prop &lt; proposals.length; prop++) &#x2F;&#x2F; 총 Proposal 개수만큼 반복하면서 voteCount보다 클 때 까지 반복하며 최다 투표 값을 확인</span><br><span class="line">            if (proposals[prop].voteCount &gt; winningVoteCount) &#123;</span><br><span class="line">                winningVoteCount &#x3D; proposals[prop].voteCount;</span><br><span class="line">                _winningProposal &#x3D; prop;</span><br><span class="line">            &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><br><br></p>
-<p><strong>[&#xCF54;&#xB4DC; &#xAD00;&#xB828; &#xC790;&#xAC00; &#xD14C;&#xC2A4;&#xD2B8;]</strong></p>
+<p><strong>[코드 관련 자가 테스트]</strong></p>
 <ol>
-<li><strong>Voter &#xAD6C;&#xC870;&#xCCB4;&#xC640; Proposal &#xAD6C;&#xC870;&#xCCB4;&#xC758; &#xC4F0;&#xC784;&#xC5D0; &#xB300;&#xD574; &#xC124;&#xBA85;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong><ul>
+<li><strong>Voter 구조체와 Proposal 구조체의 쓰임에 대해 설명할 수 있는가?</strong><ul>
 <li>Voter</li>
 <li>Proposal</li>
 </ul>
@@ -267,7 +95,7 @@
 <br>
 
 <ol start="2">
-<li><strong>&#xAC01; &#xAD6C;&#xC870;&#xCCB4;&#xB294; &#xC5B4;&#xB5A0;&#xD55C; &#xC815;&#xBCF4;&#xB97C; &#xB2F4;&#xAE30; &#xC704;&#xD568;&#xC778;&#xAC00;?</strong> (&#xAD6C;&#xC870;&#xCCB4;&#xB97C; &#xAD6C;&#xC131;&#xD558;&#xB294; &#xAC01; &#xBCC0;&#xC218;)<ul>
+<li><strong>각 구조체는 어떠한 정보를 담기 위함인가?</strong> (구조체를 구성하는 각 변수)<ul>
 <li>uint weight</li>
 <li>bool voted</li>
 <li>uint8 vote</li>
@@ -279,21 +107,21 @@
 <br>
 
 <ol start="3">
-<li><p><strong>&#xAD6C;&#xC870;&#xCCB4;&#xC640; &#xAD6C;&#xC870;&#xCCB4;&#xC758; &#xB9AC;&#xC2A4;&#xD2B8;&#xB97C; &#xC120;&#xC5B8;&#xD558;&#xACE0; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>구조체와 구조체의 리스트를 선언하고 사용할 수 있는가?</strong></p>
 </li>
-<li><p><strong>msg.sender&#xB294; &#xBB34;&#xC5C7;&#xC744; &#xB73B;&#xD558;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>msg.sender는 무엇을 뜻하는가?</strong></p>
 </li>
-<li><p><strong>msg.sender&#xC640; &#xAC19;&#xC740; &#xD2B9;&#xC131;&#xC744; &#xAC16;&#xB294; &#xBCC0;&#xC218;&#xB97C; &#xBB34;&#xC5C7;&#xC774;&#xB77C; &#xC9C0;&#xCE6D;&#xD558;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>msg.sender와 같은 특성을 갖는 변수를 무엇이라 지칭하는가?</strong></p>
 </li>
-<li><p><strong>&#xC870;&#xAC74;&#xBB38;, &#xBC18;&#xBCF5;&#xBB38;&#xC744; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>조건문, 반복문을 사용할 수 있는가?</strong></p>
 </li>
-<li><p><strong>&#xC0DD;&#xC131;&#xC790; &#xBC0F; &#xD568;&#xC218;&#xC758; &#xC120;&#xC5B8;&#xC744; &#xC774;&#xD574;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>생성자 및 함수의 선언을 이해할 수 있는가?</strong></p>
 </li>
 </ol>
 <br>
 
 <ol start="8">
-<li><strong>&#xC0DD;&#xC131;&#xC790; &#xBC0F; &#xD568;&#xC218;&#xC758; &#xB3D9;&#xC791;&#xC744; &#xC124;&#xBA85;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong><ul>
+<li><strong>생성자 및 함수의 동작을 설명할 수 있는가?</strong><ul>
 <li>constructor</li>
 <li>giveRightToVote(address toVoter)</li>
 <li>delegate(address to)</li>
@@ -305,34 +133,34 @@
 <br>
 
 <ol start="9">
-<li><p><strong>giveRightToVote &#xD568;&#xC218;&#xC758; if&#xBB38;&#xC744; require&#xBB38;&#xC73C;&#xB85C; &#xBCC0;&#xACBD;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>giveRightToVote 함수의 if문을 require문으로 변경할 수 있는가?</strong></p>
 </li>
-<li><p><strong>&#xD568;&#xC218; &#xB0B4; storage &#xBCC0;&#xC218;&#xB97C; &#xC124;&#xBA85;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>함수 내 storage 변수를 설명할 수 있는가?</strong></p>
 </li>
-<li><p><strong>Openzeppelin SafeMath &#xB77C;&#xC774;&#xBE0C;&#xB7EC;&#xB9AC;&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xCF54;&#xB4DC;&#xB97C; &#xBCC0;&#xACBD;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC00;?</strong></p>
+<li><p><strong>Openzeppelin SafeMath 라이브러리를 사용하여 코드를 변경할 수 있는가?</strong></p>
 </li>
-<li><p><strong>Ballot.sol&#xC740; &#xBAA8;&#xB450; &#xCC38;&#xAC00;&#xC790;&#xC5D0;&#xAC8C; &#xD22C;&#xD45C;&#xAD8C;&#xC744; &#xBD80;&#xC5EC;&#xD560; &#xC218; &#xC788;&#xB294; &#xD615;&#xD0DC;&#xC778;&#xAC00;?</strong></p>
+<li><p><strong>Ballot.sol은 모두 참가자에게 투표권을 부여할 수 있는 형태인가?</strong></p>
 </li>
-<li><p><strong>&#xC5EC;&#xB7EC; &#xC0C1;&#xD669;&#xC5D0; &#xD22C;&#xD45C;&#xD560; &#xC218; &#xC788;&#xB294; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB85C; &#xD655;&#xC7A5;&#xD560; &#xC218; &#xC788;&#xB294; &#xBC29;&#xBC95;&#xC740; &#xBB34;&#xC5C7;&#xC778;&#xAC00;?</strong></p>
+<li><p><strong>여러 상황에 투표할 수 있는 컨트랙트로 확장할 수 있는 방법은 무엇인가?</strong></p>
 </li>
 </ol>
 <p><br><br></p>
-<h3 id="Solidity-&#xC608;&#xC81C;-Escrow-Service-&#xC5D0;&#xC2A4;&#xD06C;&#xB85C;-&#xC11C;&#xBE44;&#xC2A4;"><a href="#Solidity-&#xC608;&#xC81C;-Escrow-Service-&#xC5D0;&#xC2A4;&#xD06C;&#xB85C;-&#xC11C;&#xBE44;&#xC2A4;" class="headerlink" title="Solidity &#xC608;&#xC81C; - Escrow Service (&#xC5D0;&#xC2A4;&#xD06C;&#xB85C; &#xC11C;&#xBE44;&#xC2A4;)"></a>Solidity &#xC608;&#xC81C; - Escrow Service (&#xC5D0;&#xC2A4;&#xD06C;&#xB85C; &#xC11C;&#xBE44;&#xC2A4;)</h3><hr>
-<p><strong>[&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0; &#xD544;&#xC218;&#xC801;&#xC73C;&#xB85C; &#xAD6C;&#xD604;&#xD574;&#xC57C; &#xD558;&#xB294; &#xD568;&#xC218;]</strong></p>
+<h3 id="Solidity-예제-Escrow-Service-에스크로-서비스"><a href="#Solidity-예제-Escrow-Service-에스크로-서비스" class="headerlink" title="Solidity 예제 - Escrow Service (에스크로 서비스)"></a>Solidity 예제 - Escrow Service (에스크로 서비스)</h3><hr>
+<p><strong>[스마트 컨트랙트에 필수적으로 구현해야 하는 함수]</strong></p>
 <ul>
-<li><p>function registeritem(uint amount) public {&#x2026;}</p>
+<li><p>function registeritem(uint amount) public {…}</p>
 </li>
-<li><p>function buyItem() payable public {&#x2026;}</p>
+<li><p>function buyItem() payable public {…}</p>
 </li>
-<li><p>function refund() public {&#x2026;} (<code>refund&#xB97C; &#xC81C;&#xC678;&#xD558;&#xACE0; &#xB098;&#xBA38;&#xC9C0;&#xB294; &#xC5ED;&#xC21C;&#xC73C;&#xB85C; &#xAC08; &#xC218; &#xC5C6;&#xB2E4;.</code>)</p>
+<li><p>function refund() public {…} (<code>refund를 제외하고 나머지는 역순으로 갈 수 없다.</code>)</p>
 </li>
-<li><p>function confirmItem() public {&#x2026;}</p>
+<li><p>function confirmItem() public {…}</p>
 </li>
-<li><p>function sendItem() public {&#x2026;}</p>
+<li><p>function sendItem() public {…}</p>
 </li>
 </ul>
 <p><br><br></p>
-<p><strong>[&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xBCC0;&#xC218;]</strong></p>
+<p><strong>[스마트 컨트랙트 변수]</strong></p>
 <ul>
 <li><p>uint public value</p>
 </li>
@@ -340,7 +168,7 @@
 </li>
 <li><p>string public message</p>
 </li>
-<li><p>enum state {Created, Locked, Sent, Complete} // &#xC0C1;&#xD0DC;&#xC5D0; &#xB300;&#xD574;&#xC11C; 4&#xAC00;&#xC9C0; &#xAC12;&#xC744; &#xAC00;&#xC9C4;&#xB2E4;.</p>
+<li><p>enum state {Created, Locked, Sent, Complete} // 상태에 대해서 4가지 값을 가진다.</p>
 </li>
 <li><p>State public state</p>
 </li>
@@ -348,341 +176,82 @@
 <br>
 
 <ul>
-<li><code>payable</code>: &#xC774;&#xB354;&#xB9AC;&#xC6C0;&#xACFC; &#xAC19;&#xC774; &#xAE08;&#xC561;&#xC774; &#xB4E4;&#xC5B4;&#xAC00;&#xB294; &#xBD80;&#xBD84;&#xC5D0;&#xB294; &#xD568;&#xAED8; &#xBD99;&#xB294; &#xD0A4;&#xC6CC;&#xB4DC;</li>
+<li><code>payable</code>: 이더리움과 같이 금액이 들어가는 부분에는 함께 붙는 키워드</li>
 </ul>
 <p><br><br></p>
-<p><strong>[&#xC18C;&#xC2A4;&#xCF54;&#xB4DC; &#xBD84;&#xC11D;]</strong></p>
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">contract Escrow {</span><br><span class="line">    enum State {Created, Locked, Sent, Complete}</span><br><span class="line">    uint256 data;</span><br><span class="line">    uint256 price;</span><br><span class="line">    State state;</span><br><span class="line">    address seller;</span><br><span class="line">    address buyer; </span><br><span class="line">    </span><br><span class="line">    constructor() public {</span><br><span class="line">        data = 0;</span><br><span class="line">    }</span><br><span class="line">    function buyItem() payable public {</span><br><span class="line">        require(state == State.Created, &quot;state is not created&quot;);</span><br><span class="line">        //require(price == msg.value, &quot;incorrect price&quot;);</span><br><span class="line">        seller = msg.sender;</span><br><span class="line">        state = State.Locked;</span><br><span class="line">    }</span><br><span class="line">    function get() public view returns(uint256) {</span><br><span class="line">        return data;</span><br><span class="line">    }</span><br><span class="line">    function set(uint256 _data) public {</span><br><span class="line">        data = _data;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<p><strong>[소스코드 분석]</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">contract Escrow &#123;</span><br><span class="line">    enum State &#123;Created, Locked, Sent, Complete&#125;</span><br><span class="line">    uint256 data;</span><br><span class="line">    uint256 price;</span><br><span class="line">    State state;</span><br><span class="line">    address seller;</span><br><span class="line">    address buyer; </span><br><span class="line">    </span><br><span class="line">    constructor() public &#123;</span><br><span class="line">        data &#x3D; 0;</span><br><span class="line">    &#125;</span><br><span class="line">    function buyItem() payable public &#123;</span><br><span class="line">        require(state &#x3D;&#x3D; State.Created, &quot;state is not created&quot;);</span><br><span class="line">        &#x2F;&#x2F;require(price &#x3D;&#x3D; msg.value, &quot;incorrect price&quot;);</span><br><span class="line">        seller &#x3D; msg.sender;</span><br><span class="line">        state &#x3D; State.Locked;</span><br><span class="line">    &#125;</span><br><span class="line">    function get() public view returns(uint256) &#123;</span><br><span class="line">        return data;</span><br><span class="line">    &#125;</span><br><span class="line">    function set(uint256 _data) public &#123;</span><br><span class="line">        data &#x3D; _data;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <br>
 
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;=0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract EscrowTest {</span><br><span class="line">    uint public value;</span><br><span class="line">    address payable public seller;</span><br><span class="line">    address payable public buyer;</span><br><span class="line">    string public message;</span><br><span class="line">    enum State {Created, Locked, Sent, Complete}</span><br><span class="line">    State public state; // &#xAC70;&#xB798; &#xC0C1;&#xD0DC;&#xB97C; &#xB098;&#xD0C0;&#xB0B4;&#xACE0;, &#xD750;&#xB984;&#xC5D0; &#xB530;&#xB77C; &#xC0C1;&#xD0DC;&#xAC00; &#xACC4;&#xC18D;&#xD574;&#xC11C; &#xBCC0;&#xD654;&#xD568;</span><br><span class="line">    mapping(address =&gt; uint) balanceOf;</span><br><span class="line"></span><br><span class="line">    function registerItem(uint amount) public {</span><br><span class="line">        seller = msg.sender;</span><br><span class="line">        state = State.Created;</span><br><span class="line">        value = amount;</span><br><span class="line">    }</span><br><span class="line">    function buyItem() public payable {</span><br><span class="line">        require(msg.value == value, &quot;insert correct price&quot;);</span><br><span class="line">        buyer = msg.sender;</span><br><span class="line">        balanceOf[seller] += value; // &#xB3C8;&#xC774; &#xB4E4;&#xC5B4;&#xC624;&#xB294; &#xD750;&#xB984;&#xC744; &#xD655;&#xC778;, &#xD070; &#xC5ED;&#xD560;&#xC740; &#xC5C6;&#xC74C; (&#xC5EC;&#xB7EC; &#xBA85;&#xC744; &#xC0C1;&#xB300;&#xB85C; &#xD560; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &#xC911;&#xC694;&#xD55C; &#xC5ED;&#xD560;&#xC774; &#xB420; &#xC218; &#xC788;&#xC74C;), &#xB9E4;&#xD551; &#xBCC0;&#xC218;</span><br><span class="line">        state = State.Locked; // &#xD55C; &#xBC88; &#xC2E4;&#xD589;&#xB41C; &#xAC70;&#xB798;&#xC5D0; &#xB300;&#xD574; &#xC0C1;&#xD0DC;&#xB97C; &#xBCC0;&#xD654;&#xC2DC;&#xD0B4;</span><br><span class="line">    }</span><br><span class="line">    function refund() public {</span><br><span class="line">        require(state == State.Locked, &quot;state is not locked&quot;);</span><br><span class="line">        balanceOf[seller] -= value;</span><br><span class="line">        state = State.Created;</span><br><span class="line">        selfdestruct(buyer);</span><br><span class="line">    }</span><br><span class="line">    function sendItem() public {</span><br><span class="line">        require(seller == msg.sender, &quot;You are not seller&quot;);</span><br><span class="line">        require(state == State.Locked, &quot;state is not locked&quot;);</span><br><span class="line">        state = State.Sent;</span><br><span class="line">    }</span><br><span class="line">    function confirmItem() public {</span><br><span class="line">        require(buyer == msg.sender, &quot;You are not buyer&quot;);</span><br><span class="line">        require(state == State.Sent, &quot;state is not sent&quot;);</span><br><span class="line">        selfdestruct(seller);</span><br><span class="line">        state = State.Complete;</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;&#x3D;0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract EscrowTest &#123;</span><br><span class="line">    uint public value;</span><br><span class="line">    address payable public seller;</span><br><span class="line">    address payable public buyer;</span><br><span class="line">    string public message;</span><br><span class="line">    enum State &#123;Created, Locked, Sent, Complete&#125;</span><br><span class="line">    State public state; &#x2F;&#x2F; 거래 상태를 나타내고, 흐름에 따라 상태가 계속해서 변화함</span><br><span class="line">    mapping(address &#x3D;&gt; uint) balanceOf;</span><br><span class="line"></span><br><span class="line">    function registerItem(uint amount) public &#123;</span><br><span class="line">        seller &#x3D; msg.sender;</span><br><span class="line">        state &#x3D; State.Created;</span><br><span class="line">        value &#x3D; amount;</span><br><span class="line">    &#125;</span><br><span class="line">    function buyItem() public payable &#123;</span><br><span class="line">        require(msg.value &#x3D;&#x3D; value, &quot;insert correct price&quot;);</span><br><span class="line">        buyer &#x3D; msg.sender;</span><br><span class="line">        balanceOf[seller] +&#x3D; value; &#x2F;&#x2F; 돈이 들어오는 흐름을 확인, 큰 역할은 없음 (여러 명을 상대로 할 경우에는 중요한 역할이 될 수 있음), 매핑 변수</span><br><span class="line">        state &#x3D; State.Locked; &#x2F;&#x2F; 한 번 실행된 거래에 대해 상태를 변화시킴</span><br><span class="line">    &#125;</span><br><span class="line">    function refund() public &#123;</span><br><span class="line">        require(state &#x3D;&#x3D; State.Locked, &quot;state is not locked&quot;);</span><br><span class="line">        balanceOf[seller] -&#x3D; value;</span><br><span class="line">        state &#x3D; State.Created;</span><br><span class="line">        selfdestruct(buyer);</span><br><span class="line">    &#125;</span><br><span class="line">    function sendItem() public &#123;</span><br><span class="line">        require(seller &#x3D;&#x3D; msg.sender, &quot;You are not seller&quot;);</span><br><span class="line">        require(state &#x3D;&#x3D; State.Locked, &quot;state is not locked&quot;);</span><br><span class="line">        state &#x3D; State.Sent;</span><br><span class="line">    &#125;</span><br><span class="line">    function confirmItem() public &#123;</span><br><span class="line">        require(buyer &#x3D;&#x3D; msg.sender, &quot;You are not buyer&quot;);</span><br><span class="line">        require(state &#x3D;&#x3D; State.Sent, &quot;state is not sent&quot;);</span><br><span class="line">        selfdestruct(seller);</span><br><span class="line">        state &#x3D; State.Complete;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><br><br></p>
-<h3 id="&#xAD00;&#xB828;-&#xAE30;&#xC220;-&#xBC0F;-&#xAE30;&#xD0C0;-&#xC804;&#xBB38;&#xAC00;-&#xC758;&#xACAC;"><a href="#&#xAD00;&#xB828;-&#xAE30;&#xC220;-&#xBC0F;-&#xAE30;&#xD0C0;-&#xC804;&#xBB38;&#xAC00;-&#xC758;&#xACAC;" class="headerlink" title="&#xAD00;&#xB828; &#xAE30;&#xC220; &#xBC0F; &#xAE30;&#xD0C0; &#xC804;&#xBB38;&#xAC00; &#xC758;&#xACAC;"></a>&#xAD00;&#xB828; &#xAE30;&#xC220; &#xBC0F; &#xAE30;&#xD0C0; &#xC804;&#xBB38;&#xAC00; &#xC758;&#xACAC;</h3><hr>
+<h3 id="관련-기술-및-기타-전문가-의견"><a href="#관련-기술-및-기타-전문가-의견" class="headerlink" title="관련 기술 및 기타 전문가 의견"></a>관련 기술 및 기타 전문가 의견</h3><hr>
 <ul>
-<li><code>&#xC774;&#xB354;&#xB9AC;&#xC6C0;&#xC740; &#xB79C;&#xB364; &#xD568;&#xC218;&#xAC00; &#xB530;&#xB85C; &#xC5C6;&#xB2E4;.</code>   </li>
+<li><code>이더리움은 랜덤 함수가 따로 없다.</code>   </li>
 </ul>
 <br>
 
 <ul>
-<li><p>&#xC2DC;&#xB4DC; &#xAC12;&#xC740; &#xD758;&#xB7EC;&#xAC00;&#xB294; &#xC2DC;&#xAC04;, &#xBB38;&#xC790;, &#xC22B;&#xC790; &#xB4F1;&#xC744; &#xACB0;&#xD569;&#xD558;&#xC5EC; &#xB9CC;&#xB4DC;&#xB294;&#xB370; &#xB79C;&#xB364; &#xD568;&#xC218;&#xB97C; &#xB9CC;&#xB4DC;&#xB294; &#xAC83;&#xB3C4; &#xC0C1;&#xB2F9;&#xD788; &#xC5B4;&#xB835;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC774;&#xB97C; &#xC798; &#xB9CC;&#xB4E4;&#xBA74; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xC0C1;&#xC5D0;&#xC11C; &#xC2E0;&#xB8B0;&#xC131;&#xC744; &#xB192;&#xC77C; &#xC218; &#xC788;&#xB2E4;.</p>
+<li><p>시드 값은 흘러가는 시간, 문자, 숫자 등을 결합하여 만드는데 랜덤 함수를 만드는 것도 상당히 어렵기 때문에 이를 잘 만들면 블록체인 상에서 신뢰성을 높일 수 있다.</p>
 </li>
-<li><p>&#xC608;&#xC678;&#xCC98;&#xB9AC;&#xB97C; &#xC5BC;&#xB9C8;&#xB098; &#xC798;&#xD558;&#xB290;&#xB0D0;&#xC5D0; &#xB530;&#xB77C; &#xC804;&#xBB38;&#xAC00;&#xC640; &#xBE44;&#xC804;&#xBB38;&#xAC00;&#xB97C; &#xAD6C;&#xBD84;&#xD55C;&#xB2E4;.</p>
+<li><p>예외처리를 얼마나 잘하느냐에 따라 전문가와 비전문가를 구분한다.</p>
 </li>
 </ul>
 <p><br><br></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/52089296/103251136-c43cdd80-49ba-11eb-8423-52f461c05447.jpg" width="60%"></p>
-</body></html>
-    
-    </div>
-    
-    <div class="columns is-variable is-1 is-multiline is-mobile">
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">#블록체인</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Blockchain/">#Blockchain</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">#이더리움</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">#스마트 컨트랙트</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Ethereum/">#Ethereum</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Smart-Contract/">#Smart Contract</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">#서울블록체인지원센터</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Seoul-Blockchain-Center/">#Seoul Blockchain Center</a></span>
-    
-    </div>
-    
-    
-    <div class="columns is-mobile is-multiline article-nav">
-        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
-            
-            <a href="/2020/01/12/sogang-hyperledger/">[2019.12.27-12.28] 블록체인과 하이퍼레저 패브릭 - 서중원 박사과정 연구원</a>
-            
-        </span>
-        <span class="column is-12-mobile is-half-desktop  article-nav-next">
-            
-            <a href="/2020/01/12/sogang-ethereum/">[2019.12.24] 이더리움 이론 및 실습 - 이동현 연구원</a>
-            
-        </span>
-    </div>
-    
-</article>
-
-
-<div class="sharebox">
-    
-<div class="sharethis-inline-share-buttons"></div>
-<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
-
-</div>
-
-
-
-<div class="comments">
-    <h3 class="title is-4">댓글</h3>
-    
-<script>
-    var disqus_config = function () {
-        this.page.url = 'https://y8ncastle.me/2020/01/12/sogang_smart_contract/';
-        this.page.identifier = '2020/01/12/sogang_smart_contract/';
-        
-        this.language = 'ko';
-        
-    };
-    (function() {
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<div id="disqus_thread">
-    
-    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</div>
-
-    </div>
-</section>
-    <footer class="footer">
-    <div class="container">
-        <div class="columns content">
-            <div class="column is-narrow has-text-centered">
-                &copy; 2021 Zay Jeong&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
-            </div>
-            <div class="column is-hidden-mobile"></div>
-
-            
-            <div class="column is-narrow">
-                <div class="columns is-mobile is-multiline is-centered">
-                
-                    
-                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
-                    
-                    GitHub
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
-                    
-                    LinkedIn
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
-                    
-                    Instagram
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
-                    
-                    Facebook
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
-                    
-                    BOJ
-                    
-                </a>
-                
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-
-<!-- test if the browser is outdated -->
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // plugin function, place inside DOM ready function
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        })
-    });
-</script>
-
-<script>
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-    moment.locale("ko");
-</script>
-
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script>
-    MathJax.Hub.Config({
-        "HTML-CSS": {
-            matchFontHeight: false
-        },
-        SVG: {
-            matchFontHeight: false
-        },
-        CommonHTML: {
-            matchFontHeight: false
-        },
-        tex2jax: {
-            inlineMath: [
-                ['$','$'],
-                ['\\(','\\)']
-            ]
-        }
-    });
-</script>
-
-    
-    
-    
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
-<script>
-    (function ($) {
-        $(document).ready(function () {
-            if (typeof($.fn.lightGallery) === 'function') {
-                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+</div><div class="article-licensing box"><div class="licensing-title"><p>[2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원</p><p><a href="https://y8ncastle.me/2020/01/12/sogang_smart_contract/">https://y8ncastle.me/2020/01/12/sogang_smart_contract/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Zay Jeong</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2020-01-12</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-01-08</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a><a class="link-muted mr-2" rel="tag" href="/tags/Blockchain/">Blockchain</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</a><a class="link-muted mr-2" rel="tag" href="/tags/Ethereum/">Ethereum</a><a class="link-muted mr-2" rel="tag" href="/tags/Smart-Contract/">Smart Contract</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</a><a class="link-muted mr-2" rel="tag" href="/tags/Seoul-Blockchain-Center/">Seoul Blockchain Center</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/01/12/sogang-hyperledger/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">[2019.12.27-12.28] 블록체인과 하이퍼레저 패브릭 - 서중원 박사과정 연구원</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/01/12/sogang-ethereum/"><span class="level-item">[2019.12.24] 이더리움 이론 및 실습 - 이동현 연구원</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://y8ncastle.me/2020/01/12/sogang_smart_contract/';
+            this.page.identifier = '2020/01/12/sogang_smart_contract/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'zayjeong' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="제이정 (Zay Jeong)"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">제이정 (Zay Jeong)</p><p class="is-size-6 is-block">대학원생, 블록체인 연구원</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 서울</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">183</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">338</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/y8ncastle" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/y8ncastle"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/y8ncastle"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/y8ncastle"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/zay.jeong"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">관련 링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.acmicpc.net/user/zarch4894" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-right"><span class="level-item tag">www.acmicpc.net</span></span></a></li><li><a class="level is-mobile" href="https://youtube.com/playlist?list=PL93hJn5LGgIMVNoSYrI6_PGfVJp6L05x_" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Youtube</span></span><span class="level-right"><span class="level-item tag">youtube.com</span></span></a></li><li><a class="level is-mobile" href="https://medium.com/@y8ncastle" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Medium</span></span><span class="level-right"><span class="level-item tag">medium.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%EA%B5%90%EC%9C%A1-Blockchain/"><span class="level-start"><span class="level-item">&lt;교육&gt; Blockchain</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Academy/"><span class="level-start"><span class="level-item">Academy</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Achievement/"><span class="level-start"><span class="level-item">Achievement</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/Baekjoon-Online-Judge/"><span class="level-start"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-end"><span class="level-item tag">31</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/"><span class="level-start"><span class="level-item">Blockchain</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><span class="level-start"><span class="level-item">&lt;교육&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Hyperledger-Fabric/"><span class="level-start"><span class="level-item">&lt;교육&gt; Hyperledger Fabric</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><span class="level-start"><span class="level-item">&lt;실습&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%9D%B4%EB%A1%A0-Bitcoin/"><span class="level-start"><span class="level-item">&lt;이론&gt; Bitcoin</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/Ethereum/"><span class="level-start"><span class="level-item">Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/CSS/"><span class="level-start"><span class="level-item">CSS</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Crypto-Community/"><span class="level-start"><span class="level-item">Crypto Community</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Exhibition/"><span class="level-start"><span class="level-item">Exhibition</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Education/"><span class="level-start"><span class="level-item">IT Education</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Free-Board/"><span class="level-start"><span class="level-item">IT Free Board</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/"><span class="level-start"><span class="level-item">Personal Project</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><span class="level-start"><span class="level-item">&lt;개인&gt; Android</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Ethereum/"><span class="level-start"><span class="level-item">&lt;개인&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/Plan/"><span class="level-start"><span class="level-item">Plan</span></span><span class="level-end"><span class="level-item tag">49</span></span></a></li><li><a class="level is-mobile" href="/categories/Seminar/"><span class="level-start"><span class="level-item">Seminar</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/"><span class="level-start"><span class="level-item">Team Project</span></span><span class="level-end"><span class="level-item tag">32</span></span></a><ul><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-Hanium/"><span class="level-start"><span class="level-item">&lt;팀&gt; Hanium</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-MRM/"><span class="level-start"><span class="level-item">&lt;팀&gt; MRM</span></span><span class="level-end"><span class="level-item tag">25</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-On-Books/"><span class="level-start"><span class="level-item">&lt;팀&gt; On Books</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-X-Corps/"><span class="level-start"><span class="level-item">&lt;팀&gt; X-Corps</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/X-Corps/"><span class="level-start"><span class="level-item">X-Corps</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 포스트</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-03-01T11:21:00.000Z">2020-03-01</time></p><p class="title"><a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a></p><p class="categories"><a href="/categories/Plan/">Plan</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T08:27:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/ethereum-private-network/">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</a></p><p class="categories"><a href="/categories/Blockchain/">Blockchain</a> / <a href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T02:50:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a></p><p class="categories"><a href="/categories/CSS/">CSS</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T14:37:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/hanbat-diploma/">국립 한밭대학교 정보통신공학 학사 학위 취득</a></p><p class="categories"><a href="/categories/Achievement/">Achievement</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T02:36:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/youtube-seminar-20-3/">[2020.02.17] A New Privacy Protection Security Scheme for Blockchain (BaSE Lab 유튜브 세미나 20-3차)</a></p><p class="categories"><a href="/categories/Seminar/">Seminar</a></p></div></article></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Zay Jeong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
             }
-            if (typeof($.fn.justifiedGallery) === 'function') {
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
                 $('.justified-gallery').justifiedGallery();
             }
-        });
-    })(jQuery);
-</script>
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-    <style>
-        .hljs {
-            position: relative;
-        }
-
-        .hljs .clipboard-btn {
-            float: right;
-            color: #9a9a9a;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .hljs .clipboard-btn:hover {
-          color: #8a8a8a;
-        }
-
-        .hljs > .clipboard-btn {
-            display: none;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-        }
-
-        .hljs:hover > .clipboard-btn {
-            display: inline;
-        }
-
-        .hljs > figcaption > .clipboard-btn {
-            margin-right: 4px;
-        }
-    </style>
-    <script>
-      $(document).ready(function () {
-        $('figure.hljs').each(function(i, figure) {
-          var codeId = 'code-' + i;
-          var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
-          code.id = codeId;
-          copyButton.addClass('clipboard-btn');
-          copyButton.attr('data-clipboard-target-id', codeId);
-
-          var figcaption = figure.querySelector('figcaption');
-
-          if (figcaption) {
-            figcaption.append(copyButton[0]);
-          } else {
-            figure.prepend(copyButton[0]);
-          }
-        })
-
-        var clipboard = new ClipboardJS('.clipboard-btn', {
-          target: function(trigger) {
-            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-          }
-        });
-        clipboard.on('success', function(e) {
-          e.clearSelection();
-        })
-      })
-    </script>
-
-    
-    
-
-    
-
-
-
-<script src="/js/script.js"></script>
-
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-mask"></div>
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '글',
-                PAGES: '페이지',
-                CATEGORIES: '카테고리 목록',
-                TAGS: '태그 목록',
-                UNTITLED: '(제목없음)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-    
-</body>
-</html>
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="검색할 내용을 입력하세요"></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"검색할 내용을 입력하세요","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>

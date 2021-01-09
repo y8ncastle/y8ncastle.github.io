@@ -1,511 +1,86 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-<head>
-    <meta charset="utf-8">
-<title>주간 진행 보고서 (3월 1주차) - Zay Jeong Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
-
-
-
-
-<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
-
-
-
-<meta name="keywords" content="IT, Blockchain, Android, Development">
-
-
-
-    <meta name="description" content="2019.03.05 &amp;#xB85C;&amp;#xB380;&amp;#xAE30;&amp;#xC220;&amp;#xC5D0; &amp;#xCCAB; &amp;#xCD9C;&amp;#xADFC;&amp;#xD558;&amp;#xC5EC; &amp;#xC5F0;&amp;#xAD6C;&amp;#xD558;&amp;#xACE0;&amp;#xC790; &amp;#xD558;&amp;#xB294; WebioPi&amp;#xB97C; &amp;#xC774;&amp;#xC6A9;&amp;#xD55C; &amp;#xBA54">
-<meta property="og:type" content="article">
-<meta property="og:title" content="주간 진행 보고서 (3월 1주차)">
-<meta property="og:url" content="https://y8ncastle.me/2019/05/04/mrm-report-190305/index.html">
-<meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="2019.03.05 &amp;#xB85C;&amp;#xB380;&amp;#xAE30;&amp;#xC220;&amp;#xC5D0; &amp;#xCCAB; &amp;#xCD9C;&amp;#xADFC;&amp;#xD558;&amp;#xC5EC; &amp;#xC5F0;&amp;#xAD6C;&amp;#xD558;&amp;#xACE0;&amp;#xC790; &amp;#xD558;&amp;#xB294; WebioPi&amp;#xB97C; &amp;#xC774;&amp;#xC6A9;&amp;#xD55C; &amp;#xBA54">
-<meta property="og:locale" content="ko_KR">
-<meta property="article:published_time" content="2019-05-04T09:30:00.000Z">
-<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
-<meta property="article:author" content="Zay Jeong">
-<meta property="article:tag" content="팀프로젝트">
-<meta property="article:tag" content="프로젝트">
-<meta property="article:tag" content="캡스톤디자인">
-<meta property="article:tag" content="Team Project">
-<meta property="article:tag" content="Project">
-<meta property="article:tag" content="Capstone Design">
-<meta property="article:tag" content="MRM">
-<meta name="twitter:card" content="summary">
-
-
-
-
-
-<link rel="icon" href="/images/favicon/favicon.ico">
-
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>주간 진행 보고서 (3월 1주차) - Zay Jeong Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Zay (Yoonsung), Jeong"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zay (Yoonsung), Jeong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="2019.03.05 로뎀기술에 첫 출근하여 연구하고자 하는 WebioPi를 이용한 메카넘 휠 제어 설계에 관한 기초적인 계획을 수립하였다.   라즈베리파이 핀맵, 통신규격 등 보드와 회로에 관련된 기초 개념이 부족하여 대표님께서 직접 라즈베리파이 보드를 보여주시면서 앞으로의 연구를 위해 전반적으로 흐름을 어떻게 잡아야 할 지 설명해주셨다.   하드웨어 관련"><meta property="og:type" content="blog"><meta property="og:title" content="주간 진행 보고서 (3월 1주차)"><meta property="og:url" content="https://y8ncastle.me/2019/05/04/mrm-report-190305/"><meta property="og:site_name" content="Zay Jeong Blog"><meta property="og:description" content="2019.03.05 로뎀기술에 첫 출근하여 연구하고자 하는 WebioPi를 이용한 메카넘 휠 제어 설계에 관한 기초적인 계획을 수립하였다.   라즈베리파이 핀맵, 통신규격 등 보드와 회로에 관련된 기초 개념이 부족하여 대표님께서 직접 라즈베리파이 보드를 보여주시면서 앞으로의 연구를 위해 전반적으로 흐름을 어떻게 잡아야 할 지 설명해주셨다.   하드웨어 관련"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://y8ncastle.me/img/og_image.png"><meta property="article:published_time" content="2019-05-04T09:30:00.000Z"><meta property="article:modified_time" content="2021-01-08T06:00:52.000Z"><meta property="article:author" content="Zay Jeong"><meta property="article:tag" content="팀프로젝트"><meta property="article:tag" content="프로젝트"><meta property="article:tag" content="캡스톤디자인"><meta property="article:tag" content="Team Project"><meta property="article:tag" content="Project"><meta property="article:tag" content="Capstone Design"><meta property="article:tag" content="MRM"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://y8ncastle.me/2019/05/04/mrm-report-190305/"},"headline":"Zay Jeong Blog","image":["https://y8ncastle.me/img/og_image.png"],"datePublished":"2019-05-04T09:30:00.000Z","dateModified":"2021-01-08T06:00:52.000Z","author":{"@type":"Person","name":"Zay Jeong"},"description":"2019.03.05 로뎀기술에 첫 출근하여 연구하고자 하는 WebioPi를 이용한 메카넘 휠 제어 설계에 관한 기초적인 계획을 수립하였다.   라즈베리파이 핀맵, 통신규격 등 보드와 회로에 관련된 기초 개념이 부족하여 대표님께서 직접 라즈베리파이 보드를 보여주시면서 앞으로의 연구를 위해 전반적으로 흐름을 어떻게 잡아야 할 지 설명해주셨다.   하드웨어 관련"}</script><link rel="canonical" href="https://y8ncastle.me/2019/05/04/mrm-report-190305/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168776470-2');
-</script>
-
-
-    
-
-
-<meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-    
-<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
-                
-                <img src="/images/logo.png" alt="" height="28">
-                
-            </a>
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="navbar-menu navbar-start">
-            
-            <a class="navbar-item "
-               href="/about">About</a>
-            
-            <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item "
-               href="/tags">Tags</a>
-            
-            <a class="navbar-item "
-               href="/archives">Archives</a>
-            
-            <a class="navbar-item "
-               href="/cv">CV</a>
-            
-        </div>
-        
-        <div class="navbar-menu navbar-end">
-            
-            <a class="navbar-item search" title="검색" href="javascript:;">
-                <i class="fas fa-search"></i>
-            </a>
-            
-            
-            
-            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-               
-            
-        </div>
-    </div>
-</nav>
-
-    <section class="section">
-    <div class="container">
-    <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            주간 진행 보고서 (3월 1주차)
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2019-05-04T09:30:00.000Z" itemprop="datePublished">5월 4 2019</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Team-Project/">Team Project</a><span>></span><a class="article-category-link" href="/categories/Team-Project/%ED%8C%80-MRM/"><팀> MRM</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            10분 소요 (약 1551 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><h3 id="2019-03-05"><a href="#2019-03-05" class="headerlink" title="2019.03.05"></a>2019.03.05</h3><hr>
-<p>&#xB85C;&#xB380;&#xAE30;&#xC220;&#xC5D0; &#xCCAB; &#xCD9C;&#xADFC;&#xD558;&#xC5EC; &#xC5F0;&#xAD6C;&#xD558;&#xACE0;&#xC790; &#xD558;&#xB294; <code>WebioPi&#xB97C; &#xC774;&#xC6A9;&#xD55C; &#xBA54;&#xCE74;&#xB118; &#xD720; &#xC81C;&#xC5B4; &#xC124;&#xACC4;</code>&#xC5D0; &#xAD00;&#xD55C; &#xAE30;&#xCD08;&#xC801;&#xC778; &#xACC4;&#xD68D;&#xC744; &#xC218;&#xB9BD;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774; &#xD540;&#xB9F5;, &#xD1B5;&#xC2E0;&#xADDC;&#xACA9; &#xB4F1; &#xBCF4;&#xB4DC;&#xC640; &#xD68C;&#xB85C;&#xC5D0; &#xAD00;&#xB828;&#xB41C; &#xAE30;&#xCD08; &#xAC1C;&#xB150;&#xC774; &#xBD80;&#xC871;&#xD558;&#xC5EC; &#xB300;&#xD45C;&#xB2D8;&#xAED8;&#xC11C; &#xC9C1;&#xC811; &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774; &#xBCF4;&#xB4DC;&#xB97C; &#xBCF4;&#xC5EC;&#xC8FC;&#xC2DC;&#xBA74;&#xC11C; &#xC55E;&#xC73C;&#xB85C;&#xC758; &#xC5F0;&#xAD6C;&#xB97C; &#xC704;&#xD574; &#xC804;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xD750;&#xB984;&#xC744; &#xC5B4;&#xB5BB;&#xAC8C; &#xC7A1;&#xC544;&#xC57C; &#xD560; &#xC9C0; &#xC124;&#xBA85;&#xD574;&#xC8FC;&#xC168;&#xB2E4;.  </p>
-<p>&#xD558;&#xB4DC;&#xC6E8;&#xC5B4; &#xAD00;&#xB828; &#xAC15;&#xC758;&#xB97C; &#xB9CE;&#xC774; &#xB4E3;&#xC9C0; &#xC54A;&#xC544;&#xC11C; &#xCC98;&#xC74C; &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774; &#xBCF4;&#xB4DC;&#xD310;&#xC744; &#xC811;&#xD574;&#xBCF4;&#xC558;&#xB294;&#xB370; &#xC0C1;&#xB2F9;&#xD788; &#xBCF5;&#xC7A1;&#xD55C; &#xAD6C;&#xC870;&#xB85C; &#xC774;&#xB8E8;&#xC5B4;&#xC838; &#xC788;&#xC5B4; &#xC774; &#xC548;&#xC5D0; &#xD3EC;&#xD568;&#xB418;&#xC5B4; &#xC788;&#xB294; &#xB2E4;&#xC591;&#xD55C; &#xAE30;&#xB2A5;&#xB4E4;&#xACFC; &#xD1B5;&#xC2E0;&#xADDC;&#xACA9;&#xB4E4;&#xC5D0; &#xAD00;&#xD55C; &#xAC1C;&#xB150; &#xC815;&#xB9BD;&#xC744; &#xC6B0;&#xC120;&#xC2DC; &#xD574;&#xC57C;&#xD560; &#xAC83; &#xAC19;&#xB2E4;&#xACE0; &#xD558;&#xC168;&#xB2E4;.  </p>
-<p>&#xBCF4;&#xB4DC;&#xC5D0; &#xAD00;&#xD55C; &#xAE30;&#xCD08;&#xC801;&#xC778; &#xAC1C;&#xB150;&#xB4E4;&#xC744; &#xC815;&#xB9BD;&#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C; &#xC790;&#xB8CC;&#xC870;&#xC0AC;&#xB97C; &#xBA3C;&#xC800; &#xC2E4;&#xC2DC;&#xD55C; &#xC774;&#xD6C4;&#xC5D0; &#xC5B4;&#xB290; &#xC815;&#xB3C4; &#xC815;&#xB9AC;&#xAC00; &#xB418;&#xBA74; &#xB9CC;&#xB4E4;&#xACE0;&#xC790; &#xD558;&#xB294; &#xC81C;&#xD488;&#xC758; &#xC124;&#xACC4;&#xB3C4;&#xB97C; &#xC81C;&#xB300;&#xB85C; &#xC124;&#xACC4;&#xD558;&#xACE0;&#xC790; &#xD55C;&#xB2E4;. &#xAC19;&#xC774; &#xC2E4;&#xC2B5;&#xC744; &#xBC1B;&#xB294; &#xD300;&#xC6D0;&#xB4E4;&#xACFC; &#xC5ED;&#xD560;&#xC744; &#xBD84;&#xB2F4;&#xD558;&#xC5EC; &#xC870;&#xC0AC;&#xB97C; &#xD558;&#xAE30;&#xB85C; &#xD588;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xB0B4;&#xC77C;&#xAE4C;&#xC9C0; &#xBCF4;&#xB4DC;&#xC5D0; &#xC5F0;&#xACB0;&#xB418;&#xB294; &#xD30C;&#xC6CC;, &#xBC30;&#xD130;&#xB9AC;&#xC640;&#xC758; &#xC791;&#xB3D9; &#xBC29;&#xC2DD;&#xB4E4;&#xC744; &#xC870;&#xC0AC;&#xD558;&#xACE0; &#xC758;&#xACAC;&#xC744; &#xB098;&#xB204;&#xC5B4; &#xBCFC; &#xACC4;&#xD68D;&#xC774;&#xB2E4;.  </p>
+        gtag('config', 'UA-168776470-2');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.0.2"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">홈</a><a class="navbar-item" href="/about">CV</a><a class="navbar-item" href="/categories">카테고리</a><a class="navbar-item" href="/archives">타임라인</a><a class="navbar-item" href="/tags">태그 모음</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2019-05-04T09:30:00.000Z" title="2019. 5. 4. 오후 6:30:00">2019-05-04</time>&nbsp;최초 게시 됨</span><span class="level-item"><time dateTime="2021-01-08T06:00:52.000Z" title="2021. 1. 8. 오후 3:00:52">2021-01-08</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Team-Project/">Team Project</a><span> / </span><a class="link-muted" href="/categories/Team-Project/%ED%8C%80-MRM/">&lt;팀&gt; MRM</a></span><span class="level-item">10분 소요 (약 1551 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">주간 진행 보고서 (3월 1주차)</h1><div class="content"><h3 id="2019-03-05"><a href="#2019-03-05" class="headerlink" title="2019.03.05"></a>2019.03.05</h3><hr>
+<p>로뎀기술에 첫 출근하여 연구하고자 하는 <code>WebioPi를 이용한 메카넘 휠 제어 설계</code>에 관한 기초적인 계획을 수립하였다.  </p>
+<p>라즈베리파이 핀맵, 통신규격 등 보드와 회로에 관련된 기초 개념이 부족하여 대표님께서 직접 라즈베리파이 보드를 보여주시면서 앞으로의 연구를 위해 전반적으로 흐름을 어떻게 잡아야 할 지 설명해주셨다.  </p>
+<p>하드웨어 관련 강의를 많이 듣지 않아서 처음 라즈베리파이 보드판을 접해보았는데 상당히 복잡한 구조로 이루어져 있어 이 안에 포함되어 있는 다양한 기능들과 통신규격들에 관한 개념 정립을 우선시 해야할 것 같다고 하셨다.  </p>
+<p>보드에 관한 기초적인 개념들을 정립하기 위해서 자료조사를 먼저 실시한 이후에 어느 정도 정리가 되면 만들고자 하는 제품의 설계도를 제대로 설계하고자 한다. 같이 실습을 받는 팀원들과 역할을 분담하여 조사를 하기로 했기 때문에 내일까지 보드에 연결되는 파워, 배터리와의 작동 방식들을 조사하고 의견을 나누어 볼 계획이다.  </p>
 <p><br><br></p>
 <h3 id="2019-03-06"><a href="#2019-03-06" class="headerlink" title="2019.03.06"></a>2019.03.06</h3><hr>
-<p>&#xC5B4;&#xC81C; &#xBD80;&#xC871;&#xD588;&#xB358; &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774; &#xBCF4;&#xB4DC;&#xC640; &#xC804;&#xC6D0; &#xACF5;&#xAE09;, &#xBC30;&#xD130;&#xB9AC;, &#xCEE8;&#xBC84;&#xD130; &#xB4F1;&#xACFC;&#xC758; &#xAD00;&#xACC4;&#xC5D0; &#xB300;&#xD55C; &#xAC1C;&#xB150;&#xC744; &#xC870;&#xC0AC;&#xD558;&#xACE0; &#xD30C;&#xC6CC;&#xD3EC;&#xC778;&#xD2B8;&#xB85C; &#xC815;&#xB9AC;&#xD55C; &#xB0B4;&#xC6A9;&#xC744; &#xC2E4;&#xC2B5;&#xC2DC;&#xAC04; &#xB0B4;&#xB0B4; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xBCF4;&#xCDA9;&#xD574;&#xB098;&#xAC14;&#xB2E4;.  </p>
-<p>&#xD568;&#xAED8; &#xC815;&#xBCF4;&#xB97C; &#xC870;&#xC0AC;&#xD55C; &#xD300;&#xC6D0;&#xB4E4;&#xC758; &#xB0B4;&#xC6A9;&#xB3C4; &#xC11C;&#xB85C; &#xACF5;&#xC720;&#xD574;&#xBCF4;&#xBA74;&#xC11C; &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774;&#xC5D0; &#xB300;&#xD55C; &#xC804;&#xBC18;&#xC801;&#xC778; &#xBD80;&#xBD84;&#xB4E4;&#xC744; &#xD655;&#xC778;&#xD574; &#xBCFC; &#xC218; &#xC788;&#xC5C8;&#xACE0; &#xAC01; &#xBD80;&#xD488;&#xC5D0; &#xB300;&#xD55C; &#xC790;&#xC138;&#xD55C; &#xC0AC;&#xD56D;&#xB4E4;&#xC740; &#xCC28;&#xD6C4; &#xC2E4;&#xC2B5;&#xC744; &#xC9C4;&#xD589;&#xD558;&#xAC8C; &#xB420; &#xB54C; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xBC30;&#xC6CC;&#xB098;&#xAC08; &#xACC4;&#xD68D;&#xC774;&#xB2E4;.  </p>
-<p>&#xBAA8;&#xB4E0; &#xC815;&#xB9AC;&#xAC00; &#xB05D;&#xB098;&#xACE0; &#xD300;&#xC6D0;&#xB4E4;&#xC774; &#xD55C;&#xBA85;&#xC529; &#xB3CC;&#xC544;&#xAC00;&#xBA70; &#xB300;&#xD45C;&#xB2D8;&#xAED8; &#xC870;&#xC0AC;&#xD55C; &#xB0B4;&#xC6A9;&#xC744; &#xBC1C;&#xD45C;&#xD558;&#xB294; &#xC2DC;&#xAC04;&#xC744; &#xAC00;&#xC84C;&#xB294;&#xB370; &#xB208;&#xC73C;&#xB85C;&#xB9CC; &#xC775;&#xD78C;&#xB370;&#xB2E4; &#xB9CE;&#xC740; &#xC624;&#xAC1C;&#xB150;&#xB4E4;&#xC744; &#xAC00;&#xC9C0;&#xACE0; &#xC788;&#xC5B4;&#xC11C; &#xADF8;&#xB7F0;&#xC9C0; &#xB9C9;&#xC0C1; &#xC870;&#xC0AC;&#xD55C; &#xB0B4;&#xC6A9;&#xC5D0; &#xB300;&#xD574; &#xC790;&#xC138;&#xD788; &#xC124;&#xBA85;&#xB4DC;&#xB9AC;&#xAE30;&#xAC00; &#xC5B4;&#xB824;&#xC6E0;&#xB2E4;.  </p>
-<p>&#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774;&#xC5D0; &#xB300;&#xD55C; &#xAC1C;&#xB150;&#xC774; &#xD655;&#xC2E4;&#xD558;&#xAC8C; &#xC7A1;&#xD600;&#xC838; &#xC788;&#xC9C0; &#xC54A;&#xC740; &#xC0C1;&#xD669;&#xC774;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xB300;&#xD45C;&#xB2D8;&#xAED8;&#xC11C; &#xACA9;&#xB824;&#xC640; &#xD568;&#xAED8; &#xAFB8;&#xC900;&#xD55C; &#xD559;&#xC2B5;&#xACFC; &#xBCF5;&#xC2B5;&#xB9CC;&#xC774; &#xACC4;&#xD68D;&#xC744; &#xC131;&#xACF5;&#xC801;&#xC73C;&#xB85C; &#xC2E4;&#xD589;&#xD560; &#xC218; &#xC788;&#xB2E4;&#xACE0; &#xB9D0;&#xC500;&#xD574;&#xC8FC;&#xC168;&#xACE0; &#xC544;&#xC9C1; &#xCD08;&#xBC18;&#xC774;&#xAE30;&#xB294; &#xD558;&#xC9C0;&#xB9CC; &#xC55E;&#xC73C;&#xB85C; &#xB354; &#xB9CE;&#xC740; &#xB178;&#xB825;&#xC744; &#xD1B5;&#xD574; &#xD558;&#xB4DC;&#xC6E8;&#xC5B4;&#xC5D0; &#xB300;&#xD55C; &#xC9C0;&#xC2DD;&#xC744; &#xC313;&#xC544;&#xB098;&#xAC00;&#xC57C; &#xD560; &#xAC83; &#xAC19;&#xB2E4;.  </p>
-<p>&#xAC01;&#xC790; &#xB9E1;&#xC740; &#xD30C;&#xD2B8;&#xB4E4;&#xC774; &#xB098;&#xB258;&#xC5B4;&#xC838; &#xC788;&#xB2E4;&#xBCF4;&#xB2C8; &#xB0B4;&#xAC00; &#xB9E1;&#xC740; &#xBD80;&#xBD84;&#xC740; &#xB354; &#xD655;&#xC2E4;&#xD788; &#xC54C;&#xC544;&#xC57C; &#xD560; &#xAC83; &#xAC19;&#xACE0; &#xB300;&#xD45C;&#xB2D8;&#xAED8;&#xC11C; &#xC55E;&#xC73C;&#xB85C; &#xC2E4;&#xC2B5;&#xC77C;&#xC9C0; &#xC774;&#xC678;&#xC5D0;&#xB3C4; &#xCD94;&#xAC00; &#xBCF4;&#xACE0;&#xC11C;&#xB97C; &#xC791;&#xC131;&#xD558;&#xBA74;&#xC11C; &#xBA38;&#xB9AC;&#xC18D;&#xC5D0; &#xB354; &#xAE30;&#xC5B5;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xD558;&#xB77C;&#xACE0; &#xC774;&#xC57C;&#xAE30; &#xD574;&#xC8FC;&#xC168;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBCF4;&#xACE0;&#xC11C;&#xB97C; &#xC791;&#xC131;&#xD558;&#xBA74;&#xC11C; &#xBB34;&#xC5C7;&#xC744; &#xB354; &#xC54C;&#xAC8C; &#xB418;&#xC5C8;&#xACE0;, &#xBB34;&#xC5C7;&#xC774; &#xB354; &#xBD80;&#xC871;&#xD55C; &#xC9C0; &#xD655;&#xC778;&#xD574;&#xBCF4;&#xC544;&#xC57C;&#xACA0;&#xB2E4;.  </p>
+<p>어제 부족했던 라즈베리파이 보드와 전원 공급, 배터리, 컨버터 등과의 관계에 대한 개념을 조사하고 파워포인트로 정리한 내용을 실습시간 내내 추가적으로 보충해나갔다.  </p>
+<p>함께 정보를 조사한 팀원들의 내용도 서로 공유해보면서 라즈베리파이에 대한 전반적인 부분들을 확인해 볼 수 있었고 각 부품에 대한 자세한 사항들은 차후 실습을 진행하게 될 때 추가적으로 배워나갈 계획이다.  </p>
+<p>모든 정리가 끝나고 팀원들이 한명씩 돌아가며 대표님께 조사한 내용을 발표하는 시간을 가졌는데 눈으로만 익힌데다 많은 오개념들을 가지고 있어서 그런지 막상 조사한 내용에 대해 자세히 설명드리기가 어려웠다.  </p>
+<p>라즈베리파이에 대한 개념이 확실하게 잡혀져 있지 않은 상황이기 때문에 대표님께서 격려와 함께 꾸준한 학습과 복습만이 계획을 성공적으로 실행할 수 있다고 말씀해주셨고 아직 초반이기는 하지만 앞으로 더 많은 노력을 통해 하드웨어에 대한 지식을 쌓아나가야 할 것 같다.  </p>
+<p>각자 맡은 파트들이 나뉘어져 있다보니 내가 맡은 부분은 더 확실히 알아야 할 것 같고 대표님께서 앞으로 실습일지 이외에도 추가 보고서를 작성하면서 머리속에 더 기억할 수 있도록 하라고 이야기 해주셨기 때문에 보고서를 작성하면서 무엇을 더 알게 되었고, 무엇이 더 부족한 지 확인해보아야겠다.  </p>
 <p><br><br></p>
 <h3 id="2019-03-07"><a href="#2019-03-07" class="headerlink" title="2019.03.07"></a>2019.03.07</h3><hr>
-<p>&#xCEA1;&#xC2A4;&#xD1A4;&#xB514;&#xC790;&#xC778;&#xACFC; &#xC5F0;&#xACC4;&#xD55C; &#xD604;&#xC7A5;&#xC2E4;&#xC2B5;&#xC774;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xB2E4;&#xC74C; &#xC8FC;&#xC5D0; &#xC788;&#xC744; &#xC8FC;&#xC81C; &#xBC1C;&#xD45C;&#xB97C; &#xC704;&#xD574;&#xC11C; 1&#xCC28;&#xC801;&#xC73C;&#xB85C; &#xAC1C;&#xB150;&#xACFC; &#xB0B4;&#xC6A9;&#xB4E4;&#xC744; &#xCD1D; &#xC815;&#xB9AC;&#xD588;&#xB2E4;.  </p>
-<p>WebioPi&#xC640; &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774; &#xADF8;&#xB9AC;&#xACE0; &#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC;&#xC640;&#xC758; &#xD1B5;&#xC2E0; &#xBC29;&#xBC95; &#xB4F1;&#xC744; &#xC870;&#xC0AC;&#xD558;&#xC600;&#xB294;&#xB370;, &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774;&#xB294; &#xC2E4;&#xBB3C;&#xB85C;&#xB3C4; &#xD655;&#xC778;&#xD558;&#xC600;&#xACE0; &#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC;&#xC640;&#xC758; &#xD1B5;&#xC2E0; &#xBC29;&#xBC95;&#xB3C4; &#xB300;&#xB7B5;&#xC801;&#xC73C;&#xB85C; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC5C8;&#xC9C0;&#xB9CC; WebioPi &#xAC19;&#xC740; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774;&#xC640; &#xC5F0;&#xB3D9;&#xD558;&#xC5EC; &#xC2E4;&#xC81C;&#xB85C; &#xD655;&#xC778;&#xD574;&#xBCF4;&#xC9C0; &#xC54A;&#xC544;&#xC11C; &#xADF8;&#xB7F0;&#xC9C0; &#xD655; &#xC640;&#xB2FF;&#xB294;&#xAC8C; &#xC5C6;&#xC5B4;&#xC11C; &#xCC28;&#xD6C4;&#xC5D0; &#xD68C;&#xB85C; &#xAD6C;&#xC131;&#xC744; &#xC9C1;&#xC811; &#xD574;&#xBCF8; &#xC774;&#xD6C4;&#xC5D0;&#xC57C; &#xB290;&#xB084; &#xC218; &#xC788;&#xC744; &#xAC83; &#xAC19;&#xB2E4;.  </p>
-<p>&#xB300;&#xB7B5;&#xC801;&#xC73C;&#xB85C; &#xB0B4;&#xC6A9;&#xB4E4;&#xC740; &#xC800;&#xB141;&#xAE4C;&#xC9C0; &#xC885;&#xD569;&#xD558;&#xC5EC; &#xB9C8;&#xBB34;&#xB9AC; &#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB0B4;&#xC77C;&#xAE4C;&#xC9C0; &#xCD94;&#xAC00;&#xD560; &#xAC83;&#xB4E4;&#xC774;&#xB098; &#xC218;&#xC815;&#xD574;&#xC57C; &#xD560; &#xC0AC;&#xD56D;&#xB4E4;&#xC744; &#xC815;&#xB9AC;&#xD558;&#xACE0; &#xC644;&#xC131;&#xD574;&#xC11C; &#xBC1C;&#xD45C; &#xC900;&#xBE44;&#xB97C; &#xB9C8;&#xCE58;&#xB824;&#xACE0; &#xD55C;&#xB2E4;.  </p>
-<p>&#xC2E4;&#xC2B5;&#xC2DC;&#xAC04; &#xB3D9;&#xC548;&#xC5D0; &#xBC1C;&#xD45C;&#xB97C; &#xC900;&#xBE44;&#xD560; &#xC2DC;&#xAC04;&#xC744; &#xC8FC;&#xC2E0;&#xB2E4;&#xACE0; &#xD558;&#xC168;&#xACE0; &#xC5B4;&#xB290; &#xC815;&#xB3C4; &#xB9C8;&#xBB34;&#xB9AC;&#xAC00; &#xB418;&#xBA74; &#xB300;&#xD45C;&#xB2D8;&#xAED8;&#xC11C; &#xC9C1;&#xC811; &#xAC80;&#xC0AC;&#xB97C; &#xBC1B;&#xC73C;&#xB824;&#xACE0; &#xD55C;&#xB2E4;.  </p>
+<p>캡스톤디자인과 연계한 현장실습이기 때문에 다음 주에 있을 주제 발표를 위해서 1차적으로 개념과 내용들을 총 정리했다.  </p>
+<p>WebioPi와 라즈베리파이 그리고 안드로이드와의 통신 방법 등을 조사하였는데, 라즈베리파이는 실물로도 확인하였고 안드로이드와의 통신 방법도 대략적으로 확인할 수 있었지만 WebioPi 같은 경우에는 라즈베리파이와 연동하여 실제로 확인해보지 않아서 그런지 확 와닿는게 없어서 차후에 회로 구성을 직접 해본 이후에야 느낄 수 있을 것 같다.  </p>
+<p>대략적으로 내용들은 저녁까지 종합하여 마무리 하였다.  </p>
+<p>내일까지 추가할 것들이나 수정해야 할 사항들을 정리하고 완성해서 발표 준비를 마치려고 한다.  </p>
+<p>실습시간 동안에 발표를 준비할 시간을 주신다고 하셨고 어느 정도 마무리가 되면 대표님께서 직접 검사를 받으려고 한다.  </p>
 <p><br><br></p>
 <h3 id="2019-03-08"><a href="#2019-03-08" class="headerlink" title="2019.03.08"></a>2019.03.08</h3><hr>
-<p>&#xC5B4;&#xC81C; &#xC815;&#xB9AC;&#xD55C; &#xC790;&#xB8CC;&#xB97C; &#xD300;&#xC6D0;&#xB4E4;&#xACFC; &#xC870;&#xAE08; &#xB354; &#xB2E4;&#xB4EC;&#xC73C;&#xBA74;&#xC11C; &#xB77C;&#xC988;&#xBCA0;&#xB9AC;&#xD30C;&#xC774;, &#xBA54;&#xCE74;&#xB118; &#xD720; &#xB4F1; &#xD558;&#xB4DC;&#xC6E8;&#xC5B4;&#xC5D0; &#xB300;&#xD55C; &#xAC1C;&#xB150;&#xBD80;&#xD130; WebioPi&#xC640; &#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC; &#xC18C;&#xCF13; &#xD1B5;&#xC2E0; &#xB4F1; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4;&#xC5D0; &#xB300;&#xD55C; &#xAC1C;&#xB150;&#xAE4C;&#xC9C0; &#xC804;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xBCF5;&#xC2B5;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xC900;&#xBE44;&#xD55C; PPT &#xC790;&#xB8CC;&#xB97C; &#xB300;&#xD45C;&#xB2D8; &#xC55E;&#xC5D0;&#xC11C; &#xCC98;&#xC74C;&#xC73C;&#xB85C; &#xBC1C;&#xD45C;&#xD558;&#xC600;&#xACE0; &#xBD80;&#xC871;&#xD55C; &#xBD80;&#xBD84;&#xACFC; &#xCD94;&#xAC00;&#xD574;&#xC57C; &#xD560; &#xC810;&#xB4E4;&#xC744; &#xC9D1;&#xC5B4;&#xC8FC;&#xC154;&#xC11C; &#xBC1C;&#xD45C; &#xC900;&#xBE44;&#xC5D0; &#xB3C4;&#xC6C0;&#xC774; &#xB418;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C;, &#xC774;&#xBC88;&#xC8FC;&#xAE4C;&#xC9C0;&#xB294; &#xD558;&#xB4DC;&#xC6E8;&#xC5B4;&#xC5D0; &#xB300;&#xD55C; &#xC774;&#xB860;&#xC744; &#xC911;&#xC810;&#xC801;&#xC73C;&#xB85C; &#xACF5;&#xBD80;&#xD588;&#xB2E4;&#xBA74; &#xB2E4;&#xC74C;&#xC8FC;&#xBD80;&#xD130;&#xB294; &#xBCF8;&#xACA9;&#xC801;&#xC73C;&#xB85C; &#xD68C;&#xB85C; &#xAD6C;&#xC131; &#xBC0F; WebioPi &#xAD6C;&#xB3D9; &#xC2E4;&#xD5D8; &#xB4F1; &#xC2E4;&#xC2B5; &#xD65C;&#xB3D9;&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xADF8;&#xC640; &#xAD00;&#xB828;&#xB41C; &#xAC01;&#xC885; &#xC9C8;&#xBB38;&#xC744; &#xD558;&#xACE0; &#xB300;&#xD45C;&#xB2D8;&#xAED8;&#xC11C; &#xB2F5;&#xBCC0;&#xC744; &#xD574;&#xC8FC;&#xB294; &#xC2DC;&#xAC04;&#xC744; &#xAC16;&#xAE30;&#xB3C4; &#xD588;&#xB2E4;.  </p>
-<p>&#xCEA1;&#xC2A4;&#xD1A4;&#xB514;&#xC790;&#xC778; &#xC8FC;&#xC81C; &#xBC1C;&#xD45C; &#xC804; &#xB300;&#xD45C;&#xB2D8;&#xC5D0;&#xAC8C; &#xBA3C;&#xC800; &#xAC80;&#xC0AC;&#xB97C; &#xBC1B;&#xAC8C; &#xB418;&#xC5C8;&#xB294;&#xB370; &#xC9C0;&#xAE08;&#xAE4C;&#xC9C0; &#xBAB0;&#xB790;&#xB358; &#xBD80;&#xBD84;&#xB4E4;&#xB3C4; &#xB9CE;&#xC774; &#xC54C;&#xB824;&#xC8FC;&#xC2DC;&#xACE0; &#xBC1C;&#xD45C; &#xC900;&#xBE44; &#xC790;&#xB8CC;&#xC5D0; &#xB300;&#xD55C; &#xB2E4;&#xC591;&#xD55C; &#xD53C;&#xB4DC;&#xBC31;&#xC744; &#xD574;&#xC8FC;&#xC154;&#xC11C; &#xB2E4;&#xC74C; &#xC8FC; &#xCCAB; &#xBC1C;&#xD45C;&#xB97C; &#xD558;&#xB294;&#xB370; &#xC788;&#xC5B4; &#xC0C1;&#xB2F9;&#xD788; &#xB3C4;&#xC6C0;&#xC774; &#xB418;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xC544;&#xC9C1;&#xAE4C;&#xC9C0; &#xBA38;&#xB9AC;&#xC18D;&#xC5D0;&#xC11C;&#xB9CC; &#xC5B4;&#xB834;&#xD48B;&#xC774; &#xB9F4;&#xB3C4;&#xB294; &#xAC83;&#xB4E4;&#xC774; &#xB9CE;&#xC544;&#xC11C; &#xACE0;&#xBBFC;&#xC774;&#xC9C0;&#xB9CC; &#xBC1C;&#xD45C; &#xD6C4;&#xC5D0; &#xC21C;&#xCC28;&#xC801;&#xC73C;&#xB85C; &#xB2E4;&#xC591;&#xD55C; &#xC5F0;&#xAD6C;&#xB4E4;&#xC744; &#xD574;&#xB098;&#xC544;&#xAC00;&#xBA74; &#xC88B;&#xC740; &#xACB0;&#xACFC;&#xAC00; &#xC788;&#xC744; &#xAC83;&#xC774;&#xB77C; &#xC0DD;&#xAC01;&#xD55C;&#xB2E4;.  </p>
-<p>&#xC624;&#xB298; &#xBC1C;&#xD45C; &#xC790;&#xB8CC;&#xC5D0; &#xC788;&#xB294; &#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC; &#xAD6C;&#xB3D9; &#xBC29;&#xC2DD;&#xC5D0; &#xAD00;&#xD574;&#xC11C; &#xD2B9;&#xD788; &#xB354; &#xAC15;&#xC870;&#xB97C; &#xD558;&#xC168;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xADF8; &#xBD80;&#xBD84;&#xC744; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xBCF4;&#xC644;&#xD574;&#xC11C; &#xB2E4;&#xC74C; &#xC8FC;&#xC5D0; &#xBC1C;&#xD45C;&#xD560; &#xACC4;&#xD68D;&#xC774;&#xB2E4;.</p>
-</body></html>
-    
-    </div>
-    
-    <div class="columns is-variable is-1 is-multiline is-mobile">
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#팀프로젝트</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#프로젝트</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">#캡스톤디자인</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Team-Project/">#Team Project</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Project/">#Project</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Capstone-Design/">#Capstone Design</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/MRM/">#MRM</a></span>
-    
-    </div>
-    
-    
-    <div class="columns is-mobile is-multiline article-nav">
-        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
-            
-            <a href="/2019/05/04/mrm-report-190312/">주간 진행 보고서 (3월 2주차)</a>
-            
-        </span>
-        <span class="column is-12-mobile is-half-desktop  article-nav-next">
-            
-            <a href="/2019/05/04/boj-4880-c/">[백준] 4880 - What&#39;s Next?</a>
-            
-        </span>
-    </div>
-    
-</article>
-
-
-<div class="sharebox">
-    
-<div class="sharethis-inline-share-buttons"></div>
-<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
-
-</div>
-
-
-
-<div class="comments">
-    <h3 class="title is-4">댓글</h3>
-    
-<script>
-    var disqus_config = function () {
-        this.page.url = 'https://y8ncastle.me/2019/05/04/mrm-report-190305/';
-        this.page.identifier = '2019/05/04/mrm-report-190305/';
-        
-        this.language = 'ko';
-        
-    };
-    (function() {
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<div id="disqus_thread">
-    
-    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</div>
-
-    </div>
-</section>
-    <footer class="footer">
-    <div class="container">
-        <div class="columns content">
-            <div class="column is-narrow has-text-centered">
-                &copy; 2021 Zay Jeong&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
-            </div>
-            <div class="column is-hidden-mobile"></div>
-
-            
-            <div class="column is-narrow">
-                <div class="columns is-mobile is-multiline is-centered">
-                
-                    
-                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
-                    
-                    GitHub
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
-                    
-                    LinkedIn
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
-                    
-                    Instagram
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
-                    
-                    Facebook
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
-                    
-                    BOJ
-                    
-                </a>
-                
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-
-<!-- test if the browser is outdated -->
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // plugin function, place inside DOM ready function
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        })
-    });
-</script>
-
-<script>
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-    moment.locale("ko");
-</script>
-
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script>
-    MathJax.Hub.Config({
-        "HTML-CSS": {
-            matchFontHeight: false
-        },
-        SVG: {
-            matchFontHeight: false
-        },
-        CommonHTML: {
-            matchFontHeight: false
-        },
-        tex2jax: {
-            inlineMath: [
-                ['$','$'],
-                ['\\(','\\)']
-            ]
-        }
-    });
-</script>
-
-    
-    
-    
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
-<script>
-    (function ($) {
-        $(document).ready(function () {
-            if (typeof($.fn.lightGallery) === 'function') {
-                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+<p>어제 정리한 자료를 팀원들과 조금 더 다듬으면서 라즈베리파이, 메카넘 휠 등 하드웨어에 대한 개념부터 WebioPi와 안드로이드 소켓 통신 등 소프트웨어에 대한 개념까지 전반적으로 복습하였다.  </p>
+<p>준비한 PPT 자료를 대표님 앞에서 처음으로 발표하였고 부족한 부분과 추가해야 할 점들을 집어주셔서 발표 준비에 도움이 되었다.  </p>
+<p>추가적으로, 이번주까지는 하드웨어에 대한 이론을 중점적으로 공부했다면 다음주부터는 본격적으로 회로 구성 및 WebioPi 구동 실험 등 실습 활동에 들어가기 때문에 그와 관련된 각종 질문을 하고 대표님께서 답변을 해주는 시간을 갖기도 했다.  </p>
+<p>캡스톤디자인 주제 발표 전 대표님에게 먼저 검사를 받게 되었는데 지금까지 몰랐던 부분들도 많이 알려주시고 발표 준비 자료에 대한 다양한 피드백을 해주셔서 다음 주 첫 발표를 하는데 있어 상당히 도움이 되었다.  </p>
+<p>아직까지 머리속에서만 어렴풋이 맴도는 것들이 많아서 고민이지만 발표 후에 순차적으로 다양한 연구들을 해나아가면 좋은 결과가 있을 것이라 생각한다.  </p>
+<p>오늘 발표 자료에 있는 안드로이드 구동 방식에 관해서 특히 더 강조를 하셨기 때문에 그 부분을 추가적으로 보완해서 다음 주에 발표할 계획이다.</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>주간 진행 보고서 (3월 1주차)</p><p><a href="https://y8ncastle.me/2019/05/04/mrm-report-190305/">https://y8ncastle.me/2019/05/04/mrm-report-190305/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Zay Jeong</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2019-05-04</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-01-08</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</a><a class="link-muted mr-2" rel="tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">프로젝트</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">캡스톤디자인</a><a class="link-muted mr-2" rel="tag" href="/tags/Team-Project/">Team Project</a><a class="link-muted mr-2" rel="tag" href="/tags/Project/">Project</a><a class="link-muted mr-2" rel="tag" href="/tags/Capstone-Design/">Capstone Design</a><a class="link-muted mr-2" rel="tag" href="/tags/MRM/">MRM</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2019/05/04/mrm-report-190312/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">주간 진행 보고서 (3월 2주차)</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2019/05/04/boj-4880-c/"><span class="level-item">[백준] 4880 - What&#039;s Next?</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://y8ncastle.me/2019/05/04/mrm-report-190305/';
+            this.page.identifier = '2019/05/04/mrm-report-190305/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'zayjeong' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="제이정 (Zay Jeong)"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">제이정 (Zay Jeong)</p><p class="is-size-6 is-block">대학원생, 블록체인 연구원</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 서울</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">183</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">338</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/y8ncastle" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/y8ncastle"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/y8ncastle"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/y8ncastle"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/zay.jeong"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">관련 링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.acmicpc.net/user/zarch4894" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-right"><span class="level-item tag">www.acmicpc.net</span></span></a></li><li><a class="level is-mobile" href="https://youtube.com/playlist?list=PL93hJn5LGgIMVNoSYrI6_PGfVJp6L05x_" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Youtube</span></span><span class="level-right"><span class="level-item tag">youtube.com</span></span></a></li><li><a class="level is-mobile" href="https://medium.com/@y8ncastle" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Medium</span></span><span class="level-right"><span class="level-item tag">medium.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%EA%B5%90%EC%9C%A1-Blockchain/"><span class="level-start"><span class="level-item">&lt;교육&gt; Blockchain</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Academy/"><span class="level-start"><span class="level-item">Academy</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Achievement/"><span class="level-start"><span class="level-item">Achievement</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/Baekjoon-Online-Judge/"><span class="level-start"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-end"><span class="level-item tag">31</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/"><span class="level-start"><span class="level-item">Blockchain</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><span class="level-start"><span class="level-item">&lt;교육&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Hyperledger-Fabric/"><span class="level-start"><span class="level-item">&lt;교육&gt; Hyperledger Fabric</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><span class="level-start"><span class="level-item">&lt;실습&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%9D%B4%EB%A1%A0-Bitcoin/"><span class="level-start"><span class="level-item">&lt;이론&gt; Bitcoin</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/Ethereum/"><span class="level-start"><span class="level-item">Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/CSS/"><span class="level-start"><span class="level-item">CSS</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Crypto-Community/"><span class="level-start"><span class="level-item">Crypto Community</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Exhibition/"><span class="level-start"><span class="level-item">Exhibition</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Education/"><span class="level-start"><span class="level-item">IT Education</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Free-Board/"><span class="level-start"><span class="level-item">IT Free Board</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/"><span class="level-start"><span class="level-item">Personal Project</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><span class="level-start"><span class="level-item">&lt;개인&gt; Android</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Ethereum/"><span class="level-start"><span class="level-item">&lt;개인&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/Plan/"><span class="level-start"><span class="level-item">Plan</span></span><span class="level-end"><span class="level-item tag">49</span></span></a></li><li><a class="level is-mobile" href="/categories/Seminar/"><span class="level-start"><span class="level-item">Seminar</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/"><span class="level-start"><span class="level-item">Team Project</span></span><span class="level-end"><span class="level-item tag">32</span></span></a><ul><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-Hanium/"><span class="level-start"><span class="level-item">&lt;팀&gt; Hanium</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-MRM/"><span class="level-start"><span class="level-item">&lt;팀&gt; MRM</span></span><span class="level-end"><span class="level-item tag">25</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-On-Books/"><span class="level-start"><span class="level-item">&lt;팀&gt; On Books</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-X-Corps/"><span class="level-start"><span class="level-item">&lt;팀&gt; X-Corps</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/X-Corps/"><span class="level-start"><span class="level-item">X-Corps</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 포스트</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-03-01T11:21:00.000Z">2020-03-01</time></p><p class="title"><a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a></p><p class="categories"><a href="/categories/Plan/">Plan</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T08:27:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/ethereum-private-network/">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</a></p><p class="categories"><a href="/categories/Blockchain/">Blockchain</a> / <a href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T02:50:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a></p><p class="categories"><a href="/categories/CSS/">CSS</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T14:37:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/hanbat-diploma/">국립 한밭대학교 정보통신공학 학사 학위 취득</a></p><p class="categories"><a href="/categories/Achievement/">Achievement</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T02:36:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/youtube-seminar-20-3/">[2020.02.17] A New Privacy Protection Security Scheme for Blockchain (BaSE Lab 유튜브 세미나 20-3차)</a></p><p class="categories"><a href="/categories/Seminar/">Seminar</a></p></div></article></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Zay Jeong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
             }
-            if (typeof($.fn.justifiedGallery) === 'function') {
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
                 $('.justified-gallery').justifiedGallery();
             }
-        });
-    })(jQuery);
-</script>
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-    <style>
-        .hljs {
-            position: relative;
-        }
-
-        .hljs .clipboard-btn {
-            float: right;
-            color: #9a9a9a;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .hljs .clipboard-btn:hover {
-          color: #8a8a8a;
-        }
-
-        .hljs > .clipboard-btn {
-            display: none;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-        }
-
-        .hljs:hover > .clipboard-btn {
-            display: inline;
-        }
-
-        .hljs > figcaption > .clipboard-btn {
-            margin-right: 4px;
-        }
-    </style>
-    <script>
-      $(document).ready(function () {
-        $('figure.hljs').each(function(i, figure) {
-          var codeId = 'code-' + i;
-          var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
-          code.id = codeId;
-          copyButton.addClass('clipboard-btn');
-          copyButton.attr('data-clipboard-target-id', codeId);
-
-          var figcaption = figure.querySelector('figcaption');
-
-          if (figcaption) {
-            figcaption.append(copyButton[0]);
-          } else {
-            figure.prepend(copyButton[0]);
-          }
-        })
-
-        var clipboard = new ClipboardJS('.clipboard-btn', {
-          target: function(trigger) {
-            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-          }
-        });
-        clipboard.on('success', function(e) {
-          e.clearSelection();
-        })
-      })
-    </script>
-
-    
-    
-
-    
-
-
-
-<script src="/js/script.js"></script>
-
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-mask"></div>
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '글',
-                PAGES: '페이지',
-                CATEGORIES: '카테고리 목록',
-                TAGS: '태그 목록',
-                UNTITLED: '(제목없음)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-    
-</body>
-</html>
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="검색할 내용을 입력하세요"></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"검색할 내용을 입력하세요","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>

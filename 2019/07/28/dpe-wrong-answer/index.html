@@ -1,1036 +1,620 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-<head>
-    <meta charset="utf-8">
-<title>정보처리기사 모의고사 오답 정리 - Zay Jeong Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
-
-
-
-
-<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
-
-
-
-<meta name="keywords" content="IT, Blockchain, Android, Development">
-
-
-
-    <meta name="description" content="&amp;#xB370;&amp;#xC774;&amp;#xD130;&amp;#xBCA0;&amp;#xC774;&amp;#xC2A4;  &amp;#xAE4A;&amp;#xC774; &amp;#xC6B0;&amp;#xC120; &amp;#xD0D0;&amp;#xC0C9;(DFS)&amp;#xC740; &amp;#xC2A4;&amp;#xD0DD;&amp;#xC744; &amp;#xAE30;&amp;#xBCF8;&amp;#xC73C;&amp;#xB85C; &amp;#xC0AC;&amp;#xC6A9;&amp;#xD55C;&amp;#xB">
-<meta property="og:type" content="article">
-<meta property="og:title" content="정보처리기사 모의고사 오답 정리">
-<meta property="og:url" content="https://y8ncastle.me/2019/07/28/dpe-wrong-answer/index.html">
-<meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="&amp;#xB370;&amp;#xC774;&amp;#xD130;&amp;#xBCA0;&amp;#xC774;&amp;#xC2A4;  &amp;#xAE4A;&amp;#xC774; &amp;#xC6B0;&amp;#xC120; &amp;#xD0D0;&amp;#xC0C9;(DFS)&amp;#xC740; &amp;#xC2A4;&amp;#xD0DD;&amp;#xC744; &amp;#xAE30;&amp;#xBCF8;&amp;#xC73C;&amp;#xB85C; &amp;#xC0AC;&amp;#xC6A9;&amp;#xD55C;&amp;#xB">
-<meta property="og:locale" content="ko_KR">
-<meta property="article:published_time" content="2019-07-28T10:01:00.000Z">
-<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
-<meta property="article:author" content="Zay Jeong">
-<meta property="article:tag" content="정보처리기사">
-<meta property="article:tag" content="Data Processing Engineer">
-<meta property="article:tag" content="Engineer Information Processing">
-<meta property="article:tag" content="정처기">
-<meta name="twitter:card" content="summary">
-
-
-
-
-
-<link rel="icon" href="/images/favicon/favicon.ico">
-
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>정보처리기사 모의고사 오답 정리 - Zay Jeong Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Zay (Yoonsung), Jeong"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zay (Yoonsung), Jeong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="데이터베이스  깊이 우선 탐색(DFS)은 스택을 기본으로 사용한다. 깊이를 우선하여 탐색하는 것으로 한쪽 방향을 정하고 깊이 파고든 후 다른 반대쪽을 찾는 방식이다.       해싱 함수 중 주어진 키를 여러 부분으로 나누고 각 부분의 값을 더하거나 배타적 논리합 연산을 통하여 나온 결과로 주소를 취하는 방법은 폴딩 방법 (Folding Method)이다."><meta property="og:type" content="blog"><meta property="og:title" content="정보처리기사 모의고사 오답 정리"><meta property="og:url" content="https://y8ncastle.me/2019/07/28/dpe-wrong-answer/"><meta property="og:site_name" content="Zay Jeong Blog"><meta property="og:description" content="데이터베이스  깊이 우선 탐색(DFS)은 스택을 기본으로 사용한다. 깊이를 우선하여 탐색하는 것으로 한쪽 방향을 정하고 깊이 파고든 후 다른 반대쪽을 찾는 방식이다.       해싱 함수 중 주어진 키를 여러 부분으로 나누고 각 부분의 값을 더하거나 배타적 논리합 연산을 통하여 나온 결과로 주소를 취하는 방법은 폴딩 방법 (Folding Method)이다."><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://y8ncastle.me/img/og_image.png"><meta property="article:published_time" content="2019-07-28T10:01:00.000Z"><meta property="article:modified_time" content="2021-01-08T06:00:52.000Z"><meta property="article:author" content="Zay Jeong"><meta property="article:tag" content="정보처리기사"><meta property="article:tag" content="Data Processing Engineer"><meta property="article:tag" content="Engineer Information Processing"><meta property="article:tag" content="정처기"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://y8ncastle.me/2019/07/28/dpe-wrong-answer/"},"headline":"Zay Jeong Blog","image":["https://y8ncastle.me/img/og_image.png"],"datePublished":"2019-07-28T10:01:00.000Z","dateModified":"2021-01-08T06:00:52.000Z","author":{"@type":"Person","name":"Zay Jeong"},"description":"데이터베이스  깊이 우선 탐색(DFS)은 스택을 기본으로 사용한다. 깊이를 우선하여 탐색하는 것으로 한쪽 방향을 정하고 깊이 파고든 후 다른 반대쪽을 찾는 방식이다.       해싱 함수 중 주어진 키를 여러 부분으로 나누고 각 부분의 값을 더하거나 배타적 논리합 연산을 통하여 나온 결과로 주소를 취하는 방법은 폴딩 방법 (Folding Method)이다."}</script><link rel="canonical" href="https://y8ncastle.me/2019/07/28/dpe-wrong-answer/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168776470-2');
-</script>
-
-
-    
-
-
-<meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-    
-<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
-                
-                <img src="/images/logo.png" alt="" height="28">
-                
-            </a>
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="navbar-menu navbar-start">
-            
-            <a class="navbar-item "
-               href="/about">About</a>
-            
-            <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item "
-               href="/tags">Tags</a>
-            
-            <a class="navbar-item "
-               href="/archives">Archives</a>
-            
-            <a class="navbar-item "
-               href="/cv">CV</a>
-            
-        </div>
-        
-        <div class="navbar-menu navbar-end">
-            
-            <a class="navbar-item search" title="검색" href="javascript:;">
-                <i class="fas fa-search"></i>
-            </a>
-            
-            
-            
-            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-               
-            
-        </div>
-    </div>
-</nav>
-
-    <section class="section">
-    <div class="container">
-    <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            정보처리기사 모의고사 오답 정리
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2019-07-28T10:01:00.000Z" itemprop="datePublished">7월 28 2019</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/IT-Free-Board/">IT Free Board</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            42분 소요 (약 6246 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><h3 id="&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;"><a href="#&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;" class="headerlink" title="&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;"></a>&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;</h3><hr>
+        gtag('config', 'UA-168776470-2');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.0.2"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">홈</a><a class="navbar-item" href="/about">CV</a><a class="navbar-item" href="/categories">카테고리</a><a class="navbar-item" href="/archives">타임라인</a><a class="navbar-item" href="/tags">태그 모음</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2019-07-28T10:01:00.000Z" title="2019. 7. 28. 오후 7:01:00">2019-07-28</time>&nbsp;최초 게시 됨</span><span class="level-item"><time dateTime="2021-01-08T06:00:52.000Z" title="2021. 1. 8. 오후 3:00:52">2021-01-08</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/IT-Free-Board/">IT Free Board</a></span><span class="level-item">42분 소요 (약 6246 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">정보처리기사 모의고사 오답 정리</h1><div class="content"><h3 id="데이터베이스"><a href="#데이터베이스" class="headerlink" title="데이터베이스"></a>데이터베이스</h3><hr>
 <ul>
-<li>&#xAE4A;&#xC774; &#xC6B0;&#xC120; &#xD0D0;&#xC0C9;(DFS)&#xC740; <code>&#xC2A4;&#xD0DD;</code>&#xC744; &#xAE30;&#xBCF8;&#xC73C;&#xB85C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;. &#xAE4A;&#xC774;&#xB97C; &#xC6B0;&#xC120;&#xD558;&#xC5EC; &#xD0D0;&#xC0C9;&#xD558;&#xB294; &#xAC83;&#xC73C;&#xB85C; &#xD55C;&#xCABD; &#xBC29;&#xD5A5;&#xC744; &#xC815;&#xD558;&#xACE0; &#xAE4A;&#xC774; &#xD30C;&#xACE0;&#xB4E0; &#xD6C4; &#xB2E4;&#xB978; &#xBC18;&#xB300;&#xCABD;&#xC744; &#xCC3E;&#xB294; &#xBC29;&#xC2DD;&#xC774;&#xB2E4;.  </li>
+<li>깊이 우선 탐색(DFS)은 <code>스택</code>을 기본으로 사용한다. 깊이를 우선하여 탐색하는 것으로 한쪽 방향을 정하고 깊이 파고든 후 다른 반대쪽을 찾는 방식이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD574;&#xC2F1; &#xD568;&#xC218; &#xC911; &#xC8FC;&#xC5B4;&#xC9C4; &#xD0A4;&#xB97C; &#xC5EC;&#xB7EC; &#xBD80;&#xBD84;&#xC73C;&#xB85C; &#xB098;&#xB204;&#xACE0; &#xAC01; &#xBD80;&#xBD84;&#xC758; &#xAC12;&#xC744; &#xB354;&#xD558;&#xAC70;&#xB098; &#xBC30;&#xD0C0;&#xC801; &#xB17C;&#xB9AC;&#xD569; &#xC5F0;&#xC0B0;&#xC744; &#xD1B5;&#xD558;&#xC5EC; &#xB098;&#xC628; &#xACB0;&#xACFC;&#xB85C; &#xC8FC;&#xC18C;&#xB97C; &#xCDE8;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xC740; <code>&#xD3F4;&#xB529; &#xBC29;&#xBC95; (Folding Method)</code>&#xC774;&#xB2E4;.  </li>
+<li>해싱 함수 중 주어진 키를 여러 부분으로 나누고 각 부분의 값을 더하거나 배타적 논리합 연산을 통하여 나온 결과로 주소를 취하는 방법은 <code>폴딩 방법 (Folding Method)</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBCD1;&#xD589; &#xC81C;&#xC5B4;(Concurrency Control) &#xAE30;&#xBC95;&#xC758; &#xC885;&#xB958;&#xC5D0;&#xB294; <code>&#xB85C;&#xD0B9;</code>, <code>&#xCD5C;&#xC801; &#xBCD1;&#xD589;&#xC218;&#xD589;(&#xAC80;&#xC99D;, &#xD655;&#xC778;, &#xB099;&#xAD00;&#xC801;)</code>, <code>&#xD0C0;&#xC784;&#xC2A4;&#xD0EC;&#xD504;</code>, <code>&#xB2E4;&#xC911; &#xBC84;&#xC804; &#xAE30;&#xBC95;</code>&#xC774; &#xC788;&#xB2E4;.  </li>
+<li>병행 제어(Concurrency Control) 기법의 종류에는 <code>로킹</code>, <code>최적 병행수행(검증, 확인, 낙관적)</code>, <code>타임스탬프</code>, <code>다중 버전 기법</code>이 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>2&#xB2E8;&#xACC4; &#xB85C;&#xD0B9; &#xADDC;&#xC57D;&#xC740; &#xAE30;&#xBCF8; &#xB77D;&#xD0B9; &#xAE30;&#xBC95;&#xC758; &#xBB38;&#xC81C;&#xC810;&#xC744; &#xD574;&#xACB0;&#xD558;&#xACE0; &#xBAA8;&#xB4E0; &#xD2B8;&#xB79C;&#xC7AD;&#xC158;&#xB4E4;&#xC774; Lock&#xACFC; Unlock &#xC5F0;&#xC0B0;&#xC744; 2&#xB2E8;&#xACC4;&#xB85C; &#xAD6C;&#xBD84;&#xD558;&#xC5EC; &#xC2E4;&#xD589;&#xD558;&#xB3C4;&#xB85D; &#xD55C;&#xB2E4;. &#xC9C1;&#xB82C; &#xAC00;&#xB2A5;&#xC131;&#xC744; &#xBCF4;&#xC7A5;&#xD558;&#xB294; &#xADDC;&#xC57D;&#xC774;&#xB098; &#xB370;&#xB4DC;&#xB77D;&#xC744; &#xC608;&#xBC29;&#xD560; &#xC218;&#xB294; &#xC5C6;&#xB2E4;. <code>&#xD655;&#xC7A5; &#xB2E8;&#xACC4;</code>(&#xD2B8;&#xB79C;&#xC7AD;&#xC158;&#xC774; Lock &#xC5F0;&#xC0B0;&#xB9CC; &#xC2E4;&#xD589;&#xD560; &#xC218; &#xC788;&#xACE0;, Unlock &#xC5F0;&#xC0B0;&#xC740; &#xC2E4;&#xD589;&#xD560; &#xC218; &#xC5C6;&#xB294; &#xB2E8;&#xACC4;)&#xC640; <code>&#xCD95;&#xC18C; &#xB2E8;&#xACC4;</code>(&#xD2B8;&#xB79C;&#xC7AD;&#xC158;&#xC774; Unlock &#xC5F0;&#xC0B0;&#xB9CC; &#xC2E4;&#xD589;&#xD560; &#xC218; &#xC788;&#xACE0;, Lock &#xC5F0;&#xC0B0;&#xC740; &#xC2E4;&#xD589;&#xD560; &#xC218; &#xC5C6;&#xB294; &#xB2E8;&#xACC4;)&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>2단계 로킹 규약은 기본 락킹 기법의 문제점을 해결하고 모든 트랜잭션들이 Lock과 Unlock 연산을 2단계로 구분하여 실행하도록 한다. 직렬 가능성을 보장하는 규약이나 데드락을 예방할 수는 없다. <code>확장 단계</code>(트랜잭션이 Lock 연산만 실행할 수 있고, Unlock 연산은 실행할 수 없는 단계)와 <code>축소 단계</code>(트랜잭션이 Unlock 연산만 실행할 수 있고, Lock 연산은 실행할 수 없는 단계)가 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>&#xD035; &#xC815;&#xB82C;</code>&#xC740; &#xC21C;&#xD658; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xBBC0;&#xB85C; &#xC2A4;&#xD0DD; &#xACF5;&#xAC04;&#xC744; &#xD544;&#xC694;&#xB85C; &#xD558;&#xBA70;, &#xD0A4;&#xB97C; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xC791;&#xC740; &#xAC12;&#xC740; &#xC67C;&#xCABD;&#xC5D0;, &#xD070; &#xAC12;&#xC740; &#xC624;&#xB978;&#xCABD; &#xC11C;&#xBE0C; &#xD30C;&#xC77C;&#xB85C; &#xBD84;&#xD574;&#xC2DC;&#xD0A4;&#xB294; &#xBC29;&#xC2DD;&#xC774;&#xB2E4;. &#xCD5C;&#xC545;&#xC758; &#xC2DC;&#xAC04; &#xBCF5;&#xC7A1;&#xB3C4;&#xB294; O(n^2)&#xC774;&#xB2E4;. &#xCCAB; &#xBC88;&#xC9F8; &#xD0A4;&#xB9CC;&#xC744; &#xBD84;&#xD560; &#xC6D0;&#xC18C;&#xB85C; &#xC7A1;&#xB294; &#xAC83;&#xC774; &#xC544;&#xB2CC; &#xD558;&#xB098;&#xC758; &#xAE30;&#xC900; &#xAC12;&#xC744; &#xC7A1;&#xC744; &#xC218; &#xC788;&#xB2E4;.  </li>
+<li><code>퀵 정렬</code>은 순환 알고리즘을 사용하므로 스택 공간을 필요로 하며, 키를 기준으로 작은 값은 왼쪽에, 큰 값은 오른쪽 서브 파일로 분해시키는 방식이다. 최악의 시간 복잡도는 O(n^2)이다. 첫 번째 키만을 분할 원소로 잡는 것이 아닌 하나의 기준 값을 잡을 수 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xB370;&#xC774;&#xD130; &#xC6E8;&#xC5B4;&#xD558;&#xC6B0;&#xC2A4;&#xC758; &#xAE30;&#xBCF8;&#xC801;&#xC778; OLAP(On-Line Analytical Processing) &#xC5F0;&#xC0B0;&#xC5D0;&#xB294; <code>roll-up</code>, <code>slicing &amp; dicing</code>, <code>drill-down</code>, <code>pivoting</code>&#xC774; &#xC788;&#xACE0;, &#xC885;&#xB958;&#xC5D0;&#xB294; <code>ROLAP</code>, <code>MOLAP</code>, <code>HOLAP</code>&#xC774; &#xC788;&#xB2E4;.  </li>
+<li>데이터 웨어하우스의 기본적인 OLAP(On-Line Analytical Processing) 연산에는 <code>roll-up</code>, <code>slicing &amp; dicing</code>, <code>drill-down</code>, <code>pivoting</code>이 있고, 종류에는 <code>ROLAP</code>, <code>MOLAP</code>, <code>HOLAP</code>이 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xACFC; &#xBE44;&#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xC744; &#xACC4;&#xC0B0;&#xD560; &#xB54C;, <code>&#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xC740; &#xAC00;&#xC7A5; &#xD070; &#xAC12; + &#xC9C0;&#xC5F0;&#xC2DC;&#xAC04;</code>&#xC774;&#xACE0;, <code>&#xBE44;&#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xC740; &#xC804;&#xCCB4; + &#xC9C0;&#xC5F0;&#xC2DC;&#xAC04;</code>&#xC744; &#xACC4;&#xC0B0;&#xD55C; &#xAC83;&#xC774;&#xB2E4;.  </li>
+<li>파이프라인과 비파이프라인을 계산할 때, <code>파이프라인은 가장 큰 값 + 지연시간</code>이고, <code>비파이프라인은 전체 + 지연시간</code>을 계산한 것이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC138;&#xADF8;&#xBA3C;&#xD2B8;&#xC758; &#xCD5C;&#xB300; &#xD06C;&#xAE30;&#xB294; <code>(&#xD398;&#xC774;&#xC9C0; &#xBC88;&#xD638; + &#xC6CC;&#xB4DC; &#xD544;&#xB4DC;) * &#xB17C;&#xB9AC; &#xC8FC;&#xC18C;</code>, &#xB610;&#xB294; <code>2^(&#xD398;&#xC774;&#xC9C0; &#xBC88;&#xD638; &#xBE44;&#xD2B8; + &#xC6CC;&#xB4DC; &#xD544;&#xB4DC; &#xBE44;&#xD2B8;)</code>&#xB85C; &#xACC4;&#xC0B0;&#xD55C;&#xB2E4;.  </li>
+<li>세그먼트의 최대 크기는 <code>(페이지 번호 + 워드 필드) * 논리 주소</code>, 또는 <code>2^(페이지 번호 비트 + 워드 필드 비트)</code>로 계산한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD329; 10&#xC9C4;&#xD615; &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xD45C;&#xD604;&#xD55C; &#xBC29;&#xBC95;&#xC740; &#xC5B8;&#xD329; 10&#xC9C4;&#xD615; &#xBC29;&#xC2DD;&#xC73C;&#xB85C; &#xD45C;&#xD604;&#xD588;&#xC744; &#xB54C;&#xBCF4;&#xB2E4; 8&#xBE44;&#xD2B8;&#xC758; &#xAE30;&#xC5B5; &#xC7A5;&#xC18C;&#xAC00; &#xC808;&#xC57D;&#xB41C;&#xB2E4;.  </li>
+<li>팩 10진형 방식으로 표현한 방법은 언팩 10진형 방식으로 표현했을 때보다 8비트의 기억 장소가 절약된다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>NoSQL&#xC740; Not only SQL&#xC758; &#xC57D;&#xC790;&#xB85C;, &#xBE44;&#xC815;&#xD615; &#xB370;&#xC774;&#xD130;&#xC758; &#xC800;&#xC7A5;&#xC744; &#xC704;&#xD574; &#xC720;&#xC5F0;&#xD55C; &#xB370;&#xC774;&#xD130; &#xBAA8;&#xB378;&#xC744; &#xC9C0;&#xC6D0;&#xD55C;&#xB2E4;. &#xB610;&#xD55C; &#xC804;&#xD1B5;&#xC801;&#xC778; &#xAD00;&#xACC4;&#xD615; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xAD00;&#xB9AC; &#xC2DC;&#xC2A4;&#xD15C;&#xACFC;&#xB294; &#xB2E4;&#xB978; &#xBE44;&#xAD00;&#xACC4;&#xD615;(non-relational) DBMS&#xC774;&#xB2E4;. &#xC774;&#xB294; &#xC815;&#xADDC;&#xD654;&#xB97C; &#xC804;&#xC81C;&#xB85C; &#xD558;&#xB294; &#xAC83;&#xC774; &#xC544;&#xB2CC; &#xB2E8;&#xC21C; &#xAC80;&#xC0C9; &#xBC0F; &#xCD94;&#xAC00; &#xC791;&#xC5C5;&#xC744; &#xC704;&#xD55C; &#xAC83;&#xC73C;&#xB85C; &#xC131;&#xB2A5; &#xC774;&#xC775;&#xC744; &#xB0B4;&#xB294; &#xAC83;&#xC774; &#xC8FC; &#xBAA9;&#xC801;&#xC774;&#xB2E4;.  </li>
+<li>NoSQL은 Not only SQL의 약자로, 비정형 데이터의 저장을 위해 유연한 데이터 모델을 지원한다. 또한 전통적인 관계형 데이터베이스 관리 시스템과는 다른 비관계형(non-relational) DBMS이다. 이는 정규화를 전제로 하는 것이 아닌 단순 검색 및 추가 작업을 위한 것으로 성능 이익을 내는 것이 주 목적이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xB85C;&#xADF8;(log)&#xB97C; &#xD544;&#xC694;&#xB85C; &#xD558;&#xB294; &#xD68C;&#xBCF5; &#xAE30;&#xBC95;&#xC740; <code>&#xC989;&#xAC01; &#xAC31;&#xC2E0; &#xAE30;&#xBC95;</code>&#xC774;&#xB2E4;.  </li>
+<li>데이터베이스 로그(log)를 필요로 하는 회복 기법은 <code>즉각 갱신 기법</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>Linear Search&#xC758; &#xD3C9;&#xADE0; &#xAC80;&#xC0C9; &#xD69F;&#xC218;&#xB294; <code>(n + 1)/2</code>&#xC774;&#xB2E4;.  </li>
+<li>Linear Search의 평균 검색 횟수는 <code>(n + 1)/2</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xB3D9;&#xC2DC;&#xC131; &#xC81C;&#xC5B4;&#xB97C; &#xC704;&#xD55C; &#xC9C1;&#xB82C;&#xD654; &#xAE30;&#xBC95;&#xC73C;&#xB85C; &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xAC04;&#xC758; &#xC21C;&#xC11C;&#xB97C; &#xBBF8;&#xB9AC; &#xC815;&#xD558;&#xB294; &#xBC29;&#xBC95;&#xC744; <code>&#xD0C0;&#xC784;&#xC2A4;&#xD0EC;&#xD504; &#xAE30;&#xBC95;</code>&#xC774;&#xB77C;&#xACE0; &#xD55C;&#xB2E4;.  </li>
+<li>동시성 제어를 위한 직렬화 기법으로 트랜잭션 간의 순서를 미리 정하는 방법을 <code>타임스탬프 기법</code>이라고 한다.  </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC804;&#xC790;-&#xACC4;&#xC0B0;&#xAE30;-&#xAD6C;&#xC870;"><a href="#&#xC804;&#xC790;-&#xACC4;&#xC0B0;&#xAE30;-&#xAD6C;&#xC870;" class="headerlink" title="&#xC804;&#xC790; &#xACC4;&#xC0B0;&#xAE30; &#xAD6C;&#xC870;"></a>&#xC804;&#xC790; &#xACC4;&#xC0B0;&#xAE30; &#xAD6C;&#xC870;</h3><hr>
+<h3 id="전자-계산기-구조"><a href="#전자-계산기-구조" class="headerlink" title="전자 계산기 구조"></a>전자 계산기 구조</h3><hr>
 <ul>
-<li><code>RISC (Reduced Instruction Set Computer)</code> &#xAD6C;&#xC870;&#xB294; &#xBA85;&#xB839;&#xC5B4;&#xAC00; &#xC9E7;&#xACE0; &#xAC04;&#xB2E8;&#xD558;&#xBA70; &#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778; &#xAD6C;&#xD604;&#xC774; &#xC6A9;&#xC774;&#xD558;&#xC9C0;&#xB9CC;, &#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xAE38;&#xC774;&#xAC00; &#xAE38;&#xACE0; &#xB808;&#xC9C0;&#xC2A4;&#xD130; &#xAC1C;&#xC218;&#xAC00; &#xB9CE;&#xB2E4;.  </li>
+<li><code>RISC (Reduced Instruction Set Computer)</code> 구조는 명령어가 짧고 간단하며 파이프라인 구현이 용이하지만, 프로그램 길이가 길고 레지스터 개수가 많다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><p>&#xBE14;&#xB8E8;&#xB808;&#xC774; &#xB514;&#xC2A4;&#xD06C;&#xB294; &#xC800;&#xC7A5;&#xB41C; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC77D;&#xAE30; &#xC704;&#xD574; <code>&#xCCAD;&#xC0C9; &#xB808;&#xC774;&#xC800; (450nm)</code>&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xACE0;, &#xBE44;&#xB514;&#xC624; &#xD3EC;&#xB9F7;&#xC740; DVD&#xC640; &#xB3D9;&#xC77C;&#xD55C; <code>MPEG-2 &#xAE30;&#xBC18; &#xCF54;&#xB371;</code>&#xC774; &#xC0AC;&#xC6A9;&#xB418;&#xBA70;, &#xB2E8;&#xCE35; &#xAE30;&#xB85D;&#xBA74;&#xC744; &#xAC00;&#xC9C0;&#xB294; <code>12cm &#xC815;&#xB3C4;&#xC5D0; 25GB &#xC815;&#xB3C4;&#xC758; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC800;&#xC7A5;</code>&#xD560; &#xC218; &#xC788;&#xACE0;, <code>BD-ROM(&#xC77D;&#xAE30; &#xC804;&#xC6A9;)</code>, <code>BD-R(&#xAE30;&#xB85D; &#xAC00;&#xB2A5;)</code>, <code>BD-RE(&#xC7AC;&#xAE30;&#xB85D; &#xAC00;&#xB2A5;)</code>&#xAC00; &#xC788;&#xB2E4;.  </p>
+<li><p>블루레이 디스크는 저장된 데이터를 읽기 위해 <code>청색 레이저 (450nm)</code>를 사용하고, 비디오 포맷은 DVD와 동일한 <code>MPEG-2 기반 코덱</code>이 사용되며, 단층 기록면을 가지는 <code>12cm 정도에 25GB 정도의 데이터를 저장</code>할 수 있고, <code>BD-ROM(읽기 전용)</code>, <code>BD-R(기록 가능)</code>, <code>BD-RE(재기록 가능)</code>가 있다.  </p>
 <br>
 </li>
-<li><p>&#xB2E4;&#xC911; &#xCC98;&#xB9AC;&#xAE30; &#xC0C1;&#xD638; &#xC5F0;&#xACB0; &#xBC29;&#xBC95; &#xC911; &#xACF5;&#xC720; &#xBC84;&#xC2A4;(&#xC2DC;&#xBD84;&#xD560; &#xACF5;&#xC720; &#xBC84;&#xC2A4;)&#xB294; &#xAC01;&#xC885; &#xC7A5;&#xCE58;&#xB4E4;(&#xD504;&#xB85C;&#xC138;&#xC11C;, &#xAE30;&#xC5B5;&#xC7A5;&#xCE58;, &#xC8FC;&#xBCC0;&#xC7A5;&#xCE58; &#xB4F1;)&#xC744; &#xB2E8;&#xC77C; &#xBC84;&#xC2A4;&#xB85C; &#xC5F0;&#xACB0;&#xD55C; &#xAD6C;&#xC870;&#xB85C;, &#xD55C; &#xC2DC;&#xC810;&#xC5D0; &#xB2E8;&#xC9C0; &#xD558;&#xB098;&#xC758; &#xC804;&#xC1A1;&#xB9CC;&#xC774; &#xAC00;&#xB2A5;&#xD558;&#xB2E4;.  </p>
-</li>
-</ul>
-<br>
-
-<ul>
-<li><code>CLA</code>(Clear AC)&#xB294; AC&#xB098; E&#xB808;&#xC9C0;&#xC2A4;&#xD130;&#xC5D0; &#xB300;&#xD55C; &#xB9C8;&#xC774;&#xD06C;&#xB85C; &#xC5F0;&#xC0B0;, <code>CIR</code>(Circulate Right)&#xB294; AC&#xB098; E&#xB808;&#xC9C0;&#xC2A4;&#xD130;&#xC5D0; &#xB300;&#xD55C; &#xB9C8;&#xC774;&#xD06C;&#xB85C; &#xC5F0;&#xC0B0;, <code>HLT</code>(Halt)&#xB294; AC&#xB098; E&#xB808;&#xC9C0;&#xC2A4;&#xD130;&#xC5D0; &#xB300;&#xD55C; &#xB9C8;&#xC774;&#xD06C;&#xB85C; &#xC5F0;&#xC0B0; (&#xD50C;&#xB9BD;&#xD50C;&#xB86D;&#xC744; &#xD074;&#xB9AC;&#xC5B4;&#xD558;&#xACE0; &#xC21C;&#xCC28; &#xCE74;&#xC6B4;&#xD130;&#xC758; &#xB3D9;&#xC791;&#xC744; &#xBA48;&#xCD94;&#xB294; &#xBA85;&#xB839;), <code>BUN</code>(Branch Unconditionally)&#xB294; PC&#xC5D0; &#xD2B9;&#xC815; &#xC8FC;&#xC18C;&#xB97C; &#xC804;&#xC1A1;&#xD558;&#xC5EC; &#xC2E4;&#xD589; &#xBA85;&#xB839;&#xC758; &#xC704;&#xCE58;&#xB97C; &#xBCC0;&#xACBD;&#xD558;&#xB294; &#xBB34;&#xC870;&#xAC74; &#xBD84;&#xAE30; &#xBA85;&#xB839;  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xB2E4;&#xC911; &#xD3EC;&#xD2B8; &#xBA54;&#xBAA8;&#xB9AC; &#xC5F0;&#xACB0;&#xBC29;&#xC2DD;&#xC740; &#xD558;&#xB098;&#xC758; &#xD504;&#xB85C;&#xC138;&#xC11C;&#xC5D0; &#xD558;&#xB098;&#xC758; &#xBC84;&#xC2A4;&#xAC00; &#xD560;&#xB2F9;&#xB418;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC11C;&#xB85C; &#xACBD;&#xC7C1;&#xD560; &#xD544;&#xC694;&#xAC00; &#xC5C6;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xC790;&#xAE30; &#xB514;&#xC2A4;&#xD06C;&#xC758; &#xD5E4;&#xB4DC;&#xC5D0; &#xAC00;&#xAE4C;&#xC6B8;&#xC218;&#xB85D; &#xBD88;&#xC21C;&#xBB3C;&#xC774;&#xB098; &#xACB0;&#xD568;&#xC5D0; &#xC758;&#xD55C; &#xC624;&#xB958; &#xBC1C;&#xC0DD;&#xC758; &#xC704;&#xD5D8;&#xC774; &#xB354; &#xD070;&#xB370; &#xC774;&#xB7EC;&#xD55C; &#xBB38;&#xC81C;&#xC810;&#xC744; &#xD574;&#xACB0;&#xD55C; &#xAC83;&#xC740; <code>&#xC708;&#xCCB4;&#xC2A4;&#xD130; &#xB514;&#xC2A4;&#xD06C;</code>&#xC774;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xC778;&#xC2A4;&#xD2B8;&#xB7ED;&#xC158; &#xC131;&#xB2A5; = <code>&#xC218;&#xD589; &#xC2DC;&#xAC04; / (&#xD328;&#xCE58; &#xC2DC;&#xAC04; + &#xC900;&#xBE44; &#xC2DC;&#xAC04;)</code>  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xB514;&#xBA40;&#xD2F0;&#xD50C;&#xB809;&#xC11C;(Demultiplexer)&#xB294; 1&#xAC1C;&#xC758; input line&#xACFC; n&#xAC1C;&#xC758; selection line&#xC744; &#xAC16;&#xB294;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xBA85;&#xB839;&#xC5B4; &#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xC774; &#xC815;&#xC0C1;&#xC801;&#xC778; &#xB3D9;&#xC791;&#xC5D0;&#xC11C; &#xBC97;&#xC5B4;&#xB098;&#xAC8C; &#xD558;&#xB294; &#xC6D0;&#xC778;&#xC5D0;&#xB294; <code>&#xC790;&#xC6D0; &#xCDA9;&#xB3CC;</code>(Resource Conflict), <code>&#xB370;&#xC774;&#xD130; &#xC758;&#xC874;&#xC131;</code>(Data Dependency), <code>&#xBD84;&#xAE30; &#xACE4;&#xB780;</code>(Branch Difficulty)&#xC774; &#xC788;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xC21C;&#xC11C; &#xB17C;&#xB9AC; &#xD68C;&#xB85C;&#xC758; &#xCD9C;&#xB825;&#xC740; &#xC785;&#xB825; &#xC0C1;&#xD0DC;&#xC640; &#xBA54;&#xBAA8;&#xB9AC; &#xC694;&#xC18C;&#xB4E4;&#xC758; &#xC0C1;&#xD0DC;&#xC5D0; &#xB530;&#xB77C; &#xAC12;&#xC774; &#xACB0;&#xC815;&#xB418;&#xBBC0;&#xB85C; &#xC5B8;&#xC81C;&#xB098; &#xC77C;&#xC815;&#xD55C; &#xAC12;&#xC744; &#xAC16;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>DMA &#xC7A5;&#xCE58;&#xC5D0; &#xB0B4;&#xC7A5;&#xB41C; &#xB808;&#xC9C0;&#xC2A4;&#xD130;&#xC5D0;&#xB294; Data Register, Address Register, Data Counter Register, Control Register&#xAC00; &#xC788;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xB2E4;&#xB978; &#xCEF4;&#xD4E8;&#xD130;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC5B4;&#xC148;&#xBE14;&#xB9AC; &#xC5B8;&#xC5B4;&#xC758; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC744; &#xC774;&#xC2DD;(porting) &#xD558;&#xACE0;&#xC790; &#xD558;&#xB294; &#xB9C8;&#xC774;&#xD06C;&#xB85C;&#xD504;&#xB85C;&#xC138;&#xC11C;&#xC758; &#xAE30;&#xACC4;&#xC5B4;&#xB85C; &#xBC88;&#xC5ED;&#xD558;&#xB294; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC740; <code>&#xD06C;&#xB85C;&#xC2A4; &#xC5B4;&#xC148;&#xBE14;&#xB7EC;</code>&#xC774;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>RAID-4&#xC758; <code>&#xD328;&#xB9AC;&#xD2F0; &#xB514;&#xC2A4;&#xD06C;&#xC758; &#xC561;&#xC138;&#xC2A4; &#xC9D1;&#xC911;&#xC73C;&#xB85C; &#xC778;&#xD574; &#xBCD1;&#xBAA9;&#xD604;&#xC0C1;&#xC774; &#xBC1C;&#xC0DD;&#xD558;&#xB294; &#xBB38;&#xC81C;&#xC810;&#xC744; &#xD574;&#xACB0;</code>&#xD558;&#xAE30; &#xC704;&#xD574; RAID-5&#xB97C; &#xAC1C;&#xBC1C;&#xD558;&#xC600;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xC778;&#xD130;&#xB7FD;&#xD2B8; &#xB3D9;&#xC791; &#xC21C;&#xC11C;: &#xC778;&#xD130;&#xB7FD;&#xD2B8; &#xC694;&#xCCAD; - &#xD604; &#xC0C1;&#xD0DC; &#xBCF4;&#xC874; - &#xC778;&#xD130;&#xB7FD;&#xD2B8; &#xD310;&#xBCC4; (&#xC778;&#xC9C0; &#xC2E0;&#xD638; &#xBC1C;&#xC0DD;) - &#xC778;&#xD130;&#xB7FD;&#xD2B8; &#xCDE8;&#xAE09; - &#xC778;&#xD130;&#xB7FD;&#xD2B8; &#xBCF5;&#xADC0;  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xB514;&#xC9C0;&#xD138; IC&#xC758; &#xD2B9;&#xC131;&#xC744; &#xB098;&#xD0C0;&#xB0B4;&#xB294; &#xC911;&#xC694;&#xD55C; &#xBE44;&#xAD50; &#xD3C9;&#xAC00; &#xC694;&#xC18C;&#xC5D0; &#xACF5;&#xAE09; &#xC804;&#xC6D0; &#xC804;&#xC555;&#xC740; &#xD3EC;&#xD568;&#xB418;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;. <ul>
-<li>&#xD3EC;&#xD568; &#xB0B4;&#xC6A9;: &#xC804;&#xD30C; &#xC9C0;&#xC5F0;&#xC2DC;&#xAC04;, &#xC804;&#xB825; &#xC18C;&#xBAA8;, &#xD32C; &#xC544;&#xC6C3;(fan-out) &#xB4F1;) </li>
-</ul>
+<li><p>다중 처리기 상호 연결 방법 중 공유 버스(시분할 공유 버스)는 각종 장치들(프로세서, 기억장치, 주변장치 등)을 단일 버스로 연결한 구조로, 한 시점에 단지 하나의 전송만이 가능하다.  </p>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>IEEE 754&#xC758; &#xBD80;&#xB3D9;&#xC18C;&#xC218;&#xC810; &#xD45C;&#xD604; &#xBC29;&#xC2DD;&#xC5D0;&#xC11C; &#xB2E8;&#xC77C;-&#xC815;&#xBC00;&#xB3C4; &#xD615;&#xC2DD;&#xC5D0; &#xAD00;&#xD55C; &#xC124;&#xBA85;&#xC73C;&#xB85C;, <code>&#xB2E8;&#xC77C;-&#xC815;&#xBC00;&#xB3C4;</code>&#xB294; &#xC9C0;&#xC218; 8&#xBE44;&#xD2B8;, &#xBC14;&#xC774;&#xC5B4;&#xC2A4; 127, &#xAC00;&#xC218; 23&#xBE44;&#xD2B8;, &#xD45C;&#xD604; &#xC601;&#xC5ED; 10^(-38)<del>10^38&#xC774;&#xACE0;, <code>&#xBCF5;&#xC218;-&#xC815;&#xBC00;&#xB3C4; &#xD615;&#xC2DD;</code>&#xC740; &#xC9C0;&#xC218; 11&#xBE44;&#xD2B8;, &#xBC14;&#xC774;&#xC5B4;&#xC2A4; 1023, &#xAC00;&#xC218; 52&#xBE44;&#xD2B8;, &#xD45C;&#xD604; &#xC601;&#xC5ED;: 10^(-308)</del>10^308&#xC774;&#xB2E4;.  </li>
+<li><code>CLA</code>(Clear AC)는 AC나 E레지스터에 대한 마이크로 연산, <code>CIR</code>(Circulate Right)는 AC나 E레지스터에 대한 마이크로 연산, <code>HLT</code>(Halt)는 AC나 E레지스터에 대한 마이크로 연산 (플립플롭을 클리어하고 순차 카운터의 동작을 멈추는 명령), <code>BUN</code>(Branch Unconditionally)는 PC에 특정 주소를 전송하여 실행 명령의 위치를 변경하는 무조건 분기 명령  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBC84;&#xC2A4; &#xC0AC;&#xC6A9; &#xC6B0;&#xC120;&#xC21C;&#xC704;&#xB97C; &#xACC4;&#xC18D; &#xBCC0;&#xACBD;&#xC2DC;&#xD0A4;&#xB294; &#xAC00;&#xBCC0; &#xC6B0;&#xC120;&#xC21C;&#xC704; &#xBC29;&#xC2DD;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC5D0;&#xB294; <code>&#xD68C;&#xC804; &#xC6B0;&#xC120;&#xC21C;&#xC704;</code>(Rotating Priority), <code>&#xB3D9;&#xB4F1; &#xC6B0;&#xC120;&#xC21C;&#xC704;</code>(Equal Priority), <code>&#xCD5C;&#xC18C;-&#xCD5C;&#xADFC; &#xC0AC;&#xC6A9;</code>(Least-Recently Used), <code>&#xC784;&#xC758; &#xC6B0;&#xC120;&#xC21C;&#xC704;</code>(Random Priority)&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>다중 포트 메모리 연결방식은 하나의 프로세서에 하나의 버스가 할당되기 때문에 서로 경쟁할 필요가 없다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>4&#xB2E8;&#xACC4; &#xBA85;&#xB839;&#xC5B4; &#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xC758; &#xC218;&#xD589; &#xC21C;&#xC11C;&#xB294; IF(Instruction Fetch) - ID(Instruction Decode) - OF(Operand Fetch) - EX(Execution)&#xC774;&#xB2E4;. <ul>
-<li>&#xC608;&#xC2DC;) &#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778; &#xD074;&#xB85D; &#xC8FC;&#xD30C;&#xC218;&#xAC00; 1 MHz&#xC774;&#xBA74;, 1 &#xD074;&#xB85D;&#xC5D0; 1 &#xB9C8;&#xC774;&#xD06C;&#xB85C; &#xCD08;&#xAC00; &#xC18C;&#xC694;&#xB418;&#xACE0;, &#xCC98;&#xC74C; &#xD55C; &#xAC1C;&#xC758; &#xBA85;&#xB839;&#xC5B4;&#xB97C; &#xCC98;&#xB9AC;&#xD558;&#xB294; &#xB370; 1 * 4 + 1 * 9 = 13 &#xB9C8;&#xC774;&#xD06C;&#xB85C; &#xCD08;&#xAC00; &#xC18C;&#xC694;&#xB41C;&#xB2E4;.</li>
+<li>자기 디스크의 헤드에 가까울수록 불순물이나 결함에 의한 오류 발생의 위험이 더 큰데 이러한 문제점을 해결한 것은 <code>윈체스터 디스크</code>이다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>인스트럭션 성능 = <code>수행 시간 / (패치 시간 + 준비 시간)</code>  </li>
+</ul>
+<br>
+
+<ul>
+<li>디멀티플렉서(Demultiplexer)는 1개의 input line과 n개의 selection line을 갖는다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>일반적으로 명령어 파이프라인이 정상적인 동작에서 벗어나게 하는 원인에는 <code>자원 충돌</code>(Resource Conflict), <code>데이터 의존성</code>(Data Dependency), <code>분기 곤란</code>(Branch Difficulty)이 있다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>순서 논리 회로의 출력은 입력 상태와 메모리 요소들의 상태에 따라 값이 결정되므로 언제나 일정한 값을 갖지 않는다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>DMA 장치에 내장된 레지스터에는 Data Register, Address Register, Data Counter Register, Control Register가 있다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>다른 컴퓨터를 이용하여 어셈블리 언어의 프로그램을 이식(porting) 하고자 하는 마이크로프로세서의 기계어로 번역하는 프로그램은 <code>크로스 어셈블러</code>이다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>RAID-4의 <code>패리티 디스크의 액세스 집중으로 인해 병목현상이 발생하는 문제점을 해결</code>하기 위해 RAID-5를 개발하였다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>인터럽트 동작 순서: 인터럽트 요청 - 현 상태 보존 - 인터럽트 판별 (인지 신호 발생) - 인터럽트 취급 - 인터럽트 복귀  </li>
+</ul>
+<br>
+
+<ul>
+<li>디지털 IC의 특성을 나타내는 중요한 비교 평가 요소에 공급 전원 전압은 포함되지 않는다. <ul>
+<li>포함 내용: 전파 지연시간, 전력 소모, 팬 아웃(fan-out) 등) </li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>SSD(Solid State Drive)&#xC758; &#xC885;&#xB958;&#xC5D0;&#xB294; SLC(Single Level Cell), DLC(Double Level Cell), TLC(Triple Level Cell)&#xC774; &#xC788;&#xACE0;, &#xAC01;&#xAC01; 1 &#xC18C;&#xC790;&#xC5D0; 1, 2, 3&#xBE44;&#xD2B8;&#xB97C; &#xC800;&#xC7A5;&#xD558;&#xB294; &#xBC29;&#xC2DD;&#xC774;&#xB2E4;.  </li>
+<li>IEEE 754의 부동소수점 표현 방식에서 단일-정밀도 형식에 관한 설명으로, <code>단일-정밀도</code>는 지수 8비트, 바이어스 127, 가수 23비트, 표현 영역 10^(-38)<del>10^38이고, <code>복수-정밀도 형식</code>은 지수 11비트, 바이어스 1023, 가수 52비트, 표현 영역: 10^(-308)</del>10^308이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC5EC;&#xB7EC; &#xAC1C;&#xC758; LAB(Logic Array Block)&#xC640; &#xC5F0;&#xACB0;&#xC120;&#xC778; PIA(Programmable Interconnection Array)&#xB85C; &#xAD6C;&#xC131;&#xB418;&#xBA70;, &#xBE60;&#xB978; &#xC131;&#xB2A5;&#xC774;&#xB098; &#xC815;&#xD655;&#xD55C; &#xD0C0;&#xC774;&#xBC0D;&#xC758; &#xC608;&#xCE21;&#xC744; &#xD544;&#xC694;&#xB85C; &#xD558;&#xB294; &#xACF3;&#xC5D0; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xAC83;&#xC740; <code>CPLD (Complex Programmable Logic Device)</code>&#xC774;&#xB2E4;.  </li>
+<li>버스 사용 우선순위를 계속 변경시키는 가변 우선순위 방식의 알고리즘에는 <code>회전 우선순위</code>(Rotating Priority), <code>동등 우선순위</code>(Equal Priority), <code>최소-최근 사용</code>(Least-Recently Used), <code>임의 우선순위</code>(Random Priority)가 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>PLA (Programmable Logic Array)</code>: PROM&#xACFC; &#xB2EC;&#xB9AC; AND &#xBC30;&#xC5F4;&#xC740; &#xC785;&#xB825;&#xC5D0; &#xAD00;&#xD55C; &#xC5B4;&#xB5A4; &#xB17C;&#xB9AC;&#xACF1;&#xC744; &#xD45C;&#xD604; &#xAC00;&#xB2A5;&#xD558;&#xACE0;, OR &#xBC30;&#xC5F4;&#xC740; &#xC55E;&#xC5D0;&#xC11C; &#xAD6C;&#xD604;&#xB41C; &#xB17C;&#xB9AC; &#xACF1;&#xB4E4;&#xC758; &#xB17C;&#xB9AC;&#xD569;&#xC744; &#xAD6C;&#xD604;&#xD55C; &#xAD6C;&#xC870; / <code>FPGA (Field Programmable Gate Array)</code>: &#xBCF5;&#xC7A1;&#xD55C; LAB&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xC9C0; &#xC54A;&#xACE0; &#xBE44;&#xAD50;&#xC801; &#xAC04;&#xB2E8;&#xD558;&#xACE0; &#xB3D9;&#xC77C;&#xD55C; PLD&#xAC00; &#xC5EC;&#xB7EC; &#xAC1C; &#xB098;&#xC5F4;&#xB418;&#xB294; &#xAD6C;&#xC870; (&#xAD6C;&#xD604; &#xAC00;&#xB2A5;&#xD55C; &#xAC8C;&#xC774;&#xD2B8;&#xC758; &#xC218;&#xC640; &#xAD6C;&#xC870;&#xC758; &#xBCF5;&#xC7A1;&#xB3C4;&#xAC00; &#xAC00;&#xC7A5; &#xB192;&#xC74C;) / <code>CPLD (Complex Programmable Logic Device)</code>: &#xBE60;&#xB978; &#xC131;&#xB2A5;&#xC774;&#xB098; &#xC815;&#xD655;&#xD55C; &#xD0C0;&#xC774;&#xBC0D;&#xC758; &#xC608;&#xCE21;&#xC774; &#xD544;&#xC694;&#xB85C; &#xD558;&#xB294; &#xACF3;&#xC5D0; &#xC801;&#xD569; / <code>PAL (Programmable Array Logic)</code>: PLA&#xC640; &#xBE44;&#xC2B7;&#xD558;&#xACE0; AND &#xBC30;&#xC5F4;&#xC744; &#xC0AC;&#xC6A9;&#xC790;&#xAC00; &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D;&#xD560; &#xC218; &#xC788;&#xC74C;, &#xC0DD;&#xC0B0; &#xBE44;&#xC6A9;&#xC774; &#xC801;&#xAC8C; &#xB4E4;&#xACE0; &#xC18D;&#xB3C4;&#xAC00; &#xBE60;&#xB974;&#xB2E4;.  </li>
-</ul>
-<br>
-
-<ul>
-<li>&#xD329;(Pack) &#xD615;&#xC2DD;&#xC5D0;&#xC11C;&#xB294; 1&#xBC14;&#xC774;&#xD2B8;&#xC5D0; 10&#xC9C4;&#xC218; &#xB450; &#xC790;&#xB9AC;&#xB97C; &#xD45C;&#xD604;&#xD558;&#xACE0;, &#xCD5C;&#xD558;&#xC704; &#xBC14;&#xC774;&#xD2B8;&#xC758; &#xD558;&#xC704; 4&#xBE44;&#xD2B8;&#xC5D0; &#xBD80;&#xD638;&#xB97C; &#xD45C;&#xC2DC;&#xD55C;&#xB2E4;. <ul>
-<li>&#xC591;&#xC218; = 1100 = C / &#xC74C;&#xC218; = 1101 = D  </li>
+<li>4단계 명령어 파이프라인의 수행 순서는 IF(Instruction Fetch) - ID(Instruction Decode) - OF(Operand Fetch) - EX(Execution)이다. <ul>
+<li>예시) 파이프라인 클록 주파수가 1 MHz이면, 1 클록에 1 마이크로 초가 소요되고, 처음 한 개의 명령어를 처리하는 데 1 * 4 + 1 * 9 = 13 마이크로 초가 소요된다.</li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC9C0;&#xC218;&#xB294; &#xBD80;&#xD638;&#xC5D0; &#xAD00;&#xACC4;&#xC5C6;&#xC774; bias &#xAC12;&#xC5D0; &#xB354;&#xD55C;&#xB2E4;.  </li>
+<li>SSD(Solid State Drive)의 종류에는 SLC(Single Level Cell), DLC(Double Level Cell), TLC(Triple Level Cell)이 있고, 각각 1 소자에 1, 2, 3비트를 저장하는 방식이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBD80;&#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xACFC; &#xB9E4;&#xD06C;&#xB85C;&#xC758; &#xACF5;&#xD1B5;&#xC810;&#xC740; <code>&#xC5EC;&#xB7EC; &#xBC88; &#xC911;&#xBCF5;&#xB418;&#xB294; &#xBD80;&#xBD84;&#xC744; &#xBCC4;&#xB3C4;&#xB85C; &#xC791;&#xC131;&#xD558;&#xC5EC; &#xC0AC;&#xC6A9;</code>&#xD55C;&#xB2E4;&#xB294; &#xAC83;&#xC774;&#xB2E4;.  </li>
+<li>여러 개의 LAB(Logic Array Block)와 연결선인 PIA(Programmable Interconnection Array)로 구성되며, 빠른 성능이나 정확한 타이밍의 예측을 필요로 하는 곳에 사용되는 것은 <code>CPLD (Complex Programmable Logic Device)</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>SDRAM&#xC740; &#xC5EC;&#xB7EC; &#xAC1C;&#xC758; &#xB0B4;&#xBD80; &#xBC45;&#xD06C;&#xB4E4;(Banks)&#xC5D0;&#xC11C; &#xB3D9;&#xC2DC; &#xC561;&#xC138;&#xC2A4;&#xAC00; &#xC9C4;&#xD589;&#xB418;&#xACE0;, &#xBC84;&#xC2A4; &#xD074;&#xB7ED;&#xC5D0; &#xB3D9;&#xAE30;&#xD654;&#xB418;&#xC5B4; &#xC815;&#xBCF4;&#xAC00; &#xC804;&#xC1A1;&#xB41C;&#xB2E4;. &#xB610;&#xD55C;, &#xC5EC;&#xB7EC; &#xAC1C;&#xC758; &#xB370;&#xC774;&#xD130;&#xB4E4;&#xC744; &#xC5F0;&#xC18D;&#xC73C;&#xB85C; &#xC804;&#xC1A1;&#xD558;&#xB294; &#xBC84;&#xC2A4;&#xD2B8; &#xBAA8;&#xB4DC;&#xB97C; &#xC9C0;&#xC6D0;&#xD55C;&#xB2E4;.  </li>
+<li><code>PLA (Programmable Logic Array)</code>: PROM과 달리 AND 배열은 입력에 관한 어떤 논리곱을 표현 가능하고, OR 배열은 앞에서 구현된 논리 곱들의 논리합을 구현한 구조 / <code>FPGA (Field Programmable Gate Array)</code>: 복잡한 LAB를 사용하지 않고 비교적 간단하고 동일한 PLD가 여러 개 나열되는 구조 (구현 가능한 게이트의 수와 구조의 복잡도가 가장 높음) / <code>CPLD (Complex Programmable Logic Device)</code>: 빠른 성능이나 정확한 타이밍의 예측이 필요로 하는 곳에 적합 / <code>PAL (Programmable Array Logic)</code>: PLA와 비슷하고 AND 배열을 사용자가 프로그래밍할 수 있음, 생산 비용이 적게 들고 속도가 빠르다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>&#xC138;&#xADF8;&#xBA3C;&#xD2B8; &#xB808;&#xC9C0;&#xC2A4;&#xD130;</code>&#xB294; &#xC77C;&#xBC18; &#xC751;&#xC6A9;&#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC774; &#xC9C1;&#xC811; &#xC811;&#xADFC;&#xD560; &#xC218; &#xC5C6;&#xB294; &#xB808;&#xC9C0;&#xC2A4;&#xD130;&#xC774;&#xB2E4;.  </li>
+<li>팩(Pack) 형식에서는 1바이트에 10진수 두 자리를 표현하고, 최하위 바이트의 하위 4비트에 부호를 표시한다. <ul>
+<li>양수 = 1100 = C / 음수 = 1101 = D  </li>
+</ul>
+</li>
 </ul>
 <br>
 
 <ul>
-<li>N&#xAC00;&#xC9C0;&#xC758; &#xC815;&#xBCF4;&#xB97C; 2&#xC9C4;&#xC218; &#xCF54;&#xB4DC;&#xB85C; &#xBD80;&#xD638;&#xD654;&#xD558;&#xB294;&#xB370; &#xD544;&#xC694;&#xD55C; &#xBE44;&#xD2B8; &#xC218;&#xB294; <code>[log2N]</code> &#xC774;&#xB2E4;. (00, 01, 10, 11)  </li>
+<li>지수는 부호에 관계없이 bias 값에 더한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>Carry Lookahead Adder (CLA)</code>: &#xBCD1;&#xB82C; &#xAC00;&#xC0B0;&#xAE30;&#xB97C; &#xAD6C;&#xC131;&#xD558;&#xB294; &#xAC01;&#xAC01;&#xC758; &#xC804;&#xAC00;&#xC0B0;&#xAE30; &#xCD9C;&#xB825; &#xCE90;&#xB9AC;&#xB97C; <code>&#xBBF8;&#xB9AC; &#xC608;&#xCE21; &#xBC0F; &#xCC98;&#xB9AC;</code>&#xD558;&#xC5EC; &#xB9AC;&#xD50C; &#xCE90;&#xB9AC; &#xC9C0;&#xC5F0;&#xC744; &#xC81C;&#xAC70;&#xD55C; &#xAC00;&#xC0B0;&#xAE30;&#xC774;&#xB2E4;.  </li>
+<li>부프로그램과 매크로의 공통점은 <code>여러 번 중복되는 부분을 별도로 작성하여 사용</code>한다는 것이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC644;&#xC804; &#xADF8;&#xB798;&#xD504;&#xC758; &#xCD5C;&#xB300; &#xAC04;&#xC120;&#xC758; &#xC218; &#xACC4;&#xC0B0;&#xBC95;&#xC740; (m: &#xAC04;&#xC120;&#xC758; &#xAC1C;&#xC218;, n: &#xB178;&#xB4DC;&#xC758; &#xAC1C;&#xC218;(&#xC815;&#xC810;&#xC758; &#xAC1C;&#xC218;)) &gt; <code>&#xBB34;&#xBC29;&#xD5A5; &#xADF8;&#xB798;&#xD504;: m = n(n-1)/2, &#xBC29;&#xD5A5; &#xADF8;&#xB798;&#xD504;: m = n(n-1)</code>&#xC774;&#xB2E4;.  </li>
+<li>SDRAM은 여러 개의 내부 뱅크들(Banks)에서 동시 액세스가 진행되고, 버스 클럭에 동기화되어 정보가 전송된다. 또한, 여러 개의 데이터들을 연속으로 전송하는 버스트 모드를 지원한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBCD1;&#xB82C; &#xCEF4;&#xD4E8;&#xD130;&#xC5D0;&#xC11C; &#xCC98;&#xB9AC; &#xC694;&#xC18C;&#xC758; &#xC131;&#xB2A5;&#xC744; &#xCE21;&#xC815;&#xD558;&#xB294; &#xB370; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xB2E8;&#xC704;&#xB294; <code>MIPS</code>(Million Instructions per Second)&#xC774;&#xB2E4;.  </li>
+<li><code>세그먼트 레지스터</code>는 일반 응용프로그램이 직접 접근할 수 없는 레지스터이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>ASCII &#xCF54;&#xB4DC;(7&#xBE44;&#xD2B8;)&#xC758; &#xBE44;&#xD2B8; &#xAD6C;&#xC131;&#xC740; &#xC874;(zone) &#xBE44;&#xD2B8;&#xC640; &#xC218;(digit) &#xBE44;&#xD2B8;&#xB85C; &#xAD6C;&#xBD84;&#xB41C;&#xB2E4;. &#xC774;&#xB54C;, &#xC874; &#xBE44;&#xD2B8;&#xB294; <code>3&#xBE44;&#xD2B8;</code>&#xC774;&#xB2E4;.  </li>
+<li>N가지의 정보를 2진수 코드로 부호화하는데 필요한 비트 수는 <code>[log2N]</code> 이다. (00, 01, 10, 11)  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD558;&#xB098; &#xC774;&#xC0C1;&#xC758; &#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xB610;&#xB294; &#xC5F0;&#xC18D;&#xB418;&#xC5B4; &#xC788;&#xC9C0; &#xC54A;&#xC740; &#xC800;&#xC7A5; &#xACF5;&#xAC04;&#xC73C;&#xB85C;&#xBD80;&#xD130; &#xB370;&#xC774;&#xD130;&#xB97C; &#xBAA8;&#xC740; &#xB2E4;&#xC74C; &#xB370;&#xC774;&#xD130;&#xB4E4;&#xC744; &#xBA54;&#xC2DC;&#xC9C0; &#xBC84;&#xD37C;&#xC5D0; &#xB123;&#xACE0; &#xD2B9;&#xC815; &#xC218;&#xC2E0;&#xAE30;&#xB098; &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4;&#xC5D0; &#xB9DE;&#xB3C4;&#xB85D; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC870;&#xC9C1;&#xD654;&#xD558;&#xAC70;&#xB098; &#xBBF8;&#xB9AC; &#xC815;&#xD574;&#xC9C4; &#xB2E4;&#xB978; &#xD615;&#xC2DD;&#xC73C;&#xB85C; &#xBCC0;&#xD658;&#xD558;&#xB294; &#xACFC;&#xC815;&#xC744; <code>Marshalling</code>&#xC774;&#xB77C;&#xACE0; &#xD55C;&#xB2E4;.  </li>
+<li><code>Carry Lookahead Adder (CLA)</code>: 병렬 가산기를 구성하는 각각의 전가산기 출력 캐리를 <code>미리 예측 및 처리</code>하여 리플 캐리 지연을 제거한 가산기이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC774; &#xAC00;&#xB2A5;&#xD55C; &#xB17C;&#xB9AC; &#xC18C;&#xC790;&#xB85C;, n&#xAC1C;&#xC758; &#xC785;&#xB825;&#xC5D0; &#xB300;&#xD558;&#xC5EC; 2n&#xAC1C; &#xC774;&#xD558;&#xC758; &#xCD9C;&#xB825;&#xC744; &#xB9CC;&#xB4E4; &#xC218; &#xC788;&#xB294; &#xB17C;&#xB9AC; &#xD68C;&#xB85C;&#xB294; <code>PLA</code>&#xC774;&#xB2E4;.  </li>
+<li>완전 그래프의 최대 간선의 수 계산법은 (m: 간선의 개수, n: 노드의 개수(정점의 개수)) &gt; <code>무방향 그래프: m = n(n-1)/2, 방향 그래프: m = n(n-1)</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD558;&#xB4DC; &#xB514;&#xC2A4;&#xD06C; &#xB4DC;&#xB77C;&#xC774;&#xBE0C;(HDD)&#xC640; &#xCEF4;&#xD4E8;&#xD130; &#xBA54;&#xC778;&#xBCF4;&#xB4DC; &#xAC04;&#xC758; &#xC5F0;&#xACB0;&#xC5D0; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xBC29;&#xC2DD;&#xC5D0;&#xB294; <code>SATA</code>, <code>EIDE</code>, <code>SCSI</code>&#xAC00; &#xC788;&#xB2E4;. DDR1-5 &#xB4F1;&#xC740; &#xC8FC; &#xAE30;&#xC5B5;&#xC7A5;&#xCE58; RAM&#xACFC; &#xBA54;&#xC778;&#xBCF4;&#xB4DC; &#xAC04;&#xC758; &#xC5F0;&#xACB0;&#xC5D0; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xBC29;&#xC2DD;&#xC774;&#xB2E4;.  </li>
+<li>병렬 컴퓨터에서 처리 요소의 성능을 측정하는 데 사용되는 단위는 <code>MIPS</code>(Million Instructions per Second)이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xB514;&#xC9C0;&#xD138; IC&#xC758; &#xD2B9;&#xC131;&#xC744; &#xB098;&#xD0C0;&#xB0B4;&#xB294; &#xB0B4;&#xC6A9; &#xC911; &#xC804;&#xB2EC; &#xC9C0;&#xC5F0; &#xC2DC;&#xAC04;&#xC774; &#xAC00;&#xC7A5; &#xC9E7;&#xC740; &#xAC83;&#xBD80;&#xD130; &#xCC28;&#xB840;&#xB300;&#xB85C; &#xB098;&#xC5F4;&#xD558;&#xBA74; ECL - TTL - CMOS - MOS &#xC21C;&#xC774;&#xB2E4;.  </li>
+<li>ASCII 코드(7비트)의 비트 구성은 존(zone) 비트와 수(digit) 비트로 구분된다. 이때, 존 비트는 <code>3비트</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBCD1;&#xB82C; &#xC804;&#xC1A1; &#xBC29;&#xC2DD;&#xC740; &#xC9C1;&#xB82C;&#xBC29;&#xC2DD;&#xBCF4;&#xB2E4; &#xC18D;&#xB3C4;&#xB294; &#xBE60;&#xB974;&#xC9C0;&#xB9CC; &#xACB0;&#xC120; &#xC218;&#xB3C4; &#xADF8;&#xB9CC;&#xD07C; &#xB9CE;&#xB2E4;.  </li>
+<li>하나 이상의 프로그램 또는 연속되어 있지 않은 저장 공간으로부터 데이터를 모은 다음 데이터들을 메시지 버퍼에 넣고 특정 수신기나 프로그래밍 인터페이스에 맞도록 데이터를 조직화하거나 미리 정해진 다른 형식으로 변환하는 과정을 <code>Marshalling</code>이라고 한다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>프로그램이 가능한 논리 소자로, n개의 입력에 대하여 2n개 이하의 출력을 만들 수 있는 논리 회로는 <code>PLA</code>이다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>하드 디스크 드라이브(HDD)와 컴퓨터 메인보드 간의 연결에 사용되는 인터페이스 방식에는 <code>SATA</code>, <code>EIDE</code>, <code>SCSI</code>가 있다. DDR1-5 등은 주 기억장치 RAM과 메인보드 간의 연결에 사용되는 인터페이스 방식이다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>디지털 IC의 특성을 나타내는 내용 중 전달 지연 시간이 가장 짧은 것부터 차례대로 나열하면 ECL - TTL - CMOS - MOS 순이다.  </li>
+</ul>
+<br>
+
+<ul>
+<li>병렬 전송 방식은 직렬방식보다 속도는 빠르지만 결선 수도 그만큼 많다.  </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC6B4;&#xC601;&#xCCB4;&#xC81C;"><a href="#&#xC6B4;&#xC601;&#xCCB4;&#xC81C;" class="headerlink" title="&#xC6B4;&#xC601;&#xCCB4;&#xC81C;"></a>&#xC6B4;&#xC601;&#xCCB4;&#xC81C;</h3><hr>
+<h3 id="운영체제"><a href="#운영체제" class="headerlink" title="운영체제"></a>운영체제</h3><hr>
 <ul>
-<li>&#xC6B4;&#xC601;&#xCCB4;&#xC81C;&#xC758; &#xCEE4;&#xB110;&#xC744; &#xCC3E;&#xC544; &#xBA54;&#xBAA8;&#xB9AC;&#xC5D0; &#xC801;&#xC7AC;&#xD558;&#xB294; &#xACFC;&#xC815;&#xC740; <code>Bootstrapping</code>&#xC774;&#xB2E4;.  </li>
+<li>운영체제의 커널을 찾아 메모리에 적재하는 과정은 <code>Bootstrapping</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>&#xAC04;&#xC811; &#xC778;&#xB371;&#xC2F1;</code>&#xC740; &#xAC01; &#xBE14;&#xB85D;&#xB9C8;&#xB2E4; &#xB2F4;&#xC744; &#xC218; &#xC788;&#xB294; &#xBE14;&#xB85D; &#xC8FC;&#xC18C;&#xC758; &#xAC1C;&#xC218;&#xC758; &#xC81C;&#xACF1; &#xB2E8;&#xC704; &#xB2E8;&#xACC4;&#xC5D0; &#xBE14;&#xB85D; &#xD06C;&#xAE30;&#xB97C; &#xACF1;&#xD55C; &#xAC83;&#xC744; &#xC758;&#xBBF8;&#xD55C;&#xB2E4;.  <ul>
-<li>&#xC608;&#xC2DC;) &#xBE14;&#xB85D;&#xC758; &#xD06C;&#xAE30;&#xAC00; 1KB, &#xCD1D; 256&#xAC1C;&#xC758; &#xBE14;&#xB85D; &#xC8FC;&#xC18C;&#xB97C; &#xB2F4;&#xC744; &#xC218; &#xC788;&#xC744; &#xB54C; &#xD30C;&#xC77C;&#xC758; &#xD06C;&#xAE30;&#xAC00; 1MB&#xC778; &#xACBD;&#xC6B0; 2&#xB2E8;&#xACC4; &#xAC04;&#xC811; &#xC778;&#xB371;&#xC2F1;&#xC774; &#xD544;&#xC694;&#xD558;&#xB2E4;.  </li>
-<li>1&#xB2E8;&#xACC4;: 256 * 1KB = 256KB / 2&#xB2E8;&#xACC4;: 256 * 256 * 1KB = 65,536KB = 64MB </li>
+<li><code>간접 인덱싱</code>은 각 블록마다 담을 수 있는 블록 주소의 개수의 제곱 단위 단계에 블록 크기를 곱한 것을 의미한다.  <ul>
+<li>예시) 블록의 크기가 1KB, 총 256개의 블록 주소를 담을 수 있을 때 파일의 크기가 1MB인 경우 2단계 간접 인덱싱이 필요하다.  </li>
+<li>1단계: 256 * 1KB = 256KB / 2단계: 256 * 256 * 1KB = 65,536KB = 64MB </li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xB9E4;&#xD06C;&#xB85C;&#xC5D0;&#xC11C; &#xC815;&#xC758;&#xB41C; &#xB9E4;&#xD06C;&#xB85C; &#xC774;&#xB984;&#xC744; &#xC8FC; &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC5D0; &#xAE30;&#xC220;&#xD558;&#xB294; &#xAC83;&#xC740; <code>Macro Call (&#xB9E4;&#xD06C;&#xB85C; &#xD638;&#xCD9C;)</code>&#xC774;&#xB2E4;.  </li>
+<li>매크로에서 정의된 매크로 이름을 주 프로그램에 기술하는 것은 <code>Macro Call (매크로 호출)</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>UNIX&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xC790;&#xB294; &#xD558;&#xB098; &#xC774;&#xC0C1;&#xC758; &#xC791;&#xC5C5;&#xC744; &#xBC31;&#xADF8;&#xB77C;&#xC6B4;&#xB4DC;&#xC5D0;&#xC11C; &#xC218;&#xD589;&#xD560; &#xC218; &#xC788;&#xC5B4; &#xC5EC;&#xB7EC; &#xAC1C;&#xC758; &#xC791;&#xC5C5;&#xC744; &#xBCD1;&#xD589; &#xCC98;&#xB9AC;&#xD560; &#xC218; &#xC788;&#xB2E4;.  </li>
+<li>UNIX에서 사용자는 하나 이상의 작업을 백그라운드에서 수행할 수 있어 여러 개의 작업을 병행 처리할 수 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>&#xD398;&#xC774;&#xC9C0;&#xC758; &#xB300;&#xCE58;</code>&#xB294; &#xADF8; &#xD398;&#xC774;&#xC9C0;&#xAC00; &#xAC31;&#xC2E0;&#xB418;&#xC5C8;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBC1C;&#xC0DD;&#xD558;&#xACE0;, &#xD55C; &#xD504;&#xB85C;&#xC138;&#xC2A4; &#xB0B4;&#xC758; &#xBAA8;&#xB4E0; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xC218;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294; &#xC591;&#xC758; &#xD504;&#xB808;&#xC784;&#xC774; &#xADF8; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xC5D0; &#xD560;&#xB2F9;&#xB418;&#xBA74; &#xD398;&#xC774;&#xC9C0; &#xC624;&#xB958;&#xC728;&#xC740; 0&#xC774; &#xB41C;&#xB2E4;. &#xB610;&#xD55C;, &#xC55E;&#xC73C;&#xB85C; &#xC804;&#xD600; &#xCC38;&#xC870;&#xB418;&#xC9C0; &#xC54A;&#xC744; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xB300;&#xCE58;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC774;&#xC0C1;&#xC801;&#xC774;&#xB2E4;.  </li>
+<li><code>페이지의 대치</code>는 그 페이지가 갱신되었기 때문에 발생하고, 한 프로세스 내의 모든 페이지를 수용할 수 있는 양의 프레임이 그 프로세스에 할당되면 페이지 오류율은 0이 된다. 또한, 앞으로 전혀 참조되지 않을 페이지를 대치하는 것이 이상적이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC5EC;&#xB7EC; &#xC0AC;&#xC6A9;&#xC790;&#xB4E4;&#xC774; &#xACF5;&#xC720;&#xD558;&#xACE0;&#xC790; &#xD558;&#xB294; &#xD30C;&#xC77C;&#xB4E4;&#xC744; &#xD558;&#xB098;&#xC758; &#xB514;&#xB809;&#xD130;&#xB9AC; &#xB610;&#xB294; &#xC77C;&#xBD80; &#xC11C;&#xBE0C; &#xD2B8;&#xB9AC;&#xC5D0; &#xC800;&#xC7A5;&#xD574; &#xB193;&#xACE0; &#xC5EC;&#xB7EC; &#xC0AC;&#xC6A9;&#xC790;&#xB4E4;&#xC774; &#xC774;&#xB97C; &#xAC19;&#xC774; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xC9C0;&#xC6D0;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xAC00;&#xC7A5; &#xD6A8;&#xC728;&#xC801;&#xC778; &#xB514;&#xB809;&#xD130;&#xB9AC; &#xAD6C;&#xC870;&#xB294; <code>&#xBE44;&#xC21C;&#xD658; &#xADF8;&#xB798;&#xD504; &#xB514;&#xB809;&#xD130;&#xB9AC; &#xAD6C;&#xC870;</code>&#xC774;&#xB2E4;.  </li>
+<li>여러 사용자들이 공유하고자 하는 파일들을 하나의 디렉터리 또는 일부 서브 트리에 저장해 놓고 여러 사용자들이 이를 같이 사용할 수 있도록 지원하기 위한 가장 효율적인 디렉터리 구조는 <code>비순환 그래프 디렉터리 구조</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xB9CE;&#xC740; &#xC6D0;&#xACA9; &#xC811;&#xADFC;&#xB4E4;&#xC740; &#xCE90;&#xC2F1;&#xC774; &#xC0AC;&#xC6A9;&#xB420; &#xB54C; &#xC9C0;&#xC5ED; &#xCE90;&#xC2DC;&#xC5D0; &#xC758;&#xD574; &#xD6A8;&#xC728;&#xC801;&#xC73C;&#xB85C; &#xCC98;&#xB9AC;&#xB420; &#xC218; &#xC788;&#xACE0;, &#xCE90;&#xC2DC;-&#xC77C;&#xAD00;&#xC131; &#xBB38;&#xC81C;&#xB294; &#xCE90;&#xC2F1;&#xC758; &#xAC00;&#xC7A5; &#xD070; &#xACB0;&#xC810;&#xC774;&#xB2E4;. &#xBAA8;&#xB4E0; &#xC6D0;&#xACA9; &#xC811;&#xADFC;&#xC740; &#xC6D0;&#xACA9;-&#xC11C;&#xBE44;&#xC2A4; &#xBC29;&#xBC95;&#xC774; &#xC0AC;&#xC6A9;&#xB420; &#xB54C; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xB97C; &#xD1B5;&#xD574;&#xC11C;&#xB9CC; &#xCC98;&#xB9AC;&#xB418;&#xACE0;, &#xB3D9;&#xC2DC;&#xC5D0; 2&#xAC1C; &#xC774;&#xC0C1;&#xC758; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xAC00; &#xACF5;&#xC720; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC4F0;&#xAE30;&#xB97C; &#xD588;&#xC744; &#xB54C; &#xC11C;&#xB85C; &#xB2E4;&#xB978; &#xAC12;&#xC744; &#xAC16;&#xAC8C; &#xB420; &#xC218; &#xC788;&#xB294; &#xBB38;&#xC81C;&#xC810;&#xC744; &#xCE90;&#xC2DC; &#xC77C;&#xAD00;&#xC131; &#xBB38;&#xC81C;&#xB77C;&#xACE0; &#xD560; &#xC218; &#xC788;&#xB2E4;.  </li>
+<li>많은 원격 접근들은 캐싱이 사용될 때 지역 캐시에 의해 효율적으로 처리될 수 있고, 캐시-일관성 문제는 캐싱의 가장 큰 결점이다. 모든 원격 접근은 원격-서비스 방법이 사용될 때 네트워크를 통해서만 처리되고, 동시에 2개 이상의 프로세스가 공유 데이터를 이용하여 쓰기를 했을 때 서로 다른 값을 갖게 될 수 있는 문제점을 캐시 일관성 문제라고 할 수 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC138;&#xB9C8;&#xD3EC;&#xC5B4;&#xB97C; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; &#xC0C1;&#xD638; &#xBC30;&#xC81C;&#xB97C; &#xAD6C;&#xD604;&#xD560; &#xC218; &#xC788;&#xB294;&#xB370;, &#xC138;&#xB9C8;&#xD3EC;&#xC5B4;&#xB97C; &#xD2B9;&#xC815; &#xC218;&#xB85C; &#xCD08;&#xAE30;&#xD654;&#xD558;&#xC600;&#xB2E4;&#xBA74; &#xADF8; &#xC758;&#xBBF8;&#xB294; &#xC784;&#xACC4; &#xAD6C;&#xC5ED;&#xC5D0; &#xD2B9;&#xC815; &#xC218;&#xC758; &#xD504;&#xB85C;&#xC138;&#xC11C;&#xAC00; &#xB4E4;&#xC5B4;&#xAC08; &#xC218; &#xC788;&#xB2E4;&#xB294; &#xAC83;&#xC744; &#xC758;&#xBBF8;&#xD55C;&#xB2E4;.  </li>
+<li>세마포어를 사용해서 상호 배제를 구현할 수 있는데, 세마포어를 특정 수로 초기화하였다면 그 의미는 임계 구역에 특정 수의 프로세서가 들어갈 수 있다는 것을 의미한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC2A4;&#xCF00;&#xC904;&#xB9C1; &#xAE30;&#xBC95; &#xC911; &#xC801;&#xC751; &#xAE30;&#xBC95;&#xC758; &#xAC1C;&#xB150;&#xC744; &#xC801;&#xC6A9;&#xD558;&#xACE0; &#xC788;&#xB294; &#xAC83;&#xC5D0;&#xB294; <code>MFQ</code>(Multilevel Feedback Queue Scheduling, &#xB2E4;&#xB2E8;&#xACC4; &#xD53C;&#xB4DC;&#xBC31; &#xD050; &#xC2A4;&#xCF00;&#xC904;&#xB9C1;)&#xC774; &#xC788;&#xB2E4;. </li>
+<li>스케줄링 기법 중 적응 기법의 개념을 적용하고 있는 것에는 <code>MFQ</code>(Multilevel Feedback Queue Scheduling, 다단계 피드백 큐 스케줄링)이 있다. </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC554;&#xD638;&#xD654; &#xAE30;&#xBC95; &#xC911; <code>DES</code>&#xB294; &#xB300;&#xCE6D;&#xD615; &#xC554;&#xD638;&#xD654; &#xAE30;&#xBC95;&#xC774;&#xACE0;, &#xB514;&#xC9C0;&#xD138; &#xC11C;&#xBA85;&#xC740; &#xBE44;&#xB300;&#xCE6D;&#xD615; &#xC554;&#xD638; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC744; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.  </li>
+<li>암호화 기법 중 <code>DES</code>는 대칭형 암호화 기법이고, 디지털 서명은 비대칭형 암호 알고리즘을 사용한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC6CC;&#xD0B9; &#xC14B;&#xC740; &#xCC38;&#xC870;&#xB41C; &#xD398;&#xC774;&#xC9C0;&#xC5D0;&#xC11C; &#xACB9;&#xCE58;&#xB294; &#xBD80;&#xBD84;&#xB9CC; &#xC81C;&#xC678;&#xD558;&#xBA74; &#xB41C;&#xB2E4;.<ul>
-<li>&#xC608;&#xC2DC;) {2, 3, 5, 5, 6, 3, 7} &#x2192; {2, 3, 5, 6, 7}</li>
+<li>워킹 셋은 참조된 페이지에서 겹치는 부분만 제외하면 된다.<ul>
+<li>예시) {2, 3, 5, 5, 6, 3, 7} → {2, 3, 5, 6, 7}</li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>UNIX &#xBA85;&#xB839;&#xC5B4; &#xC911; Permission &#xBCC0;&#xACBD;&#xC744; &#xC704;&#xD55C; chmod&#xC758; &#xC2E4;&#xD589; &#xC2DC;, 2&#xC9C4;&#xC218;&#xB85C; 4&#xC790;&#xB9AC;&#xB97C; &#xC0DD;&#xAC01;&#xD558;&#xBA74; &#xB41C;&#xB2E4;. <ul>
-<li>&#xBAA8;&#xB4DC; &#xC21C;&#xC11C; (1: &#x2013;x / 2: -w- / 3: -wx / 4: r&#x2013; / 5: r-x / 6: rw- / 7: rwx), r&#xC740; &#xC77D;&#xAE30; &#xAD8C;&#xD55C;, w&#xB294; &#xC4F0;&#xAE30; &#xAD8C;&#xD55C;, x&#xB294; &#xC2E4;&#xD589; &#xAD8C;&#xD55C;&#xC73C;&#xB85C; &#xAC01;&#xAC01; 4, 2, 1 &#xAC12;&#xC744; &#xAC00;&#xC9C4;&#xB2E4;. rw&#xC778; &#xACBD;&#xC6B0; 4 + 2 = 6, rwx&#xC778; &#xACBD;&#xC6B0;&#xB294; 4 + 2 + 1 = 7&#xC774;&#xB2E4;.  </li>
+<li>UNIX 명령어 중 Permission 변경을 위한 chmod의 실행 시, 2진수로 4자리를 생각하면 된다. <ul>
+<li>모드 순서 (1: –x / 2: -w- / 3: -wx / 4: r– / 5: r-x / 6: rw- / 7: rwx), r은 읽기 권한, w는 쓰기 권한, x는 실행 권한으로 각각 4, 2, 1 값을 가진다. rw인 경우 4 + 2 = 6, rwx인 경우는 4 + 2 + 1 = 7이다.  </li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD504;&#xB85C;&#xC138;&#xC2A4; &#xC0C1;&#xD0DC;&#xC758; &#xC885;&#xB958;&#xC5D0;&#xB294; <code>&#xC2DC;&#xC791;</code>(Start), <code>&#xC900;&#xBE44;</code>(Ready), <code>&#xC2E4;&#xD589;</code>(Running), <code>&#xB300;&#xAE30;</code>(Wait), <code>&#xC885;&#xB8CC;</code>(Exit)&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>프로세스 상태의 종류에는 <code>시작</code>(Start), <code>준비</code>(Ready), <code>실행</code>(Running), <code>대기</code>(Wait), <code>종료</code>(Exit)가 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>Re-engineering&#xC740; &#xAE30;&#xC874;&#xC5D0; &#xC788;&#xB358; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4;&#xB97C; &#xD30C;&#xAE30;&#xD558;&#xC9C0; &#xC54A;&#xACE0; &#xC0C8;&#xB85C;&#xC6B4; &#xAE30;&#xB2A5;&#xC744; &#xCD94;&#xAC00;&#xD558;&#xC5EC; &#xC720;&#xC9C0;&#xBCF4;&#xC218; &#xCE21;&#xBA74;&#xC5D0;&#xC11C; &#xBB38;&#xC81C;&#xB97C; &#xD574;&#xACB0;&#xD558;&#xB294; &#xAC83;&#xC774;&#xACE0;, Re-development&#xB294; &#xC0C8;&#xB85C; &#xB9CC;&#xB4DC;&#xB294; &#xAC83;&#xC774;&#xB2E4;.  </li>
+<li>Re-engineering은 기존에 있던 소프트웨어를 파기하지 않고 새로운 기능을 추가하여 유지보수 측면에서 문제를 해결하는 것이고, Re-development는 새로 만드는 것이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC900;&#xBE44;&#xC0C1;&#xD0DC;&#xC5D0; &#xC788;&#xB294; &#xD504;&#xB85C;&#xC138;&#xC2A4; &#xC911;&#xC5D0;&#xC11C; &#xC2E4;&#xD589;&#xB420; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xB97C; &#xC120;&#xC815;&#xD558;&#xC5EC; CPU&#xC5D0; &#xD560;&#xB2F9;&#xD558;&#xB294; &#xAC83;&#xC740; <code>Process Scheduler</code>&#xC774;&#xB2E4;.  </li>
+<li>준비상태에 있는 프로세스 중에서 실행될 프로세스를 선정하여 CPU에 할당하는 것은 <code>Process Scheduler</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>UNIX &#xC2DC;&#xC2A4;&#xD15C;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xC790;&#xC640; &#xC6B4;&#xC601;&#xCCB4;&#xC81C; &#xC11C;&#xBE44;&#xC2A4;&#xB97C; &#xC5F0;&#xACB0;&#xD574;&#xC8FC;&#xB294; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4;&#xB85C; &#xC0C1;&#xC704; &#xC218;&#xC900;&#xC758; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4;&#xAC00; &#xCEE4;&#xB110;&#xC758; &#xAE30;&#xB2A5;&#xC744; &#xC774;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xC9C0;&#xC6D0;&#xD574;&#xC8FC;&#xB294; &#xAC83;&#xC740; <code>&#xC2DC;&#xC2A4;&#xD15C; &#xD638;&#xCD9C;</code>&#xC774;&#xB2E4;.  </li>
+<li>UNIX 시스템에서 사용자와 운영체제 서비스를 연결해주는 인터페이스로 상위 수준의 소프트웨어가 커널의 기능을 이용할 수 있도록 지원해주는 것은 <code>시스템 호출</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBD84;&#xC0B0;&#xCC98;&#xB9AC; &#xC2DC;&#xC2A4;&#xD15C;&#xC744; &#xD504;&#xB85C;&#xC138;&#xC2A4; &#xBAA8;&#xB378;&#xC5D0; &#xB530;&#xB77C; &#xBD84;&#xB958;&#xD558;&#xC600;&#xC744; &#xB54C; <code>&#xC11C;&#xBC84;/&#xD074;&#xB77C;&#xC774;&#xC5B8;&#xD2B8; &#xBAA8;&#xB378;</code>, <code>&#xD504;&#xB85C;&#xC138;&#xC11C; &#xD480; &#xBAA8;&#xB378;</code>, <code>&#xD63C;&#xD569; &#xBAA8;&#xB378;</code>&#xC774; &#xC788;&#xB2E4;.  </li>
+<li>분산처리 시스템을 프로세스 모델에 따라 분류하였을 때 <code>서버/클라이언트 모델</code>, <code>프로세서 풀 모델</code>, <code>혼합 모델</code>이 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBE44;&#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xC758; &#xCD1D; &#xC218;&#xD589; &#xC2DC;&#xAC04;&#xC740; <code>&#xC2DC;&#xAC04; * &#xC138;&#xADF8;&#xBA3C;&#xD2B8; &#xAC1C;&#xC218; * &#xD0DC;&#xC2A4;&#xD06C; &#xAC1C;&#xC218;</code>&#xC774;&#xACE0;, &#xD30C;&#xC774;&#xD504;&#xB77C;&#xC778;&#xC758; &#xCD1D; &#xC218;&#xD589; &#xC2DC;&#xAC04;&#xC740; <code>&#xC2DC;&#xAC04; * (&#xC138;&#xADF8;&#xBA3C;&#xD2B8; &#xAC1C;&#xC218; + &#xD0DC;&#xC2A4;&#xD06C; &#xAC1C;&#xC218; - 1)</code>&#xC774;&#xB2E4;.  </li>
+<li>비파이프라인의 총 수행 시간은 <code>시간 * 세그먼트 개수 * 태스크 개수</code>이고, 파이프라인의 총 수행 시간은 <code>시간 * (세그먼트 개수 + 태스크 개수 - 1)</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBCF5;&#xC7A1;&#xD55C; &#xC218;&#xD559; &#xACC4;&#xC0B0;&#xC744; &#xCC98;&#xB9AC;&#xD558;&#xB294; &#xAC83;&#xC740; &#xC751;&#xC6A9; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4;&#xC758; &#xC5ED;&#xD560;&#xC774;&#xB2E4;.  </li>
+<li>복잡한 수학 계산을 처리하는 것은 응용 소프트웨어의 역할이다.  </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4;-&#xACF5;&#xD559;"><a href="#&#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4;-&#xACF5;&#xD559;" class="headerlink" title="&#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xACF5;&#xD559;"></a>&#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xACF5;&#xD559;</h3><hr>
+<h3 id="소프트웨어-공학"><a href="#소프트웨어-공학" class="headerlink" title="소프트웨어 공학"></a>소프트웨어 공학</h3><hr>
 <ul>
-<li>&#xC77C;&#xC815; &#xACC4;&#xD68D; &#xAE30;&#xBC95;&#xC5D0;&#xB294; <code>&#xC791;&#xC5C5; &#xBD84;&#xD574; (WBS)</code>, PERT/CPM, &#xAC04;&#xD2B8;&#xCC28;&#xD2B8;&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>일정 계획 기법에는 <code>작업 분해 (WBS)</code>, PERT/CPM, 간트차트가 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>Putnam &#xBAA8;&#xD615;&#xC740; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xAC1C;&#xBC1C; &#xC8FC;&#xAE30;&#xC758; &#xAC04; &#xB2E8;&#xACC4;&#xBCC4;&#xB85C; &#xC694;&#xAD6C;&#xD560; &#xC778;&#xB825;&#xC758; &#xBD84;&#xD3EC;&#xB97C; &#xAC00;&#xC815;&#xD558;&#xB294; &#xBAA8;&#xD615;&#xC73C;&#xB85C;, Putnam &#xBAA8;&#xD615;&#xACFC; Rayleigh Noden &#xACE1;&#xC120;&#xC744; &#xAE30;&#xCD08;&#xB85C; &#xAC1C;&#xBC1C;&#xD55C; <code>&#xC790;&#xB3D9;&#xD654; &#xCD94;&#xC815; &#xB3C4;&#xAD6C;&#xC778; SLIM</code>&#xC774; &#xC788;&#xB2E4;.  </li>
+<li>Putnam 모형은 소프트웨어 개발 주기의 간 단계별로 요구할 인력의 분포를 가정하는 모형으로, Putnam 모형과 Rayleigh Noden 곡선을 기초로 개발한 <code>자동화 추정 도구인 SLIM</code>이 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC11C;&#xBE0C;&#xB137; &#xB9C8;&#xC2A4;&#xD06C;&#xB97C; &#xACC4;&#xC0B0;&#xD560; &#xB54C;&#xB294; <code>&#xB17C;&#xB9AC;&#xACF1;</code>&#xC744; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;. <ul>
-<li>/22&#xB294; &#xC11C;&#xBE0C;&#xB137; &#xB9C8;&#xC2A4;&#xD06C;&#xAC00; 22bit&#xB77C;&#xB294; &#xC758;&#xBBF8;&#xB85C;, IP &#xC8FC;&#xC18C;&#xB294; 8&#xBE44;&#xD2B8; &#xB2E8;&#xC704;&#xB85C; &#xC790;&#xB974;&#xACE0;, &#xC11C;&#xBE0C;&#xB137; &#xB9C8;&#xC2A4;&#xD06C; &#xBE44;&#xD2B8; &#xC218;&#xB294; &#xC55E;&#xC5D0;&#xC11C;&#xBD80;&#xD130; 1&#xB85C; &#xCC44;&#xC6CC; &#xB123;&#xC740; &#xC0C1;&#xD0DC;&#xB85C; AND &#xACC4;&#xC0B0;&#xC744; &#xD574;&#xC900;&#xB2E4;.  </li>
+<li>서브넷 마스크를 계산할 때는 <code>논리곱</code>을 사용한다. <ul>
+<li>/22는 서브넷 마스크가 22bit라는 의미로, IP 주소는 8비트 단위로 자르고, 서브넷 마스크 비트 수는 앞에서부터 1로 채워 넣은 상태로 AND 계산을 해준다.  </li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC790;&#xB8CC; &#xD750;&#xB984;&#xB3C4;&#xC758; &#xC791;&#xC131; &#xC9C0;&#xCE68;&#xC73C;&#xB85C;, &#xC790;&#xB8CC;&#xB294; &#xCC98;&#xB9AC;&#xB97C; &#xAC70;&#xCCD0; &#xBCC0;&#xD658;&#xB420; &#xB54C;&#xB9C8;&#xB2E4; &#xC0C8;&#xB85C;&#xC6B4; &#xBA85;&#xCE6D;&#xC744; &#xBD80;&#xC5EC;&#xD574;&#xC57C; &#xD558;&#xACE0;, &#xC790;&#xB8CC; &#xD750;&#xB984;&#xB3C4;&#xC758; &#xCD5C;&#xD558;&#xC704; &#xCC98;&#xB9AC;(Process)&#xB294; &#xC18C;&#xB2E8;&#xC704; &#xBA85;&#xC138;&#xC11C;&#xB97C; &#xAC16;&#xB294;&#xB2E4;. &#xB610;, <code>&#xBC30;&#xACBD;&#xB3C4;&#xC5D0;&#xB294; &#xBA85;&#xCE6D;&#xACFC; &#xBC88;&#xD638;&#xB97C; &#xBD80;&#xC5EC;&#xD558;&#xC9C0; &#xC54A;&#xC73C;&#xBA70;</code>, &#xC5B4;&#xB5A4; &#xCC98;&#xB9AC;&#xAC00; &#xCD9C;&#xB825; &#xC790;&#xB8CC;&#xB97C; &#xC0B0;&#xCD9C;&#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C;&#xB294; &#xD544;&#xC694;&#xD55C; &#xC790;&#xB8CC;&#xAC00; &#xBC18;&#xB4DC;&#xC2DC; &#xC785;&#xB825;&#xB418;&#xC5B4;&#xC57C; &#xD55C;&#xB2E4;.  </li>
+<li>자료 흐름도의 작성 지침으로, 자료는 처리를 거쳐 변환될 때마다 새로운 명칭을 부여해야 하고, 자료 흐름도의 최하위 처리(Process)는 소단위 명세서를 갖는다. 또, <code>배경도에는 명칭과 번호를 부여하지 않으며</code>, 어떤 처리가 출력 자료를 산출하기 위해서는 필요한 자료가 반드시 입력되어야 한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC784;&#xACC4; &#xACBD;&#xB85C;&#xC758; &#xC18C;&#xC694;&#xAE30;&#xC77C;&#xC740; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xB0B4;&#xC5D0;&#xC11C; <code>&#xAC00;&#xC7A5; &#xAE34; &#xACBD;&#xB85C;</code>&#xC774;&#xB2E4;.  </li>
+<li>임계 경로의 소요기일은 네트워크 내에서 <code>가장 긴 경로</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>&#xC624;&#xD37C;&#xB808;&#xC774;&#xC158;</code>&#xC740; &#xD074;&#xB798;&#xC2A4; &#xB0B4;&#xC758; &#xAC1D;&#xCCB4;&#xC5D0; &#xC758;&#xD55C; &#xD568;&#xC218;&#xC774;&#xAC70;&#xB098; &#xBCC0;&#xD615;&#xC774;&#xB2E4;. &#xD55C; &#xD074;&#xB798;&#xC2A4; &#xB0B4;&#xC758; &#xBAA8;&#xB4E0; &#xAC1D;&#xCCB4;&#xB4E4;&#xC740; &#xAC19;&#xC740; &#xC624;&#xD37C;&#xB808;&#xC774;&#xC158;&#xC744; &#xACF5;&#xC720;&#xD558;&#xBA70; &#xAC1C;&#xAC1C; &#xC624;&#xD37C;&#xB808;&#xC774;&#xC158;&#xC740; &#xBB35;&#xC2DC;&#xC801; &#xC544;&#xADDC;&#xBA3C;&#xD2B8;&#xB85C;&#xC368; &#xBAA9;&#xC801; &#xAC1D;&#xCCB4;&#xB97C; &#xAC00;&#xC9C0;&#xBA70; &#xD589;&#xC704;&#xB97C; &#xC11C;&#xC220;&#xD55C;&#xB2E4;. &#xBA54;&#xC18C;&#xB4DC;&#xB294; &#xD55C; &#xD074;&#xB798;&#xC2A4;&#xC5D0; &#xB300;&#xD55C; &#xC624;&#xD37C;&#xB808;&#xC774;&#xC158;&#xC758; &#xAD6C;&#xD604;&#xC774;&#xBA70; &#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xAC1D;&#xCCB4;&#xC9C0;&#xD5A5; &#xC124;&#xACC4;&#xC5D0;&#xC11C;&#xB294; &#xB3D9;&#xC77C;&#xC2DC;&#xD558;&#xBA70; &#xD568;&#xC218; &#xC9C0;&#xD5A5; &#xC124;&#xACC4;&#xC5D0;&#xC11C;&#xB294; &#xD568;&#xC218;&#xB85C; &#xB300;&#xC751;&#xD55C;&#xB2E4;.  </li>
+<li><code>오퍼레이션</code>은 클래스 내의 객체에 의한 함수이거나 변형이다. 한 클래스 내의 모든 객체들은 같은 오퍼레이션을 공유하며 개개 오퍼레이션은 묵시적 아규먼트로써 목적 객체를 가지며 행위를 서술한다. 메소드는 한 클래스에 대한 오퍼레이션의 구현이며 일반적으로 객체지향 설계에서는 동일시하며 함수 지향 설계에서는 함수로 대응한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD504;&#xB85C;&#xC81D;&#xD2B8; &#xACC4;&#xD68D; &#xC218;&#xB9BD; &#xC2DC; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xBC94;&#xC704;(Scope) &#xACB0;&#xC815;&#xC758; &#xC8FC;&#xC694; &#xC694;&#xC18C;&#xC5D0;&#xB294; <code>&#xAE30;&#xB2A5;</code>, <code>&#xC131;&#xB2A5;</code>, <code>&#xC81C;&#xC57D;&#xC870;&#xAC74;</code>, <code>&#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xBC0F; &#xC2E0;&#xB8B0;&#xB3C4;</code> &#xB4F1;&#xC774; &#xC788;&#xB2E4;.  </li>
+<li>프로젝트 계획 수립 시 소프트웨어 범위(Scope) 결정의 주요 요소에는 <code>기능</code>, <code>성능</code>, <code>제약조건</code>, <code>인터페이스 및 신뢰도</code> 등이 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>OMA(Object Management Architecture) &#xB808;&#xD37C;&#xB7F0;&#xC2A4; &#xBAA8;&#xB378;&#xC740; OMG(Object Management Group)&#xC758; &#xD65C;&#xB3D9; &#xBC29;&#xD5A5;&#xACFC; &#xBAA9;&#xC801;&#xC5D0; &#xBD80;&#xD569;&#xD558;&#xB294; &#xBAA8;&#xB378;&#xB85C;, OMA &#xB808;&#xD37C;&#xB7F0;&#xC2A4; &#xBAA8;&#xB378;&#xC758; &#xAD6C;&#xC131;&#xC694;&#xC18C;&#xC5D0;&#xB294; <code>&#xACF5;&#xD1B5; &#xAE30;&#xB2A5;(Common Facilities)</code>, <code>&#xC751;&#xC6A9; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4;(Application Interface)</code>, <code>&#xB3C4;&#xBA54;&#xC778; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4;(Domain Interface)</code>, <code>&#xAC1D;&#xCCB4; &#xC694;&#xAD6C; &#xB9E4;&#xAC1C;&#xC790;(ORB)</code>, <code>&#xAC1D;&#xCCB4; &#xC11C;&#xBE44;&#xC2A4;</code>&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>OMA(Object Management Architecture) 레퍼런스 모델은 OMG(Object Management Group)의 활동 방향과 목적에 부합하는 모델로, OMA 레퍼런스 모델의 구성요소에는 <code>공통 기능(Common Facilities)</code>, <code>응용 인터페이스(Application Interface)</code>, <code>도메인 인터페이스(Domain Interface)</code>, <code>객체 요구 매개자(ORB)</code>, <code>객체 서비스</code>가 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>&#xC808;&#xCC28; &#xC9C0;&#xD5A5;</code>&#xC740; &#xC808;&#xCC28;(&#xB3D9;&#xC0AC;)&#xB97C; &#xC911;&#xC694;&#xC2DC;&#xD558;&#xACE0;, <code>&#xAC1D;&#xCCB4;&#xC9C0;&#xD5A5;</code>&#xC740; &#xAC1D;&#xCCB4;(&#xBA85;&#xC0AC;)&#xB97C; &#xC911;&#xC694;&#xC2DC;&#xD55C;&#xB2E4;. Booch&#xB294; &#xC694;&#xAD6C;&#xC0AC;&#xD56D; &#xBD84;&#xC11D;&#xC744; &#xD558;&#xB294; &#xACFC;&#xC815;&#xC5D0;&#xC11C; &#xBB38;&#xC81C; &#xC124;&#xBA85;&#xC11C;&#xB97C; &#xC77D;&#xACE0; &#xAC1C;&#xBC1C;&#xC2DC; &#xD574;&#xB2F9; &#xBD80;&#xBD84;&#xC5D0; &#xBC11;&#xC904;&#xC744; &#xADF8;&#xC5B4;&#xB77C;&#xB77C;&#xACE0; &#xD588;&#xB2E4;.  </li>
+<li><code>절차 지향</code>은 절차(동사)를 중요시하고, <code>객체지향</code>은 객체(명사)를 중요시한다. Booch는 요구사항 분석을 하는 과정에서 문제 설명서를 읽고 개발시 해당 부분에 밑줄을 그어라라고 했다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xD14C;&#xC2A4;&#xD2B8;&#xC5D0;&#xC11C; &#xC624;&#xB958;&#xC758; 80%&#xB294; &#xC804;&#xCCB4; &#xBAA8;&#xB4C8;&#xC758; 20% &#xB0B4;&#xC5D0;&#xC11C; &#xBC1C;&#xACAC;&#xB41C;&#xB2E4;&#xB294; &#xBC95;&#xCE59;&#xC740; <code>Pareto&#xC758; &#xBC95;&#xCE59;</code>&#xC774;&#xB2E4;.  </li>
+<li>소프트웨어 테스트에서 오류의 80%는 전체 모듈의 20% 내에서 발견된다는 법칙은 <code>Pareto의 법칙</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC138;&#xBD84;&#xD654;&#xB41C; &#xC790;&#xB8CC; &#xD750;&#xB984;&#xB3C4;&#xC5D0;&#xC11C; &#xCD5C;&#xD558;&#xC704; &#xB2E8;&#xACC4; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xC758; &#xCC98;&#xB9AC; &#xC808;&#xCC28;&#xB97C; &#xC124;&#xBA85;&#xD55C; &#xAC83;&#xC740; <code>Mini-spec</code>(&#xC18C;&#xB2E8;&#xC704; &#xBA85;&#xC138;&#xC11C;)&#xC774;&#xB2E4;.  </li>
+<li>세분화된 자료 흐름도에서 최하위 단계 프로세스의 처리 절차를 설명한 것은 <code>Mini-spec</code>(소단위 명세서)이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xAC1D;&#xCCB4; &#xC9C0;&#xD5A5; &#xAE30;&#xBC95;&#xC758; &#xC7A5;&#xC810; &#xC911; &#xD558;&#xB098;&#xB294; &#xBD84;&#xC11D; &#xC124;&#xACC4; &#xBC0F; &#xAD6C;&#xD604; &#xB2E8;&#xACC4;&#xB4E4; &#xC0AC;&#xC774;&#xC5D0; &#xC758;&#xBBF8;&#xC801; &#xAC2D;(Semantic Gap)&#xC774; &#xAC70;&#xC758; &#xC5C6;&#xB2E4;&#xB294; &#xAC83;&#xC774;&#xB2E4;.  </li>
+<li>객체 지향 기법의 장점 중 하나는 분석 설계 및 구현 단계들 사이에 의미적 갭(Semantic Gap)이 거의 없다는 것이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBE14;&#xB799;&#xBC15;&#xC2A4;&#xB294; &#xC678;&#xBD80;&#xC5D0;&#xC11C; &#xB0B4;&#xBD80;&#xAC00; &#xBCF4;&#xC774;&#xC9C0; &#xC54A;&#xB294; &#xCC98;&#xB9AC;&#xACFC;&#xC815;&#xC73C;&#xB85C;, &#xB0B4;&#xBD80; &#xCC98;&#xB9AC; &#xACFC;&#xC815;&#xC744; &#xC870;&#xC0AC;&#xD558;&#xACE0; &#xCF54;&#xB4DC;&#xB97C; &#xC218;&#xC815;&#xD558;&#xB824;&#xBA74; &#xD654;&#xC774;&#xD2B8;&#xBC15;&#xC2A4;&#xAC00; &#xD544;&#xC694;&#xD558;&#xB2E4;.  </li>
+<li>블랙박스는 외부에서 내부가 보이지 않는 처리과정으로, 내부 처리 과정을 조사하고 코드를 수정하려면 화이트박스가 필요하다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>COCOMO &#xBAA8;&#xB378;&#xC5D0; &#xC758;&#xD55C; &#xBE44;&#xC6A9; &#xC0B0;&#xC815; &#xACFC;&#xC815;&#xC5D0;&#xB294; KDSI(Delivered Source Instruction)&#xC744; &#xAE30;&#xC900;&#xC73C;&#xB85C; &#xD558;&#xBA70; &#xC591;&#xC5D0; &#xB530;&#xB77C; Organic, Semi-detached, Embedded&#xB85C; &#xB098;&#xB25C;&#xB2E4;. &#xAC1C;&#xBC1C; &#xB2A5;&#xB825; &#xC2B9;&#xC218;(Development Effort Multifliers)&#xB97C; &#xACB0;&#xC815;&#xD558;&#xAE30;&#xB3C4; &#xD55C;&#xB2E4;.  </li>
+<li>COCOMO 모델에 의한 비용 산정 과정에는 KDSI(Delivered Source Instruction)을 기준으로 하며 양에 따라 Organic, Semi-detached, Embedded로 나뉜다. 개발 능력 승수(Development Effort Multifliers)를 결정하기도 한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC790;&#xB8CC; &#xC800;&#xC7A5;&#xC18C;&#xC5D0; &#xC785;&#xB825; &#xD654;&#xC0B4;&#xD45C;&#xAC00; &#xC788;&#xB2E4;&#xACE0; &#xD574;&#xC11C; &#xBC18;&#xB4DC;&#xC2DC; &#xCD9C;&#xB825; &#xD654;&#xC0B4;&#xD45C;&#xAC00; &#xD45C;&#xC2DC;&#xB418;&#xC5B4;&#xC57C; &#xD558;&#xB294; &#xAC83;&#xC740; &#xC544;&#xB2C8;&#xB2E4;.  </li>
+<li>자료 저장소에 입력 화살표가 있다고 해서 반드시 출력 화살표가 표시되어야 하는 것은 아니다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>CORBA&#xC5D0;&#xC11C; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xC815;&#xC758; &#xC5B8;&#xC5B4;&#xB294; <code>IDL</code>&#xC774;&#xB2E4;. (&#xC5EC;&#xB7EC; &#xC5B8;&#xC5B4; &#xC9C0;&#xC6D0;) / <code>ADL</code>: &#xC544;&#xD0A4;&#xD14D;&#xCC98; &#xAE30;&#xC220; &#xC5B8;&#xC5B4;, &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xD488;&#xC9C8;&#xACFC; &#xC815;&#xD655;&#xC131;&#xC744; &#xC99D;&#xC9C4;&#xD558;&#xAE30; &#xC704;&#xD574; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xC544;&#xD0A4;&#xD14D;&#xCC98;&#xB97C; &#xBAA8;&#xD615;&#xD654;&#xD558;&#xACE0; &#xBD84;&#xC11D;&#xD558;&#xB294; &#xC218;&#xB2E8; &#xC81C;&#xACF5; / <code>CSL</code>: &#xC81C;&#xC5B4; &#xC2DC;&#xBBAC;&#xB808;&#xC774;&#xC158; &#xC5B8;&#xC5B4; / <code>UML</code>: &#xAC1D;&#xCCB4;&#xC9C0;&#xD5A5; &#xBD84;&#xC11D;&#xACFC; &#xC124;&#xACC4;&#xB97C; &#xC704;&#xD55C; &#xBAA8;&#xB378;&#xB9C1; &#xC5B8;&#xC5B4;&#xC774;&#xB2E4;.  </li>
+<li>CORBA에서 인터페이스 정의 언어는 <code>IDL</code>이다. (여러 언어 지원) / <code>ADL</code>: 아키텍처 기술 언어, 소프트웨어 품질과 정확성을 증진하기 위해 소프트웨어 아키텍처를 모형화하고 분석하는 수단 제공 / <code>CSL</code>: 제어 시뮬레이션 언어 / <code>UML</code>: 객체지향 분석과 설계를 위한 모델링 언어이다.  </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xB370;&#xC774;&#xD130;-&#xD1B5;&#xC2E0;"><a href="#&#xB370;&#xC774;&#xD130;-&#xD1B5;&#xC2E0;" class="headerlink" title="&#xB370;&#xC774;&#xD130; &#xD1B5;&#xC2E0;"></a>&#xB370;&#xC774;&#xD130; &#xD1B5;&#xC2E0;</h3><hr>
+<h3 id="데이터-통신"><a href="#데이터-통신" class="headerlink" title="데이터 통신"></a>데이터 통신</h3><hr>
 <ul>
-<li>&#xD53C;&#xAE30;&#xBC31;&#xD0B9; &#xAE30;&#xBC95;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xB370;&#xC774;&#xD130;&#xC5D0; &#xB300;&#xD55C; &#xC751;&#xB2F5;&#xC744; &#xBCF4;&#xB0BC; &#xB54C; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xD504;&#xB808;&#xC784;&#xC740; <code>I-&#xD504;&#xB808;&#xC784; (&#xC815;&#xBCF4; &#xD504;&#xB808;&#xC784;)</code>&#xC774;&#xB2E4;.  </li>
+<li>피기백킹 기법을 사용하여 데이터에 대한 응답을 보낼 때 사용하는 프레임은 <code>I-프레임 (정보 프레임)</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>ITU-T</code>(International Telecommunications Union Telecommunication)&#xB294; CCiTT&#xB97C; &#xB300;&#xCCB4;&#xD558;&#xAE30; &#xC704;&#xD574; 1993&#xB144; &#xCC3D;&#xC124;&#xB418;&#xC5C8;&#xC73C;&#xBA70;, &#xAD6D;&#xAC00; &#xAC04; &#xD1B5;&#xC2E0;&#xC758; &#xD638;&#xD658;&#xC131;&#xC744; &#xC704;&#xD574; &#xAC01; &#xD1B5;&#xC2E0; &#xBD84;&#xC57C;&#xC758; &#xAE30;&#xC220; &#xBC0F; &#xC6B4;&#xC6A9;&#xC5D0; &#xB300;&#xD55C; &#xD45C;&#xC900;&#xD654;&#xB97C; &#xC8FC;&#xB41C; &#xBAA9;&#xC801;&#xC73C;&#xB85C; &#xD558;&#xACE0; &#xC788;&#xC73C;&#xBA70; PSND, ISDN, PSTN &#xB4F1;&#xC5D0; &#xB300;&#xD55C; &#xD45C;&#xC900;&#xD654;&#xB97C; &#xB2F4;&#xB2F9;&#xD558;&#xACE0; &#xC788;&#xB2E4;.  </li>
+<li><code>ITU-T</code>(International Telecommunications Union Telecommunication)는 CCiTT를 대체하기 위해 1993년 창설되었으며, 국가 간 통신의 호환성을 위해 각 통신 분야의 기술 및 운용에 대한 표준화를 주된 목적으로 하고 있으며 PSND, ISDN, PSTN 등에 대한 표준화를 담당하고 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>&#xD1A0;&#xD070; &#xD328;&#xC2F1; &#xBC29;&#xC2DD;</code>&#xC740; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC8FC;&#xACE0;&#xBC1B;&#xB294; &#xB9E4;&#xAC1C;&#xCCB4;&#xB85C; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC804;&#xC1A1;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xD68C;&#xC120;&#xC758; &#xC0AC;&#xC6A9;&#xAD8C;&#xC744; &#xAC16;&#xB294; &#xAC83;&#xC744; &#xC758;&#xBBF8;&#xD55C;&#xB2E4;. &#xD1A0;&#xD070; &#xD328;&#xC2F1;&#xC740; &#xD1A0;&#xD070;&#xC744; &#xBD84;&#xC2E4;&#xD560; &#xAC00;&#xB2A5;&#xC131;&#xC774; &#xC788;&#xACE0;, &#xB178;&#xB4DC;&#xAC00; &#xC99D;&#xAC00;&#xD558;&#xBA74; &#xC131;&#xB2A5;&#xC774; &#xB098;&#xBE60;&#xC9C4;&#xB2E4;.  </li>
+<li><code>토큰 패싱 방식</code>은 데이터를 주고받는 매개체로 데이터를 전송하기 위한 회선의 사용권을 갖는 것을 의미한다. 토큰 패싱은 토큰을 분실할 가능성이 있고, 노드가 증가하면 성능이 나빠진다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD1B5;&#xC2E0;&#xB9DD;&#xC758; &#xCCB4;&#xACC4;&#xC801;&#xC778; &#xC6B4;&#xC6A9; &#xBC0F; &#xAD00;&#xB9AC;&#xB97C; &#xC704;&#xD55C; <code>TMN (Telecommunication Management Network)</code>&#xC758; &#xAE30;&#xB2A5; &#xC694;&#xC18C;&#xC5D0;&#xB294; <code>BML</code>(&#xC0AC;&#xC5C5;&#xAD00;&#xB9AC; &#xACC4;&#xCE35;), <code>NML</code>(&#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD00;&#xB9AC; &#xACC4;&#xCE35;), <code>SML</code>(&#xC11C;&#xBE44;&#xC2A4; &#xAD00;&#xB9AC; &#xACC4;&#xCE35;), <code>EML</code>(&#xB9DD; &#xC694;&#xC18C; &#xAD00;&#xB9AC; &#xACC4;&#xCE35;), <code>NEL</code>(&#xB9DD; &#xC694;&#xC18C; &#xACC4;&#xCE35;)&#xC774; &#xC788;&#xB2E4;.  </li>
+<li>통신망의 체계적인 운용 및 관리를 위한 <code>TMN (Telecommunication Management Network)</code>의 기능 요소에는 <code>BML</code>(사업관리 계층), <code>NML</code>(네트워크 관리 계층), <code>SML</code>(서비스 관리 계층), <code>EML</code>(망 요소 관리 계층), <code>NEL</code>(망 요소 계층)이 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC774;&#xB3D9;&#xD1B5;&#xC2E0; &#xAC00;&#xC785;&#xC790;&#xAC00; &#xC140; &#xACBD;&#xACC4;&#xB97C; &#xC9C0;&#xB098;&#xBA74;&#xC11C; &#xC2E0;&#xD638;&#xC758; &#xC138;&#xAE30;&#xAC00; &#xC791;&#xC544;&#xC9C0;&#xAC70;&#xB098; &#xAC04;&#xC12D;&#xC774; &#xBC1C;&#xC0DD;&#xD558;&#xC5EC; &#xD1B5;&#xC2E0; &#xD488;&#xC9C8;&#xC774; &#xB5A8;&#xC5B4;&#xC838; &#xD604;&#xC7AC; &#xC0AC;&#xC6A9; &#xC911;&#xC778; &#xCC44;&#xB110;&#xC744; &#xB04A;&#xACE0; &#xB2E4;&#xB978; &#xCC44;&#xB110;&#xB85C; &#xC808;&#xC81C;&#xD558;&#xB294; &#xAC83;&#xC744; <code>Hand off</code>&#xB77C;&#xACE0; &#xD55C;&#xB2E4;.  </li>
+<li>이동통신 가입자가 셀 경계를 지나면서 신호의 세기가 작아지거나 간섭이 발생하여 통신 품질이 떨어져 현재 사용 중인 채널을 끊고 다른 채널로 절제하는 것을 <code>Hand off</code>라고 한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>DTE&#xC5D0;&#xC11C; &#xCD9C;&#xB825;&#xB418;&#xB294; &#xB514;&#xC9C0;&#xD138; &#xC2E0;&#xD638;&#xB97C; &#xB514;&#xC9C0;&#xD138; &#xD68C;&#xC120;&#xB9DD;&#xC5D0; &#xC801;&#xD569;&#xD55C; &#xC2E0;&#xD638; &#xD615;&#xC2DD;&#xC73C;&#xB85C; &#xBCC0;&#xD658;&#xD558;&#xB294; &#xC7A5;&#xCE58;&#xB294; <code>DSU</code>&#xC774;&#xB2E4;.  </li>
+<li>DTE에서 출력되는 디지털 신호를 디지털 회선망에 적합한 신호 형식으로 변환하는 장치는 <code>DSU</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC778;&#xD130;&#xB137; &#xB9DD;(IP Network)&#xACFC; &#xC720;&#xC120; &#xC804;&#xD654;&#xB9DD;(PSTN) &#xAC04;&#xC758; &#xC0C1;&#xD638; &#xC5F0;&#xB3D9;&#xC2DC;&#xD0A4;&#xB294; &#xB370; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xC2DC;&#xADF8;&#xB110;&#xB9C1; &#xD504;&#xB85C;&#xD1A0;&#xCF5C;&#xC740; <code>SIGTRAN</code>&#xC774;&#xB2E4;.  </li>
+<li>인터넷 망(IP Network)과 유선 전화망(PSTN) 간의 상호 연동시키는 데 사용되는 시그널링 프로토콜은 <code>SIGTRAN</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>2 out of 5 &#xBD80;&#xD638;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC5D0;&#xB7EC;&#xB97C; &#xAC80;&#xCD9C;&#xD558;&#xB294; &#xBC29;&#xC2DD;&#xC740; <code>&#xC815; &#xB9C8;&#xD06C; (&#xC815; &#xC2A4;&#xD398;&#xC774;&#xC2A4;) &#xBC29;&#xC2DD;</code>&#xC774;&#xB2E4;.  </li>
+<li>2 out of 5 부호를 이용하여 에러를 검출하는 방식은 <code>정 마크 (정 스페이스) 방식</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>ITU-T &#xBC0F; ISO&#xC5D0;&#xC11C; &#xAD8C;&#xACE0;&#xD558;&#xACE0; &#xC788;&#xB294; &#xB370;&#xC774;&#xD130; &#xD1B5;&#xC2E0; &#xCF54;&#xB4DC;&#xB85C;&#xC368; 7&#xBE44;&#xD2B8;&#xC758; &#xC815;&#xBCF4; &#xBE44;&#xD2B8;&#xC640; 1&#xBE44;&#xD2B8;&#xC758; &#xD328;&#xB9AC;&#xD2F0; &#xAC80;&#xC0AC;&#xC6A9; &#xBE44;&#xD2B8;&#xB85C; &#xAD6C;&#xC131;&#xB41C; &#xC804;&#xC1A1; &#xCF54;&#xB4DC;&#xB294; <code>ASCII &#xCF54;&#xB4DC;</code>&#xC774;&#xB2E4;. </li>
+<li>ITU-T 및 ISO에서 권고하고 있는 데이터 통신 코드로써 7비트의 정보 비트와 1비트의 패리티 검사용 비트로 구성된 전송 코드는 <code>ASCII 코드</code>이다. </li>
 </ul>
 <br>
 
 <ul>
-<li>OSI 7 &#xACC4;&#xCE35; &#xC911; &#xD649; &#xB2E8;&#xC704;&#xB85C; &#xC218;&#xD589;&#xB418;&#xB294; &#xD504;&#xB85C;&#xD1A0;&#xCF5C;&#xB85C;&#xC11C; &#xC2E4;&#xC81C; &#xD328;&#xD0B7; &#xC804;&#xB2EC;&#xC744; &#xC704;&#xD574; &#xD1B5;&#xC2E0;&#xB9DD; &#xB178;&#xB4DC;&#xC5D0;&#xC11C; &#xD544;&#xC694;&#xB85C; &#xD558;&#xB294; &#xAC83;&#xC740; <code>&#xBB3C;&#xB9AC; &#xACC4;&#xCE35;</code>, <code>&#xB370;&#xC774;&#xD130; &#xB9C1;&#xD06C; &#xACC4;&#xCE35;</code>, <code>&#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xACC4;&#xCE35;</code>&#xC774;&#xB2E4;.  </li>
+<li>OSI 7 계층 중 홉 단위로 수행되는 프로토콜로서 실제 패킷 전달을 위해 통신망 노드에서 필요로 하는 것은 <code>물리 계층</code>, <code>데이터 링크 계층</code>, <code>네트워크 계층</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBE44;&#xD2B8; &#xBC29;&#xC2DD;&#xC758; &#xB370;&#xC774;&#xD130; &#xB9C1;&#xD06C; &#xD504;&#xB85C;&#xD1A0;&#xCF5C;&#xC5D0;&#xB294; HDLC, SDLC, LAPB &#xB4F1;&#xC774; &#xC788;&#xB2E4;.  <ul>
-<li>&#xBB38;&#xC790; &#xBC29;&#xC2DD;&#xC5D0;&#xB294; BSC&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>비트 방식의 데이터 링크 프로토콜에는 HDLC, SDLC, LAPB 등이 있다.  <ul>
+<li>문자 방식에는 BSC가 있다.  </li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li><code>DCF</code>&#xB780; &#xBA3C;&#xC800; &#xC1A1;&#xC2E0;&#xD55C; &#xCABD;&#xC774; &#xD574;&#xB2F9; &#xB9DD;&#xC744; &#xC810;&#xC720;&#xD558;&#xB294; &#xBC29;&#xBC95;(&#xACBD;&#xC7C1; &#xBAA8;&#xB4DC;)&#xC73C;&#xB85C;, &#xBB34;&#xC120; LAN&#xC758; &#xB9E4;&#xCCB4; &#xC811;&#xADFC; &#xC81C;&#xC5B4; &#xBC29;&#xC2DD; &#xC911; &#xACBD;&#xC7C1;&#xC5D0; &#xC758;&#xD574; &#xCC44;&#xB110; &#xC811;&#xADFC;&#xC744; &#xC81C;&#xC5B4;&#xD558;&#xB294; &#xAC83;&#xC774;&#xB2E4;.  </li>
+<li><code>DCF</code>란 먼저 송신한 쪽이 해당 망을 점유하는 방법(경쟁 모드)으로, 무선 LAN의 매체 접근 제어 방식 중 경쟁에 의해 채널 접근을 제어하는 것이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC6D0;&#xCC9C; &#xBD80;&#xD638;&#xD654;(Source Coding) &#xBC29;&#xC2DD;&#xC740; &#xC544;&#xB0A0;&#xB85C;&#xADF8; &#xD615;&#xD0DC;&#xB97C; &#xB514;&#xC9C0;&#xD138;&#xB85C; &#xBCC0;&#xD658;&#xD558;&#xACE0;, &#xC2E0;&#xD638;&#xB97C; &#xC555;&#xCD95; &#xBD80;&#xD638;&#xD654;&#xD558;&#xC5EC; &#xC804;&#xC1A1; &#xD6A8;&#xC728;&#xC744; &#xD5A5;&#xC0C1;&#xD55C;&#xB2E4;. &#xC774; &#xBC29;&#xC2DD;&#xC5D0; <code>DM</code>, <code>PCM</code>, <code>DPCM</code>, <code>ADM</code>, <code>ADPCM</code>&#xC774; &#xC18D;&#xD55C;&#xB2E4;.  <ul>
-<li>&#xC6D0;&#xCC9C; &#xBD80;&#xD638;&#xD654; - &#xD30C;&#xD615; &#xBD80;&#xD638;&#xD654; &#xBC29;&#xC2DD;, &#xC74C;&#xC6D0; &#xBD80;&#xD638;&#xD654; &#xBC29;&#xC2DD;, &#xD63C;&#xC131; &#xBD80;&#xD638;&#xD654; &#xBC29;&#xC2DD;  </li>
+<li>원천 부호화(Source Coding) 방식은 아날로그 형태를 디지털로 변환하고, 신호를 압축 부호화하여 전송 효율을 향상한다. 이 방식에 <code>DM</code>, <code>PCM</code>, <code>DPCM</code>, <code>ADM</code>, <code>ADPCM</code>이 속한다.  <ul>
+<li>원천 부호화 - 파형 부호화 방식, 음원 부호화 방식, 혼성 부호화 방식  </li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ul>
-<li>PCM&#xC5D0;&#xC11C; ISI&#xB97C; &#xCE21;&#xC815;&#xD558;&#xAE30; &#xC704;&#xD574; eye pattern&#xC744; &#xC774;&#xC6A9;&#xD558;&#xB294;&#xB370; &#xB208;&#xC744; &#xB72C; &#xC0C1;&#xD558;&#xC758; &#xB192;&#xC774;&#xB294; <code>&#xC7A1;&#xC74C;&#xC758; &#xC5EC;&#xC720;&#xB3C4;</code>&#xB97C;, &#xC88C;&#xC6B0; &#xD3ED;&#xC740; <code>&#xC218;&#xC2E0;&#xD30C;&#xB97C; ISI &#xAC04;&#xC12D; &#xC5C6;&#xC774; &#xC0D8;&#xD50C;&#xB9C1;&#xD560; &#xC218; &#xC788;&#xB294; &#xC8FC;&#xAE30;</code>&#xB97C; &#xC758;&#xBBF8;&#xD55C;&#xB2E4;.  </li>
+<li>PCM에서 ISI를 측정하기 위해 eye pattern을 이용하는데 눈을 뜬 상하의 높이는 <code>잡음의 여유도</code>를, 좌우 폭은 <code>수신파를 ISI 간섭 없이 샘플링할 수 있는 주기</code>를 의미한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>RTP &#xD328;&#xD0B7;&#xC5D0;&#xC11C; &#xC81C;&#xC5B4; &#xBE44;&#xD2B8;(16&#xBE44;&#xD2B8;)&#xC758; <code>P(Padding, 1&#xBE44;&#xD2B8;)&#xAC00; 1</code>&#xC774;&#xBA74; &#xC2E4;&#xC81C; &#xC720;&#xB8CC; &#xBD80;&#xD558; &#xC774;&#xC678;&#xC5D0; &#xB367;&#xBD99;&#xC5EC;&#xC9C4; &#xD328;&#xB529; &#xB370;&#xC774;&#xD130;&#xAC00; &#xC788;&#xC74C;&#xC744; &#xC758;&#xBBF8;, <code>X(Extension, 1&#xBE44;&#xD2B8;)&#xAC00; 1</code>&#xC774;&#xBA74; &#xAC00;&#xBCC0; &#xAE38;&#xC774; &#xD5E4;&#xB354; &#xD655;&#xC7A5;&#xC774; &#xC788;&#xC74C;&#xC744; &#xC758;&#xBBF8;, <code>CC(CSRC Count, 4&#xBE44;&#xD2B8;)</code>&#xC5D0;&#xC11C; &#xC5EC;&#xB7EC; &#xBBF8;&#xB514;&#xC5B4;&#xAC00; &#xD569;&#xC131;&#xB418;&#xB294; &#xACBD;&#xC6B0;&#xC5D0; &#xADF8; &#xAC1C;&#xC218;&#xB97C; CC&#xB85C;&#xC368; &#xB098;&#xD0C0;&#xB0B4;&#xACE0;, &#xBAA8;&#xB450;&#xC758; &#xAE30;&#xC900; &#xB3D9;&#xAE30;&#xB97C; &#xB9DE;&#xCD94;&#xB824;&#xBA74; SRRC ID&#xB85C;&#xC368; &#xC774;&#xB97C; &#xB098;&#xD0C0;&#xB0C4;, <code>M(Marker, 1&#xBE44;&#xD2B8;)</code>&#xB294; &#xC774;&#xBCA4;&#xD2B8; &#xBC1C;&#xC0DD;&#xC774; &#xC2DC;&#xC791;&#xB418;&#xC5C8;&#xC74C;&#xC744; &#xC758;&#xBBF8;&#xD55C;&#xB2E4;.  </li>
+<li>RTP 패킷에서 제어 비트(16비트)의 <code>P(Padding, 1비트)가 1</code>이면 실제 유료 부하 이외에 덧붙여진 패딩 데이터가 있음을 의미, <code>X(Extension, 1비트)가 1</code>이면 가변 길이 헤더 확장이 있음을 의미, <code>CC(CSRC Count, 4비트)</code>에서 여러 미디어가 합성되는 경우에 그 개수를 CC로써 나타내고, 모두의 기준 동기를 맞추려면 SRRC ID로써 이를 나타냄, <code>M(Marker, 1비트)</code>는 이벤트 발생이 시작되었음을 의미한다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>16&#xC9C4; QAM&#xC740; 16&#xC9C4; PSK &#xBCC0;&#xC870; &#xBC29;&#xC2DD;&#xBCF4;&#xB2E4; <code>&#xB3D9;&#xC77C;&#xD55C; &#xC804;&#xC1A1; &#xC5D0;&#xB108;&#xC9C0;&#xC5D0; &#xB300;&#xD574; &#xC624;&#xB958; &#xD655;&#xB960;&#xC774; &#xB0AE;&#xACE0;, Coherent(&#xB3D9;&#xAE30; &#xAC80;&#xD30C; &#xBC29;&#xC2DD;)&#xC73C;&#xB85C; &#xC2E0;&#xD638;&#xB97C; &#xAC80;&#xCD9C;</code>&#xD55C;&#xB2E4;. &#xB610;&#xD55C;, &#xC9C4;&#xD3ED;&#xACFC; &#xC704;&#xC0C1;&#xC774; &#xBCC0;&#xD654;&#xD558;&#xB294; &#xBCC0;&#xC870;&#xBC29;&#xC2DD;&#xC774;&#xACE0;, 2&#xCC28;&#xC6D0; &#xBCA1;&#xD130; &#xACF5;&#xAC04;&#xC5D0; &#xC2E0;&#xD638;&#xB97C; &#xB098;&#xD0C0;&#xB0BC; &#xC218; &#xC788;&#xB2E4;.  </li>
+<li>16진 QAM은 16진 PSK 변조 방식보다 <code>동일한 전송 에너지에 대해 오류 확률이 낮고, Coherent(동기 검파 방식)으로 신호를 검출</code>한다. 또한, 진폭과 위상이 변화하는 변조방식이고, 2차원 벡터 공간에 신호를 나타낼 수 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xAD11;&#xB300;&#xC5ED; &#xD1B5;&#xD569; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC5D0;&#xC11C; VoIP &#xC11C;&#xBE44;&#xC2A4;&#xB97C; &#xC81C;&#xACF5;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xD504;&#xB85C;&#xD1A0;&#xCF5C;&#xC5D0;&#xB294; <code>SIP</code>, <code>H.323</code>, <code>Control &amp; Management</code>, <code>Megaco/MGCF</code>&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>광대역 통합 네트워크에서 VoIP 서비스를 제공하기 위한 프로토콜에는 <code>SIP</code>, <code>H.323</code>, <code>Control &amp; Management</code>, <code>Megaco/MGCF</code>가 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC544;&#xB0A0;&#xB85C;&#xADF8; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC544;&#xB0A0;&#xB85C;&#xADF8; &#xC2E0;&#xD638;&#xB85C; &#xBCC0;&#xD658;&#xD558;&#xB294; &#xBCC0;&#xC870;&#xBC29;&#xC2DD;&#xC5D0;&#xB294; &#xC9C4;&#xD3ED; &#xBCC0;&#xC870;(AM), &#xC8FC;&#xD30C;&#xC218; &#xBCC0;&#xC870;(FM), &#xC704;&#xC0C1; &#xBCC0;&#xC870;(PM)&#xAC00; &#xC788;&#xB2E4;.  </li>
+<li>아날로그 데이터를 아날로그 신호로 변환하는 변조방식에는 진폭 변조(AM), 주파수 변조(FM), 위상 변조(PM)가 있다.  </li>
 </ul>
 <br>
 
 <ul>
-<li><code>SONET (Synchronous Optical Network)</code>&#xB294; &#xAD11;&#xC804;&#xC1A1;&#xB9DD; &#xB178;&#xB4DC;&#xC640; &#xB9DD;&#xAC04;&#xC758; &#xC811;&#xC18D;&#xC744; &#xD45C;&#xC900;&#xD654;&#xD55C; &#xAC83;&#xC73C;&#xB85C;, &#xB2E4;&#xC591;&#xD55C; &#xC804;&#xC1A1;&#xAE30;&#xAE30;&#xB97C; &#xC0C1;&#xD638; &#xC811;&#xC18D;&#xD558;&#xAE30; &#xC704;&#xD55C; &#xAD11;&#xC2E0;&#xD638;&#xC640; &#xC778;&#xD130;&#xD398;&#xC774;&#xC2A4; &#xD45C;&#xC900;&#xC744; &#xC81C;&#xACF5;&#xD55C;&#xB2E4;. STS-12&#xC758; &#xAE30;&#xBCF8; &#xC804;&#xC1A1;&#xC18D;&#xB3C4;&#xB294; 622.08 Mbps&#xC774;&#xB2E4;.  </li>
+<li><code>SONET (Synchronous Optical Network)</code>는 광전송망 노드와 망간의 접속을 표준화한 것으로, 다양한 전송기기를 상호 접속하기 위한 광신호와 인터페이스 표준을 제공한다. STS-12의 기본 전송속도는 622.08 Mbps이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xD504;&#xB808;&#xC784; &#xC911;&#xACC4; &#xC11C;&#xBE44;&#xC2A4;&#xC640; &#xD504;&#xB808;&#xC784; &#xAD50;&#xD658; &#xC11C;&#xBE44;&#xC2A4;&#xB97C; &#xC81C;&#xACF5;&#xD558;&#xB294; &#xAC83;&#xC740; <code>&#xD504;&#xB808;&#xC784; &#xB9B4;&#xB808;&#xC774; &#xD504;&#xB85C;&#xD1A0;&#xCF5C;</code>&#xC774;&#xB2E4;.  </li>
+<li>프레임 중계 서비스와 프레임 교환 서비스를 제공하는 것은 <code>프레임 릴레이 프로토콜</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xBD88;&#xADE0;&#xD615;&#xC801;&#xC778; &#xBA40;&#xD2F0; &#xD3EC;&#xC778;&#xD2B8; &#xB9C1;&#xD06C; &#xAD6C;&#xC131; &#xC911; &#xC8FC; &#xC2A4;&#xD14C;&#xC774;&#xC158;&#xC774; &#xAC01; &#xBD80; &#xC2A4;&#xD14C;&#xC774;&#xC158;&#xC5D0;&#xAC8C; &#xB370;&#xC774;&#xD130; &#xC804;&#xC1A1;&#xC744; &#xC694;&#xCCAD;&#xD558;&#xB294; &#xD68C;&#xC120; &#xC81C;&#xC5B4; &#xBC29;&#xC2DD;&#xC740; <code>Polling</code>&#xC774;&#xB2E4;.  </li>
+<li>불균형적인 멀티 포인트 링크 구성 중 주 스테이션이 각 부 스테이션에게 데이터 전송을 요청하는 회선 제어 방식은 <code>Polling</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>&#xC678;&#xBD80; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC5D0; &#xC54C;&#xB824;&#xC9C4; &#xACF5;&#xC778; IP &#xC8FC;&#xC18C;&#xC640; &#xC0AC;&#xC124; IP &#xC8FC;&#xC18C;&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xB0B4;&#xBD80; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC5D0;&#xC11C; IP &#xC8FC;&#xC18C;&#xB97C; &#xBCC0;&#xD658;&#xD558;&#xB294; &#xAC83;&#xC740; <code>NAT</code>&#xC774;&#xB2E4;.  </li>
+<li>외부 네트워크에 알려진 공인 IP 주소와 사설 IP 주소를 사용하는 내부 네트워크에서 IP 주소를 변환하는 것은 <code>NAT</code>이다.  </li>
 </ul>
 <br>
 
 <ul>
-<li>VLAN&#xC758; &#xC885;&#xB958;&#xC5D0;&#xB294; <code>&#xD504;&#xB85C;&#xD1A0;&#xCF5C; &#xAE30;&#xBC18;</code>, <code>MAC &#xAE30;&#xBC18;</code>, <code>&#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC8FC;&#xC18C; &#xAE30;&#xBC18;</code>, <code>&#xD3EC;&#xD2B8; &#xAE30;&#xBC18; VLAN</code>&#xC774; &#xC788;&#xB2E4;.</li>
+<li>VLAN의 종류에는 <code>프로토콜 기반</code>, <code>MAC 기반</code>, <code>네트워크 주소 기반</code>, <code>포트 기반 VLAN</code>이 있다.</li>
 </ul>
-</body></html>
-    
-    </div>
-    
-    <div class="columns is-variable is-1 is-multiline is-mobile">
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/">#정보처리기사</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Data-Processing-Engineer/">#Data Processing Engineer</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Engineer-Information-Processing/">#Engineer Information Processing</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%A0%95%EC%B2%98%EA%B8%B0/">#정처기</a></span>
-    
-    </div>
-    
-    
-    <div class="columns is-mobile is-multiline article-nav">
-        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
-            
-            <a href="/2019/07/28/dpe-mock-190728/">현재 정보처리기사 필기 수준 파악 (2019.07.28 기준)</a>
-            
-        </span>
-        <span class="column is-12-mobile is-half-desktop  article-nav-next">
-            
-            <a href="/2019/07/27/weekly-report-190729/">2019.07.29 - 08.04 수행 일지</a>
-            
-        </span>
-    </div>
-    
-</article>
-
-
-<div class="sharebox">
-    
-<div class="sharethis-inline-share-buttons"></div>
-<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
-
-</div>
-
-
-
-<div class="comments">
-    <h3 class="title is-4">댓글</h3>
-    
-<script>
-    var disqus_config = function () {
-        this.page.url = 'https://y8ncastle.me/2019/07/28/dpe-wrong-answer/';
-        this.page.identifier = '2019/07/28/dpe-wrong-answer/';
-        
-        this.language = 'ko';
-        
-    };
-    (function() {
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<div id="disqus_thread">
-    
-    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</div>
-
-    </div>
-</section>
-    <footer class="footer">
-    <div class="container">
-        <div class="columns content">
-            <div class="column is-narrow has-text-centered">
-                &copy; 2021 Zay Jeong&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
-            </div>
-            <div class="column is-hidden-mobile"></div>
-
-            
-            <div class="column is-narrow">
-                <div class="columns is-mobile is-multiline is-centered">
-                
-                    
-                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
-                    
-                    GitHub
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
-                    
-                    LinkedIn
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
-                    
-                    Instagram
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
-                    
-                    Facebook
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
-                    
-                    BOJ
-                    
-                </a>
-                
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-
-<!-- test if the browser is outdated -->
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // plugin function, place inside DOM ready function
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        })
-    });
-</script>
-
-<script>
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-    moment.locale("ko");
-</script>
-
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script>
-    MathJax.Hub.Config({
-        "HTML-CSS": {
-            matchFontHeight: false
-        },
-        SVG: {
-            matchFontHeight: false
-        },
-        CommonHTML: {
-            matchFontHeight: false
-        },
-        tex2jax: {
-            inlineMath: [
-                ['$','$'],
-                ['\\(','\\)']
-            ]
-        }
-    });
-</script>
-
-    
-    
-    
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
-<script>
-    (function ($) {
-        $(document).ready(function () {
-            if (typeof($.fn.lightGallery) === 'function') {
-                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+</div><div class="article-licensing box"><div class="licensing-title"><p>정보처리기사 모의고사 오답 정리</p><p><a href="https://y8ncastle.me/2019/07/28/dpe-wrong-answer/">https://y8ncastle.me/2019/07/28/dpe-wrong-answer/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Zay Jeong</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2019-07-28</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-01-08</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/">정보처리기사</a><a class="link-muted mr-2" rel="tag" href="/tags/Data-Processing-Engineer/">Data Processing Engineer</a><a class="link-muted mr-2" rel="tag" href="/tags/Engineer-Information-Processing/">Engineer Information Processing</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%A0%95%EC%B2%98%EA%B8%B0/">정처기</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2019/07/28/dpe-mock-190728/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">현재 정보처리기사 필기 수준 파악 (2019.07.28 기준)</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2019/07/27/weekly-report-190729/"><span class="level-item">2019.07.29 - 08.04 수행 일지</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://y8ncastle.me/2019/07/28/dpe-wrong-answer/';
+            this.page.identifier = '2019/07/28/dpe-wrong-answer/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'zayjeong' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="제이정 (Zay Jeong)"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">제이정 (Zay Jeong)</p><p class="is-size-6 is-block">대학원생, 블록체인 연구원</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 서울</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">183</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">338</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/y8ncastle" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/y8ncastle"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/y8ncastle"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/y8ncastle"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/zay.jeong"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">관련 링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.acmicpc.net/user/zarch4894" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-right"><span class="level-item tag">www.acmicpc.net</span></span></a></li><li><a class="level is-mobile" href="https://youtube.com/playlist?list=PL93hJn5LGgIMVNoSYrI6_PGfVJp6L05x_" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Youtube</span></span><span class="level-right"><span class="level-item tag">youtube.com</span></span></a></li><li><a class="level is-mobile" href="https://medium.com/@y8ncastle" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Medium</span></span><span class="level-right"><span class="level-item tag">medium.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%EA%B5%90%EC%9C%A1-Blockchain/"><span class="level-start"><span class="level-item">&lt;교육&gt; Blockchain</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Academy/"><span class="level-start"><span class="level-item">Academy</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Achievement/"><span class="level-start"><span class="level-item">Achievement</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/Baekjoon-Online-Judge/"><span class="level-start"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-end"><span class="level-item tag">31</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/"><span class="level-start"><span class="level-item">Blockchain</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><span class="level-start"><span class="level-item">&lt;교육&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Hyperledger-Fabric/"><span class="level-start"><span class="level-item">&lt;교육&gt; Hyperledger Fabric</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><span class="level-start"><span class="level-item">&lt;실습&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%9D%B4%EB%A1%A0-Bitcoin/"><span class="level-start"><span class="level-item">&lt;이론&gt; Bitcoin</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/Ethereum/"><span class="level-start"><span class="level-item">Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/CSS/"><span class="level-start"><span class="level-item">CSS</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Crypto-Community/"><span class="level-start"><span class="level-item">Crypto Community</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Exhibition/"><span class="level-start"><span class="level-item">Exhibition</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Education/"><span class="level-start"><span class="level-item">IT Education</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Free-Board/"><span class="level-start"><span class="level-item">IT Free Board</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/"><span class="level-start"><span class="level-item">Personal Project</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><span class="level-start"><span class="level-item">&lt;개인&gt; Android</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Ethereum/"><span class="level-start"><span class="level-item">&lt;개인&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/Plan/"><span class="level-start"><span class="level-item">Plan</span></span><span class="level-end"><span class="level-item tag">49</span></span></a></li><li><a class="level is-mobile" href="/categories/Seminar/"><span class="level-start"><span class="level-item">Seminar</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/"><span class="level-start"><span class="level-item">Team Project</span></span><span class="level-end"><span class="level-item tag">32</span></span></a><ul><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-Hanium/"><span class="level-start"><span class="level-item">&lt;팀&gt; Hanium</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-MRM/"><span class="level-start"><span class="level-item">&lt;팀&gt; MRM</span></span><span class="level-end"><span class="level-item tag">25</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-On-Books/"><span class="level-start"><span class="level-item">&lt;팀&gt; On Books</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-X-Corps/"><span class="level-start"><span class="level-item">&lt;팀&gt; X-Corps</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/X-Corps/"><span class="level-start"><span class="level-item">X-Corps</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 포스트</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-03-01T11:21:00.000Z">2020-03-01</time></p><p class="title"><a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a></p><p class="categories"><a href="/categories/Plan/">Plan</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T08:27:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/ethereum-private-network/">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</a></p><p class="categories"><a href="/categories/Blockchain/">Blockchain</a> / <a href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T02:50:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a></p><p class="categories"><a href="/categories/CSS/">CSS</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T14:37:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/hanbat-diploma/">국립 한밭대학교 정보통신공학 학사 학위 취득</a></p><p class="categories"><a href="/categories/Achievement/">Achievement</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T02:36:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/youtube-seminar-20-3/">[2020.02.17] A New Privacy Protection Security Scheme for Blockchain (BaSE Lab 유튜브 세미나 20-3차)</a></p><p class="categories"><a href="/categories/Seminar/">Seminar</a></p></div></article></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Zay Jeong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
             }
-            if (typeof($.fn.justifiedGallery) === 'function') {
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
                 $('.justified-gallery').justifiedGallery();
             }
-        });
-    })(jQuery);
-</script>
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-    <style>
-        .hljs {
-            position: relative;
-        }
-
-        .hljs .clipboard-btn {
-            float: right;
-            color: #9a9a9a;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .hljs .clipboard-btn:hover {
-          color: #8a8a8a;
-        }
-
-        .hljs > .clipboard-btn {
-            display: none;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-        }
-
-        .hljs:hover > .clipboard-btn {
-            display: inline;
-        }
-
-        .hljs > figcaption > .clipboard-btn {
-            margin-right: 4px;
-        }
-    </style>
-    <script>
-      $(document).ready(function () {
-        $('figure.hljs').each(function(i, figure) {
-          var codeId = 'code-' + i;
-          var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
-          code.id = codeId;
-          copyButton.addClass('clipboard-btn');
-          copyButton.attr('data-clipboard-target-id', codeId);
-
-          var figcaption = figure.querySelector('figcaption');
-
-          if (figcaption) {
-            figcaption.append(copyButton[0]);
-          } else {
-            figure.prepend(copyButton[0]);
-          }
-        })
-
-        var clipboard = new ClipboardJS('.clipboard-btn', {
-          target: function(trigger) {
-            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-          }
-        });
-        clipboard.on('success', function(e) {
-          e.clearSelection();
-        })
-      })
-    </script>
-
-    
-    
-
-    
-
-
-
-<script src="/js/script.js"></script>
-
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-mask"></div>
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '글',
-                PAGES: '페이지',
-                CATEGORIES: '카테고리 목록',
-                TAGS: '태그 목록',
-                UNTITLED: '(제목없음)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-    
-</body>
-</html>
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="검색할 내용을 입력하세요"></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"검색할 내용을 입력하세요","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>

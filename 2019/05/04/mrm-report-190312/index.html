@@ -1,523 +1,98 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-<head>
-    <meta charset="utf-8">
-<title>주간 진행 보고서 (3월 2주차) - Zay Jeong Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
-
-
-
-
-<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
-
-
-
-<meta name="keywords" content="IT, Blockchain, Android, Development">
-
-
-
-    <meta name="description" content="2019.03.12 &amp;#xC560;&amp;#xD50C;&amp;#xB9AC;&amp;#xCF00;&amp;#xC774;&amp;#xC158; &amp;#xCD08;&amp;#xC548;&amp;#xC744; &amp;#xC124;&amp;#xACC4;&amp;#xD588;&amp;#xB2E4;.   &amp;#xCD08;&amp;#xBC18;&amp;#xC774;&amp;#xB77C; &amp;#xD300;&amp;#xC6D0;&amp;#xB4E4;&amp;#xACFC; &amp;#xD558;&amp;#xB4">
-<meta property="og:type" content="article">
-<meta property="og:title" content="주간 진행 보고서 (3월 2주차)">
-<meta property="og:url" content="https://y8ncastle.me/2019/05/04/mrm-report-190312/index.html">
-<meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="2019.03.12 &amp;#xC560;&amp;#xD50C;&amp;#xB9AC;&amp;#xCF00;&amp;#xC774;&amp;#xC158; &amp;#xCD08;&amp;#xC548;&amp;#xC744; &amp;#xC124;&amp;#xACC4;&amp;#xD588;&amp;#xB2E4;.   &amp;#xCD08;&amp;#xBC18;&amp;#xC774;&amp;#xB77C; &amp;#xD300;&amp;#xC6D0;&amp;#xB4E4;&amp;#xACFC; &amp;#xD558;&amp;#xB4">
-<meta property="og:locale" content="ko_KR">
-<meta property="article:published_time" content="2019-05-04T09:35:00.000Z">
-<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
-<meta property="article:author" content="Zay Jeong">
-<meta property="article:tag" content="팀프로젝트">
-<meta property="article:tag" content="프로젝트">
-<meta property="article:tag" content="캡스톤디자인">
-<meta property="article:tag" content="Team Project">
-<meta property="article:tag" content="Project">
-<meta property="article:tag" content="Capstone Design">
-<meta property="article:tag" content="MRM">
-<meta name="twitter:card" content="summary">
-
-
-
-
-
-<link rel="icon" href="/images/favicon/favicon.ico">
-
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>주간 진행 보고서 (3월 2주차) - Zay Jeong Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Zay (Yoonsung), Jeong"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zay (Yoonsung), Jeong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="2019.03.12 애플리케이션 초안을 설계했다.   초반이라 팀원들과 하드웨어 부분을 같이 연구하는 것이 맞지 않나 싶었지만 나중에 소프트웨어 부분이 차지하는 비율이 조금 더 크기 때문에 먼저 해 놓으면 좋을 것 같아 미리 앱 디자인을 시작하였다.   현재시간, 동작 버튼, 작동시간, 온&amp;#x2F;습도 표시, 이동거리, 기울기, 카메라 화면 등 다양한 부분들이 필"><meta property="og:type" content="blog"><meta property="og:title" content="주간 진행 보고서 (3월 2주차)"><meta property="og:url" content="https://y8ncastle.me/2019/05/04/mrm-report-190312/"><meta property="og:site_name" content="Zay Jeong Blog"><meta property="og:description" content="2019.03.12 애플리케이션 초안을 설계했다.   초반이라 팀원들과 하드웨어 부분을 같이 연구하는 것이 맞지 않나 싶었지만 나중에 소프트웨어 부분이 차지하는 비율이 조금 더 크기 때문에 먼저 해 놓으면 좋을 것 같아 미리 앱 디자인을 시작하였다.   현재시간, 동작 버튼, 작동시간, 온&amp;#x2F;습도 표시, 이동거리, 기울기, 카메라 화면 등 다양한 부분들이 필"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://y8ncastle.me/img/og_image.png"><meta property="article:published_time" content="2019-05-04T09:35:00.000Z"><meta property="article:modified_time" content="2021-01-08T06:00:52.000Z"><meta property="article:author" content="Zay Jeong"><meta property="article:tag" content="팀프로젝트"><meta property="article:tag" content="프로젝트"><meta property="article:tag" content="캡스톤디자인"><meta property="article:tag" content="Team Project"><meta property="article:tag" content="Project"><meta property="article:tag" content="Capstone Design"><meta property="article:tag" content="MRM"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://y8ncastle.me/2019/05/04/mrm-report-190312/"},"headline":"Zay Jeong Blog","image":["https://y8ncastle.me/img/og_image.png"],"datePublished":"2019-05-04T09:35:00.000Z","dateModified":"2021-01-08T06:00:52.000Z","author":{"@type":"Person","name":"Zay Jeong"},"description":"2019.03.12 애플리케이션 초안을 설계했다.   초반이라 팀원들과 하드웨어 부분을 같이 연구하는 것이 맞지 않나 싶었지만 나중에 소프트웨어 부분이 차지하는 비율이 조금 더 크기 때문에 먼저 해 놓으면 좋을 것 같아 미리 앱 디자인을 시작하였다.   현재시간, 동작 버튼, 작동시간, 온&#x2F;습도 표시, 이동거리, 기울기, 카메라 화면 등 다양한 부분들이 필"}</script><link rel="canonical" href="https://y8ncastle.me/2019/05/04/mrm-report-190312/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168776470-2');
-</script>
-
-
-    
-
-
-<meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-    
-<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
-                
-                <img src="/images/logo.png" alt="" height="28">
-                
-            </a>
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="navbar-menu navbar-start">
-            
-            <a class="navbar-item "
-               href="/about">About</a>
-            
-            <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item "
-               href="/tags">Tags</a>
-            
-            <a class="navbar-item "
-               href="/archives">Archives</a>
-            
-            <a class="navbar-item "
-               href="/cv">CV</a>
-            
-        </div>
-        
-        <div class="navbar-menu navbar-end">
-            
-            <a class="navbar-item search" title="검색" href="javascript:;">
-                <i class="fas fa-search"></i>
-            </a>
-            
-            
-            
-            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-               
-            
-        </div>
-    </div>
-</nav>
-
-    <section class="section">
-    <div class="container">
-    <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            주간 진행 보고서 (3월 2주차)
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2019-05-04T09:35:00.000Z" itemprop="datePublished">5월 4 2019</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Team-Project/">Team Project</a><span>></span><a class="article-category-link" href="/categories/Team-Project/%ED%8C%80-MRM/"><팀> MRM</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            12분 소요 (약 1739 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><h3 id="2019-03-12"><a href="#2019-03-12" class="headerlink" title="2019.03.12"></a>2019.03.12</h3><hr>
-<p>&#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158; &#xCD08;&#xC548;&#xC744; &#xC124;&#xACC4;&#xD588;&#xB2E4;.  </p>
-<p>&#xCD08;&#xBC18;&#xC774;&#xB77C; &#xD300;&#xC6D0;&#xB4E4;&#xACFC; &#xD558;&#xB4DC;&#xC6E8;&#xC5B4; &#xBD80;&#xBD84;&#xC744; &#xAC19;&#xC774; &#xC5F0;&#xAD6C;&#xD558;&#xB294; &#xAC83;&#xC774; &#xB9DE;&#xC9C0; &#xC54A;&#xB098; &#xC2F6;&#xC5C8;&#xC9C0;&#xB9CC; &#xB098;&#xC911;&#xC5D0; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xBD80;&#xBD84;&#xC774; &#xCC28;&#xC9C0;&#xD558;&#xB294; &#xBE44;&#xC728;&#xC774; &#xC870;&#xAE08; &#xB354; &#xD06C;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBA3C;&#xC800; &#xD574; &#xB193;&#xC73C;&#xBA74; &#xC88B;&#xC744; &#xAC83; &#xAC19;&#xC544; &#xBBF8;&#xB9AC; &#xC571; &#xB514;&#xC790;&#xC778;&#xC744; &#xC2DC;&#xC791;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xD604;&#xC7AC;&#xC2DC;&#xAC04;, &#xB3D9;&#xC791; &#xBC84;&#xD2BC;, &#xC791;&#xB3D9;&#xC2DC;&#xAC04;, &#xC628;/&#xC2B5;&#xB3C4; &#xD45C;&#xC2DC;, &#xC774;&#xB3D9;&#xAC70;&#xB9AC;, &#xAE30;&#xC6B8;&#xAE30;, &#xCE74;&#xBA54;&#xB77C; &#xD654;&#xBA74; &#xB4F1; &#xB2E4;&#xC591;&#xD55C; &#xBD80;&#xBD84;&#xB4E4;&#xC774; &#xD544;&#xC694;&#xD588;&#xACE0; &#xC784;&#xC2DC;&#xC801;&#xC73C;&#xB85C; &#xBA54;&#xC778;&#xBD80;&#xB97C; &#xB9CC;&#xB4E4;&#xAE30; &#xC804;&#xC5D0; &#xBC84;&#xD2BC; &#xBC29;&#xC2DD;&#xC758; &#xC2E4;&#xD589;&#xBD80; &#xBD80;&#xBD84;&#xC744; &#xBA54;&#xC778; &#xD654;&#xBA74;&#xC5D0; &#xB9CC;&#xB4E4;&#xC5B4; &#xD14C;&#xC2A4;&#xD2B8; &#xD574;&#xBCF4;&#xC558;&#xB2E4;.  </p>
-<p>&#xAC01; &#xAE30;&#xB2A5;&#xB4E4;&#xC774; &#xD3EC;&#xD568;&#xB420; &#xB808;&#xC774;&#xC544;&#xC6C3; &#xBD80;&#xBD84;&#xC744; &#xB098;&#xB204;&#xB294; &#xAC83;&#xC774; &#xCD5C;&#xC6B0;&#xC120;&#xC774;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xADF8; &#xBD80;&#xBD84;&#xC744; &#xBA3C;&#xC800; &#xC2DC;&#xC791;&#xD588;&#xACE0; &#xB2E4;&#xB978; &#xBD80;&#xBD84;&#xB4E4;&#xC740; &#xC21C;&#xCC28;&#xC801;&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4;&#xB098;&#xAC08; &#xACC4;&#xD68D;&#xC774;&#xB2E4;.  </p>
-<p>&#xC190;&#xC73C;&#xB85C; &#xADF8;&#xB824;&#xBCF8; &#xCD08;&#xC548;&#xACFC; &#xC2E4;&#xC81C;&#xB85C; &#xC2A4;&#xB9C8;&#xD2B8;&#xD3F0;&#xC5D0;&#xC11C; &#xBCF4;&#xC774;&#xB294; &#xD654;&#xBA74; &#xAC04;&#xC758; &#xACF5;&#xAC04; &#xCC28;&#xC774;&#xB85C; &#xC778;&#xD574; 1&#xCC28; &#xCD08;&#xC548;&#xC5D0;&#xC11C; &#xB514;&#xC790;&#xC778;&#xC744; &#xC57D;&#xAC04; &#xC218;&#xC815;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xBC84;&#xD2BC; &#xBC29;&#xC2DD;&#xC758; &#xC2E4;&#xD589;&#xBD80;&#xB97C; &#xD14C;&#xC2A4;&#xD2B8;&#xD558;&#xB294;&#xB370;, &#xD654;&#xBA74;&#xC744; &#xAD6C;&#xC131;&#xD558;&#xB294;&#xB370; &#xC788;&#xC5B4; &#xC790;&#xB3D9;&#xC73C;&#xB85C; &#xD654;&#xBA74; &#xC804;&#xD658;&#xC774; &#xB418;&#xC9C0; &#xC54A;&#xB3C4;&#xB85D; &#xAC15;&#xC81C;&#xB85C; &#xAC00;&#xB85C;&#xBAA8;&#xB4DC;&#xB85C; &#xC124;&#xC815;&#xD574;&#xB450;&#xC5C8;&#xACE0; &#xB9E8; &#xC704;&#xC5D0; &#xC0C1;&#xB2E8;&#xBC14;&#xAC00; &#xBCF4;&#xC774;&#xC9C0; &#xC54A;&#xB3C4;&#xB85D; &#xC804;&#xCCB4;&#xD654;&#xBA74;&#xC744; &#xC801;&#xC6A9;&#xC2DC;&#xCF30;&#xB2E4;.  </p>
-<p>&#xB2E4;&#xB9CC; &#xC804;&#xCCB4;&#xD654;&#xBA74;&#xC744; &#xC801;&#xC6A9;&#xD558;&#xB294;&#xB370; &#xC788;&#xC5B4; illegalStateException&#xC774; &#xBC1C;&#xC0DD;&#xD588;&#xB294;&#xB370; &#xBA54;&#xC778; &#xD074;&#xB798;&#xC2A4;&#xC5D0; AppCompatActivity&#xB97C; import&#xD55C; &#xC0C1;&#xD0DC;&#xB85C;&#xB294; setContentView&#xAC00; &#xC81C;&#xB300;&#xB85C; &#xC801;&#xC6A9;&#xB418;&#xC9C0; &#xC54A;&#xC544; Activity&#xB97C; import&#xC2DC;&#xCF1C; &#xC774; &#xBB38;&#xC81C;&#xB97C; &#xD574;&#xACB0;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xD654;&#xBA74;&#xC744; &#xB098;&#xB204;&#xACE0; &#xC544;&#xC774;&#xCF58; &#xB4F1; &#xAE30;&#xBCF8; UI&#xB9CC; &#xBC30;&#xCE58;&#xD558;&#xACE0; WebioPi&#xC640;&#xC758; &#xC11C;&#xBC84; &#xC5F0;&#xB3D9;&#xBD80;&#xD130; &#xC5F0;&#xAD6C;&#xD560; &#xACC4;&#xD68D;&#xC774;&#xB2E4;.  </p>
+        gtag('config', 'UA-168776470-2');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.0.2"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">홈</a><a class="navbar-item" href="/about">CV</a><a class="navbar-item" href="/categories">카테고리</a><a class="navbar-item" href="/archives">타임라인</a><a class="navbar-item" href="/tags">태그 모음</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2019-05-04T09:35:00.000Z" title="2019. 5. 4. 오후 6:35:00">2019-05-04</time>&nbsp;최초 게시 됨</span><span class="level-item"><time dateTime="2021-01-08T06:00:52.000Z" title="2021. 1. 8. 오후 3:00:52">2021-01-08</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Team-Project/">Team Project</a><span> / </span><a class="link-muted" href="/categories/Team-Project/%ED%8C%80-MRM/">&lt;팀&gt; MRM</a></span><span class="level-item">12분 소요 (약 1739 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">주간 진행 보고서 (3월 2주차)</h1><div class="content"><h3 id="2019-03-12"><a href="#2019-03-12" class="headerlink" title="2019.03.12"></a>2019.03.12</h3><hr>
+<p>애플리케이션 초안을 설계했다.  </p>
+<p>초반이라 팀원들과 하드웨어 부분을 같이 연구하는 것이 맞지 않나 싶었지만 나중에 소프트웨어 부분이 차지하는 비율이 조금 더 크기 때문에 먼저 해 놓으면 좋을 것 같아 미리 앱 디자인을 시작하였다.  </p>
+<p>현재시간, 동작 버튼, 작동시간, 온/습도 표시, 이동거리, 기울기, 카메라 화면 등 다양한 부분들이 필요했고 임시적으로 메인부를 만들기 전에 버튼 방식의 실행부 부분을 메인 화면에 만들어 테스트 해보았다.  </p>
+<p>각 기능들이 포함될 레이아웃 부분을 나누는 것이 최우선이기 때문에 그 부분을 먼저 시작했고 다른 부분들은 순차적으로 만들어나갈 계획이다.  </p>
+<p>손으로 그려본 초안과 실제로 스마트폰에서 보이는 화면 간의 공간 차이로 인해 1차 초안에서 디자인을 약간 수정하였다.  </p>
+<p>버튼 방식의 실행부를 테스트하는데, 화면을 구성하는데 있어 자동으로 화면 전환이 되지 않도록 강제로 가로모드로 설정해두었고 맨 위에 상단바가 보이지 않도록 전체화면을 적용시켰다.  </p>
+<p>다만 전체화면을 적용하는데 있어 illegalStateException이 발생했는데 메인 클래스에 AppCompatActivity를 import한 상태로는 setContentView가 제대로 적용되지 않아 Activity를 import시켜 이 문제를 해결하였다.  </p>
+<p>화면을 나누고 아이콘 등 기본 UI만 배치하고 WebioPi와의 서버 연동부터 연구할 계획이다.  </p>
 <p><br><br></p>
 <h3 id="2019-03-13"><a href="#2019-03-13" class="headerlink" title="2019.03.13"></a>2019.03.13</h3><hr>
-<p>&#xC5B4;&#xC81C; &#xB9CC;&#xB4E4;&#xC5C8;&#xB358; &#xBD80;&#xBD84;&#xC5D0; &#xC774;&#xC5B4;&#xC11C; &#xBC84;&#xD2BC;&#xBD80; &#xC2E4;&#xD589;&#xD654;&#xBA74;&#xC758; &#xC6B0;&#xCE21;&#xACFC; &#xD558;&#xB2E8; &#xD654;&#xBA74;&#xC744; &#xAD6C;&#xC131;&#xD588;&#xB2E4;.  </p>
-<p>1&#xCC28; &#xCD08;&#xC548;&#xACFC; &#xB2EC;&#xB9AC; &#xC774;&#xB3D9;&#xAC70;&#xB9AC; &#xD45C;&#xC2DC;&#xC758; &#xD544;&#xC694;&#xC131;&#xC744; &#xB290;&#xB07C;&#xC9C0; &#xBABB;&#xD574; &#xD574;&#xB2F9; &#xB0B4;&#xC6A9;&#xC744; &#xC9C0;&#xC6E0;&#xACE0; MRM&#xC744; &#xC791;&#xB3D9;&#xC2DC;&#xD0A4;&#xB294; &#xC774;&#xB3D9; &#xBC84;&#xD2BC;&#xC744; &#xB354; &#xD070; &#xACF5;&#xAC04;&#xC73C;&#xB85C; &#xB113;&#xD614;&#xB2E4;.  </p>
-<p>&#xD654;&#xBA74; &#xBD84;&#xD560;&#xC744; &#xBAA8;&#xB450; &#xB9C8;&#xCE58;&#xACE0; &#xAE30;&#xBCF8;&#xC801;&#xC778; &#xBC84;&#xD2BC;&#xACFC; &#xC544;&#xC774;&#xCF58; &#xB4F1;&#xC744; &#xBC30;&#xCE58;&#xD558;&#xC600;&#xC73C;&#xBA70; &#xBC84;&#xD2BC; &#xC911;&#xC5D0; &#xB465;&#xADFC; &#xBAA8;&#xC11C;&#xB9AC;&#xC758; &#xD615;&#xD0DC;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4;&#xC57C; &#xD558;&#xB294; &#xACBD;&#xC6B0;&#xB3C4; &#xC788;&#xC5C8;&#xB294;&#xB370; &#xC790;&#xB8CC;&#xB97C; &#xCC38;&#xACE0;&#xD558;&#xC5EC; drawable &#xD30C;&#xC77C;&#xC5D0; &#xD574;&#xB2F9; &#xBAA8;&#xC591;&#xC744; &#xD45C;&#xD604;&#xD560; &#xC218; &#xC788;&#xB294; xml &#xCF54;&#xB4DC;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4; &#xCD94;&#xAC00;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB610;, &#xCEE4;&#xC2A4;&#xD140; &#xD3F0;&#xD2B8;&#xB97C; &#xC801;&#xC6A9;&#xD558;&#xAE30; &#xC704;&#xD558;&#xC5EC; font &#xD3F4;&#xB354;&#xB97C; &#xAD6C;&#xC131;&#xD558;&#xC5EC; &#xD574;&#xB2F9; &#xD3F0;&#xD2B8;&#xB97C; &#xCD94;&#xAC00;&#xD558;&#xC600;&#xACE0; &#xD14D;&#xC2A4;&#xD2B8;&#xBCC4;&#xB85C; &#xC0AC;&#xC6A9;&#xD558;&#xAE30; &#xC704;&#xD574; font-family xml &#xD30C;&#xC77C; &#xB610;&#xD55C; &#xAD6C;&#xC131;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xCEE4;&#xC2A4;&#xD140; &#xD3F0;&#xD2B8;&#xB97C; &#xC801;&#xC6A9;&#xD558;&#xB294; &#xACFC;&#xC815;&#xC5D0;&#xC11C; font-family&#xB97C; &#xD45C;&#xD604;&#xD558;&#xB294; &#xD558;&#xB098;&#xC758; xml&#xC5D0; &#xC4F0;&#xACE0;&#xC790; &#xD558;&#xB294; &#xBAA8;&#xB4E0; &#xD3F0;&#xD2B8; &#xC815;&#xBCF4;&#xB97C; &#xC9D1;&#xC5B4;&#xB123;&#xC5C8;&#xB294;&#xB370; &#xD14D;&#xC2A4;&#xD2B8; &#xC2A4;&#xD0C0;&#xC77C;&#xC744; &#xC124;&#xC815;&#xD558;&#xB354;&#xB77C;&#xB3C4; &#xD14D;&#xC2A4;&#xD2B8; &#xBDF0;&#xC5D0; &#xC801;&#xC6A9;&#xC774; &#xB418;&#xC9C0; &#xC54A;&#xC544; font-family&#xB97C; &#xAC01;&#xAC01; &#xB9CC;&#xB4E4;&#xC5B4; &#xD574;&#xACB0;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xC624;&#xB298;&#xC740; &#xC5B4;&#xD50C;&#xC758; &#xC77C;&#xBD80;&#xB97C; &#xAD6C;&#xC131;&#xD558;&#xB294; &#xC791;&#xC5C5;&#xC744; &#xD588;&#xB294;&#xB370; &#xC911;&#xAC04;&#xC5D0; &#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xC758; &#xAC1C;&#xBC1C; &#xBC29;&#xD5A5;&#xC5D0; &#xAD00;&#xD574; &#xB69C;&#xB837;&#xD55C; &#xD750;&#xB984;&#xB3C4;&#xAC00; &#xC815;&#xD574;&#xC9C0;&#xC9C0; &#xC54A;&#xC544; 3&#xC2DC;&#xAC04; &#xAC00;&#xB7C9; &#xD558;&#xB4DC;&#xC6E8;&#xC5B4;&#xC640; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4;&#xC758; &#xAC1C;&#xBC1C; &#xD750;&#xB984;&#xB3C4;&#xC5D0; &#xAD00;&#xD574; &#xD68C;&#xC758;&#xB97C; &#xC9C4;&#xD589;&#xD588;&#xB2E4;.  </p>
-<p>&#xC624;&#xB298; &#xD68C;&#xC758;&#xD55C; &#xBAA8;&#xB4E0; &#xB0B4;&#xC6A9;&#xC740; &#xC815;&#xB9AC;&#xD574;&#xC11C; &#xB0B4;&#xC77C; &#xCD94;&#xAC00;&#xC801;&#xC73C;&#xB85C; &#xBC1C;&#xD45C;&#xD560; &#xC608;&#xC815;&#xC774;&#xB2E4;.  </p>
+<p>어제 만들었던 부분에 이어서 버튼부 실행화면의 우측과 하단 화면을 구성했다.  </p>
+<p>1차 초안과 달리 이동거리 표시의 필요성을 느끼지 못해 해당 내용을 지웠고 MRM을 작동시키는 이동 버튼을 더 큰 공간으로 넓혔다.  </p>
+<p>화면 분할을 모두 마치고 기본적인 버튼과 아이콘 등을 배치하였으며 버튼 중에 둥근 모서리의 형태를 만들어야 하는 경우도 있었는데 자료를 참고하여 drawable 파일에 해당 모양을 표현할 수 있는 xml 코드를 만들어 추가하였다.  </p>
+<p>또, 커스텀 폰트를 적용하기 위하여 font 폴더를 구성하여 해당 폰트를 추가하였고 텍스트별로 사용하기 위해 font-family xml 파일 또한 구성하였다.  </p>
+<p>커스텀 폰트를 적용하는 과정에서 font-family를 표현하는 하나의 xml에 쓰고자 하는 모든 폰트 정보를 집어넣었는데 텍스트 스타일을 설정하더라도 텍스트 뷰에 적용이 되지 않아 font-family를 각각 만들어 해결하였다.  </p>
+<p>오늘은 어플의 일부를 구성하는 작업을 했는데 중간에 프로젝트의 개발 방향에 관해 뚜렷한 흐름도가 정해지지 않아 3시간 가량 하드웨어와 소프트웨어의 개발 흐름도에 관해 회의를 진행했다.  </p>
+<p>오늘 회의한 모든 내용은 정리해서 내일 추가적으로 발표할 예정이다.  </p>
 <p><br><br></p>
 <h3 id="2019-03-14"><a href="#2019-03-14" class="headerlink" title="2019.03.14"></a>2019.03.14</h3><hr>
-<p>&#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC; &#xC571; &#xC544;&#xC774;&#xCF58;&#xC744; &#xC81C;&#xC791;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xC77C;&#xB7EC;&#xC2A4;&#xD2B8; &#xD30C;&#xC77C;&#xC744; &#xAD6C;&#xD574;&#xC11C; &#xC784;&#xC2DC; &#xC544;&#xC774;&#xCF58;&#xC744; &#xC81C;&#xC791;&#xD558;&#xC600;&#xB294;&#xB370; &#xCC28;&#xD6C4;&#xC5D0; &#xB2E4;&#xC2DC; &#xC218;&#xC815;&#xC744; &#xD560; &#xC218;&#xB3C4; &#xC788;&#xACE0;, &#xC544;&#xB2C8;&#xBA74; &#xC571; &#xC544;&#xC774;&#xCF58;&#xC740; &#xD06C;&#xAC8C; &#xC911;&#xC694;&#xD558;&#xC9C0; &#xC54A;&#xC744; &#xAC83; &#xAC19;&#xC544; &#xC774;&#xB300;&#xB85C; &#xC801;&#xC6A9;&#xC2DC;&#xD0AC; &#xC218;&#xB3C4; &#xC788;&#xC744; &#xAC83; &#xAC19;&#xB2E4;.  </p>
-<p>&#xC774; &#xC678;&#xC5D0; &#xBC84;&#xD2BC;&#xBD80; &#xC2E4;&#xD589;&#xD654;&#xBA74;&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xB294; &#xB0A0;&#xC9DC; &#xBC0F; &#xC2DC;&#xAC04; &#xD45C;&#xC2DC;&#xB97C; &#xC704;&#xD574; System &#xD074;&#xB798;&#xC2A4;&#xC758; currentTimeMills() &#xBA54;&#xC18C;&#xB4DC;&#xC640; Date &#xD074;&#xB798;&#xC2A4;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xD604;&#xC7AC; &#xC2DC;&#xAC04; &#xC815;&#xBCF4;&#xB97C; &#xD45C;&#xC2DC;&#xD558;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB610;, &#xB3D9;&#xC791; &#xBC84;&#xD2BC;&#xC758; &#xACF5;&#xAC04;&#xC744; &#xC704;&#xC544;&#xB798;&#xB85C; &#xC870;&#xAE08; &#xB354; &#xB113;&#xD788;&#xACE0; &#xC624;&#xB978;&#xCABD; &#xD558;&#xB2E8;&#xBD80;&#xC5D0; &#xC885;&#xB8CC; &#xBC84;&#xD2BC;&#xC744; &#xCD94;&#xAC00;&#xD558;&#xC600;&#xC73C;&#xBA70;, &#xC67C;&#xCABD;/&#xC624;&#xB978;&#xCABD; &#xD654;&#xBA74;&#xC758; &#xB3D9;&#xC791; &#xBC84;&#xD2BC; &#xC0AC;&#xC774;&#xC0AC;&#xC774;&#xC5D0; &#xD68C;&#xC804; &#xAE30;&#xB2A5;&#xC6A9; &#xBC84;&#xD2BC;&#xB3C4; &#xCD94;&#xAC00;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB9C8;&#xC9C0;&#xB9C9;&#xC73C;&#xB85C;, &#xCE74;&#xBA54;&#xB77C; &#xD654;&#xBA74;&#xC774; &#xB098;&#xC62C; &#xBD80;&#xBD84;&#xC5D0; &#xD14C;&#xB450;&#xB9AC;&#xB97C; &#xD45C;&#xC2DC;&#xD558;&#xACE0; &#xC815;&#xBCF4;&#xB97C; &#xBCF4;&#xC5EC;&#xC904; &#xD558;&#xB2E8;&#xBD80; &#xBD80;&#xBD84;&#xC5D0;&#xB3C4; &#xB465;&#xADFC; &#xD14C;&#xB450;&#xB9AC; &#xB77C;&#xC778;&#xC744; &#xADF8;&#xB824; &#xCD5C;&#xB300;&#xD55C; &#xADE0;&#xD615;&#xC788;&#xB294; &#xD615;&#xD0DC;&#xB85C; &#xBCF4;&#xC5EC;&#xC8FC;&#xB3C4;&#xB85D; &#xAD6C;&#xC131;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xC2DC;&#xAC04; &#xAC1C;&#xB150;&#xC744; &#xB3C4;&#xC785;&#xD558;&#xB294; &#xBD80;&#xBD84;&#xC5D0;&#xC11C;&#xB294; &#xC624;&#xB958;&#xAC00; &#xC788;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xB0A0;&#xC9DC;&#xC640; &#xC2DC;&#xAC04; &#xC790;&#xCCB4;&#xB97C; &#xBCF4;&#xC5EC;&#xC8FC;&#xB294; &#xBD80;&#xBD84;&#xC5D0;&#xC11C;&#xB294; &#xBB38;&#xC81C;&#xAC00; &#xC5C6;&#xC5C8;&#xC9C0;&#xB9CC; &#xACE0;&#xC815;&#xB41C; &#xC2DC;&#xAC04;&#xC744; &#xBCF4;&#xC5EC;&#xC8FC;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xCC28;&#xD6C4;&#xC5D0; &#xC4F0;&#xB808;&#xB4DC; &#xAC1C;&#xB150;&#xC744; &#xB3C4;&#xC785;&#xD558;&#xC5EC; 1&#xBD84;&#xB9C8;&#xB2E4; &#xD639;&#xC740; &#xC8FC;&#xAE30;&#xC801;&#xC73C;&#xB85C; &#xAC31;&#xC2E0;&#xD560; &#xC218; &#xC788;&#xB294; &#xAE30;&#xB2A5;&#xC744; &#xB123;&#xC5B4;&#xC918;&#xC57C; &#xD560; &#xAC83; &#xAC19;&#xB2E4;.  </p>
-<p>&#xB610;, &#xC2DC;&#xAC04;&#xACFC; &#xB0A0;&#xC9DC;&#xB97C; &#xD45C;&#xC2DC;&#xD558;&#xB294; &#xBD80;&#xBD84;&#xC758; &#xB808;&#xC774;&#xC544;&#xC6C3; &#xC801;&#xC6A9;&#xC5D0; &#xB09C;&#xD574;&#xD55C; &#xBD80;&#xBD84;&#xC774; &#xC788;&#xC5C8;&#xB294;&#xB370; &#xC11C;&#xB85C; &#xB2E4;&#xB978; &#xD14D;&#xC2A4;&#xD2B8; &#xAC04;&#xC5D0; &#xACF5;&#xBC31; &#xACF5;&#xAC04;&#xC774; &#xB108;&#xBB34; &#xCEE4;&#xC11C; &#xD654;&#xBA74;&#xC5D0; &#xCD9C;&#xB825;&#xD560; &#xB54C; &#xBCF4;&#xAE30;&#xAC00; &#xBD88;&#xD3B8;&#xD55C; &#xC810;&#xC774; &#xC788;&#xC5C8;&#xB2E4;.  </p>
-<p>&#xC774;&#xB294; IncludeFontPadding&#xC744; false &#xCC98;&#xB9AC;&#xD574;&#xC11C; &#xC870;&#xAE08;&#xC774;&#xB098;&#xB9C8; &#xD574;&#xACB0;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB0B4;&#xC77C;&#xC740; &#xBA54;&#xC778;&#xBD80; &#xD654;&#xBA74; &#xAD6C;&#xC131;&#xC744; &#xD560; &#xACC4;&#xD68D;&#xC774;&#xB2E4;.  </p>
+<p>안드로이드 앱 아이콘을 제작하였다.  </p>
+<p>일러스트 파일을 구해서 임시 아이콘을 제작하였는데 차후에 다시 수정을 할 수도 있고, 아니면 앱 아이콘은 크게 중요하지 않을 것 같아 이대로 적용시킬 수도 있을 것 같다.  </p>
+<p>이 외에 버튼부 실행화면에 들어가는 날짜 및 시간 표시를 위해 System 클래스의 currentTimeMills() 메소드와 Date 클래스를 이용하여 현재 시간 정보를 표시하도록 하였다.  </p>
+<p>또, 동작 버튼의 공간을 위아래로 조금 더 넓히고 오른쪽 하단부에 종료 버튼을 추가하였으며, 왼쪽/오른쪽 화면의 동작 버튼 사이사이에 회전 기능용 버튼도 추가하였다.  </p>
+<p>마지막으로, 카메라 화면이 나올 부분에 테두리를 표시하고 정보를 보여줄 하단부 부분에도 둥근 테두리 라인을 그려 최대한 균형있는 형태로 보여주도록 구성하였다.  </p>
+<p>시간 개념을 도입하는 부분에서는 오류가 있었다.  </p>
+<p>날짜와 시간 자체를 보여주는 부분에서는 문제가 없었지만 고정된 시간을 보여주기 때문에 차후에 쓰레드 개념을 도입하여 1분마다 혹은 주기적으로 갱신할 수 있는 기능을 넣어줘야 할 것 같다.  </p>
+<p>또, 시간과 날짜를 표시하는 부분의 레이아웃 적용에 난해한 부분이 있었는데 서로 다른 텍스트 간에 공백 공간이 너무 커서 화면에 출력할 때 보기가 불편한 점이 있었다.  </p>
+<p>이는 IncludeFontPadding을 false 처리해서 조금이나마 해결하였다.  </p>
+<p>내일은 메인부 화면 구성을 할 계획이다.  </p>
 <p><br><br></p>
 <h3 id="2019-03-15"><a href="#2019-03-15" class="headerlink" title="2019.03.15"></a>2019.03.15</h3><hr>
-<p>&#xC571; &#xBA54;&#xC778; &#xC2E4;&#xD589;&#xD654;&#xBA74;&#xC744; &#xAD6C;&#xC131;&#xD588;&#xB2E4;.  </p>
-<p>&#xC791;&#xB3D9;&#xC2DC;&#xC791;, &#xC544;&#xC774;&#xD53C; &#xC815;&#xBCF4; &#xBCC0;&#xACBD;, &#xD658;&#xACBD;&#xC124;&#xC815;, &#xC81C;&#xC791;&#xC815;&#xBCF4;, &#xC571; &#xC885;&#xB8CC; &#xBC84;&#xD2BC; &#xBC0F; &#xC5F0;&#xACB0;&#xB41C; &#xC544;&#xC774;&#xD53C; &#xC8FC;&#xC18C;/&#xD3EC;&#xD2B8;&#xC640; &#xD604;&#xC7AC; &#xC5F0;&#xACB0; &#xC0C1;&#xD0DC;&#xB97C; &#xBCF4;&#xC5EC;&#xC8FC;&#xB294; &#xD14D;&#xC2A4;&#xD2B8;&#xBDF0;&#xB97C; &#xCD94;&#xAC00;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB610;, &#xB4A4;&#xB85C;&#xAC00;&#xAE30;&#xB97C; &#xB20C;&#xB800;&#xC744; &#xB54C; &#xC571;&#xC774; &#xD55C;&#xBC88;&#xC5D0; &#xC885;&#xB8CC;&#xB418;&#xB294; &#xAC83;&#xC744; &#xBC29;&#xC9C0;&#xD558;&#xAE30; &#xC704;&#xD574; &#xB4A4;&#xB85C;&#xAC00;&#xAE30;&#xB97C; 2&#xBC88; &#xB20C;&#xB800;&#xC744; &#xB54C; &#xC571;&#xC774; &#xC885;&#xB8CC;&#xB418;&#xB3C4;&#xB85D; &#xC124;&#xC815;&#xD558;&#xC600;&#xACE0; &#xAE30;&#xC874;&#xC5D0; &#xAD6C;&#xD604;&#xD574; &#xB193;&#xC558;&#xB358; &#xBC84;&#xD2BC;&#xBD80; &#xC2E4;&#xD589;&#xD654;&#xBA74;&#xACFC; Intent&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xC5F0;&#xACB0;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xBC84;&#xD2BC;&#xBD80; &#xC2E4;&#xD589;&#xD654;&#xBA74;&#xC5D0;&#xC11C;&#xB294; &#xC774;&#xC804;&#xC5D0; &#xD574;&#xACB0;&#xD558;&#xC9C0; &#xBABB;&#xD55C; &#xC2E4;&#xC2DC;&#xAC04; &#xC2DC;&#xAC04; &#xD45C;&#xC2DC; &#xAE30;&#xB2A5;&#xC744; &#xC2A4;&#xB808;&#xB4DC;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; 1&#xCD08;&#xC5D0; &#xD55C; &#xBC88;&#xC529; &#xC2DC;&#xAC04;&#xC744; &#xAC31;&#xC2E0;&#xD558;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xBA54;&#xC778;&#xD654;&#xBA74;&#xC5D0;&#xC11C; &#xBC84;&#xD2BC;&#xBD80; &#xC2E4;&#xD589;&#xD654;&#xBA74;&#xACFC; &#xC5F0;&#xACB0;&#xD558;&#xB294; &#xACFC;&#xC815;&#xC5D0;&#xC11C; NullPointerException &#xC624;&#xB958;&#xAC00; &#xBC1C;&#xC0DD;&#xD558;&#xC600;&#xB294;&#xB370;, &#xAE30;&#xC874;&#xC5D0; &#xC791;&#xC131;&#xD55C; Button &#xD074;&#xB798;&#xC2A4;&#xC758; setContentView &#xD0C0;&#xAE43; &#xB808;&#xC774;&#xC544;&#xC6C3;&#xC744; &#xC81C;&#xB300;&#xB85C; &#xD45C;&#xAE30;&#xD558;&#xC9C0; &#xC54A;&#xC544; &#xC0DD;&#xAE34; &#xAC83;&#xC73C;&#xB85C; &#xD655;&#xC778;&#xD558;&#xACE0; &#xC218;&#xC815; &#xD6C4; &#xD574;&#xACB0;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xB610;, &#xC544;&#xC774;&#xD53C; &#xC815;&#xBCF4; &#xBCC0;&#xACBD; &#xBC84;&#xD2BC;&#xC744; &#xB20C;&#xB800;&#xC744; &#xB54C; &#xB2E4;&#xC774;&#xC5BC;&#xB85C;&#xADF8;&#xAC00; &#xD45C;&#xC2DC;&#xB418;&#xB3C4;&#xB85D; &#xD558;&#xC600;&#xB294;&#xB370;, &#xD654;&#xBA74;&#xC744; &#xB465;&#xAE00;&#xAC8C; &#xAD6C;&#xC131;&#xD574;&#xC11C; &#xADF8;&#xB7F0;&#xC9C0; &#xB4B7; &#xBC30;&#xACBD;&#xC774; &#xB098;&#xC624;&#xB294; &#xD604;&#xC0C1;&#xC774; &#xC788;&#xC5B4; Dialog &#xD074;&#xB798;&#xC2A4;&#xC758; <code>getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT))</code> &#xBA54;&#xC18C;&#xB4DC;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xD574;&#xACB0;&#xD558;&#xC600;&#xB2E4;.  </p>
-<p>&#xC55E;&#xC73C;&#xB85C; WebioPi&#xC758; &#xCE74;&#xBA54;&#xB77C; &#xAE30;&#xB2A5;&#xC744; &#xC5F0;&#xACB0;&#xD558;&#xC600;&#xC744; &#xB54C; &#xC2DC;&#xAC04; &#xAC31;&#xC2E0; &#xBA54;&#xC18C;&#xB4DC;&#xC640; &#xCDA9;&#xB3CC;&#xC740; &#xC5C6;&#xC744; &#xC9C0;&#xB97C; &#xCD5C;&#xC6B0;&#xC120;&#xC801;&#xC73C;&#xB85C; &#xD655;&#xC778;&#xD574;&#xC57C; &#xD560; &#xAC83; &#xAC19;&#xB2E4;.</p>
-</body></html>
-    
-    </div>
-    
-    <div class="columns is-variable is-1 is-multiline is-mobile">
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#팀프로젝트</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">#프로젝트</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">#캡스톤디자인</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Team-Project/">#Team Project</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Project/">#Project</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Capstone-Design/">#Capstone Design</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/MRM/">#MRM</a></span>
-    
-    </div>
-    
-    
-    <div class="columns is-mobile is-multiline article-nav">
-        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
-            
-            <a href="/2019/05/04/mrm-report-190319/">주간 진행 보고서 (3월 3주차)</a>
-            
-        </span>
-        <span class="column is-12-mobile is-half-desktop  article-nav-next">
-            
-            <a href="/2019/05/04/mrm-report-190305/">주간 진행 보고서 (3월 1주차)</a>
-            
-        </span>
-    </div>
-    
-</article>
-
-
-<div class="sharebox">
-    
-<div class="sharethis-inline-share-buttons"></div>
-<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
-
-</div>
-
-
-
-<div class="comments">
-    <h3 class="title is-4">댓글</h3>
-    
-<script>
-    var disqus_config = function () {
-        this.page.url = 'https://y8ncastle.me/2019/05/04/mrm-report-190312/';
-        this.page.identifier = '2019/05/04/mrm-report-190312/';
-        
-        this.language = 'ko';
-        
-    };
-    (function() {
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<div id="disqus_thread">
-    
-    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</div>
-
-    </div>
-</section>
-    <footer class="footer">
-    <div class="container">
-        <div class="columns content">
-            <div class="column is-narrow has-text-centered">
-                &copy; 2021 Zay Jeong&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
-            </div>
-            <div class="column is-hidden-mobile"></div>
-
-            
-            <div class="column is-narrow">
-                <div class="columns is-mobile is-multiline is-centered">
-                
-                    
-                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
-                    
-                    GitHub
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
-                    
-                    LinkedIn
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
-                    
-                    Instagram
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
-                    
-                    Facebook
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
-                    
-                    BOJ
-                    
-                </a>
-                
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-
-<!-- test if the browser is outdated -->
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // plugin function, place inside DOM ready function
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        })
-    });
-</script>
-
-<script>
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-    moment.locale("ko");
-</script>
-
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script>
-    MathJax.Hub.Config({
-        "HTML-CSS": {
-            matchFontHeight: false
-        },
-        SVG: {
-            matchFontHeight: false
-        },
-        CommonHTML: {
-            matchFontHeight: false
-        },
-        tex2jax: {
-            inlineMath: [
-                ['$','$'],
-                ['\\(','\\)']
-            ]
-        }
-    });
-</script>
-
-    
-    
-    
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
-<script>
-    (function ($) {
-        $(document).ready(function () {
-            if (typeof($.fn.lightGallery) === 'function') {
-                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+<p>앱 메인 실행화면을 구성했다.  </p>
+<p>작동시작, 아이피 정보 변경, 환경설정, 제작정보, 앱 종료 버튼 및 연결된 아이피 주소/포트와 현재 연결 상태를 보여주는 텍스트뷰를 추가하였다.  </p>
+<p>또, 뒤로가기를 눌렀을 때 앱이 한번에 종료되는 것을 방지하기 위해 뒤로가기를 2번 눌렀을 때 앱이 종료되도록 설정하였고 기존에 구현해 놓았던 버튼부 실행화면과 Intent를 이용하여 연결하였다.  </p>
+<p>버튼부 실행화면에서는 이전에 해결하지 못한 실시간 시간 표시 기능을 스레드를 이용하여 1초에 한 번씩 시간을 갱신하도록 하였다.  </p>
+<p>메인화면에서 버튼부 실행화면과 연결하는 과정에서 NullPointerException 오류가 발생하였는데, 기존에 작성한 Button 클래스의 setContentView 타깃 레이아웃을 제대로 표기하지 않아 생긴 것으로 확인하고 수정 후 해결하였다.  </p>
+<p>또, 아이피 정보 변경 버튼을 눌렀을 때 다이얼로그가 표시되도록 하였는데, 화면을 둥글게 구성해서 그런지 뒷 배경이 나오는 현상이 있어 Dialog 클래스의 <code>getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT))</code> 메소드를 이용하여 해결하였다.  </p>
+<p>앞으로 WebioPi의 카메라 기능을 연결하였을 때 시간 갱신 메소드와 충돌은 없을 지를 최우선적으로 확인해야 할 것 같다.</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>주간 진행 보고서 (3월 2주차)</p><p><a href="https://y8ncastle.me/2019/05/04/mrm-report-190312/">https://y8ncastle.me/2019/05/04/mrm-report-190312/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Zay Jeong</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2019-05-04</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-01-08</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</a><a class="link-muted mr-2" rel="tag" href="/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">프로젝트</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">캡스톤디자인</a><a class="link-muted mr-2" rel="tag" href="/tags/Team-Project/">Team Project</a><a class="link-muted mr-2" rel="tag" href="/tags/Project/">Project</a><a class="link-muted mr-2" rel="tag" href="/tags/Capstone-Design/">Capstone Design</a><a class="link-muted mr-2" rel="tag" href="/tags/MRM/">MRM</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2019/05/04/mrm-report-190319/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">주간 진행 보고서 (3월 3주차)</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2019/05/04/mrm-report-190305/"><span class="level-item">주간 진행 보고서 (3월 1주차)</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://y8ncastle.me/2019/05/04/mrm-report-190312/';
+            this.page.identifier = '2019/05/04/mrm-report-190312/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'zayjeong' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="제이정 (Zay Jeong)"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">제이정 (Zay Jeong)</p><p class="is-size-6 is-block">대학원생, 블록체인 연구원</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 서울</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">183</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">338</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/y8ncastle" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/y8ncastle"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/y8ncastle"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/y8ncastle"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/zay.jeong"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">관련 링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.acmicpc.net/user/zarch4894" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-right"><span class="level-item tag">www.acmicpc.net</span></span></a></li><li><a class="level is-mobile" href="https://youtube.com/playlist?list=PL93hJn5LGgIMVNoSYrI6_PGfVJp6L05x_" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Youtube</span></span><span class="level-right"><span class="level-item tag">youtube.com</span></span></a></li><li><a class="level is-mobile" href="https://medium.com/@y8ncastle" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Medium</span></span><span class="level-right"><span class="level-item tag">medium.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%EA%B5%90%EC%9C%A1-Blockchain/"><span class="level-start"><span class="level-item">&lt;교육&gt; Blockchain</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Academy/"><span class="level-start"><span class="level-item">Academy</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Achievement/"><span class="level-start"><span class="level-item">Achievement</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/Baekjoon-Online-Judge/"><span class="level-start"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-end"><span class="level-item tag">31</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/"><span class="level-start"><span class="level-item">Blockchain</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><span class="level-start"><span class="level-item">&lt;교육&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Hyperledger-Fabric/"><span class="level-start"><span class="level-item">&lt;교육&gt; Hyperledger Fabric</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><span class="level-start"><span class="level-item">&lt;실습&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%9D%B4%EB%A1%A0-Bitcoin/"><span class="level-start"><span class="level-item">&lt;이론&gt; Bitcoin</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/Ethereum/"><span class="level-start"><span class="level-item">Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/CSS/"><span class="level-start"><span class="level-item">CSS</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Crypto-Community/"><span class="level-start"><span class="level-item">Crypto Community</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Exhibition/"><span class="level-start"><span class="level-item">Exhibition</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Education/"><span class="level-start"><span class="level-item">IT Education</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Free-Board/"><span class="level-start"><span class="level-item">IT Free Board</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/"><span class="level-start"><span class="level-item">Personal Project</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><span class="level-start"><span class="level-item">&lt;개인&gt; Android</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Ethereum/"><span class="level-start"><span class="level-item">&lt;개인&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/Plan/"><span class="level-start"><span class="level-item">Plan</span></span><span class="level-end"><span class="level-item tag">49</span></span></a></li><li><a class="level is-mobile" href="/categories/Seminar/"><span class="level-start"><span class="level-item">Seminar</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/"><span class="level-start"><span class="level-item">Team Project</span></span><span class="level-end"><span class="level-item tag">32</span></span></a><ul><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-Hanium/"><span class="level-start"><span class="level-item">&lt;팀&gt; Hanium</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-MRM/"><span class="level-start"><span class="level-item">&lt;팀&gt; MRM</span></span><span class="level-end"><span class="level-item tag">25</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-On-Books/"><span class="level-start"><span class="level-item">&lt;팀&gt; On Books</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-X-Corps/"><span class="level-start"><span class="level-item">&lt;팀&gt; X-Corps</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/X-Corps/"><span class="level-start"><span class="level-item">X-Corps</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 포스트</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-03-01T11:21:00.000Z">2020-03-01</time></p><p class="title"><a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a></p><p class="categories"><a href="/categories/Plan/">Plan</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T08:27:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/ethereum-private-network/">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</a></p><p class="categories"><a href="/categories/Blockchain/">Blockchain</a> / <a href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T02:50:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a></p><p class="categories"><a href="/categories/CSS/">CSS</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T14:37:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/hanbat-diploma/">국립 한밭대학교 정보통신공학 학사 학위 취득</a></p><p class="categories"><a href="/categories/Achievement/">Achievement</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T02:36:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/youtube-seminar-20-3/">[2020.02.17] A New Privacy Protection Security Scheme for Blockchain (BaSE Lab 유튜브 세미나 20-3차)</a></p><p class="categories"><a href="/categories/Seminar/">Seminar</a></p></div></article></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Zay Jeong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
             }
-            if (typeof($.fn.justifiedGallery) === 'function') {
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
                 $('.justified-gallery').justifiedGallery();
             }
-        });
-    })(jQuery);
-</script>
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-    <style>
-        .hljs {
-            position: relative;
-        }
-
-        .hljs .clipboard-btn {
-            float: right;
-            color: #9a9a9a;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .hljs .clipboard-btn:hover {
-          color: #8a8a8a;
-        }
-
-        .hljs > .clipboard-btn {
-            display: none;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-        }
-
-        .hljs:hover > .clipboard-btn {
-            display: inline;
-        }
-
-        .hljs > figcaption > .clipboard-btn {
-            margin-right: 4px;
-        }
-    </style>
-    <script>
-      $(document).ready(function () {
-        $('figure.hljs').each(function(i, figure) {
-          var codeId = 'code-' + i;
-          var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
-          code.id = codeId;
-          copyButton.addClass('clipboard-btn');
-          copyButton.attr('data-clipboard-target-id', codeId);
-
-          var figcaption = figure.querySelector('figcaption');
-
-          if (figcaption) {
-            figcaption.append(copyButton[0]);
-          } else {
-            figure.prepend(copyButton[0]);
-          }
-        })
-
-        var clipboard = new ClipboardJS('.clipboard-btn', {
-          target: function(trigger) {
-            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-          }
-        });
-        clipboard.on('success', function(e) {
-          e.clearSelection();
-        })
-      })
-    </script>
-
-    
-    
-
-    
-
-
-
-<script src="/js/script.js"></script>
-
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-mask"></div>
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '글',
-                PAGES: '페이지',
-                CATEGORIES: '카테고리 목록',
-                TAGS: '태그 목록',
-                UNTITLED: '(제목없음)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-    
-</body>
-</html>
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="검색할 내용을 입력하세요"></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"검색할 내용을 입력하세요","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>

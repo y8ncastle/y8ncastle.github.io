@@ -1,258 +1,83 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top">
-<head>
-    <meta charset="utf-8">
-<title>이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습 - Zay Jeong Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
-
-
-
-
-<meta name="description" content="Zay Jeong's IT Blog (Personal Development)">
-
-
-
-<meta name="keywords" content="IT, Blockchain, Android, Development">
-
-
-
-    <meta name="description" content="Geth &amp;#xC0AC;&amp;#xC6A9;  Go Ethereum (Geth) &amp;#xC124;&amp;#xCE58; - https:&#x2F;&#x2F;geth.ethereum.org&#x2F;downloads&#x2F;     &amp;#xD130;&amp;#xBBF8;&amp;#xB110;&amp;#xC5D0;&amp;#xC11C; geth &amp;#xC2E4;&amp;#xD589;     &amp;#xACC4;&amp;#xC815; &amp;#xC0DD;&amp;">
-<meta property="og:type" content="article">
-<meta property="og:title" content="이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습">
-<meta property="og:url" content="https://y8ncastle.me/2020/02/25/ethereum-private-network/index.html">
-<meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="Geth &amp;#xC0AC;&amp;#xC6A9;  Go Ethereum (Geth) &amp;#xC124;&amp;#xCE58; - https:&#x2F;&#x2F;geth.ethereum.org&#x2F;downloads&#x2F;     &amp;#xD130;&amp;#xBBF8;&amp;#xB110;&amp;#xC5D0;&amp;#xC11C; geth &amp;#xC2E4;&amp;#xD589;     &amp;#xACC4;&amp;#xC815; &amp;#xC0DD;&amp;">
-<meta property="og:locale" content="ko_KR">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332373-02b2c500-4aad-11eb-801c-b4fd9912cda2.png">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332372-021a2e80-4aad-11eb-94ef-eec119b905f9.png">
-<meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332370-00e90180-4aad-11eb-9805-b7b8ca0d0993.png">
-<meta property="article:published_time" content="2020-02-25T08:27:00.000Z">
-<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
-<meta property="article:author" content="Zay Jeong">
-<meta property="article:tag" content="블록체인">
-<meta property="article:tag" content="Blockchain">
-<meta property="article:tag" content="이더리움">
-<meta property="article:tag" content="이더리움 프라이빗 네트워크">
-<meta property="article:tag" content="스마트 컨트랙트">
-<meta property="article:tag" content="이더리움 네트워크 구축">
-<meta property="article:tag" content="Ethereum">
-<meta property="article:tag" content="Ethereum Private Network">
-<meta property="article:tag" content="Smart Contract">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg">
-
-
-
-
-
-<link rel="icon" href="/images/favicon/favicon.ico">
-
-
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap">
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
-
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습 - Zay Jeong Blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Zay (Yoonsung), Jeong"><meta name="msapplication-TileImage" content="/img/favicon.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Zay (Yoonsung), Jeong"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Geth 사용  Go Ethereum (Geth) 설치 - https:&amp;#x2F;&amp;#x2F;geth.ethereum.org&amp;#x2F;downloads&amp;#x2F;     터미널에서 geth 실행     계정 생성: geth --datadir &amp;quot;드라이브명:\폴더명&amp;quot; account new   이후 해당 폴더에 keystore 파일과 공개키가 생성됨"><meta property="og:type" content="blog"><meta property="og:title" content="이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습"><meta property="og:url" content="https://y8ncastle.me/2020/02/25/ethereum-private-network/"><meta property="og:site_name" content="Zay Jeong Blog"><meta property="og:description" content="Geth 사용  Go Ethereum (Geth) 설치 - https:&amp;#x2F;&amp;#x2F;geth.ethereum.org&amp;#x2F;downloads&amp;#x2F;     터미널에서 geth 실행     계정 생성: geth --datadir &amp;quot;드라이브명:\폴더명&amp;quot; account new   이후 해당 폴더에 keystore 파일과 공개키가 생성됨"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332373-02b2c500-4aad-11eb-801c-b4fd9912cda2.png"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332372-021a2e80-4aad-11eb-94ef-eec119b905f9.png"><meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332370-00e90180-4aad-11eb-9805-b7b8ca0d0993.png"><meta property="article:published_time" content="2020-02-25T08:27:00.000Z"><meta property="article:modified_time" content="2021-01-08T06:00:52.000Z"><meta property="article:author" content="Zay Jeong"><meta property="article:tag" content="블록체인"><meta property="article:tag" content="Blockchain"><meta property="article:tag" content="이더리움"><meta property="article:tag" content="이더리움 프라이빗 네트워크"><meta property="article:tag" content="스마트 컨트랙트"><meta property="article:tag" content="이더리움 네트워크 구축"><meta property="article:tag" content="Ethereum"><meta property="article:tag" content="Ethereum Private Network"><meta property="article:tag" content="Smart Contract"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://y8ncastle.me/2020/02/25/ethereum-private-network/"},"headline":"Zay Jeong Blog","image":["https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg","https://user-images.githubusercontent.com/52089296/103332373-02b2c500-4aad-11eb-801c-b4fd9912cda2.png","https://user-images.githubusercontent.com/52089296/103332372-021a2e80-4aad-11eb-94ef-eec119b905f9.png","https://user-images.githubusercontent.com/52089296/103332370-00e90180-4aad-11eb-9805-b7b8ca0d0993.png"],"datePublished":"2020-02-25T08:27:00.000Z","dateModified":"2021-01-08T06:00:52.000Z","author":{"@type":"Person","name":"Zay Jeong"},"description":"Geth 사용  Go Ethereum (Geth) 설치 - https:&#x2F;&#x2F;geth.ethereum.org&#x2F;downloads&#x2F;     터미널에서 geth 실행     계정 생성: geth --datadir &quot;드라이브명:\\폴더명&quot; account new   이후 해당 폴더에 keystore 파일과 공개키가 생성됨"}</script><link rel="canonical" href="https://y8ncastle.me/2020/02/25/ethereum-private-network/"><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><script src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2" async></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168776470-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168776470-2');
-</script>
-
-
-    
-
-
-<meta name="generator" content="Hexo 5.0.2"></head>
-<body>
-    
-<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item navbar-logo" href="/">
-                
-                <img src="/images/logo.png" alt="" height="28">
-                
-            </a>
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        
-        <div class="navbar-menu navbar-start">
-            
-            <a class="navbar-item "
-               href="/about">About</a>
-            
-            <a class="navbar-item "
-               href="/categories">Categories</a>
-            
-            <a class="navbar-item "
-               href="/tags">Tags</a>
-            
-            <a class="navbar-item "
-               href="/archives">Archives</a>
-            
-            <a class="navbar-item "
-               href="/cv">CV</a>
-            
-        </div>
-        
-        <div class="navbar-menu navbar-end">
-            
-            <a class="navbar-item search" title="검색" href="javascript:;">
-                <i class="fas fa-search"></i>
-            </a>
-            
-            
-            
-            <a class="navbar-item" title="GitHub" target="_blank" rel="noopener" href="https://github.com/y8ncastle">
-                
-                <i class="fab fa-github"></i>
-                
-            </a>
-               
-            
-        </div>
-    </div>
-</nav>
-
-    <section class="section">
-    <div class="container">
-    <article class="article content gallery" itemscope itemprop="blogPost">
-    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
-        
-            이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습
-        
-    </h1>
-    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
-        <span class="column is-narrow">
-            <time datetime="2020-02-25T08:27:00.000Z" itemprop="datePublished">2월 25 2020</time>
-        </span>
-        
-        <span class="column is-narrow article-category">
-            <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Blockchain/">Blockchain</a><span>></span><a class="article-category-link" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><실습> Ethereum</a>
-        </span>
-        
-        
-        <span class="column is-narrow">
-            
-            
-            14분 소요 (약 2150 단어)
-        </span>
-        
-    </div>
-    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
-    
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg" width="60%"></p>  
+        gtag('config', 'UA-168776470-2');</script><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.0.2"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">홈</a><a class="navbar-item" href="/about">CV</a><a class="navbar-item" href="/categories">카테고리</a><a class="navbar-item" href="/archives">타임라인</a><a class="navbar-item" href="/tags">태그 모음</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2020-02-25T08:27:00.000Z" title="2020. 2. 25. 오후 5:27:00">2020-02-25</time>&nbsp;최초 게시 됨</span><span class="level-item"><time dateTime="2021-01-08T06:00:52.000Z" title="2021. 1. 8. 오후 3:00:52">2021-01-08</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/Blockchain/">Blockchain</a><span> / </span><a class="link-muted" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></span><span class="level-item">14분 소요 (약 2150 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</h1><div class="content"><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg" width="60%"></p>  
 
 <p><br><br></p>
-<h3 id="Geth-&#xC0AC;&#xC6A9;"><a href="#Geth-&#xC0AC;&#xC6A9;" class="headerlink" title="Geth &#xC0AC;&#xC6A9;"></a>Geth &#xC0AC;&#xC6A9;</h3><hr>
+<h3 id="Geth-사용"><a href="#Geth-사용" class="headerlink" title="Geth 사용"></a>Geth 사용</h3><hr>
 <ol>
-<li><strong>Go Ethereum (Geth) &#xC124;&#xCE58;</strong> - <a target="_blank" rel="noopener" href="https://geth.ethereum.org/downloads/">https://geth.ethereum.org/downloads/</a></li>
+<li><strong>Go Ethereum (Geth) 설치</strong> - <a target="_blank" rel="noopener" href="https://geth.ethereum.org/downloads/">https://geth.ethereum.org/downloads/</a></li>
 </ol>
 <br>
 
 <ol start="2">
-<li>&#xD130;&#xBBF8;&#xB110;&#xC5D0;&#xC11C; <code>geth</code> &#xC2E4;&#xD589;</li>
+<li>터미널에서 <code>geth</code> 실행</li>
 </ol>
 <br>
 
 <ol start="3">
-<li><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>geth --datadir &quot;&#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85;&quot; account new</code>  <ul>
-<li>&#xC774;&#xD6C4; &#xD574;&#xB2F9; &#xD3F4;&#xB354;&#xC5D0; keystore &#xD30C;&#xC77C;&#xACFC; &#xACF5;&#xAC1C;&#xD0A4;&#xAC00; &#xC0DD;&#xC131;&#xB428;</li>
+<li><strong>계정 생성</strong>: <code>geth --datadir &quot;드라이브명:\폴더명&quot; account new</code>  <ul>
+<li>이후 해당 폴더에 keystore 파일과 공개키가 생성됨</li>
 </ul>
 </li>
 </ol>
 <br>
 
 <ol start="4">
-<li>Genesis block &#xCF54;&#xB4DC; &#xC791;&#xC131; (&#xC784;&#xC758;&#xC758; .json &#xD30C;&#xC77C; &#xC0DD;&#xC131;)</li>
+<li>Genesis block 코드 작성 (임의의 .json 파일 생성)</li>
 </ol>
 <br>
 
-<figure class="highlight json hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">{</span><br><span class="line">    <span class="hljs-attr">&quot;config&quot;</span>: {</span><br><span class="line">        <span class="hljs-attr">&quot;chainId&quot;</span>: <span class="hljs-number">1008</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;homesteadBlock&quot;</span>: <span class="hljs-number">0</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;eip150Block&quot;</span>: <span class="hljs-number">0</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;eip155Block&quot;</span>: <span class="hljs-number">0</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;eip158Block&quot;</span>: <span class="hljs-number">0</span></span><br><span class="line">    },</span><br><span class="line">    <span class="hljs-attr">&quot;alloc&quot;</span>: {</span><br><span class="line">        <span class="hljs-attr">&quot;&#xAC1C;&#xC778; &#xD37C;&#xBE14;&#xB9AD; &#xD0A4; &#xC8FC;&#xC18C;&quot;</span>: {<span class="hljs-attr">&quot;balance&quot;</span>: <span class="hljs-string">&quot;&#xBCF4;&#xC720; &#xAE08;&#xC561;&quot;</span></span><br><span class="line">    },</span><br><span class="line">    <span class="hljs-attr">&quot;coinbase&quot;</span>: <span class="hljs-string">&quot;0x0000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;difficulty&quot;</span>: <span class="hljs-string">&quot;0x20000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;extraData&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;gasLimit&quot;</span>: <span class="hljs-string">&quot;0x2fefd8&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;nonce&quot;</span>: <span class="hljs-string">&quot;0x0000000000000042&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;mixhash&quot;</span>: <span class="hljs-string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;parentHash&quot;</span>: <span class="hljs-string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;timestamp&quot;</span>: <span class="hljs-string">&quot;0x00&quot;</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;config&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;chainId&quot;</span>: <span class="number">1008</span>,</span><br><span class="line">        <span class="attr">&quot;homesteadBlock&quot;</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">&quot;eip150Block&quot;</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">&quot;eip155Block&quot;</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">&quot;eip158Block&quot;</span>: <span class="number">0</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;alloc&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;개인 퍼블릭 키 주소&quot;</span>: &#123;<span class="attr">&quot;balance&quot;</span>: <span class="string">&quot;보유 금액&quot;</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;coinbase&quot;</span>: <span class="string">&quot;0x0000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;difficulty&quot;</span>: <span class="string">&quot;0x20000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;extraData&quot;</span>: <span class="string">&quot;&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;gasLimit&quot;</span>: <span class="string">&quot;0x2fefd8&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;nonce&quot;</span>: <span class="string">&quot;0x0000000000000042&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;mixhash&quot;</span>: <span class="string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;parentHash&quot;</span>: <span class="string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;timestamp&quot;</span>: <span class="string">&quot;0x00&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <br>
 
 <ol start="5">
-<li><strong>Genesis Block &#xC0DD;&#xC131;</strong>: &#xACC4;&#xC815; &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9;&#xD55C; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xACC4;&#xC815; &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></li>
+<li><strong>Genesis Block 생성</strong>: 계정 폴더로 이동한 후 <code>geth --datadir 드라이브명:\계정 폴더명 init 파일명.json</code></li>
 </ol>
 <br>
 
 <ol start="6">
-<li><strong>&#xB178;&#xB4DC; &#xC2E4;&#xD589;</strong>: <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85;</code></li>
+<li><strong>노드 실행</strong>: <code>geth --datadir 드라이브명:\폴더명</code></li>
 </ol>
 <br>
 
 <ol start="7">
-<li><strong>&#xB178;&#xB4DC; &#xC2E4;&#xD589; &#xBC0F; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC811;&#xC18D;</strong>: <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xD3F4;&#xB354;&#xBA85; --networkid &#xC22B;&#xC790; console</code><ul>
-<li>&#xC22B;&#xC790;&#xC5D0;&#xB294; &#xBA54;&#xC778;&#xB137;&#xACFC; &#xD14C;&#xC2A4;&#xD2B8;&#xB137;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xD558;&#xB294; 1~4&#xBC88;&#xC744; &#xC81C;&#xC678;&#xD558;&#xACE0; &#xC544;&#xBB34; &#xC22B;&#xC790;&#xB098; &#xB300;&#xC785;</li>
+<li><strong>노드 실행 및 네트워크 접속</strong>: <code>geth --datadir 드라이브명:\폴더명 --networkid 숫자 console</code><ul>
+<li>숫자에는 메인넷과 테스트넷에서 사용하는 1~4번을 제외하고 아무 숫자나 대입</li>
 </ul>
 </li>
 </ol>
 <p><br><br></p>
-<h3 id="Geth-eth-&#xBA85;&#xB839;&#xC5B4;"><a href="#Geth-eth-&#xBA85;&#xB839;&#xC5B4;" class="headerlink" title="Geth eth &#xBA85;&#xB839;&#xC5B4;"></a>Geth eth &#xBA85;&#xB839;&#xC5B4;</h3><hr>
+<h3 id="Geth-eth-명령어"><a href="#Geth-eth-명령어" class="headerlink" title="Geth eth 명령어"></a>Geth eth 명령어</h3><hr>
 <table>
 <thead>
 <tr>
-<th><strong>&#xBA85;&#xB839;&#xC5B4; &#xC774;&#xB984;</strong></th>
-<th><strong>&#xBA85;&#xB839; &#xB0B4;&#xC6A9;</strong></th>
+<th><strong>명령어 이름</strong></th>
+<th><strong>명령 내용</strong></th>
 </tr>
 </thead>
 <tbody><tr>
 <td>eth.blockNumber</td>
-<td>&#xBE14;&#xB85D; &#xAC1C;&#xC218; &#xD655;&#xC778;</td>
+<td>블록 개수 확인</td>
 </tr>
 <tr>
-<td>eth.getBlock(&#xBE14;&#xB85D;&#xBC88;&#xD638;)</td>
-<td>&#xBE14;&#xB85D; &#xC815;&#xBCF4; &#xD655;&#xC778;</td>
+<td>eth.getBlock(블록번호)</td>
+<td>블록 정보 확인</td>
 </tr>
 <tr>
 <td>eth.accounts</td>
-<td>&#xACC4;&#xC815; &#xC870;&#xD68C;</td>
+<td>계정 조회</td>
 </tr>
 <tr>
-<td>eth.getBalance(&#x201C;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#x201D;) &#xB610;&#xB294; eth.getBalance(&#xC9C0;&#xAC11; &#xC778;&#xB371;&#xC2A4;)</td>
-<td>&#xACC4;&#xC815; &#xC794;&#xC561; &#xC870;&#xD68C;</td>
+<td>eth.getBalance(“지갑 주소”) 또는 eth.getBalance(지갑 인덱스)</td>
+<td>계정 잔액 조회</td>
 </tr>
 </tbody></table>
 <p><br><br></p>
-<h3 id="Geth-&#xBAA8;&#xB4C8;"><a href="#Geth-&#xBAA8;&#xB4C8;" class="headerlink" title="Geth &#xBAA8;&#xB4C8;"></a>Geth &#xBAA8;&#xB4C8;</h3><hr>
+<h3 id="Geth-모듈"><a href="#Geth-모듈" class="headerlink" title="Geth 모듈"></a>Geth 모듈</h3><hr>
 <ul>
 <li>admin</li>
 <li>debug</li>
@@ -267,144 +92,144 @@
 </ul>
 <p><br><br></p>
 <ol start="8">
-<li><p><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>personal.newAccount()</code></p>
+<li><p><strong>계정 생성</strong>: <code>personal.newAccount()</code></p>
 </li>
-<li><p><strong>&#xACC4;&#xC815; &#xD655;&#xC778;</strong>: <code>personal.listWallets</code></p>
+<li><p><strong>계정 확인</strong>: <code>personal.listWallets</code></p>
 </li>
 </ol>
 <br>
 
 <ol start="10">
-<li><strong>&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xBC1C;&#xC0DD;</strong>: <code>eth.sendTransaction({from:&quot;&#xBCF4;&#xB0B4;&#xB294; &#xC8FC;&#xC18C;&quot;, to:&quot;&#xBC1B;&#xB294; &#xC8FC;&#xC18C;&quot;, value:&#xC804;&#xC1A1;&#xB7C9;})</code> &#xB610;&#xB294; <code>eth.sendTransaction({from:&#xBCF4;&#xB0B4;&#xB294; &#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, to:&#xBC1B;&#xB294; &#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, value:&#xC804;&#xC1A1;&#xB7C9;})</code><ul>
-<li>&#xCD08;&#xAE30; &#xC124;&#xC815; &#xC2DC; &#xACC4;&#xC815;&#xC774; &#xC7A0;&#xACA8; &#xC788;&#xC74C; (<strong>11&#xBC88;&#xC5D0;&#xC11C; &#xD574;&#xACB0;</strong>)</li>
+<li><strong>트랜잭션 발생</strong>: <code>eth.sendTransaction(&#123;from:&quot;보내는 주소&quot;, to:&quot;받는 주소&quot;, value:전송량&#125;)</code> 또는 <code>eth.sendTransaction(&#123;from:보내는 계정 인덱스, to:받는 계정 인덱스, value:전송량&#125;)</code><ul>
+<li>초기 설정 시 계정이 잠겨 있음 (<strong>11번에서 해결</strong>)</li>
 </ul>
 </li>
 </ol>
 <br>
 
 <ol start="11">
-<li><strong>&#xACC4;&#xC815; &#xC7A0;&#xAE08; &#xD574;&#xC81C;</strong>: <code>personal.unlockAccount(&#xACC4;&#xC815; &#xC778;&#xB371;&#xC2A4;, &apos;&#xBE44;&#xBC00;&#xBC88;&#xD638;&apos;)</code> &#xB610;&#xB294; <code>personal.unlockAccount(&quot;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&quot;, &apos;&#xBE44;&#xBC00;&#xBC88;&#xD638;&apos;)</code><ul>
-<li>&#xC544;&#xC9C1; &#xBE14;&#xB85D;&#xC774; &#xC0DD;&#xC131;&#xB418;&#xC9C0; &#xC54A;&#xC558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xBC18;&#xC601;&#xB418;&#xC9C0; &#xC54A;&#xC74C;</li>
+<li><strong>계정 잠금 해제</strong>: <code>personal.unlockAccount(계정 인덱스, &#39;비밀번호&#39;)</code> 또는 <code>personal.unlockAccount(&quot;지갑 주소&quot;, &#39;비밀번호&#39;)</code><ul>
+<li>아직 블록이 생성되지 않았기 때문에 반영되지 않음</li>
 </ul>
 </li>
 </ol>
 <br>
 
 <ol start="12">
-<li><strong>&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC870;&#xD68C;</strong>: <code>eth.getTransaction(&quot;&#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xD574;&#xC2DC;&#xAC12;&quot;)</code></li>
+<li><strong>트랜잭션 조회</strong>: <code>eth.getTransaction(&quot;트랜잭션 해시값&quot;)</code></li>
 </ol>
 <ul>
-<li><strong>Pending &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC870;&#xD68C;</strong>: <code>eth.pendingTransactions</code><ul>
-<li>&#xC544;&#xC9C1; &#xBE14;&#xB85D;&#xC5D0; &#xD3EC;&#xD568;&#xB418;&#xC9C0; &#xC54A;&#xC740; &#xC0C1;&#xD0DC;&#xB97C; Pending&#xC774;&#xB77C;&#xACE0; &#xD568;</li>
+<li><strong>Pending 트랜잭션 조회</strong>: <code>eth.pendingTransactions</code><ul>
+<li>아직 블록에 포함되지 않은 상태를 Pending이라고 함</li>
 </ul>
 </li>
 </ul>
 <br>
 
 <ol start="13">
-<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xBCF4;&#xC0C1;&#xBC1B;&#xC744; &#xC9C0;&#xAC11; &#xD655;&#xC778;</strong>: <code>eth.coinbase</code></li>
+<li><strong>마이닝 보상받을 지갑 확인</strong>: <code>eth.coinbase</code></li>
 </ol>
 <ul>
-<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xBCF4;&#xC0C1;&#xBC1B;&#xC744; &#xC9C0;&#xAC11; &#xBCC0;&#xACBD;</strong>: <code>eth.setEtherbase(&quot;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&quot;)</code></li>
+<li><strong>마이닝 보상받을 지갑 변경</strong>: <code>eth.setEtherbase(&quot;지갑 주소&quot;)</code></li>
 </ul>
 <br>
 
 <ol start="14">
-<li><p><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC2DC;&#xC791;</strong>: <code>miner.start()</code></p>
+<li><p><strong>마이닝 시작</strong>: <code>miner.start()</code></p>
 </li>
-<li><p><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC885;&#xB8CC;</strong>: <code>miner.stop()</code></p>
+<li><p><strong>마이닝 종료</strong>: <code>miner.stop()</code></p>
 </li>
 </ol>
 <p><br><br></p>
-<h3 id="&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;"><a href="#&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;" class="headerlink" title="&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;"></a>&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;</h3><hr>
+<h3 id="프라이빗-네트워크-구축"><a href="#프라이빗-네트워크-구축" class="headerlink" title="프라이빗 네트워크 구축"></a>프라이빗 네트워크 구축</h3><hr>
 <ol>
-<li>&#xAC01; &#xB178;&#xB4DC;&#xB97C; &#xAD6C;&#xC131;&#xD560; &#xC0C8;&#xB85C;&#xC6B4; &#xD3F4;&#xB354; <code>node1 ~ node4</code>&#xB97C; &#xB9CC;&#xB4E4;&#xACE0; &#xAC01;&#xAC01; &#xACC4;&#xC815; &#xC0DD;&#xC131;</li>
+<li>각 노드를 구성할 새로운 폴더 <code>node1 ~ node4</code>를 만들고 각각 계정 생성</li>
 </ol>
 <br>
 
 <ol start="2">
-<li>Genesis block &#xCF54;&#xB4DC; &#xC791;&#xC131; (&#xC784;&#xC758;&#xC758; .json &#xD30C;&#xC77C; &#xC0DD;&#xC131;)</li>
+<li>Genesis block 코드 작성 (임의의 .json 파일 생성)</li>
 </ol>
 <br>
 
-<figure class="highlight json hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">{</span><br><span class="line">    <span class="hljs-attr">&quot;config&quot;</span>: {</span><br><span class="line">        <span class="hljs-attr">&quot;chainId&quot;</span>: <span class="hljs-number">1008</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;homesteadBlock&quot;</span>: <span class="hljs-number">0</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;eip150Block&quot;</span>: <span class="hljs-number">0</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;eip155Block&quot;</span>: <span class="hljs-number">0</span>,</span><br><span class="line">        <span class="hljs-attr">&quot;eip158Block&quot;</span>: <span class="hljs-number">0</span></span><br><span class="line">    },</span><br><span class="line">    <span class="hljs-attr">&quot;alloc&quot;</span>: {</span><br><span class="line">        <span class="hljs-attr">&quot;&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xC758; &#xAC1C;&#xC778; &#xD37C;&#xBE14;&#xB9AD; &#xD0A4; &#xC8FC;&#xC18C;&quot;</span>: {<span class="hljs-attr">&quot;balance&quot;</span>: <span class="hljs-string">&quot;&#xBCF4;&#xC720; &#xAE08;&#xC561;&quot;</span>},</span><br><span class="line">        <span class="hljs-attr">&quot;&#xB178;&#xB4DC;2 &#xD3F4;&#xB354;&#xC758; &#xAC1C;&#xC778; &#xD37C;&#xBE14;&#xB9AD; &#xD0A4; &#xC8FC;&#xC18C;&quot;</span>: {<span class="hljs-attr">&quot;balance&quot;</span>: <span class="hljs-string">&quot;&#xBCF4;&#xC720; &#xAE08;&#xC561;&quot;</span>},</span><br><span class="line">        <span class="hljs-attr">&quot;&#xB178;&#xB4DC;3 &#xD3F4;&#xB354;&#xC758; &#xAC1C;&#xC778; &#xD37C;&#xBE14;&#xB9AD; &#xD0A4; &#xC8FC;&#xC18C;&quot;</span>: {<span class="hljs-attr">&quot;balance&quot;</span>: <span class="hljs-string">&quot;&#xBCF4;&#xC720; &#xAE08;&#xC561;&quot;</span>},</span><br><span class="line">        <span class="hljs-attr">&quot;&#xB178;&#xB4DC;4 &#xD3F4;&#xB354;&#xC758; &#xAC1C;&#xC778; &#xD37C;&#xBE14;&#xB9AD; &#xD0A4; &#xC8FC;&#xC18C;&quot;</span>: {<span class="hljs-attr">&quot;balance&quot;</span>: <span class="hljs-string">&quot;&#xBCF4;&#xC720; &#xAE08;&#xC561;&quot;</span>}</span><br><span class="line">    },</span><br><span class="line">    <span class="hljs-attr">&quot;coinbase&quot;</span>: <span class="hljs-string">&quot;0x0000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;difficulty&quot;</span>: <span class="hljs-string">&quot;0x20000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;extraData&quot;</span>: <span class="hljs-string">&quot;&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;gasLimit&quot;</span>: <span class="hljs-string">&quot;0x2fefd8&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;nonce&quot;</span>: <span class="hljs-string">&quot;0x0000000000000042&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;mixhash&quot;</span>: <span class="hljs-string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;parentHash&quot;</span>: <span class="hljs-string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="hljs-attr">&quot;timestamp&quot;</span>: <span class="hljs-string">&quot;0x00&quot;</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;config&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;chainId&quot;</span>: <span class="number">1008</span>,</span><br><span class="line">        <span class="attr">&quot;homesteadBlock&quot;</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">&quot;eip150Block&quot;</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">&quot;eip155Block&quot;</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">&quot;eip158Block&quot;</span>: <span class="number">0</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;alloc&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;노드1 폴더의 개인 퍼블릭 키 주소&quot;</span>: &#123;<span class="attr">&quot;balance&quot;</span>: <span class="string">&quot;보유 금액&quot;</span>&#125;,</span><br><span class="line">        <span class="attr">&quot;노드2 폴더의 개인 퍼블릭 키 주소&quot;</span>: &#123;<span class="attr">&quot;balance&quot;</span>: <span class="string">&quot;보유 금액&quot;</span>&#125;,</span><br><span class="line">        <span class="attr">&quot;노드3 폴더의 개인 퍼블릭 키 주소&quot;</span>: &#123;<span class="attr">&quot;balance&quot;</span>: <span class="string">&quot;보유 금액&quot;</span>&#125;,</span><br><span class="line">        <span class="attr">&quot;노드4 폴더의 개인 퍼블릭 키 주소&quot;</span>: &#123;<span class="attr">&quot;balance&quot;</span>: <span class="string">&quot;보유 금액&quot;</span>&#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;coinbase&quot;</span>: <span class="string">&quot;0x0000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;difficulty&quot;</span>: <span class="string">&quot;0x20000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;extraData&quot;</span>: <span class="string">&quot;&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;gasLimit&quot;</span>: <span class="string">&quot;0x2fefd8&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;nonce&quot;</span>: <span class="string">&quot;0x0000000000000042&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;mixhash&quot;</span>: <span class="string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;parentHash&quot;</span>: <span class="string">&quot;0x0000000000000000000000000000000000000000000000000000000000000000&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;timestamp&quot;</span>: <span class="string">&quot;0x00&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <br>
 
 <ol start="3">
-<li>Genesis block &#xD30C;&#xC77C;&#xC744; &#xAC01; &#xB178;&#xB4DC; &#xD3F4;&#xB354;&#xC5D0; &#xBCF5;&#xC0AC;</li>
+<li>Genesis block 파일을 각 노드 폴더에 복사</li>
 </ol>
 <br>
 
 <ol start="4">
-<li>&#xD130;&#xBBF8;&#xB110; &#xC0C1; &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></li>
+<li>터미널 상 노드1 폴더로 이동 후 <code>geth --datadir 드라이브명:\노드1 폴더명 init 파일명.json</code></li>
 </ol>
 <br>
 
 <ol start="5">
-<li><strong>&#xB178;&#xB4DC;1 &#xAD6C;&#xB3D9;</strong>: <code>geth --networkid &#xC55E;&#xC5D0;&#xC11C; &#xC124;&#xC815;&#xD55C; &#xC22B;&#xC790; --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; --rpc --rpcport 8545 --rpcaddr &quot;0.0.0.0&quot; --rpccorsdomain &quot;*&quot; --rpcapi &quot;admin,db,eth,debug,miner,net,shh,txpool,personal,web3&quot; --port 30303 --allow-insecure-unlock console</code></li>
+<li><strong>노드1 구동</strong>: <code>geth --networkid 앞에서 설정한 숫자 --datadir 드라이브명:\노드1 폴더명 --rpc --rpcport 8545 --rpcaddr &quot;0.0.0.0&quot; --rpccorsdomain &quot;*&quot; --rpcapi &quot;admin,db,eth,debug,miner,net,shh,txpool,personal,web3&quot; --port 30303 --allow-insecure-unlock console</code></li>
 </ol>
 <br>
 
 <ol start="6">
-<li>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;1&#xC5D0;&#xC11C; &#xB178;&#xB4DC;2 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;<ul>
-<li>&#xB2E8;, &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85;&#xC740; <code>&#xB178;&#xB4DC;2 &#xD3F4;&#xB354;&#xBA85;</code>&#xC73C;&#xB85C;, rpcport&#xB294; 8545&#xC5D0;&#xC11C; <code>8546</code>&#xC73C;&#xB85C;, port&#xB294; 30303&#xC5D0;&#xC11C; <code>30304 --ipcdisable</code>&#xB85C; &#xAD50;&#xCCB4;</li>
+<li>새로운 터미널1에서 노드2 폴더로 이동 후, <strong>4, 5</strong>번과 동일하게 입력<ul>
+<li>단, 노드1 폴더명은 <code>노드2 폴더명</code>으로, rpcport는 8545에서 <code>8546</code>으로, port는 30303에서 <code>30304 --ipcdisable</code>로 교체</li>
 </ul>
 </li>
 </ol>
 <br>
 
 <ol start="7">
-<li>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;2&#xC5D0;&#xC11C; &#xB178;&#xB4DC;3 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;<ul>
-<li>&#xB2E8;, &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85;&#xC740; <code>&#xB178;&#xB4DC;3 &#xD3F4;&#xB354;&#xBA85;</code>&#xC73C;&#xB85C;, rpcport&#xB294; 8545&#xC5D0;&#xC11C; <code>8547</code>&#xC73C;&#xB85C;, port&#xB294; 30303&#xC5D0;&#xC11C; <code>30305 --ipcdisable</code>&#xB85C; &#xAD50;&#xCCB4;</li>
+<li>새로운 터미널2에서 노드3 폴더로 이동 후, <strong>4, 5</strong>번과 동일하게 입력<ul>
+<li>단, 노드1 폴더명은 <code>노드3 폴더명</code>으로, rpcport는 8545에서 <code>8547</code>으로, port는 30303에서 <code>30305 --ipcdisable</code>로 교체</li>
 </ul>
 </li>
 </ol>
 <br>
 
 <ol start="8">
-<li>&#xC0C8;&#xB85C;&#xC6B4; &#xD130;&#xBBF8;&#xB110;3&#xC5D0;&#xC11C; &#xB178;&#xB4DC;4 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4;, <strong>4, 5</strong>&#xBC88;&#xACFC; &#xB3D9;&#xC77C;&#xD558;&#xAC8C; &#xC785;&#xB825;<ul>
-<li>&#xB2E8;, &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85;&#xC740; <code>&#xB178;&#xB4DC;4 &#xD3F4;&#xB354;&#xBA85;</code>&#xC73C;&#xB85C;, rpcport&#xB294; 8545&#xC5D0;&#xC11C; <code>8548</code>&#xC73C;&#xB85C;, port&#xB294; 30303&#xC5D0;&#xC11C; <code>30306 --ipcdisable</code>&#xB85C; &#xAD50;&#xCCB4;</li>
+<li>새로운 터미널3에서 노드4 폴더로 이동 후, <strong>4, 5</strong>번과 동일하게 입력<ul>
+<li>단, 노드1 폴더명은 <code>노드4 폴더명</code>으로, rpcport는 8545에서 <code>8548</code>으로, port는 30303에서 <code>30306 --ipcdisable</code>로 교체</li>
 </ul>
 </li>
 </ol>
 <br>
 
 <ol start="9">
-<li>&#xB178;&#xB4DC;1 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD55C; &#xD6C4; <code>admin</code></li>
+<li>노드1 터미널로 이동한 후 <code>admin</code></li>
 </ol>
 <br>
 
 <ol start="10">
-<li>admin &#xC815;&#xBCF4;&#xC5D0;&#xC11C; &#xB098;&#xC624;&#xB294; <strong>enode</strong> &#xAC12; &#xBCF5;&#xC0AC;</li>
+<li>admin 정보에서 나오는 <strong>enode</strong> 값 복사</li>
 </ol>
 <br>
 
 <ol start="11">
-<li><p>&#xB178;&#xB4DC;2, 3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;1&#xC758; enode&#xAC12;&quot;)</code> </p>
+<li><p>노드2, 3, 4 터미널로 각각 이동하여 <code>admin.addPeer(&quot;노드1의 enode값&quot;)</code> </p>
 </li>
-<li><p>&#xB178;&#xB4DC;3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;2&#xC758; enode&#xAC12;&quot;)</code></p>
+<li><p>노드3, 4 터미널로 각각 이동하여 <code>admin.addPeer(&quot;노드2의 enode값&quot;)</code></p>
 </li>
-<li><p>&#xB178;&#xB4DC;4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;3&#xC758; enode&#xAC12;&quot;)</code></p>
+<li><p>노드4 터미널로 이동하여 <code>admin.addPeer(&quot;노드3의 enode값&quot;)</code></p>
 </li>
 </ol>
 <br>
 
 <ol start="14">
-<li>&#xB178;&#xB4DC; &#xAC04; &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC804;&#xC1A1; &#xBC0F; &#xBE14;&#xB85D; &#xC0DD;&#xC131;</li>
+<li>노드 간 트랜잭션 전송 및 블록 생성</li>
 </ol>
 <p><br><br></p>
-<h3 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;</h3><hr>
-<p><strong>Remix&#xB97C; &#xD1B5;&#xD574; &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xBC30;&#xD3EC;</strong> - <a target="_blank" rel="noopener" href="https://remix.ethereum.org/">https://remix.ethereum.org/</a></p>
+<h3 id="스마트-컨트랙트"><a href="#스마트-컨트랙트" class="headerlink" title="스마트 컨트랙트"></a>스마트 컨트랙트</h3><hr>
+<p><strong>Remix를 통해 스마트 컨트랙트 배포</strong> - <a target="_blank" rel="noopener" href="https://remix.ethereum.org/">https://remix.ethereum.org/</a></p>
 <p><br><br></p>
-<h3 id="Solidity-&#xBCC0;&#xC218;-&#xBC0F;-&#xB370;&#xC774;&#xD130;-&#xD0C0;&#xC785;"><a href="#Solidity-&#xBCC0;&#xC218;-&#xBC0F;-&#xB370;&#xC774;&#xD130;-&#xD0C0;&#xC785;" class="headerlink" title="Solidity &#xBCC0;&#xC218; &#xBC0F; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;"></a>Solidity &#xBCC0;&#xC218; &#xBC0F; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;</h3><hr>
+<h3 id="Solidity-변수-및-데이터-타입"><a href="#Solidity-변수-및-데이터-타입" class="headerlink" title="Solidity 변수 및 데이터 타입"></a>Solidity 변수 및 데이터 타입</h3><hr>
 <table>
 <thead>
 <tr>
-<th><strong>&#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;</strong></th>
-<th><strong>&#xD0A4;&#xC6CC;&#xB4DC;</strong></th>
-<th><strong>&#xC0AC;&#xC6A9;</strong></th>
-<th><strong>&#xBC94;&#xC704;</strong></th>
+<th><strong>데이터 타입</strong></th>
+<th><strong>키워드</strong></th>
+<th><strong>사용</strong></th>
+<th><strong>범위</strong></th>
 </tr>
 </thead>
 <tbody><tr>
@@ -416,100 +241,100 @@
 <tr>
 <td>Uint</td>
 <td>uint8</td>
-<td>&#xBD80;&#xD638;&#xAC00; &#xC5C6;&#xB294; &#xC815;&#xC218; &#xD45C;&#xD604;</td>
+<td>부호가 없는 정수 표현</td>
 <td>0 ~ 255</td>
 </tr>
 <tr>
 <td></td>
 <td>uint16</td>
-<td>&#xBD80;&#xD638;&#xAC00; &#xC5C6;&#xB294; &#xC815;&#xC218; &#xD45C;&#xD604;</td>
+<td>부호가 없는 정수 표현</td>
 <td>0 ~ 65,535</td>
 </tr>
 <tr>
 <td></td>
 <td>uint24</td>
-<td>&#xBD80;&#xD638;&#xAC00; &#xC5C6;&#xB294; &#xC815;&#xC218; &#xD45C;&#xD604;</td>
+<td>부호가 없는 정수 표현</td>
 <td>0 ~ 16,777,216</td>
 </tr>
 <tr>
 <td></td>
 <td>uint256</td>
-<td>&#xBD80;&#xD638;&#xAC00; &#xC5C6;&#xB294; &#xC815;&#xC218; &#xD45C;&#xD604;</td>
+<td>부호가 없는 정수 표현</td>
 <td>0 ~ 2^256</td>
 </tr>
 <tr>
 <td></td>
 <td>uint</td>
-<td>&#xBD80;&#xD638;&#xAC00; &#xC5C6;&#xB294; &#xC815;&#xC218; &#xD45C;&#xD604;</td>
+<td>부호가 없는 정수 표현</td>
 <td>0 ~ 4,294,967,295</td>
 </tr>
 <tr>
 <td>String</td>
 <td>string</td>
-<td>&#xBB38;&#xC790;&#xC5F4;</td>
+<td>문자열</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Address</td>
 <td>address</td>
-<td>&#xC8FC;&#xC18C; &#xC794;&#xC561; &#xC870;&#xD68C;</td>
+<td>주소 잔액 조회</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
 <td>address payable</td>
-<td>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC804;&#xC1A1;</td>
+<td>이더리움 전송</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Array</td>
 <td>DataType[]</td>
-<td>&#xBC30;&#xC5F4; &#xC120;&#xC5B8;</td>
+<td>배열 선언</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
 <td>push</td>
-<td>&#xAC00;&#xC7A5; &#xB9C8;&#xC9C0;&#xB9C9; &#xB370;&#xC774;&#xD130; &#xCD94;&#xAC00;</td>
+<td>가장 마지막 데이터 추가</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
 <td>pop</td>
-<td>&#xAC00;&#xC7A5; &#xB9C8;&#xC9C0;&#xB9C9; &#xB370;&#xC774;&#xD130;&#xB97C; &#xAC00;&#xC838;&#xC624;&#xACE0; &#xC81C;&#xAC70;</td>
+<td>가장 마지막 데이터를 가져오고 제거</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
 <td>length</td>
-<td>&#xBC30;&#xC5F4;&#xC758; &#xAE38;&#xC774;</td>
+<td>배열의 길이</td>
 <td>-</td>
 </tr>
 <tr>
 <td></td>
 <td>struct</td>
-<td>&#xAD6C;&#xC870;&#xCCB4; &#xC120;&#xC5B8;</td>
+<td>구조체 선언</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Map</td>
 <td>Mapping<br>(key type=&gt;value type)</td>
-<td>&#xB9F5;</td>
+<td>맵</td>
 <td>-</td>
 </tr>
 </tbody></table>
 <p><br><br></p>
-<h3 id="Solidity-&#xD568;&#xC218;-&#xBC0F;-&#xC635;&#xC158;"><a href="#Solidity-&#xD568;&#xC218;-&#xBC0F;-&#xC635;&#xC158;" class="headerlink" title="Solidity &#xD568;&#xC218; &#xBC0F; &#xC635;&#xC158;"></a>Solidity &#xD568;&#xC218; &#xBC0F; &#xC635;&#xC158;</h3><hr>
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Function &#xD568;&#xC218;&#xBA85;() &#xC635;&#xC158; {</span><br><span class="line">    &#xAE30;&#xB2A5; &#xC815;&#xC758;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="Solidity-함수-및-옵션"><a href="#Solidity-함수-및-옵션" class="headerlink" title="Solidity 함수 및 옵션"></a>Solidity 함수 및 옵션</h3><hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Function 함수명() 옵션 &#123;</span><br><span class="line">    기능 정의</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <br>
 
 <ul>
-<li><p>view/pure&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xC5EC; &#xB370;&#xC774;&#xD130; &#xC870;&#xD68C; &#xC2DC; &#xC218;&#xC218;&#xB8CC;&#xB97C; &#xC9C0;&#xBD88;&#xD558;&#xC9C0; &#xC54A;&#xC74C;</p>
+<li><p>view/pure를 사용하여 데이터 조회 시 수수료를 지불하지 않음</p>
 </li>
-<li><p>view&#xB294; &#xBCC0;&#xC218; &#xAC12;&#xC744; &#xC870;&#xD68C;&#xD558;&#xC5EC; &#xBC18;&#xD658;&#xC774; &#xAC00;&#xB2A5;&#xD558;&#xB098; pure&#xB294; &#xBCC0;&#xC218;&#xC5D0; &#xC811;&#xADFC;&#xC774; &#xBD88;&#xAC00;&#xB2A5;&#xD568;</p>
+<li><p>view는 변수 값을 조회하여 반환이 가능하나 pure는 변수에 접근이 불가능함</p>
 </li>
-<li><p>view/pure&#xAC00; &#xBD99;&#xC740; &#xD568;&#xC218;&#xB294; &#xB370;&#xC774;&#xD130; &#xBCC0;&#xACBD;&#xC774; &#xBD88;&#xAC00;&#xB2A5;&#xD568;</p>
+<li><p>view/pure가 붙은 함수는 데이터 변경이 불가능함</p>
 </li>
 </ul>
 <br>
@@ -522,161 +347,161 @@
 </tr>
 </thead>
 <tbody><tr>
-<td>&#xC0C1;&#xD0DC; &#xBCC0;&#xC218; &#xAC12; &#xBCC0;&#xACBD;</td>
-<td>&#xC0C1;&#xD0DC; &#xBCC0;&#xC218; &#xC77D;&#xAE30;</td>
+<td>상태 변수 값 변경</td>
+<td>상태 변수 읽기</td>
 </tr>
 <tr>
-<td>&#xC774;&#xBCA4;&#xD2B8; &#xBC1C;&#xC0DD;</td>
-<td>this.balance &#xD639;&#xC740; &lt;&#xC8FC;&#xC18C;&gt;.balance&#xB85C; &#xC811;&#xADFC;</td>
+<td>이벤트 발생</td>
+<td>this.balance 혹은 &lt;주소&gt;.balance로 접근</td>
 </tr>
 <tr>
-<td>&#xB2E4;&#xB978; &#xACC4;&#xC57D; &#xC0DD;&#xC131;</td>
-<td>Block, tx, msg &#xC911; &#xD558;&#xB098;&#xC758; &#xBA64;&#xBC84; &#xBCC0;&#xC218;&#xC5D0; &#xC811;&#xADFC;<br>(msg.sig&#xC640; msg.data) &#xC81C;&#xC678;</td>
+<td>다른 계약 생성</td>
+<td>Block, tx, msg 중 하나의 멤버 변수에 접근<br>(msg.sig와 msg.data) 제외</td>
 </tr>
 <tr>
-<td>selfdestruct &#xC0AC;&#xC6A9;<br>(&#xD574;&#xB2F9; &#xACC4;&#xC57D; &#xACC4;&#xC815;&#xC744; &#xC0AD;&#xC81C;&#xD558;&#xACE0; &#xBAA8;&#xB4E0; &#xC794;&#xC561;&#xC744; &#xC9C0;&#xC815;&#xB41C; &#xC8FC;&#xC18C;&#xB85C; &#xC774;&#xB3D9;)</td>
-<td>pure&#xB85C; &#xC815;&#xC758;&#xB418;&#xC5B4; &#xC788;&#xC9C0; &#xC54A;&#xC740; &#xC5B4;&#xB5A0;&#xD55C; &#xD568;&#xC218;&#xB77C;&#xB3C4; &#xD638;&#xCD9C;</td>
+<td>selfdestruct 사용<br>(해당 계약 계정을 삭제하고 모든 잔액을 지정된 주소로 이동)</td>
+<td>pure로 정의되어 있지 않은 어떠한 함수라도 호출</td>
 </tr>
 <tr>
-<td>&#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC804;&#xC1A1;</td>
-<td>&#xD2B9;&#xC815; OPCODE&#xB97C; &#xD3EC;&#xD568;&#xD55C; &#xC778;&#xB77C;&#xC778; &#xC5B4;&#xC148;&#xBE14;&#xB9AC; &#xC0AC;&#xC6A9;</td>
+<td>이더리움 전송</td>
+<td>특정 OPCODE를 포함한 인라인 어셈블리 사용</td>
 </tr>
 <tr>
-<td>view &#xD639;&#xC740; pure&#xB85C; &#xC120;&#xC5B8;&#xB418;&#xC9C0; &#xC54A;&#xC740; &#xC5B4;&#xB5A0;&#xD55C; &#xD568;&#xC218;&#xB77C;&#xB3C4; &#xD638;&#xCD9C;</td>
+<td>view 혹은 pure로 선언되지 않은 어떠한 함수라도 호출</td>
 <td>-</td>
 </tr>
 <tr>
-<td>&#xB85C;&#xC6B0; &#xB808;&#xBCA8; &#xD638;&#xCD9C;</td>
+<td>로우 레벨 호출</td>
 <td>-</td>
 </tr>
 <tr>
-<td>&#xD2B9;&#xC815; OP Code&#xB97C; &#xD3EC;&#xD568;&#xD55C; &#xC778;&#xB77C;&#xC778; &#xC5B4;&#xC148;&#xBE14;&#xB9AC; &#xC0AC;&#xC6A9;</td>
+<td>특정 OP Code를 포함한 인라인 어셈블리 사용</td>
 <td>-</td>
 </tr>
 </tbody></table>
 <p><br><br></p>
-<h3 id="&#xD568;&#xC218;&#xC758;-&#xD638;&#xCD9C;-&#xBC94;&#xC704;-&#xAC00;&#xC2DC;&#xC131;"><a href="#&#xD568;&#xC218;&#xC758;-&#xD638;&#xCD9C;-&#xBC94;&#xC704;-&#xAC00;&#xC2DC;&#xC131;" class="headerlink" title="&#xD568;&#xC218;&#xC758; &#xD638;&#xCD9C; &#xBC94;&#xC704; (&#xAC00;&#xC2DC;&#xC131;)"></a>&#xD568;&#xC218;&#xC758; &#xD638;&#xCD9C; &#xBC94;&#xC704; (&#xAC00;&#xC2DC;&#xC131;)</h3><hr>
+<h3 id="함수의-호출-범위-가시성"><a href="#함수의-호출-범위-가시성" class="headerlink" title="함수의 호출 범위 (가시성)"></a>함수의 호출 범위 (가시성)</h3><hr>
 <ul>
-<li><p><code>public</code>: &#xBAA8;&#xB4E0; &#xC601;&#xC5ED; (&#xC0C1;&#xC18D;&#xBC1B;&#xC740; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;, &#xC678;&#xBD80; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;, &#xB0B4;&#xBD80;)&#xC5D0;&#xC11C; &#xD568;&#xC218; &#xD638;&#xCD9C; &#xAC00;&#xB2A5;</p>
+<li><p><code>public</code>: 모든 영역 (상속받은 컨트랙트, 외부 컨트랙트, 내부)에서 함수 호출 가능</p>
 </li>
-<li><p><code>private</code>: &#xD574;&#xB2F9; &#xD568;&#xC218;&#xB97C; &#xD3EC;&#xD568;&#xD55C; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xB0B4;&#xBD80;&#xC5D0;&#xC11C;&#xB9CC; &#xD638;&#xCD9C; &#xAC00;&#xB2A5;</p>
+<li><p><code>private</code>: 해당 함수를 포함한 컨트랙트 내부에서만 호출 가능</p>
 </li>
-<li><p><code>external</code>: &#xB2E4;&#xB978; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0;&#xC11C; &#xD638;&#xCD9C;&#xD558;&#xAC70;&#xB098; &#xD2B8;&#xB79C;&#xC7AD;&#xC158;&#xC73C;&#xB85C;&#xB9CC; &#xD638;&#xCD9C; &#xAC00;&#xB2A5;</p>
+<li><p><code>external</code>: 다른 컨트랙트에서 호출하거나 트랜잭션으로만 호출 가능</p>
 </li>
-<li><p><code>internal</code>: private&#xACFC; &#xBE44;&#xC2B7;&#xD558;&#xC9C0;&#xB9CC; internal&#xC740; &#xC0C1;&#xC18D;&#xBC1B;&#xC740; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0;&#xC11C;&#xB3C4; &#xD638;&#xCD9C; &#xAC00;&#xB2A5;</p>
+<li><p><code>internal</code>: private과 비슷하지만 internal은 상속받은 컨트랙트에서도 호출 가능</p>
 </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC0DD;&#xC131;&#xC790;"><a href="#&#xC0DD;&#xC131;&#xC790;" class="headerlink" title="&#xC0DD;&#xC131;&#xC790;"></a>&#xC0DD;&#xC131;&#xC790;</h3><hr>
+<h3 id="생성자"><a href="#생성자" class="headerlink" title="생성자"></a>생성자</h3><hr>
 <ul>
-<li><p>constructor &#xD0A4;&#xC6CC;&#xB4DC;&#xB97C; &#xC0AC;&#xC6A9;</p>
+<li><p>constructor 키워드를 사용</p>
 </li>
-<li><p>&#xD568;&#xC218;&#xC640; &#xB3D9;&#xC77C;&#xD55C; &#xBC29;&#xBC95;&#xC73C;&#xB85C; &#xC0AC;&#xC6A9;</p>
+<li><p>함수와 동일한 방법으로 사용</p>
 </li>
-<li><p>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xBC30;&#xD3EC;&#xD560; &#xB54C; &#xAC00;&#xC7A5; &#xCC98;&#xC74C; &#xD638;&#xCD9C;&#xB418;&#xB294; &#xD568;&#xC218;</p>
+<li><p>스마트 컨트랙트를 배포할 때 가장 처음 호출되는 함수</p>
 </li>
-<li><p>return &#xD0A4;&#xC6CC;&#xB4DC; &#xC0AC;&#xC6A9; &#xBD88;&#xAC00;</p>
+<li><p>return 키워드 사용 불가</p>
 </li>
 </ul>
 <p><br><br></p>
 <h3 id="Payable"><a href="#Payable" class="headerlink" title="Payable"></a>Payable</h3><hr>
 <ul>
-<li><p>&#xC678;&#xBD80;&#xB85C;&#xBD80;&#xD130; &#xC774;&#xB354;&#xB9AC;&#xC6C0;&#xC744; &#xBC1B;&#xC558;&#xC744; &#xB54C; &#xD638;&#xCD9C;&#xD558;&#xB3C4;&#xB85D; &#xD558;&#xB294; &#xD0A4;&#xC6CC;&#xB4DC;</p>
+<li><p>외부로부터 이더리움을 받았을 때 호출하도록 하는 키워드</p>
 </li>
-<li><p>payable&#xC774; &#xBD99;&#xC5B4; &#xC788;&#xC73C;&#xBA74; &#xC774;&#xB354;&#xB9AC;&#xC6C0;&#xC744; &#xBC1B;&#xC558;&#xC744; &#xB54C; &#xD638;&#xCD9C;&#xD558;&#xB77C;&#xB294; &#xC758;&#xBBF8;&#xAC00; &#xC788;&#xC74C;</p>
+<li><p>payable이 붙어 있으면 이더리움을 받았을 때 호출하라는 의미가 있음</p>
 </li>
-<li><p>payable&#xC774; &#xBD99;&#xC740; &#xACBD;&#xC6B0; &#xD568;&#xC218;&#xB294; external&#xC774;&#xC5B4;&#xC57C; &#xD568;</p>
+<li><p>payable이 붙은 경우 함수는 external이어야 함</p>
 </li>
 </ul>
 <br>
 
 <ul>
-<li><p><code>msg.sender</code>: &#xD568;&#xC218;&#xB97C; &#xD638;&#xCD9C;&#xD55C; &#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#xB97C; &#xAC00;&#xC838;&#xC634;</p>
+<li><p><code>msg.sender</code>: 함수를 호출한 지갑 주소를 가져옴</p>
 </li>
-<li><p><code>msg.value</code>: &#xC804;&#xC1A1;&#xB41C; &#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xAC1C;&#xC218;</p>
-</li>
-</ul>
-<p><br><br></p>
-<h3 id="&#xD568;&#xC218;-&#xBCC0;&#xACBD;&#xC790;"><a href="#&#xD568;&#xC218;-&#xBCC0;&#xACBD;&#xC790;" class="headerlink" title="&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;"></a>&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;</h3><hr>
-<ul>
-<li><p>&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;&#xB294; &#xD568;&#xC218;&#xB97C; &#xC2E4;&#xD589;&#xD560; &#xB54C; &#xBBF8;&#xB9AC; &#xC2E4;&#xD589;&#xB418;&#xB294; &#xD568;&#xC218;</p>
-</li>
-<li><p>modifier &#xD0A4;&#xC6CC;&#xB4DC; &#xC0AC;&#xC6A9;</p>
-</li>
-<li><p>&#xD2B9;&#xC815; &#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#xB9CC; &#xD568;&#xC218;&#xB97C; &#xD638;&#xCD9C;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xC124;&#xC815;&#xD560; &#xB54C; &#xC0AC;&#xC6A9;</p>
+<li><p><code>msg.value</code>: 전송된 이더리움 개수</p>
 </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC608;&#xC678;&#xCC98;&#xB9AC;"><a href="#&#xC608;&#xC678;&#xCC98;&#xB9AC;" class="headerlink" title="&#xC608;&#xC678;&#xCC98;&#xB9AC;"></a>&#xC608;&#xC678;&#xCC98;&#xB9AC;</h3><hr>
-<p>require, assert&#xB97C; &#xC774;&#xC6A9;</p>
-<p><br><br></p>
-<h3 id="&#xC774;&#xBCA4;&#xD2B8;"><a href="#&#xC774;&#xBCA4;&#xD2B8;" class="headerlink" title="&#xC774;&#xBCA4;&#xD2B8;"></a>&#xC774;&#xBCA4;&#xD2B8;</h3><hr>
+<h3 id="함수-변경자"><a href="#함수-변경자" class="headerlink" title="함수 변경자"></a>함수 변경자</h3><hr>
 <ul>
-<li><p>event &#xD0A4;&#xC6CC;&#xB4DC;&#xB97C; &#xC0AC;&#xC6A9;</p>
+<li><p>함수 변경자는 함수를 실행할 때 미리 실행되는 함수</p>
 </li>
-<li><p>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0;&#xC11C; &#xD2B9;&#xC815;&#xD55C; &#xC77C;&#xC774; &#xBC1C;&#xC0DD;&#xD588;&#xC744; &#xB54C; &#xC678;&#xBD80;&#xC5D0; &#xC54C;&#xB824;&#xC8FC;&#xB294; &#xC5ED;&#xD560;</p>
+<li><p>modifier 키워드 사용</p>
+</li>
+<li><p>특정 지갑 주소만 함수를 호출할 수 있도록 설정할 때 사용</p>
 </li>
 </ul>
 <p><br><br></p>
-<h3 id="Address-&#xD0C0;&#xC785;&#xC758;-&#xC790;&#xB8CC;&#xD615;"><a href="#Address-&#xD0C0;&#xC785;&#xC758;-&#xC790;&#xB8CC;&#xD615;" class="headerlink" title="Address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;"></a>Address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;</h3><hr>
+<h3 id="예외처리"><a href="#예외처리" class="headerlink" title="예외처리"></a>예외처리</h3><hr>
+<p>require, assert를 이용</p>
+<p><br><br></p>
+<h3 id="이벤트"><a href="#이벤트" class="headerlink" title="이벤트"></a>이벤트</h3><hr>
 <ul>
-<li><p>Address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;&#xC740; balance&#xC640; transfer &#xC0AC;&#xC6A9; &#xAC00;&#xB2A5;</p>
+<li><p>event 키워드를 사용</p>
 </li>
-<li><p>Balance&#xB294; &#xD2B9;&#xC815; &#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#xC758; &#xC774;&#xB354; &#xBCF4;&#xC720;&#xB7C9;&#xC744; &#xC870;&#xD68C;&#xD560; &#xB54C; &#xC0AC;&#xC6A9;</p>
-</li>
-<li><p>Transfer&#xB294; &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xAC00; &#xBCF4;&#xC720;&#xC911;&#xC778; &#xC774;&#xB354;&#xB9AC;&#xC6C0;&#xC744; &#xB2E4;&#xB978; &#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#xB85C; &#xC804;&#xC1A1; &#xAC00;&#xB2A5;</p>
+<li><p>스마트 컨트랙트에서 특정한 일이 발생했을 때 외부에 알려주는 역할</p>
 </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC870;&#xAC74;&#xBB38;&#xACFC;-&#xBC18;&#xBCF5;&#xBB38;"><a href="#&#xC870;&#xAC74;&#xBB38;&#xACFC;-&#xBC18;&#xBCF5;&#xBB38;" class="headerlink" title="&#xC870;&#xAC74;&#xBB38;&#xACFC; &#xBC18;&#xBCF5;&#xBB38;"></a>&#xC870;&#xAC74;&#xBB38;&#xACFC; &#xBC18;&#xBCF5;&#xBB38;</h3><hr>
+<h3 id="Address-타입의-자료형"><a href="#Address-타입의-자료형" class="headerlink" title="Address 타입의 자료형"></a>Address 타입의 자료형</h3><hr>
 <ul>
-<li><p><strong>&#xC870;&#xAC74;&#xBB38;</strong>: if / if else / else</p>
+<li><p>Address 타입의 자료형은 balance와 transfer 사용 가능</p>
 </li>
-<li><p><strong>&#xBC18;&#xBCF5;&#xBB38;</strong>: for</p>
+<li><p>Balance는 특정 지갑 주소의 이더 보유량을 조회할 때 사용</p>
+</li>
+<li><p>Transfer는 스마트 컨트랙트가 보유중인 이더리움을 다른 지갑 주소로 전송 가능</p>
 </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC0C1;&#xC18D;"><a href="#&#xC0C1;&#xC18D;" class="headerlink" title="&#xC0C1;&#xC18D;"></a>&#xC0C1;&#xC18D;</h3><hr>
+<h3 id="조건문과-반복문"><a href="#조건문과-반복문" class="headerlink" title="조건문과 반복문"></a>조건문과 반복문</h3><hr>
 <ul>
-<li><p>is &#xD0A4;&#xC6CC;&#xB4DC; &#xC0AC;&#xC6A9;</p>
+<li><p><strong>조건문</strong>: if / if else / else</p>
 </li>
-<li><p>public, internal&#xC77C; &#xB54C; &#xC0AC;&#xC6A9; &#xAC00;&#xB2A5;</p>
+<li><p><strong>반복문</strong>: for</p>
+</li>
+</ul>
+<p><br><br></p>
+<h3 id="상속"><a href="#상속" class="headerlink" title="상속"></a>상속</h3><hr>
+<ul>
+<li><p>is 키워드 사용</p>
+</li>
+<li><p>public, internal일 때 사용 가능</p>
 </li>
 </ul>
 <p><br><br></p>
 <h3 id="delegatedcall-call"><a href="#delegatedcall-call" class="headerlink" title="delegatedcall, call"></a>delegatedcall, call</h3><hr>
-<p>&#xB2E4;&#xB978; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xD638;&#xCD9C;&#xD558;&#xAE30; &#xC704;&#xD574; &#xC0AC;&#xC6A9;</p>
+<p>다른 컨트랙트를 호출하기 위해 사용</p>
 <p><br><br></p>
 <h3 id="ERC-20"><a href="#ERC-20" class="headerlink" title="ERC-20"></a>ERC-20</h3><hr>
 <ul>
 <li><p>Ethereum Request for Comments (ERC)</p>
 </li>
-<li><p>ERC-20 &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xD1A0;&#xD070;&#xC744; &#xC0DD;&#xC131;&#xD560; &#xC218; &#xC788;&#xC74C;</p>
+<li><p>ERC-20 기반으로 토큰을 생성할 수 있음</p>
 </li>
 </ul>
 <p><br><br></p>
-<h3 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;</h3><hr>
+<h3 id="스마트-컨트랙트-실습"><a href="#스마트-컨트랙트-실습" class="headerlink" title="스마트 컨트랙트 실습"></a>스마트 컨트랙트 실습</h3><hr>
 <ol>
-<li><strong>&#xBA54;&#xD0C0;&#xB9C8;&#xC2A4;&#xD06C; &#xC124;&#xCE58;</strong> - <a target="_blank" rel="noopener" href="https://metamask.io/">https://metamask.io</a></li>
+<li><strong>메타마스크 설치</strong> - <a target="_blank" rel="noopener" href="https://metamask.io/">https://metamask.io</a></li>
 </ol>
 <br>
 
 <ol start="2">
-<li>&#xBA54;&#xD0C0;&#xB9C8;&#xC2A4;&#xD06C; &#xACC4;&#xC815; &#xC0DD;&#xC131; &#xD6C4; <strong>Ropsten &#xD14C;&#xC2A4;&#xD2B8;&#xB137; faucet</strong> &#xC0AC;&#xC774;&#xD2B8;&#xB85C;&#xBD80;&#xD130; 1 &#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xC218;&#xB839; - <a target="_blank" rel="noopener" href="https://faucet.ropsten.be/">https://faucet.ropsten.be/</a></li>
+<li>메타마스크 계정 생성 후 <strong>Ropsten 테스트넷 faucet</strong> 사이트로부터 1 이더리움 수령 - <a target="_blank" rel="noopener" href="https://faucet.ropsten.be/">https://faucet.ropsten.be/</a></li>
 </ol>
 <br>
 
 <ol start="3">
-<li><code>Remix</code> - <code>Deploy &amp; Run Transactions</code> - <code>Environment</code>&#xC5D0;&#xC11C; <code>Injected Web3</code> &#xC120;&#xD0DD;</li>
+<li><code>Remix</code> - <code>Deploy &amp; Run Transactions</code> - <code>Environment</code>에서 <code>Injected Web3</code> 선택</li>
 </ol>
 <br>
 
 <ol start="4">
-<li>Solidity &#xD30C;&#xC77C; &#xC791;&#xC131; &#xD6C4; &#xCEF4;&#xD30C;&#xC77C;&#xB7EC;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xACE0; &#xCEF4;&#xD30C;&#xC77C;</li>
+<li>Solidity 파일 작성 후 컴파일러를 선택하고 컴파일</li>
 </ol>
 <br>
 
-<figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;=0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract SogangBaselab_Token {</span><br><span class="line">    string public constant name = &quot;BaseLab&quot;;</span><br><span class="line">    string public constant symbol = &apos;SBL&apos;;</span><br><span class="line">    uint8 public constant decimals = 18;</span><br><span class="line">    </span><br><span class="line">    uint256 public totalSupply;</span><br><span class="line">    </span><br><span class="line">    mapping (address =&gt; uint256) public balanceOf;</span><br><span class="line">    </span><br><span class="line">    event Transfer (address indexed from, address indexed to, uint256 value);</span><br><span class="line">    event Burn (address indexed from, uint256 value);</span><br><span class="line">    </span><br><span class="line">    address owner;</span><br><span class="line">    </span><br><span class="line">    modifier onlyOwner() {</span><br><span class="line">        require (msg.sender == owner);</span><br><span class="line">        _;</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    constructor (</span><br><span class="line">        uint256 _totalSupply</span><br><span class="line">       ) public {</span><br><span class="line">        owner = msg.sender;</span><br><span class="line">        totalSupply = _totalSupply * 10 ** uint256(decimals);</span><br><span class="line">        balanceOf[msg.sender] = totalSupply;</span><br><span class="line">        emit Transfer (address(this), msg.sender, totalSupply);</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    function transfer(address to, uint amount) public {</span><br><span class="line">        require (balanceOf[msg.sender] &gt;= amount);</span><br><span class="line">        balanceOf[msg.sender] -= amount;</span><br><span class="line">        balanceOf[to] += amount;</span><br><span class="line">        emit Transfer(msg.sender, to, amount);</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    function burn(uint amount) onlyOwner public {</span><br><span class="line">        require(totalSupply &gt;= amount);</span><br><span class="line">        balanceOf[msg.sender] -= amount;</span><br><span class="line">        totalSupply -= amount;</span><br><span class="line">        emit Burn (msg.sender, amount);</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    function addPublish(uint amount) onlyOwner public {</span><br><span class="line">        totalSupply += amount * 10 ** uint(decimals);</span><br><span class="line">        balanceOf[msg.sender] += amount * 10 ** uint(decimals);</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;&#x3D;0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract SogangBaselab_Token &#123;</span><br><span class="line">    string public constant name &#x3D; &quot;BaseLab&quot;;</span><br><span class="line">    string public constant symbol &#x3D; &#39;SBL&#39;;</span><br><span class="line">    uint8 public constant decimals &#x3D; 18;</span><br><span class="line">    </span><br><span class="line">    uint256 public totalSupply;</span><br><span class="line">    </span><br><span class="line">    mapping (address &#x3D;&gt; uint256) public balanceOf;</span><br><span class="line">    </span><br><span class="line">    event Transfer (address indexed from, address indexed to, uint256 value);</span><br><span class="line">    event Burn (address indexed from, uint256 value);</span><br><span class="line">    </span><br><span class="line">    address owner;</span><br><span class="line">    </span><br><span class="line">    modifier onlyOwner() &#123;</span><br><span class="line">        require (msg.sender &#x3D;&#x3D; owner);</span><br><span class="line">        _;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    constructor (</span><br><span class="line">        uint256 _totalSupply</span><br><span class="line">       ) public &#123;</span><br><span class="line">        owner &#x3D; msg.sender;</span><br><span class="line">        totalSupply &#x3D; _totalSupply * 10 ** uint256(decimals);</span><br><span class="line">        balanceOf[msg.sender] &#x3D; totalSupply;</span><br><span class="line">        emit Transfer (address(this), msg.sender, totalSupply);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    function transfer(address to, uint amount) public &#123;</span><br><span class="line">        require (balanceOf[msg.sender] &gt;&#x3D; amount);</span><br><span class="line">        balanceOf[msg.sender] -&#x3D; amount;</span><br><span class="line">        balanceOf[to] +&#x3D; amount;</span><br><span class="line">        emit Transfer(msg.sender, to, amount);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    function burn(uint amount) onlyOwner public &#123;</span><br><span class="line">        require(totalSupply &gt;&#x3D; amount);</span><br><span class="line">        balanceOf[msg.sender] -&#x3D; amount;</span><br><span class="line">        totalSupply -&#x3D; amount;</span><br><span class="line">        emit Burn (msg.sender, amount);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    function addPublish(uint amount) onlyOwner public &#123;</span><br><span class="line">        totalSupply +&#x3D; amount * 10 ** uint(decimals);</span><br><span class="line">        balanceOf[msg.sender] +&#x3D; amount * 10 ** uint(decimals);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><br><br></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332373-02b2c500-4aad-11eb-801c-b4fd9912cda2.png"></p>  
@@ -689,320 +514,59 @@
 
 <p><br><br></p>
 <blockquote>
-<p>&#xAC15;&#xC758; &#xC790;&#xB8CC; &#xCD9C;&#xCC98;: &#xC11C;&#xAC15;&#xB300;&#xD559;&#xAD50; &#xCEF4;&#xD4E8;&#xD130;&#xACF5;&#xD559;&#xACFC; &#xC11C;&#xC911;&#xC6D0; &#xBC15;&#xC0AC;&#xACFC;&#xC815; </p>
+<p>강의 자료 출처: 서강대학교 컴퓨터공학과 서중원 박사과정 </p>
 </blockquote>
-</body></html>
-    
-    </div>
-    
-    <div class="columns is-variable is-1 is-multiline is-mobile">
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">#블록체인</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Blockchain/">#Blockchain</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">#이더리움</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">#이더리움 프라이빗 네트워크</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">#스마트 컨트랙트</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95/">#이더리움 네트워크 구축</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Ethereum/">#Ethereum</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Ethereum-Private-Network/">#Ethereum Private Network</a></span>
-    
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Smart-Contract/">#Smart Contract</a></span>
-    
-    </div>
-    
-    
-    <div class="columns is-mobile is-multiline article-nav">
-        <span class="column is-12-mobile is-half-desktop  article-nav-prev">
-            
-            <a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a>
-            
-        </span>
-        <span class="column is-12-mobile is-half-desktop  article-nav-next">
-            
-            <a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a>
-            
-        </span>
-    </div>
-    
-</article>
-
-
-<div class="sharebox">
-    
-<div class="sharethis-inline-share-buttons"></div>
-<script type='text/javascript' src='&lt;script type=&#34;text/javascript&#34; src=&#34;https://platform-api.sharethis.com/js/sharethis.js#property=5f3391562684e000142345e3&amp;product=inline-share-buttons&#34; async=&#34;async&#34;&gt;&lt;/script&gt;' async='async'></script>
-
-</div>
-
-
-
-<div class="comments">
-    <h3 class="title is-4">댓글</h3>
-    
-<script>
-    var disqus_config = function () {
-        this.page.url = 'https://y8ncastle.me/2020/02/25/ethereum-private-network/';
-        this.page.identifier = '2020/02/25/ethereum-private-network/';
-        
-        this.language = 'ko';
-        
-    };
-    (function() {
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'y8ncastle-github-io' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-
-<div id="disqus_thread">
-    
-    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-</div>
-
-    </div>
-</section>
-    <footer class="footer">
-    <div class="container">
-        <div class="columns content">
-            <div class="column is-narrow has-text-centered">
-                &copy; 2021 Zay Jeong&nbsp;
-                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        target="_blank" rel="noopener" href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
-            </div>
-            <div class="column is-hidden-mobile"></div>
-
-            
-            <div class="column is-narrow">
-                <div class="columns is-mobile is-multiline is-centered">
-                
-                    
-                <a class="column is-narrow has-text-black" title="GitHub" target="_blank" rel="noopener" href="https://www.github.com/y8ncastle">
-                    
-                    GitHub
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/in/y8ncastle">
-                    
-                    LinkedIn
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/zay.jeong">
-                    
-                    Instagram
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/y8ncastle">
-                    
-                    Facebook
-                    
-                </a>
-                
-                    
-                <a class="column is-narrow has-text-black" title="BOJ" target="_blank" rel="noopener" href="https://www.acmicpc.net/user/zarch4894">
-                    
-                    BOJ
-                    
-                </a>
-                
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
-
-<!-- test if the browser is outdated -->
-<div id="outdated">
-    <h6>Your browser is out-of-date!</h6>
-    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" target="_blank" rel="noopener" href="http://outdatedbrowser.com/">Update my browser now </a></p>
-    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
-</div>
-<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // plugin function, place inside DOM ready function
-        outdatedBrowser({
-            bgColor: '#f25648',
-            color: '#ffffff',
-            lowerThan: 'flex'
-        })
-    });
-</script>
-
-<script>
-    window.FontAwesomeConfig = {
-        searchPseudoElements: true
-    }
-    moment.locale("ko");
-</script>
-
-
-    
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script>
-    MathJax.Hub.Config({
-        "HTML-CSS": {
-            matchFontHeight: false
-        },
-        SVG: {
-            matchFontHeight: false
-        },
-        CommonHTML: {
-            matchFontHeight: false
-        },
-        tex2jax: {
-            inlineMath: [
-                ['$','$'],
-                ['\\(','\\)']
-            ]
-        }
-    });
-</script>
-
-    
-    
-    
-    
-<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
-<script>
-    (function ($) {
-        $(document).ready(function () {
-            if (typeof($.fn.lightGallery) === 'function') {
-                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+</div><div class="article-licensing box"><div class="licensing-title"><p>이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</p><p><a href="https://y8ncastle.me/2020/02/25/ethereum-private-network/">https://y8ncastle.me/2020/02/25/ethereum-private-network/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Zay Jeong</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2020-02-25</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-01-08</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a class="icon" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a><a class="icon" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</a><a class="link-muted mr-2" rel="tag" href="/tags/Blockchain/">Blockchain</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">이더리움 프라이빗 네트워크</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</a><a class="link-muted mr-2" rel="tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95/">이더리움 네트워크 구축</a><a class="link-muted mr-2" rel="tag" href="/tags/Ethereum/">Ethereum</a><a class="link-muted mr-2" rel="tag" href="/tags/Ethereum-Private-Network/">Ethereum Private Network</a><a class="link-muted mr-2" rel="tag" href="/tags/Smart-Contract/">Smart Contract</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/03/01/weekly-report-200301/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">두 주 계획표 (2020.03.01 - 03.15)</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/02/25/egoing-css/"><span class="level-item">CSS 기초 용어 정리 by 생활코딩</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://y8ncastle.me/2020/02/25/ethereum-private-network/';
+            this.page.identifier = '2020/02/25/ethereum-private-network/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'zayjeong' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="제이정 (Zay Jeong)"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">제이정 (Zay Jeong)</p><p class="is-size-6 is-block">대학원생, 블록체인 연구원</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>대한민국, 서울</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">183</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">27</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">338</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/y8ncastle" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/y8ncastle"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/y8ncastle"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/y8ncastle"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/zay.jeong"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">관련 링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://www.acmicpc.net/user/zarch4894" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-right"><span class="level-item tag">www.acmicpc.net</span></span></a></li><li><a class="level is-mobile" href="https://youtube.com/playlist?list=PL93hJn5LGgIMVNoSYrI6_PGfVJp6L05x_" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Youtube</span></span><span class="level-right"><span class="level-item tag">youtube.com</span></span></a></li><li><a class="level is-mobile" href="https://medium.com/@y8ncastle" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Medium</span></span><span class="level-right"><span class="level-item tag">medium.com</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%EA%B5%90%EC%9C%A1-Blockchain/"><span class="level-start"><span class="level-item">&lt;교육&gt; Blockchain</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Academy/"><span class="level-start"><span class="level-item">Academy</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Achievement/"><span class="level-start"><span class="level-item">Achievement</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/Baekjoon-Online-Judge/"><span class="level-start"><span class="level-item">Baekjoon Online Judge</span></span><span class="level-end"><span class="level-item tag">31</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/"><span class="level-start"><span class="level-item">Blockchain</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Ethereum/"><span class="level-start"><span class="level-item">&lt;교육&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EA%B5%90%EC%9C%A1-Hyperledger-Fabric/"><span class="level-start"><span class="level-item">&lt;교육&gt; Hyperledger Fabric</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><span class="level-start"><span class="level-item">&lt;실습&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/%EC%9D%B4%EB%A1%A0-Bitcoin/"><span class="level-start"><span class="level-item">&lt;이론&gt; Bitcoin</span></span><span class="level-end"><span class="level-item tag">8</span></span></a></li><li><a class="level is-mobile" href="/categories/Blockchain/Ethereum/"><span class="level-start"><span class="level-item">Ethereum</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/CSS/"><span class="level-start"><span class="level-item">CSS</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Crypto-Community/"><span class="level-start"><span class="level-item">Crypto Community</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Exhibition/"><span class="level-start"><span class="level-item">Exhibition</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/categories/HTML/"><span class="level-start"><span class="level-item">HTML</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Education/"><span class="level-start"><span class="level-item">IT Education</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/IT-Free-Board/"><span class="level-start"><span class="level-item">IT Free Board</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/"><span class="level-start"><span class="level-item">Personal Project</span></span><span class="level-end"><span class="level-item tag">13</span></span></a><ul><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Android/"><span class="level-start"><span class="level-item">&lt;개인&gt; Android</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/categories/Personal-Project/%EA%B0%9C%EC%9D%B8-Ethereum/"><span class="level-start"><span class="level-item">&lt;개인&gt; Ethereum</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></li><li><a class="level is-mobile" href="/categories/Plan/"><span class="level-start"><span class="level-item">Plan</span></span><span class="level-end"><span class="level-item tag">49</span></span></a></li><li><a class="level is-mobile" href="/categories/Seminar/"><span class="level-start"><span class="level-item">Seminar</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/"><span class="level-start"><span class="level-item">Team Project</span></span><span class="level-end"><span class="level-item tag">32</span></span></a><ul><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-Hanium/"><span class="level-start"><span class="level-item">&lt;팀&gt; Hanium</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-MRM/"><span class="level-start"><span class="level-item">&lt;팀&gt; MRM</span></span><span class="level-end"><span class="level-item tag">25</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-On-Books/"><span class="level-start"><span class="level-item">&lt;팀&gt; On Books</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/%ED%8C%80-X-Corps/"><span class="level-start"><span class="level-item">&lt;팀&gt; X-Corps</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/Team-Project/X-Corps/"><span class="level-start"><span class="level-item">X-Corps</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 포스트</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-03-01T11:21:00.000Z">2020-03-01</time></p><p class="title"><a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a></p><p class="categories"><a href="/categories/Plan/">Plan</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T08:27:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/ethereum-private-network/">이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습</a></p><p class="categories"><a href="/categories/Blockchain/">Blockchain</a> / <a href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/">&lt;실습&gt; Ethereum</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-25T02:50:00.000Z">2020-02-25</time></p><p class="title"><a href="/2020/02/25/egoing-css/">CSS 기초 용어 정리 by 생활코딩</a></p><p class="categories"><a href="/categories/CSS/">CSS</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T14:37:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/hanbat-diploma/">국립 한밭대학교 정보통신공학 학사 학위 취득</a></p><p class="categories"><a href="/categories/Achievement/">Achievement</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2020-02-24T02:36:00.000Z">2020-02-24</time></p><p class="title"><a href="/2020/02/24/youtube-seminar-20-3/">[2020.02.17] A New Privacy Protection Security Scheme for Blockchain (BaSE Lab 유튜브 세미나 20-3차)</a></p><p class="categories"><a href="/categories/Seminar/">Seminar</a></p></div></article></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="Zay Jeong Blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 Zay Jeong</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
             }
-            if (typeof($.fn.justifiedGallery) === 'function') {
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
                 $('.justified-gallery').justifiedGallery();
             }
-        });
-    })(jQuery);
-</script>
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-    <style>
-        .hljs {
-            position: relative;
-        }
-
-        .hljs .clipboard-btn {
-            float: right;
-            color: #9a9a9a;
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        .hljs .clipboard-btn:hover {
-          color: #8a8a8a;
-        }
-
-        .hljs > .clipboard-btn {
-            display: none;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-        }
-
-        .hljs:hover > .clipboard-btn {
-            display: inline;
-        }
-
-        .hljs > figcaption > .clipboard-btn {
-            margin-right: 4px;
-        }
-    </style>
-    <script>
-      $(document).ready(function () {
-        $('figure.hljs').each(function(i, figure) {
-          var codeId = 'code-' + i;
-          var code = figure.querySelector('.code');
-          var copyButton = $('<button>Copy <i class="far fa-clipboard"></i></button>');
-          code.id = codeId;
-          copyButton.addClass('clipboard-btn');
-          copyButton.attr('data-clipboard-target-id', codeId);
-
-          var figcaption = figure.querySelector('figcaption');
-
-          if (figcaption) {
-            figcaption.append(copyButton[0]);
-          } else {
-            figure.prepend(copyButton[0]);
-          }
-        })
-
-        var clipboard = new ClipboardJS('.clipboard-btn', {
-          target: function(trigger) {
-            return document.getElementById(trigger.getAttribute('data-clipboard-target-id'));
-          }
-        });
-        clipboard.on('success', function(e) {
-          e.clearSelection();
-        })
-      })
-    </script>
-
-    
-    
-
-    
-
-
-
-<script src="/js/script.js"></script>
-
-
-    
-    <div class="searchbox ins-search">
-    <div class="searchbox-mask"></div>
-    <div class="searchbox-container ins-search-container">
-        <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="아무거나 입력하세요" />
-            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="searchbox-result-wrapper ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-    (function (window) {
-        var INSIGHT_CONFIG = {
-            TRANSLATION: {
-                POSTS: '글',
-                PAGES: '페이지',
-                CATEGORIES: '카테고리 목록',
-                TAGS: '태그 목록',
-                UNTITLED: '(제목없음)',
-            },
-            CONTENT_URL: '/content.json',
-        };
-        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-    })(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-    
-</body>
-</html>
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="검색할 내용을 입력하세요"></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"검색할 내용을 입력하세요","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>
