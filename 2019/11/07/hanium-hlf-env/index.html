@@ -18,23 +18,23 @@
 
 
 
-    <meta name="description" content="&amp;#xAE30;&amp;#xC874; &amp;#xD558;&amp;#xC774;&amp;#xD37C;&amp;#xB808;&amp;#xC800; &amp;#xD328;&amp;#xBE0C;&amp;#xB9AD;&amp;#xC740; &amp;#xC554;&amp;#xD638;&amp;#xD654;&amp;#xD3D0;&amp;#xB97C; &amp;#xC9C0;&amp;#xC6D0;&amp;#xD558;&amp;#xC9C0; &amp;#xC54A;&amp;#xC558;&amp;#xB294;&amp;#xB37">
+    <meta name="description" content="&amp;#xAE30;&amp;#xC874; &amp;#xD558;&amp;#xC774;&amp;#xD37C;&amp;#xB808;&amp;#xC800; &amp;#xD328;&amp;#xBE0C;&amp;#xB9AD;&amp;#xC740; &amp;#xC554;&amp;#xD638;&amp;#xD654;&amp;#xD3D0;&amp;#xB97C; &amp;#xC9C0;&amp;#xC6D0;&amp;#xD558;&amp;#xC9C0; &amp;#xC54A;&amp;#xC558;&amp;#xB294;&amp;#xB3">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[한이음] 하이퍼레저 패브릭 동작환경">
 <meta property="og:url" content="https://y8ncastle.github.io/2019/11/07/hanium-hlf-env/index.html">
 <meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="&amp;#xAE30;&amp;#xC874; &amp;#xD558;&amp;#xC774;&amp;#xD37C;&amp;#xB808;&amp;#xC800; &amp;#xD328;&amp;#xBE0C;&amp;#xB9AD;&amp;#xC740; &amp;#xC554;&amp;#xD638;&amp;#xD654;&amp;#xD3D0;&amp;#xB97C; &amp;#xC9C0;&amp;#xC6D0;&amp;#xD558;&amp;#xC9C0; &amp;#xC54A;&amp;#xC558;&amp;#xB294;&amp;#xB37">
+<meta property="og:description" content="&amp;#xAE30;&amp;#xC874; &amp;#xD558;&amp;#xC774;&amp;#xD37C;&amp;#xB808;&amp;#xC800; &amp;#xD328;&amp;#xBE0C;&amp;#xB9AD;&amp;#xC740; &amp;#xC554;&amp;#xD638;&amp;#xD654;&amp;#xD3D0;&amp;#xB97C; &amp;#xC9C0;&amp;#xC6D0;&amp;#xD558;&amp;#xC9C0; &amp;#xC54A;&amp;#xC558;&amp;#xB294;&amp;#xB3">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="https://user-images.githubusercontent.com/52089296/102952252-1c369880-4512-11eb-850d-c8030f42a507.png">
 <meta property="article:published_time" content="2019-11-07T07:12:00.000Z">
-<meta property="article:modified_time" content="2020-12-31T06:25:24.000Z">
+<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
 <meta property="article:author" content="Zay Jeong">
 <meta property="article:tag" content="한이음">
-<meta property="article:tag" content="hanium">
-<meta property="article:tag" content="하이퍼레저패브릭">
-<meta property="article:tag" content="hyperledgerfabric">
-<meta property="article:tag" content="ibm">
-<meta property="article:tag" content="hlf">
+<meta property="article:tag" content="Hanium">
+<meta property="article:tag" content="IBM">
+<meta property="article:tag" content="하이퍼레저 패브릭">
+<meta property="article:tag" content="Hyperledger Fabric">
+<meta property="article:tag" content="HLF">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/102952252-1c369880-4512-11eb-850d-c8030f42a507.png">
 
@@ -172,26 +172,38 @@
     </div>
     <div class="article-entry is-size-6-mobile" itemprop="articleBody">
     
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/102952252-1c369880-4512-11eb-850d-c8030f42a507.png" width="70%" alt="&#xD55C;&#xC774;&#xC74C; ICT &#xBA58;&#xD1A0;&#xB9C1; - &#xD558;&#xC774;&#xD37C;&#xB808;&#xC800; &#xD328;&#xBE0C;&#xB9AD; &#xAC15;&#xC758; &#xC790;&#xB8CC; &#xC77C;&#xBD80;"></p>  <br><br>
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/102952252-1c369880-4512-11eb-850d-c8030f42a507.png" width="70%" alt="&#xD55C;&#xC774;&#xC74C; ICT &#xBA58;&#xD1A0;&#xB9C1; - &#xD558;&#xC774;&#xD37C;&#xB808;&#xC800; &#xD328;&#xBE0C;&#xB9AD; &#xAC15;&#xC758; &#xC790;&#xB8CC; &#xC77C;&#xBD80;"></p>  
 
+<p><br><br></p>
 <ul>
 <li><p>&#xAE30;&#xC874; &#xD558;&#xC774;&#xD37C;&#xB808;&#xC800; &#xD328;&#xBE0C;&#xB9AD;&#xC740; &#xC554;&#xD638;&#xD654;&#xD3D0;&#xB97C; &#xC9C0;&#xC6D0;&#xD558;&#xC9C0; &#xC54A;&#xC558;&#xB294;&#xB370; V2.0&#xBD80;&#xD130; FabToken&#xC744; &#xC9C0;&#xC6D0;&#xD55C;&#xB2E4;.</p>
 </li>
 <li><p>&#xCC44;&#xAD74;&#xD558;&#xB294; &#xAC83;&#xC774; &#xC544;&#xB2C8;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xCD5C;&#xC885;&#xC131;(&#xBE14;&#xB85D;&#xC774; &#xBB34;&#xC870;&#xAC74; &#xC0DD;&#xC131;&#xB418;&#xB294; &#xAC83;)&#xC774; &#xC788;&#xB2E4;.</p>
 </li>
-<li><p>Kafka &#xD569;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC744; &#xAC00;&#xC7A5; &#xB9CE;&#xC774; &#xC0AC;&#xC6A9;&#xD558;&#xACE0; &#xC788;&#xACE0;, SBFT&#xB97C; &#xC9C0;&#xC6D0;&#xD560; &#xC608;&#xC815;&#xC774;&#xB2E4;.  <br><br><br></p>
+<li><p>Kafka &#xD569;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC744; &#xAC00;&#xC7A5; &#xB9CE;&#xC774; &#xC0AC;&#xC6A9;&#xD558;&#xACE0; &#xC788;&#xACE0;, SBFT&#xB97C; &#xC9C0;&#xC6D0;&#xD560; &#xC608;&#xC815;&#xC774;&#xB2E4;.  </p>
 </li>
 </ul>
-<h2 id="HL-F-&#xAC1C;&#xBC1C;-&#xAD6C;&#xC131;-&#xC694;&#xC18C;"><a href="#HL-F-&#xAC1C;&#xBC1C;-&#xAD6C;&#xC131;-&#xC694;&#xC18C;" class="headerlink" title="HL.F &#xAC1C;&#xBC1C; &#xAD6C;&#xC131; &#xC694;&#xC18C;"></a>HL.F &#xAC1C;&#xBC1C; &#xAD6C;&#xC131; &#xC694;&#xC18C;</h2><ul>
-<li><p>&#xB9AC;&#xB205;&#xC2A4; &#xAE30;&#xBC18; &#xC704;&#xC5D0; Docker(&#xC2E4;&#xD589; &#xC774;&#xBBF8;&#xC9C0;)&#xB97C; &#xC124;&#xCE58;&#xD574;&#xC11C; Peer&#xB97C; &#xC5EC;&#xB7EC; &#xAC1C; &#xB17C;&#xB9AC;&#xC801;&#xC73C;&#xB85C; &#xC124;&#xCE58;&#xD574;&#xC11C; &#xC6B4;&#xC6A9;&#xD55C;&#xB2E4;.</p>
+<p><br><br></p>
+<h3 id="HL-F-&#xAC1C;&#xBC1C;-&#xAD6C;&#xC131;-&#xC694;&#xC18C;"><a href="#HL-F-&#xAC1C;&#xBC1C;-&#xAD6C;&#xC131;-&#xC694;&#xC18C;" class="headerlink" title="HL.F &#xAC1C;&#xBC1C; &#xAD6C;&#xC131; &#xC694;&#xC18C;"></a>HL.F &#xAC1C;&#xBC1C; &#xAD6C;&#xC131; &#xC694;&#xC18C;</h3><hr>
+<ul>
+<li><p>&#xB9AC;&#xB205;&#xC2A4; &#xAE30;&#xBC18; &#xC704;&#xC5D0; Docker(&#xC2E4;&#xD589; &#xC774;&#xBBF8;&#xC9C0;)&#xB97C; &#xC124;&#xCE58;&#xD574;&#xC11C; Peer&#xB97C; &#xC5EC;&#xB7EC;&#xAC1C; &#xB17C;&#xB9AC;&#xC801;&#xC73C;&#xB85C; &#xC124;&#xCE58;&#xD574;&#xC11C; &#xC6B4;&#xC6A9;&#xD55C;&#xB2E4;.</p>
 </li>
 <li><p>&#xC774;&#xD6C4; &#xD558;&#xC774;&#xD37C;&#xB808;&#xC800; &#xD328;&#xBE0C;&#xB9AD; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xB97C; &#xAD6C;&#xC131;&#xD560; &#xC218; &#xC788;&#xB2E4;.</p>
 </li>
 <li><p>Go &#xB610;&#xB294; Node.js &#xC5B8;&#xC5B4;&#xB97C; &#xC774;&#xC6A9;&#xD558;&#xC5EC; &#xCCB4;&#xC778;&#xCF54;&#xB4DC;&#xB97C; &#xAD6C;&#xD604;&#xD55C;&#xB2E4;.</p>
 </li>
-<li><p><code>Docker</code>: &#xCEE8;&#xD14C;&#xC774;&#xB108; &#xAE30;&#xBC18;&#xC758; &#xC624;&#xD508;&#xC18C;&#xC2A4; &#xAC00;&#xC0C1;&#xD654; &#xD50C;&#xB7AB;&#xD3FC;</p>
-</li>
-<li><p>&#xAE30;&#xBCF8;&#xC801;&#xC778; &#xAC00;&#xC0C1;&#xD654; &#xC194;&#xB8E8;&#xC158;&#xACFC; &#xBE44;&#xC2B7;&#xD558;&#xAE34; &#xD558;&#xC9C0;&#xB9CC; Docker&#xB294; &#xC704;&#xC5D0; &#xCEE8;&#xD14C;&#xC774;&#xB108;&#xB97C; &#xACC4;&#xC18D;&#xD574;&#xC11C; &#xC62C;&#xB9B0;&#xB2E4;&#xB294; &#xC810;&#xC5D0;&#xC11C; &#xB2E4;&#xB974;&#xB2E4;.<br><code>&#xCEE8;&#xD14C;&#xC774;&#xB108;&#xB294; &#xC77C;&#xC885;&#xC758; &#xACA9;&#xB9AC;&#xB41C; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xB85C; &#xADF8; &#xC548;&#xC5D0;&#xC11C; OS &#xB4F1;&#xC774; &#xB3D9;&#xC791;&#xD55C;&#xB2E4;.</code></p>
+</ul>
+<br>
+
+<ul>
+<li><code>Docker</code>: &#xCEE8;&#xD14C;&#xC774;&#xB108; &#xAE30;&#xBC18;&#xC758; &#xC624;&#xD508;&#xC18C;&#xC2A4; &#xAC00;&#xC0C1;&#xD654; &#xD50C;&#xB7AB;&#xD3FC;</li>
+</ul>
+<br>
+
+<ul>
+<li>&#xAE30;&#xBCF8;&#xC801;&#xC778; &#xAC00;&#xC0C1;&#xD654; &#xC194;&#xB8E8;&#xC158;&#xACFC; &#xBE44;&#xC2B7;&#xD558;&#xAE34; &#xD558;&#xC9C0;&#xB9CC; Docker&#xB294; &#xC704;&#xC5D0; &#xCEE8;&#xD14C;&#xC774;&#xB108;&#xB97C; &#xACC4;&#xC18D;&#xD574;&#xC11C; &#xC62C;&#xB9B0;&#xB2E4;&#xB294; &#xC810;&#xC5D0;&#xC11C; &#xB2E4;&#xB974;&#xB2E4;.  <ul>
+<li>&#xCEE8;&#xD14C;&#xC774;&#xB108;&#xB294; &#xC77C;&#xC885;&#xC758; &#xACA9;&#xB9AC;&#xB41C; &#xD504;&#xB85C;&#xC138;&#xC2A4;&#xB85C; &#xADF8; &#xC548;&#xC5D0;&#xC11C; OS &#xB4F1;&#xC774; &#xB3D9;&#xC791;&#xD55C;&#xB2E4;.</li>
+</ul>
 </li>
 </ul>
 </body></html>
@@ -202,15 +214,15 @@
     
         <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C/">#한이음</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/hanium/">#hanium</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Hanium/">#Hanium</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80%ED%8C%A8%EB%B8%8C%EB%A6%AD/">#하이퍼레저패브릭</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/IBM/">#IBM</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/hyperledgerfabric/">#hyperledgerfabric</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">#하이퍼레저 패브릭</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/ibm/">#ibm</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Hyperledger-Fabric/">#Hyperledger Fabric</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/hlf/">#hlf</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/HLF/">#HLF</a></span>
     
     </div>
     

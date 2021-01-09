@@ -18,29 +18,29 @@
 
 
 
-    <meta name="description" content="Geth &amp;#xC0AC;&amp;#xC6A9;   Go Ethereum (Geth) &amp;#xC124;&amp;#xCE58; - https:&#x2F;&#x2F;geth.ethereum.org&#x2F;downloads&#x2F;     &amp;#xD130;&amp;#xBBF8;&amp;#xB110;&amp;#xC5D0;&amp;#xC11C; geth &amp;#xC2E4;&amp;#xD589;     &amp;#xACC4;&amp;#xC815; &amp;#xC0DD;&amp;">
+    <meta name="description" content="Geth &amp;#xC0AC;&amp;#xC6A9;  Go Ethereum (Geth) &amp;#xC124;&amp;#xCE58; - https:&#x2F;&#x2F;geth.ethereum.org&#x2F;downloads&#x2F;     &amp;#xD130;&amp;#xBBF8;&amp;#xB110;&amp;#xC5D0;&amp;#xC11C; geth &amp;#xC2E4;&amp;#xD589;     &amp;#xACC4;&amp;#xC815; &amp;#xC0DD;&amp;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="이더리움 프라이빗 네트워크 구축 및 스마트 컨트랙트 실습">
 <meta property="og:url" content="https://y8ncastle.github.io/2020/02/25/ethereum-private-network/index.html">
 <meta property="og:site_name" content="Zay Jeong Blog">
-<meta property="og:description" content="Geth &amp;#xC0AC;&amp;#xC6A9;   Go Ethereum (Geth) &amp;#xC124;&amp;#xCE58; - https:&#x2F;&#x2F;geth.ethereum.org&#x2F;downloads&#x2F;     &amp;#xD130;&amp;#xBBF8;&amp;#xB110;&amp;#xC5D0;&amp;#xC11C; geth &amp;#xC2E4;&amp;#xD589;     &amp;#xACC4;&amp;#xC815; &amp;#xC0DD;&amp;">
+<meta property="og:description" content="Geth &amp;#xC0AC;&amp;#xC6A9;  Go Ethereum (Geth) &amp;#xC124;&amp;#xCE58; - https:&#x2F;&#x2F;geth.ethereum.org&#x2F;downloads&#x2F;     &amp;#xD130;&amp;#xBBF8;&amp;#xB110;&amp;#xC5D0;&amp;#xC11C; geth &amp;#xC2E4;&amp;#xD589;     &amp;#xACC4;&amp;#xC815; &amp;#xC0DD;&amp;">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg">
 <meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332373-02b2c500-4aad-11eb-801c-b4fd9912cda2.png">
 <meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332372-021a2e80-4aad-11eb-94ef-eec119b905f9.png">
 <meta property="og:image" content="https://user-images.githubusercontent.com/52089296/103332370-00e90180-4aad-11eb-9805-b7b8ca0d0993.png">
 <meta property="article:published_time" content="2020-02-25T08:27:00.000Z">
-<meta property="article:modified_time" content="2021-01-03T08:08:25.277Z">
+<meta property="article:modified_time" content="2021-01-08T06:00:52.000Z">
 <meta property="article:author" content="Zay Jeong">
 <meta property="article:tag" content="블록체인">
-<meta property="article:tag" content="blockchain">
+<meta property="article:tag" content="Blockchain">
 <meta property="article:tag" content="이더리움">
-<meta property="article:tag" content="이더리움프라이빗네트워크">
-<meta property="article:tag" content="스마트컨트랙트">
-<meta property="article:tag" content="이더리움네트워크구축">
-<meta property="article:tag" content="ethereum">
-<meta property="article:tag" content="ethereumprivatenetwork">
-<meta property="article:tag" content="smartcontract">
+<meta property="article:tag" content="이더리움 프라이빗 네트워크">
+<meta property="article:tag" content="스마트 컨트랙트">
+<meta property="article:tag" content="이더리움 네트워크 구축">
+<meta property="article:tag" content="Ethereum">
+<meta property="article:tag" content="Ethereum Private Network">
+<meta property="article:tag" content="Smart Contract">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg">
 
@@ -165,23 +165,23 @@
         
         <span class="column is-narrow article-category">
             <i class="far fa-folder"></i>
-            <a class="article-category-link" href="/categories/Blockchain/">Blockchain</a><span>></span><a class="article-category-link" href="/categories/Blockchain/Ethereum/">Ethereum</a>
+            <a class="article-category-link" href="/categories/Blockchain/">Blockchain</a><span>></span><a class="article-category-link" href="/categories/Blockchain/%EC%8B%A4%EC%8A%B5-Ethereum/"><실습> Ethereum</a>
         </span>
         
         
         <span class="column is-narrow">
             
             
-            14분 소요 (약 2145 단어)
+            14분 소요 (약 2150 단어)
         </span>
         
     </div>
     <div class="article-entry is-size-6-mobile" itemprop="articleBody">
     
-        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg" width="60%"></p>  <br><br><br>
+        <html><head></head><body><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332374-02b2c500-4aad-11eb-8402-6613ec8e7d46.jpg" width="60%"></p>  
 
-<h2 id="Geth-&#xC0AC;&#xC6A9;"><a href="#Geth-&#xC0AC;&#xC6A9;" class="headerlink" title="Geth &#xC0AC;&#xC6A9;"></a>Geth &#xC0AC;&#xC6A9;</h2><br>
-
+<p><br><br></p>
+<h3 id="Geth-&#xC0AC;&#xC6A9;"><a href="#Geth-&#xC0AC;&#xC6A9;" class="headerlink" title="Geth &#xC0AC;&#xC6A9;"></a>Geth &#xC0AC;&#xC6A9;</h3><hr>
 <ol>
 <li><strong>Go Ethereum (Geth) &#xC124;&#xCE58;</strong> - <a target="_blank" rel="noopener" href="https://geth.ethereum.org/downloads/">https://geth.ethereum.org/downloads/</a></li>
 </ol>
@@ -225,9 +225,8 @@
 </ul>
 </li>
 </ol>
-<p><br><br><br></p>
-<h2 id="Geth-eth-&#xBA85;&#xB839;&#xC5B4;"><a href="#Geth-eth-&#xBA85;&#xB839;&#xC5B4;" class="headerlink" title="Geth eth &#xBA85;&#xB839;&#xC5B4;"></a>Geth eth &#xBA85;&#xB839;&#xC5B4;</h2><br>
-
+<p><br><br></p>
+<h3 id="Geth-eth-&#xBA85;&#xB839;&#xC5B4;"><a href="#Geth-eth-&#xBA85;&#xB839;&#xC5B4;" class="headerlink" title="Geth eth &#xBA85;&#xB839;&#xC5B4;"></a>Geth eth &#xBA85;&#xB839;&#xC5B4;</h3><hr>
 <table>
 <thead>
 <tr>
@@ -252,8 +251,9 @@
 <td>&#xACC4;&#xC815; &#xC794;&#xC561; &#xC870;&#xD68C;</td>
 </tr>
 </tbody></table>
-<p><br><br><br></p>
-<h2 id="Geth-&#xBAA8;&#xB4C8;"><a href="#Geth-&#xBAA8;&#xB4C8;" class="headerlink" title="Geth &#xBAA8;&#xB4C8;"></a>Geth &#xBAA8;&#xB4C8;</h2><ul>
+<p><br><br></p>
+<h3 id="Geth-&#xBAA8;&#xB4C8;"><a href="#Geth-&#xBAA8;&#xB4C8;" class="headerlink" title="Geth &#xBAA8;&#xB4C8;"></a>Geth &#xBAA8;&#xB4C8;</h3><hr>
+<ul>
 <li>admin</li>
 <li>debug</li>
 <li>eth</li>
@@ -265,14 +265,12 @@
 <li>txpool</li>
 <li>web3</li>
 </ul>
-<p><br><br><br></p>
+<p><br><br></p>
 <ol start="8">
-<li><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>personal.newAccount()</code></li>
-</ol>
-<br>
-
-<ol start="9">
-<li><strong>&#xACC4;&#xC815; &#xD655;&#xC778;</strong>: <code>personal.listWallets</code></li>
+<li><p><strong>&#xACC4;&#xC815; &#xC0DD;&#xC131;</strong>: <code>personal.newAccount()</code></p>
+</li>
+<li><p><strong>&#xACC4;&#xC815; &#xD655;&#xC778;</strong>: <code>personal.listWallets</code></p>
+</li>
 </ol>
 <br>
 
@@ -307,21 +305,18 @@
 <li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xBCF4;&#xC0C1;&#xBC1B;&#xC744; &#xC9C0;&#xAC11; &#xD655;&#xC778;</strong>: <code>eth.coinbase</code></li>
 </ol>
 <ul>
-<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xBCF4;&#xC0C1;&#xBC1B;&#xC744; &#xC9C0;&#xAC11; &#xBCC0;&#xACBD;</strong>: `eth.setEtherbase(&#x201C;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#x201D;)</li>
+<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xBCF4;&#xC0C1;&#xBC1B;&#xC744; &#xC9C0;&#xAC11; &#xBCC0;&#xACBD;</strong>: <code>eth.setEtherbase(&quot;&#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&quot;)</code></li>
 </ul>
 <br>
 
 <ol start="14">
-<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC2DC;&#xC791;</strong>: <code>miner.start()</code></li>
+<li><p><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC2DC;&#xC791;</strong>: <code>miner.start()</code></p>
+</li>
+<li><p><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC885;&#xB8CC;</strong>: <code>miner.stop()</code></p>
+</li>
 </ol>
-<br>
-
-<ol start="15">
-<li><strong>&#xB9C8;&#xC774;&#xB2DD; &#xC885;&#xB8CC;</strong>: <code>miner.stop()</code></li>
-</ol>
-<p><br><br><br></p>
-<h2 id="&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;"><a href="#&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;" class="headerlink" title="&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;"></a>&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;"><a href="#&#xD504;&#xB77C;&#xC774;&#xBE57;-&#xB124;&#xD2B8;&#xC6CC;&#xD06C;-&#xAD6C;&#xCD95;" class="headerlink" title="&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;"></a>&#xD504;&#xB77C;&#xC774;&#xBE57; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xAD6C;&#xCD95;</h3><hr>
 <ol>
 <li>&#xAC01; &#xB178;&#xB4DC;&#xB97C; &#xAD6C;&#xC131;&#xD560; &#xC0C8;&#xB85C;&#xC6B4; &#xD3F4;&#xB354; <code>node1 ~ node4</code>&#xB97C; &#xB9CC;&#xB4E4;&#xACE0; &#xAC01;&#xAC01; &#xACC4;&#xC815; &#xC0DD;&#xC131;</li>
 </ol>
@@ -342,7 +337,7 @@
 <br>
 
 <ol start="4">
-<li>&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></li>
+<li>&#xD130;&#xBBF8;&#xB110; &#xC0C1; &#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xB85C; &#xC774;&#xB3D9; &#xD6C4; <code>geth --datadir &#xB4DC;&#xB77C;&#xC774;&#xBE0C;&#xBA85;:\&#xB178;&#xB4DC;1 &#xD3F4;&#xB354;&#xBA85; init &#xD30C;&#xC77C;&#xBA85;.json</code></li>
 </ol>
 <br>
 
@@ -386,30 +381,23 @@
 <br>
 
 <ol start="11">
-<li>&#xB178;&#xB4DC;2, 3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;1&#xC758; enode&#xAC12;&quot;)</code> </li>
-</ol>
-<br>
-
-<ol start="12">
-<li>&#xB178;&#xB4DC;3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;2&#xC758; enode&#xAC12;&quot;)</code></li>
-</ol>
-<br>
-
-<ol start="13">
-<li>&#xB178;&#xB4DC;4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;3&#xC758; enode&#xAC12;&quot;)</code></li>
+<li><p>&#xB178;&#xB4DC;2, 3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;1&#xC758; enode&#xAC12;&quot;)</code> </p>
+</li>
+<li><p>&#xB178;&#xB4DC;3, 4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xAC01;&#xAC01; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;2&#xC758; enode&#xAC12;&quot;)</code></p>
+</li>
+<li><p>&#xB178;&#xB4DC;4 &#xD130;&#xBBF8;&#xB110;&#xB85C; &#xC774;&#xB3D9;&#xD558;&#xC5EC; <code>admin.addPeer(&quot;&#xB178;&#xB4DC;3&#xC758; enode&#xAC12;&quot;)</code></p>
+</li>
 </ol>
 <br>
 
 <ol start="14">
 <li>&#xB178;&#xB4DC; &#xAC04; &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xC804;&#xC1A1; &#xBC0F; &#xBE14;&#xB85D; &#xC0DD;&#xC131;</li>
 </ol>
-<p><br><br><br></p>
-<h2 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;</h3><hr>
 <p><strong>Remix&#xB97C; &#xD1B5;&#xD574; &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xBC30;&#xD3EC;</strong> - <a target="_blank" rel="noopener" href="https://remix.ethereum.org/">https://remix.ethereum.org/</a></p>
-<p><br><br><br></p>
-<h2 id="Solidity-&#xBCC0;&#xC218;-&#xBC0F;-&#xB370;&#xC774;&#xD130;-&#xD0C0;&#xC785;"><a href="#Solidity-&#xBCC0;&#xC218;-&#xBC0F;-&#xB370;&#xC774;&#xD130;-&#xD0C0;&#xC785;" class="headerlink" title="Solidity &#xBCC0;&#xC218; &#xBC0F; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;"></a>Solidity &#xBCC0;&#xC218; &#xBC0F; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;</h2><br>
-
+<p><br><br></p>
+<h3 id="Solidity-&#xBCC0;&#xC218;-&#xBC0F;-&#xB370;&#xC774;&#xD130;-&#xD0C0;&#xC785;"><a href="#Solidity-&#xBCC0;&#xC218;-&#xBC0F;-&#xB370;&#xC774;&#xD130;-&#xD0C0;&#xC785;" class="headerlink" title="Solidity &#xBCC0;&#xC218; &#xBC0F; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;"></a>Solidity &#xBCC0;&#xC218; &#xBC0F; &#xB370;&#xC774;&#xD130; &#xD0C0;&#xC785;</h3><hr>
 <table>
 <thead>
 <tr>
@@ -510,9 +498,8 @@
 <td>-</td>
 </tr>
 </tbody></table>
-<p><br><br><br></p>
-<h2 id="Solidity-&#xD568;&#xC218;-&#xBC0F;-&#xC635;&#xC158;"><a href="#Solidity-&#xD568;&#xC218;-&#xBC0F;-&#xC635;&#xC158;" class="headerlink" title="Solidity &#xD568;&#xC218; &#xBC0F; &#xC635;&#xC158;"></a>Solidity &#xD568;&#xC218; &#xBC0F; &#xC635;&#xC158;</h2><br>
-
+<p><br><br></p>
+<h3 id="Solidity-&#xD568;&#xC218;-&#xBC0F;-&#xC635;&#xC158;"><a href="#Solidity-&#xD568;&#xC218;-&#xBC0F;-&#xC635;&#xC158;" class="headerlink" title="Solidity &#xD568;&#xC218; &#xBC0F; &#xC635;&#xC158;"></a>Solidity &#xD568;&#xC218; &#xBC0F; &#xC635;&#xC158;</h3><hr>
 <figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Function &#xD568;&#xC218;&#xBA85;() &#xC635;&#xC158; {</span><br><span class="line">    &#xAE30;&#xB2A5; &#xC815;&#xC758;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
 
 <br>
@@ -525,7 +512,8 @@
 <li><p>view/pure&#xAC00; &#xBD99;&#xC740; &#xD568;&#xC218;&#xB294; &#xB370;&#xC774;&#xD130; &#xBCC0;&#xACBD;&#xC774; &#xBD88;&#xAC00;&#xB2A5;&#xD568;</p>
 </li>
 </ul>
-<p><br><br><br></p>
+<br>
+
 <table>
 <thead>
 <tr>
@@ -562,13 +550,12 @@
 <td>-</td>
 </tr>
 <tr>
-<td>&#xD2B9;&#xC815; OPCODE&#xB97C; &#xD3EC;&#xD568;&#xD55C; &#xC778;&#xB77C;&#xC778; &#xC5B4;&#xC148;&#xBE14;&#xB9AC; &#xC0AC;&#xC6A9;</td>
+<td>&#xD2B9;&#xC815; OP Code&#xB97C; &#xD3EC;&#xD568;&#xD55C; &#xC778;&#xB77C;&#xC778; &#xC5B4;&#xC148;&#xBE14;&#xB9AC; &#xC0AC;&#xC6A9;</td>
 <td>-</td>
 </tr>
 </tbody></table>
-<p><br><br><br></p>
-<h2 id="&#xD568;&#xC218;&#xC758;-&#xD638;&#xCD9C;-&#xBC94;&#xC704;-&#xAC00;&#xC2DC;&#xC131;"><a href="#&#xD568;&#xC218;&#xC758;-&#xD638;&#xCD9C;-&#xBC94;&#xC704;-&#xAC00;&#xC2DC;&#xC131;" class="headerlink" title="&#xD568;&#xC218;&#xC758; &#xD638;&#xCD9C; &#xBC94;&#xC704; (&#xAC00;&#xC2DC;&#xC131;)"></a>&#xD568;&#xC218;&#xC758; &#xD638;&#xCD9C; &#xBC94;&#xC704; (&#xAC00;&#xC2DC;&#xC131;)</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xD568;&#xC218;&#xC758;-&#xD638;&#xCD9C;-&#xBC94;&#xC704;-&#xAC00;&#xC2DC;&#xC131;"><a href="#&#xD568;&#xC218;&#xC758;-&#xD638;&#xCD9C;-&#xBC94;&#xC704;-&#xAC00;&#xC2DC;&#xC131;" class="headerlink" title="&#xD568;&#xC218;&#xC758; &#xD638;&#xCD9C; &#xBC94;&#xC704; (&#xAC00;&#xC2DC;&#xC131;)"></a>&#xD568;&#xC218;&#xC758; &#xD638;&#xCD9C; &#xBC94;&#xC704; (&#xAC00;&#xC2DC;&#xC131;)</h3><hr>
 <ul>
 <li><p><code>public</code>: &#xBAA8;&#xB4E0; &#xC601;&#xC5ED; (&#xC0C1;&#xC18D;&#xBC1B;&#xC740; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;, &#xC678;&#xBD80; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;, &#xB0B4;&#xBD80;)&#xC5D0;&#xC11C; &#xD568;&#xC218; &#xD638;&#xCD9C; &#xAC00;&#xB2A5;</p>
 </li>
@@ -579,9 +566,8 @@
 <li><p><code>internal</code>: private&#xACFC; &#xBE44;&#xC2B7;&#xD558;&#xC9C0;&#xB9CC; internal&#xC740; &#xC0C1;&#xC18D;&#xBC1B;&#xC740; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0;&#xC11C;&#xB3C4; &#xD638;&#xCD9C; &#xAC00;&#xB2A5;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="&#xC0DD;&#xC131;&#xC790;"><a href="#&#xC0DD;&#xC131;&#xC790;" class="headerlink" title="&#xC0DD;&#xC131;&#xC790;"></a>&#xC0DD;&#xC131;&#xC790;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xC0DD;&#xC131;&#xC790;"><a href="#&#xC0DD;&#xC131;&#xC790;" class="headerlink" title="&#xC0DD;&#xC131;&#xC790;"></a>&#xC0DD;&#xC131;&#xC790;</h3><hr>
 <ul>
 <li><p>constructor &#xD0A4;&#xC6CC;&#xB4DC;&#xB97C; &#xC0AC;&#xC6A9;</p>
 </li>
@@ -592,9 +578,8 @@
 <li><p>return &#xD0A4;&#xC6CC;&#xB4DC; &#xC0AC;&#xC6A9; &#xBD88;&#xAC00;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="Payable"><a href="#Payable" class="headerlink" title="Payable"></a>Payable</h2><br>
-
+<p><br><br></p>
+<h3 id="Payable"><a href="#Payable" class="headerlink" title="Payable"></a>Payable</h3><hr>
 <ul>
 <li><p>&#xC678;&#xBD80;&#xB85C;&#xBD80;&#xD130; &#xC774;&#xB354;&#xB9AC;&#xC6C0;&#xC744; &#xBC1B;&#xC558;&#xC744; &#xB54C; &#xD638;&#xCD9C;&#xD558;&#xB3C4;&#xB85D; &#xD558;&#xB294; &#xD0A4;&#xC6CC;&#xB4DC;</p>
 </li>
@@ -602,14 +587,17 @@
 </li>
 <li><p>payable&#xC774; &#xBD99;&#xC740; &#xACBD;&#xC6B0; &#xD568;&#xC218;&#xB294; external&#xC774;&#xC5B4;&#xC57C; &#xD568;</p>
 </li>
+</ul>
+<br>
+
+<ul>
 <li><p><code>msg.sender</code>: &#xD568;&#xC218;&#xB97C; &#xD638;&#xCD9C;&#xD55C; &#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#xB97C; &#xAC00;&#xC838;&#xC634;</p>
 </li>
 <li><p><code>msg.value</code>: &#xC804;&#xC1A1;&#xB41C; &#xC774;&#xB354;&#xB9AC;&#xC6C0; &#xAC1C;&#xC218;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="&#xD568;&#xC218;-&#xBCC0;&#xACBD;&#xC790;"><a href="#&#xD568;&#xC218;-&#xBCC0;&#xACBD;&#xC790;" class="headerlink" title="&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;"></a>&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xD568;&#xC218;-&#xBCC0;&#xACBD;&#xC790;"><a href="#&#xD568;&#xC218;-&#xBCC0;&#xACBD;&#xC790;" class="headerlink" title="&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;"></a>&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;</h3><hr>
 <ul>
 <li><p>&#xD568;&#xC218; &#xBCC0;&#xACBD;&#xC790;&#xB294; &#xD568;&#xC218;&#xB97C; &#xC2E4;&#xD589;&#xD560; &#xB54C; &#xBBF8;&#xB9AC; &#xC2E4;&#xD589;&#xB418;&#xB294; &#xD568;&#xC218;</p>
 </li>
@@ -618,22 +606,19 @@
 <li><p>&#xD2B9;&#xC815; &#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#xB9CC; &#xD568;&#xC218;&#xB97C; &#xD638;&#xCD9C;&#xD560; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xC124;&#xC815;&#xD560; &#xB54C; &#xC0AC;&#xC6A9;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="&#xC608;&#xC678;&#xCC98;&#xB9AC;"><a href="#&#xC608;&#xC678;&#xCC98;&#xB9AC;" class="headerlink" title="&#xC608;&#xC678;&#xCC98;&#xB9AC;"></a>&#xC608;&#xC678;&#xCC98;&#xB9AC;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xC608;&#xC678;&#xCC98;&#xB9AC;"><a href="#&#xC608;&#xC678;&#xCC98;&#xB9AC;" class="headerlink" title="&#xC608;&#xC678;&#xCC98;&#xB9AC;"></a>&#xC608;&#xC678;&#xCC98;&#xB9AC;</h3><hr>
 <p>require, assert&#xB97C; &#xC774;&#xC6A9;</p>
-<p><br><br><br></p>
-<h2 id="&#xC774;&#xBCA4;&#xD2B8;"><a href="#&#xC774;&#xBCA4;&#xD2B8;" class="headerlink" title="&#xC774;&#xBCA4;&#xD2B8;"></a>&#xC774;&#xBCA4;&#xD2B8;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xC774;&#xBCA4;&#xD2B8;"><a href="#&#xC774;&#xBCA4;&#xD2B8;" class="headerlink" title="&#xC774;&#xBCA4;&#xD2B8;"></a>&#xC774;&#xBCA4;&#xD2B8;</h3><hr>
 <ul>
 <li><p>event &#xD0A4;&#xC6CC;&#xB4DC;&#xB97C; &#xC0AC;&#xC6A9;</p>
 </li>
 <li><p>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xC5D0;&#xC11C; &#xD2B9;&#xC815;&#xD55C; &#xC77C;&#xC774; &#xBC1C;&#xC0DD;&#xD588;&#xC744; &#xB54C; &#xC678;&#xBD80;&#xC5D0; &#xC54C;&#xB824;&#xC8FC;&#xB294; &#xC5ED;&#xD560;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="address-&#xD0C0;&#xC785;&#xC758;-&#xC790;&#xB8CC;&#xD615;"><a href="#address-&#xD0C0;&#xC785;&#xC758;-&#xC790;&#xB8CC;&#xD615;" class="headerlink" title="address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;"></a>address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;</h2><br>
-
+<p><br><br></p>
+<h3 id="Address-&#xD0C0;&#xC785;&#xC758;-&#xC790;&#xB8CC;&#xD615;"><a href="#Address-&#xD0C0;&#xC785;&#xC758;-&#xC790;&#xB8CC;&#xD615;" class="headerlink" title="Address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;"></a>Address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;</h3><hr>
 <ul>
 <li><p>Address &#xD0C0;&#xC785;&#xC758; &#xC790;&#xB8CC;&#xD615;&#xC740; balance&#xC640; transfer &#xC0AC;&#xC6A9; &#xAC00;&#xB2A5;</p>
 </li>
@@ -642,40 +627,35 @@
 <li><p>Transfer&#xB294; &#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xAC00; &#xBCF4;&#xC720;&#xC911;&#xC778; &#xC774;&#xB354;&#xB9AC;&#xC6C0;&#xC744; &#xB2E4;&#xB978; &#xC9C0;&#xAC11; &#xC8FC;&#xC18C;&#xB85C; &#xC804;&#xC1A1; &#xAC00;&#xB2A5;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="&#xC870;&#xAC74;&#xBB38;&#xACFC;-&#xBC18;&#xBCF5;&#xBB38;"><a href="#&#xC870;&#xAC74;&#xBB38;&#xACFC;-&#xBC18;&#xBCF5;&#xBB38;" class="headerlink" title="&#xC870;&#xAC74;&#xBB38;&#xACFC; &#xBC18;&#xBCF5;&#xBB38;"></a>&#xC870;&#xAC74;&#xBB38;&#xACFC; &#xBC18;&#xBCF5;&#xBB38;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xC870;&#xAC74;&#xBB38;&#xACFC;-&#xBC18;&#xBCF5;&#xBB38;"><a href="#&#xC870;&#xAC74;&#xBB38;&#xACFC;-&#xBC18;&#xBCF5;&#xBB38;" class="headerlink" title="&#xC870;&#xAC74;&#xBB38;&#xACFC; &#xBC18;&#xBCF5;&#xBB38;"></a>&#xC870;&#xAC74;&#xBB38;&#xACFC; &#xBC18;&#xBCF5;&#xBB38;</h3><hr>
 <ul>
 <li><p><strong>&#xC870;&#xAC74;&#xBB38;</strong>: if / if else / else</p>
 </li>
 <li><p><strong>&#xBC18;&#xBCF5;&#xBB38;</strong>: for</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="&#xC0C1;&#xC18D;"><a href="#&#xC0C1;&#xC18D;" class="headerlink" title="&#xC0C1;&#xC18D;"></a>&#xC0C1;&#xC18D;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xC0C1;&#xC18D;"><a href="#&#xC0C1;&#xC18D;" class="headerlink" title="&#xC0C1;&#xC18D;"></a>&#xC0C1;&#xC18D;</h3><hr>
 <ul>
 <li><p>is &#xD0A4;&#xC6CC;&#xB4DC; &#xC0AC;&#xC6A9;</p>
 </li>
 <li><p>public, internal&#xC77C; &#xB54C; &#xC0AC;&#xC6A9; &#xAC00;&#xB2A5;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="delegatedcall-call"><a href="#delegatedcall-call" class="headerlink" title="delegatedcall, call"></a>delegatedcall, call</h2><br>
-
+<p><br><br></p>
+<h3 id="delegatedcall-call"><a href="#delegatedcall-call" class="headerlink" title="delegatedcall, call"></a>delegatedcall, call</h3><hr>
 <p>&#xB2E4;&#xB978; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8;&#xB97C; &#xD638;&#xCD9C;&#xD558;&#xAE30; &#xC704;&#xD574; &#xC0AC;&#xC6A9;</p>
-<p><br><br><br></p>
-<h2 id="ERC-20"><a href="#ERC-20" class="headerlink" title="ERC-20"></a>ERC-20</h2><br>
-
+<p><br><br></p>
+<h3 id="ERC-20"><a href="#ERC-20" class="headerlink" title="ERC-20"></a>ERC-20</h3><hr>
 <ul>
 <li><p>Ethereum Request for Comments (ERC)</p>
 </li>
 <li><p>ERC-20 &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xD1A0;&#xD070;&#xC744; &#xC0DD;&#xC131;&#xD560; &#xC218; &#xC788;&#xC74C;</p>
 </li>
 </ul>
-<p><br><br><br></p>
-<h2 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;</h2><br>
-
+<p><br><br></p>
+<h3 id="&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;"><a href="#&#xC2A4;&#xB9C8;&#xD2B8;-&#xCEE8;&#xD2B8;&#xB799;&#xD2B8;-&#xC2E4;&#xC2B5;" class="headerlink" title="&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;"></a>&#xC2A4;&#xB9C8;&#xD2B8; &#xCEE8;&#xD2B8;&#xB799;&#xD2B8; &#xC2E4;&#xC2B5;</h3><hr>
 <ol>
 <li><strong>&#xBA54;&#xD0C0;&#xB9C8;&#xC2A4;&#xD06C; &#xC124;&#xCE58;</strong> - <a target="_blank" rel="noopener" href="https://metamask.io/">https://metamask.io</a></li>
 </ol>
@@ -698,14 +678,18 @@
 
 <figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;=0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract SogangBaselab_Token {</span><br><span class="line">    string public constant name = &quot;BaseLab&quot;;</span><br><span class="line">    string public constant symbol = &apos;SBL&apos;;</span><br><span class="line">    uint8 public constant decimals = 18;</span><br><span class="line">    </span><br><span class="line">    uint256 public totalSupply;</span><br><span class="line">    </span><br><span class="line">    mapping (address =&gt; uint256) public balanceOf;</span><br><span class="line">    </span><br><span class="line">    event Transfer (address indexed from, address indexed to, uint256 value);</span><br><span class="line">    event Burn (address indexed from, uint256 value);</span><br><span class="line">    </span><br><span class="line">    address owner;</span><br><span class="line">    </span><br><span class="line">    modifier onlyOwner() {</span><br><span class="line">        require (msg.sender == owner);</span><br><span class="line">        _;</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    constructor (</span><br><span class="line">        uint256 _totalSupply</span><br><span class="line">       ) public {</span><br><span class="line">        owner = msg.sender;</span><br><span class="line">        totalSupply = _totalSupply * 10 ** uint256(decimals);</span><br><span class="line">        balanceOf[msg.sender] = totalSupply;</span><br><span class="line">        emit Transfer (address(this), msg.sender, totalSupply);</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    function transfer(address to, uint amount) public {</span><br><span class="line">        require (balanceOf[msg.sender] &gt;= amount);</span><br><span class="line">        balanceOf[msg.sender] -= amount;</span><br><span class="line">        balanceOf[to] += amount;</span><br><span class="line">        emit Transfer(msg.sender, to, amount);</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    function burn(uint amount) onlyOwner public {</span><br><span class="line">        require(totalSupply &gt;= amount);</span><br><span class="line">        balanceOf[msg.sender] -= amount;</span><br><span class="line">        totalSupply -= amount;</span><br><span class="line">        emit Burn (msg.sender, amount);</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    function addPublish(uint amount) onlyOwner public {</span><br><span class="line">        totalSupply += amount * 10 ** uint(decimals);</span><br><span class="line">        balanceOf[msg.sender] += amount * 10 ** uint(decimals);</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
 
-<p><br><br><br></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332373-02b2c500-4aad-11eb-801c-b4fd9912cda2.png"></p>  <br><br><br>
-<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332372-021a2e80-4aad-11eb-94ef-eec119b905f9.png"></p>  <br><br><br>
+<p><br><br></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332373-02b2c500-4aad-11eb-801c-b4fd9912cda2.png"></p>  
+
+<p><br><br></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332372-021a2e80-4aad-11eb-94ef-eec119b905f9.png"></p>  
+
+<p><br><br></p>
 <p align="center"><img src="https://user-images.githubusercontent.com/52089296/103332370-00e90180-4aad-11eb-9805-b7b8ca0d0993.png"></p>
 
-<p><br><br><br></p>
+<p><br><br></p>
 <blockquote>
-<p><strong>&#xAC15;&#xC758; &#xC790;&#xB8CC; &#xCD9C;&#xCC98;</strong>: &#xC11C;&#xAC15;&#xB300;&#xD559;&#xAD50; &#xCEF4;&#xD4E8;&#xD130;&#xACF5;&#xD559;&#xACFC; &#xC11C;&#xC911;&#xC6D0; &#xBC15;&#xC0AC;&#xACFC;&#xC815; </p>
+<p>&#xAC15;&#xC758; &#xC790;&#xB8CC; &#xCD9C;&#xCC98;: &#xC11C;&#xAC15;&#xB300;&#xD559;&#xAD50; &#xCEF4;&#xD4E8;&#xD130;&#xACF5;&#xD559;&#xACFC; &#xC11C;&#xC911;&#xC6D0; &#xBC15;&#xC0AC;&#xACFC;&#xC815; </p>
 </blockquote>
 </body></html>
     
@@ -715,21 +699,21 @@
     
         <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">#블록체인</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/blockchain/">#blockchain</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Blockchain/">#Blockchain</a></span>
     
         <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">#이더리움</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">#이더리움프라이빗네트워크</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">#이더리움 프라이빗 네트워크</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">#스마트컨트랙트</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">#스마트 컨트랙트</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B5%AC%EC%B6%95/">#이더리움네트워크구축</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95/">#이더리움 네트워크 구축</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/ethereum/">#ethereum</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Ethereum/">#Ethereum</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/ethereumprivatenetwork/">#ethereumprivatenetwork</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Ethereum-Private-Network/">#Ethereum Private Network</a></span>
     
-        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/smartcontract/">#smartcontract</a></span>
+        <span class="column is-narrow"><a class="tag is-light article-tag" href="/tags/Smart-Contract/">#Smart Contract</a></span>
     
     </div>
     
@@ -737,7 +721,7 @@
     <div class="columns is-mobile is-multiline article-nav">
         <span class="column is-12-mobile is-half-desktop  article-nav-prev">
             
-            <a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 ~ 03.15)</a>
+            <a href="/2020/03/01/weekly-report-200301/">두 주 계획표 (2020.03.01 - 03.15)</a>
             
         </span>
         <span class="column is-12-mobile is-half-desktop  article-nav-next">
