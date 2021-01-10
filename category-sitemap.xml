@@ -9,15 +9,22 @@
 
 
     <url>
-        <loc>https://y8ncastle.me/categories/Seminar/</loc>
-        <lastmod>2021-01-10T05:04:59.502Z</lastmod>
+        <loc>https://y8ncastle.me/categories/CURG-Blockchain/</loc>
+        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/categories/Plan/</loc>
-        <lastmod>2021-01-10T05:00:53.349Z</lastmod>
+        <lastmod>2021-01-10T05:12:34.263Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/categories/Seminar/</loc>
+        <lastmod>2021-01-10T05:04:59.502Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -163,14 +170,14 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/Personal-Project/%25EA%25B0%259C%25EC%259D%25B8-Android/</loc>
+        <loc>https://y8ncastle.me/categories/CSS/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/CSS/</loc>
+        <loc>https://y8ncastle.me/categories/Personal-Project/%25EA%25B0%259C%25EC%259D%25B8-Android/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
