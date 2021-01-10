@@ -856,6 +856,49 @@
     </item>
     
     <item>
+      <title>제네시스 블록 생성 오류 해결 (이더리움 DB 초기화)</title>
+      <link>https://y8ncastle.me/2020/04/22/genesis-error/</link>
+      <guid>https://y8ncastle.me/2020/04/22/genesis-error/</guid>
+      <pubDate>Wed, 22 Apr 2020 08:46:00 GMT</pubDate>
+      
+      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103390387-86c18700-4b57-11eb-96b7-d5f8b32a4f6b.png&quot; width=&quot;80%&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;이더리움 테스트넷을 처음으로 실험할 때 제네시스 블록을 생성한 이후 여러 가지 문제로 기존의 이더리움 DB를 다 날려야 할 일이 생겼다.  &lt;/p&gt;
+&lt;p&gt;DB를 날리지 않고는 데이터를 수정할 수 없었고, 그 상태에서 genesis block을 다시 생성하려고 할 때마다 &lt;code&gt;Fatal: Failed to write genesis block: database contains incompatible genesis (have -, new -)&lt;/code&gt; 오류가 발생했다.  &lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103390387-86c18700-4b57-11eb-96b7-d5f8b32a4f6b.png" width="80%"></p>  <p><br><br></p><p>이더리움 테스트넷을 처음으로 실험할 때 제네시스 블록을 생성한 이후 여러 가지 문제로 기존의 이더리움 DB를 다 날려야 할 일이 생겼다.  </p><p>DB를 날리지 않고는 데이터를 수정할 수 없었고, 그 상태에서 genesis block을 다시 생성하려고 할 때마다 <code>Fatal: Failed to write genesis block: database contains incompatible genesis (have -, new -)</code> 오류가 발생했다.  </p><p>DB를 삭제한 이후에는 다시 제네시스 블록(genesis block)을 생성할 수 있다.  </p><p>이를 위해 프롬프트 창에 <code>geth --datadir Geth 위치 removedb</code> 또는 <code>geth --datadir 이더리움 프로젝트 진행 폴더 위치 removedb</code>를 입력하면 해결할 수 있다.</p>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Blockchain/">Blockchain</category>
+      
+      <category domain="https://y8ncastle.me/categories/Blockchain/Ethereum/">Ethereum</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
+      
+      <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
+      
+      <category domain="https://y8ncastle.me/tags/Ethereum/">Ethereum</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D/">제네시스 블록</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D-%EC%98%A4%EB%A5%98/">제네시스 블록 오류</category>
+      
+      <category domain="https://y8ncastle.me/tags/Genesis-Block/">Genesis Block</category>
+      
+      <category domain="https://y8ncastle.me/tags/Genesis-Block-Error/">Genesis Block Error</category>
+      
+      
+      <comments>https://y8ncastle.me/2020/04/22/genesis-error/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>보름 계획표 (2020.04.16 - 04.30)</title>
       <link>https://y8ncastle.me/2020/04/14/weekly-report-200416/</link>
       <guid>https://y8ncastle.me/2020/04/14/weekly-report-200416/</guid>
@@ -1315,11 +1358,11 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/Youtube-Seminar/">Youtube Seminar</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8/">사이드 체인</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EA%B0%95%ED%99%94/">프라이버시 강화</category>
+      
+      <category domain="https://y8ncastle.me/tags/Youtube-Seminar/">Youtube Seminar</category>
       
       <category domain="https://y8ncastle.me/tags/Sidechain/">Sidechain</category>
       
@@ -2668,9 +2711,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/">프라이버시 보호</category>
-      
       <category domain="https://y8ncastle.me/tags/Youtube-Seminar/">Youtube Seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/">프라이버시 보호</category>
       
       <category domain="https://y8ncastle.me/tags/Privacy-Security/">Privacy Security</category>
       
@@ -4620,111 +4663,6 @@
       
       
       <comments>https://y8ncastle.me/2019/12/20/sogang-univ-cert/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>두 주 계획표 (2019.12.21 - 12.31)</title>
-      <link>https://y8ncastle.me/2019/12/20/weekly-report-191221/</link>
-      <guid>https://y8ncastle.me/2019/12/20/weekly-report-191221/</guid>
-      <pubDate>Fri, 20 Dec 2019 10:02:00 GMT</pubDate>
-      
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;날짜&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;목표&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;달성 내용&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;특이사항 (비고)&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.21&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;서강대학교 대학원 BaSE Lab 세미나&lt;/td&gt;
-&lt;td&gt;14:00-16:30&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.22&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;개인 일정&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.23&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;[블록체인 인재양성 교육 STEP 2 강의]&lt;/strong&gt;&lt;br&gt;블록체인과 산업혁신 - 박수용 교수님&lt;br&gt;블록체인 입문 교육 - 윤석빈 교수님&lt;/td&gt;
-&lt;td&gt;09:30-12:30&lt;br&gt;14:00-17:50&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.24&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;[블록체인 인재양성 교육 STEP 2 강의]&lt;/strong&gt;&lt;br&gt;이더리움 이론 및 실습 - 이동현 연구원&lt;/td&gt;
-&lt;td&gt;09:30-17:30&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.25&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;개인 일정 - 서울 이사 준비&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.26&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;[블록체인 인재양성 교육 STEP 2 강의]&lt;/strong&gt;&lt;br&gt;스마트 컨트랙트 작성 및 발행 - 이동현 연구원&lt;/td&gt;
-&lt;td&gt;10:30-17:50&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.27&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;[블록체인 인재양성 교육 STEP 2 강의]&lt;/strong&gt;&lt;br&gt;하이퍼레저 패브릭 개요 - 서중원 박사과정 연구원&lt;/td&gt;
-&lt;td&gt;09:40-16:40&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.28&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;[블록체인 인재양성 교육 STEP 2 강의]&lt;/strong&gt;&lt;br&gt;하이퍼레저 패브릭 활용 - 서중원 박사과정 연구원&lt;/td&gt;
-&lt;td&gt;09:50-16:00&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.29&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;개인 일정&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.30&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;연구실 자리 배정, 대청소&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.12.31&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;개인 일정&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-</description>
-      
-      
-      
-      <content:encoded><![CDATA[<table><thead><tr><th><strong>날짜</strong></th><th><strong>목표</strong></th><th><strong>달성 내용</strong></th><th><strong>특이사항 (비고)</strong></th></tr></thead><tbody><tr><td><strong>2019.12.21</strong></td><td>서강대학교 대학원 BaSE Lab 세미나</td><td>14:00-16:30</td><td>O</td></tr><tr><td><strong>2019.12.22</strong></td><td>개인 일정</td><td></td><td></td></tr><tr><td><strong>2019.12.23</strong></td><td><strong>[블록체인 인재양성 교육 STEP 2 강의]</strong><br>블록체인과 산업혁신 - 박수용 교수님<br>블록체인 입문 교육 - 윤석빈 교수님</td><td>09:30-12:30<br>14:00-17:50</td><td>O</td></tr><tr><td><strong>2019.12.24</strong></td><td><strong>[블록체인 인재양성 교육 STEP 2 강의]</strong><br>이더리움 이론 및 실습 - 이동현 연구원</td><td>09:30-17:30</td><td>O</td></tr><tr><td><strong>2019.12.25</strong></td><td>개인 일정 - 서울 이사 준비</td><td></td><td></td></tr><tr><td><strong>2019.12.26</strong></td><td><strong>[블록체인 인재양성 교육 STEP 2 강의]</strong><br>스마트 컨트랙트 작성 및 발행 - 이동현 연구원</td><td>10:30-17:50</td><td>O</td></tr><tr><td><strong>2019.12.27</strong></td><td><strong>[블록체인 인재양성 교육 STEP 2 강의]</strong><br>하이퍼레저 패브릭 개요 - 서중원 박사과정 연구원</td><td>09:40-16:40</td><td>O</td></tr><tr><td><strong>2019.12.28</strong></td><td><strong>[블록체인 인재양성 교육 STEP 2 강의]</strong><br>하이퍼레저 패브릭 활용 - 서중원 박사과정 연구원</td><td>09:50-16:00</td><td>O</td></tr><tr><td><strong>2019.12.29</strong></td><td>개인 일정</td><td></td><td></td></tr><tr><td><strong>2019.12.30</strong></td><td>연구실 자리 배정, 대청소</td><td>O</td><td>계획 추가</td></tr><tr><td><strong>2019.12.31</strong></td><td>개인 일정</td><td></td><td></td></tr></tbody></table>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Plan/">Plan</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/Plan-2020/">Plan 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
-      
-      <category domain="https://y8ncastle.me/tags/Plan/">Plan</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/12/20/weekly-report-191221/#disqus_thread</comments>
       
     </item>
     
