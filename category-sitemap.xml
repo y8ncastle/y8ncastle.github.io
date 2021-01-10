@@ -9,6 +9,13 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/categories/IT-Free-Board/</loc>
+        <lastmod>2021-01-10T02:42:24.214Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/categories/Blockchain/Ethereum/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -51,14 +58,14 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/Plan/</loc>
+        <loc>https://y8ncastle.me/categories/Team-Project/%25ED%258C%2580-On-Books/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/Team-Project/%25ED%258C%2580-On-Books/</loc>
+        <loc>https://y8ncastle.me/categories/Plan/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -135,13 +142,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/IT-Free-Board/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/categories/Seminar/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -186,13 +186,6 @@
     <url>
         <loc>https://y8ncastle.me/categories/Baekjoon-Online-Judge/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Team-Project/X-Corps/</loc>
-        <lastmod>2020-12-31T06:25:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
