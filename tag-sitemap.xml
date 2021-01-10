@@ -3,50 +3,120 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/tags/AI/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/Artificial-Intelligence/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/Bellman-Equation/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/MDP/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/Markov-Decision-Process/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/Reinforcement-Learning/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B2%A8%EB%A7%8C-%EA%B8%B0%EB%8C%80-%EB%B0%A9%EC%A0%95%EC%8B%9D/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/</loc>
+        <lastmod>2021-01-10T05:24:30.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/tags/CURG/</loc>
-        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
+        <lastmod>2021-01-10T05:20:19.993Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/BigData/</loc>
-        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
+        <lastmod>2021-01-10T05:20:19.993Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/Key-Value-DB/</loc>
-        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
+        <lastmod>2021-01-10T05:20:19.993Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/</loc>
-        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
+        <lastmod>2021-01-10T05:20:19.993Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%ED%82%A4-%EB%B0%B8%EB%A5%98-DB/</loc>
-        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
+        <lastmod>2021-01-10T05:20:19.993Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/Blockchain/</loc>
-        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
+        <lastmod>2021-01-10T05:20:19.993Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</loc>
-        <lastmod>2021-01-10T05:16:19.916Z</lastmod>
+        <lastmod>2021-01-10T05:20:19.993Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -129,28 +199,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/AI/</loc>
-        <lastmod>2021-01-10T04:57:22.687Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Artificial-Intelligence/</loc>
-        <lastmod>2021-01-10T04:57:22.687Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/tags/Deep-Learning/</loc>
-        <lastmod>2021-01-10T04:57:22.687Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
         <lastmod>2021-01-10T04:57:22.687Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1788,27 +1837,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/BOJ9012/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/9012/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EA%B4%84%ED%98%B8/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/tags/BOJ4880/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1824,6 +1852,27 @@
 
     <url>
         <loc>https://y8ncastle.me/tags/What-s-Next/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/BOJ9012/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/9012/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B4%84%ED%98%B8/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -2103,6 +2152,27 @@
     </url>
 
     <url>
+        <loc>https://y8ncastle.me/tags/BOJ17201/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/17201/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9E%90%EC%84%9D-%EC%B2%B4%EC%9D%B8/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/tags/BOJ17202/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -2139,27 +2209,6 @@
 
     <url>
         <loc>https://y8ncastle.me/tags/%EC%95%84%EC%8A%A4%ED%82%A4-%EC%95%84%ED%8A%B8/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ17201/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/17201/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9E%90%EC%84%9D-%EC%B2%B4%EC%9D%B8/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -2313,6 +2362,27 @@
     </url>
 
     <url>
+        <loc>https://y8ncastle.me/tags/BOJ10943/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/10943/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EA%B2%8C%EC%9E%84/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/tags/BOJ10820/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -2349,27 +2419,6 @@
 
     <url>
         <loc>https://y8ncastle.me/tags/%ED%81%B0-%EC%88%98-A-B/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ10943/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/10943/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EA%B2%8C%EC%9E%84/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
