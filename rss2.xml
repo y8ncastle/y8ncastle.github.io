@@ -9,8 +9,527 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong&#39;s IT Blog (Personal Development)</description>
-    <pubDate>Sun, 10 Jan 2021 04:57:22 GMT</pubDate>
+    <pubDate>Sun, 10 Jan 2021 05:00:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>한 달 계획표 (2020.07.01 - 07.31)</title>
+      <link>https://y8ncastle.me/2020/07/01/weekly-report-200701/</link>
+      <guid>https://y8ncastle.me/2020/07/01/weekly-report-200701/</guid>
+      <pubDate>Wed, 01 Jul 2020 01:54:00 GMT</pubDate>
+      
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;날짜&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;목표&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;달성 여부&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;특이사항 (비고)&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;논스랩 프로젝트 개발 참여&lt;/strong&gt; (~7.17)&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;7.5 ~ 7.10, 7.12 ~ 7.17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CURG 블록체인 3차 Publish 준비&lt;/strong&gt; (~7.4)&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;7.1 ~ 7.4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;BaSE Lab 25차 유튜브 세미나 준비&lt;/strong&gt; (~7.29)&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;7.27 ~ 7.29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CURG 인공지능 2차 Publish 준비&lt;/strong&gt; (~8.1)&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;7.29 ~ 8.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;C++ 알고리즘 스터디&lt;/strong&gt; (화, 목 19:00)&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;7.2, 7.9, 7.14, 7.16, 7.21, 7.30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.01&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;IoT 블록체인 자료 조사&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.02&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;추가 계획 없음&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.03&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Eternize 2차 보고&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;7.2 선행&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;데일리코인뉴스 6월 활동내역 전송&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.04&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CURG 동아리&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10:00&lt;/td&gt;
+&lt;td&gt;O (블록체인 3차 Publish)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;C++ 알고리즘 문제 풀이&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;7월 1차 부분 백업&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;3차 통합 백업으로 연기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.05&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;NAS 월간 휴기&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;C++ 알고리즘 문제 풀이&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Welcome and Introduction&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20:00&lt;/td&gt;
+&lt;td&gt;O (스위스 UZH 강의 시작)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.06&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;연구실 대청소&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;1학기 연장 성적열람 마감&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;C++ 알고리즘 문제 풀이&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;UZH 2.1a 과제&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Kickoff&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;17:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.1: Intro to BC&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.2: Blockchain Eras, Applications and Consensus&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.07&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;C++ 알고리즘 문제 풀이&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.3: Blockchain Platforms BTC&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;17:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.1: Cryptocurrencies&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;19:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Forum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;21:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.08&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;UZH 1.1 ~ 1.3 과제&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.4: Blockchain Platforms ETH&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;Pre-recorded, 주말로 연기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.5: Smart Contracts&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;Pre-recorded, 주말로 연기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Forum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;21:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.09&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.1a: Neo Platform&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;Pre-recorded, 주말로 연기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.3a: Consortium Blockchains 1&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;16:00&lt;/td&gt;
+&lt;td&gt;O (계획 추가)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Group 10 Meeting&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;17:00&lt;/td&gt;
+&lt;td&gt;O (계획 추가)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.2: Cryptoeconomics&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;19:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.6: Blockchain Taxonomy&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;19:30&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Forum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;21:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.10&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.3b: Consortium Blockchain 2&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.11&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CURG 동아리&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;7월 2차 부분 백업&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;3차 통합 백업으로 연기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.12&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;추가 계획 없음&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.13&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;C++ 알고리즘 문제 풀이&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.2a: Polkadot 1&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.3a: IOTA&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.5a: Token Engineering&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;00:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.14&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.1b: NEO DApps&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 3.1a: Regulating Cryptoeconomy&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.4: IOST&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;19:30&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.15&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.5b: Token Engineering&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;00:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;24차 유튜브 세미나&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;09:30&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.7: IoT Blockchains&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18:00&lt;/td&gt;
+&lt;td&gt;O (계획 추가)&lt;br&gt;박수용 교수님 강의&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.5a: Hyperledger 1&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.6: Ripple&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;23:00&lt;/td&gt;
+&lt;td&gt;O (계획 추가)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.16&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.7: Cardano&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 3.1b: Regulating Cryptoeconomy&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.5b: Hyperledger 2&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.17&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Eternize 3차 보고&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.6: Token Design&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.7: ICO and Tokenisation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;21:00&lt;/td&gt;
+&lt;td&gt;O (계획 추가)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Wrap up&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;21:30&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.18&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CURG 동아리&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;7월 3차 통합 백업&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.19&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;추가 계획 없음&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.20&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;블록체인 학회 준비 회의&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;11:00&lt;/td&gt;
+&lt;td&gt;O (계획 추가)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.8: Second Layer Networks&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;17:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;알고리즘 문제 풀이&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 2.8: Blockchain Analytics&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 4.8: Monero&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;21:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.21&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH 1.9: Lightning Netowrk&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;18:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;학술대회 발표 PPT 작성&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.22&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Shadow Central Banking&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;00:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;BaSE Lab MT, 블록체인 학회 시작&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.23&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;블록체인 학회 학술대회 발표&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.24&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;UZH Graduation Ceremony&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.25&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;CURG 동아리&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10:00&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;7월 4차 부분 백업&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;3차 백업 대체&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.26&lt;br&gt;2020.07.27&lt;br&gt;2020.07.28&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;추가 계획 없음&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.29&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;연구실 프로젝트 자료 조사&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;25차 유튜브 세미나 발표&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;16:30&lt;/td&gt;
+&lt;td&gt;8월 26일로 연기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.30&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Hyperledger Besu 프라이빗 네트워크 구축&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;계획 추가&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;2020.07.31&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;데일리코인뉴스 7월 활동내역 전송&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;8월 3일로 연기&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+      
+      
+      
+      <content:encoded><![CDATA[<table><thead><tr><th><strong>날짜</strong></th><th><strong>목표</strong></th><th><strong>달성 여부</strong></th><th><strong>특이사항 (비고)</strong></th></tr></thead><tbody><tr><td></td><td><strong>논스랩 프로젝트 개발 참여</strong> (~7.17)</td><td>O</td><td>7.5 ~ 7.10, 7.12 ~ 7.17</td></tr><tr><td></td><td><strong>CURG 블록체인 3차 Publish 준비</strong> (~7.4)</td><td>O</td><td>7.1 ~ 7.4</td></tr><tr><td></td><td><strong>BaSE Lab 25차 유튜브 세미나 준비</strong> (~7.29)</td><td>O</td><td>7.27 ~ 7.29</td></tr><tr><td></td><td><strong>CURG 인공지능 2차 Publish 준비</strong> (~8.1)</td><td>O</td><td>7.29 ~ 8.1</td></tr><tr><td></td><td><strong>C++ 알고리즘 스터디</strong> (화, 목 19:00)</td><td>O</td><td>7.2, 7.9, 7.14, 7.16, 7.21, 7.30</td></tr><tr><td><strong>2020.07.01</strong></td><td><strong>IoT 블록체인 자료 조사</strong></td><td>O</td><td>-</td></tr><tr><td><strong>2020.07.02</strong></td><td>추가 계획 없음</td><td></td><td></td></tr><tr><td><strong>2020.07.03</strong></td><td><strong>Eternize 2차 보고</strong></td><td>O</td><td>7.2 선행</td></tr><tr><td></td><td><strong>데일리코인뉴스 6월 활동내역 전송</strong></td><td>O</td><td>-</td></tr><tr><td><strong>2020.07.04</strong></td><td><strong>CURG 동아리</strong></td><td>10:00</td><td>O (블록체인 3차 Publish)</td></tr><tr><td></td><td>C++ 알고리즘 문제 풀이</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>7월 1차 부분 백업</strong></td><td>O</td><td>3차 통합 백업으로 연기</td></tr><tr><td><strong>2020.07.05</strong></td><td><strong>NAS 월간 휴기</strong></td><td>O</td><td>-</td></tr><tr><td></td><td>C++ 알고리즘 문제 풀이</td><td>O</td><td>-</td></tr><tr><td></td><td><strong>UZH Welcome and Introduction</strong></td><td>20:00</td><td>O (스위스 UZH 강의 시작)</td></tr><tr><td><strong>2020.07.06</strong></td><td>연구실 대청소</td><td>O</td><td>-</td></tr><tr><td></td><td>1학기 연장 성적열람 마감</td><td>O</td><td>-</td></tr><tr><td></td><td>C++ 알고리즘 문제 풀이</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td>UZH 2.1a 과제</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>UZH Kickoff</strong></td><td>17:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 1.1: Intro to BC</strong></td><td>18:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 1.2: Blockchain Eras, Applications and Consensus</strong></td><td>O</td><td>계획 추가</td></tr><tr><td><strong>2020.07.07</strong></td><td>C++ 알고리즘 문제 풀이</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>UZH 1.3: Blockchain Platforms BTC</strong></td><td>17:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 2.1: Cryptocurrencies</strong></td><td>19:00</td><td>O</td></tr><tr><td></td><td><strong>UZH Forum</strong></td><td>21:00</td><td>O</td></tr><tr><td><strong>2020.07.08</strong></td><td>UZH 1.1 ~ 1.3 과제</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>UZH 1.4: Blockchain Platforms ETH</strong></td><td>O</td><td>Pre-recorded, 주말로 연기</td></tr><tr><td></td><td><strong>UZH 1.5: Smart Contracts</strong></td><td>O</td><td>Pre-recorded, 주말로 연기</td></tr><tr><td></td><td><strong>UZH Forum</strong></td><td>21:00</td><td>O</td></tr><tr><td><strong>2020.07.09</strong></td><td><strong>UZH 4.1a: Neo Platform</strong></td><td>O</td><td>Pre-recorded, 주말로 연기</td></tr><tr><td></td><td><strong>UZH 2.3a: Consortium Blockchains 1</strong></td><td>16:00</td><td>O (계획 추가)</td></tr><tr><td></td><td><strong>UZH Group 10 Meeting</strong></td><td>17:00</td><td>O (계획 추가)</td></tr><tr><td></td><td><strong>UZH 2.2: Cryptoeconomics</strong></td><td>19:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 1.6: Blockchain Taxonomy</strong></td><td>19:30</td><td>O</td></tr><tr><td></td><td><strong>UZH Forum</strong></td><td>21:00</td><td>O</td></tr><tr><td><strong>2020.07.10</strong></td><td><strong>UZH 2.3b: Consortium Blockchain 2</strong></td><td>20:00</td><td>O</td></tr><tr><td><strong>2020.07.11</strong></td><td><strong>CURG 동아리</strong></td><td>10:00</td><td>O</td></tr><tr><td></td><td><strong>7월 2차 부분 백업</strong></td><td>O</td><td>3차 통합 백업으로 연기</td></tr><tr><td><strong>2020.07.12</strong></td><td>추가 계획 없음</td><td></td><td></td></tr><tr><td><strong>2020.07.13</strong></td><td>C++ 알고리즘 문제 풀이</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>UZH 4.2a: Polkadot 1</strong></td><td>18:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 4.3a: IOTA</strong></td><td>20:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 2.5a: Token Engineering</strong></td><td>00:00</td><td>O</td></tr><tr><td><strong>2020.07.14</strong></td><td><strong>UZH 4.1b: NEO DApps</strong></td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>UZH 3.1a: Regulating Cryptoeconomy</strong></td><td>18:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 4.4: IOST</strong></td><td>19:30</td><td>O</td></tr><tr><td><strong>2020.07.15</strong></td><td><strong>UZH 2.5b: Token Engineering</strong></td><td>00:00</td><td>O</td></tr><tr><td></td><td><strong>24차 유튜브 세미나</strong></td><td>09:30</td><td>O</td></tr><tr><td></td><td><strong>UZH 1.7: IoT Blockchains</strong></td><td>18:00</td><td>O (계획 추가)<br>박수용 교수님 강의</td></tr><tr><td></td><td><strong>UZH 4.5a: Hyperledger 1</strong></td><td>20:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 4.6: Ripple</strong></td><td>23:00</td><td>O (계획 추가)</td></tr><tr><td><strong>2020.07.16</strong></td><td><strong>UZH 4.7: Cardano</strong></td><td>O</td><td>-</td></tr><tr><td></td><td><strong>UZH 3.1b: Regulating Cryptoeconomy</strong></td><td>18:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 4.5b: Hyperledger 2</strong></td><td>20:00</td><td>O</td></tr><tr><td><strong>2020.07.17</strong></td><td><strong>Eternize 3차 보고</strong></td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>UZH 2.6: Token Design</strong></td><td>18:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 2.7: ICO and Tokenisation</strong></td><td>21:00</td><td>O (계획 추가)</td></tr><tr><td></td><td><strong>UZH Wrap up</strong></td><td>21:30</td><td>O</td></tr><tr><td><strong>2020.07.18</strong></td><td><strong>CURG 동아리</strong></td><td>10:00</td><td>O</td></tr><tr><td></td><td><strong>7월 3차 통합 백업</strong></td><td>O</td><td>-</td></tr><tr><td><strong>2020.07.19</strong></td><td>추가 계획 없음</td><td></td><td></td></tr><tr><td><strong>2020.07.20</strong></td><td><strong>블록체인 학회 준비 회의</strong></td><td>11:00</td><td>O (계획 추가)</td></tr><tr><td></td><td><strong>UZH 1.8: Second Layer Networks</strong></td><td>17:00</td><td>O</td></tr><tr><td></td><td>알고리즘 문제 풀이</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>UZH 2.8: Blockchain Analytics</strong></td><td>20:00</td><td>O</td></tr><tr><td></td><td><strong>UZH 4.8: Monero</strong></td><td>21:00</td><td>O</td></tr><tr><td><strong>2020.07.21</strong></td><td><strong>UZH 1.9: Lightning Netowrk</strong></td><td>18:00</td><td>O</td></tr><tr><td></td><td>학술대회 발표 PPT 작성</td><td>O</td><td>계획 추가</td></tr><tr><td><strong>2020.07.22</strong></td><td><strong>UZH Shadow Central Banking</strong></td><td>00:00</td><td>O</td></tr><tr><td></td><td><strong>BaSE Lab MT, 블록체인 학회 시작</strong></td><td>O</td><td>-</td></tr><tr><td><strong>2020.07.23</strong></td><td><strong>블록체인 학회 학술대회 발표</strong></td><td>O</td><td>계획 추가</td></tr><tr><td><strong>2020.07.24</strong></td><td><strong>UZH Graduation Ceremony</strong></td><td>20:00</td><td>O</td></tr><tr><td><strong>2020.07.25</strong></td><td><strong>CURG 동아리</strong></td><td>10:00</td><td>O</td></tr><tr><td></td><td><strong>7월 4차 부분 백업</strong></td><td>O</td><td>3차 백업 대체</td></tr><tr><td><strong>2020.07.26<br>2020.07.27<br>2020.07.28</strong></td><td>추가 계획 없음</td><td></td><td></td></tr><tr><td><strong>2020.07.29</strong></td><td><strong>연구실 프로젝트 자료 조사</strong></td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>25차 유튜브 세미나 발표</strong></td><td>16:30</td><td>8월 26일로 연기</td></tr><tr><td><strong>2020.07.30</strong></td><td><strong>Hyperledger Besu 프라이빗 네트워크 구축</strong></td><td>O</td><td>계획 추가</td></tr><tr><td><strong>2020.07.31</strong></td><td><strong>데일리코인뉴스 7월 활동내역 전송</strong></td><td>-</td><td>8월 3일로 연기</td></tr></tbody></table>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Plan/">Plan</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
+      
+      <category domain="https://y8ncastle.me/tags/Plan-2020/">Plan 2020</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.me/tags/Plan/">Plan</category>
+      
+      
+      <comments>https://y8ncastle.me/2020/07/01/weekly-report-200701/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>[모두의 딥 러닝] Linear Regression Hypothesis와 Cost</title>
@@ -4347,56 +4866,6 @@
       
       
       <comments>https://y8ncastle.me/2019/11/19/x-corps-exh/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>[전시회] 2019년도 제8회 한밭대학교 정보기술대학 작품전시회</title>
-      <link>https://y8ncastle.me/2019/11/19/hanbat-ice-exh/</link>
-      <guid>https://y8ncastle.me/2019/11/19/hanbat-ice-exh/</guid>
-      <pubDate>Tue, 19 Nov 2019 12:07:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103060970-2c6f7600-45ed-11eb-91b0-23170d032e50.jpg&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;2019년 11월 11일부터 12일까지 양일간 &lt;code&gt;2019년도 제8회 한밭대학교 정보기술대학 작품전시회&lt;/code&gt;가 열렸다.  &lt;/p&gt;
-&lt;p&gt;올해 3월부터 발표 직전까지 준비한 캡스톤디자인을 최종 전시하고, 교수님과 외부 심사위원님들로부터 평가받는 시간이었는데 정보통신공학과를 비롯해 전기공학과, 전자제어공학과, 컴퓨터공학과가 같은 날 동시에 참여했다.  &lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103060969-2c6f7600-45ed-11eb-9210-c31b0f553439.jpg&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;작품을 준비한 기간은 길었지만 전시회 준비를 어떻게 해야 될지에 대해서는 한 번도 생각해보질 않아서 그냥 평상복으로 갔는데 생각보다 정장 입은 사람들이 많았던 것 같다. 특히 우리 과가 그랬다.  &lt;/p&gt;
-&lt;p&gt;그렇다고 정장 입은 사람들이 더 많았던 건 아니지만 우리 팀원들도 은근히 신경 쓰는 분위기였다. ㅋㅋ  &lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060970-2c6f7600-45ed-11eb-91b0-23170d032e50.jpg" width="70%"></p>  <p><br><br></p><p>2019년 11월 11일부터 12일까지 양일간 <code>2019년도 제8회 한밭대학교 정보기술대학 작품전시회</code>가 열렸다.  </p><p>올해 3월부터 발표 직전까지 준비한 캡스톤디자인을 최종 전시하고, 교수님과 외부 심사위원님들로부터 평가받는 시간이었는데 정보통신공학과를 비롯해 전기공학과, 전자제어공학과, 컴퓨터공학과가 같은 날 동시에 참여했다.  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060969-2c6f7600-45ed-11eb-9210-c31b0f553439.jpg" width="70%"></p>  <p><br><br></p><p>작품을 준비한 기간은 길었지만 전시회 준비를 어떻게 해야 될지에 대해서는 한 번도 생각해보질 않아서 그냥 평상복으로 갔는데 생각보다 정장 입은 사람들이 많았던 것 같다. 특히 우리 과가 그랬다.  </p><p>그렇다고 정장 입은 사람들이 더 많았던 건 아니지만 우리 팀원들도 은근히 신경 쓰는 분위기였다. ㅋㅋ  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060967-2bd6df80-45ed-11eb-98f1-f8a6972962dd.jpg" width="70%"></p>  <p><br><br></p><p>그리고 129개 팀이 한 곳에서 평가를 받는 데다 다양한 기계들이 들어와 있어서 그런지 열기가 장난이 아니었다.  </p><p>히터도 틀지 않았는데 무지막지하게 더웠다.  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060966-2aa5b280-45ed-11eb-885a-c8aaa8b6b0dc.jpg" width="60%"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060983-2ed1d000-45ed-11eb-8976-00d4e971249b.jpg" width="70%"></p> <p><br><br></p><p>우리 과는 다른 과에 비해 유독 사람이 많아서 그런지 전시회장의 거의 반을 차지했던 걸로 기억한다.  </p><p>캡스톤디자인 5차 발표까지 진행하면서 봤던 하드웨어 팀을 제외하고도 대략 20개 가까이 되는 팀을 추가로 본 것 같은데 정확하게는 모르겠지만 정말 다양했다.  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060980-2e393980-45ed-11eb-9429-6263703b2d54.png" width="60%"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060977-2da0a300-45ed-11eb-932c-f48d5246fbdc.png" width="60%"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060975-2da0a300-45ed-11eb-8840-b5e3b8cacee8.jpg" width="70%"></p>  <p><br><br></p><p>우리 팀은 <code>앱을 이용한 다기능 옴니 카 제어 설계</code>라는 주제로 약 반년 이상 준비해왔는데 막상 작품전시회에서 다른 팀들의 작품을 보니 뭔가 초라하게 느껴지기도 했다.  </p><p>아무래도 RC카 특성상 구현하기 쉽다는 느낌을 줄 수밖에 없어서 그런 것 같다. 그래도 다양한 기능을 넣으려고 시도하면서 배운 것도 많았기 때문에 주제에 대해서는 후회하지 않고 오히려 끝난다는 것에 후련한 느낌이 들었다.  </p><p>교수님들도 마지막이라 그런지 대체적으로 격려를 해주시고 평가도 후하게 해 주셨던 것 같다.  </p><p>다만, 한 교수님께서 사진 촬영 기능은 구현했는데 왜 동영상 촬영 기능은 넣지 않았느냐라고 물어보셨을 때 딱히 구현해야 할 필요가 없었던 이유를 설명드릴 수가 없어서 난감했던 기억이 난다.  </p><p>갸우뚱하시긴 하셨지만 그래도 끝났다는 게 어딘지… ㅎㅎ  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103060971-2d080c80-45ed-11eb-9ea1-3ee9a6a2a6d6.jpg" width="70%"></p>  <p><br><br></p><p>어쨌든 잘 마무리되어서 너무 좋고, 대학원이든 취업이든 걱정은 되지만 그래도 졸업이 다가온다는 게 너무 기대된다. </p><p><br><br></p><h3 id="졸업작품-개발에-도움을-받은-블로그-amp-사이트"><a href="#졸업작품-개발에-도움을-받은-블로그-amp-사이트" class="headerlink" title="졸업작품 개발에 도움을 받은 블로그 &amp; 사이트"></a>졸업작품 개발에 도움을 받은 블로그 &amp; 사이트</h3><hr><ol><li><strong>라즈베리파이 문서</strong>: <a href="https://wikidocs.net/3258">https://wikidocs.net/3258</a>  </li></ol><br><ol start="2"><li><strong>융합과학(STEAM) 실험 교실</strong>: <a href="http://blog.daum.net/e-joung/288">http://blog.daum.net/e-joung/288</a>  </li></ol><br><ol start="3"><li><strong>Raspberry PI</strong>: <a href="https://www.raspberrypi.org/documentation/">https://www.raspberrypi.org/documentation/</a>  </li></ol><br><ol start="4"><li><strong>병아리 개발자의 이야기</strong>: <a href="https://kgu0724.tistory.com/11">https://kgu0724.tistory.com/11</a>  </li></ol><br><ol start="5"><li><strong>세상에 모든 사물에 인터넷이 연결된다.</strong>: <a href="https://blog.naver.com/codingspecialist/221006044266">https://blog.naver.com/codingspecialist/221006044266</a>  </li></ol><br><ol start="6"><li><strong>Programming PEACE</strong>: <a href="https://mailmail.tistory.com/3">https://mailmail.tistory.com/3</a>  </li></ol><br><ol start="7"><li><strong>Happy Programmer</strong>: <a href="https://bitsoul.tistory.com/169">https://bitsoul.tistory.com/169</a>  </li></ol><br><ol start="8"><li><strong>문c 블로그</strong>: <a href="http://jake.dothome.co.kr/i2c-1/">http://jake.dothome.co.kr/i2c-1/</a>  </li></ol><br><ol start="9"><li><strong>사소한 시선(視線)</strong>: <a href="http://blog.naver.com/cosmosjs/220729784491">http://blog.naver.com/cosmosjs/220729784491</a>  </li></ol><br><ol start="10"><li><strong>피로에 살고 피로에 죽자</strong>: <a href="https://indra17.tistory.com/entry/android-webview%EB%A1%9C-javascript-%ED%98%B8%EC%B6%9C-%EB%B0%8F-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B0%9B%EA%B8%B0">https://indra17.tistory.com/entry/android-webview%EB%A1%9C-javascript-%ED%98%B8%EC%B6%9C-%EB%B0%8F-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B0%9B%EA%B8%B0</a>  </li></ol><br><ol start="11"><li><strong>기타치는 개발자의 야매 가이드</strong>: <a href="https://yamea-guide.tistory.com/239">https://yamea-guide.tistory.com/239</a>  </li></ol><br><ol start="12"><li><strong>강문성 블로그</strong>: <a href="http://blog.naver.com/PostView.nhn?blogId=newyorkinms&amp;logNo=220574570294&amp;parentCategoryNo=&amp;categoryNo=34&amp;viewDate=&amp;isShowPopularPosts=true&amp;from=search">http://blog.naver.com/PostView.nhn?blogId=newyorkinms&amp;logNo=220574570294&amp;parentCategoryNo=&amp;categoryNo=34&amp;viewDate=&amp;isShowPopularPosts=true&amp;from=search</a>  </li></ol><br><ol start="13"><li><strong>코딩팩토리</strong>: <a href="https://coding-factory.tistory.com/66">https://coding-factory.tistory.com/66</a></li></ol>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Exhibition/">Exhibition</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/">한밭대학교</category>
-      
-      <category domain="https://y8ncastle.me/tags/Hanbat/">Hanbat</category>
-      
-      <category domain="https://y8ncastle.me/tags/Information-and-Communication-Engineering/">Information and Communication Engineering</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
-      
-      <category domain="https://y8ncastle.me/tags/ICE/">ICE</category>
-      
-      <category domain="https://y8ncastle.me/tags/Exhibition/">Exhibition</category>
-      
-      <category domain="https://y8ncastle.me/tags/Graduation-Exhibition/">Graduation Exhibition</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/11/19/hanbat-ice-exh/#disqus_thread</comments>
       
     </item>
     
