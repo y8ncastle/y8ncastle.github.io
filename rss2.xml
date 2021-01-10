@@ -24,6 +24,11 @@
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;강화학습은 좋은 행동을 점점 더 많이 하게 하는 것 즉, &lt;code&gt;강화&lt;/code&gt;의 개념을 컴퓨터 학습에 적용시킨 것이다. 어떠한 환경 내에 주어진 에이전트(컴퓨터)는 현재 자신의 상태를 인식하여 선택 가능한 행동들 중에서 보상을 최대화하는 행동 혹은 적절한 행동 순서를 스스로 선택한다. 이를 통해 최적의 행동 방식 또는 정책을 찾아가는 것이 강화학습의 목적이라고 할 수 있다.  &lt;/p&gt;
 &lt;p&gt;컴퓨터에게 어떤 문제를 풀게 하기 위해서는 해당 문제를 수학적으로 정의해야 하는데 일반적으로 강화학습이 풀고자 하는 순차적 행동 결정 문제는 MDP로 정의할 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Markov-Decision-Process-MDP-마르코프-결정-과정&quot;&gt;&lt;a href=&quot;#Markov-Decision-Process-MDP-마르코프-결정-과정&quot; class=&quot;headerlink&quot; title=&quot;Markov Decision Process (MDP, 마르코프 결정 과정)&quot;&gt;&lt;/a&gt;Markov Decision Process (MDP, 마르코프 결정 과정)&lt;/h3&gt;&lt;p&gt;MDP는 순차적으로 행동을 결정해야 하는 문제를 풀기 위해 수학적으로 표현한 것으로, [그림 1]과 같이 상태, 행동, 상태 변환 확률, 보상 함수 그리고 감가율까지 총 5개의 요소들로 이루어져 있다.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103502071-6d8c4380-4e93-11eb-96a5-1b63c059f6e2.png&quot; width=&quot;70%&quot; alt=&quot;[그림 1] 마르코프 결정 과정(MDP)의 구성 요소&quot;&gt;&lt;/p&gt;  
+
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
@@ -71,7 +76,14 @@
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;글쓴이의 경우 빅데이터와 블록체인을 연관 지어 무엇인가를 해보고자 열심히 생각은 하고 있지만 분산 네트워크 특성상 용량 문제나 여러 비효율적인 측면 때문에 현실성이 조금 떨어진다는 의견이 많다 보니 아이디어를 생각해내기가 참 어려운 상황이다.  &lt;/p&gt;
 &lt;p&gt;비트코인이나 이더리움과 같은 블록체인 네트워크 환경에서는 LevelDB 같은 키-밸류 데이터베이스를 이용하고 있는데, LevelDB의 경우 주기적인 Compaction(압축)을 진행하다 보니 성능 측면에서 부족한 면이 있다. 이는 블록체인 네트워크 상에서 더 빠르고 확실한 데이터 처리를 위해 개선되어야 할 점이라고 생각한다.  &lt;/p&gt;
-&lt;p&gt;특히 빅데이터를 다루기 위해서 이러한 키-밸류 DB의 성능을 향상할 수 있는 방향을 먼저 찾아보고자 한다. 블록체인 상에서 빅데이터를 효율적으로 다룰 수 있는 아이디어를 찾는 것은 그러한 환경이 먼저 갖춰진 그 후의 일이 될 것 같다.&lt;/p&gt;</description>
+&lt;p&gt;특히 빅데이터를 다루기 위해서 이러한 키-밸류 DB의 성능을 향상할 수 있는 방향을 먼저 찾아보고자 한다. 블록체인 상에서 빅데이터를 효율적으로 다룰 수 있는 아이디어를 찾는 것은 그러한 환경이 먼저 갖춰진 그 후의 일이 될 것 같다.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;만약 이도 저도 안 되면 킹공지능을 깊이 공부하는 수밖에 없을 듯하다. 연결할 수 있는 것이 인공지능 밖에 없다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;이 글에서는 HM-SMR 드라이브 상 고성능 및 공간 효율성을 달성하는 키-밸류 DB인 GearDB에 대한 간략한 소개와 아키텍처 정도만 소개할 예정이다. 평가에 대한 요소는 글만으로는 그 가치를 직접 판단하기 어려운 부분이 있어 생략하도록 하겠다.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -117,7 +129,12 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Published&lt;/strong&gt;: JUN 2016&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Lab-세미나-발표-자료&quot;&gt;&lt;a href=&quot;#Lab-세미나-발표-자료&quot; class=&quot;headerlink&quot; title=&quot;Lab 세미나 발표 자료&quot;&gt;&lt;/a&gt;Lab 세미나 발표 자료&lt;/h3&gt;&lt;hr&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103501203-d1613d00-4e90-11eb-9fde-e5bdfa6cb709.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -681,7 +698,16 @@
 &lt;h3 id=&quot;Training&quot;&gt;&lt;a href=&quot;#Training&quot; class=&quot;headerlink&quot; title=&quot;Training&quot;&gt;&lt;/a&gt;Training&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;데이터를 가지고 학습을 시키는 것&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Regression-Data&quot;&gt;&lt;a href=&quot;#Regression-Data&quot; class=&quot;headerlink&quot; title=&quot;Regression (Data)&quot;&gt;&lt;/a&gt;Regression (Data)&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;x&lt;/code&gt;: 예측을 하기 위한 데이터 (Feature)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;y&lt;/code&gt;: 예측의 대상&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -725,7 +751,16 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;프로그램이지만 개발자가 일일이 어떤 현상에 대해 정하지 않고 프로그램 자체가 직접 데이터를 학습하는 능력을 갖게 하는 것&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Supervised-vs-Unsupervised&quot;&gt;&lt;a href=&quot;#Supervised-vs-Unsupervised&quot; class=&quot;headerlink&quot; title=&quot;Supervised vs Unsupervised&quot;&gt;&lt;/a&gt;Supervised vs Unsupervised&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Supervised&lt;/code&gt;: Learning with labeled examples (이미 있는 데이터를 제공하여 학습)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Unsupervised&lt;/code&gt;: Un-labeled data (미리 데이터를 정해주기 어려운 경우)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -771,7 +806,12 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Published&lt;/strong&gt;: DEC 2019&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Lab-세미나-발표-자료&quot;&gt;&lt;a href=&quot;#Lab-세미나-발표-자료&quot; class=&quot;headerlink&quot; title=&quot;Lab 세미나 발표 자료&quot;&gt;&lt;/a&gt;Lab 세미나 발표 자료&lt;/h3&gt;&lt;hr&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103495397-fef0bb00-4e7d-11eb-825d-983edd3d976b.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -812,7 +852,13 @@
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;온라인 스트리밍 서비스인 넷플릭스(Netflix)는 2006년, 자체 콘텐츠 추천 시스템을 향상하기 위해 Netflix Prize competition을 열었다. 이를 위해 17,000편 이상의 영화와 익명의 50만 고객으로부터 추출한 1억 개 이상의 평점 training set을 공개하며 더 나은 추천 시스템을 찾고자 하였다.  &lt;/p&gt;
 &lt;p&gt;이 논문[1]에서는 해당 competition에서 최고의 성적을 거둔 BellKor와 Big Chaos 팀의 &lt;code&gt;Matrix factorization 기술을 이용한 추천 시스템&lt;/code&gt;을 다루고 있다.&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103494819-c18b2e00-4e7b-11eb-884b-c9df7c593846.png&quot; width=&quot;60%&quot; alt=&quot;Netflix Logo [2]&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;이 시대를 살아가는 소비자들은 자신이 보고 싶은 콘텐츠를 선택하는 데 있어 많은 고민을 하곤 한다. 기존 온라인 콘텐츠 제공자들의 경우, 사람들의 서로 다른 입맛을 맞추기 위해 상당한 양의 제품들을 무작정 제공하였는데 이는 특정 콘텐츠에 대한 니즈를 충족시키기에는 한계가 있었다.  &lt;/p&gt;
+&lt;p&gt;그래서 콘텐츠 제공자들은 이후 사용자가 보고 싶어 할 만한 영상을 추천해주는 시스템을 구현하는 데에 관심을 두게 되었다. 이를 이용하여 소비자가 어떤 제품에 흥미를 갖는지 그 패턴을 분석하고, 원하는 콘텐츠를 예측하여 소비자가 원하는 제품을 우선적으로 접할 수 있도록 하는 것을 목표로 삼고 있다.  &lt;/p&gt;
+&lt;p&gt;우선, 기존에 존재하는 추천 시스템의 경우 두 가지 방법을 기반으로 동작한다. 그 방법에는 content filtering과 collaborative filtering이 있다.  &lt;/p&gt;</description>
       
       
       
@@ -851,7 +897,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103494397-0ada7e00-4e7a-11eb-845c-2a8294d2ee33.png&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103494396-09a95100-4e7a-11eb-85a2-54100094f7c6.png&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103494396-09a95100-4e7a-11eb-85a2-54100094f7c6.png&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;논문 제출&lt;/strong&gt;: 2020 한국 블록체인 학회 학술대회 (KCBC 2020) - &lt;code&gt;IoT 환경에서의 블록체인 오라클 문제 최소화 방법&lt;/code&gt; (제1저자)&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;관련 링크: &lt;a href=&quot;http://www.ksblockchain.or.kr/home/bbs/board.php?bo_table=nonmunji&amp;amp;wr_id=23&quot;&gt;http://www.ksblockchain.or.kr/home/bbs/board.php?bo_table=nonmunji&amp;amp;wr_id=23&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
       
       
       
@@ -1783,7 +1837,13 @@
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;안녕하세요! 제이정입니다.  &lt;/p&gt;
 &lt;p&gt;최근 코로나19 확산이 지속됨에 따라 학교 개학 및 개강이 미뤄지고 있는데요, 특히 대구/경북 지역에서 확진자가 많이 나옴에 따라 우려가 나오기도 했습니다.  &lt;/p&gt;
-&lt;p&gt;카투사 시절 같이 복무했던 제 지인인 대구 진월초등학교 교사 ‘신민철’ 형이 기획한 &lt;code&gt;학교가자 닷컴&lt;/code&gt; 프로젝트에 아주 조금이나마 기여할 수 있게 되어 글을 쓰게 되었습니다.  &lt;/p&gt;</description>
+&lt;p&gt;카투사 시절 같이 복무했던 제 지인인 대구 진월초등학교 교사 ‘신민철’ 형이 기획한 &lt;code&gt;학교가자 닷컴&lt;/code&gt; 프로젝트에 아주 조금이나마 기여할 수 있게 되어 글을 쓰게 되었습니다.  &lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103336584-fe41d880-4abb-11eb-891f-5686c08797e7.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;학교가자 닷컴&lt;/code&gt;은 코로나19 확산이 지속되고 있는 대구지역에서 많은 초등학생들의 학습 공백을 줄이기 위해 초등학교 교사들이 자발적으로 제작/참여한 교육용 플랫폼입니다.  &lt;/p&gt;
+&lt;p&gt;학생들을 위해 매주 다양한 콘텐츠를 업로드하여 학생들의 자기 주도적인 학습을 돕고, 학년별로 나누어져 있어 본인의 학년에 맞게 학습을 진행할 수 있습니다.  &lt;/p&gt;</description>
       
       
       
@@ -2083,7 +2143,21 @@
 &lt;h3 id=&quot;Geth-사용&quot;&gt;&lt;a href=&quot;#Geth-사용&quot; class=&quot;headerlink&quot; title=&quot;Geth 사용&quot;&gt;&lt;/a&gt;Geth 사용&lt;/h3&gt;&lt;hr&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Go Ethereum (Geth) 설치&lt;/strong&gt; - &lt;a href=&quot;https://geth.ethereum.org/downloads/&quot;&gt;https://geth.ethereum.org/downloads/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+&lt;br&gt;
+
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;터미널에서 &lt;code&gt;geth&lt;/code&gt; 실행&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;&lt;strong&gt;계정 생성&lt;/strong&gt;: &lt;code&gt;geth --datadir &amp;quot;드라이브명:\폴더명&amp;quot; account new&lt;/code&gt;  &lt;ul&gt;
+&lt;li&gt;이후 해당 폴더에 keystore 파일과 공개키가 생성됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;</description>
       
       
       
@@ -2171,7 +2245,134 @@
 &lt;td&gt;-&lt;/td&gt;
 &lt;td&gt;별도의 파일에 저장되어 있는 CSS를 다운받아 HTML 내에 그 코드가 있는 것처럼 동작하라는 의미&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;</description>
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;속성-정리&quot;&gt;&lt;a href=&quot;#속성-정리&quot; class=&quot;headerlink&quot; title=&quot;속성 정리&quot;&gt;&lt;/a&gt;속성 정리&lt;/h3&gt;&lt;hr&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;태그 표현&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;속성명&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;속성 기능&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;style&amp;gt; (텍스트)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;color: 색상 혹은 색상코드&lt;/td&gt;
+&lt;td&gt;색상 변경&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;text-decoration: none&lt;/td&gt;
+&lt;td&gt;해당 태그에 대한 텍스트 장식(밑줄 표현 등)이 사라짐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;text-decoration: underline&lt;/td&gt;
+&lt;td&gt;해당 태그에 대한 텍스트에 밑줄을 표시함&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;font-size: 숫자 px&lt;/td&gt;
+&lt;td&gt;텍스트의 크기 변경&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;text-align: center&lt;/td&gt;
+&lt;td&gt;해당 텍스트를 화면의 중앙으로 정렬&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;style&amp;gt; (테두리)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;border-width: 숫자 px&lt;/td&gt;
+&lt;td&gt;테두리 두께 설정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;border-color: 색상 혹은 색상코드&lt;/td&gt;
+&lt;td&gt;테두리 색상 변경&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;border-style: 테두리의 형태&lt;/td&gt;
+&lt;td&gt;실선, 단선, 점선 등을 설정&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;border-bottom&lt;/td&gt;
+&lt;td&gt;아래 쪽에만 테두리 표시&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;border: width (숫자 px) (테두리의 형태) (색상)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;위와 동일한 의미의 통합 표현&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;style&amp;gt; (화면)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;display: inline&lt;/td&gt;
+&lt;td&gt;element의 크기만큼 화면을 부분적으로 사용&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;display: block&lt;/td&gt;
+&lt;td&gt;element의 크기를 화면 전체적으로 사용&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;display: none&lt;/td&gt;
+&lt;td&gt;element가 화면에서 사라짐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;display: grid&lt;/td&gt;
+&lt;td&gt;grid-template 등을 이용하기 위해 사용&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;padding: 숫자 px&lt;/td&gt;
+&lt;td&gt;박스 모델과 요소 간 숫자 크기만큼 여백을 만듦&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;margin: 숫자 px&lt;/td&gt;
+&lt;td&gt;서로 다른 박스 모델 혹은 요소 간 여백을 만듦&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;width 크기 px 혹은 비율&lt;/td&gt;
+&lt;td&gt;박스 모델 크기 조절&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;grid-template-columns: 숫자 px 1fr&lt;/td&gt;
+&lt;td&gt;하나의 줄에 두 개를 동시에 표시&lt;br&gt;(1fr: 나머지 공간을 모두 사용)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;숫자 fr&lt;/td&gt;
+&lt;td&gt;화면 차지 비율 표현&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;class=”saw”&lt;/td&gt;
+&lt;td&gt;한 번 이상 열어보았던 페이지에 대한 정의 클래스&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;class=”saw active”&lt;/td&gt;
+&lt;td&gt;현재 머물고 있는 페이지에 대한 정의 클래스&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;style&amp;gt; (특수)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;.saw{}&lt;/td&gt;
+&lt;td&gt;saw라는 클래스에 대한 CSS 정의 (함수 형식)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;#active{}&lt;/td&gt;
+&lt;td&gt;active라는 id 선택자에 대한 CSS 정의&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -2203,7 +2404,13 @@
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;2020년 2월 21일 국립 한밭대학교에서 2019학년도 전기 학위수여식 행사가 열렸다.  &lt;/p&gt;
 &lt;p&gt;코로나 바이러스 때문에 공식적으로 졸업식 행사는 취소됐지만 수상자에 대해서는 특별히 진행한다고 하셔서 참여하게 되었고, 박사학위를 받는 분들을 포함해서 대략 5~60명 정도 참석했는데 모두 다 마스크를 낀 상태에서 진행하는 상황이었다.  &lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103331302-9b931180-4aa8-11eb-85dc-0f93a81fc657.jpg&quot; width=&quot;80%&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;4년 동안 공부하고 드디어 졸업했다는 생각에 후련할 줄 알았지만 특별한 느낌은 없었던 것 같다. 아무래도 대학원을 진학해서 새로운 공부를 해야 한다는 것 때문에 그런 것 같기도 한데 어쨌든 그렇게 바라고 바라던 학사 학위증을 받게 됐다.  &lt;/p&gt;
+&lt;p&gt;다만 좀 실망스러웠던 건 학위증을 너무 성의 없게 준 것이 아닌가라는 생각이 들기도 했다.  &lt;/p&gt;
+&lt;p&gt;주변 친구들이나 가족들이나 다 똑같이 하는 얘기지만 학업우수상이 끼워져 있는 플레이트에 비해 너무 종이만 있는(?) 스타일이 아니었나라는 음… ㅋㅋ  &lt;/p&gt;</description>
       
       
       
@@ -2250,7 +2457,23 @@
 &lt;li&gt;&lt;strong&gt;Reference&lt;/strong&gt;: &lt;a href=&quot;https://iopscience.iop.org/article/10.1088/1742-6596/1237/2/022025/pdf&quot;&gt;https://iopscience.iop.org/article/10.1088/1742-6596/1237/2/022025/pdf&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Author&lt;/strong&gt;: Kang Qiao, Wei You, Hongbo Tang&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Published&lt;/strong&gt;: JUN 2019&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;블록체인에서의 개인정보 보호&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;Ring Signature &amp;amp; Aggregate Signature&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;</description>
       
       
       
@@ -2541,7 +2764,13 @@
 &lt;td&gt;-&lt;/td&gt;
 &lt;td&gt;동영상 표현&lt;/td&gt;
 &lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;</description>
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;속성-정리&quot;&gt;&lt;a href=&quot;#속성-정리&quot; class=&quot;headerlink&quot; title=&quot;속성 정리&quot;&gt;&lt;/a&gt;속성 정리&lt;/h3&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;속성 (attribute)&lt;/strong&gt;: 태그의 이름만으로는 정보가 부족하여 만들어진 문법&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;</description>
       
       
       
@@ -2573,7 +2802,14 @@
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;2020년 2월 3일부터 5일까지 강원도 평창 한화리조트에서 &lt;code&gt;KCSE 2020&lt;/code&gt;(한국 소프트웨어공학 학술대회)이 열렸다.&lt;/p&gt;
 &lt;p&gt;BaSE 연구실의 연구원들과 함께 2박 3일 MT 가는 느낌으로 다녀오게 되었고, 많은 사람들이 준비한 논문들 중에서 블록체인 위주의 발표를 들으면서 새로운 아이디어를 공유하는 시간을 가진 것 같다. 물론 나는 발표가 없었지만 하하…&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103329425-0724b100-4aa0-11eb-9b5e-1227bb064a83.jpg&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103329423-068c1a80-4aa0-11eb-876d-b93c26e94ee9.jpg&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;등록비가 비싼 행사인만큼 전체적인 분위기라던지, 진행 과정에서 상당히 신경을 많이 쓴 것 같다는 느낌을 받았고 숙소 또한 마음에 들었다.  &lt;/p&gt;</description>
       
       
       
@@ -2609,7 +2845,17 @@
 &lt;p&gt;&lt;strong&gt;프로젝트 깃허브 주소&lt;/strong&gt;: &lt;a href=&quot;https://github.com/y8ncastle/Fresh_Pork&quot;&gt;https://github.com/y8ncastle/Fresh_Pork&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2020.01.31&lt;/strong&gt; (1일째) - 프로젝트 계획&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;2020.01.31&lt;/strong&gt; (1일째) - 프로젝트 계획&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;소프트웨어 공학 분석&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;2020.02.01&lt;/strong&gt; (2일째)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;소프트웨어 공학 분석&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;</description>
       
       
       
@@ -2650,7 +2896,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103324821-4c3ee800-4a8c-11eb-93eb-6085df0df800.png&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103324818-4c3ee800-4a8c-11eb-94e4-df57843f6651.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103324818-4c3ee800-4a8c-11eb-94e4-df57843f6651.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103324817-4ba65180-4a8c-11eb-9f7d-3ab5b2c156bc.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103324816-4ba65180-4a8c-11eb-82ef-d2dd70222259.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -2697,7 +2951,204 @@
 &lt;p&gt;블록체인 및 암호화폐 커뮤니티에서 약 1년 반 이상 활동하다가 최근 대학원을 통해 본격적으로 블록체인 이론을 공부하고 있는 초보 개발자 &lt;code&gt;제이정&lt;/code&gt;이라고 합니다.  &lt;/p&gt;
 &lt;p&gt;지난번에 &lt;code&gt;크립토 커뮤니티 활동 계기와 약 1년여간의 활동 수익 내역 확인&lt;/code&gt;이라는 게시물을 통해 2018년과 2019년 일부 암호화폐 관련 수익을 공개했었는데요, 앞으로는 특별한 일이 없다면 암호화폐 관련 마케팅은 하지 않을 것 같아 약 1년 반 정도의 수익 내용을 정리하면서 결산 관련 게시물 작성을 마무리하려고 합니다.  &lt;/p&gt;
 &lt;p&gt;암호화폐 및 프로젝트 단기 마케팅을 통한 수익성은 더이상 뚜렷하지 않은 것 같아 장기로 투자할만한 코인 &lt;em&gt;(비트코인, 이더리움, 클레이 정도 생각중입니다. 혹시 좋은 코인이 있다면 추천해주세요 ㅎㅎ)&lt;/em&gt; 이외에는 굳이 시간을 투자하지 않을 생각입니다. 물론 수익성 좋은 에어드랍과 바운티 프로그램에 대해서는 기회가 생길 때마다 꾸준히 참여할 예정이고, 데일리코인뉴스 SNS 특파원 활동 또한 계속 이어나갈 예정입니다.  &lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2019년-수익-내역-활동-기준&quot;&gt;&lt;a href=&quot;#2019년-수익-내역-활동-기준&quot; class=&quot;headerlink&quot; title=&quot;2019년 수익 내역 (활동 기준)&quot;&gt;&lt;/a&gt;2019년 수익 내역 (활동 기준)&lt;/h3&gt;&lt;hr&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;활동내역&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;이름&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;보상&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;커뮤니티 활동&lt;/td&gt;
+&lt;td&gt;Aha (아하)&lt;/td&gt;
+&lt;td&gt;25,400 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;커뮤니티 활동&lt;/td&gt;
+&lt;td&gt;Antzcoin.net (앤츠코인넷)&lt;/td&gt;
+&lt;td&gt;180,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;프로젝트 단기 마케팅&lt;/td&gt;
+&lt;td&gt;Anyone (애니원)&lt;/td&gt;
+&lt;td&gt;456,100 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;거래소 에어드랍&lt;/td&gt;
+&lt;td&gt;Bdoks (비닥스)&lt;/td&gt;
+&lt;td&gt;109,992 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;코인 투자 순익&lt;/td&gt;
+&lt;td&gt;Bitcoin (비트코인)&lt;/td&gt;
+&lt;td&gt;114,047 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;거래소 에어드랍&lt;/td&gt;
+&lt;td&gt;Bitkiny (빗키니)&lt;/td&gt;
+&lt;td&gt;10,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Bitsonic (비트소닉)&lt;/td&gt;
+&lt;td&gt;300,988 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;커뮤니티 활동&lt;/td&gt;
+&lt;td&gt;Cobba (코빠)&lt;/td&gt;
+&lt;td&gt;19,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;프로젝트 단기 마케팅&lt;/td&gt;
+&lt;td&gt;Coinmall (코인몰)&lt;/td&gt;
+&lt;td&gt;55,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Coinplug (코인플러그)&lt;/td&gt;
+&lt;td&gt;304,159 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;거래소 단기 마케팅&lt;/td&gt;
+&lt;td&gt;Coinwill (코인윌)&lt;/td&gt;
+&lt;td&gt;84,248 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;커뮤니티 활동&lt;/td&gt;
+&lt;td&gt;CoinXClub (코인엑스클럽)&lt;/td&gt;
+&lt;td&gt;53,200 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Color (컬러 플랫폼)&lt;/td&gt;
+&lt;td&gt;3,500 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Coredax (코어닥스)&lt;/td&gt;
+&lt;td&gt;16,610 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SNS 특파원 활동&lt;/td&gt;
+&lt;td&gt;DailyCoinNews (데일리코인뉴스)&lt;/td&gt;
+&lt;td&gt;866,000 DN&lt;br&gt;(ICO 기준 4,330,000 KRW)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;코인 투자 순익&lt;/td&gt;
+&lt;td&gt;Ethereum (이더리움)&lt;/td&gt;
+&lt;td&gt;319,196 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;F1ZZ (피즈)&lt;/td&gt;
+&lt;td&gt;5,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;GDAC (지닥)&lt;/td&gt;
+&lt;td&gt;24,199 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;커뮤니티 활동&lt;/td&gt;
+&lt;td&gt;Gen Service (젠서비스)&lt;/td&gt;
+&lt;td&gt;22,900 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;거래소 단기 마케팅&lt;/td&gt;
+&lt;td&gt;Jeju Crypto (제주크립토)&lt;/td&gt;
+&lt;td&gt;93,598 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;거래소 단기 마케팅&lt;/td&gt;
+&lt;td&gt;K-BIT (케이비트)&lt;/td&gt;
+&lt;td&gt;70,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;KEYT (레빗)&lt;/td&gt;
+&lt;td&gt;3,708 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;KStarLive (케이스타라이브)&lt;/td&gt;
+&lt;td&gt;9,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Nestree (네스트리)&lt;/td&gt;
+&lt;td&gt;2,700 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Oasis City (오아시스시티)&lt;/td&gt;
+&lt;td&gt;20,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 장외 매도&lt;/td&gt;
+&lt;td&gt;Others&lt;/td&gt;
+&lt;td&gt;750,178 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;ProSchool (프로스쿨)&lt;/td&gt;
+&lt;td&gt;28,908 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;거래소 에어드랍&lt;/td&gt;
+&lt;td&gt;Realbit (리얼비트)&lt;/td&gt;
+&lt;td&gt;4,100 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;코인 투자 순익&lt;/td&gt;
+&lt;td&gt;Ripple (리플)&lt;/td&gt;
+&lt;td&gt;211,657 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;ShareX (쉐어렉스)&lt;/td&gt;
+&lt;td&gt;39,554 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Six Network (식스 네트워크)&lt;/td&gt;
+&lt;td&gt;10,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;바운티 매도&lt;/td&gt;
+&lt;td&gt;Stasia (스타시아)&lt;/td&gt;
+&lt;td&gt;610,080 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;거래소 단기 마케팅&lt;/td&gt;
+&lt;td&gt;Trumbit (트럼빗)&lt;/td&gt;
+&lt;td&gt;140,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;Upbit (업비트)&lt;/td&gt;
+&lt;td&gt;1,712,178 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;에어드랍 매도&lt;/td&gt;
+&lt;td&gt;VSYS (브이시스템즈)&lt;/td&gt;
+&lt;td&gt;10,000 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;합계&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;5,819,200 KRW&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;DN 미정산분 (약 120~150만개)&lt;br&gt;+ ICO 기준가 포함 합계&lt;/td&gt;
+&lt;td&gt;16,149,200 ~ 17,649,200 KRW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2019년-수익-내역-월별-기준&quot;&gt;&lt;a href=&quot;#2019년-수익-내역-월별-기준&quot; class=&quot;headerlink&quot; title=&quot;2019년 수익 내역 (월별 기준)&quot;&gt;&lt;/a&gt;2019년 수익 내역 (월별 기준)&lt;/h3&gt;</description>
       
       
       
@@ -2935,7 +3386,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103264537-54484a80-49ee-11eb-86b4-396a691f34a7.png&quot; width=&quot;90%&quot; alt=&quot;[그림 2] 데이터 관리 화면, 기간별 전체 데이터 확인 화면, 개별 데이터 확인 및 삭제 다이얼로그&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103264536-53afb400-49ee-11eb-852f-307add1d9c7f.png&quot; width=&quot;80%&quot; alt=&quot;[그림 3] 옴니 카 조작 화면 - 버튼 방식&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103264536-53afb400-49ee-11eb-852f-307add1d9c7f.png&quot; width=&quot;80%&quot; alt=&quot;[그림 3] 옴니 카 조작 화면 - 버튼 방식&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103264535-53afb400-49ee-11eb-9b99-2cd0d984ea90.png&quot; width=&quot;80%&quot; alt=&quot;[그림 4] 옴니 카 조작 화면 - 조이스틱 방식&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103264534-53171d80-49ee-11eb-8e7d-531691d701dc.png&quot; width=&quot;80%&quot; alt=&quot;[그림 5] 옴니 카 조작 화면 - 자이로스코프 조작 방식&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -2978,7 +3437,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262782-447a3780-49e9-11eb-915d-b8bbdc9c73fe.png&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262780-447a3780-49e9-11eb-9a46-eb6c31fce738.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262780-447a3780-49e9-11eb-9a46-eb6c31fce738.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262779-43e1a100-49e9-11eb-9594-1a9f81dfa777.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262777-43e1a100-49e9-11eb-8e26-33295d6e3cf3.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3025,7 +3492,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262380-1ea06300-49e8-11eb-8b04-c3ffb8b35c3c.png&quot;&gt;&lt;/p&gt; 
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262379-1ea06300-49e8-11eb-80a2-0b11790d7996.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262379-1ea06300-49e8-11eb-80a2-0b11790d7996.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262378-1e07cc80-49e8-11eb-8a3e-5493c4bea72f.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262377-1e07cc80-49e8-11eb-8b9b-1898699538cd.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3072,7 +3547,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262144-5a86f880-49e7-11eb-8328-68a8908a6e1d.png&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262143-59ee6200-49e7-11eb-944d-2a82f0fd0df4.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262143-59ee6200-49e7-11eb-944d-2a82f0fd0df4.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262142-5955cb80-49e7-11eb-9975-5de23367ffe3.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103262141-5955cb80-49e7-11eb-8c5f-04412aaa4184.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3354,7 +3837,25 @@
 &lt;li&gt;&lt;strong&gt;Reference&lt;/strong&gt;: &lt;a href=&quot;https://www.mdpi.com/2076-3417/9/15/2953&quot;&gt;https://www.mdpi.com/2076-3417/9/15/2953&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Author&lt;/strong&gt;: Jamila Alsayed Kassem, Sarwar Sayeed, Hector Marco-Gisbert, Zeeshan Pervez, Keshav Dahal&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Published&lt;/strong&gt;: 24th JUL 2019&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identity Management (IdM)&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;소개 및 배경&lt;/li&gt;
+&lt;li&gt;디지털 신원 관리의 중요성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Digital Identity&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;기존 신원 관리 방식&lt;/li&gt;
+&lt;li&gt;분산화 프레임워크 - 이더리움&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;</description>
       
       
       
@@ -3393,7 +3894,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103260568-6ec7f700-49e1-11eb-998b-d48cdc72c1da.png&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103260566-6e2f6080-49e1-11eb-8e0b-0651a8fa04e2.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103260566-6e2f6080-49e1-11eb-8e0b-0651a8fa04e2.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103260564-6e2f6080-49e1-11eb-9a99-07aa24ac0ede.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103260563-6d96ca00-49e1-11eb-8112-3d75c2fe6289.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3436,7 +3945,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259839-6ae6a580-49de-11eb-9609-bb969bac4df1.png&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259838-6ae6a580-49de-11eb-8b4d-2e547fbafd78.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259838-6ae6a580-49de-11eb-8b4d-2e547fbafd78.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259837-6a4e0f00-49de-11eb-97e5-1171f7a54419.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259836-6a4e0f00-49de-11eb-87e4-0b55abd38acd.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3483,7 +4000,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259506-0840da00-49dd-11eb-86de-59304d30ac9f.png&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259505-07a84380-49dd-11eb-95f3-771a2e866021.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259505-07a84380-49dd-11eb-95f3-771a2e866021.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259504-07a84380-49dd-11eb-8a6c-0a983d5cf74b.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259503-070fad00-49dd-11eb-83c6-1c4e33867eb5.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3526,7 +4051,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259209-b9df0b80-49db-11eb-900c-276c484d0275.png&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259208-b9df0b80-49db-11eb-9d83-ac674d024dc6.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259208-b9df0b80-49db-11eb-9d83-ac674d024dc6.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259207-b9467500-49db-11eb-97c8-1d3c6d87065b.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103259206-b9467500-49db-11eb-9631-fe63b7c45756.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3573,7 +4106,15 @@
 &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103258927-82bc2a80-49da-11eb-94c9-6818bb399d54.png&quot;&gt;&lt;/p&gt;  
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103258926-82bc2a80-49da-11eb-9349-6dc417ff23d5.png&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103258926-82bc2a80-49da-11eb-9349-6dc417ff23d5.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103258923-82239400-49da-11eb-9ebb-53fca474dd27.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103258922-82239400-49da-11eb-9936-82bae27be293.png&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3839,7 +4380,12 @@
       
       <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103257873-57cfd780-49d6-11eb-97c7-d7978b7e4291.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;  &lt;br&gt;&lt;br&gt;&lt;br&gt;
 
-&lt;h3 id=&quot;기존-플랜-2020-진행사항-중간점검-및-변경사항&quot;&gt;&lt;a href=&quot;#기존-플랜-2020-진행사항-중간점검-및-변경사항&quot; class=&quot;headerlink&quot; title=&quot;기존 플랜 2020 진행사항 중간점검 및 변경사항&quot;&gt;&lt;/a&gt;기존 플랜 2020 진행사항 중간점검 및 변경사항&lt;/h3&gt;</description>
+&lt;h3 id=&quot;기존-플랜-2020-진행사항-중간점검-및-변경사항&quot;&gt;&lt;a href=&quot;#기존-플랜-2020-진행사항-중간점검-및-변경사항&quot; class=&quot;headerlink&quot; title=&quot;기존 플랜 2020 진행사항 중간점검 및 변경사항&quot;&gt;&lt;/a&gt;기존 플랜 2020 진행사항 중간점검 및 변경사항&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;블록체인 전문교육 이수 및 암호화폐 기술 연구 및 응용 (&lt;code&gt;진행중&lt;/code&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;대학원 연구실에서 블록체인에 관련된 전반적인 내용들을 공부하고자 한다.  &lt;/p&gt;
+&lt;p&gt;2019년에는 대학원 입학 가능 여부와 어느 기관을 통해 공부해야 할지 등을 고민해야 했지만 2020년에는 이 부분이 확실해진 만큼 관련 분야를 찾아보고 학습하는 시간을 가질 예정이다.  &lt;/p&gt;</description>
       
       
       
@@ -3872,7 +4418,8 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;키워드&quot;&gt;&lt;a href=&quot;#키워드&quot; class=&quot;headerlink&quot; title=&quot;키워드&quot;&gt;&lt;/a&gt;키워드&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;서강대학교, 삼성가브리엘관, 한-독, 핀테크, 블록체인 포럼, 서울특별시, 지능형 블록체인 연구센터, Lutz Raettig, Sooyong Park, 박수용 교수님, Dr. Jochen Biedermann, Fintech Initiative of the World Alliance of International Financial Centers, Agent-Based Consensus Preprocessing Method for Scalability Improvement in Private Blockchain Environment, Jungwon Seo, Dohyun Lee, Intelligent Blockchain Research Center, ITRC Blockchain&lt;/p&gt;</description>
+&lt;p&gt;서강대학교, 삼성가브리엘관, 한-독, 핀테크, 블록체인 포럼, 서울특별시, 지능형 블록체인 연구센터, Lutz Raettig, Sooyong Park, 박수용 교수님, Dr. Jochen Biedermann, Fintech Initiative of the World Alliance of International Financial Centers, Agent-Based Consensus Preprocessing Method for Scalability Improvement in Private Blockchain Environment, Jungwon Seo, Dohyun Lee, Intelligent Blockchain Research Center, ITRC Blockchain&lt;/p&gt;
+</description>
       
       
       
@@ -3920,7 +4467,23 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;code&gt;기술&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;br&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;여러가지 기술이 융합되어 탄생한 것&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;블록체인의 뚜렷한 정의는 때로 말하기 어렵다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;신뢰를 만드는 기계&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;분산 디지털 원장 또는 여러가지 기술의 집합체&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
@@ -3963,7 +4526,25 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;Remix&quot;&gt;&lt;a href=&quot;#Remix&quot; class=&quot;headerlink&quot; title=&quot;Remix&quot;&gt;&lt;/a&gt;Remix&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Ethereum IDE&lt;/strong&gt;: &lt;a href=&quot;http://remix.ethereum.org/&quot;&gt;http://remix.ethereum.org/&lt;/a&gt; (JSON RPC를 통해 발행)&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;Ethereum IDE&lt;/strong&gt;: &lt;a href=&quot;http://remix.ethereum.org/&quot;&gt;http://remix.ethereum.org/&lt;/a&gt; (JSON RPC를 통해 발행)&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Compiler setup]&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Solidity version select&lt;/code&gt;  &lt;ul&gt;
+&lt;li&gt;Metamask 연결 시 Environment - Injected Web3 선택 (네트워크 주소가 바로 아래 표시됨)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Auto compile&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;File explorers&lt;/code&gt; (Solidity 파일들이 있는 곳)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Create new file&lt;/code&gt; 클릭 후 코드 작성&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
       
       
       
@@ -4013,6 +4594,17 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;기존 애플리케이션은 중앙 집중화된 서버와 여러 개의 클라이언트들이 통신하는 구조라면 &lt;code&gt;Dapp (분산형 애플리케이션)&lt;/code&gt;은 각각의 클라이언트가 서로 간에 연결할 수 있어 데이터 및 스마트 컨트랙트를 공유하면서 탈중앙화 방식으로 통신을 한다.&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;이더리움-구성-요소&quot;&gt;&lt;a href=&quot;#이더리움-구성-요소&quot; class=&quot;headerlink&quot; title=&quot;이더리움 구성 요소&quot;&gt;&lt;/a&gt;이더리움 구성 요소&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;[상태]&lt;/strong&gt;  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;거래 기록뿐만 아닌 스마트 컨트랙트를 실행하기 위한 정보&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;어느 한 시점에 대한 ETH의 잔액 및 기타 정보를 담고 있는 계정들의 집합&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;상태 전이&lt;/code&gt;: 블록 채굴로 인한 거래내역 추가 시 상태 전이가 발생한다. (업데이트)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
       
       
@@ -4059,7 +4651,13 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Humans are hooked, Machines are learning.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;ABCD&quot;&gt;&lt;a href=&quot;#ABCD&quot; class=&quot;headerlink&quot; title=&quot;ABCD&quot;&gt;&lt;/a&gt;ABCD&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;AI, Blockchain, Cloud, Data가 미래에 함께 융합&lt;/code&gt;되어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;</description>
       
       
       
@@ -4107,7 +4705,16 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;대형 포털 사이트는 개인 데이터를 다른 곳에 쓰진 않을까?&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;블록체인의-탄생&quot;&gt;&lt;a href=&quot;#블록체인의-탄생&quot; class=&quot;headerlink&quot; title=&quot;블록체인의 탄생&quot;&gt;&lt;/a&gt;블록체인의 탄생&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;블록체인은 신뢰를 만드는 기술&lt;/code&gt;이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;현재까지는 중앙화된 기관을 통해 신뢰를 보장받았지만 블록체인을 도입하면 인증기관 없이도 신뢰를 보장받을 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;</description>
       
       
       
@@ -4311,7 +4918,76 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;1학년-1학기-2013년&quot;&gt;&lt;a href=&quot;#1학년-1학기-2013년&quot; class=&quot;headerlink&quot; title=&quot;1학년 1학기 (2013년)&quot;&gt;&lt;/a&gt;1학년 1학기 (2013년)&lt;/h3&gt;</description>
+&lt;h3 id=&quot;1학년-1학기-2013년&quot;&gt;&lt;a href=&quot;#1학년-1학기-2013년&quot; class=&quot;headerlink&quot; title=&quot;1학년 1학기 (2013년)&quot;&gt;&lt;/a&gt;1학년 1학기 (2013년)&lt;/h3&gt;&lt;hr&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;과목명&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;이수구분&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;이수학점&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;학점 (등급)&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;학점 (점수)&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;공학설계입문&lt;/td&gt;
+&lt;td&gt;전공필수&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;A0&lt;/td&gt;
+&lt;td&gt;91&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;물리학 및 실험 1&lt;/td&gt;
+&lt;td&gt;교양선택&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;B0&lt;/td&gt;
+&lt;td&gt;81&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;미분적분학 1&lt;/td&gt;
+&lt;td&gt;교양선택&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;B0&lt;/td&gt;
+&lt;td&gt;83&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;생활과 법률&lt;/td&gt;
+&lt;td&gt;교양선택&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;A+&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;자연과학개론&lt;/td&gt;
+&lt;td&gt;교양선택&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;A+&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;컴퓨터 및 IT 개론&lt;/td&gt;
+&lt;td&gt;교양선택&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;A+&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;C 프로그래밍&lt;/td&gt;
+&lt;td&gt;교양선택&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;A0&lt;/td&gt;
+&lt;td&gt;92&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;이수학점 및 평균 등급/점수&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;20&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;3.925&lt;/strong&gt; /4.5&lt;br&gt;(전공: &lt;strong&gt;4.0&lt;/strong&gt;)&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;90.25&lt;/strong&gt; /100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1학년-2학기-2013년&quot;&gt;&lt;a href=&quot;#1학년-2학기-2013년&quot; class=&quot;headerlink&quot; title=&quot;1학년 2학기 (2013년)&quot;&gt;&lt;/a&gt;1학년 2학기 (2013년)&lt;/h3&gt;&lt;hr&gt;</description>
       
       
       
@@ -4352,7 +5028,12 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h3 id=&quot;플랜-2020-네-번째-다섯-번째-목표-예비-달성&quot;&gt;&lt;a href=&quot;#플랜-2020-네-번째-다섯-번째-목표-예비-달성&quot; class=&quot;headerlink&quot; title=&quot;플랜 2020 네 번째, 다섯 번째 목표 예비 달성&quot;&gt;&lt;/a&gt;플랜 2020 네 번째, 다섯 번째 목표 예비 달성&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;플랜 2020의 목표를 이제 대부분 달성해가고 있는 것 같다.  &lt;/p&gt;</description>
+&lt;p&gt;플랜 2020의 목표를 이제 대부분 달성해가고 있는 것 같다.  &lt;/p&gt;
+&lt;p&gt;내년에 서울에서 블록체인 전문교육을 이수하고 추가로 암호화폐 기술 연구 및 응용까지 하는 것을 목표로 플랜 2020을 계획했는데 그 부분은 서강대학교 대학원을 통해 이룰 수 있을 것 같다.  &lt;/p&gt;
+&lt;p&gt;2019년 12월 7일에 응시했던 일반전형 2차 면접 진행 후 좋지 않은 결과를 얻을 것으로 예상했었지만 정말 운이 좋게도 합격했다.  &lt;/p&gt;
+&lt;p&gt;앞으로 서강대 지능형 블록체인 연구센터와 박수용 교수님(서강대학교 컴퓨터공학과, 한국블록체인학회장) 연구실에서 블록체인 관련 개념을 처음부터 상세하게 배우고 다양한 응용 분야를 연구하면서 블록체인 전문가가 되는 것이 최종적인 목표이다.  &lt;/p&gt;
+&lt;p&gt;계획을 세우는 것이 자기 개발에 많은 도움을 주는 것 같아 플랜 2020 이후에도 내가 할 일들을 정리하면서 꾸준히 계획을 세우도록 해야겠다.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;뽑아주셔서 감사합니다! 블록체인 학업연장! :)&lt;/strong&gt;  &lt;/p&gt;</description>
       
       
       
@@ -4689,7 +5370,13 @@
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;플랜 2020 계획에 맞춰 블록체인에 대한 연구를 진행하기 위해 서강대학교 일반대학원 컴퓨터공학과에 지원하였고, 2019년 12월 7일에 면접에 응시했다.  &lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103189140-9f8b2c00-490e-11eb-99d6-128cf476a6d6.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;</description>
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103189140-9f8b2c00-490e-11eb-99d6-128cf476a6d6.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;태어나서 아르바이트 면접을 제외하고 이런 정식 면접은 처음이었다.  &lt;/p&gt;
+&lt;p&gt;8월쯤 서강대학교 컴퓨터공학과에서 블록체인을 담당하고 계시는 교수님과 컨택한 이후 지금까지 교내/외 프로젝트를 진행하다가 최근 한 달이 돼서야 면접 준비를 할 시간이 생겼던 것 같고, 급하게 전공 책들을 찾아보면서 필요한 내용을 정리했다.  &lt;/p&gt;
+&lt;p&gt;컴퓨터 개론에서부터 컴퓨터 구조, 운영체제, 데이터베이스, 알고리즘, C, Java, 회로 등 다양한 과목과 더불어 추가적으로 이수한 빅데이터 그리고 지원하고자 하는 블록체인 분야까지 다양한 이론들을 요약하고 외우고 했지만 결과는 좋지 않았던 것 같다.  &lt;/p&gt;
+&lt;p&gt;4:5로 면접을 진행하지 않을까 생각을 했었는데 교수님 일곱 분과 나를 포함한 지원자 다섯 분이 한 번에 면접장에 참여했고, 교수님이 너무 많이 계셔서 당황스러웠다.  &lt;/p&gt;</description>
       
       
       
