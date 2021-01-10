@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/2020/06/07/curg-matrix-factorization/</loc>
+        <lastmod>2021-01-10T04:43:28.333Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/2020/06/07/thesis-iot-oracle-problem/</loc>
         <lastmod>2021-01-10T04:37:00.013Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -97,14 +105,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/05/12/boj-1475-java/</loc>
-        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/2019/05/13/boj-14490-java/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -129,7 +129,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/05/09/boj-15552-c/</loc>
+        <loc>https://y8ncastle.me/2019/05/12/boj-1475-java/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -138,6 +138,14 @@
 
     <url>
         <loc>https://y8ncastle.me/2019/05/15/boj-17072-c/</loc>
+        <lastmod>2021-01-08T06:00:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/2019/05/09/boj-15552-c/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -305,7 +313,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/09/14/capstone-design-4/</loc>
+        <loc>https://y8ncastle.me/2019/10/13/capstone-design-5/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -313,7 +321,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/10/13/capstone-design-5/</loc>
+        <loc>https://y8ncastle.me/2019/09/14/capstone-design-4/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -369,7 +377,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2020/02/08/crypto-income-final/</loc>
+        <loc>https://y8ncastle.me/2019/04/06/crypto-income/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -377,7 +385,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/04/06/crypto-income/</loc>
+        <loc>https://y8ncastle.me/2020/02/08/crypto-income-final/</loc>
         <lastmod>2021-01-08T06:00:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
