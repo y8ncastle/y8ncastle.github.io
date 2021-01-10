@@ -9,6 +9,13 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/categories/JavaScript/</loc>
+        <lastmod>2021-01-10T06:52:28.868Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/categories/Seminar/</loc>
         <lastmod>2021-01-10T06:51:00.336Z</lastmod>
         <changefreq>weekly</changefreq>
