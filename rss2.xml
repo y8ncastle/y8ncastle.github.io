@@ -9,8 +9,58 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong&#39;s IT Blog (Personal Development)</description>
-    <pubDate>Sun, 10 Jan 2021 04:53:04 GMT</pubDate>
+    <pubDate>Sun, 10 Jan 2021 04:57:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[모두의 딥 러닝] Linear Regression Hypothesis와 Cost</title>
+      <link>https://y8ncastle.me/2020/06/12/every-deep-learning-2/</link>
+      <guid>https://y8ncastle.me/2020/06/12/every-deep-learning-2/</guid>
+      <pubDate>Fri, 12 Jun 2020 05:18:00 GMT</pubDate>
+      
+      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103495830-68bd9480-4e7f-11eb-839b-94f023b1b8f0.jpg&quot; width=&quot;60%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Training&quot;&gt;&lt;a href=&quot;#Training&quot; class=&quot;headerlink&quot; title=&quot;Training&quot;&gt;&lt;/a&gt;Training&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터를 가지고 학습을 시키는 것&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Regression-Data&quot;&gt;&lt;a href=&quot;#Regression-Data&quot; class=&quot;headerlink&quot; title=&quot;Regression (Data)&quot;&gt;&lt;/a&gt;Regression (Data)&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;x&lt;/code&gt;: 예측을 하기 위한 데이터 (Feature)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;y&lt;/code&gt;: 예측의 대상&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103495830-68bd9480-4e7f-11eb-839b-94f023b1b8f0.jpg" width="60%"></p><p><br><br></p><h3 id="Training"><a href="#Training" class="headerlink" title="Training"></a>Training</h3><hr><ul><li>데이터를 가지고 학습을 시키는 것</li></ul><p><br><br></p><h3 id="Regression-Data"><a href="#Regression-Data" class="headerlink" title="Regression (Data)"></a>Regression (Data)</h3><hr><ul><li><p><code>x</code>: 예측을 하기 위한 데이터 (Feature)</p></li><li><p><code>y</code>: 예측의 대상</p></li></ul><p><br><br></p><h3 id="Linear-Hypothesis-Linear-Regression"><a href="#Linear-Hypothesis-Linear-Regression" class="headerlink" title="(Linear) Hypothesis - Linear Regression"></a>(Linear) Hypothesis - Linear Regression</h3><hr><ul><li>세상에 있는 여러 현상들이 선형적으로 설명되는 경우가 많다.</li></ul><br><ul><li><p><code>H(x) = Wx + b</code></p></li><li><p>가설 = W와 x의 곱 + b</p></li><li><p>W와 b에 따라 선의 형태가 달라진다.</p></li></ul><br><ul><li>많은 선들 중에서 어떤 선이 가장 좋은 가설이라고 할 수 있을까?</li></ul><p><br><br></p><h3 id="Cost-function-Loss-function"><a href="#Cost-function-Loss-function" class="headerlink" title="Cost function = Loss function"></a>Cost function = Loss function</h3><hr><ul><li>실제 비교할 때 데이터와 가설이 얼마나 차이나는지 확인하기 위해 각 데이터와 선과의 거리를 계산한다.</li></ul><p><br><br></p><h3 id="How-fit-the-line-to-training-data"><a href="#How-fit-the-line-to-training-data" class="headerlink" title="How fit the line to training data"></a>How fit the line to training data</h3><hr><ul><li><code>(H(x) - y)^2</code></li></ul><br><ul><li><p>양수, 음수와 상관없이 차이를 양수로 표현해주고, 차이가 클 때 penalty를 많이 주기 때문에 계산이 효율적이다.</p></li><li><p>H(x) - y로도 계산할 수 있지만 양수나 음수 모두 나올 수 있기 때문에 좋은 방식은 아니다.</p></li><li><p>가장 작은 값을 가지는 W와 b를 구하는 것이 Linear regression의 학습 목표이다. (Minimize cost(W, b))</p></li></ul><br><ul><li><code>cost(W, b) = 1/m * ∑(i=1, ... , m)(H(x^(i)) - y^(i))^2</code> (m은 데이터 개수)</li></ul><p><br><br></p><blockquote><p>출처: <a href="https://www.youtube.com/watch?v=Hax03rCn3UI&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=5&amp;t=0s">https://www.youtube.com/watch?v=Hax03rCn3UI&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=5&amp;t=0s</a></p></blockquote>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/AI/">AI</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
+      
+      <category domain="https://y8ncastle.me/tags/Deep-Learning/">Deep Learning</category>
+      
+      <category domain="https://y8ncastle.me/tags/Artificial-Intelligence/">Artificial Intelligence</category>
+      
+      <category domain="https://y8ncastle.me/tags/AI/">AI</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형 회귀</category>
+      
+      <category domain="https://y8ncastle.me/tags/Linear-Regression/">Linear Regression</category>
+      
+      
+      <comments>https://y8ncastle.me/2020/06/12/every-deep-learning-2/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>[모두의 딥 러닝] Machine Learning의 용어와 개념</title>
@@ -36,11 +86,11 @@
 &lt;li&gt;&lt;p&gt;&lt;code&gt;Unsupervised&lt;/code&gt;: Un-labeled data (미리 데이터를 정해주기 어려운 경우)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&amp;lt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103495830-68bd9480-4e7f-11eb-839b-94f023b1b8f0.jpg" width="60%"></p><p><br><br></p><h3 id="머신러닝"><a href="#머신러닝" class="headerlink" title="머신러닝"></a>머신러닝</h3><hr><ul><li><p>Limitations of explicit programming(일반적인 소프트웨어)을 해결하고자 연구한 방법</p></li><li><p>프로그램이지만 개발자가 일일이 어떤 현상에 대해 정하지 않고 프로그램 자체가 직접 데이터를 학습하는 능력을 갖게 하는 것</p></li></ul><p><br><br></p><h3 id="Supervised-vs-Unsupervised"><a href="#Supervised-vs-Unsupervised" class="headerlink" title="Supervised vs Unsupervised"></a>Supervised vs Unsupervised</h3><hr><ul><li><p><code>Supervised</code>: Learning with labeled examples (이미 있는 데이터를 제공하여 학습)</p></li><li><p><code>Unsupervised</code>: Un-labeled data (미리 데이터를 정해주기 어려운 경우)</p></li></ul><p><br><br>&lt;</p><h3 id="Types-of-Supervised-Learning"><a href="#Types-of-Supervised-Learning" class="headerlink" title="Types of Supervised Learning"></a>Types of Supervised Learning</h3><hr><ul><li><p><code>Regression</code>: 큰 범위 내에서 예측 (ex. Predicting final exam score based on time spent)</p></li><li><p><code>Binary Classification</code>: 두 개 중에 하나를 고르는 것 (ex. Pass or non-pass based on time spent)</p></li><li><p><code>Multi-label Classification</code>: 여러 가지 정해진 값 중에서 하나를 고르는 것 (ex. Letter grade based on time spent)</p></li></ul><p><br><br></p><blockquote><p>출처: <a href="https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s">https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s</a></p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103495830-68bd9480-4e7f-11eb-839b-94f023b1b8f0.jpg" width="60%"></p><p><br><br></p><h3 id="머신러닝"><a href="#머신러닝" class="headerlink" title="머신러닝"></a>머신러닝</h3><hr><ul><li><p>Limitations of explicit programming(일반적인 소프트웨어)을 해결하고자 연구한 방법</p></li><li><p>프로그램이지만 개발자가 일일이 어떤 현상에 대해 정하지 않고 프로그램 자체가 직접 데이터를 학습하는 능력을 갖게 하는 것</p></li></ul><p><br><br></p><h3 id="Supervised-vs-Unsupervised"><a href="#Supervised-vs-Unsupervised" class="headerlink" title="Supervised vs Unsupervised"></a>Supervised vs Unsupervised</h3><hr><ul><li><p><code>Supervised</code>: Learning with labeled examples (이미 있는 데이터를 제공하여 학습)</p></li><li><p><code>Unsupervised</code>: Un-labeled data (미리 데이터를 정해주기 어려운 경우)</p></li></ul><p><br><br></p><h3 id="Types-of-Supervised-Learning"><a href="#Types-of-Supervised-Learning" class="headerlink" title="Types of Supervised Learning"></a>Types of Supervised Learning</h3><hr><ul><li><p><code>Regression</code>: 큰 범위 내에서 예측 (ex. Predicting final exam score based on time spent)</p></li><li><p><code>Binary Classification</code>: 두 개 중에 하나를 고르는 것 (ex. Pass or non-pass based on time spent)</p></li><li><p><code>Multi-label Classification</code>: 여러 가지 정해진 값 중에서 하나를 고르는 것 (ex. Letter grade based on time spent)</p></li></ul><p><br><br></p><blockquote><p>출처: <a href="https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s">https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s</a></p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/AI/">AI</category>
@@ -4347,55 +4397,6 @@
       
       
       <comments>https://y8ncastle.me/2019/11/19/hanbat-ice-exh/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>[팀 프로젝트] 한이음 (Hanium) 결과 보고서 (S/W)</title>
-      <link>https://y8ncastle.me/2019/11/19/hanium-final-report/</link>
-      <guid>https://y8ncastle.me/2019/11/19/hanium-final-report/</guid>
-      <pubDate>Tue, 19 Nov 2019 11:14:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103051816-05a84400-45db-11eb-8883-ae93d66f1749.png&quot; width=&quot;70%&quot;&gt;
-
-&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;한이음-프로젝트-결과-보고서-소프트웨어-위주-개인-작성&quot;&gt;&lt;a href=&quot;#한이음-프로젝트-결과-보고서-소프트웨어-위주-개인-작성&quot; class=&quot;headerlink&quot; title=&quot;한이음 프로젝트 결과 보고서 (소프트웨어 위주, 개인 작성)&quot;&gt;&lt;/a&gt;한이음 프로젝트 결과 보고서 (소프트웨어 위주, 개인 작성)&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;[프로젝트명]&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;WebioPi를 이용한 옴니 휠 RC카 제어 [19-P490]  &lt;/p&gt;
-&lt;br&gt;
-
-&lt;p&gt;&lt;strong&gt;[주제 영역]&lt;/strong&gt;  &lt;/p&gt;
-&lt;p&gt;엔터테인먼트  &lt;/p&gt;
-&lt;br&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103051816-05a84400-45db-11eb-8883-ae93d66f1749.png" width="70%"><p><br><br></p><h3 id="한이음-프로젝트-결과-보고서-소프트웨어-위주-개인-작성"><a href="#한이음-프로젝트-결과-보고서-소프트웨어-위주-개인-작성" class="headerlink" title="한이음 프로젝트 결과 보고서 (소프트웨어 위주, 개인 작성)"></a>한이음 프로젝트 결과 보고서 (소프트웨어 위주, 개인 작성)</h3><hr><p><strong>[프로젝트명]</strong></p><p>WebioPi를 이용한 옴니 휠 RC카 제어 [19-P490]  </p><br><p><strong>[주제 영역]</strong>  </p><p>엔터테인먼트  </p><br><p><strong>[기술 분야]</strong>  </p><p>네트워크, S/W, ICT 디바이스  </p><br><p><strong>[달성 성과]</strong>  </p><p>캡스톤디자인 연계 작품 전시 및 개인별 역량 강화  </p><p><br><br></p><h3 id="프로젝트-소개"><a href="#프로젝트-소개" class="headerlink" title="프로젝트 소개"></a>프로젝트 소개</h3><hr><p>옴니 휠을 부착한 RC카를 제작하고 각종 센서를 부착하여 데이터를 수집할 수 있는 옴니 카(Omni Car)를 만들어 보고자 한다.  </p><p>옴니 휠을 사용하기 때문에 8방향 이동 및 제자리 360도 회전이 자유롭고, 온/습도 및 초음파 센서를 이용하여 환경 데이터를 수집한다. 수집한 데이터는 RC카 컨트롤러 앱을 통해 확인할 수 있으며, 간단한 분석 기능까지 제공한다.  </p><p>RC카는 라즈베리파이와 아두이노 기반으로 동작하고, 앱과의 상호 통신에 WebioPi라는 프로그램을 이용하여 원격으로 옴니 카를 제어할 수 있도록 한다.  </p><p>종합적으로는 ICT 융복합 디바이스로, 학부에서 배운 다양한 지식을 총망라하여 하나의 소형 로봇을 만들어보는 것을 목표로 한다.  </p><p><br><br></p><h3 id="개발-배경-및-필요성"><a href="#개발-배경-및-필요성" class="headerlink" title="개발 배경 및 필요성"></a>개발 배경 및 필요성</h3><hr><p>기존 RC카는 한번에 이동 가능한 범위가 제한되다 보니 장애물에 대한 대처가 즉각적이지 못한 것은 물론이고 활용도가 다양하지 않다.  </p><p>이 프로젝트에서는 사람이 들어가기 어려운 특정 장소(특히 좁은 장소)에 어떤 환경이 조성되어 있는지 확인하고자 할 때 RC카 로봇을 대신 투입함으로써 발생할 수 있는 다양한 위험 요소들을 사전에 파악하여 피해를 최소화할 수 있도록 하고자 한다.  </p><p>물론 엔터테인먼트 형식으로도 개발되는 프로젝트이기 때문에 환경 파악, 감시 등의 목적이 아니더라도 재미 요소로 이용할 수도 있다.  </p><p><br><br></p><h3 id="프로젝트-주요-기능"><a href="#프로젝트-주요-기능" class="headerlink" title="프로젝트 주요 기능"></a>프로젝트 주요 기능</h3><hr><ul><li><p>옴니 휠을 장착하여 8방향 이동과 제자리 360도 회전이 자유롭다.</p></li><li><p>카메라를 활용하여 RC카가 움직이는 동안 스트리밍 되는 화면을 확인할 수 있다.</p></li><li><p>안드로이드 애플리케이션에서 다양한 제어 방식으로 RC카를 제어한다.  </p><ul><li>버튼, 조이스틱, 스마트폰 내장 자이로스코프 센서 조작 방식</li></ul></li><li><p>온/습도 센서와 초음파 센서로 데이터를 수집하고 WebioPi 상태창으로 불러오도록 한다.</p></li><li><p>수집된 데이터를 스마트폰 내장 DB에 저장하고 분석해주는 기능을 제공한다.</p></li><li><p>WebioPi를 이용하여 Wifi만 연결되어 있으면 원격으로 RC카를 제어할 수 있다. </p></li></ul><p><br><br></p><h3 id="작품의-기대효과-및-활용분야"><a href="#작품의-기대효과-및-활용분야" class="headerlink" title="작품의 기대효과 및 활용분야"></a>작품의 기대효과 및 활용분야</h3><hr><p>실내에서 발생할 수 있는 환경 변화 체크 또는 방범 용도로도 사용할 수 있고, 네트워크가 갖춰진 곳이라면 어디서든 원격 제어가 가능하다. 또한 환경 데이터를 수집하기 때문에 수집한 데이터를 가지고 현장의 상황을 자세하게 파악 및 분석할 수 있다.  </p><p><br><br></p><h3 id="작품-구성도"><a href="#작품-구성도" class="headerlink" title="작품 구성도"></a>작품 구성도</h3><hr><p>WebioPi를 이용한 옴니 휠 RC카는 기본적으로 라즈베리파이와 아두이노 환경에서 동작한다.  </p><p>소형 베이스 판과 옴니 휠로 프로토타입을 제작하여 동작 테스트를 진행하였고, 차후 30 x 30cm 크기의 알루미늄 베이스 판(회로 없는 기판)과 지름 11cm 크기의 옴니 휠을 추가로 제작 주문하여 기본 본체를 구성하였다. 그 위에 온도 센서, 습도 센서, 초음파 센서 그리고 카메라를 장착하여 데이터 수집 및 스트리밍 환경을 제공해주도록 하였다.  </p><p>수집된 데이터와 카메라 화면은 별도의 안드로이드 앱 <code>옴니 카 컨트롤러</code> 를 통해 확인할 수 있으며, 데이터 개수가 많아지면 변화의 추이를 분석된 그래프 형태로 확인할 수 있다. 분석 툴은 오픈소스를 이용하였으며, 데이터는 설정 기능을 통해 저장할 수도 있고 저장하지 않을 수도 있다.  </p><p>라즈베리파이에는 RC카를 구동하기 위해 작성한 파이썬 코드와 별도의 저장 공간을 위해 설치한 마리아DB가 있고, 터미널을 통해 WebioPi와 카메라 스트리밍 환경을 On/Off 할 수 있다.  </p><p>WebioPi는 라즈베리파이의 GPIO 포트를 원격 제어해주는 웹 및 라즈베리파이 기반의 프로그램으로, Wifi만 연결해주면 어디서든 작동할 수 있다. 이 WebioPi는 HTML과 JavaScript 등으로 구성되어 동작하게 되는데, 안드로이드 앱에서는 WebioPi의 JavaScript를 통해 RC카를 동작시키고, 데이터를 받아오는 작업을 한다. 자바스크립트가 일종의 브릿지 역할을 해주는 셈이다.  </p><p>마지막으로 안드로이드 앱에서는 데이터를 분석해주는 기능을 하는 것뿐만 아니라 다양한 방식으로 RC카를 제어할 수 있도록 한다. 기본적으로 버튼 방식으로 제어할 수 있고, 조이스틱과 내장 자이로스코프 센서를 이용한 방식으로도 제어할 수 있다.  </p><p>이 프로젝트에서는 앱 등록 작업 및 상용화를 목표로 하는 것은 아니었기 때문에 안드로이드 앱은 갤럭시노트8 환경에서만 최적화되어 동작하도록 하였다.  </p><p><br><br></p><h3 id="작품의-특징-및-장점"><a href="#작품의-특징-및-장점" class="headerlink" title="작품의 특징 및 장점"></a>작품의 특징 및 장점</h3><hr><ul><li><p>옴니 휠을 이용하여 이동 시 회전 반경이 매우 적다.</p></li><li><p>원하는 지역에서 주행하며 필요한 데이터를 수집하고 분석할 수 있다.</p></li><li><p>앱을 이용하여 다양한 방식으로 조작할 수 있다.</p></li><li><p>네트워크가 갖춰진 곳이라면 어디서든 원격으로 RC카를 조작할 수 있다. </p></li><li><p>모바일 핫스팟으로도 연결이 가능하며, 아이피 변경도 자유롭다.  </p></li></ul><p><br><br></p><h3 id="S-W-개발환경"><a href="#S-W-개발환경" class="headerlink" title="S/W 개발환경"></a>S/W 개발환경</h3><hr><p>안드로이드 OS, 라즈비안 / 안드로이드 스튜디오 / Java SDK, 마리아 DB / Java, 자바스크립트, 파이썬</p><p><br><br></p><h3 id="문제점-및-해결-방안"><a href="#문제점-및-해결-방안" class="headerlink" title="문제점 및 해결 방안"></a>문제점 및 해결 방안</h3><hr><p>프로젝트 관리 측면에서 보면 중간 보고서 작성 때와 달리 계획 상에 많은 변화가 생겼다. 팀으로 활동하다 보니 서로 간 맞는 시간을 찾는 부분이 가장 어려웠던 것 같고, 기존 일정대로 진행하려고 하기는 했지만 중간중간 발생하는 여러 가지 변수들로 인해 기존 계획에서 제외되거나 연장되는 일이 많았던 것 같다.  </p><p>작품 개발 측면에서 보면 처음에 부착하고자 하였던 미세먼지 센서와 로봇 팔을 해결하지는 못했다. 여러차례 시도해보았지만 이미 라즈베리파이와 아두이노에서 센서에 대한 여러 개의 선을 처리하고 있었고, 소프트웨어적으로도 멀티프로세싱에 대한 처리를 구현하지 못했기 때문에 어려운 점이 많았던 것 같다. 결과적으로 확실한 해결 방안을 찾지는 못했지만 센서와 팔을 부착하지 못한 만큼 나머지 계획했던 부분에서 더 확실하게 구현하고자 많은 노력을 기울였고 나온 결과물에 대해서는 만족하는 편이다.</p>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Team-Project/">Team Project</category>
-      
-      <category domain="https://y8ncastle.me/categories/Team-Project/%ED%8C%80-Hanium/">&lt;팀&gt; Hanium</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">프로젝트</category>
-      
-      <category domain="https://y8ncastle.me/tags/Team-Project/">Team Project</category>
-      
-      <category domain="https://y8ncastle.me/tags/Project/">Project</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C/">한이음</category>
-      
-      <category domain="https://y8ncastle.me/tags/Hanium/">Hanium</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-%EB%B3%B4%EA%B3%A0%EC%84%9C/">한이음 보고서</category>
-      
-      <category domain="https://y8ncastle.me/tags/Hanium-Report/">Hanium Report</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/11/19/hanium-final-report/#disqus_thread</comments>
       
     </item>
     
