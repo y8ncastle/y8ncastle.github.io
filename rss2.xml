@@ -9,8 +9,61 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong&#39;s IT Blog (Personal Development)</description>
-    <pubDate>Sun, 10 Jan 2021 04:47:41 GMT</pubDate>
+    <pubDate>Sun, 10 Jan 2021 04:53:04 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[모두의 딥 러닝] Machine Learning의 용어와 개념</title>
+      <link>https://y8ncastle.me/2020/06/12/every-deep-learning-1/</link>
+      <guid>https://y8ncastle.me/2020/06/12/every-deep-learning-1/</guid>
+      <pubDate>Fri, 12 Jun 2020 05:05:00 GMT</pubDate>
+      
+      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103495830-68bd9480-4e7f-11eb-839b-94f023b1b8f0.jpg&quot; width=&quot;60%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;머신러닝&quot;&gt;&lt;a href=&quot;#머신러닝&quot; class=&quot;headerlink&quot; title=&quot;머신러닝&quot;&gt;&lt;/a&gt;머신러닝&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Limitations of explicit programming(일반적인 소프트웨어)을 해결하고자 연구한 방법&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;프로그램이지만 개발자가 일일이 어떤 현상에 대해 정하지 않고 프로그램 자체가 직접 데이터를 학습하는 능력을 갖게 하는 것&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Supervised-vs-Unsupervised&quot;&gt;&lt;a href=&quot;#Supervised-vs-Unsupervised&quot; class=&quot;headerlink&quot; title=&quot;Supervised vs Unsupervised&quot;&gt;&lt;/a&gt;Supervised vs Unsupervised&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Supervised&lt;/code&gt;: Learning with labeled examples (이미 있는 데이터를 제공하여 학습)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Unsupervised&lt;/code&gt;: Un-labeled data (미리 데이터를 정해주기 어려운 경우)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&amp;lt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103495830-68bd9480-4e7f-11eb-839b-94f023b1b8f0.jpg" width="60%"></p><p><br><br></p><h3 id="머신러닝"><a href="#머신러닝" class="headerlink" title="머신러닝"></a>머신러닝</h3><hr><ul><li><p>Limitations of explicit programming(일반적인 소프트웨어)을 해결하고자 연구한 방법</p></li><li><p>프로그램이지만 개발자가 일일이 어떤 현상에 대해 정하지 않고 프로그램 자체가 직접 데이터를 학습하는 능력을 갖게 하는 것</p></li></ul><p><br><br></p><h3 id="Supervised-vs-Unsupervised"><a href="#Supervised-vs-Unsupervised" class="headerlink" title="Supervised vs Unsupervised"></a>Supervised vs Unsupervised</h3><hr><ul><li><p><code>Supervised</code>: Learning with labeled examples (이미 있는 데이터를 제공하여 학습)</p></li><li><p><code>Unsupervised</code>: Un-labeled data (미리 데이터를 정해주기 어려운 경우)</p></li></ul><p><br><br>&lt;</p><h3 id="Types-of-Supervised-Learning"><a href="#Types-of-Supervised-Learning" class="headerlink" title="Types of Supervised Learning"></a>Types of Supervised Learning</h3><hr><ul><li><p><code>Regression</code>: 큰 범위 내에서 예측 (ex. Predicting final exam score based on time spent)</p></li><li><p><code>Binary Classification</code>: 두 개 중에 하나를 고르는 것 (ex. Pass or non-pass based on time spent)</p></li><li><p><code>Multi-label Classification</code>: 여러 가지 정해진 값 중에서 하나를 고르는 것 (ex. Letter grade based on time spent)</p></li></ul><p><br><br></p><blockquote><p>출처: <a href="https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s">https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s</a></p></blockquote>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/AI/">AI</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
+      
+      <category domain="https://y8ncastle.me/tags/Deep-Learning/">Deep Learning</category>
+      
+      <category domain="https://y8ncastle.me/tags/Machine-Learning/">Machine Learning</category>
+      
+      <category domain="https://y8ncastle.me/tags/Artificial-Intelligence/">Artificial Intelligence</category>
+      
+      <category domain="https://y8ncastle.me/tags/AI/">AI</category>
+      
+      
+      <comments>https://y8ncastle.me/2020/06/12/every-deep-learning-1/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>[2020.05.13] 오프체인 데이터의 오라클 문제 해결을 위한 다중 랜덤 선출 알고리즘 (BaSE Lab 유튜브 세미나 20-17차)</title>
@@ -1209,15 +1262,15 @@
       
       <category domain="https://y8ncastle.me/tags/Ethereum/">Ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
+      
+      <category domain="https://y8ncastle.me/tags/Software-Engineering/">Software Engineering</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인 유통 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/Distribution-System/">Distribution System</category>
-      
-      <category domain="https://y8ncastle.me/tags/Software-Engineering/">Software Engineering</category>
       
       <category domain="https://y8ncastle.me/tags/Blockchain-Distribution-System/">Blockchain Distribution System</category>
       
@@ -4343,188 +4396,6 @@
       
       
       <comments>https://y8ncastle.me/2019/11/19/hanium-final-report/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>현재까지 취득한 모든 자격사항 리스트 (2019.11.27 갱신)</title>
-      <link>https://y8ncastle.me/2019/11/19/certificates/</link>
-      <guid>https://y8ncastle.me/2019/11/19/certificates/</guid>
-      <pubDate>Tue, 19 Nov 2019 08:52:00 GMT</pubDate>
-      
-      <description>&lt;blockquote&gt;
-&lt;p&gt;유효기간 만료 내용 포함, 개인 기록 용도 - 취득일자 내림차순  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;갱신-일자-기준-유효-자격사항&quot;&gt;&lt;a href=&quot;#갱신-일자-기준-유효-자격사항&quot; class=&quot;headerlink&quot; title=&quot;갱신 일자 기준 유효 자격사항&quot;&gt;&lt;/a&gt;갱신 일자 기준 유효 자격사항&lt;/h3&gt;&lt;hr&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;번호&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;자격증명&lt;/strong&gt;&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;국내/국제&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;취득일자&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;자격유효&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;26&lt;/td&gt;
-&lt;td&gt;정보처리기사&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2019.11.22&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;무기한 유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;25&lt;/td&gt;
-&lt;td&gt;ICDL Profile Certificate (ICDL Module 전체 통합)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2019.11.20&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;무기한 유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;24&lt;/td&gt;
-&lt;td&gt;ICDL Professional Computing Python (Module 12) (&lt;strong&gt;97%&lt;/strong&gt;)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2019.11.18&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;무기한 유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;23&lt;/td&gt;
-&lt;td&gt;정보처리기사 실기 (&lt;strong&gt;93점&lt;/strong&gt; - AL22, DB21, BP15, NT25, IE10)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2019.10.13&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;22&lt;/td&gt;
-&lt;td&gt;정보처리기사 필기 (&lt;strong&gt;460점&lt;/strong&gt; - DB100, CS95, OS100, SE85, DC80)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2019.08.04&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;21&lt;/td&gt;
-&lt;td&gt;ETS TOEIC (&lt;strong&gt;915점&lt;/strong&gt; - LC470, RC445)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2019.07.14&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;18&lt;/td&gt;
-&lt;td&gt;ICDL Start Certificate (Module 3, 4, 6, 7)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2017.02.10&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;무기한 유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;17&lt;/td&gt;
-&lt;td&gt;ICDL Online Essentials (Module 7) (&lt;strong&gt;97%&lt;/strong&gt;)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2017.02.10&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;16&lt;/td&gt;
-&lt;td&gt;ICDL Presentation (Module 6) (&lt;strong&gt;97%&lt;/strong&gt;)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2017.02.10&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;15&lt;/td&gt;
-&lt;td&gt;ICDL Spreadsheet (Module 4) (&lt;strong&gt;100%&lt;/strong&gt;)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2017.02.10&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;14&lt;/td&gt;
-&lt;td&gt;ICDL Word Processing (Module 3) (&lt;strong&gt;97%&lt;/strong&gt;)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국제&lt;/td&gt;
-&lt;td&gt;2017.02.10&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;10&lt;/td&gt;
-&lt;td&gt;ITQ OA Master (ITQ A등급 3개)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2013.08.06&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;무기한 유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;9&lt;/td&gt;
-&lt;td&gt;운전면허 1종 보통&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2013.08.05&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;8&lt;/td&gt;
-&lt;td&gt;ITQ 정보기술자격 한글엑셀 &lt;strong&gt;A등급&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2013.05.02&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;7&lt;/td&gt;
-&lt;td&gt;ITQ 정보기술자격 한글파워포인트 &lt;strong&gt;A등급&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2013.03.14&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;6&lt;/td&gt;
-&lt;td&gt;ITQ 정보기술자격 아래한글 &lt;strong&gt;A등급&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2013.02.21&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;3&lt;/td&gt;
-&lt;td&gt;태권도 공인 &lt;strong&gt;2단&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2004.12.19&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;무기한 유효&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;1&lt;/td&gt;
-&lt;td&gt;태권도 공인 &lt;strong&gt;1단&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;국내&lt;/td&gt;
-&lt;td&gt;2003.09.21&lt;/td&gt;
-&lt;td&gt;상위 존재&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;br&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;국내 (4종 6개), 국제 (2종 5개) / 컴퓨터 (3종 9개), 외국어 (1종 1개), 면허 (1종 1개), 무도 (1종 1개) = 총 12개 &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;컴퓨터 (ITQ 3개, ICDL 5개, 정보처리기사), 영어 (ETS TOEIC), 운전면허, 태권도 (2개)  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;갱신-일자-기준-만료-자격사항&quot;&gt;&lt;a href=&quot;#갱신-일자-기준-만료-자격사항&quot; class=&quot;headerlink&quot; title=&quot;갱신 일자 기준 만료 자격사항&quot;&gt;&lt;/a&gt;갱신 일자 기준 만료 자격사항&lt;/h3&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<blockquote><p>유효기간 만료 내용 포함, 개인 기록 용도 - 취득일자 내림차순  </p></blockquote><p><br><br></p><h3 id="갱신-일자-기준-유효-자격사항"><a href="#갱신-일자-기준-유효-자격사항" class="headerlink" title="갱신 일자 기준 유효 자격사항"></a>갱신 일자 기준 유효 자격사항</h3><hr><table><thead><tr><th align="center"><strong>번호</strong></th><th><strong>자격증명</strong></th><th align="center"><strong>국내/국제</strong></th><th><strong>취득일자</strong></th><th><strong>자격유효</strong></th></tr></thead><tbody><tr><td align="center">26</td><td>정보처리기사</td><td align="center">국내</td><td>2019.11.22</td><td><strong>무기한 유효</strong></td></tr><tr><td align="center">25</td><td>ICDL Profile Certificate (ICDL Module 전체 통합)</td><td align="center">국제</td><td>2019.11.20</td><td><strong>무기한 유효</strong></td></tr><tr><td align="center">24</td><td>ICDL Professional Computing Python (Module 12) (<strong>97%</strong>)</td><td align="center">국제</td><td>2019.11.18</td><td><strong>무기한 유효</strong></td></tr><tr><td align="center">23</td><td>정보처리기사 실기 (<strong>93점</strong> - AL22, DB21, BP15, NT25, IE10)</td><td align="center">국내</td><td>2019.10.13</td><td>상위 존재</td></tr><tr><td align="center">22</td><td>정보처리기사 필기 (<strong>460점</strong> - DB100, CS95, OS100, SE85, DC80)</td><td align="center">국내</td><td>2019.08.04</td><td>상위 존재</td></tr><tr><td align="center">21</td><td>ETS TOEIC (<strong>915점</strong> - LC470, RC445)</td><td align="center">국제</td><td>2019.07.14</td><td><strong>유효</strong></td></tr><tr><td align="center">18</td><td>ICDL Start Certificate (Module 3, 4, 6, 7)</td><td align="center">국제</td><td>2017.02.10</td><td><strong>무기한 유효</strong></td></tr><tr><td align="center">17</td><td>ICDL Online Essentials (Module 7) (<strong>97%</strong>)</td><td align="center">국제</td><td>2017.02.10</td><td>상위 존재</td></tr><tr><td align="center">16</td><td>ICDL Presentation (Module 6) (<strong>97%</strong>)</td><td align="center">국제</td><td>2017.02.10</td><td>상위 존재</td></tr><tr><td align="center">15</td><td>ICDL Spreadsheet (Module 4) (<strong>100%</strong>)</td><td align="center">국제</td><td>2017.02.10</td><td>상위 존재</td></tr><tr><td align="center">14</td><td>ICDL Word Processing (Module 3) (<strong>97%</strong>)</td><td align="center">국제</td><td>2017.02.10</td><td>상위 존재</td></tr><tr><td align="center">10</td><td>ITQ OA Master (ITQ A등급 3개)</td><td align="center">국내</td><td>2013.08.06</td><td><strong>무기한 유효</strong></td></tr><tr><td align="center">9</td><td>운전면허 1종 보통</td><td align="center">국내</td><td>2013.08.05</td><td><strong>유효</strong></td></tr><tr><td align="center">8</td><td>ITQ 정보기술자격 한글엑셀 <strong>A등급</strong></td><td align="center">국내</td><td>2013.05.02</td><td>상위 존재</td></tr><tr><td align="center">7</td><td>ITQ 정보기술자격 한글파워포인트 <strong>A등급</strong></td><td align="center">국내</td><td>2013.03.14</td><td>상위 존재</td></tr><tr><td align="center">6</td><td>ITQ 정보기술자격 아래한글 <strong>A등급</strong></td><td align="center">국내</td><td>2013.02.21</td><td>상위 존재</td></tr><tr><td align="center">3</td><td>태권도 공인 <strong>2단</strong></td><td align="center">국내</td><td>2004.12.19</td><td><strong>무기한 유효</strong></td></tr><tr><td align="center">1</td><td>태권도 공인 <strong>1단</strong></td><td align="center">국내</td><td>2003.09.21</td><td>상위 존재</td></tr></tbody></table><br><blockquote><p>국내 (4종 6개), 국제 (2종 5개) / 컴퓨터 (3종 9개), 외국어 (1종 1개), 면허 (1종 1개), 무도 (1종 1개) = 총 12개 </p></blockquote><blockquote><p>컴퓨터 (ITQ 3개, ICDL 5개, 정보처리기사), 영어 (ETS TOEIC), 운전면허, 태권도 (2개)  </p></blockquote><p><br><br></p><h3 id="갱신-일자-기준-만료-자격사항"><a href="#갱신-일자-기준-만료-자격사항" class="headerlink" title="갱신 일자 기준 만료 자격사항"></a>갱신 일자 기준 만료 자격사항</h3><hr><table><thead><tr><th align="center"><strong>번호</strong></th><th><strong>자격증명</strong></th><th align="center"><strong>국내/국제</strong></th><th><strong>취득일자</strong></th></tr></thead><tbody><tr><td align="center">20</td><td>TEPS (<strong>608점</strong> - L226, G65, V65, R252)</td><td align="center">국내</td><td>2017.09.02</td></tr><tr><td align="center">19</td><td>ETS TOEIC (<strong>940점</strong> - LC470, RC445)</td><td align="center">국제</td><td>2017.03.26</td></tr><tr><td align="center">13</td><td>ETS TOEIC (<strong>780점</strong> - LC425, RC325)</td><td align="center">국제</td><td>2014.08.09</td></tr><tr><td align="center">12</td><td>新HSK 4급 (<strong>246점</strong> - L85, R92, W69)</td><td align="center">국제</td><td>2014.03.16</td></tr><tr><td align="center">11</td><td>新HSK 3급 (<strong>294점</strong> - L96, R100, W98)</td><td align="center">국제</td><td>2013.09.07</td></tr><tr><td align="center">5</td><td>PELT Jr. Elementary Level 1 Qualification</td><td align="center">국내</td><td>2005.12.30</td></tr><tr><td align="center">4</td><td>PELT Jr. Elementary Level 2 Qualification</td><td align="center">국내</td><td>2005.07.01</td></tr><tr><td align="center">2</td><td>PELT Jr. Elementary Level 3 Qualification</td><td align="center">국내</td><td>2004.04.30</td></tr></tbody></table><br><blockquote><p>국내 (2종 4개), 국제 (2종 4개) / 외국어 (4종 8개) = 총 8개  </p></blockquote><blockquote><p>영어 (ETS TOEIC 2개, PELT Jr. 3개), 중국어 (新HSK 2개)</p></blockquote><p><br><br></p><h3 id="자격사항-세부-정보"><a href="#자격사항-세부-정보" class="headerlink" title="자격사항 세부 정보"></a>자격사항 세부 정보</h3><hr><table><thead><tr><th align="center"><strong>번호</strong></th><th><strong>주최기관</strong></th><th><strong>자격코드</strong></th><th><strong>유효기간</strong></th></tr></thead><tbody><tr><td align="center">26</td><td>한국산업인력공단</td><td>19203130457V<br>(201911220940-08-678820)</td><td>무기한</td></tr><tr><td align="center">25<br>24</td><td>ICDL/ECDL Foundation</td><td>KRPF19000858</td><td>무기한</td></tr><tr><td align="center">23<br>22</td><td>한국산업인력공단</td><td>19203130457V<br>(201911220940-08-678820)</td><td>무기한</td></tr><tr><td align="center">21</td><td>YBM ETS TOEIC</td><td>018261-0311008301</td><td>~2021.08.03 (2년)</td></tr><tr><td align="center">20</td><td>서울대학교 TEPS 관리위원회</td><td>XDD6-8B84-2A46-D72E</td><td>~2019.09.01 (2년)</td></tr><tr><td align="center">19</td><td>YBM ETS TOEIC</td><td>004153-0310002801</td><td>~2019.03.26 (2년)</td></tr><tr><td align="center">18<br>17<br>16<br>15<br>14</td><td>ICDL/ECDL Foundation</td><td>KR170001331S</td><td>무기한</td></tr><tr><td align="center">13</td><td>YBM ETS TOEIC</td><td>044213-0210007401</td><td>~2016.08.07 (2년)</td></tr><tr><td align="center">12</td><td>HSK한국사무국</td><td>H41402010068</td><td>~2016.03.14 (2년)</td></tr><tr><td align="center">11</td><td>HSK한국사무국</td><td>H31309023954</td><td>~2015.09.06 (2년)</td></tr><tr><td align="center">10</td><td>한국생산성본부</td><td>ITQ-OAM-2013-0005719</td><td>무기한</td></tr><tr><td align="center">9</td><td>대전지방경찰청</td><td>대전13-018940-50</td><td>개인정보 (~10년)</td></tr><tr><td align="center">8<br>7<br>6</td><td>한국생산성본부</td><td>A001-2013102-007785</td><td>무기한</td></tr><tr><td align="center">5</td><td>한국외국어평가원</td><td>074-06-11-03509</td><td>~2007.12.29 (2년)</td></tr><tr><td align="center">4</td><td>한국외국어평가원</td><td>071-06-21-03678</td><td>~2007.06.30 (2년)</td></tr><tr><td align="center">3</td><td>국기원</td><td>08328937</td><td>무기한</td></tr><tr><td align="center">2</td><td>한국외국어평가원</td><td>064-06-31-05293</td><td>~2006.04.29 (2년)</td></tr><tr><td align="center">1</td><td>국기원</td><td>-</td><td>무기한</td></tr></tbody></table>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Achievement/">Achievement</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9E%90%EA%B2%A9%EC%A6%9D/">자격증</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9E%90%EA%B2%A9%EC%82%AC%ED%95%AD/">자격사항</category>
-      
-      <category domain="https://y8ncastle.me/tags/Certificate/">Certificate</category>
-      
-      <category domain="https://y8ncastle.me/tags/Achievement/">Achievement</category>
-      
-      <category domain="https://y8ncastle.me/tags/Accomplishment/">Accomplishment</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/11/19/certificates/#disqus_thread</comments>
       
     </item>
     
