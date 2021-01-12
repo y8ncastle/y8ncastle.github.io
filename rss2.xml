@@ -133,11 +133,11 @@
       
       <category domain="https://y8ncastle.me/tags/BigData/">BigData</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
       
       <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%85%EC%B2%B4%EC%9D%B8DB/">빅체인DB</category>
       
@@ -770,11 +770,11 @@
       <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       
+      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
+      
       <category domain="https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/">오라클 문제</category>
       
       <category domain="https://y8ncastle.me/tags/Oracle-Problem/">Oracle Problem</category>
-      
-      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%98%A4%ED%94%84%EC%B2%B4%EC%9D%B8/">오프체인</category>
       
@@ -991,6 +991,14 @@
       
       <category domain="https://y8ncastle.me/tags/IPFS/">IPFS</category>
       
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
+      
+      <category domain="https://y8ncastle.me/tags/Data-Sharing/">Data Sharing</category>
+      
+      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
+      
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
       <category domain="https://y8ncastle.me/tags/Sogang-University/">Sogang University</category>
@@ -999,15 +1007,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
-      
-      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
-      
       <category domain="https://y8ncastle.me/tags/Youtube-Seminar/">Youtube Seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/Data-Sharing/">Data Sharing</category>
-      
-      <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/youtube-seminar-20-16/#disqus_thread</comments>
@@ -2944,6 +2944,10 @@
       
       <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
       
+      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
+      
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
       <category domain="https://y8ncastle.me/tags/Sogang-University/">Sogang University</category>
@@ -2952,11 +2956,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
-      
       <category domain="https://y8ncastle.me/tags/Youtube-Seminar/">Youtube Seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8/">사이드 체인</category>
       
@@ -4311,6 +4311,10 @@
       
       <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
       
+      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
+      
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
       <category domain="https://y8ncastle.me/tags/Sogang-University/">Sogang University</category>
@@ -4319,11 +4323,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
-      
       <category domain="https://y8ncastle.me/tags/Youtube-Seminar/">Youtube Seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/">프라이버시 보호</category>
       
@@ -5286,6 +5286,48 @@
     </item>
     
     <item>
+      <title>DNS-IdM: A Blockchain Identity Management System to Secure Personal Data Sharing in a Network</title>
+      <link>https://y8ncastle.me/2020/01/19/dns-idm/</link>
+      <guid>https://y8ncastle.me/2020/01/19/dns-idm/</guid>
+      <pubDate>Sun, 19 Jan 2020 03:13:00 GMT</pubDate>
+      
+      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103261023-31fcff80-49e3-11eb-8e12-7e23a9d4d418.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;  
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;참고-논문&quot;&gt;&lt;a href=&quot;#참고-논문&quot; class=&quot;headerlink&quot; title=&quot;참고 논문&quot;&gt;&lt;/a&gt;참고 논문&lt;/h3&gt;&lt;hr&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261023-31fcff80-49e3-11eb-8e12-7e23a9d4d418.png" width="50%"></p>  <p><br><br></p><h3 id="참고-논문"><a href="#참고-논문" class="headerlink" title="참고 논문"></a>참고 논문</h3><hr><ul><li><strong>Reference</strong>: <a href="https://www.mdpi.com/2076-3417/9/15/2953">https://www.mdpi.com/2076-3417/9/15/2953</a></li><li><strong>Author</strong>: Jamila Alsayed Kassem, Sarwar Sayeed, Hector Marco-Gisbert, Zeeshan Pervez, Keshav Dahal</li><li><strong>Published</strong>: 24th JUL 2019</li></ul><p><br><br></p><ul><li><strong>Identity Management (IdM)</strong><ul><li>소개 및 배경</li><li>디지털 신원 관리의 중요성</li></ul></li></ul><br><ul><li><strong>Digital Identity</strong><ul><li>기존 신원 관리 방식</li><li>분산화 프레임워크 - 이더리움</li></ul></li></ul><br><ul><li><strong>Three Identity Management Systems on Blockchain</strong><ul><li>uPort / Sovrin / ShoCard</li></ul></li></ul><br>  <ul><li><strong>DNS-IdM, Novel Architecture of Blockchain-based IdM</strong><ul><li>시스템 목표</li><li>등록 / 데이터 읽고 쓰기 및 검증</li></ul></li></ul><br><ul><li><strong>Evaluation &amp; Conclusions</strong></li></ul><p><br><br></p><h3 id="Lab-세미나-발표-자료-2020-01-20"><a href="#Lab-세미나-발표-자료-2020-01-20" class="headerlink" title="Lab 세미나 발표 자료 (2020.01.20)"></a>Lab 세미나 발표 자료 (2020.01.20)</h3><hr><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261022-31646900-49e3-11eb-91fd-a4a7074e897e.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261021-31646900-49e3-11eb-9610-6e5b127a108d.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261020-30cbd280-49e3-11eb-90f7-cde16de12ce5.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261016-30cbd280-49e3-11eb-803c-57c91c53e703.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261015-30333c00-49e3-11eb-9fc2-88bd7ddf093d.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261014-30333c00-49e3-11eb-9b6e-f27603b12991.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261012-2f9aa580-49e3-11eb-9063-325c7ef370b1.png"></p> <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261011-2f9aa580-49e3-11eb-9983-0330fc6f8dd6.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261008-2f020f00-49e3-11eb-8c68-5436799c8b42.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261007-2f020f00-49e3-11eb-9a4e-0cdc385cce2b.png"></p> <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261006-2e697880-49e3-11eb-94d0-d9f45c76d770.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261005-2dd0e200-49e3-11eb-80ec-be6fb04998e4.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261003-2dd0e200-49e3-11eb-8c26-83a01859a969.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261002-2d384b80-49e3-11eb-97ad-12af9ec6ff7e.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261001-2d384b80-49e3-11eb-9240-db9f774ebbae.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103261000-2c9fb500-49e3-11eb-8fa8-5b1fb94a3f41.png"></p> <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260999-2c9fb500-49e3-11eb-9931-aeb831d9d0c8.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260998-2c071e80-49e3-11eb-8e95-ca34ec4b8ec6.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260997-2c071e80-49e3-11eb-9ddd-74d6fb9f0297.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260996-2b6e8800-49e3-11eb-85ec-41b5c98e9330.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260994-2b6e8800-49e3-11eb-9f22-396a22413841.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260993-2ad5f180-49e3-11eb-8ec0-4704768ce963.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260992-2a3d5b00-49e3-11eb-9eab-490947fe42da.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260991-29a4c480-49e3-11eb-8aa5-2d22d50f6126.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260989-290c2e00-49e3-11eb-93ee-7a3d592befe1.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260986-28739780-49e3-11eb-8d93-7be1940a371d.png"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103260984-27426a80-49e3-11eb-9205-1d55f3e7ef37.png"></p>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99/">대외활동</category>
+      
+      <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
+      
+      <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%8B%A0%EC%9B%90%EA%B4%80%EB%A6%AC/">신원관리</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
+      
+      <category domain="https://y8ncastle.me/tags/Identity-Management/">Identity Management</category>
+      
+      <category domain="https://y8ncastle.me/tags/Data-Sharing/">Data Sharing</category>
+      
+      <category domain="https://y8ncastle.me/tags/Seminar/">Seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/BaSE-Lab/">BaSE Lab</category>
+      
+      
+      <comments>https://y8ncastle.me/2020/01/19/dns-idm/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>[마스터링 비트코인] 비트코인 네트워크</title>
       <link>https://y8ncastle.me/2020/01/17/mastering-bitcoin-5/</link>
       <guid>https://y8ncastle.me/2020/01/17/mastering-bitcoin-5/</guid>
@@ -5844,48 +5886,6 @@
       
       
       <comments>https://y8ncastle.me/2020/01/12/sogang-hyperledger/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>[2019.12.24] 이더리움 스마트 컨트랙트 실습 - 이동현 연구원</title>
-      <link>https://y8ncastle.me/2020/01/12/sogang-smart-contract/</link>
-      <guid>https://y8ncastle.me/2020/01/12/sogang-smart-contract/</guid>
-      <pubDate>Sun, 12 Jan 2020 04:39:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg&quot; width=&quot;70%&quot;&gt;&lt;/p&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Remix&quot;&gt;&lt;a href=&quot;#Remix&quot; class=&quot;headerlink&quot; title=&quot;Remix&quot;&gt;&lt;/a&gt;Remix&lt;/h3&gt;&lt;hr&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103472558-3b66dd00-4dd2-11eb-9cfe-144ad78b6dea.jpeg" width="70%"></p>  <p><br><br></p><h3 id="Remix"><a href="#Remix" class="headerlink" title="Remix"></a>Remix</h3><hr><p><strong>Ethereum IDE</strong>: <a href="http://remix.ethereum.org/">http://remix.ethereum.org/</a> (JSON RPC를 통해 발행)</p><p><br><br></p><p><strong>[Compiler setup]</strong></p><ol><li><code>Solidity version select</code>  <ul><li>Metamask 연결 시 Environment - Injected Web3 선택 (네트워크 주소가 바로 아래 표시됨)</li></ul></li></ol><br><ol start="2"><li><p><code>Auto compile</code></p></li><li><p><code>File explorers</code> (Solidity 파일들이 있는 곳)</p></li><li><p><code>Create new file</code> 클릭 후 코드 작성</p></li></ol><br><ol start="5"><li><code>Deploy &amp; Run transactions</code> - 컴파일이 되었다면 Solidity compiler에 체크 표시가 되어 있을 것<ul><li>Deploy 클릭으로 네트워크 상에 컨트랙트 발행</li><li>Deploy contracts 왼쪽 화살표 클릭 후 get에서 데이터가 잘 나오는지 확인</li><li>set을 다른 값으로 입력하면서 테스트 가능</li><li>클립보드 클릭시 해당 컨트랙트 주소 복사 및 확인 가능</li></ul></li></ol><br><ul><li>At address 부분에 주소를 넣으면 해당 주소의 컨트랙트 실행 가능</li></ul><p><br><br></p><h3 id="기본-형태"><a href="#기본-형태" class="headerlink" title="기본 형태"></a>기본 형태</h3><hr><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">pragma solidty &gt;&#x3D; 0.4.22 &lt; 0.6.0;</span><br><span class="line"></span><br><span class="line">contract Contract &#123;</span><br><span class="line">    uint256 data; &#x2F;&#x2F; 변수 생성 (Type 형에 맞게 작성), unsigned int(256bit)</span><br><span class="line">        </span><br><span class="line">    Constructor() public &#123; &#x2F;&#x2F; Contract가 발행되면서 가장 먼저 실행되는 것 (초기화)</span><br><span class="line">        data &#x3D; 0;</span><br><span class="line">    &#125; &#x2F;&#x2F; → 계약에 담을 내용</span><br><span class="line">    function get() public view returns(uint256) &#123; &#x2F;&#x2F; 여러 개 리턴 가능</span><br><span class="line">        return data;</span><br><span class="line">    &#125;</span><br><span class="line">    function set(uint256 _data) public &#123;</span><br><span class="line">        data &#x3D; _data;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><br><br></p><h3 id="Solidity-예제-계산기-SafeMath"><a href="#Solidity-예제-계산기-SafeMath" class="headerlink" title="Solidity 예제 - 계산기 (SafeMath)"></a>Solidity 예제 - 계산기 (SafeMath)</h3><hr><ul><li><p>연산 과정은 이것을 이용해서 하면 좋다.</p></li><li><p>덧셈, 뺄셈 등 연산 과정시 underflow, overflow가 발생하면 Library에서 자동으로 찾아 예외처리 한다. (음수 또는 Max 값 초과)</p></li><li><p>using SafeMath for uint</p></li></ul><br><ul><li><strong>요구 조건 기입</strong>: <code>require(&quot;조건&quot;, &quot;조건 불일치 시 에러 표기 내용&quot;)</code></li></ul><p><br><br></p><h3 id="Solidity-예제-Ballot"><a href="#Solidity-예제-Ballot" class="headerlink" title="Solidity 예제 - Ballot"></a>Solidity 예제 - Ballot</h3><hr><ul><li><p>투표에 관련된 기본적인 예제</p></li><li><p>기본적인 컨트랙트 구성 코드들이 들어있다.</p></li></ul><br><ul><li>한 개의 투표 당 하나의 컨트랙트를 작성하여 각 선택마다 누적 투표수를 제공하여 의장 역할을 수행하는 작성자가 각 주소에 개별적 투표권을 부여한다. 투표권을 받은 사람들은 투표를 하거나 다른 사람에게 투표권을 위임할 수 있다.  </li></ul><br><blockquote><p>참고: <a href="https://solidity-kr.readthedocs.io/ko/latest/solidity-by-example.html">https://solidity-kr.readthedocs.io/ko/latest/solidity-by-example.html</a></p></blockquote><p><br><br></p><p><strong>[소스코드 분석]</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;&#x3D;0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract Ballot &#123;</span><br><span class="line">    struct Voter &#123;</span><br><span class="line">        uint weight;</span><br><span class="line">        bool voted;</span><br><span class="line">        uint8 vote;</span><br><span class="line">        address delegate;</span><br><span class="line">    &#125;</span><br><span class="line">    struct Proposal &#123;</span><br><span class="line">        uint voteCount;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    address chairperson; &#x2F;&#x2F; 컨트랙트를 생성한 사람</span><br><span class="line">    mapping(address &#x3D;&gt; Voter) voters; &#x2F;&#x2F; 각각의 가능한 주소에 대해 Voter 구조체를 저장하는 상태변수 선언</span><br><span class="line">    Proposal[] proposals; &#x2F;&#x2F; 동적 구조체 배열</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Create a new ballot with $(_numProposals) different proposals.</span><br><span class="line">    &#x2F;&#x2F; Proposal.Names 중 하나를 선택하기 위한 새로운 투표권 생성</span><br><span class="line">    constructor(uint8 _numProposals) public &#123;</span><br><span class="line">        chairperson &#x3D; msg.sender;</span><br><span class="line">        voters[chairperson].weight &#x3D; 1;</span><br><span class="line">        proposals.length &#x3D; _numProposals; &#x2F;&#x2F; _numProposals로부터 Proposal의 길이를 입력받음</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Give $(toVoter) the right to vote on this ballot.</span><br><span class="line">    &#x2F;&#x2F;&#x2F; May only be called by $(chairperson).</span><br><span class="line">    function giveRightToVote(address toVoter) public &#123; &#x2F;&#x2F; 함수를 실행한 사람의 계좌 주소와 chairperson이 다르거나 voter를 지정하는 계좌가 이미 투표를 한 상황이라면 이 함수는 종료, 이전에 반대되는 내용이 조건)</span><br><span class="line">        if (msg.sender !&#x3D; chairperson || voters[toVoter].voted) return;</span><br><span class="line">        voters[toVoter].weight &#x3D; 1;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Delegate your vote to the voter $(to).</span><br><span class="line">    &#x2F;&#x2F; Voter에게 이 투표권에 대한 권한 부여 (Chairperson으로부터 호출 받을 수 있음)</span><br><span class="line">    function delegate(address to) public &#123;</span><br><span class="line">        Voter storage sender &#x3D; voters[msg.sender]; &#x2F;&#x2F; assigns reference</span><br><span class="line">        if (sender.voted) return;</span><br><span class="line">        while (voters[to].delegate !&#x3D; address(0) &amp;&amp; voters[to].delegate !&#x3D; msg.sender)</span><br><span class="line">            to &#x3D; voters[to].delegate;</span><br><span class="line">        if (to &#x3D;&#x3D; msg.sender) return;</span><br><span class="line">        sender.voted &#x3D; true;</span><br><span class="line">        sender.delegate &#x3D; to;</span><br><span class="line">        Voter storage delegateTo &#x3D; voters[to];</span><br><span class="line">        if (delegateTo.voted)</span><br><span class="line">            proposals[delegateTo.vote].voteCount +&#x3D; sender.weight;</span><br><span class="line">        else</span><br><span class="line">            delegateTo.weight +&#x3D; sender.weight;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;&#x2F; Give a single vote to proposal $(toProposal).</span><br><span class="line">    function vote(uint8 toProposal) public &#123;</span><br><span class="line">        Voter storage sender &#x3D; voters[msg.sender]; &#x2F;&#x2F; Voters는 매핑 변수. 계좌주소를 가지고 인덱스를 접근하게 해주는 것, sender에 들어가는 사람들은 실제로 투표에 참여하는 사람들을 가리킴</span><br><span class="line">        if (sender.voted || toProposal &gt;&#x3D; proposals.length) return; &#x2F;&#x2F; 제안 수를 초과하는 경우 함수 실행을 종료시킴</span><br><span class="line">        sender.voted &#x3D; true;</span><br><span class="line">        sender.vote &#x3D; toProposal;</span><br><span class="line">        proposals[toProposal].voteCount +&#x3D; sender.weight;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    function winningProposal() public view returns (uint8 _winningProposal) &#123; &#x2F;&#x2F; 최종 결과를 출력</span><br><span class="line">        uint256 winningVoteCount &#x3D; 0;</span><br><span class="line">        for (uint8 prop &#x3D; 0; prop &lt; proposals.length; prop++) &#x2F;&#x2F; 총 Proposal 개수만큼 반복하면서 voteCount보다 클 때 까지 반복하며 최다 투표 값을 확인</span><br><span class="line">            if (proposals[prop].voteCount &gt; winningVoteCount) &#123;</span><br><span class="line">                winningVoteCount &#x3D; proposals[prop].voteCount;</span><br><span class="line">                _winningProposal &#x3D; prop;</span><br><span class="line">            &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><br><br></p><p><strong>[코드 관련 자가 테스트]</strong></p><ol><li><strong>Voter 구조체와 Proposal 구조체의 쓰임에 대해 설명할 수 있는가?</strong><ul><li>Voter</li><li>Proposal</li></ul></li></ol><br><ol start="2"><li><strong>각 구조체는 어떠한 정보를 담기 위함인가?</strong> (구조체를 구성하는 각 변수)<ul><li>uint weight</li><li>bool voted</li><li>uint8 vote</li><li>address delegate</li><li>uint voteCount</li></ul></li></ol><br><ol start="3"><li><p><strong>구조체와 구조체의 리스트를 선언하고 사용할 수 있는가?</strong></p></li><li><p><strong>msg.sender는 무엇을 뜻하는가?</strong></p></li><li><p><strong>msg.sender와 같은 특성을 갖는 변수를 무엇이라 지칭하는가?</strong></p></li><li><p><strong>조건문, 반복문을 사용할 수 있는가?</strong></p></li><li><p><strong>생성자 및 함수의 선언을 이해할 수 있는가?</strong></p></li></ol><br><ol start="8"><li><strong>생성자 및 함수의 동작을 설명할 수 있는가?</strong><ul><li>constructor</li><li>giveRightToVote(address toVoter)</li><li>delegate(address to)</li><li>vote(uint8 toProposal)</li><li>winningProposal() returns (uint8 winningProposal)</li></ul></li></ol><br><ol start="9"><li><p><strong>giveRightToVote 함수의 if문을 require문으로 변경할 수 있는가?</strong></p></li><li><p><strong>함수 내 storage 변수를 설명할 수 있는가?</strong></p></li><li><p><strong>Openzeppelin SafeMath 라이브러리를 사용하여 코드를 변경할 수 있는가?</strong></p></li><li><p><strong>Ballot.sol은 모두 참가자에게 투표권을 부여할 수 있는 형태인가?</strong></p></li><li><p><strong>여러 상황에 투표할 수 있는 컨트랙트로 확장할 수 있는 방법은 무엇인가?</strong></p></li></ol><p><br><br></p><h3 id="Solidity-예제-Escrow-Service-에스크로-서비스"><a href="#Solidity-예제-Escrow-Service-에스크로-서비스" class="headerlink" title="Solidity 예제 - Escrow Service (에스크로 서비스)"></a>Solidity 예제 - Escrow Service (에스크로 서비스)</h3><hr><p><strong>[스마트 컨트랙트에 필수적으로 구현해야 하는 함수]</strong></p><ul><li><p>function registeritem(uint amount) public {…}</p></li><li><p>function buyItem() payable public {…}</p></li><li><p>function refund() public {…} (<code>refund를 제외하고 나머지는 역순으로 갈 수 없다.</code>)</p></li><li><p>function confirmItem() public {…}</p></li><li><p>function sendItem() public {…}</p></li></ul><p><br><br></p><p><strong>[스마트 컨트랙트 변수]</strong></p><ul><li><p>uint public value</p></li><li><p>address payable public seller, buyer</p></li><li><p>string public message</p></li><li><p>enum state {Created, Locked, Sent, Complete} // 상태에 대해서 4가지 값을 가진다.</p></li><li><p>State public state</p></li></ul><br><ul><li><code>payable</code>: 이더리움과 같이 금액이 들어가는 부분에는 함께 붙는 키워드</li></ul><p><br><br></p><p><strong>[소스코드 분석]</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">contract Escrow &#123;</span><br><span class="line">    enum State &#123;Created, Locked, Sent, Complete&#125;</span><br><span class="line">    uint256 data;</span><br><span class="line">    uint256 price;</span><br><span class="line">    State state;</span><br><span class="line">    address seller;</span><br><span class="line">    address buyer; </span><br><span class="line">    </span><br><span class="line">    constructor() public &#123;</span><br><span class="line">        data &#x3D; 0;</span><br><span class="line">    &#125;</span><br><span class="line">    function buyItem() payable public &#123;</span><br><span class="line">        require(state &#x3D;&#x3D; State.Created, &quot;state is not created&quot;);</span><br><span class="line">        &#x2F;&#x2F;require(price &#x3D;&#x3D; msg.value, &quot;incorrect price&quot;);</span><br><span class="line">        seller &#x3D; msg.sender;</span><br><span class="line">        state &#x3D; State.Locked;</span><br><span class="line">    &#125;</span><br><span class="line">    function get() public view returns(uint256) &#123;</span><br><span class="line">        return data;</span><br><span class="line">    &#125;</span><br><span class="line">    function set(uint256 _data) public &#123;</span><br><span class="line">        data &#x3D; _data;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">pragma solidity &gt;&#x3D;0.4.22 &lt;0.6.0;</span><br><span class="line"></span><br><span class="line">contract EscrowTest &#123;</span><br><span class="line">    uint public value;</span><br><span class="line">    address payable public seller;</span><br><span class="line">    address payable public buyer;</span><br><span class="line">    string public message;</span><br><span class="line">    enum State &#123;Created, Locked, Sent, Complete&#125;</span><br><span class="line">    State public state; &#x2F;&#x2F; 거래 상태를 나타내고, 흐름에 따라 상태가 계속해서 변화함</span><br><span class="line">    mapping(address &#x3D;&gt; uint) balanceOf;</span><br><span class="line"></span><br><span class="line">    function registerItem(uint amount) public &#123;</span><br><span class="line">        seller &#x3D; msg.sender;</span><br><span class="line">        state &#x3D; State.Created;</span><br><span class="line">        value &#x3D; amount;</span><br><span class="line">    &#125;</span><br><span class="line">    function buyItem() public payable &#123;</span><br><span class="line">        require(msg.value &#x3D;&#x3D; value, &quot;insert correct price&quot;);</span><br><span class="line">        buyer &#x3D; msg.sender;</span><br><span class="line">        balanceOf[seller] +&#x3D; value; &#x2F;&#x2F; 돈이 들어오는 흐름을 확인, 큰 역할은 없음 (여러 명을 상대로 할 경우에는 중요한 역할이 될 수 있음), 매핑 변수</span><br><span class="line">        state &#x3D; State.Locked; &#x2F;&#x2F; 한 번 실행된 거래에 대해 상태를 변화시킴</span><br><span class="line">    &#125;</span><br><span class="line">    function refund() public &#123;</span><br><span class="line">        require(state &#x3D;&#x3D; State.Locked, &quot;state is not locked&quot;);</span><br><span class="line">        balanceOf[seller] -&#x3D; value;</span><br><span class="line">        state &#x3D; State.Created;</span><br><span class="line">        selfdestruct(buyer);</span><br><span class="line">    &#125;</span><br><span class="line">    function sendItem() public &#123;</span><br><span class="line">        require(seller &#x3D;&#x3D; msg.sender, &quot;You are not seller&quot;);</span><br><span class="line">        require(state &#x3D;&#x3D; State.Locked, &quot;state is not locked&quot;);</span><br><span class="line">        state &#x3D; State.Sent;</span><br><span class="line">    &#125;</span><br><span class="line">    function confirmItem() public &#123;</span><br><span class="line">        require(buyer &#x3D;&#x3D; msg.sender, &quot;You are not buyer&quot;);</span><br><span class="line">        require(state &#x3D;&#x3D; State.Sent, &quot;state is not sent&quot;);</span><br><span class="line">        selfdestruct(seller);</span><br><span class="line">        state &#x3D; State.Complete;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><br><br></p><h3 id="관련-기술-및-기타-전문가-의견"><a href="#관련-기술-및-기타-전문가-의견" class="headerlink" title="관련 기술 및 기타 전문가 의견"></a>관련 기술 및 기타 전문가 의견</h3><hr><ul><li><code>이더리움은 랜덤 함수가 따로 없다.</code>   </li></ul><br><ul><li><p>시드 값은 흘러가는 시간, 문자, 숫자 등을 결합하여 만드는데 랜덤 함수를 만드는 것도 상당히 어렵기 때문에 이를 잘 만들면 블록체인 상에서 신뢰성을 높일 수 있다.</p></li><li><p>예외처리를 얼마나 잘하느냐에 따라 전문가와 비전문가를 구분한다.</p></li></ul><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103251136-c43cdd80-49ba-11eb-8423-52f461c05447.jpg" width="60%"></p>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Education/">Education</category>
-      
-      <category domain="https://y8ncastle.me/categories/Education/Ethereum/">Ethereum</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
-      
-      <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
-      
-      <category domain="https://y8ncastle.me/tags/Ethereum/">Ethereum</category>
-      
-      <category domain="https://y8ncastle.me/tags/Smart-Contract/">Smart Contract</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
-      
-      <category domain="https://y8ncastle.me/tags/Seoul-Blockchain-Center/">Seoul Blockchain Center</category>
-      
-      
-      <comments>https://y8ncastle.me/2020/01/12/sogang-smart-contract/#disqus_thread</comments>
       
     </item>
     
