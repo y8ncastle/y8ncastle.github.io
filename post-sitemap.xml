@@ -9,14 +9,6 @@
 
 
     <url>
-        <loc>https://y8ncastle.me/2018/04/06/boj-1065-c/</loc>
-        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/2019/05/12/boj-10250-c/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -41,7 +33,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/05/15/boj-10943-c/</loc>
+        <loc>https://y8ncastle.me/2018/04/06/boj-1065-c/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -50,6 +42,14 @@
 
     <url>
         <loc>https://y8ncastle.me/2018/04/09/boj-10820-java/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/2019/05/15/boj-10943-c/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -97,14 +97,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/05/09/boj-15552-c/</loc>
-        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/2019/05/16/boj-1476-c/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -122,6 +114,14 @@
 
     <url>
         <loc>https://y8ncastle.me/2019/05/21/boj-17201-java/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/2019/05/09/boj-15552-c/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -161,7 +161,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/05/10/boj-1978-c/</loc>
+        <loc>https://y8ncastle.me/2019/04/30/boj-2563-c/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -169,7 +169,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/04/30/boj-2563-c/</loc>
+        <loc>https://y8ncastle.me/2019/05/10/boj-1978-c/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -257,7 +257,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/06/01/capstone-design-1/</loc>
+        <loc>https://y8ncastle.me/2019/06/01/capstone-design-2/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -265,7 +265,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/06/01/capstone-design-2/</loc>
+        <loc>https://y8ncastle.me/2019/06/01/capstone-design-1/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -489,6 +489,14 @@
     </url>
 
     <url>
+        <loc>https://y8ncastle.me/2020/04/06/egoing-javascript/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/2020/02/25/ethereum-private-network/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -498,14 +506,6 @@
 
     <url>
         <loc>https://y8ncastle.me/2018/04/05/event-planner-example/</loc>
-        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/2020/04/06/egoing-javascript/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1089,7 +1089,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/05/06/weekly-report-190506/</loc>
+        <loc>https://y8ncastle.me/2019/05/11/weekly-report-190513/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1105,7 +1105,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/05/11/weekly-report-190513/</loc>
+        <loc>https://y8ncastle.me/2019/05/06/weekly-report-190506/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1145,7 +1145,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/06/02/weekly-report-190603/</loc>
+        <loc>https://y8ncastle.me/2019/06/03/weekly-report-190603-1/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1153,7 +1153,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/06/03/weekly-report-190603-1/</loc>
+        <loc>https://y8ncastle.me/2019/06/02/weekly-report-190603/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1577,7 +1577,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2020/07/03/youtube-seminar-20-21/</loc>
+        <loc>https://y8ncastle.me/2020/06/07/youtube-seminar-20-17/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1585,7 +1585,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2020/06/07/youtube-seminar-20-17/</loc>
+        <loc>https://y8ncastle.me/2020/07/03/youtube-seminar-20-21/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
