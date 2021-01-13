@@ -11,16 +11,7 @@
     
     <url>
         <loc>https://y8ncastle.me/about/</loc>
-        <lastmod>2021-01-12T08:30:33.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://y8ncastle.me/cv/</loc>
-        <lastmod>2021-01-12T08:30:33.000Z</lastmod>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -29,7 +20,16 @@
     
     <url>
         <loc>https://y8ncastle.me/tags/</loc>
-        <lastmod>2021-01-12T08:30:33.000Z</lastmod>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://y8ncastle.me/cv/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
