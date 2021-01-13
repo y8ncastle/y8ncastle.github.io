@@ -65,14 +65,14 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/%25EC%259D%25B4%25EB%25A1%25A0-%25EC%25A0%2595%25EB%25A6%25AC-Note/%25EC%259D%25B8%25EA%25B3%25B5%25EC%25A7%2580%25EB%258A%25A5-AI/</loc>
+        <loc>https://y8ncastle.me/categories/%25EA%25B5%2590%25EC%259C%25A1-Education/Hyperledger-Fabric/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/%25EA%25B5%2590%25EC%259C%25A1-Education/Hyperledger-Fabric/</loc>
+        <loc>https://y8ncastle.me/categories/%25EC%259D%25B4%25EB%25A1%25A0-%25EC%25A0%2595%25EB%25A6%25AC-Note/%25EC%259D%25B8%25EA%25B3%25B5%25EC%25A7%2580%25EB%258A%25A5-AI/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -142,14 +142,14 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/%25EB%258C%2580%25EC%2599%25B8%25ED%2599%259C%25EB%258F%2599-Activity/%25EC%2584%25B8%25EB%25AF%25B8%25EB%2582%2598-Seminar/</loc>
+        <loc>https://y8ncastle.me/categories/%25EB%258C%2580%25EC%2599%25B8%25ED%2599%259C%25EB%258F%2599-Activity/%25EC%2599%25B8%25EB%25B6%2580-%25EA%25B5%2590%25EC%259C%25A1-Education/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/%25EB%258C%2580%25EC%2599%25B8%25ED%2599%259C%25EB%258F%2599-Activity/%25EC%2599%25B8%25EB%25B6%2580-%25EA%25B5%2590%25EC%259C%25A1-Education/</loc>
+        <loc>https://y8ncastle.me/categories/%25EB%258C%2580%25EC%2599%25B8%25ED%2599%259C%25EB%258F%2599-Activity/%25EC%2584%25B8%25EB%25AF%25B8%25EB%2582%2598-Seminar/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -177,13 +177,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/CURG-Publish/Blockchain/</loc>
-        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/categories/%25EC%259D%25B4%25EB%25A1%25A0-%25EC%25A0%2595%25EB%25A6%25AC-Note/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -198,21 +191,14 @@
     </url>
 
     <url>
+        <loc>https://y8ncastle.me/categories/CURG-Publish/Blockchain/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/categories/Programming-Language/</loc>
-        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Personal-Development/%25EC%2584%25B1%25EA%25B3%25BC-Achievement/</loc>
-        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/%25ED%2594%2584%25EB%25A1%259C%25EC%25A0%259D%25ED%258A%25B8-%25EA%25B0%259C%25EC%259D%25B8/%25EC%2595%2588%25EB%2593%259C%25EB%25A1%259C%25EC%259D%25B4%25EB%2593%259C-Android/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -233,13 +219,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/Personal-Development/%25EC%259E%2590%25EA%25B2%25A9-Qualification/</loc>
-        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/categories/%25ED%2594%2584%25EB%25A1%259C%25EC%25A0%259D%25ED%258A%25B8-%25ED%258C%2580/%25EC%2595%2588%25EB%2593%259C%25EB%25A1%259C%25EC%259D%25B4%25EB%2593%259C-Android/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -247,7 +226,28 @@
     </url>
 
     <url>
+        <loc>https://y8ncastle.me/categories/Personal-Development/%25EC%2584%25B1%25EA%25B3%25BC-Achievement/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/categories/%25ED%2594%2584%25EB%25A1%259C%25EC%25A0%259D%25ED%258A%25B8-%25EA%25B0%259C%25EC%259D%25B8/%25EC%2595%2588%25EB%2593%259C%25EB%25A1%259C%25EC%259D%25B4%25EB%2593%259C-Android/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/categories/CURG-Publish/</loc>
+        <lastmod>2021-01-13T07:25:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/categories/Personal-Development/%25EC%259E%2590%25EA%25B2%25A9-Qualification/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -289,14 +289,14 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/BOJ-%25EB%25AC%25B8%25EC%25A0%259C%25ED%2592%2580%25EC%259D%25B4/Java/</loc>
+        <loc>https://y8ncastle.me/categories/BOJ-%25EB%25AC%25B8%25EC%25A0%259C%25ED%2592%2580%25EC%259D%25B4/C/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/BOJ-%25EB%25AC%25B8%25EC%25A0%259C%25ED%2592%2580%25EC%259D%25B4/C/</loc>
+        <loc>https://y8ncastle.me/categories/BOJ-%25EB%25AC%25B8%25EC%25A0%259C%25ED%2592%2580%25EC%259D%25B4/Java/</loc>
         <lastmod>2021-01-13T07:25:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
