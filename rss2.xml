@@ -8,9 +8,76 @@
     
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
-    <description>Zay Jeong&#39;s IT Blog (Personal Development)</description>
-    <pubDate>Wed, 13 Jan 2021 07:25:50 GMT</pubDate>
+    <description>Zay Jeong IT Blog (Personal Development)</description>
+    <pubDate>Fri, 15 Jan 2021 05:40:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>주간 진행 보고 (2021.01.14 - 01.15)</title>
+      <link>https://y8ncastle.me/2021/01/14/weekly-report-210114/</link>
+      <guid>https://y8ncastle.me/2021/01/14/weekly-report-210114/</guid>
+      <pubDate>Thu, 14 Jan 2021 04:35:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;2020-01-14-목&quot;&gt;&lt;a href=&quot;#2020-01-14-목&quot; class=&quot;headerlink&quot; title=&quot;2020.01.14 (목)&quot;&gt;&lt;/a&gt;2020.01.14 (목)&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;09:00 &amp;gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)&lt;/li&gt;
+&lt;li&gt;11:09 &amp;gt; KCBC 2020 (한국 블록체인학회 학술대회) 포스트 정리 완료&lt;/li&gt;
+&lt;li&gt;13:39 &amp;gt; 플랜 2020 성과 되돌아보기 포스트 정리 완료&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="2020-01-14-목"><a href="#2020-01-14-목" class="headerlink" title="2020.01.14 (목)"></a>2020.01.14 (목)</h3><hr><ul><li>09:00 &gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)</li><li>11:09 &gt; KCBC 2020 (한국 블록체인학회 학술대회) 포스트 정리 완료</li><li>13:39 &gt; 플랜 2020 성과 되돌아보기 포스트 정리 완료</li></ul><p><br><br></p><h3 id="2020-01-15-금"><a href="#2020-01-15-금" class="headerlink" title="2020.01.15 (금)"></a>2020.01.15 (금)</h3><hr><ul><li>09:00 &gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)</li><li>13:27 &gt; 구글, 다음 검색엔진 연동 (네이버 노출 불가)</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/%EA%B3%84%ED%9A%8D-Plan/">계획 (Plan)</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.me/tags/Plan/">Plan</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/01/14/weekly-report-210114/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>플랜 2020 성과 되돌아보기</title>
+      <link>https://y8ncastle.me/2021/01/14/plan-2020-result/</link>
+      <guid>https://y8ncastle.me/2021/01/14/plan-2020-result/</guid>
+      <pubDate>Thu, 14 Jan 2021 04:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;티스토리 블로그에서 깃허브 페이지로 모든 내용을 이전했다.&lt;/p&gt;
+&lt;p&gt;앞으로는 단순 보여주기식으로 포스팅을 하기보다는 내가 실질적으로 기록하고 싶은 것들, 공부에 도움이 될 만한 내용들을 기록하려고 한다. 피드백은 언제든지 이메일이나 SNS 등을 통해 받을 수 있지만 댓글이나 방명록 기능은 제외하고 운영하려고 한다.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2020년-리뷰&quot;&gt;&lt;a href=&quot;#2020년-리뷰&quot; class=&quot;headerlink&quot; title=&quot;2020년 리뷰&quot;&gt;&lt;/a&gt;2020년 리뷰&lt;/h3&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>티스토리 블로그에서 깃허브 페이지로 모든 내용을 이전했다.</p><p>앞으로는 단순 보여주기식으로 포스팅을 하기보다는 내가 실질적으로 기록하고 싶은 것들, 공부에 도움이 될 만한 내용들을 기록하려고 한다. 피드백은 언제든지 이메일이나 SNS 등을 통해 받을 수 있지만 댓글이나 방명록 기능은 제외하고 운영하려고 한다.</p><p><br><br></p><h3 id="2020년-리뷰"><a href="#2020년-리뷰" class="headerlink" title="2020년 리뷰"></a>2020년 리뷰</h3><hr><p>2020년은 여러가지로 힘든 한 해였던 것 같다.</p><p>블록체인을 공부하고자 대학원에 진학해서 서울에서 처음으로 자취를 시작하게 되었고, 2019년에 이어 플랜 2020이라는 이름의 계획 목표를 세우고 내가 이루고자 하는 것들을 대부분 달성해왔다.</p><p>우선순위 변경에 따라 실행하지 않은 계획도 있지만 그래도 전반적으로는 만족할만큼 보람있게 보냈던 것 같다.</p><p>다만 새롭게 시작한 것들도 너무 많았고, 완전 다른 환경에서 여러가지 일들에 적응해가는 과정에서 정신적으로 좀 힘든 부분이 있어서 대학원 1학기를 마치고 휴학을 하게 되었다. 그 이후 지금까지 약 5개월 간 아르바이트를 하면서 내가 해야할 일들을 다시 한 번 생각해보게 되었다.</p><p>처음엔 학교를 그만둘 생각으로 휴학을 한 것이었지만 아르바이트를 하면서 다시 생각해보니 내가 하고 싶었던 것이 블록체인이었고, 처음 겪는 상황에 적응하지 못하고 그만두면 나중에 회사에 가서도 똑같은 상황에 직면했을 때 해결하지 못하는 상황이 또 생길 것 같아서 2021년 3월에 다시 복학할 예정이다.</p><p>그동안은 좀 유리 멘탈이었지만 앞으로는 잘 버텨보려고 노력할 것이고, 복학 전까지 그동안 정리하지 못했던 것들을 마지막으로 정리하고 2021년부터 2022년 8월까지 다시 대학원 생활을 통해 블록체인 연구를 진행하려고 한다. 물론 CURG 동아리를 통해 인공지능 공부도 동시에 하지 않을까 싶다.</p><p><br><br></p><h3 id="2021년-목표"><a href="#2021년-목표" class="headerlink" title="2021년 목표"></a>2021년 목표</h3><hr><p>2021년부터는 전체적인 틀에 대해서만 계획을 세우고 세부적인 내용은 필요할 때마다 추가해서 진행하는 방식으로 하려고 한다.</p><p>미리 많은 내용을 세워두고 시작하다보니 계획 이외에 다른 일들이 생겨버리면 이것도 아니고 저것도 아닌 상황이 되버리고 말았다.</p><p>그래서 그런 방식으로 진행하면 좋을 것 같고, 올해는 이더리움 스마트 컨트랙트와 DID 혹은 대용량 데이터 관리 방법 연구 쪽으로 방향을 바꾸어 볼 생각이다. 물론 이 주제는 언제든지 바뀔 수 있겠지만 큰 틀만 생각해보면 이 정도로 생각하면 좋을 것 같고, Go 언어를 새로 공부하고 Java도 다시 한 번 복습 및 심화 학습을 해보고자 한다.</p><p>Solidity를 제대로 다루기 전에 Go 언어도 배워두면 좋을 것 같아서 우선 Go를 먼저 배우고 Java, Solidity, Python 등을 공부해보려고 한다.</p><p>올해 7월에 토익이 만료되서 영어 자격증도 갱신하긴 해야하는데 매번 특별한 사용처 없이 취득하다보니 다시 따야하는 상황이 반복되서 올해는 넘어가고 내년 초 쯤에 다시 한 번 시험보지 않을까 싶다.</p><p><br><br></p><h3 id="종합-목표-정리"><a href="#종합-목표-정리" class="headerlink" title="종합 목표 정리"></a>종합 목표 정리</h3><hr><ul><li>블록체인 연구 (이더리움, DID, 대용량 데이터 관리)</li><li>언어 학습 - Go (+Solidity), Java, Python</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/%EA%B3%84%ED%9A%8D-Plan/">계획 (Plan)</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
+      
+      <category domain="https://y8ncastle.me/tags/Plan-2020/">Plan 2020</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.me/tags/Plan/">Plan</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/01/14/plan-2020-result/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>강화학습을 위한 마르코프 결정 과정(MDP)과 벨만 기대 방정식</title>
@@ -858,6 +925,8 @@
       
       <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
       
+      <category domain="https://y8ncastle.me/tags/Thesis/">Thesis</category>
+      
       <category domain="https://y8ncastle.me/tags/%EC%82%AC%EB%AC%BC%EC%9D%B8%ED%84%B0%EB%84%B7/">사물인터넷</category>
       
       <category domain="https://y8ncastle.me/tags/IoT/">IoT</category>
@@ -865,8 +934,6 @@
       <category domain="https://y8ncastle.me/tags/%EB%85%BC%EB%AC%B8/">논문</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/">오라클 문제</category>
-      
-      <category domain="https://y8ncastle.me/tags/Thesis/">Thesis</category>
       
       <category domain="https://y8ncastle.me/tags/Oracle/">Oracle</category>
       
@@ -4264,8 +4331,6 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/%EC%9E%90%EA%B2%A9-Qualification/">자격 (Qualification)</category>
       
       
-      <category domain="https://y8ncastle.me/tags/Bachelors-Degree/">Bachelors Degree</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/">한밭대학교</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EB%A6%BD-%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/">국립 한밭대학교</category>
@@ -4281,6 +4346,8 @@
       <category domain="https://y8ncastle.me/tags/Hanbat-National-University/">Hanbat National University</category>
       
       <category domain="https://y8ncastle.me/tags/Information-and-Communication-Engineering/">Information and Communication Engineering</category>
+      
+      <category domain="https://y8ncastle.me/tags/Bachelors-Degree/">Bachelors Degree</category>
       
       
       <comments>https://y8ncastle.me/2020/02/24/hanbat-diploma/#disqus_thread</comments>
@@ -4532,9 +4599,9 @@
       <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99-Activity/%ED%95%99%ED%9A%8C-Academy/">학회 (Academy)</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/Software-Engineering-Society/">Software Engineering Society</category>
       
@@ -5505,6 +5572,53 @@
     </item>
     
     <item>
+      <title>KCBC 2020 (한국 블록체인학회 학술대회)</title>
+      <link>https://y8ncastle.me/2020/01/14/kcbc-2020/</link>
+      <guid>https://y8ncastle.me/2020/01/14/kcbc-2020/</guid>
+      <pubDate>Tue, 14 Jan 2020 00:09:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;대학원 휴학 및 블로그 이전 기간동안 정리하지 못해 지금에서야 글을 작성한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/104533368-99f34d00-5655-11eb-97eb-3ad2b62e495b.jpg&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<blockquote><p>대학원 휴학 및 블로그 이전 기간동안 정리하지 못해 지금에서야 글을 작성한다.</p></blockquote><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104533368-99f34d00-5655-11eb-97eb-3ad2b62e495b.jpg" width="50%"></p><p><br><br></p><p>2020년 7월 23일과 24일, 홍천 소노벨 비발디파크에서 <code>2020 한국 블록체인학회 학술대회</code>가 열렸다.</p><p>원래 이전에 개최하려고 했었던 행사였지만 코로나로 인해 연기가 되기도 했고, 취소도 될 뻔했지만 결국 개최됐다.</p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104533415-b1cad100-5655-11eb-8543-6edcb1a983a5.jpg" width="70%"></p><p><br><br></p><p>이번 학술대회 행사 보조는 서강대학교에서 진행했는데 방역이나 일정 보조를 하면서 동시에 발표 준비까지 하는게 생각보다 쉽지 않았다.</p><br><p><em>발표가 없었더라면 편하게 다녀왔을 것 같은데… 하하</em></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104533611-0f5f1d80-5656-11eb-8f97-b32f0d7e3d89.jpg" width="60%"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104533627-16862b80-5656-11eb-9a2d-bad6cc03b018.jpg" width="60%"></p><p><br><br></p><p>어쨌든 이번 행사는 소규모로 진행해서 1박 2일 동안만 머물렀고 처음으로 학술대회 발표도 하게 되었다.</p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104533648-21d95700-5656-11eb-9411-291a44197a34.jpg" width="60%"></p><p><br><br></p><p>논문을 쓰는 과정에서도 어려움이 많았지만 많은 사람들 앞에서 발표해야 된다는 부담감 때문에 24일 새벽에 잠을 제대로 못 자고 계속해서 발표 연습만 했다. ㅋㅋ 막상 발표하려고 하니 또 하얘져서 스크립트를 보면서 하기는 했지만 그 부분에 대해 지적을 하진 않으셔서 다행이었다고 생각한다.</p><p>아직 졸업 주제도 분명하지 않아서 여러가지 내용을 공부해보자 하다가 오라클 문제를 가지고 학술논문을 작성하게 됐는데 이 분야에 대해서는 큰 관심이 없어서 그런지 쓰고도 이해가 안 되기도 했고, 나중에 보니 오류 투성이었던 것 같다.</p><p>물론 앞으로는 제대로 된 방향을 잡아서 연구를 해야겠지만 끝나고 나서 보니 상당히 창피하다… ㅋㅋ</p><p>그래도 주변에서 많은 도움을 받아서 쓴 첫 논문인만큼 좋은 경험이었다고 생각한다.</p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104534015-d4111e80-5656-11eb-9d56-ad03be00825c.jpg" width="70%"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104534863-6a920f80-5658-11eb-9465-11088241bed4.jpg" width="70%"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104534056-e4c19480-5656-11eb-855c-ad6e6b04d8e6.jpg" width="70%"></p><p><br><br></p><p>이번 행사 참가 사은품은 고려대학교 인호 교수님의 ‘부의 미래 누가 주도할 것인가’라는 책이었는데 아직 읽어보진 않았지만 나중에 조금 더 여유가 생기면 한 번 읽어볼 수 있도록 해야겠다.</p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/104534068-ea1edf00-5656-11eb-93e0-ef3c6e04d86e.jpg" width="50%"></p><p><br><br></p><p>2020년 2분기에 개인적인 사정으로 대학원을 휴학하는 과정이 있었고, 블로그도 티스토리에서 깃허브 페이지로 옮기면서 공백이 많이 생겨서 그런지 그 당시 느꼈던 감정을 그대로 쓸 수는 없었지만 간단하게나마 기록해두는 것이 좋을 것 같아서 이렇게 작성해본다!</p>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99-Activity/">대외활동 (Activity)</category>
+      
+      <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99-Activity/%ED%95%99%ED%9A%8C-Academy/">학회 (Academy)</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
+      
+      <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/">학회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%85%BC%EB%AC%B8/">학술논문</category>
+      
+      <category domain="https://y8ncastle.me/tags/KS-Blockchain/">KS Blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/Academy/">Academy</category>
+      
+      <category domain="https://y8ncastle.me/tags/Thesis/">Thesis</category>
+      
+      
+      <comments>https://y8ncastle.me/2020/01/14/kcbc-2020/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>비트코인 개요, 작동 원리</title>
       <link>https://y8ncastle.me/2020/01/13/mastering-bitcoin-1/</link>
       <guid>https://y8ncastle.me/2020/01/13/mastering-bitcoin-1/</guid>
@@ -5772,121 +5886,6 @@
       
       
       <comments>https://y8ncastle.me/2020/01/13/weekly-report-200114/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>플랜 2020 중간 점검 및 기존 계획 일부 변경</title>
-      <link>https://y8ncastle.me/2020/01/12/plan-2020-mid-report/</link>
-      <guid>https://y8ncastle.me/2020/01/12/plan-2020-mid-report/</guid>
-      <pubDate>Sun, 12 Jan 2020 06:48:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103257873-57cfd780-49d6-11eb-97c7-d7978b7e4291.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;  &lt;br&gt;&lt;br&gt;&lt;br&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103257873-57cfd780-49d6-11eb-97c7-d7978b7e4291.png" width="50%"></p>  <br><br><br><h3 id="기존-플랜-2020-진행사항-중간점검-및-변경사항"><a href="#기존-플랜-2020-진행사항-중간점검-및-변경사항" class="headerlink" title="기존 플랜 2020 진행사항 중간점검 및 변경사항"></a>기존 플랜 2020 진행사항 중간점검 및 변경사항</h3><hr><p><strong>블록체인 전문교육 이수 및 암호화폐 기술 연구 및 응용 (<code>진행중</code>)</strong></p><br><p>대학원 연구실에서 블록체인에 관련된 전반적인 내용들을 공부하고자 한다.  </p><p>2019년에는 대학원 입학 가능 여부와 어느 기관을 통해 공부해야 할지 등을 고민해야 했지만 2020년에는 이 부분이 확실해진 만큼 관련 분야를 찾아보고 학습하는 시간을 가질 예정이다.  </p><p>최근 대학원 세미나와 포럼에 참관하면서 목표를 더 뚜렷하게 가질 수 있었는데, 올 한 해 동안 학과 과목 이외에는 비트코인과 이더리움을 중점적으로 공부할 생각이다.  </p><p>특히, Mastering Bitcoin(비트코인, 공개 블록체인 프로그래밍)이라는 책을 통해 블록체인과 암호화폐의 시작 단계 먼저 이해한 후 응용 가능한 단계가 되었을 때 이더리움을 이용한 다양한 연구들을 진행해보고 싶다.  </p><p><br><br></p><p><strong>정보처리기사 취득 (<code>완료</code>)</strong></p><br><p>올해부터 시험 유형이 완전히 바뀌어서 작년에 무조건 취득했어야 했던 자격증이었다.  </p><p>2019년 3월부터 시작해서 시험 직전까지 필기와 실기 공부를 최대한 오랜 기간 동안 나누어 반복하며 공부해서 그런지 이론에 많이 익숙해졌던 것 같고, 덕분에 대학 때 배웠던 전반적인 개념들을 총 복습할 수 있어서 좋았다.  </p><p>전공자에게는 필수 자격증이라고 말하는 것이 괜히 있는 말이 아니었다.  </p><p>또, 대학원 면접에도 많은 도움이 되었다.  </p><p><br><br></p><p><strong>토익 960점 이상 갱신 (<code>변경</code>)</strong></p><br><p>3년 전 토익 시험에서 940점을 받은 이후 2019년에 만료되었고, 2019년 7월에 915점으로 새로 갱신했다.  </p><p>원래 목표는 960점 이상을 받는 것으로 했지만 대학원을 목표로 하기 위함이 가장 큰 이유였기 때문에 이제는 점수보다는 논문 독해나 기본적인 회화 능력을 향상하는 데에 초점을 두려고 한다.  </p><p>물론 토익 시험을 다시 응시해야 하는 경우도 생길 것이고, 대학원 영어 시험을 대비하기 위해 공부를 할 수도 있겠지만 지금 당장은 토익만을 위한 준비 과정은 필요 없다고 판단하여 ‘영어 능력 증진’ 형태의 계획으로 변경하고자 한다.  </p><p><br><br></p><p><strong>NAS 개인 서버 구축 및 앱 개발 (<code>완료</code>)</strong></p><br><p>플랜 2020 중에서 가장 먼저 달성한 목표로, 암호화폐 마케팅을 하면서 번 돈의 일부를 투자하여 Synology NAS를 구입하였고, 이를 이용하여 개인 서버로 잘 이용하고 있는 중이다.  </p><p>개인 서버를 운영하기 위해 필요한 복잡한 과정들을 Synology DSM을 통해 손쉽게 관리할 수 있어서 구입하였는데 아직까지 만족하며 사용하고 있다.  </p><p>데이터 보관도 타 업체에 맡기는 것보다 훨씬 더 안전하다고 생각하고 있다.  </p><p>추가적으로, 지인 중에 초등학교 교사를 하고 있는 ‘신민철’ 형의 의뢰를 받아 교육용 앱인 ‘온북스 (OnBooks)’를 개발하여 플레이스토어에 업로드하였고, 2019년 캡스톤디자인 ‘앱을 이용한 다기능 옴니 카 제어 설계’ 주제를 위한 컨트롤러 앱을 약 반년 동안 개발 진행하여 완성하고 블로그에 관련 정보를 업로드하였다.  </p><p><br><br></p><p><strong>백준 온라인 1천 문제 이상 풀이 (<code>중단</code>)</strong></p><br><p>기본적인 코딩 능력을 향상하기 위해 백준 온라인 저지를 통해 1천 문제 이상을 풀려고 계획했지만 캡스톤디자인과 기타 프로젝트 및 자격증 등을 준비하면서 코딩 연습에 필요한 시간을 할애하기가 어려웠다.</p><p>블록체인을 연구하면서도 코딩 능력을 향상하기 위한 노력이 필요한 건 사실이지만 비트코인과 이더리움에서 사용하는 언어 자체가 다르다 보니 새로운 언어를 배울 가능성이 더 높아진 상황이다.</p><p>그래서 기존 C, C++, Java, Python 등은 필요한 경우마다 따로 학습하고 문제 풀이는 일단 중단할 계획이다.</p><br><p>2019년부터 지금까지 절반 정도는 마무리한 것 같고 나머지 부분은 2020년 한 해 동안 차근차근 이루어나갈 예정이다. </p><p>앞으로는 목표를 정해서 한 방향으로만 나갈 것이다.  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103257876-59010480-49d6-11eb-9037-2db8bab48e5b.png" width="80%"></p>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/%EA%B3%84%ED%9A%8D-Plan/">계획 (Plan)</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/Plan-2020/">Plan 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
-      
-      <category domain="https://y8ncastle.me/tags/Plan/">Plan</category>
-      
-      
-      <comments>https://y8ncastle.me/2020/01/12/plan-2020-mid-report/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>한-독 핀테크 &amp; 블록체인 포럼</title>
-      <link>https://y8ncastle.me/2020/01/12/kor-ger-fintech/</link>
-      <guid>https://y8ncastle.me/2020/01/12/kor-ger-fintech/</guid>
-      <pubDate>Sun, 12 Jan 2020 06:01:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103473002-30fb1200-4dd7-11eb-8783-02a5fd29f2e0.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;키워드&quot;&gt;&lt;a href=&quot;#키워드&quot; class=&quot;headerlink&quot; title=&quot;키워드&quot;&gt;&lt;/a&gt;키워드&lt;/h3&gt;&lt;hr&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103473002-30fb1200-4dd7-11eb-8783-02a5fd29f2e0.png" width="50%"></p>  <p><br><br></p><h3 id="키워드"><a href="#키워드" class="headerlink" title="키워드"></a>키워드</h3><hr><p>서강대학교, 삼성가브리엘관, 한-독, 핀테크, 블록체인 포럼, 서울특별시, 지능형 블록체인 연구센터, Lutz Raettig, Sooyong Park, 박수용 교수님, Dr. Jochen Biedermann, Fintech Initiative of the World Alliance of International Financial Centers, Agent-Based Consensus Preprocessing Method for Scalability Improvement in Private Blockchain Environment, Jungwon Seo, Dohyun Lee, Intelligent Blockchain Research Center, ITRC Blockchain</p>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99-Activity/">대외활동 (Activity)</category>
-      
-      <category domain="https://y8ncastle.me/categories/%EB%8C%80%EC%99%B8%ED%99%9C%EB%8F%99-Activity/%ED%8F%AC%EB%9F%BC-Forum/">포럼 (Forum)</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%EB%8F%85%EC%9D%BC/">독일</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%80%ED%85%8C%ED%81%AC/">핀테크</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C-%EB%8F%85-%ED%95%80%ED%85%8C%ED%81%AC/">한-독 핀테크</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%8F%AC%EB%9F%BC/">블록체인 포럼</category>
-      
-      <category domain="https://y8ncastle.me/tags/Germany/">Germany</category>
-      
-      <category domain="https://y8ncastle.me/tags/Fintech/">Fintech</category>
-      
-      <category domain="https://y8ncastle.me/tags/Kor-Ger-Fintech/">Kor-Ger Fintech</category>
-      
-      <category domain="https://y8ncastle.me/tags/Blockchain-Forum/">Blockchain Forum</category>
-      
-      
-      <comments>https://y8ncastle.me/2020/01/12/kor-ger-fintech/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>블록체인과 하이퍼레저 패브릭 - 서중원 박사과정 연구원</title>
-      <link>https://y8ncastle.me/2020/01/12/sogang-hyperledger/</link>
-      <guid>https://y8ncastle.me/2020/01/12/sogang-hyperledger/</guid>
-      <pubDate>Sun, 12 Jan 2020 05:48:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103252059-92c61100-49be-11eb-83f3-ab5ad5daceaf.jpg&quot; width=&quot;70%&quot; alt=&quot;강의 기간: 2019.12.27 ~ 2019.12.28&quot;&gt;&lt;/p&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;블록체인&quot;&gt;&lt;a href=&quot;#블록체인&quot; class=&quot;headerlink&quot; title=&quot;블록체인?&quot;&gt;&lt;/a&gt;블록체인?&lt;/h3&gt;&lt;hr&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103252059-92c61100-49be-11eb-83f3-ab5ad5daceaf.jpg" width="70%" alt="강의 기간: 2019.12.27 ~ 2019.12.28"></p>  <p><br><br></p><h3 id="블록체인"><a href="#블록체인" class="headerlink" title="블록체인?"></a>블록체인?</h3><hr><ul><li><p><code>금융</code>: 돈이 된다 (암호화폐)</p></li><li><p><code>사회</code>: 신뢰를 보장하는 기술, 평등한 세상, 동등한 기회</p></li><li><p><code>기술</code></p></li></ul><br><blockquote><p>여러가지 기술이 융합되어 탄생한 것</p></blockquote><br><ul><li><p>블록체인의 뚜렷한 정의는 때로 말하기 어렵다.</p></li><li><p>신뢰를 만드는 기계</p></li><li><p>분산 디지털 원장 또는 여러가지 기술의 집합체</p></li></ul><p><br><br></p><h3 id="블록체인의-역사"><a href="#블록체인의-역사" class="headerlink" title="블록체인의 역사"></a>블록체인의 역사</h3><hr><ul><li><strong>사이버펑크 운동</strong><ul><li>무정부주의로 온라인으로만 가보자!</li></ul></li></ul><br><ul><li>데이터 위조 방지 기술</li></ul><br><ul><li><p><code>스마트 컨트랙트</code> - 이미 이전에 제안된 기술이지만 이더리움에 의해 잘 알려지게 되었다.</p></li><li><p><code>근황</code>: 다양한 분야(교통, 이력, 헬스케어, 유통, 보험, 은행 등)에서 쓰일 수 있음에도 암호화폐로 인해 투기 목적이 대부분일 것이라는 의견이 강해지면서 기대치가 바닥까지 내려온 상태</p></li></ul><p><br><br></p><h3 id="블록체인의-기술적-요소"><a href="#블록체인의-기술적-요소" class="headerlink" title="블록체인의 기술적 요소"></a>블록체인의 기술적 요소</h3><hr><ul><li><code>P2P Network</code><ul><li>일반적인 P2P 다운로드 서비스</li><li>점점 더 큰 파일을 어떻게 빠르게 전송할까 고민하다가 발전됨</li></ul></li></ul><br><ul><li><p><code>Hash Algorithm</code></p></li><li><p><code>Consensus Algorithm</code></p></li><li><p><code>Key</code></p></li><li><p><code>Smart Contract</code></p></li></ul><p><br><br></p><h3 id="클라이언트-amp-서버-vs-P2P"><a href="#클라이언트-amp-서버-vs-P2P" class="headerlink" title="클라이언트 &amp; 서버 vs P2P"></a>클라이언트 &amp; 서버 vs P2P</h3><hr><p><strong>[클라이언트 &amp; 서버]</strong>  </p><ul><li><p>서버를 통해 모든 통신이 이루어진다.</p></li><li><p>유지보수가 쉽다.</p></li><li><p>보안 유지가 쉽다.</p></li></ul><br><p><strong>[P2P]</strong>  </p><ul><li><p>트래픽이 분산된다.</p></li><li><p>업데이트가 어렵다.</p></li></ul><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103252058-922d7a80-49be-11eb-87da-7afc405d4c4d.jpg" width="70%"></p>  <p><br><br></p><h3 id="P2P의-종류"><a href="#P2P의-종류" class="headerlink" title="P2P의 종류"></a>P2P의 종류</h3><hr><p><strong>[Pure P2P]</strong>  </p><ul><li><p>실질적으로는 이론상으로만 존재</p></li><li><p><code>모든 노드가 동등</code>한 입장</p></li><li><p>새로운 노드의 추가가 쉬움</p></li><li><p>근처에 있는 노드의 아이디를 모르면 쓰기 어렵다.  </p><ul><li>전 세계를 대상으로 할 때는 어려움이 더 크다.</li></ul></li></ul><p><br><br></p><p><strong>[Hybrid P2P]</strong>  </p><ul><li>시드 노드가 모든 노드들의 IP를 가지고, 새로운 접근이 생길 때마다 IP를 제공받아야 한다. 하지만 서버와 같은 느낌이기 때문에 어떻게 신뢰하고 보안을 유지할 것인가가 관건이다.</li></ul><br><ul><li><p><code>각 노드들의 정보가 인덱스 서버에 기록</code>된다.</p></li><li><p>노드 간의 데이터는 P2P 통신으로 이루어지나 탐색 및 발견은 인덱스 서버를 통해 이루어진다.</p></li></ul><p><br><br></p><h3 id="해시-알고리즘"><a href="#해시-알고리즘" class="headerlink" title="해시 알고리즘"></a>해시 알고리즘</h3><hr><ul><li><p>데이터를 지키기 위한 중요 알고리즘</p></li><li><p>최근 양자 컴퓨터가 이를 위협하고 있다.</p></li><li><p>하나의 데이터를 해시 함수를 통해 변환하여 결과적으로 작은 크기의 파일과 유니크한 아이디를 갖는다.</p></li><li><p><code>임의의 길이를 갖는 데이터를 고정된 길이를 가진 해시 값으로 바꿔주는 함수</code>이다.</p></li></ul><br><ul><li><p><code>Collision-free</code>: 해시 값이 서로 충돌할 일이 무시 가능할 정도로 낮다.</p></li><li><p><code>Hiding</code>: 해시 값으로 기존 데이터 유추가 사실상 불가능하다.</p></li><li><p><code>Puzzle-friendly</code>: 데이터의 일부를 찾기가 어렵다.</p></li></ul><br><ul><li>데이터의 무결성을 검증하는 데 사용하며, Proof of Work에 사용한다.</li></ul><p><br><br></p><h3 id="합의-알고리즘"><a href="#합의-알고리즘" class="headerlink" title="합의 알고리즘"></a>합의 알고리즘</h3><hr><ul><li><p><code>블록체인의 꽃</code></p></li><li><p>클라이언트 &amp; 서버 구조는 서버에 의해 결정이 되지만, P2P Network에서는 반대하는 의견이 있을 수 있다.</p></li><li><p>모든 노드가 참여하여 리더를 투표를 통해 선출한다. 대표자는 블록을 생성한다.</p></li></ul><p><br><br></p><p><strong>[PoW - Proof of Work, 작업 증명]</strong>  </p><ul><li>특정 Hash 함수를 주고 Input 값을 맞추는 과정</li></ul><p><br><br></p><p><strong>[PoS - Proof of Stake, 지분 증명]</strong>  </p><ul><li><p>작업 증명의 한계를 해결하기 위해 만들어졌다.</p></li><li><p><code>지분이 많은 사람에게 쉬운 난이도를 제공</code>한다.</p></li><li><p>대부분이 Coinage 방식을 사용하며, 다른 것(Casper, Klaytn)과 융합하여 사용한다.</p></li><li><p><code>블록 생성의 중앙화 문제</code>가 있다.</p></li><li><p>지분이 많은 사람이 네트워크에 참여하지 않으면 처리 방식에 문제가 생기기도 한다.</p></li></ul><p><br><br></p><p><strong>[BFT - Byzantine Fault Tolerance, 비잔틴 장애 허용]</strong>  </p><ul><li><p>전체 인원의 2/3가 배신자가 아니라면 목적을 이룰 수 있다.</p></li><li><p>분산된 환경에서 누가 배신자인가? 어떻게 찾아낼 수 있는가?</p></li><li><p><code>모든 인원이 다 투표를 해야 한다는 단점</code>이 있다.</p></li></ul><p><br><br></p><p><strong>[PBFT - Practical BFT, 실용적 비잔틴 장애 허용]</strong>  </p><ul><li><p><code>동기식</code>: 줄을 쭉 서있는 형태 (순번표 X)</p></li><li><p><code>비동기식</code>: 순번표가 있는 형태</p></li></ul><br><ul><li><p>클라이언트가 블록을 제시하고 해당 블록에 대해 매번 투표를 진행한다.</p></li><li><p>데이터의 안정성을 보장한다.</p></li><li><p>노드 수가 많을수록 합의 도달 시간이 오래 걸린다.</p></li></ul><p><br><br></p><p><strong>[DPoS - Delegated PoS]</strong>  </p><ul><li>모든 노드가 <code>믿을만한 대표인단을 뽑는다.</code> (미국 선거인단 제도와 유사)</li></ul><p><br><br></p><p><strong>[Tendermint]</strong>  </p><ul><li><p>코스모스에서 이용되고 있는 블록체인 엔진</p></li><li><p><code>DPoS와 PBFT 개념을 섞어 만든 합의 알고리즘</code></p></li><li><p>DPoS 방식과 유사하게 검증인 집단을 투표로 뽑는다.</p></li><li><p>검증인 집단에서 리더를 선출하고 리더가 블록 생성을 Propose 한다.</p></li></ul><p><br><br></p><p><strong>[Libra Blockchain]</strong>  </p><ul><li><p>Multi-Thread 방식의 합의 진행</p></li><li><p><code>Hot stuff</code></p></li><li><p>한 번에 블록 5개의 합의가 가능하다고 주장</p></li><li><p>Finalizing 과정을 한 번 더 거친다.</p></li></ul><p><br><br></p><h3 id="Key-사용의-필요성"><a href="#Key-사용의-필요성" class="headerlink" title="Key 사용의 필요성"></a>Key 사용의 필요성</h3><hr><ul><li><p>데이터를 전달하는 과정에서 공격받아 위·변조될 가능성이 있다.</p></li><li><p><code>데이터의 출처를 밝히기 위해 사용</code>한다.</p></li></ul><br><ul><li><p><code>대칭키</code>: 하나의 키로 암호화, 복호화 진행/속도가 빠르다.</p></li><li><p><code>비대칭키</code>: Public Key와 Private Key가 존재한다.</p></li></ul><p><br><br></p><h3 id="스마트-컨트랙트"><a href="#스마트-컨트랙트" class="headerlink" title="스마트 컨트랙트"></a>스마트 컨트랙트</h3><hr><ul><li><p>1994년 Nick Szabo가 제시</p></li><li><p>코드의 조각, 블록체인과 상호작용하는 인터페이스</p></li><li><p>디지털화된 계약서가 해킹된 경우 문제가 발생할 수 있다.</p></li><li><p><code>이더리움</code>을 통해 스마트 컨트랙트가 제대로 사용되었다.</p></li></ul><p><br><br></p><h3 id="스마트-컨트랙트-생성-과정"><a href="#스마트-컨트랙트-생성-과정" class="headerlink" title="스마트 컨트랙트 생성 과정"></a>스마트 컨트랙트 생성 과정</h3><hr><ul><li><p><code>스마트 컨트랙트 생성</code> - (컴파일) - 바이트코드 변환 - (트랜잭션) - 블록에 저장 - (배포) - 블록체인에 저장</p></li><li><p><code>사용자 주소 + 스마트 컨트랙트 주소 + 매개변수</code> - (트랜잭션) - 블록에 저장 - (실행) - 블록체인에 실행결과 저장</p></li></ul><p><br><br></p><h3 id="퍼블릭-블록체인-vs-프라이빗-블록체인"><a href="#퍼블릭-블록체인-vs-프라이빗-블록체인" class="headerlink" title="퍼블릭 블록체인 vs 프라이빗 블록체인"></a>퍼블릭 블록체인 vs 프라이빗 블록체인</h3><hr><p><strong>[퍼블릭 블록체인]</strong>  </p><ul><li><p>네트워크 상에서 누구나 참여 가능</p></li><li><p><code>리더 선출 합의 알고리즘</code> 선호</p></li><li><p>실질적으로 사용하기 위해 불편한 요소들이 많음</p></li></ul><p><br><br></p><p><strong>[프라이빗 블록체인]</strong>  </p><ul><li><p>허가받은 사용자만 참여 가능</p></li><li><p><code>투표 방식의 합의 알고리즘</code> 선호</p></li><li><p>점점 대세가 기울어 가는 중</p></li></ul><p><br><br></p><h3 id="하이퍼레저-패브릭"><a href="#하이퍼레저-패브릭" class="headerlink" title="하이퍼레저 패브릭"></a>하이퍼레저 패브릭</h3><hr><ul><li><p>IBM이 주도하는 프로젝트</p></li><li><p><code>프라이빗 블록체인에서 가장 유명</code>하고 허가된 사람만 참여하는 구조</p></li><li><p>처음 구성 시 IP 주소를 제공해야 하며, 전 데이터 모두 저장 후 네트워크를 새로 구축</p></li><li><p>완전한 P2P Network 구조는 아니며, 접근 통제 기능을 제공</p></li></ul><p><br><br></p><p><strong>[처리과정]</strong>  </p><ol><li><p>트랜잭션 실행(Execute) 후 결과 값 검증</p></li><li><p>검증이 끝난 트랜잭션 취합 후 순서에 맞게 정렬(Order) 후 블록 생성</p></li><li><p>블록에 포함된 모든 트랜잭션에 대한 검증(Validation) 수행 후 최신 블록 업데이트</p></li></ol><p><br><br></p><h3 id="하이퍼레저-패브릭-구성요소"><a href="#하이퍼레저-패브릭-구성요소" class="headerlink" title="하이퍼레저 패브릭 구성요소"></a>하이퍼레저 패브릭 구성요소</h3><hr><p><strong>[채널]</strong>  </p><ul><li><p>Peer들은 조직으로 묶어 채널로 분류 (ex. 부서)</p></li><li><p>다른 부서에서 보기 어렵게도 할 수 있음</p></li></ul><p><br><br></p><p><strong>[체인코드]</strong>  </p><ul><li><p><strong>스마트 컨트랙트</strong>와 유사</p></li><li><p>사용자가 데이터를 보내면 체인코드를 통해 데이터를 읽고 쓴다.</p></li><li><p>원장과 1:1로 연결되어 있다.</p></li><li><p><code>시스템 체인코드</code>: 패브릭의 시스템 설정이 필요할 때 사용되며, 전반적인 관리를 담당한다.</p></li></ul><p><br><br></p><p><strong>[피어]</strong>  </p><ul><li><p>모든 노드는 General peer이면서 다른 peer의 역할은 일부가 한다.</p></li><li><p>오더러와 CA는 분산원장을 가지지 않는다.</p></li><li><p>DB를 peer라고 생각할 수 있다.</p></li><li><p>Endorse 피어가 유저가 진행한 트랜잭션에 가중치로 점수를 매겨 검증한다.</p></li></ul><p><br><br></p><p><strong>[원장 - Ledger]</strong>  </p><ul><li><p><code>World State</code>: 패브릭 데이터의 현재 상태</p></li><li><p><code>블록체인</code>: 합의 이후에 기록된 히스토리</p></li></ul><p><br><br></p><p><strong>[CA 노드]</strong>  </p><ul><li><p>무조건 존재해야 한다.</p></li><li><p><code>인증서 (MSP) 발급</code></p></li><li><p>모든 노드의 인증서와 네트워크 접속 관리를 맡고 있다.</p></li><li><p>노드가 등록을 하고자 하는 경우 CA를 거쳐야 한다.</p></li><li><p>외부에서 들어오는 노드의 접근을 차단한다.</p></li></ul><p><br><br></p><p><strong>[MSP - Membership Service Provider]</strong>  <br></p><ul><li><p>패브릭의 멤버십 관리 기술</p></li><li><p>Local MSP와 Channel MSP</p></li></ul><br><ul><li>패브릭은 <code>MSP</code>, <code>채널링</code> 그리고 <code>오더링</code>이 주를 이룬다.</li></ul><p><br><br></p><p><strong>[오더러]</strong>  <br></p><ul><li>패브릭에서 <code>합의를 진행하는 역할</code></li></ul><br><ul><li><p>없으면 네트워크가 구동이 되지 않을 정도로 중요하다.</p></li><li><p>트랜잭션을 쌓아두다가 리더 피어에게 전달하거나 대부분의 동작들을 담당한다.</p></li><li><p>전체 패브릭 네트워크에서 최소 하나 이상만 있으면 되며, 속도를 높이려면 여러 개가 필요하다.</p></li></ul><br><ul><li>오더링을 위해 LinkedIn에서 개발한 <code>Kafka 시스템</code>을 사용한다.</li></ul><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103252056-90fc4d80-49be-11eb-946c-d434ab1ab92b.jpg" width="60%"></p>  <p><br><br></p><h3 id="하이퍼레저-패브릭-구축-과정"><a href="#하이퍼레저-패브릭-구축-과정" class="headerlink" title="하이퍼레저 패브릭 구축 과정"></a>하이퍼레저 패브릭 구축 과정</h3><hr><ul><li>CA - 오더러에 의해 채널 생성 - 제네시스 블록 생성 - 리더 피어에 의해 체인 코드 배포 - SDK 설정 - 사용자 연결</li></ul><p><br><br></p><h3 id="관련-기술-및-용어-정리"><a href="#관련-기술-및-용어-정리" class="headerlink" title="관련 기술 및 용어 정리"></a>관련 기술 및 용어 정리</h3><hr><ul><li><p><code>비트코인</code>: 순수한 P2P 기반의 전자화폐는 금융기관 없이 인터넷으로 결제 및 거래를 할 수 있다.</p></li><li><p>현재는 중앙 서버를 통해 운영하는 회사와 P2P 네트워크 또는 DLT를 사용하는 회사가 대립하는 경쟁시대이다.</p></li></ul><br><ul><li><p><code>Sawtooth</code>: 인텔(Intel)이 주도하는 프로젝트이며, IoT 환경에서의 블록체인이다.</p></li><li><p><code>메타데이터</code>: 트랜잭션 리스트를 나열한 것</p></li><li><p><code>가십 프로토콜</code>: 뒷담화하듯 가장 가까운 원하는 사람에게 데이터 전달</p></li><li><p><code>SDK</code>: 사용자와 패브릭 네트워크를 연결시켜 주기 위한 요소</p></li></ul><br><ul><li>우분투 터미널에서 <code>sudo -i (root 확인) - (Go 언어 설치)</code><ul><li><code>wget https://dl.google.com/go/go1.12.1.linux-amd64.tar.gz</code></li><li><code>tar -xvf go1.12.1</code></li></ul></li></ul><br><ul><li>First-network 종료 부분에서 <code>./byfn.sh down</code>으로 종료하지 않으면 백그라운드에서 계속 돌아간다.</li></ul><p><br><br></p><h3 id="기타-전문가-의견"><a href="#기타-전문가-의견" class="headerlink" title="기타 전문가 의견"></a>기타 전문가 의견</h3><hr><ul><li><strong>블록체인 추천 공부 순서</strong><ul><li><code>비트코인</code> (바이블) - <code>이더리움</code> (활용) - <code>하이퍼레저 패브릭</code> +a (클레이튼, 리브라)</li></ul></li></ul><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103251136-c43cdd80-49ba-11eb-8423-52f461c05447.jpg" width="60%"></p>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/%EA%B5%90%EC%9C%A1-Education/">교육 (Education)</category>
-      
-      <category domain="https://y8ncastle.me/categories/%EA%B5%90%EC%9C%A1-Education/Hyperledger-Fabric/">Hyperledger Fabric</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
-      
-      <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저 패브릭</category>
-      
-      <category domain="https://y8ncastle.me/tags/Hyperledger-Fabric/">Hyperledger Fabric</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
-      
-      <category domain="https://y8ncastle.me/tags/Seoul-Blockchain-Center/">Seoul Blockchain Center</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80/">하이퍼레저</category>
-      
-      <category domain="https://y8ncastle.me/tags/Hyperledger/">Hyperledger</category>
-      
-      
-      <comments>https://y8ncastle.me/2020/01/12/sogang-hyperledger/#disqus_thread</comments>
       
     </item>
     

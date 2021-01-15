@@ -11650,6 +11650,8 @@ figure.highlight .section {
     padding: 1.5rem 1rem;
   }
 }
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css");
+@import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
 body {
   counter-reset: card;
 }
