@@ -3,1933 +3,2717 @@
 
 
     <url>
-        <loc>https://y8ncastle.me/tags/Plan/</loc>
-        <lastmod>2021-01-17T02:02:58.504Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/</loc>
-        <lastmod>2021-01-17T02:02:58.504Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ICT-%EB%A9%98%ED%86%A0%EB%A7%81/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Recommender-System/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Matrix-Factorization/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Netflix/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%96%89%EB%A0%AC-%EB%B6%84%ED%95%B4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Privacy-Enhancement/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Sidechain/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EA%B0%95%ED%99%94/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Privacy-Security/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BigChainDB/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%85%EC%B2%B4%EC%9D%B8DB/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Random-Election-Algorithm/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Off-Chain/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EC%84%A0%EC%B6%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%98%A4%ED%94%84%EC%B2%B4%EC%9D%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Youtube-Seminar/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/RaspberryPi-3B/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/RaspberryPi/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-3B/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Arduino-UNO/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Arduino/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/X-Corps/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8-UNO/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Travel-Budget-Management-Service/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%97%AC%ED%96%89-%EC%98%88%EC%82%B0-%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B9%84%EC%8A%A4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/TOEIC-383/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ETS-TOEIC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/TOEIC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%86%A0%EC%9D%B5/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Oracle-Problem/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Oracle/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%85%BC%EB%AC%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Personal-Server/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Synology-DS218/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/NAS/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Synology/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%82%98%EC%8A%A4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%8B%9C%EB%86%80%EB%A1%9C%EC%A7%80/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Sogang-Computer-Engineering/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Sogang-University-Graduate-School/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/University-Interview/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Graduate-School/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EC%9B%90-%EB%A9%B4%EC%A0%91/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Masters-Degree/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Computer-Engineering/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Sogang/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Sogang-University/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EB%8C%80%ED%95%99%EC%9B%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Hyperledger/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%8B%A4%EC%8A%B5/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Seokbin-Yoon/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Blockchain-Introduction/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9C%A4%EC%84%9D%EB%B9%88-%EA%B5%90%EC%88%98%EB%8B%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9E%85%EB%AC%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Seoul-Blockchain-Center/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Sooyong-Park/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Blockchain-and-Industrial-Revolution/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B0%95%EC%88%98%EC%9A%A9-%EA%B5%90%EC%88%98%EB%8B%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EA%B3%BC-%EC%82%B0%EC%97%85%ED%98%81%EC%8B%A0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Smart-Tech-Korea/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%85%8C%ED%81%AC-%EC%BD%94%EB%A6%AC%EC%95%84/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Personal-Development/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9E%90%EA%B8%B0%EA%B0%9C%EB%B0%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/On-Books/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%98%A8%EB%B6%81%EC%8A%A4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/IoT/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%82%AC%EB%AC%BC%EC%9D%B8%ED%84%B0%EB%84%B7/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Application/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Security/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%B3%B4%EC%95%88/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Mining/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%A9%EC%9D%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%B1%84%EA%B5%B4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Network/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Trade/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Wallet/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B1%B0%EB%9E%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%A7%80%EA%B0%91/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Key-and-Address/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%82%A4%EC%99%80-%EC%A3%BC%EC%86%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Cli/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Core/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%B0%B8%EC%A1%B0%EA%B5%AC%ED%98%84/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%BD%94%EC%96%B4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin-Theory/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BTC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bitcoin/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Mastering-Bitcoin/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B0%9C%EC%9A%94/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Blockchain-Forum/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Kor-Ger-Fintech/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Fintech/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Germany/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%8F%AC%EB%9F%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C-%EB%8F%85-%ED%95%80%ED%85%8C%ED%81%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%80%ED%85%8C%ED%81%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%8F%85%EC%9D%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/KCSE-2020/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/KCSE/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Software-Engineering-Society/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Thesis/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Academy/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/KS-Blockchain/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%85%BC%EB%AC%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/TTA-Academy/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ICT-Standard/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Telecommunications-Technology-Association/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-%ED%91%9C%EC%A4%80%ED%99%94%EA%B8%B0%EA%B5%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ICT-%ED%91%9C%EC%A4%80-%EC%A0%84%EB%AC%B8%EC%9D%B8%EB%A0%A5-%EC%96%91%EC%84%B1%EA%B5%90%EC%9C%A1/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B8%B0%EC%88%A0%ED%98%91%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99-%EA%B5%90%EA%B3%BC%EB%AA%A9/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Computing-Python/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Python/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ICDL-Professional-Computing-Python/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ICDL/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-IT%EC%9E%90%EA%B2%A9/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B3%84%EC%95%BD/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Job-Concert/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ICT-Mentoring/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Hanium-ICT-Mentoring/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%B7%A8%EC%97%85%EC%BD%98%EC%84%9C%ED%8A%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ICT-%EB%A9%98%ED%86%A0%EB%A7%81/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B0%95%EB%9E%8C%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/HLF/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Hyperledger-Fabric/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Hanium-Report/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-%EB%B3%B4%EA%B3%A0%EC%84%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Git/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Elice/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/IT-Education/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/IT-%EA%B5%90%EC%9C%A1/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Blockchain-Structure/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Blockchain-Theory/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/IBM/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B5%AC%EC%A1%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%85%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Consensus-Algorithm/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Consensus/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Hanium/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%A9%EC%9D%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Graduation-Exhibition/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Exhibition/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ICE/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/GPA/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Graduation/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%A0%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%A0%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%EC%A1%B8%EC%97%85/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%99%EC%82%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A1%B8%EC%97%85/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Bachelors-Degree/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Information-and-Communication-Engineering/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Hanbat-National-University/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/HBNU/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Hanbat/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%9C%84/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EB%A6%BD-%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Genesis-Block-Error/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Genesis-Block/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D-%EC%98%A4%EB%A5%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Blockchain-Distribution-System/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Distribution-System/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Software-Engineering/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Linear-Regression/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Machine-Learning/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Deep-Learning/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Event-Planner/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%94%8C%EB%9E%98%EB%84%88/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Smart-Contract/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Ethereum-Private-Network/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Ethereum/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/ethereum/</loc>
+        <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/JavaScript/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/cryptocurrency/</loc>
+        <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/blockchain/</loc>
+        <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/HTML/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</loc>
+        <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/CSS/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</loc>
+        <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Open-Tutorials/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/arduino-uno/</loc>
+        <lastmod>2021-01-17T05:09:36.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/arduino/</loc>
+        <lastmod>2021-01-17T05:09:36.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%EC%8B%A4%EA%B8%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8-uno/</loc>
+        <lastmod>2021-01-17T05:09:36.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EC%B2%98%EA%B8%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8/</loc>
+        <lastmod>2021-01-17T05:09:36.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/x-corps/</loc>
+        <lastmod>2021-01-17T05:09:36.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/BaSE-Lab/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8/</loc>
+        <lastmod>2021-01-17T05:09:36.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Seminar/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T05:09:05.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Data-Sharing/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/exhibition/</loc>
+        <lastmod>2021-01-17T05:09:05.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Identity-Management/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T05:09:05.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/hbnu/</loc>
+        <lastmod>2021-01-17T05:09:05.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%8B%A0%EC%9B%90%EA%B4%80%EB%A6%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/hanbat/</loc>
+        <lastmod>2021-01-17T05:09:05.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Engineer-Information-Processing/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/</loc>
+        <lastmod>2021-01-17T05:09:05.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Data-Processing-Engineer/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/team-project/</loc>
+        <lastmod>2021-01-17T05:08:23.951Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/National-Technical-Qualification/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</loc>
+        <lastmod>2021-01-17T05:08:23.951Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Plan-2020/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/project/</loc>
+        <lastmod>2021-01-17T05:08:23.951Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</loc>
+        <lastmod>2021-01-17T05:08:23.951Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EA%B0%80%EA%B8%B0%EC%88%A0%EC%9E%90%EA%B2%A9/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/raspberrypi-3b/</loc>
+        <lastmod>2021-01-17T05:07:17.026Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/raspberrypi/</loc>
+        <lastmod>2021-01-17T05:07:17.026Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-3b/</loc>
+        <lastmod>2021-01-17T05:07:17.026Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4/</loc>
+        <lastmod>2021-01-17T05:07:17.026Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/travel-budget-management-service/</loc>
+        <lastmod>2021-01-17T05:05:46.590Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%97%AC%ED%96%89-%EC%98%88%EC%82%B0-%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B9%84%EC%8A%A4/</loc>
+        <lastmod>2021-01-17T05:05:46.590Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/android/</loc>
+        <lastmod>2021-01-17T05:05:46.590Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/</loc>
+        <lastmod>2021-01-17T05:05:46.590Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/tta-academy/</loc>
+        <lastmod>2021-01-17T05:02:15.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ict-standard/</loc>
+        <lastmod>2021-01-17T05:02:15.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/telecommunications-technology-association/</loc>
+        <lastmod>2021-01-17T05:02:15.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-%ED%91%9C%EC%A4%80%ED%99%94%EA%B8%B0%EA%B5%AC/</loc>
+        <lastmod>2021-01-17T05:02:15.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ict-%ED%91%9C%EC%A4%80-%EC%A0%84%EB%AC%B8%EC%9D%B8%EB%A0%A5-%EC%96%91%EC%84%B1%EA%B5%90%EC%9C%A1/</loc>
+        <lastmod>2021-01-17T05:02:15.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B8%B0%EC%88%A0%ED%98%91%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T05:02:15.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ice/</loc>
+        <lastmod>2021-01-17T05:01:33.345Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/information-and-communication-engineering/</loc>
+        <lastmod>2021-01-17T05:01:33.345Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99-%EA%B5%90%EA%B3%BC%EB%AA%A9/</loc>
+        <lastmod>2021-01-17T05:01:33.345Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99/</loc>
+        <lastmod>2021-01-17T05:01:33.345Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/computing-python/</loc>
+        <lastmod>2021-01-17T05:00:56.564Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/python/</loc>
+        <lastmod>2021-01-17T05:00:56.564Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/icdl-professional-computing-python/</loc>
+        <lastmod>2021-01-17T05:00:56.564Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/icdl/</loc>
+        <lastmod>2021-01-17T05:00:56.564Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</loc>
+        <lastmod>2021-01-17T05:00:56.564Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-it%EC%9E%90%EA%B2%A9/</loc>
+        <lastmod>2021-01-17T05:00:56.564Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B3%84%EC%95%BD/</loc>
+        <lastmod>2021-01-17T05:00:05.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/smart-contract/</loc>
+        <lastmod>2021-01-17T05:00:05.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/</loc>
+        <lastmod>2021-01-17T05:00:05.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/hanium/</loc>
+        <lastmod>2021-01-17T05:00:05.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C/</loc>
+        <lastmod>2021-01-17T05:00:05.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/hanium-report/</loc>
+        <lastmod>2021-01-17T04:59:23.699Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-%EB%B3%B4%EA%B3%A0%EC%84%9C/</loc>
+        <lastmod>2021-01-17T04:59:23.699Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ibm/</loc>
+        <lastmod>2021-01-17T04:58:35.420Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/hlf/</loc>
+        <lastmod>2021-01-17T04:58:35.420Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/hyperledger-fabric/</loc>
+        <lastmod>2021-01-17T04:58:35.420Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/</loc>
+        <lastmod>2021-01-17T04:58:35.420Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/git/</loc>
+        <lastmod>2021-01-17T04:54:33.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/elice/</loc>
+        <lastmod>2021-01-17T04:54:33.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/it-education/</loc>
+        <lastmod>2021-01-17T04:54:33.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/it-%EA%B5%90%EC%9C%A1/</loc>
+        <lastmod>2021-01-17T04:54:33.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/blockchain-structure/</loc>
+        <lastmod>2021-01-17T04:53:42.966Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/blockchain-theory/</loc>
+        <lastmod>2021-01-17T04:53:42.966Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B5%AC%EC%A1%B0/</loc>
+        <lastmod>2021-01-17T04:53:42.966Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%85%90/</loc>
+        <lastmod>2021-01-17T04:53:42.966Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/consensus-algorithm/</loc>
+        <lastmod>2021-01-17T04:52:57.332Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/consensus/</loc>
+        <lastmod>2021-01-17T04:52:57.332Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%A9%EC%9D%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
+        <lastmod>2021-01-17T04:52:57.332Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ethereum-private-network/</loc>
+        <lastmod>2021-01-17T04:52:36.627Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95/</loc>
+        <lastmod>2021-01-17T04:52:36.627Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/</loc>
+        <lastmod>2021-01-17T04:52:36.627Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/toeic-383/</loc>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ets-toeid/</loc>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/toeic/</loc>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%86%A0%EC%9D%B5/</loc>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/plan/</loc>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/plan-2020/</loc>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/</loc>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <lastmod>2021-01-17T04:51:27.206Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/DailyCoinNews/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/on-books/</loc>
+        <lastmod>2021-01-17T04:50:46.957Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Daily-Coin-News/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%98%A8%EB%B6%81%EC%8A%A4/</loc>
+        <lastmod>2021-01-17T04:50:46.957Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%BD%94%EC%9D%B8%EB%89%B4%EC%8A%A4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/engineer-information-processing/</loc>
+        <lastmod>2021-01-17T04:50:04.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Home-School-Platform/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/data-processing-engineer/</loc>
+        <lastmod>2021-01-17T04:50:04.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Online-Education-Platform/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EC%B2%98%EA%B8%B0/</loc>
+        <lastmod>2021-01-17T04:50:04.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Elementary-Student/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/</loc>
+        <lastmod>2021-01-17T04:50:04.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Daily-GEG-Daegu/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/hanbat-national-university/</loc>
+        <lastmod>2021-01-17T04:48:56.577Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Go-to-School-Dot-Com/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%9C%84/</loc>
+        <lastmod>2021-01-17T04:48:56.577Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EA%B0%80%EC%A0%95%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
+        <lastmod>2021-01-17T04:48:56.577Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%98%A8%EB%9D%BC%EC%9D%B8-%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EB%A6%BD-%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/</loc>
+        <lastmod>2021-01-17T04:48:56.577Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/bachelors-degree/</loc>
+        <lastmod>2021-01-17T04:48:56.577Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%99%EA%B5%90%EA%B0%80%EC%9E%90-%EB%8B%B7%EC%BB%B4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/gpa/</loc>
+        <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/AI/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/graduation/</loc>
+        <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Artificial-Intelligence/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%A0%90/</loc>
+        <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Bellman-Equation/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%A0%90/</loc>
+        <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/MDP/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%EC%A1%B8%EC%97%85/</loc>
+        <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Markov-Decision-Process/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%99%EC%82%AC/</loc>
+        <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Reinforcement-Learning/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A1%B8%EC%97%85/</loc>
+        <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/graduation-exhibition/</loc>
+        <lastmod>2021-01-17T04:48:05.991Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EB%B2%A8%EB%A7%8C-%EA%B8%B0%EB%8C%80-%EB%B0%A9%EC%A0%95%EC%8B%9D/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T04:48:05.991Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/</loc>
+        <lastmod>2021-01-17T04:48:05.991Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0/</loc>
+        <lastmod>2021-01-17T04:47:11.757Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/BigData/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%EC%8B%A4%EA%B8%B0/</loc>
+        <lastmod>2021-01-17T04:46:45.124Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Key-Value-DB/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/national-technical-qualification/</loc>
+        <lastmod>2021-01-17T04:45:55.981Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B5%AD%EA%B0%80%EA%B8%B0%EC%88%A0%EC%9E%90%EA%B2%A9/</loc>
+        <lastmod>2021-01-17T04:45:55.981Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/certificate/</loc>
+        <lastmod>2021-01-17T04:45:55.981Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/personal-server/</loc>
+        <lastmod>2021-01-17T04:45:10.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/synology-ds218/</loc>
+        <lastmod>2021-01-17T04:45:10.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/nas/</loc>
+        <lastmod>2021-01-17T04:45:10.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/synology/</loc>
+        <lastmod>2021-01-17T04:45:10.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%82%98%EC%8A%A4/</loc>
+        <lastmod>2021-01-17T04:45:10.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%8B%9C%EB%86%80%EB%A1%9C%EC%A7%80/</loc>
+        <lastmod>2021-01-17T04:45:10.593Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/qualification/</loc>
+        <lastmod>2021-01-17T04:44:27.706Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/accomplishment/</loc>
+        <lastmod>2021-01-17T04:44:27.706Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/achievement/</loc>
+        <lastmod>2021-01-17T04:44:27.706Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9E%90%EA%B2%A9%EC%82%AC%ED%95%AD/</loc>
+        <lastmod>2021-01-17T04:44:27.706Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9E%90%EA%B2%A9%EC%A6%9D/</loc>
+        <lastmod>2021-01-17T04:44:27.706Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/base-lab/</loc>
+        <lastmod>2021-01-17T04:43:34.667Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/seminar/</loc>
+        <lastmod>2021-01-17T04:43:34.667Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/data-sharing/</loc>
+        <lastmod>2021-01-17T04:43:34.667Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/identity-management/</loc>
+        <lastmod>2021-01-17T04:43:34.667Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/</loc>
+        <lastmod>2021-01-17T04:43:34.667Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%8B%A0%EC%9B%90%EA%B4%80%EB%A6%AC/</loc>
+        <lastmod>2021-01-17T04:43:34.667Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/privacy-security/</loc>
+        <lastmod>2021-01-17T04:43:13.755Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/</loc>
+        <lastmod>2021-01-17T04:43:13.755Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/youtube-seminar/</loc>
+        <lastmod>2021-01-17T04:43:13.755Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/</loc>
+        <lastmod>2021-01-17T04:43:13.755Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/</loc>
+        <lastmod>2021-01-17T04:43:13.755Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/sogang-university/</loc>
+        <lastmod>2021-01-17T04:43:13.755Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/</loc>
+        <lastmod>2021-01-17T04:43:13.755Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/privacy-enhancement/</loc>
+        <lastmod>2021-01-17T04:42:47.761Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/sidechain/</loc>
+        <lastmod>2021-01-17T04:42:47.761Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EA%B0%95%ED%99%94/</loc>
+        <lastmod>2021-01-17T04:42:47.761Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8/</loc>
+        <lastmod>2021-01-17T04:42:47.761Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ipfs/</loc>
+        <lastmod>2021-01-17T04:42:10.385Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/random-election-algorithm/</loc>
+        <lastmod>2021-01-17T04:41:41.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/off-chain/</loc>
+        <lastmod>2021-01-17T04:41:41.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EC%84%A0%EC%B6%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
+        <lastmod>2021-01-17T04:41:41.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%98%A4%ED%94%84%EC%B2%B4%EC%9D%B8/</loc>
+        <lastmod>2021-01-17T04:41:41.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/oracle-problem/</loc>
+        <lastmod>2021-01-17T04:41:41.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/</loc>
+        <lastmod>2021-01-17T04:41:41.606Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bigdata/</loc>
+        <lastmod>2021-01-17T04:41:16.236Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bigchaindb/</loc>
+        <lastmod>2021-01-17T04:41:16.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <lastmod>2021-01-17T04:41:16.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%ED%82%A4-%EB%B0%B8%EB%A5%98-DB/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EB%B9%85%EC%B2%B4%EC%9D%B8db/</loc>
+        <lastmod>2021-01-17T04:41:16.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/CURG/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/oracle/</loc>
+        <lastmod>2021-01-17T04:39:35.916Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Review-System/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/iot/</loc>
+        <lastmod>2021-01-17T04:39:35.916Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/Data-Sharing-Platform/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/thesis/</loc>
+        <lastmod>2021-01-17T04:39:35.916Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/IPFS/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <loc>https://y8ncastle.me/tags/%EC%82%AC%EB%AC%BC%EC%9D%B8%ED%84%B0%EB%84%B7/</loc>
+        <lastmod>2021-01-17T04:39:35.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%85%BC%EB%AC%B8/</loc>
+        <lastmod>2021-01-17T04:39:35.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/home-school-platform/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/online-education-platform/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/elementary-school-student/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/daily-geg-daegu/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B0%80%EC%A0%95%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%98%A8%EB%9D%BC%EC%9D%B8-%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%EA%B5%90%EA%B0%80%EC%9E%90-%EB%8B%B7%EC%BB%B4/</loc>
+        <lastmod>2021-01-17T04:38:41.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/blockchain-forum/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/kor-ger-fintech/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/fintech/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/germany/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%8F%AC%EB%9F%BC/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C-%EB%8F%85-%ED%95%80%ED%85%8C%ED%81%AC/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%80%ED%85%8C%ED%81%AC/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%8F%85%EC%9D%BC/</loc>
+        <lastmod>2021-01-17T04:36:00.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/smart-tech-korea/</loc>
+        <lastmod>2021-01-17T04:35:34.886Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%85%8C%ED%81%AC-%EC%BD%94%EB%A6%AC%EC%95%84/</loc>
+        <lastmod>2021-01-17T04:35:34.886Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/academy/</loc>
+        <lastmod>2021-01-17T04:35:08.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ks-blockchain/</loc>
+        <lastmod>2021-01-17T04:35:08.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%85%BC%EB%AC%B8/</loc>
+        <lastmod>2021-01-17T04:35:08.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T04:35:08.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T04:35:08.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T04:35:08.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/kcse-2020/</loc>
+        <lastmod>2021-01-17T04:34:49.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/kcse/</loc>
+        <lastmod>2021-01-17T04:34:49.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/software-engineering-society/</loc>
+        <lastmod>2021-01-17T04:34:49.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T04:34:49.812Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ict-%EB%A9%98%ED%86%A0%EB%A7%81/</loc>
+        <lastmod>2021-01-17T04:34:06.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/job-concert/</loc>
+        <lastmod>2021-01-17T04:34:06.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ict-mentoring/</loc>
+        <lastmod>2021-01-17T04:34:06.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/hanium-ict-mentoring/</loc>
+        <lastmod>2021-01-17T04:34:06.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%B7%A8%EC%97%85%EC%BD%98%EC%84%9C%ED%8A%B8/</loc>
+        <lastmod>2021-01-17T04:34:06.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ict-%EB%A9%98%ED%86%A0%EB%A7%81/</loc>
+        <lastmod>2021-01-17T04:34:06.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B0%95%EB%9E%8C%ED%9A%8C/</loc>
+        <lastmod>2021-01-17T04:34:06.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/genesis-block-error/</loc>
+        <lastmod>2021-01-17T04:31:01.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/genesis-block/</loc>
+        <lastmod>2021-01-17T04:31:01.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D-%EC%98%A4%EB%A5%98/</loc>
+        <lastmod>2021-01-17T04:31:01.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D/</loc>
+        <lastmod>2021-01-17T04:31:01.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/personal-development/</loc>
+        <lastmod>2021-01-17T04:30:10.478Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9E%90%EA%B8%B0%EA%B0%9C%EB%B0%9C/</loc>
+        <lastmod>2021-01-17T04:30:10.478Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/software-engineering/</loc>
+        <lastmod>2021-01-17T04:28:43.016Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/</loc>
+        <lastmod>2021-01-17T04:28:43.016Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/blockchain-distribution-system/</loc>
+        <lastmod>2021-01-17T04:28:25.285Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/distribution-system/</loc>
+        <lastmod>2021-01-17T04:28:25.285Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/</loc>
+        <lastmod>2021-01-17T04:28:25.285Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/</loc>
+        <lastmod>2021-01-17T04:28:25.285Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/dailycoinnews/</loc>
+        <lastmod>2021-01-17T04:26:49.239Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/daily-coin-news/</loc>
+        <lastmod>2021-01-17T04:26:49.239Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%BD%94%EC%9D%B8%EB%89%B4%EC%8A%A4/</loc>
+        <lastmod>2021-01-17T04:26:49.239Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/linear-regression/</loc>
+        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/deep-learning/</loc>
+        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/</loc>
+        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/</loc>
+        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ai/</loc>
+        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/artificial-intelligence/</loc>
+        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
+        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/machine-learning/</loc>
+        <lastmod>2021-01-17T04:24:15.826Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</loc>
+        <lastmod>2021-01-17T04:24:15.826Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/sogang-computer-engineering/</loc>
+        <lastmod>2021-01-17T04:23:08.883Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/sogang-university-graduate-school/</loc>
+        <lastmod>2021-01-17T04:23:08.883Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
+        <lastmod>2021-01-17T04:23:08.883Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EB%8C%80%ED%95%99%EC%9B%90/</loc>
+        <lastmod>2021-01-17T04:23:08.883Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/sogang/</loc>
+        <lastmod>2021-01-17T04:23:08.883Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/masters-degree/</loc>
+        <lastmod>2021-01-17T04:22:19.913Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/</loc>
+        <lastmod>2021-01-17T04:22:19.913Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/</loc>
+        <lastmod>2021-01-17T04:22:19.913Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/computer-engineering/</loc>
+        <lastmod>2021-01-17T04:22:19.913Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
+        <lastmod>2021-01-17T04:22:19.913Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/university-interview/</loc>
+        <lastmod>2021-01-17T04:21:29.488Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/graduate-school/</loc>
+        <lastmod>2021-01-17T04:21:29.488Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EC%9B%90-%EB%A9%B4%EC%A0%91/</loc>
+        <lastmod>2021-01-17T04:21:29.488Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/</loc>
+        <lastmod>2021-01-17T04:21:29.488Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80/</loc>
+        <lastmod>2021-01-17T04:21:29.488Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/javascript/</loc>
+        <lastmod>2021-01-17T04:20:52.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/</loc>
+        <lastmod>2021-01-17T04:20:52.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/open-tutorials/</loc>
+        <lastmod>2021-01-17T04:20:52.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/</loc>
+        <lastmod>2021-01-17T04:20:52.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/html/</loc>
+        <lastmod>2021-01-17T04:20:39.608Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/css/</loc>
+        <lastmod>2021-01-17T04:20:25.746Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/sooyong-park/</loc>
+        <lastmod>2021-01-17T04:19:50.051Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/blockchain-and-industrial-revolution/</loc>
+        <lastmod>2021-01-17T04:19:50.051Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B0%95%EC%88%98%EC%9A%A9-%EA%B5%90%EC%88%98%EB%8B%98/</loc>
+        <lastmod>2021-01-17T04:19:50.051Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EA%B3%BC-%EC%82%B0%EC%97%85%ED%98%81%EC%8B%A0/</loc>
+        <lastmod>2021-01-17T04:19:50.051Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/seoul-blockchain-center/</loc>
+        <lastmod>2021-01-17T04:19:50.051Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/</loc>
+        <lastmod>2021-01-17T04:19:50.051Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/seokbin-yoon/</loc>
+        <lastmod>2021-01-17T04:19:17.005Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/blockchain-introduction/</loc>
+        <lastmod>2021-01-17T04:19:17.005Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9C%A4%EC%84%9D%EB%B9%88-%EA%B5%90%EC%88%98%EB%8B%98/</loc>
+        <lastmod>2021-01-17T04:19:17.005Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9E%85%EB%AC%B8/</loc>
+        <lastmod>2021-01-17T04:19:17.005Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%8B%A4%EC%8A%B5/</loc>
+        <lastmod>2021-01-17T04:18:50.154Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/hyperledger/</loc>
+        <lastmod>2021-01-17T04:18:10.981Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80/</loc>
+        <lastmod>2021-01-17T04:18:10.981Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/key-value-db/</loc>
+        <lastmod>2021-01-17T04:14:12.160Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%82%A4-%EB%B0%B8%EB%A5%98-db/</loc>
+        <lastmod>2021-01-17T04:14:12.160Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/curg/</loc>
+        <lastmod>2021-01-17T04:14:12.160Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/review-system/</loc>
+        <lastmod>2021-01-17T04:13:50.173Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/data-sharing-platform/</loc>
+        <lastmod>2021-01-17T04:13:50.173Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <lastmod>2021-01-17T04:13:50.173Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <lastmod>2021-01-17T04:13:50.173Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bellman-equation/</loc>
+        <lastmod>2021-01-17T04:13:06.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/mdp/</loc>
+        <lastmod>2021-01-17T04:13:06.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/markov-decision-process/</loc>
+        <lastmod>2021-01-17T04:13:06.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/reinforcement-learning/</loc>
+        <lastmod>2021-01-17T04:13:06.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B2%A8%EB%A7%8C-%EA%B8%B0%EB%8C%80-%EB%B0%A9%EC%A0%95%EC%8B%9D/</loc>
+        <lastmod>2021-01-17T04:13:06.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/</loc>
+        <lastmod>2021-01-17T04:13:06.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/</loc>
+        <lastmod>2021-01-17T04:13:06.619Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/recommender-system/</loc>
+        <lastmod>2021-01-17T04:12:29.625Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/matrix-factorization/</loc>
+        <lastmod>2021-01-17T04:12:29.625Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/netflix/</loc>
+        <lastmod>2021-01-17T04:12:29.625Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C/</loc>
+        <lastmod>2021-01-17T04:12:29.625Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%96%89%EB%A0%AC-%EB%B6%84%ED%95%B4/</loc>
+        <lastmod>2021-01-17T04:12:29.625Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4/</loc>
+        <lastmod>2021-01-17T04:12:29.625Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/event-planner/</loc>
+        <lastmod>2021-01-17T04:09:43.074Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%94%8C%EB%9E%98%EB%84%88/</loc>
+        <lastmod>2021-01-17T04:09:43.074Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-application/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-security/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%B3%B4%EC%95%88/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/btc/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/mastering-bitcoin/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</loc>
+        <lastmod>2021-01-17T04:07:22.403Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/mining/</loc>
+        <lastmod>2021-01-17T04:06:51.293Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%A9%EC%9D%98/</loc>
+        <lastmod>2021-01-17T04:06:51.293Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%B1%84%EA%B5%B4/</loc>
+        <lastmod>2021-01-17T04:06:51.293Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-network/</loc>
+        <lastmod>2021-01-17T04:06:09.476Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/</loc>
+        <lastmod>2021-01-17T04:06:09.476Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-trade/</loc>
+        <lastmod>2021-01-17T04:05:47.494Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-wallet/</loc>
+        <lastmod>2021-01-17T04:05:47.494Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B1%B0%EB%9E%98/</loc>
+        <lastmod>2021-01-17T04:05:47.494Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%A7%80%EA%B0%91/</loc>
+        <lastmod>2021-01-17T04:05:47.494Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/key-and-address/</loc>
+        <lastmod>2021-01-17T04:05:20.699Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%82%A4%EC%99%80-%EC%A3%BC%EC%86%8C/</loc>
+        <lastmod>2021-01-17T04:05:20.699Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-cli/</loc>
+        <lastmod>2021-01-17T04:04:53.799Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-core/</loc>
+        <lastmod>2021-01-17T04:04:53.799Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%B0%B8%EC%A1%B0%EA%B5%AC%ED%98%84/</loc>
+        <lastmod>2021-01-17T04:04:53.799Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%BD%94%EC%96%B4/</loc>
+        <lastmod>2021-01-17T04:04:53.799Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/bitcoin-theory/</loc>
+        <lastmod>2021-01-17T04:04:21.222Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC/</loc>
+        <lastmod>2021-01-17T04:04:21.222Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B0%9C%EC%9A%94/</loc>
+        <lastmod>2021-01-17T04:04:21.222Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/mrm/</loc>
+        <lastmod>2021-01-17T03:53:59.205Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/capstone-design/</loc>
+        <lastmod>2021-01-17T03:53:59.205Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
+        <lastmod>2021-01-17T03:53:59.205Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-17203/</loc>
+        <lastmod>2021-01-17T03:43:37.111Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/17203/</loc>
+        <lastmod>2021-01-17T03:43:37.111Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%E2%88%91-%CE%94EasyMAX/</loc>
+        <lastmod>2021-01-17T03:43:37.111Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj/</loc>
+        <lastmod>2021-01-17T03:43:37.111Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/baekjoon/</loc>
+        <lastmod>2021-01-17T03:43:37.111Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B0%B1%EC%A4%80%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%A0%80%EC%A7%80/</loc>
+        <lastmod>2021-01-17T03:43:37.111Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B0%B1%EC%A4%80/</loc>
+        <lastmod>2021-01-17T03:43:37.111Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-17202/</loc>
+        <lastmod>2021-01-17T03:43:18.785Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/17202/</loc>
+        <lastmod>2021-01-17T03:43:18.785Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%B8%EB%93%9C%ED%8F%B0-%EB%B2%88%ED%98%B8-%EA%B6%81%ED%95%A9/</loc>
+        <lastmod>2021-01-17T03:43:18.785Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-17201/</loc>
+        <lastmod>2021-01-17T03:42:57.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/17201/</loc>
+        <lastmod>2021-01-17T03:42:57.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9E%90%EC%84%9D-%EC%B2%B4%EC%9D%B8/</loc>
+        <lastmod>2021-01-17T03:42:57.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-17072/</loc>
+        <lastmod>2021-01-17T03:42:38.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/17072/</loc>
+        <lastmod>2021-01-17T03:42:38.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%95%84%EC%8A%A4%ED%82%A4-%EC%95%84%ED%8A%B8/</loc>
+        <lastmod>2021-01-17T03:42:38.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-15552/</loc>
+        <lastmod>2021-01-17T03:42:22.892Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/15552/</loc>
+        <lastmod>2021-01-17T03:42:22.892Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B9%A0%EB%A5%B8-A-B/</loc>
+        <lastmod>2021-01-17T03:42:22.892Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-14624/</loc>
+        <lastmod>2021-01-17T03:42:06.033Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/14624/</loc>
+        <lastmod>2021-01-17T03:42:06.033Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%A0%84%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90/</loc>
+        <lastmod>2021-01-17T03:42:06.033Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-14490/</loc>
+        <lastmod>2021-01-17T03:41:55.809Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/14490/</loc>
+        <lastmod>2021-01-17T03:41:55.809Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B0%B1%EB%8C%80%EC%97%B4/</loc>
+        <lastmod>2021-01-17T03:41:55.809Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-11006/</loc>
+        <lastmod>2021-01-17T03:41:41.006Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/11006/</loc>
+        <lastmod>2021-01-17T03:41:41.006Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%82%A8%EC%9A%B1%EC%9D%B4%EC%9D%98-%EB%8B%AD%EC%9E%A5/</loc>
+        <lastmod>2021-01-17T03:41:41.006Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-11004/</loc>
+        <lastmod>2021-01-17T03:41:27.058Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/11004/</loc>
+        <lastmod>2021-01-17T03:41:27.058Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/K%EB%B2%88%EC%A7%B8-%EC%88%98/</loc>
+        <lastmod>2021-01-17T03:41:27.058Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-10943/</loc>
+        <lastmod>2021-01-17T03:41:08.897Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/10943/</loc>
+        <lastmod>2021-01-17T03:41:08.897Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EA%B2%8C%EC%9E%84/</loc>
+        <lastmod>2021-01-17T03:41:08.897Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-10820/</loc>
+        <lastmod>2021-01-17T03:40:19.857Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/10820/</loc>
+        <lastmod>2021-01-17T03:40:19.857Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%B6%84%EC%84%9D/</loc>
+        <lastmod>2021-01-17T03:40:19.857Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-10757/</loc>
+        <lastmod>2021-01-17T03:39:53.429Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/10757/</loc>
+        <lastmod>2021-01-17T03:39:53.429Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%81%B0-%EC%88%98-A-B/</loc>
+        <lastmod>2021-01-17T03:39:53.429Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-10551/</loc>
+        <lastmod>2021-01-17T03:39:31.756Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/10551/</loc>
+        <lastmod>2021-01-17T03:39:31.756Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/strojopis/</loc>
+        <lastmod>2021-01-17T03:39:31.756Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-9012/</loc>
+        <lastmod>2021-01-17T03:33:08.062Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/9012/</loc>
+        <lastmod>2021-01-17T03:33:08.062Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EA%B4%84%ED%98%B8/</loc>
+        <lastmod>2021-01-17T03:33:08.062Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-4880/</loc>
+        <lastmod>2021-01-17T03:32:08.743Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/4880/</loc>
+        <lastmod>2021-01-17T03:32:08.743Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/what-s-next/</loc>
+        <lastmod>2021-01-17T03:32:08.743Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-4673/</loc>
+        <lastmod>2021-01-17T03:31:46.103Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/4673/</loc>
+        <lastmod>2021-01-17T03:31:46.103Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%85%80%ED%94%84-%EB%84%98%EB%B2%84/</loc>
+        <lastmod>2021-01-17T03:31:46.103Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-3062/</loc>
+        <lastmod>2021-01-17T03:30:42.994Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/3062/</loc>
+        <lastmod>2021-01-17T03:30:42.994Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%88%98-%EB%92%A4%EC%A7%91%EA%B8%B0/</loc>
+        <lastmod>2021-01-17T03:30:42.994Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-2935/</loc>
+        <lastmod>2021-01-17T03:30:21.417Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/2935/</loc>
+        <lastmod>2021-01-17T03:30:21.417Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/buka/</loc>
+        <lastmod>2021-01-17T03:30:21.417Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-2902/</loc>
+        <lastmod>2021-01-17T03:30:04.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/2902/</loc>
+        <lastmod>2021-01-17T03:30:04.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/autori/</loc>
+        <lastmod>2021-01-17T03:30:04.225Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-2789/</loc>
+        <lastmod>2021-01-17T03:29:26.734Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/2789/</loc>
+        <lastmod>2021-01-17T03:29:26.734Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/dom/</loc>
+        <lastmod>2021-01-17T03:29:26.734Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-2751/</loc>
+        <lastmod>2021-01-17T03:29:10.329Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/2751/</loc>
+        <lastmod>2021-01-17T03:29:10.329Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%88%98-%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0-2/</loc>
+        <lastmod>2021-01-17T03:29:10.329Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-2609/</loc>
+        <lastmod>2021-01-17T03:28:51.614Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/2609/</loc>
+        <lastmod>2021-01-17T03:28:51.614Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/</loc>
+        <lastmod>2021-01-17T03:28:51.614Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-2581/</loc>
+        <lastmod>2021-01-17T03:28:36.932Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/2581/</loc>
+        <lastmod>2021-01-17T03:28:36.932Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%86%8C%EC%88%98/</loc>
+        <lastmod>2021-01-17T03:28:36.932Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-2563/</loc>
+        <lastmod>2021-01-17T03:28:24.477Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/2563/</loc>
+        <lastmod>2021-01-17T03:28:24.477Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%83%89%EC%A2%85%EC%9D%B4/</loc>
+        <lastmod>2021-01-17T03:28:24.477Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-1978/</loc>
+        <lastmod>2021-01-17T03:28:07.746Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/1978/</loc>
+        <lastmod>2021-01-17T03:28:07.746Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%86%8C%EC%88%98-%EC%B0%BE%EA%B8%B0/</loc>
+        <lastmod>2021-01-17T03:28:07.746Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-1977/</loc>
+        <lastmod>2021-01-17T03:27:56.955Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/1977/</loc>
+        <lastmod>2021-01-17T03:27:56.955Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%99%84%EC%A0%84%EC%A0%9C%EA%B3%B1%EC%88%98/</loc>
+        <lastmod>2021-01-17T03:27:56.955Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-1934/</loc>
+        <lastmod>2021-01-17T03:27:42.124Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/1934/</loc>
+        <lastmod>2021-01-17T03:27:42.124Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/</loc>
+        <lastmod>2021-01-17T03:27:42.124Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-1476/</loc>
+        <lastmod>2021-01-17T03:27:08.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/1476/</loc>
+        <lastmod>2021-01-17T03:27:08.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%82%A0%EC%A7%9C-%EA%B3%84%EC%82%B0/</loc>
+        <lastmod>2021-01-17T03:27:08.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-1475/</loc>
+        <lastmod>2021-01-17T03:26:51.957Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/1475/</loc>
+        <lastmod>2021-01-17T03:26:51.957Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%B0%A9-%EB%B2%88%ED%98%B8/</loc>
+        <lastmod>2021-01-17T03:26:51.957Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/boj-1065/</loc>
+        <lastmod>2021-01-17T03:25:44.417Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/1065/</loc>
+        <lastmod>2021-01-17T03:25:44.417Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%88%98/</loc>
+        <lastmod>2021-01-17T03:25:44.417Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -1956,13 +2740,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/tags/%EC%BD%94%EC%9D%B8%EC%88%98%EC%9D%B5/</loc>
         <lastmod>2021-01-15T05:40:12.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1978,790 +2755,6 @@
 
     <url>
         <loc>https://y8ncastle.me/tags/Cryptocurrency/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Android/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Accomplishment/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Achievement/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Certificate/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9E%90%EA%B2%A9%EC%82%AC%ED%95%AD/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9E%90%EA%B2%A9%EC%A6%9D/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/MRM/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Capstone-Design/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Project/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Team-Project/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-9012/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/9012/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EA%B4%84%ED%98%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-4880/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/4880/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/What-s-Next/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-4673/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/4673/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%85%80%ED%94%84-%EB%84%98%EB%B2%84/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-3062/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/3062/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%88%98-%EB%92%A4%EC%A7%91%EA%B8%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-2935/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/2935/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BUKA/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-2902/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/2902/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/AUTORI/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-2789/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/2789/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/DOM/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-2751/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/2751/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%88%98-%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0-2/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-2609/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/2609/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-2581/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/2581/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%86%8C%EC%88%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-2563/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/2563/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%83%89%EC%A2%85%EC%9D%B4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-1978/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/1978/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%86%8C%EC%88%98-%EC%B0%BE%EA%B8%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-1977/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/1977/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%99%84%EC%A0%84%EC%A0%9C%EA%B3%B1%EC%88%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-1934/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/1934/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-17203/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/17203/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%E2%88%91-%CE%94EasyMAX/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-17202/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/17202/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%B8%EB%93%9C%ED%8F%B0-%EB%B2%88%ED%98%B8-%EA%B6%81%ED%95%A9/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-17201/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/17201/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9E%90%EC%84%9D-%EC%B2%B4%EC%9D%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-17072/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/17072/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%95%84%EC%8A%A4%ED%82%A4-%EC%95%84%ED%8A%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-15552/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/15552/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B9%A0%EB%A5%B8-A-B/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-1476/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/1476/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%82%A0%EC%A7%9C-%EA%B3%84%EC%82%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-1475/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/1475/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B0%A9-%EB%B2%88%ED%98%B8/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-14624/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/14624/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%A0%84%EB%B6%81%EB%8C%80%ED%95%99%EA%B5%90/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-14490/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/14490/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B0%B1%EB%8C%80%EC%97%B4/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-11006/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/11006/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%82%A8%EC%9A%B1%EC%9D%B4%EC%9D%98-%EB%8B%AD%EC%9E%A5/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ11004/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/11004/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/K%EB%B2%88%EC%A7%B8-%EC%88%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-10943/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/10943/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EA%B2%8C%EC%9E%84/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-10820/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/10820/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%B6%84%EC%84%9D/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-10757/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/10757/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%81%B0-%EC%88%98-A-B/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-1065/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/1065/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%ED%95%9C%EC%88%98/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-10551/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/10551/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/STROJOPIS/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ-10250/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/10250/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ACM-Hotel/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/BOJ/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Baekjoon/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B0%B1%EC%A4%80%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%A0%80%EC%A7%80/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%B0%B1%EC%A4%80/</loc>
         <lastmod>2021-01-15T05:40:12.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
