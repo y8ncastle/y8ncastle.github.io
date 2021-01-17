@@ -9,6 +9,20 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/categories/Personal-Project/Android/</loc>
+        <lastmod>2021-01-17T05:17:38.959Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/categories/Personal-Project/</loc>
+        <lastmod>2021-01-17T05:17:38.959Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/categories/Study-Note/AI/</loc>
         <lastmod>2021-01-17T05:14:37.589Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -60,34 +74,6 @@
     <url>
         <loc>https://y8ncastle.me/categories/Team-Project/</loc>
         <lastmod>2021-01-17T05:08:23.951Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Project/Android/</loc>
-        <lastmod>2021-01-17T05:05:46.590Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Project/</loc>
-        <lastmod>2021-01-17T05:05:46.590Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Personal-Project/Android/</loc>
-        <lastmod>2021-01-17T05:05:26.034Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Personal-Project/</loc>
-        <lastmod>2021-01-17T05:05:26.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
