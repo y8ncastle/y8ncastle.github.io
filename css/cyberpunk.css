@@ -10804,6 +10804,11 @@ article.media .media-content .title {
   margin: 0;
   line-height: inherit;
 }
+article.article .title {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -1.4px;
+}
 article.article .article-meta,
 article.article .article-tags {
   color: #848484;
@@ -10815,6 +10820,10 @@ article.article .article-meta {
 article.article .content {
   word-wrap: break-word;
   font-size: 1.1rem;
+  line-height: 1.9em;
+  letter-spacing: -0.3px;
+  color: #5d686f;
+  margin-top: 20px;
 }
 article.article .content h1 {
   font-size: 1.75em;
@@ -10824,6 +10833,7 @@ article.article .content h2 {
 }
 article.article .content h3 {
   font-size: 1.25em;
+  font-weight: 600;
 }
 article.article .content h4 {
   font-size: 1.125em;
@@ -10835,9 +10845,11 @@ article.article .content pre {
   font-size: 0.85em;
 }
 article.article .content code {
-  padding: 0;
-  background: transparent;
+  padding: 0.1em;
+  background: #ececec;
   overflow-wrap: break-word;
+  font-family: 'D2 Coding';
+  font-size: 1em;
 }
 article.article .content blockquote.pullquote {
   float: right;
@@ -11270,7 +11282,7 @@ figure.highlight pre {
 }
 figure.highlight pre .line,
 figure.highlight pre code .hljs {
-  line-height: 1.5rem;
+  line-height: 1rem;
 }
 figure.highlight figcaption,
 figure.highlight .gutter {
