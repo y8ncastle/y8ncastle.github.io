@@ -3,6 +3,55 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/tags/machine-learning/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/deep-learning/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/ai/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/artificial-intelligence/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/tags/ethereum/</loc>
         <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1403,57 +1452,8 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/tags/deep-learning/</loc>
-        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/</loc>
         <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/</loc>
-        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/ai/</loc>
-        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/artificial-intelligence/</loc>
-        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/</loc>
-        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/machine-learning/</loc>
-        <lastmod>2021-01-17T04:24:15.826Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/</loc>
-        <lastmod>2021-01-17T04:24:15.826Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -2726,6 +2726,13 @@
     </url>
 
     <url>
+        <loc>https://y8ncastle.me/tags/Cryptocurrency/</loc>
+        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/tags/Crypto-Income/</loc>
         <lastmod>2021-01-15T05:40:12.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -2748,13 +2755,6 @@
 
     <url>
         <loc>https://y8ncastle.me/tags/%ED%81%AC%EB%A6%BD%ED%86%A0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/</loc>
-        <lastmod>2021-01-15T05:40:12.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/tags/Cryptocurrency/</loc>
         <lastmod>2021-01-15T05:40:12.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

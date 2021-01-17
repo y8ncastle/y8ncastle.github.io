@@ -9,6 +9,20 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/categories/Study-Note/AI/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/categories/Study-Note/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/categories/Crypto-Community/</loc>
         <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -156,13 +170,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/categories/Study-Note/</loc>
-        <lastmod>2021-01-17T04:50:04.677Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/categories/Personal-Development/Achievement/</loc>
         <lastmod>2021-01-17T04:48:23.941Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -221,20 +228,6 @@
     <url>
         <loc>https://y8ncastle.me/categories/Personal-Project/Ethereum/</loc>
         <lastmod>2021-01-17T04:28:43.016Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Study-Note/AI/</loc>
-        <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/categories/Study-Note-AI/</loc>
-        <lastmod>2021-01-17T04:24:15.826Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

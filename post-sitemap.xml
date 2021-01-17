@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/2020/06/12/study-note/ai/every-deep-learning/1/</loc>
+        <lastmod>2021-01-17T05:14:37.589Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/2019/04/07/crypto-community/yoonsung-token/</loc>
         <lastmod>2021-01-17T05:10:08.143Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -459,14 +467,6 @@
     <url>
         <loc>https://y8ncastle.me/2020/06/12/study-note/ai/every-deep-learning/2/</loc>
         <lastmod>2021-01-17T04:24:40.195Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/2020/06/12/study-note/ai/every-deep-learning/1/</loc>
-        <lastmod>2021-01-17T04:24:15.826Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -1641,7 +1641,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/04/06/crypto-community/crypto-income/</loc>
+        <loc>https://y8ncastle.me/2020/02/08/crypto-community/crypto-income-final/</loc>
         <lastmod>2021-01-15T05:40:12.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1649,7 +1649,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2020/02/08/crypto-community/crypto-income-final/</loc>
+        <loc>https://y8ncastle.me/2019/04/06/crypto-community/crypto-income/</loc>
         <lastmod>2021-01-15T05:40:12.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

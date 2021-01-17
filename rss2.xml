@@ -765,9 +765,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형-회귀</category>
-      
       <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형-회귀</category>
       
       <category domain="https://y8ncastle.me/tags/linear-regression/">linear-regression</category>
       
@@ -792,7 +792,9 @@
       <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103495830-68bd9480-4e7f-11eb-839b-94f023b1b8f0.jpg" width="60%"></p><p><br><br></p><h3 id="머신러닝"><a href="#머신러닝" class="headerlink" title="머신러닝"></a>머신러닝</h3><hr><ul><li><p>Limitations of explicit programming(일반적인 소프트웨어)을 해결하고자 연구한 방법</p></li><li><p>프로그램이지만 개발자가 일일이 어떤 현상에 대해 정하지 않고 프로그램 자체가 직접 데이터를 학습하는 능력을 갖게 하는 것</p></li></ul><p><br><br></p><h3 id="Supervised-vs-Unsupervised"><a href="#Supervised-vs-Unsupervised" class="headerlink" title="Supervised vs Unsupervised"></a>Supervised vs Unsupervised</h3><hr><ul><li><p><code>Supervised</code>: Learning with labeled examples (이미 있는 데이터를 제공하여 학습)</p></li><li><p><code>Unsupervised</code>: Un-labeled data (미리 데이터를 정해주기 어려운 경우)</p></li></ul><p><br><br></p><h3 id="Types-of-Supervised-Learning"><a href="#Types-of-Supervised-Learning" class="headerlink" title="Types of Supervised Learning"></a>Types of Supervised Learning</h3><hr><ul><li><p><code>Regression</code>: 큰 범위 내에서 예측 (ex. Predicting final exam score based on time spent)</p></li><li><p><code>Binary Classification</code>: 두 개 중에 하나를 고르는 것 (ex. Pass or non-pass based on time spent)</p></li><li><p><code>Multi-label Classification</code>: 여러 가지 정해진 값 중에서 하나를 고르는 것 (ex. Letter grade based on time spent)</p></li></ul><p><br><br></p><blockquote><p>강의 출처: <a href="https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s">https://www.youtube.com/watch?v=qPMeuL2LIqY&amp;list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&amp;index=3&amp;t=3s</a></p></blockquote>]]></content:encoded>
       
       
-      <category domain="https://y8ncastle.me/categories/Study-Note-AI/">Study Note AI</category>
+      <category domain="https://y8ncastle.me/categories/Study-Note/">Study Note</category>
+      
+      <category domain="https://y8ncastle.me/categories/Study-Note/AI/">AI</category>
       
       
       <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
@@ -803,9 +805,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
+      
+      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
       
       <category domain="https://y8ncastle.me/tags/machine-learning/">machine-learning</category>
       
@@ -4716,19 +4718,19 @@
       <category domain="https://y8ncastle.me/categories/Crypto-Community/">Crypto Community</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
-      
-      <category domain="https://y8ncastle.me/tags/Cryptocurrency/">Cryptocurrency</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%81%AC%EB%A6%BD%ED%86%A0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/">크립토 커뮤니티</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BD%94%EC%9D%B8%EC%88%98%EC%9D%B5/">코인수익</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
       <category domain="https://y8ncastle.me/tags/Crypto-Community/">Crypto Community</category>
       
       <category domain="https://y8ncastle.me/tags/Crypto-Income/">Crypto Income</category>
+      
+      <category domain="https://y8ncastle.me/tags/Cryptocurrency/">Cryptocurrency</category>
       
       <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
       
@@ -5548,15 +5550,15 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%BD%94%EC%96%B4/">비트코인-코어</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%B0%B8%EC%A1%B0%EA%B5%AC%ED%98%84/">참조구현</category>
-      
       <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%BD%94%EC%96%B4/">비트코인-코어</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%B0%B8%EC%A1%B0%EA%B5%AC%ED%98%84/">참조구현</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin-core/">bitcoin-core</category>
       
@@ -5641,15 +5643,15 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B0%9C%EC%9A%94/">비트코인-개요</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC/">비트코인-작동원리</category>
+      
       <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B0%9C%EC%9A%94/">비트코인-개요</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC/">비트코인-작동원리</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin-theory/">bitcoin-theory</category>
       
