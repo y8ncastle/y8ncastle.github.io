@@ -9,6 +9,46 @@
 
 
     <url>
+        <loc>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hyperledger-fabric/</loc>
+        <lastmod>2021-01-18T14:21:51.327Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/smart-contract/</loc>
+        <lastmod>2021-01-18T14:21:08.386Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/blockchain/</loc>
+        <lastmod>2021-01-18T14:20:52.852Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/2019/06/19/team-project/on-books-history/</loc>
+        <lastmod>2021-01-18T14:19:49.395Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.me/2019/05/17/boj/10757-java/</loc>
+        <lastmod>2021-01-18T14:19:13.951Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y8ncastle.me/2021/01/18/plan/weekly-report/210118/</loc>
         <lastmod>2021-01-18T07:38:09.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -137,14 +177,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/smart-contract/</loc>
-        <lastmod>2021-01-17T05:00:05.724Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/2019/08/10/team-project/hanium/mid-report/</loc>
         <lastmod>2021-01-17T04:59:23.699Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -155,14 +187,6 @@
     <url>
         <loc>https://y8ncastle.me/2019/11/07/activity/education/hanium-ibm-hlf/</loc>
         <lastmod>2021-01-17T04:58:35.420Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hyperledger-fabric/</loc>
-        <lastmod>2021-01-17T04:57:48.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -193,14 +217,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/blockchain/</loc>
-        <lastmod>2021-01-17T04:53:42.966Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/blockchain-consensus/</loc>
         <lastmod>2021-01-17T04:52:57.332Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -219,14 +235,6 @@
     <url>
         <loc>https://y8ncastle.me/2019/07/25/qualification/toeic-383/</loc>
         <lastmod>2021-01-17T04:51:27.206Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/2019/06/19/team-project/on-books-history/</loc>
-        <lastmod>2021-01-17T04:50:46.957Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -1483,14 +1491,6 @@
     <url>
         <loc>https://y8ncastle.me/2018/04/09/boj/10820-java/</loc>
         <lastmod>2021-01-17T03:40:19.857Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.me/2019/05/17/boj/10757-java/</loc>
-        <lastmod>2021-01-17T03:39:53.429Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
