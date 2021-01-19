@@ -243,11 +243,11 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
+      
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%85%EC%B2%B4%EC%9D%B8db/">빅체인db</category>
       
@@ -812,9 +812,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형-회귀</category>
-      
       <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형-회귀</category>
       
       <category domain="https://y8ncastle.me/tags/linear-regression/">linear-regression</category>
       
@@ -852,9 +852,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
+      
+      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
       
       <category domain="https://y8ncastle.me/tags/machine-learning/">machine-learning</category>
       
@@ -1107,21 +1107,21 @@
       
       <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터-공유</category>
-      
-      <category domain="https://y8ncastle.me/tags/data-sharing/">data-sharing</category>
-      
-      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브-세미나</category>
       
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터-공유</category>
+      
+      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
+      
       <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube-seminar</category>
       
+      <category domain="https://y8ncastle.me/tags/data-sharing/">data-sharing</category>
+      
       <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/activity/seminar/youtube-seminar-20-16/#disqus_thread</comments>
@@ -3063,15 +3063,15 @@
       
       <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
       
-      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브-세미나</category>
       
+      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
+      
       <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube-seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8/">사이드-체인</category>
       
@@ -4428,15 +4428,15 @@
       
       <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
       
-      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브-세미나</category>
       
+      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
+      
       <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube-seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/">프라이버시-보호</category>
       
@@ -4729,15 +4729,15 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어-공학</category>
-      
-      <category domain="https://y8ncastle.me/tags/software-engineering/">software-engineering</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류-유통-시스템</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어-공학</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인-유통-시스템</category>
       
       <category domain="https://y8ncastle.me/tags/distribution-system/">distribution-system</category>
+      
+      <category domain="https://y8ncastle.me/tags/software-engineering/">software-engineering</category>
       
       <category domain="https://y8ncastle.me/tags/blockchain-distribution-system/">blockchain-distribution-system</category>
       
@@ -5423,17 +5423,17 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%8B%A0%EC%9B%90%EA%B4%80%EB%A6%AC/">신원관리</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터-공유</category>
-      
-      <category domain="https://y8ncastle.me/tags/identity-management/">identity-management</category>
-      
-      <category domain="https://y8ncastle.me/tags/data-sharing/">data-sharing</category>
       
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
+      <category domain="https://y8ncastle.me/tags/data-sharing/">data-sharing</category>
+      
       <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%8B%A0%EC%9B%90%EA%B4%80%EB%A6%AC/">신원관리</category>
+      
+      <category domain="https://y8ncastle.me/tags/identity-management/">identity-management</category>
       
       
       <comments>https://y8ncastle.me/2020/01/19/activity/seminar/dns-idm/#disqus_thread</comments>
@@ -7370,13 +7370,13 @@
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
       
       <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
       
       <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation-exhibition</category>
       
