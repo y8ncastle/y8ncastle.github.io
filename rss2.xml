@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 18 Jan 2021 07:38:09 GMT</pubDate>
+    <pubDate>Tue, 19 Jan 2021 05:59:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -21,7 +21,7 @@
       <description>&lt;h3 id=&quot;2020-01-18-월&quot;&gt;&lt;a href=&quot;#2020-01-18-월&quot; class=&quot;headerlink&quot; title=&quot;2020.01.18 (월)&quot;&gt;&lt;/a&gt;2020.01.18 (월)&lt;/h3&gt;&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;09:00 &amp;gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)&lt;/li&gt;
-&lt;li&gt;14:26 &amp;gt; Go 언어 공부 시작 (가장 빨리 만나는 Go 언어)&lt;ul&gt;
+&lt;li&gt;14:26 &amp;gt; &lt;strong&gt;Go 언어 공부 시작&lt;/strong&gt; (가장 빨리 만나는 Go 언어)&lt;ul&gt;
 &lt;li&gt;문자열 사용하기&lt;/li&gt;
 &lt;li&gt;불 사용하기&lt;/li&gt;
 &lt;li&gt;상수 사용하기&lt;/li&gt;
@@ -38,11 +38,11 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description>
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<h3 id="2020-01-18-월"><a href="#2020-01-18-월" class="headerlink" title="2020.01.18 (월)"></a>2020.01.18 (월)</h3><hr><ul><li>09:00 &gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)</li><li>14:26 &gt; Go 언어 공부 시작 (가장 빨리 만나는 Go 언어)<ul><li>문자열 사용하기</li><li>불 사용하기</li><li>상수 사용하기</li><li>열거형 사용하기</li><li>연산자 알아보기</li><li>패키지 사용하기</li><li>if 조건문 사용하기</li><li>if 조건문 안에서 함수 사용하기</li><li>for 반복문 사용하기</li><li>goto 사용하기</li><li>switch 분기문 사용하기</li><li>간단한 예제로 문법 익숙해지기</li><li>배열 사용하기</li></ul></li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2020-01-18-월"><a href="#2020-01-18-월" class="headerlink" title="2020.01.18 (월)"></a>2020.01.18 (월)</h3><hr><ul><li>09:00 &gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)</li><li>14:26 &gt; <strong>Go 언어 공부 시작</strong> (가장 빨리 만나는 Go 언어)<ul><li>문자열 사용하기</li><li>불 사용하기</li><li>상수 사용하기</li><li>열거형 사용하기</li><li>연산자 알아보기</li><li>패키지 사용하기</li><li>if 조건문 사용하기</li><li>if 조건문 안에서 함수 사용하기</li><li>for 반복문 사용하기</li><li>goto 사용하기</li><li>switch 분기문 사용하기</li><li>간단한 예제로 문법 익숙해지기</li><li>배열 사용하기</li></ul></li></ul><p><br><br></p><h3 id="2020-01-19-화"><a href="#2020-01-19-화" class="headerlink" title="2020.01.19 (화)"></a>2020.01.19 (화)</h3><hr><ul><li>09:00 &gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)</li><li>10:46 &gt; <strong>Go 언어 공부 시작</strong> (가장 빨리 만나는 Go 언어)<ul><li>이전 내용 전체 복습 및 예제 문제 풀이 (20-1, 20-2)</li><li>슬라이스 사용하기</li></ul></li></ul>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -812,9 +812,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형-회귀</category>
+      
+      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
       
       <category domain="https://y8ncastle.me/tags/linear-regression/">linear-regression</category>
       
@@ -852,9 +852,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
-      
       <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
       
       <category domain="https://y8ncastle.me/tags/machine-learning/">machine-learning</category>
       
