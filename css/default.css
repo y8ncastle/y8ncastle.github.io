@@ -10808,6 +10808,7 @@ article.media .media-content .title {
 article.article .title {
   font-size: 2em;
   font-weight: 600;
+  font-family: 'NanumSquareRound';
   letter-spacing: -1.4px;
 }
 article.article .article-meta,
@@ -10821,6 +10822,7 @@ article.article .article-meta {
 article.article .content {
   word-wrap: break-word;
   font-size: 1.1rem;
+  font-family: 'NanumSquareRound';
   line-height: 1.9em;
   letter-spacing: -0.3px;
   color: #5d686f;

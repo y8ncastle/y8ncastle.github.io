@@ -9,13 +9,44 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Fri, 22 Jan 2021 01:45:48 GMT</pubDate>
+    <pubDate>Wed, 27 Jan 2021 05:24:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>주간 진행 보고 (2021.01.26)</title>
+      <link>https://y8ncastle.me/2021/01/26/plan/weekly-report/2021/0126/</link>
+      <guid>https://y8ncastle.me/2021/01/26/plan/weekly-report/2021/0126/</guid>
+      <pubDate>Tue, 26 Jan 2021 01:58:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;2020-01-26-화&quot;&gt;&lt;a href=&quot;#2020-01-26-화&quot; class=&quot;headerlink&quot; title=&quot;2020.01.26 (화)&quot;&gt;&lt;/a&gt;2020.01.26 (화)&lt;/h3&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;09:00 &amp;gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="2020-01-26-화"><a href="#2020-01-26-화" class="headerlink" title="2020.01.26 (화)"></a>2020.01.26 (화)</h3><hr><ul><li>09:00 &gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)</li></ul><p><br><br></p><h3 id="2020-01-27-수"><a href="#2020-01-27-수" class="headerlink" title="2020.01.27 (수)"></a>2020.01.27 (수)</h3><hr><ul><li>09:00 &gt; 한국연구재단 정보보안TF 업무 보조 시작 (~18:00)</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/01/26/plan/weekly-report/2021/0126/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>주간 진행 보고 (2021.01.18 - 01.22)</title>
-      <link>https://y8ncastle.me/2021/01/18/plan/weekly-report/210118/</link>
-      <guid>https://y8ncastle.me/2021/01/18/plan/weekly-report/210118/</guid>
+      <link>https://y8ncastle.me/2021/01/18/plan/weekly-report/2021/0118/</link>
+      <guid>https://y8ncastle.me/2021/01/18/plan/weekly-report/2021/0118/</guid>
       <pubDate>Mon, 18 Jan 2021 00:10:00 GMT</pubDate>
       
       <description>&lt;h3 id=&quot;2020-01-18-월&quot;&gt;&lt;a href=&quot;#2020-01-18-월&quot; class=&quot;headerlink&quot; title=&quot;2020.01.18 (월)&quot;&gt;&lt;/a&gt;2020.01.18 (월)&lt;/h3&gt;&lt;hr&gt;
@@ -55,14 +86,14 @@
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2021/01/18/plan/weekly-report/210118/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2021/01/18/plan/weekly-report/2021/0118/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>주간 진행 보고 (2021.01.14 - 01.16)</title>
-      <link>https://y8ncastle.me/2021/01/14/plan/weekly-report/210114/</link>
-      <guid>https://y8ncastle.me/2021/01/14/plan/weekly-report/210114/</guid>
+      <link>https://y8ncastle.me/2021/01/14/plan/weekly-report/2021/0114/</link>
+      <guid>https://y8ncastle.me/2021/01/14/plan/weekly-report/2021/0114/</guid>
       <pubDate>Thu, 14 Jan 2021 04:35:00 GMT</pubDate>
       
       <description>&lt;h3 id=&quot;2020-01-14-목&quot;&gt;&lt;a href=&quot;#2020-01-14-목&quot; class=&quot;headerlink&quot; title=&quot;2020.01.14 (목)&quot;&gt;&lt;/a&gt;2020.01.14 (목)&lt;/h3&gt;&lt;hr&gt;
@@ -88,7 +119,7 @@
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2021/01/14/plan/weekly-report/210114/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2021/01/14/plan/weekly-report/2021/0114/#disqus_thread</comments>
       
     </item>
     
@@ -113,11 +144,11 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
@@ -151,21 +182,21 @@
       
       <category domain="https://y8ncastle.me/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/">강화학습</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/">마르코프-결정-과정</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/">마르코프 결정 과정</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B2%A8%EB%A7%8C-%EA%B8%B0%EB%8C%80-%EB%B0%A9%EC%A0%95%EC%8B%9D/">벨만-기대-방정식</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B2%A8%EB%A7%8C-%EA%B8%B0%EB%8C%80-%EB%B0%A9%EC%A0%95%EC%8B%9D/">벨만 기대 방정식</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
       
-      <category domain="https://y8ncastle.me/tags/reinforcement-learning/">reinforcement-learning</category>
+      <category domain="https://y8ncastle.me/tags/reinforcement-learning/">reinforcement learning</category>
       
-      <category domain="https://y8ncastle.me/tags/markov-decision-process/">markov-decision-process</category>
+      <category domain="https://y8ncastle.me/tags/markov-decision-process/">markov decision process</category>
       
       <category domain="https://y8ncastle.me/tags/mdp/">mdp</category>
       
-      <category domain="https://y8ncastle.me/tags/bellman-equation/">bellman-equation</category>
+      <category domain="https://y8ncastle.me/tags/bellman-equation/">bellman equation</category>
       
-      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial-intelligence</category>
+      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
       
       <category domain="https://y8ncastle.me/tags/ai/">ai</category>
       
@@ -203,15 +234,15 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%82%A4-%EB%B0%B8%EB%A5%98-db/">키-밸류-db</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/">빅데이터</category>
       
-      <category domain="https://y8ncastle.me/tags/key-value-db/">key-value-db</category>
-      
       <category domain="https://y8ncastle.me/tags/bigdata/">bigdata</category>
+      
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%82%A4-%EB%B0%B8%EB%A5%98-db/">키-밸류 db</category>
+      
+      <category domain="https://y8ncastle.me/tags/key-value-db/">key-value db</category>
       
       
       <comments>https://y8ncastle.me/2020/07/18/curg/blockchain/key-value-db/#disqus_thread</comments>
@@ -243,19 +274,19 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/">빅데이터</category>
-      
-      <category domain="https://y8ncastle.me/tags/bigdata/">bigdata</category>
-      
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%85%EC%B2%B4%EC%9D%B8db/">빅체인db</category>
       
+      <category domain="https://y8ncastle.me/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/">빅데이터</category>
+      
       <category domain="https://y8ncastle.me/tags/bigchaindb/">bigchaindb</category>
+      
+      <category domain="https://y8ncastle.me/tags/bigdata/">bigdata</category>
       
       
       <comments>https://y8ncastle.me/2020/07/03/activity/seminar/youtube-seminar-20-21/#disqus_thread</comments>
@@ -264,8 +295,8 @@
     
     <item>
       <title>한 달 계획표 (2020.07.01 - 07.31)</title>
-      <link>https://y8ncastle.me/2020/07/01/plan/weekly-report/200701/</link>
-      <guid>https://y8ncastle.me/2020/07/01/plan/weekly-report/200701/</guid>
+      <link>https://y8ncastle.me/2020/07/01/plan/weekly-report/2020/0701/</link>
+      <guid>https://y8ncastle.me/2020/07/01/plan/weekly-report/2020/0701/</guid>
       <pubDate>Wed, 01 Jul 2020 01:54:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -770,16 +801,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/07/01/plan/weekly-report/200701/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/07/01/plan/weekly-report/2020/0701/#disqus_thread</comments>
       
     </item>
     
@@ -806,17 +837,17 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
       
-      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial-intelligence</category>
+      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
       
       <category domain="https://y8ncastle.me/tags/ai/">ai</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
+      <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
+      <category domain="https://y8ncastle.me/tags/deep-learning/">deep learning</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형-회귀</category>
+      <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형 회귀</category>
       
-      <category domain="https://y8ncastle.me/tags/linear-regression/">linear-regression</category>
+      <category domain="https://y8ncastle.me/tags/linear-regression/">linear regression</category>
       
       
       <comments>https://y8ncastle.me/2020/06/12/study-note/ai/every-deep-learning/2/#disqus_thread</comments>
@@ -846,17 +877,17 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
       
-      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial-intelligence</category>
+      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
       
       <category domain="https://y8ncastle.me/tags/ai/">ai</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의-딥러닝</category>
+      <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/deep-learning/">deep-learning</category>
+      <category domain="https://y8ncastle.me/tags/deep-learning/">deep learning</category>
       
-      <category domain="https://y8ncastle.me/tags/machine-learning/">machine-learning</category>
+      <category domain="https://y8ncastle.me/tags/machine-learning/">machine learning</category>
       
       
       <comments>https://y8ncastle.me/2020/06/12/study-note/ai/every-deep-learning/1/#disqus_thread</comments>
@@ -884,19 +915,19 @@
       <category domain="https://y8ncastle.me/categories/Activity/Seminar/">Seminar</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/">오라클-문제</category>
+      <category domain="https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/">오라클 문제</category>
       
-      <category domain="https://y8ncastle.me/tags/oracle-problem/">oracle-problem</category>
+      <category domain="https://y8ncastle.me/tags/oracle-problem/">oracle problem</category>
       
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%98%A4%ED%94%84%EC%B2%B4%EC%9D%B8/">오프체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EC%84%A0%EC%B6%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/">랜덤-선출-알고리즘</category>
+      <category domain="https://y8ncastle.me/tags/%EB%9E%9C%EB%8D%A4-%EC%84%A0%EC%B6%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/">랜덤 선출 알고리즘</category>
       
-      <category domain="https://y8ncastle.me/tags/off-chain/">off-chain</category>
+      <category domain="https://y8ncastle.me/tags/off-chain/">off chain</category>
       
-      <category domain="https://y8ncastle.me/tags/random-election-algorithm/">random-election-algorithm</category>
+      <category domain="https://y8ncastle.me/tags/random-election-algorithm/">random election algorithm</category>
       
       
       <comments>https://y8ncastle.me/2020/06/07/activity/seminar/youtube-seminar-20-17/#disqus_thread</comments>
@@ -930,15 +961,15 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4/">넷플릭스</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%96%89%EB%A0%AC-%EB%B6%84%ED%95%B4/">행렬-분해</category>
+      <category domain="https://y8ncastle.me/tags/%ED%96%89%EB%A0%AC-%EB%B6%84%ED%95%B4/">행렬 분해</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C/">추천-시스템</category>
+      <category domain="https://y8ncastle.me/tags/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C/">추천 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/netflix/">netflix</category>
       
-      <category domain="https://y8ncastle.me/tags/matrix-factorization/">matrix-factorization</category>
+      <category domain="https://y8ncastle.me/tags/matrix-factorization/">matrix factorization</category>
       
-      <category domain="https://y8ncastle.me/tags/recommender-system/">recommender-system</category>
+      <category domain="https://y8ncastle.me/tags/recommender-system/">recommender system</category>
       
       
       <comments>https://y8ncastle.me/2020/06/07/curg/ai/matrix-factorization/#disqus_thread</comments>
@@ -976,7 +1007,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%82%AC%EB%AC%BC%EC%9D%B8%ED%84%B0%EB%84%B7/">사물인터넷</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/">오라클-문제</category>
+      <category domain="https://y8ncastle.me/tags/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%AC%B8%EC%A0%9C/">오라클 문제</category>
       
       <category domain="https://y8ncastle.me/tags/thesis/">thesis</category>
       
@@ -984,7 +1015,7 @@
       
       <category domain="https://y8ncastle.me/tags/oracle/">oracle</category>
       
-      <category domain="https://y8ncastle.me/tags/oracle-problem/">oracle-problem</category>
+      <category domain="https://y8ncastle.me/tags/oracle-problem/">oracle problem</category>
       
       
       <comments>https://y8ncastle.me/2020/06/07/thesis/iot-oracle-problem/#disqus_thread</comments>
@@ -1017,17 +1048,17 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터-공유-플랫폼</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰-시스템</category>
-      
       <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
       
-      <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data-sharing-platform</category>
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
-      <category domain="https://y8ncastle.me/tags/review-system/">review-system</category>
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
+      
+      <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data sharing platform</category>
+      
+      <category domain="https://y8ncastle.me/tags/review-system/">review system</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/curg/blockchain/data-sharing-2/#disqus_thread</comments>
@@ -1061,17 +1092,17 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터-공유-플랫폼</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰-시스템</category>
-      
       <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
       
-      <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data-sharing-platform</category>
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
-      <category domain="https://y8ncastle.me/tags/review-system/">review-system</category>
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
+      
+      <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data sharing platform</category>
+      
+      <category domain="https://y8ncastle.me/tags/review-system/">review system</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/curg/blockchain/data-sharing/#disqus_thread</comments>
@@ -1105,23 +1136,23 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
+      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
-      <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터-공유</category>
-      
-      <category domain="https://y8ncastle.me/tags/data-sharing/">data-sharing</category>
+      <category domain="https://y8ncastle.me/tags/data-sharing/">data sharing</category>
       
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브-세미나</category>
+      <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube-seminar</category>
+      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/activity/seminar/youtube-seminar-20-16/#disqus_thread</comments>
@@ -1130,8 +1161,8 @@
     
     <item>
       <title>한 달 계획표 (2020.06.01 ~ 06.30)</title>
-      <link>https://y8ncastle.me/2020/05/31/plan/weekly-report/200601/</link>
-      <guid>https://y8ncastle.me/2020/05/31/plan/weekly-report/200601/</guid>
+      <link>https://y8ncastle.me/2020/05/31/plan/weekly-report/2020/0601/</link>
+      <guid>https://y8ncastle.me/2020/05/31/plan/weekly-report/2020/0601/</guid>
       <pubDate>Sun, 31 May 2020 12:58:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -1684,23 +1715,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/05/31/plan/weekly-report/200601/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/05/31/plan/weekly-report/2020/0601/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>보름 계획표 (2020.05.16 - 05.31)</title>
-      <link>https://y8ncastle.me/2020/05/17/plan/weekly-report/200516/</link>
-      <guid>https://y8ncastle.me/2020/05/17/plan/weekly-report/200516/</guid>
+      <link>https://y8ncastle.me/2020/05/17/plan/weekly-report/2020/0516/</link>
+      <guid>https://y8ncastle.me/2020/05/17/plan/weekly-report/2020/0516/</guid>
       <pubDate>Sun, 17 May 2020 13:54:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -2109,23 +2140,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/05/17/plan/weekly-report/200516/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/05/17/plan/weekly-report/2020/0516/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>보름 계획표 (2020.05.01 - 05.15)</title>
-      <link>https://y8ncastle.me/2020/04/30/plan/weekly-report/200501/</link>
-      <guid>https://y8ncastle.me/2020/04/30/plan/weekly-report/200501/</guid>
+      <link>https://y8ncastle.me/2020/04/30/plan/weekly-report/2020/0501/</link>
+      <guid>https://y8ncastle.me/2020/04/30/plan/weekly-report/2020/0501/</guid>
       <pubDate>Thu, 30 Apr 2020 07:51:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -2510,16 +2541,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/04/30/plan/weekly-report/200501/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/04/30/plan/weekly-report/2020/0501/#disqus_thread</comments>
       
     </item>
     
@@ -2547,15 +2578,15 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B8%B0%EC%88%A0%ED%98%91%ED%9A%8C/">한국정보통신기술협회</category>
       
-      <category domain="https://y8ncastle.me/tags/ict-%ED%91%9C%EC%A4%80-%EC%A0%84%EB%AC%B8%EC%9D%B8%EB%A0%A5-%EC%96%91%EC%84%B1%EA%B5%90%EC%9C%A1/">ict-표준-전문인력-양성교육</category>
+      <category domain="https://y8ncastle.me/tags/ict-%ED%91%9C%EC%A4%80-%EC%A0%84%EB%AC%B8%EC%9D%B8%EB%A0%A5-%EC%96%91%EC%84%B1%EA%B5%90%EC%9C%A1/">ict 표준 전문인력 양성교육</category>
       
-      <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-%ED%91%9C%EC%A4%80%ED%99%94%EA%B8%B0%EA%B5%AC/">국제-표준화기구</category>
+      <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-%ED%91%9C%EC%A4%80%ED%99%94%EA%B8%B0%EA%B5%AC/">국제 표준화기구</category>
       
-      <category domain="https://y8ncastle.me/tags/telecommunications-technology-association/">telecommunications-technology-association</category>
+      <category domain="https://y8ncastle.me/tags/telecommunications-technology-association/">telecommunications technology association</category>
       
-      <category domain="https://y8ncastle.me/tags/ict-standard/">ict-standard</category>
+      <category domain="https://y8ncastle.me/tags/ict-standard/">ict standard</category>
       
-      <category domain="https://y8ncastle.me/tags/tta-academy/">tta-academy</category>
+      <category domain="https://y8ncastle.me/tags/tta-academy/">tta academy</category>
       
       
       <comments>https://y8ncastle.me/2020/04/23/activity/education/ict-itu-certificate/#disqus_thread</comments>
@@ -2564,8 +2595,8 @@
     
     <item>
       <title>제네시스 블록 생성 오류 해결 (이더리움 DB 초기화)</title>
-      <link>https://y8ncastle.me/2020/04/22/study-note/genesis-error/</link>
-      <guid>https://y8ncastle.me/2020/04/22/study-note/genesis-error/</guid>
+      <link>https://y8ncastle.me/2020/04/22/study-note/ethereum/genesis-error/</link>
+      <guid>https://y8ncastle.me/2020/04/22/study-note/ethereum/genesis-error/</guid>
       <pubDate>Wed, 22 Apr 2020 08:46:00 GMT</pubDate>
       
       <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103390387-86c18700-4b57-11eb-96b7-d5f8b32a4f6b.png&quot; width=&quot;80%&quot;&gt;&lt;/p&gt;  
@@ -2592,23 +2623,23 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D/">제네시스-블록</category>
+      <category domain="https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D/">제네시스 블록</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D-%EC%98%A4%EB%A5%98/">제네시스-블록-오류</category>
+      <category domain="https://y8ncastle.me/tags/%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4-%EB%B8%94%EB%A1%9D-%EC%98%A4%EB%A5%98/">제네시스 블록 오류</category>
       
-      <category domain="https://y8ncastle.me/tags/genesis-block/">genesis-block</category>
+      <category domain="https://y8ncastle.me/tags/genesis-block/">genesis block</category>
       
-      <category domain="https://y8ncastle.me/tags/genesis-block-error/">genesis-block-error</category>
+      <category domain="https://y8ncastle.me/tags/genesis-block-error/">genesis block error</category>
       
       
-      <comments>https://y8ncastle.me/2020/04/22/study-note/genesis-error/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/04/22/study-note/ethereum/genesis-error/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>보름 계획표 (2020.04.16 - 04.30)</title>
-      <link>https://y8ncastle.me/2020/04/14/plan/weekly-report/200416/</link>
-      <guid>https://y8ncastle.me/2020/04/14/plan/weekly-report/200416/</guid>
+      <link>https://y8ncastle.me/2020/04/14/plan/weekly-report/2020/0416/</link>
+      <guid>https://y8ncastle.me/2020/04/14/plan/weekly-report/2020/0416/</guid>
       <pubDate>Tue, 14 Apr 2020 02:44:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -2987,16 +3018,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/04/14/plan/weekly-report/200416/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/04/14/plan/weekly-report/2020/0416/#disqus_thread</comments>
       
     </item>
     
@@ -3023,7 +3054,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/">생활코딩</category>
       
-      <category domain="https://y8ncastle.me/tags/open-tutorials/">open-tutorials</category>
+      <category domain="https://y8ncastle.me/tags/open-tutorials/">open tutorials</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/">자바스크립트</category>
       
@@ -3061,25 +3092,25 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
+      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브-세미나</category>
+      <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube-seminar</category>
+      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube seminar</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8/">사이드-체인</category>
+      <category domain="https://y8ncastle.me/tags/%EC%82%AC%EC%9D%B4%EB%93%9C-%EC%B2%B4%EC%9D%B8/">사이드 체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EA%B0%95%ED%99%94/">프라이버시-강화</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EA%B0%95%ED%99%94/">프라이버시 강화</category>
       
       <category domain="https://y8ncastle.me/tags/sidechain/">sidechain</category>
       
-      <category domain="https://y8ncastle.me/tags/privacy-enhancement/">privacy-enhancement</category>
+      <category domain="https://y8ncastle.me/tags/privacy-enhancement/">privacy enhancement</category>
       
       
       <comments>https://y8ncastle.me/2020/04/05/activity/seminar/youtube-seminar-20-9/#disqus_thread</comments>
@@ -3088,8 +3119,8 @@
     
     <item>
       <title>보름 계획표 (2020.04.01 - 04.15)</title>
-      <link>https://y8ncastle.me/2020/03/30/plan/weekly-report/200401/</link>
-      <guid>https://y8ncastle.me/2020/03/30/plan/weekly-report/200401/</guid>
+      <link>https://y8ncastle.me/2020/03/30/plan/weekly-report/2020/0401/</link>
+      <guid>https://y8ncastle.me/2020/03/30/plan/weekly-report/2020/0401/</guid>
       <pubDate>Mon, 30 Mar 2020 04:27:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -3456,23 +3487,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/03/30/plan/weekly-report/200401/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/03/30/plan/weekly-report/2020/0401/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>보름 계획표 (2020.03.16 - 03.31)</title>
-      <link>https://y8ncastle.me/2020/03/15/plan/weekly-report/200316/</link>
-      <guid>https://y8ncastle.me/2020/03/15/plan/weekly-report/200316/</guid>
+      <link>https://y8ncastle.me/2020/03/15/plan/weekly-report/2020/0316/</link>
+      <guid>https://y8ncastle.me/2020/03/15/plan/weekly-report/2020/0316/</guid>
       <pubDate>Sun, 15 Mar 2020 03:32:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -3965,16 +3996,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/03/15/plan/weekly-report/200316/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/03/15/plan/weekly-report/2020/0316/#disqus_thread</comments>
       
     </item>
     
@@ -4000,21 +4031,21 @@
       <category domain="https://y8ncastle.me/categories/Team-Project/Android/">Android</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EA%B5%90%EA%B0%80%EC%9E%90-%EB%8B%B7%EC%BB%B4/">학교가자-닷컴</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EA%B5%90%EA%B0%80%EC%9E%90-%EB%8B%B7%EC%BB%B4/">학교가자 닷컴</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%B4%88%EB%93%B1%ED%95%99%EC%83%9D/">초등학생</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%98%A8%EB%9D%BC%EC%9D%B8-%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/">온라인-학습-플랫폼</category>
+      <category domain="https://y8ncastle.me/tags/%EC%98%A8%EB%9D%BC%EC%9D%B8-%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/">온라인 학습 플랫폼</category>
       
-      <category domain="https://y8ncastle.me/tags/%EA%B0%80%EC%A0%95%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/">가정학습-플랫폼</category>
+      <category domain="https://y8ncastle.me/tags/%EA%B0%80%EC%A0%95%ED%95%99%EC%8A%B5-%ED%94%8C%EB%9E%AB%ED%8F%BC/">가정학습 플랫폼</category>
       
       <category domain="https://y8ncastle.me/tags/daily-geg-daegu/">daily-geg-daegu</category>
       
-      <category domain="https://y8ncastle.me/tags/elementary-school-student/">elementary-school-student</category>
+      <category domain="https://y8ncastle.me/tags/elementary-school-student/">elementary school student</category>
       
-      <category domain="https://y8ncastle.me/tags/online-education-platform/">online-education-platform</category>
+      <category domain="https://y8ncastle.me/tags/online-education-platform/">online education platform</category>
       
-      <category domain="https://y8ncastle.me/tags/home-school-platform/">home-school-platform</category>
+      <category domain="https://y8ncastle.me/tags/home-schooling-platform/">home schooling platform</category>
       
       
       <comments>https://y8ncastle.me/2020/03/08/team-project/daily-geg-daegu/#disqus_thread</comments>
@@ -4023,8 +4054,8 @@
     
     <item>
       <title>두 주 계획표 (2020.03.01 - 03.15)</title>
-      <link>https://y8ncastle.me/2020/03/01/plan/weekly-report/200301/</link>
-      <guid>https://y8ncastle.me/2020/03/01/plan/weekly-report/200301/</guid>
+      <link>https://y8ncastle.me/2020/03/01/plan/weekly-report/2020/0301/</link>
+      <guid>https://y8ncastle.me/2020/03/01/plan/weekly-report/2020/0301/</guid>
       <pubDate>Sun, 01 Mar 2020 11:21:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -4265,16 +4296,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/03/01/plan/weekly-report/200301/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/03/01/plan/weekly-report/2020/0301/#disqus_thread</comments>
       
     </item>
     
@@ -4307,15 +4338,15 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">이더리움-프라이빗-네트워크</category>
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">이더리움 프라이빗 네트워크</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트-컨트랙트</category>
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95/">이더리움-네트워크-구축</category>
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95/">이더리움 네트워크-구축</category>
       
-      <category domain="https://y8ncastle.me/tags/ethereum-private-network/">ethereum-private-network</category>
+      <category domain="https://y8ncastle.me/tags/ethereum-private-network/">ethereum private network</category>
       
-      <category domain="https://y8ncastle.me/tags/smart-contract/">smart-contract</category>
+      <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
       
       
       <comments>https://y8ncastle.me/2020/02/25/education/ethereum/ethereum-private-network/#disqus_thread</comments>
@@ -4345,7 +4376,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/">생활코딩</category>
       
-      <category domain="https://y8ncastle.me/tags/open-tutorials/">open-tutorials</category>
+      <category domain="https://y8ncastle.me/tags/open-tutorials/">open tutorials</category>
       
       <category domain="https://y8ncastle.me/tags/css/">css</category>
       
@@ -4376,7 +4407,7 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Qualification/">Qualification</category>
       
       
-      <category domain="https://y8ncastle.me/tags/bachelors-degree/">bachelors-degree</category>
+      <category domain="https://y8ncastle.me/tags/bachelor-s-degree/">bachelor&#39;s degree</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/">한밭대학교</category>
       
@@ -4384,15 +4415,15 @@
       
       <category domain="https://y8ncastle.me/tags/hbnu/">hbnu</category>
       
-      <category domain="https://y8ncastle.me/tags/information-and-communication-engineering/">information-and-communication-engineering</category>
+      <category domain="https://y8ncastle.me/tags/information-and-communication-engineering/">information and communication engineering</category>
       
-      <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EB%A6%BD-%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/">국립-한밭대학교</category>
+      <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EB%A6%BD-%ED%95%9C%EB%B0%AD%EB%8C%80%ED%95%99%EA%B5%90/">국립 한밭대학교</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99%EA%B3%BC/">정보통신공학과</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%9C%84/">학사-학위</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%9C%84/">학사 학위</category>
       
-      <category domain="https://y8ncastle.me/tags/hanbat-national-university/">hanbat-national-university</category>
+      <category domain="https://y8ncastle.me/tags/hanbat-national-university/">hanbat national university</category>
       
       
       <comments>https://y8ncastle.me/2020/02/24/qualification/hanbat-diploma/#disqus_thread</comments>
@@ -4426,21 +4457,21 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
+      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브-세미나</category>
+      <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube-seminar</category>
+      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube seminar</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/">프라이버시-보호</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/">프라이버시 보호</category>
       
-      <category domain="https://y8ncastle.me/tags/privacy-security/">privacy-security</category>
+      <category domain="https://y8ncastle.me/tags/privacy-security/">privacy security</category>
       
       
       <comments>https://y8ncastle.me/2020/02/24/activity/seminar/youtube-seminar-20-3/#disqus_thread</comments>
@@ -4449,8 +4480,8 @@
     
     <item>
       <title>한 주 계획표 (2020.02.24 - 02.29)</title>
-      <link>https://y8ncastle.me/2020/02/24/plan/weekly-report/200224/</link>
-      <guid>https://y8ncastle.me/2020/02/24/plan/weekly-report/200224/</guid>
+      <link>https://y8ncastle.me/2020/02/24/plan/weekly-report/2020/0224/</link>
+      <guid>https://y8ncastle.me/2020/02/24/plan/weekly-report/2020/0224/</guid>
       <pubDate>Mon, 24 Feb 2020 02:03:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -4577,16 +4608,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/02/24/plan/weekly-report/200224/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/02/24/plan/weekly-report/2020/0224/#disqus_thread</comments>
       
     </item>
     
@@ -4613,7 +4644,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/">생활코딩</category>
       
-      <category domain="https://y8ncastle.me/tags/open-tutorials/">open-tutorials</category>
+      <category domain="https://y8ncastle.me/tags/open-tutorials/">open tutorials</category>
       
       <category domain="https://y8ncastle.me/tags/html/">html</category>
       
@@ -4644,15 +4675,15 @@
       <category domain="https://y8ncastle.me/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국-소프트웨어-공학-학술대회</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
-      <category domain="https://y8ncastle.me/tags/software-engineering-society/">software-engineering-society</category>
+      <category domain="https://y8ncastle.me/tags/software-engineering-society/">software engineering society</category>
       
       <category domain="https://y8ncastle.me/tags/kcse/">kcse</category>
       
-      <category domain="https://y8ncastle.me/tags/kcse-2020/">kcse-2020</category>
+      <category domain="https://y8ncastle.me/tags/kcse-2020/">kcse 2020</category>
       
       
       <comments>https://y8ncastle.me/2020/02/15/activity/academy/kcse-2020/#disqus_thread</comments>
@@ -4689,9 +4720,9 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어-공학</category>
+      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
       
-      <category domain="https://y8ncastle.me/tags/software-engineering/">software-engineering</category>
+      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
       
       
       <comments>https://y8ncastle.me/2020/02/14/personal-project/ethereum/fresh-pork-dev-report/#disqus_thread</comments>
@@ -4729,17 +4760,17 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어-공학</category>
+      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
       
-      <category domain="https://y8ncastle.me/tags/software-engineering/">software-engineering</category>
+      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류-유통-시스템</category>
+      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인-유통-시스템</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인 유통 시스템</category>
       
-      <category domain="https://y8ncastle.me/tags/distribution-system/">distribution-system</category>
+      <category domain="https://y8ncastle.me/tags/distribution-system/">distribution system</category>
       
-      <category domain="https://y8ncastle.me/tags/blockchain-distribution-system/">blockchain-distribution-system</category>
+      <category domain="https://y8ncastle.me/tags/blockchain-distribution-system/">blockchain distribution system</category>
       
       
       <comments>https://y8ncastle.me/2020/02/14/personal-project/ethereum/fresh-pork/#disqus_thread</comments>
@@ -4773,13 +4804,13 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
-      <category domain="https://y8ncastle.me/tags/Crypto-Community/">Crypto Community</category>
+      <category domain="https://y8ncastle.me/tags/crypto-community/">crypto community</category>
       
-      <category domain="https://y8ncastle.me/tags/Crypto-Income/">Crypto Income</category>
+      <category domain="https://y8ncastle.me/tags/crypto-income/">crypto income</category>
       
-      <category domain="https://y8ncastle.me/tags/Cryptocurrency/">Cryptocurrency</category>
+      <category domain="https://y8ncastle.me/tags/cryptocurrency/">cryptocurrency</category>
       
-      <category domain="https://y8ncastle.me/tags/Blockchain/">Blockchain</category>
+      <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
       
       <comments>https://y8ncastle.me/2020/02/08/crypto-community/crypto-income-final/#disqus_thread</comments>
@@ -4788,8 +4819,8 @@
     
     <item>
       <title>두 주 계획표 (2020.02.10 - 02.23)</title>
-      <link>https://y8ncastle.me/2020/02/08/plan/weekly-report/200210/</link>
-      <guid>https://y8ncastle.me/2020/02/08/plan/weekly-report/200210/</guid>
+      <link>https://y8ncastle.me/2020/02/08/plan/weekly-report/2020/0210/</link>
+      <guid>https://y8ncastle.me/2020/02/08/plan/weekly-report/2020/0210/</guid>
       <pubDate>Sat, 08 Feb 2020 12:30:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -4970,16 +5001,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/02/08/plan/weekly-report/200210/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/02/08/plan/weekly-report/2020/0210/#disqus_thread</comments>
       
     </item>
     
@@ -5012,11 +5043,11 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</category>
       
-      <category domain="https://y8ncastle.me/tags/team-project/">team-project</category>
+      <category domain="https://y8ncastle.me/tags/team-project/">team project</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">캡스톤디자인</category>
       
-      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone-design</category>
+      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone design</category>
       
       <category domain="https://y8ncastle.me/tags/mrm/">mrm</category>
       
@@ -5048,23 +5079,23 @@
       <category domain="https://y8ncastle.me/categories/Study-Note/Bitcoin/">Bitcoin</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%B3%B4%EC%95%88/">비트코인-보안</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%B3%B4%EC%95%88/">비트코인 보안</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98/">비트코인-애플리케이션</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98/">비트코인 애플리케이션</category>
       
-      <category domain="https://y8ncastle.me/tags/bitcoin-security/">bitcoin-security</category>
+      <category domain="https://y8ncastle.me/tags/bitcoin-security/">bitcoin security</category>
       
-      <category domain="https://y8ncastle.me/tags/bitcoin-application/">bitcoin-application</category>
+      <category domain="https://y8ncastle.me/tags/bitcoin-application/">bitcoin application</category>
       
       
       <comments>https://y8ncastle.me/2020/01/31/study-note/bitcoin/mastering-bitcoin/8/#disqus_thread</comments>
@@ -5096,11 +5127,11 @@
       
       <category domain="https://y8ncastle.me/tags/consensus/">consensus</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
@@ -5144,11 +5175,11 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
@@ -5161,8 +5192,8 @@
     
     <item>
       <title>두 주 계획표 (2020.01.28 - 02.09)</title>
-      <link>https://y8ncastle.me/2020/01/27/plan/weekly-report/200128/</link>
-      <guid>https://y8ncastle.me/2020/01/27/plan/weekly-report/200128/</guid>
+      <link>https://y8ncastle.me/2020/01/27/plan/weekly-report/2020/0128/</link>
+      <guid>https://y8ncastle.me/2020/01/27/plan/weekly-report/2020/0128/</guid>
       <pubDate>Mon, 27 Jan 2020 12:50:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -5385,16 +5416,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/01/27/plan/weekly-report/200128/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/01/27/plan/weekly-report/2020/0128/#disqus_thread</comments>
       
     </item>
     
@@ -5425,15 +5456,15 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%8B%A0%EC%9B%90%EA%B4%80%EB%A6%AC/">신원관리</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터-공유</category>
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
       
-      <category domain="https://y8ncastle.me/tags/identity-management/">identity-management</category>
+      <category domain="https://y8ncastle.me/tags/identity-management/">identity management</category>
       
-      <category domain="https://y8ncastle.me/tags/data-sharing/">data-sharing</category>
+      <category domain="https://y8ncastle.me/tags/data-sharing/">data sharing</category>
       
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
-      <category domain="https://y8ncastle.me/tags/base-lab/">base-lab</category>
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
       
       <comments>https://y8ncastle.me/2020/01/19/activity/seminar/dns-idm/#disqus_thread</comments>
@@ -5463,19 +5494,19 @@
       <category domain="https://y8ncastle.me/categories/Study-Note/Bitcoin/">Bitcoin</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">비트코인-네트워크</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">비트코인 네트워크</category>
       
-      <category domain="https://y8ncastle.me/tags/bitcoin-network/">bitcoin-network</category>
+      <category domain="https://y8ncastle.me/tags/bitcoin-network/">bitcoin network</category>
       
       
       <comments>https://y8ncastle.me/2020/01/17/study-note/bitcoin/mastering-bitcoin/5/#disqus_thread</comments>
@@ -5505,23 +5536,23 @@
       <category domain="https://y8ncastle.me/categories/Study-Note/Bitcoin/">Bitcoin</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%A7%80%EA%B0%91/">비트코인-지갑</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%A7%80%EA%B0%91/">비트코인 지갑</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B1%B0%EB%9E%98/">비트코인-거래</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B1%B0%EB%9E%98/">비트코인 거래</category>
       
-      <category domain="https://y8ncastle.me/tags/bitcoin-wallet/">bitcoin-wallet</category>
+      <category domain="https://y8ncastle.me/tags/bitcoin-wallet/">bitcoin wallet</category>
       
-      <category domain="https://y8ncastle.me/tags/bitcoin-trade/">bitcoin-trade</category>
+      <category domain="https://y8ncastle.me/tags/bitcoin-trade/">bitcoin trade</category>
       
       
       <comments>https://y8ncastle.me/2020/01/16/study-note/bitcoin/mastering-bitcoin/4/#disqus_thread</comments>
@@ -5551,19 +5582,19 @@
       <category domain="https://y8ncastle.me/categories/Study-Note/Bitcoin/">Bitcoin</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%82%A4%EC%99%80-%EC%A3%BC%EC%86%8C/">키와-주소</category>
+      <category domain="https://y8ncastle.me/tags/%ED%82%A4%EC%99%80-%EC%A3%BC%EC%86%8C/">키와 주소</category>
       
-      <category domain="https://y8ncastle.me/tags/key-and-address/">key-and-address</category>
+      <category domain="https://y8ncastle.me/tags/key-and-address/">key and address</category>
       
       
       <comments>https://y8ncastle.me/2020/01/15/study-note/bitcoin/mastering-bitcoin/3/#disqus_thread</comments>
@@ -5593,21 +5624,21 @@
       <category domain="https://y8ncastle.me/categories/Study-Note/Bitcoin/">Bitcoin</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%BD%94%EC%96%B4/">비트코인-코어</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%BD%94%EC%96%B4/">비트코인 코어</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%B0%B8%EC%A1%B0%EA%B5%AC%ED%98%84/">참조구현</category>
       
-      <category domain="https://y8ncastle.me/tags/bitcoin-core/">bitcoin-core</category>
+      <category domain="https://y8ncastle.me/tags/bitcoin-core/">bitcoin core</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin-cli/">bitcoin-cli</category>
       
@@ -5654,7 +5685,7 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%85%BC%EB%AC%B8/">학술논문</category>
       
-      <category domain="https://y8ncastle.me/tags/ks-blockchain/">ks-blockchain</category>
+      <category domain="https://y8ncastle.me/tags/ks-blockchain/">ks blockchain</category>
       
       <category domain="https://y8ncastle.me/tags/academy/">academy</category>
       
@@ -5686,21 +5717,21 @@
       <category domain="https://y8ncastle.me/categories/Study-Note/Bitcoin/">Bitcoin</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링-비트코인</category>
+      <category domain="https://y8ncastle.me/tags/%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">마스터링 비트코인</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/">비트코인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B0%9C%EC%9A%94/">비트코인-개요</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EA%B0%9C%EC%9A%94/">비트코인 개요</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC/">비트코인-작동원리</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC/">비트코인 작동원리</category>
       
-      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering-bitcoin</category>
+      <category domain="https://y8ncastle.me/tags/mastering-bitcoin/">mastering bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/bitcoin/">bitcoin</category>
       
       <category domain="https://y8ncastle.me/tags/btc/">btc</category>
       
-      <category domain="https://y8ncastle.me/tags/bitcoin-theory/">bitcoin-theory</category>
+      <category domain="https://y8ncastle.me/tags/bitcoin-theory/">bitcoin theory</category>
       
       
       <comments>https://y8ncastle.me/2020/01/13/study-note/bitcoin/mastering-bitcoin/1/#disqus_thread</comments>
@@ -5709,8 +5740,8 @@
     
     <item>
       <title>두 주 계획표 (2020.01.14 - 01.27)</title>
-      <link>https://y8ncastle.me/2020/01/13/plan/weekly-report/200114/</link>
-      <guid>https://y8ncastle.me/2020/01/13/plan/weekly-report/200114/</guid>
+      <link>https://y8ncastle.me/2020/01/13/plan/weekly-report/2020/0114/</link>
+      <guid>https://y8ncastle.me/2020/01/13/plan/weekly-report/2020/0114/</guid>
       <pubDate>Mon, 13 Jan 2020 12:28:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -5921,16 +5952,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2020/01/13/plan/weekly-report/200114/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2020/01/13/plan/weekly-report/2020/0114/#disqus_thread</comments>
       
     </item>
     
@@ -5952,11 +5983,11 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
@@ -5990,17 +6021,17 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%95%80%ED%85%8C%ED%81%AC/">핀테크</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C-%EB%8F%85-%ED%95%80%ED%85%8C%ED%81%AC/">한-독-핀테크</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C-%EB%8F%85-%ED%95%80%ED%85%8C%ED%81%AC/">한-독 핀테크</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%8F%AC%EB%9F%BC/">블록체인-포럼</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%8F%AC%EB%9F%BC/">블록체인 포럼</category>
       
       <category domain="https://y8ncastle.me/tags/germany/">germany</category>
       
       <category domain="https://y8ncastle.me/tags/fintech/">fintech</category>
       
-      <category domain="https://y8ncastle.me/tags/kor-ger-fintech/">kor-ger-fintech</category>
+      <category domain="https://y8ncastle.me/tags/kor-ger-fintech/">kor-ger fintech</category>
       
-      <category domain="https://y8ncastle.me/tags/blockchain-forum/">blockchain-forum</category>
+      <category domain="https://y8ncastle.me/tags/blockchain-forum/">blockchain forum</category>
       
       
       <comments>https://y8ncastle.me/2020/01/12/activity/forum/kor-ger-fintech/#disqus_thread</comments>
@@ -6032,7 +6063,9 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저-패브릭</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저 패브릭</category>
+      
+      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger fabric</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80/">하이퍼레저</category>
       
@@ -6040,9 +6073,7 @@
       
       <category domain="https://y8ncastle.me/tags/hyperledger/">hyperledger</category>
       
-      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger-fabric</category>
-      
-      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul-blockchain-center</category>
+      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul blockchain center</category>
       
       
       <comments>https://y8ncastle.me/2020/01/12/education/hyperledger/sogang-hyperledger/#disqus_thread</comments>
@@ -6078,13 +6109,13 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트-컨트랙트</category>
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.me/tags/smart-contract/">smart-contract</category>
+      <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
       
-      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul-blockchain-center</category>
+      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul blockchain center</category>
       
       
       <comments>https://y8ncastle.me/2020/01/12/education/ethereum/sogang/smart-contract/#disqus_thread</comments>
@@ -6122,9 +6153,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
       
-      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul-blockchain-center</category>
+      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul blockchain center</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%8B%A4%EC%8A%B5/">이더리움-실습</category>
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%8B%A4%EC%8A%B5/">이더리움 실습</category>
       
       
       <comments>https://y8ncastle.me/2020/01/12/education/ethereum/sogang/ethereum/#disqus_thread</comments>
@@ -6158,15 +6189,15 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
       
-      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul-blockchain-center</category>
+      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul blockchain center</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9E%85%EB%AC%B8/">블록체인-입문</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9E%85%EB%AC%B8/">블록체인 입문</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9C%A4%EC%84%9D%EB%B9%88-%EA%B5%90%EC%88%98%EB%8B%98/">윤석빈-교수님</category>
+      <category domain="https://y8ncastle.me/tags/%EC%9C%A4%EC%84%9D%EB%B9%88-%EA%B5%90%EC%88%98%EB%8B%98/">윤석빈 교수님</category>
       
-      <category domain="https://y8ncastle.me/tags/blockchain-introduction/">blockchain-introduction</category>
+      <category domain="https://y8ncastle.me/tags/blockchain-introduction/">blockchain introduction</category>
       
-      <category domain="https://y8ncastle.me/tags/seokbin-yoon/">seokbin-yoon</category>
+      <category domain="https://y8ncastle.me/tags/seokbin-yoon/">seokbin yoon</category>
       
       
       <comments>https://y8ncastle.me/2020/01/12/education/blockchain/sogang/blockchain-introduction/#disqus_thread</comments>
@@ -6200,15 +6231,15 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
       
-      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul-blockchain-center</category>
+      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul blockchain center</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EA%B3%BC-%EC%82%B0%EC%97%85%ED%98%81%EC%8B%A0/">블록체인과-산업혁신</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EA%B3%BC-%EC%82%B0%EC%97%85%ED%98%81%EC%8B%A0/">블록체인과 산업혁신</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B0%95%EC%88%98%EC%9A%A9-%EA%B5%90%EC%88%98%EB%8B%98/">박수용-교수님</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B0%95%EC%88%98%EC%9A%A9-%EA%B5%90%EC%88%98%EB%8B%98/">박수용 교수님</category>
       
-      <category domain="https://y8ncastle.me/tags/blockchain-and-industrial-revolution/">blockchain-and-industrial-revolution</category>
+      <category domain="https://y8ncastle.me/tags/blockchain-and-industrial-revolution/">blockchain and industrial revolution</category>
       
-      <category domain="https://y8ncastle.me/tags/sooyong-park/">sooyong-park</category>
+      <category domain="https://y8ncastle.me/tags/sooyong-park/">sooyong park</category>
       
       
       <comments>https://y8ncastle.me/2019/12/29/education/blockchain/sogang/blockchain-industrial-rev/#disqus_thread</comments>
@@ -6217,8 +6248,8 @@
     
     <item>
       <title>두 주 계획표 (2020.01.01 - 01.13)</title>
-      <link>https://y8ncastle.me/2019/12/29/plan/weekly-report/200101/</link>
-      <guid>https://y8ncastle.me/2019/12/29/plan/weekly-report/200101/</guid>
+      <link>https://y8ncastle.me/2019/12/29/plan/weekly-report/2020/0101/</link>
+      <guid>https://y8ncastle.me/2019/12/29/plan/weekly-report/2020/0101/</guid>
       <pubDate>Sun, 29 Dec 2019 08:00:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -6333,16 +6364,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/12/29/plan/weekly-report/200101/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/12/29/plan/weekly-report/2020/0101/#disqus_thread</comments>
       
     </item>
     
@@ -6403,17 +6434,17 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%A1%B8%EC%97%85/">졸업</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%99%EC%82%AC/">대학교-학사</category>
+      <category domain="https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EA%B5%90-%ED%95%99%EC%82%AC/">대학교 학사</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%EC%A1%B8%EC%97%85/">학사-졸업</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%EC%A1%B8%EC%97%85/">학사 졸업</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%A0%90/">학사-학점</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%82%AC-%ED%95%99%EC%A0%90/">학사 학점</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%A0%90/">학점</category>
       
       <category domain="https://y8ncastle.me/tags/graduation/">graduation</category>
       
-      <category domain="https://y8ncastle.me/tags/bachelors-degree/">bachelors-degree</category>
+      <category domain="https://y8ncastle.me/tags/bachelor-s-degree/">bachelor&#39;s degree</category>
       
       <category domain="https://y8ncastle.me/tags/gpa/">gpa</category>
       
@@ -6443,27 +6474,27 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Achievement/">Achievement</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/">컴퓨터공학과</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
+      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
       <category domain="https://y8ncastle.me/tags/sogang/">sogang</category>
       
-      <category domain="https://y8ncastle.me/tags/computer-engineering/">computer-engineering</category>
+      <category domain="https://y8ncastle.me/tags/computer-engineering/">computer engineering</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EB%8C%80%ED%95%99%EC%9B%90/">서강대학교-대학원</category>
+      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EB%8C%80%ED%95%99%EC%9B%90/">서강대학교 대학원</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/">서강대학교-석사과정</category>
+      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/">서강대학교 석사과정</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/">컴퓨터공학-석사과정</category>
+      <category domain="https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99-%EC%84%9D%EC%82%AC%EA%B3%BC%EC%A0%95/">컴퓨터공학 석사과정</category>
       
-      <category domain="https://y8ncastle.me/tags/masters-degree/">masters-degree</category>
+      <category domain="https://y8ncastle.me/tags/master-s-degree/">master&#39;s degree</category>
       
       
       <comments>https://y8ncastle.me/2019/12/20/achievement/sogang/univ-cert/#disqus_thread</comments>
@@ -6472,8 +6503,8 @@
     
     <item>
       <title>두 주 계획표 (2019.12.21 - 12.31)</title>
-      <link>https://y8ncastle.me/2019/12/20/plan/weekly-report/191221/</link>
-      <guid>https://y8ncastle.me/2019/12/20/plan/weekly-report/191221/</guid>
+      <link>https://y8ncastle.me/2019/12/20/plan/weekly-report/2019/1221/</link>
+      <guid>https://y8ncastle.me/2019/12/20/plan/weekly-report/2019/1221/</guid>
       <pubDate>Fri, 20 Dec 2019 10:02:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -6564,16 +6595,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/12/20/plan/weekly-report/191221/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/12/20/plan/weekly-report/2019/1221/#disqus_thread</comments>
       
     </item>
     
@@ -6785,23 +6816,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Achievement/">Achievement</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90/">서강대학교</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
+      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
       <category domain="https://y8ncastle.me/tags/sogang/">sogang</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EB%8C%80%ED%95%99%EC%9B%90/">서강대학교-대학원</category>
+      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EB%8C%80%ED%95%99%EC%9B%90/">서강대학교 대학원</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/">서강대학교-컴퓨터공학과</category>
+      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80%ED%95%99%EA%B5%90-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/">서강대학교 컴퓨터공학과</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-university-graduate-school/">sogang-university-graduate-school</category>
+      <category domain="https://y8ncastle.me/tags/sogang-university-graduate-school/">sogang university graduate school</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-computer-engineering/">sogang-computer-engineering</category>
+      <category domain="https://y8ncastle.me/tags/sogang-computer-engineering/">sogang computer engineering</category>
       
       
       <comments>https://y8ncastle.me/2019/12/07/achievement/sogang/univ-pass/#disqus_thread</comments>
@@ -6810,8 +6841,8 @@
     
     <item>
       <title>한 주 계획표 (2019.12.09 - 12.20)</title>
-      <link>https://y8ncastle.me/2019/12/07/plan/weekly-report/191209/</link>
-      <guid>https://y8ncastle.me/2019/12/07/plan/weekly-report/191209/</guid>
+      <link>https://y8ncastle.me/2019/12/07/plan/weekly-report/2019/1209/</link>
+      <guid>https://y8ncastle.me/2019/12/07/plan/weekly-report/2019/1209/</guid>
       <pubDate>Sat, 07 Dec 2019 11:59:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -6884,23 +6915,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/12/07/plan/weekly-report/191209/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/12/07/plan/weekly-report/2019/1209/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.12.01 - 12.08)</title>
-      <link>https://y8ncastle.me/2019/11/29/plan/weekly-report/191201/</link>
-      <guid>https://y8ncastle.me/2019/11/29/plan/weekly-report/191201/</guid>
+      <link>https://y8ncastle.me/2019/11/29/plan/weekly-report/2019/1201/</link>
+      <guid>https://y8ncastle.me/2019/11/29/plan/weekly-report/2019/1201/</guid>
       <pubDate>Fri, 29 Nov 2019 07:15:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -7027,23 +7058,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/11/29/plan/weekly-report/191201/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/11/29/plan/weekly-report/2019/1201/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.11.25 - 11.30)</title>
-      <link>https://y8ncastle.me/2019/11/24/plan/weekly-report/191125/</link>
-      <guid>https://y8ncastle.me/2019/11/24/plan/weekly-report/191125/</guid>
+      <link>https://y8ncastle.me/2019/11/24/plan/weekly-report/2019/1125/</link>
+      <guid>https://y8ncastle.me/2019/11/24/plan/weekly-report/2019/1125/</guid>
       <pubDate>Sun, 24 Nov 2019 10:27:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -7158,16 +7189,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/11/24/plan/weekly-report/191125/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/11/24/plan/weekly-report/2019/1125/#disqus_thread</comments>
       
     </item>
     
@@ -7195,21 +7226,21 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80/">서강대</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/">서강대-컴퓨터공학과</category>
+      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EA%B0%95%EB%8C%80-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/">서강대 컴퓨터공학과</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%B5%ED%95%99%EA%B3%BC/">컴퓨터공학과</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EC%9B%90-%EB%A9%B4%EC%A0%91/">대학원-면접</category>
+      <category domain="https://y8ncastle.me/tags/%EB%8C%80%ED%95%99%EC%9B%90-%EB%A9%B4%EC%A0%91/">대학원 면접</category>
       
-      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang-university</category>
+      <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
       <category domain="https://y8ncastle.me/tags/sogang/">sogang</category>
       
-      <category domain="https://y8ncastle.me/tags/computer-engineering/">computer-engineering</category>
+      <category domain="https://y8ncastle.me/tags/computer-engineering/">computer engineering</category>
       
-      <category domain="https://y8ncastle.me/tags/graduate-school/">graduate-school</category>
+      <category domain="https://y8ncastle.me/tags/graduate-school/">graduate school</category>
       
-      <category domain="https://y8ncastle.me/tags/university-interview/">university-interview</category>
+      <category domain="https://y8ncastle.me/tags/university-interview/">university interview</category>
       
       
       <comments>https://y8ncastle.me/2019/11/23/it-free-board/sogang-univ-grad-interview/#disqus_thread</comments>
@@ -7237,21 +7268,21 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Qualification/">Qualification</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/">정보처리기사</category>
       
-      <category domain="https://y8ncastle.me/tags/data-processing-engineer/">data-processing-engineer</category>
+      <category domain="https://y8ncastle.me/tags/data-processing-engineer/">data processing engineer</category>
       
-      <category domain="https://y8ncastle.me/tags/engineer-information-processing/">engineer-information-processing</category>
+      <category domain="https://y8ncastle.me/tags/engineer-information-processing/">engineer information processing</category>
       
       <category domain="https://y8ncastle.me/tags/certificate/">certificate</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EA%B0%80%EA%B8%B0%EC%88%A0%EC%9E%90%EA%B2%A9/">국가기술자격</category>
       
-      <category domain="https://y8ncastle.me/tags/national-technical-qualification/">national-technical-qualification</category>
+      <category domain="https://y8ncastle.me/tags/national-technical-qualification/">national technical qualification</category>
       
       
       <comments>https://y8ncastle.me/2019/11/23/qualification/data-processing-engineer/#disqus_thread</comments>
@@ -7280,17 +7311,17 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Qualification/">Qualification</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-it%EC%9E%90%EA%B2%A9/">국제-it자격</category>
+      <category domain="https://y8ncastle.me/tags/%EA%B5%AD%EC%A0%9C-it%EC%9E%90%EA%B2%A9/">국제 it자격</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/">파이썬</category>
       
       <category domain="https://y8ncastle.me/tags/icdl/">icdl</category>
       
-      <category domain="https://y8ncastle.me/tags/icdl-professional-computing-python/">icdl-professional-computing-python</category>
+      <category domain="https://y8ncastle.me/tags/icdl-professional-computing-python/">icdl professional computing python</category>
       
       <category domain="https://y8ncastle.me/tags/python/">python</category>
       
-      <category domain="https://y8ncastle.me/tags/computing-python/">computing-python</category>
+      <category domain="https://y8ncastle.me/tags/computing-python/">computing python</category>
       
       
       <comments>https://y8ncastle.me/2019/11/20/qualification/icdl-computing-python/#disqus_thread</comments>
@@ -7331,7 +7362,7 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8/">실전문제연구단</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/">실전문제연구단-경진대회</category>
+      <category domain="https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/">실전문제연구단 경진대회</category>
       
       <category domain="https://y8ncastle.me/tags/x-corps/">x-corps</category>
       
@@ -7366,7 +7397,7 @@
       
       <category domain="https://y8ncastle.me/tags/hanbat/">hanbat</category>
       
-      <category domain="https://y8ncastle.me/tags/information-and-communication-engineering/">information-and-communication-engineering</category>
+      <category domain="https://y8ncastle.me/tags/information-and-communication-engineering/">information and communication engineering</category>
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
@@ -7378,7 +7409,7 @@
       
       <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
       
-      <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation-exhibition</category>
+      <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation exhibition</category>
       
       
       <comments>https://y8ncastle.me/2019/11/19/activity/exhibition/hanbat-ice-exh/#disqus_thread</comments>
@@ -7416,11 +7447,11 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</category>
       
-      <category domain="https://y8ncastle.me/tags/team-project/">team-project</category>
+      <category domain="https://y8ncastle.me/tags/team-project/">team project</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-%EB%B3%B4%EA%B3%A0%EC%84%9C/">한이음-보고서</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-%EB%B3%B4%EA%B3%A0%EC%84%9C/">한이음 보고서</category>
       
-      <category domain="https://y8ncastle.me/tags/hanium-report/">hanium-report</category>
+      <category domain="https://y8ncastle.me/tags/hanium-report/">hanium report</category>
       
       
       <comments>https://y8ncastle.me/2019/11/19/team-project/hanium/final-report/#disqus_thread</comments>
@@ -7468,8 +7499,8 @@
     
     <item>
       <title>한 주 계획표 (2019.11.18 - 11.24)</title>
-      <link>https://y8ncastle.me/2019/11/17/plan/weekly-report/191118/</link>
-      <guid>https://y8ncastle.me/2019/11/17/plan/weekly-report/191118/</guid>
+      <link>https://y8ncastle.me/2019/11/17/plan/weekly-report/2019/1118/</link>
+      <guid>https://y8ncastle.me/2019/11/17/plan/weekly-report/2019/1118/</guid>
       <pubDate>Sun, 17 Nov 2019 06:36:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -7596,23 +7627,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/11/17/plan/weekly-report/191118/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/11/17/plan/weekly-report/2019/1118/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.11.11 - 11.17)</title>
-      <link>https://y8ncastle.me/2019/11/11/plan/weekly-report/191111/</link>
-      <guid>https://y8ncastle.me/2019/11/11/plan/weekly-report/191111/</guid>
+      <link>https://y8ncastle.me/2019/11/11/plan/weekly-report/2019/1111/</link>
+      <guid>https://y8ncastle.me/2019/11/11/plan/weekly-report/2019/1111/</guid>
       <pubDate>Sun, 10 Nov 2019 16:00:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -7751,16 +7782,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/11/11/plan/weekly-report/191111/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/11/11/plan/weekly-report/2019/1111/#disqus_thread</comments>
       
     </item>
     
@@ -7795,17 +7826,17 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B0%95%EB%9E%8C%ED%9A%8C/">박람회</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ict-%EB%A9%98%ED%86%A0%EB%A7%81/">한이음-ict-멘토링</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ict-%EB%A9%98%ED%86%A0%EB%A7%81/">한이음 ict 멘토링</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%B7%A8%EC%97%85%EC%BD%98%EC%84%9C%ED%8A%B8/">취업콘서트</category>
       
-      <category domain="https://y8ncastle.me/tags/hanium-ict-mentoring/">hanium-ict-mentoring</category>
+      <category domain="https://y8ncastle.me/tags/hanium-ict-mentoring/">hanium ict mentoring</category>
       
-      <category domain="https://y8ncastle.me/tags/ict-mentoring/">ict-mentoring</category>
+      <category domain="https://y8ncastle.me/tags/ict-mentoring/">ict mentoring</category>
       
-      <category domain="https://y8ncastle.me/tags/job-concert/">job-concert</category>
+      <category domain="https://y8ncastle.me/tags/job-concert/">job concert</category>
       
-      <category domain="https://y8ncastle.me/tags/ict-%EB%A9%98%ED%86%A0%EB%A7%81/">ict-멘토링</category>
+      <category domain="https://y8ncastle.me/tags/ict-%EB%A9%98%ED%86%A0%EB%A7%81/">ict 멘토링</category>
       
       
       <comments>https://y8ncastle.me/2019/11/08/activity/exposition/hanium-ict-mentoring-all/#disqus_thread</comments>
@@ -7842,15 +7873,15 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B0%95%EB%9E%8C%ED%9A%8C/">박람회</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ict-%EB%A9%98%ED%86%A0%EB%A7%81/">한이음-ict-멘토링</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ict-%EB%A9%98%ED%86%A0%EB%A7%81/">한이음 ict 멘토링</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%B7%A8%EC%97%85%EC%BD%98%EC%84%9C%ED%8A%B8/">취업콘서트</category>
       
-      <category domain="https://y8ncastle.me/tags/hanium-ict-mentoring/">hanium-ict-mentoring</category>
+      <category domain="https://y8ncastle.me/tags/hanium-ict-mentoring/">hanium ict mentoring</category>
       
-      <category domain="https://y8ncastle.me/tags/ict-mentoring/">ict-mentoring</category>
+      <category domain="https://y8ncastle.me/tags/ict-mentoring/">ict mentoring</category>
       
-      <category domain="https://y8ncastle.me/tags/job-concert/">job-concert</category>
+      <category domain="https://y8ncastle.me/tags/job-concert/">job concert</category>
       
       
       <comments>https://y8ncastle.me/2019/11/07/activity/exposition/hanium-ict-mentoring/#disqus_thread</comments>
@@ -7890,9 +7921,9 @@
       
       <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저-패브릭</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저 패브릭</category>
       
-      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger-fabric</category>
+      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger fabric</category>
       
       <category domain="https://y8ncastle.me/tags/hlf/">hlf</category>
       
@@ -7946,9 +7977,9 @@
       
       <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저-패브릭</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저 패브릭</category>
       
-      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger-fabric</category>
+      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger fabric</category>
       
       <category domain="https://y8ncastle.me/tags/ibm/">ibm</category>
       
@@ -7994,11 +8025,11 @@
       
       <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트-컨트랙트</category>
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.me/tags/smart-contract/">smart-contract</category>
+      <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B3%84%EC%95%BD/">스마트-계약</category>
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B3%84%EC%95%BD/">스마트 계약</category>
       
       
       <comments>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/smart-contract/#disqus_thread</comments>
@@ -8038,11 +8069,11 @@
       
       <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%A9%EC%9D%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/">합의-알고리즘</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%A9%EC%9D%98-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/">합의 알고리즘</category>
       
       <category domain="https://y8ncastle.me/tags/consensus/">consensus</category>
       
-      <category domain="https://y8ncastle.me/tags/consensus-algorithm/">consensus-algorithm</category>
+      <category domain="https://y8ncastle.me/tags/consensus-algorithm/">consensus algorithm</category>
       
       
       <comments>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/blockchain-consensus/#disqus_thread</comments>
@@ -8097,13 +8128,13 @@
       
       <category domain="https://y8ncastle.me/tags/ibm/">ibm</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%85%90/">블록체인-개념</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B0%9C%EB%85%90/">블록체인 개념</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B5%AC%EC%A1%B0/">블록체인-구조</category>
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B5%AC%EC%A1%B0/">블록체인 구조</category>
       
-      <category domain="https://y8ncastle.me/tags/blockchain-theory/">blockchain-theory</category>
+      <category domain="https://y8ncastle.me/tags/blockchain-theory/">blockchain theory</category>
       
-      <category domain="https://y8ncastle.me/tags/blockchain-structure/">blockchain-structure</category>
+      <category domain="https://y8ncastle.me/tags/blockchain-structure/">blockchain structure</category>
       
       
       <comments>https://y8ncastle.me/2019/11/07/education/blockchain/hanium/blockchain/#disqus_thread</comments>
@@ -8140,9 +8171,9 @@
       
       <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저-패브릭</category>
+      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저 패브릭</category>
       
-      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger-fabric</category>
+      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger fabric</category>
       
       <category domain="https://y8ncastle.me/tags/hlf/">hlf</category>
       
@@ -8155,8 +8186,8 @@
     
     <item>
       <title>한 주 계획표 (2019.11.04 - 11.10)</title>
-      <link>https://y8ncastle.me/2019/11/03/plan/weekly-report/191104/</link>
-      <guid>https://y8ncastle.me/2019/11/03/plan/weekly-report/191104/</guid>
+      <link>https://y8ncastle.me/2019/11/03/plan/weekly-report/2019/1104/</link>
+      <guid>https://y8ncastle.me/2019/11/03/plan/weekly-report/2019/1104/</guid>
       <pubDate>Sun, 03 Nov 2019 14:16:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -8349,23 +8380,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/11/03/plan/weekly-report/191104/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/11/03/plan/weekly-report/2019/1104/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.10.28 - 11.03)</title>
-      <link>https://y8ncastle.me/2019/10/27/plan/weekly-report/191028/</link>
-      <guid>https://y8ncastle.me/2019/10/27/plan/weekly-report/191028/</guid>
+      <link>https://y8ncastle.me/2019/10/27/plan/weekly-report/2019/1028/</link>
+      <guid>https://y8ncastle.me/2019/10/27/plan/weekly-report/2019/1028/</guid>
       <pubDate>Sun, 27 Oct 2019 01:58:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -8546,16 +8577,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/10/27/plan/weekly-report/191028/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/10/27/plan/weekly-report/2019/1028/#disqus_thread</comments>
       
     </item>
     
@@ -8588,11 +8619,11 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</category>
       
-      <category domain="https://y8ncastle.me/tags/team-project/">team-project</category>
+      <category domain="https://y8ncastle.me/tags/team-project/">team project</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">캡스톤디자인</category>
       
-      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone-design</category>
+      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone design</category>
       
       <category domain="https://y8ncastle.me/tags/mrm/">mrm</category>
       
@@ -8603,8 +8634,8 @@
     
     <item>
       <title>한 주 계획표 (2019.10.21 - 10.27)</title>
-      <link>https://y8ncastle.me/2019/10/20/plan/weekly-report/191021/</link>
-      <guid>https://y8ncastle.me/2019/10/20/plan/weekly-report/191021/</guid>
+      <link>https://y8ncastle.me/2019/10/20/plan/weekly-report/2019/1021/</link>
+      <guid>https://y8ncastle.me/2019/10/20/plan/weekly-report/2019/1021/</guid>
       <pubDate>Sun, 20 Oct 2019 13:56:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -8737,16 +8768,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/10/20/plan/weekly-report/191021/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/10/20/plan/weekly-report/2019/1021/#disqus_thread</comments>
       
     </item>
     
@@ -8779,11 +8810,11 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</category>
       
-      <category domain="https://y8ncastle.me/tags/team-project/">team-project</category>
+      <category domain="https://y8ncastle.me/tags/team-project/">team project</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">캡스톤디자인</category>
       
-      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone-design</category>
+      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone design</category>
       
       <category domain="https://y8ncastle.me/tags/mrm/">mrm</category>
       
@@ -8813,17 +8844,17 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Achievement/">Achievement</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/">정보처리기사</category>
       
-      <category domain="https://y8ncastle.me/tags/data-processing-engineer/">data-processing-engineer</category>
+      <category domain="https://y8ncastle.me/tags/data-processing-engineer/">data processing engineer</category>
       
-      <category domain="https://y8ncastle.me/tags/engineer-information-processing/">engineer-information-processing</category>
+      <category domain="https://y8ncastle.me/tags/engineer-information-processing/">engineer information processing</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%EC%8B%A4%EA%B8%B0/">정보처리기사-실기</category>
+      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC-%EC%8B%A4%EA%B8%B0/">정보처리기사 실기</category>
       
       
       <comments>https://y8ncastle.me/2019/10/13/achievement/dpe/practical-test/#disqus_thread</comments>
@@ -8832,8 +8863,8 @@
     
     <item>
       <title>한 주 계획표 (2019.10.14 - 10.20)</title>
-      <link>https://y8ncastle.me/2019/10/13/plan/weekly-report/191014/</link>
-      <guid>https://y8ncastle.me/2019/10/13/plan/weekly-report/191014/</guid>
+      <link>https://y8ncastle.me/2019/10/13/plan/weekly-report/2019/1014/</link>
+      <guid>https://y8ncastle.me/2019/10/13/plan/weekly-report/2019/1014/</guid>
       <pubDate>Sun, 13 Oct 2019 09:51:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -9014,23 +9045,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/10/13/plan/weekly-report/191014/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/10/13/plan/weekly-report/2019/1014/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.10.07 - 10.13)</title>
-      <link>https://y8ncastle.me/2019/10/06/plan/weekly-report/191007/</link>
-      <guid>https://y8ncastle.me/2019/10/06/plan/weekly-report/191007/</guid>
+      <link>https://y8ncastle.me/2019/10/06/plan/weekly-report/2019/1007/</link>
+      <guid>https://y8ncastle.me/2019/10/06/plan/weekly-report/2019/1007/</guid>
       <pubDate>Sun, 06 Oct 2019 10:09:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -9319,23 +9350,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/10/06/plan/weekly-report/191007/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/10/06/plan/weekly-report/2019/1007/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.09.30 - 10.06)</title>
-      <link>https://y8ncastle.me/2019/09/29/plan/weekly-report/190930/</link>
-      <guid>https://y8ncastle.me/2019/09/29/plan/weekly-report/190930/</guid>
+      <link>https://y8ncastle.me/2019/09/29/plan/weekly-report/2019/0930/</link>
+      <guid>https://y8ncastle.me/2019/09/29/plan/weekly-report/2019/0930/</guid>
       <pubDate>Sun, 29 Sep 2019 04:26:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -9606,23 +9637,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/09/29/plan/weekly-report/190930/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/09/29/plan/weekly-report/2019/0930/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.09.23 - 09.29)</title>
-      <link>https://y8ncastle.me/2019/09/22/plan/weekly-report/190923/</link>
-      <guid>https://y8ncastle.me/2019/09/22/plan/weekly-report/190923/</guid>
+      <link>https://y8ncastle.me/2019/09/22/plan/weekly-report/2019/0923/</link>
+      <guid>https://y8ncastle.me/2019/09/22/plan/weekly-report/2019/0923/</guid>
       <pubDate>Sun, 22 Sep 2019 12:40:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -9953,23 +9984,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/09/22/plan/weekly-report/190923/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/09/22/plan/weekly-report/2019/0923/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.09.16 - 09.22)</title>
-      <link>https://y8ncastle.me/2019/09/15/plan/weekly-report/190916/</link>
-      <guid>https://y8ncastle.me/2019/09/15/plan/weekly-report/190916/</guid>
+      <link>https://y8ncastle.me/2019/09/15/plan/weekly-report/2019/0916/</link>
+      <guid>https://y8ncastle.me/2019/09/15/plan/weekly-report/2019/0916/</guid>
       <pubDate>Sun, 15 Sep 2019 02:17:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -10162,16 +10193,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/09/15/plan/weekly-report/190916/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/09/15/plan/weekly-report/2019/0916/#disqus_thread</comments>
       
     </item>
     
@@ -10199,13 +10230,13 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99/">정보통신공학</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99-%EA%B5%90%EA%B3%BC%EB%AA%A9/">정보통신공학-교과목</category>
+      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0%EA%B3%B5%ED%95%99-%EA%B5%90%EA%B3%BC%EB%AA%A9/">정보통신공학 교과목</category>
       
       <category domain="https://y8ncastle.me/tags/hanbat/">hanbat</category>
       
       <category domain="https://y8ncastle.me/tags/hbnu/">hbnu</category>
       
-      <category domain="https://y8ncastle.me/tags/information-and-communication-engineering/">information-and-communication-engineering</category>
+      <category domain="https://y8ncastle.me/tags/information-and-communication-engineering/">information and communication engineering</category>
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
@@ -10243,11 +10274,11 @@
       
       <category domain="https://y8ncastle.me/tags/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/">팀프로젝트</category>
       
-      <category domain="https://y8ncastle.me/tags/team-project/">team-project</category>
+      <category domain="https://y8ncastle.me/tags/team-project/">team project</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8/">캡스톤디자인</category>
       
-      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone-design</category>
+      <category domain="https://y8ncastle.me/tags/capstone-design/">capstone design</category>
       
       <category domain="https://y8ncastle.me/tags/mrm/">mrm</category>
       
@@ -10258,8 +10289,8 @@
     
     <item>
       <title>한 주 계획표 (2019.09.09 - 09.15)</title>
-      <link>https://y8ncastle.me/2019/09/08/plan/weekly-report/190909/</link>
-      <guid>https://y8ncastle.me/2019/09/08/plan/weekly-report/190909/</guid>
+      <link>https://y8ncastle.me/2019/09/08/plan/weekly-report/2019/0909/</link>
+      <guid>https://y8ncastle.me/2019/09/08/plan/weekly-report/2019/0909/</guid>
       <pubDate>Sun, 08 Sep 2019 09:16:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -10492,23 +10523,23 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/09/08/plan/weekly-report/190909/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/09/08/plan/weekly-report/2019/0909/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>한 주 계획표 (2019.09.02 - 09.08)</title>
-      <link>https://y8ncastle.me/2019/09/05/plan/weekly-report/190902/</link>
-      <guid>https://y8ncastle.me/2019/09/05/plan/weekly-report/190902/</guid>
+      <link>https://y8ncastle.me/2019/09/05/plan/weekly-report/2019/0902/</link>
+      <guid>https://y8ncastle.me/2019/09/05/plan/weekly-report/2019/0902/</guid>
       <pubDate>Thu, 05 Sep 2019 02:35:00 GMT</pubDate>
       
       <description>&lt;table&gt;
@@ -10899,237 +10930,16 @@
       <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
+      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
       
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
+      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
       
       <category domain="https://y8ncastle.me/tags/plan/">plan</category>
       
       
-      <comments>https://y8ncastle.me/2019/09/05/plan/weekly-report/190902/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>한 주 계획표 (2019.08.26 - 09.01)</title>
-      <link>https://y8ncastle.me/2019/08/26/plan/weekly-report/190826/</link>
-      <guid>https://y8ncastle.me/2019/08/26/plan/weekly-report/190826/</guid>
-      <pubDate>Mon, 26 Aug 2019 01:48:00 GMT</pubDate>
-      
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;날짜&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;목표&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;달성 내용&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;특이사항 (비고)&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.08.26&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;대학원 면담 자료 정리 및 개인 일정&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.08.27&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;WebioPi 커스텀 작업&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 앱 연동 실험&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;오류로 인해 기타 연구 대체&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.08.28&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;대학원 과정 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;블록체인 논문 정독&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;데일리코인뉴스 특파 활동&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;블로그 뉴스 공유&lt;/td&gt;
-&lt;td&gt;10건&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;커뮤니티 뉴스 공유&lt;/td&gt;
-&lt;td&gt;134건&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.08.29&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;실전문제연구단 연구 내용 중간 발표&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;WebioPi 커스텀 작업&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;부품 부족으로 회의 대체&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 앱 연동 실험&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;부품 부족으로 회의 대체&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.08.30&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;4차 발표 PPT 작성&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;면담 연기로 인해 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;데일리코인뉴스 특파 활동&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;블로그 뉴스 공유&lt;/td&gt;
-&lt;td&gt;9건&lt;/td&gt;
-&lt;td&gt;면담 연기로 인해 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;커뮤니티 뉴스 공유&lt;/td&gt;
-&lt;td&gt;106건&lt;/td&gt;
-&lt;td&gt;면담 연기로 인해 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;대학원 과정 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;블록체인 논문 정독&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;면담 연기로 인해 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.08.31&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;데일리코인뉴스 특파 활동&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;블로그 뉴스 공유&lt;/td&gt;
-&lt;td&gt;1건&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;커뮤니티 뉴스 공유&lt;/td&gt;
-&lt;td&gt;108건&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;4차 발표 PPT 보완&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.09.01&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;WebioPi 커스텀 작업&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 앱 연동 실험&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;대학원 과정 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;블록체인 논문 정독&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-</description>
-      
-      
-      
-      <content:encoded><![CDATA[<table><thead><tr><th><strong>날짜</strong></th><th><strong>목표</strong></th><th><strong>달성 내용</strong></th><th><strong>특이사항 (비고)</strong></th></tr></thead><tbody><tr><td><strong>2019.08.26</strong></td><td>대학원 면담 자료 정리 및 개인 일정</td><td></td><td></td></tr><tr><td><strong>2019.08.27</strong></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>WebioPi 커스텀 작업</td><td>O</td><td>-</td></tr><tr><td></td><td>옴니 카 앱 연동 실험</td><td>O</td><td>오류로 인해 기타 연구 대체</td></tr><tr><td><strong>2019.08.28</strong></td><td><strong>대학원 과정 준비</strong></td><td></td><td></td></tr><tr><td></td><td>블록체인 논문 정독</td><td>O</td><td>-</td></tr><tr><td></td><td><strong>데일리코인뉴스 특파 활동</strong></td><td></td><td></td></tr><tr><td></td><td>블로그 뉴스 공유</td><td>10건</td><td>-</td></tr><tr><td></td><td>커뮤니티 뉴스 공유</td><td>134건</td><td>-</td></tr><tr><td><strong>2019.08.29</strong></td><td><strong>실전문제연구단 연구 내용 중간 발표</strong></td><td></td><td></td></tr><tr><td></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>WebioPi 커스텀 작업</td><td>O</td><td>부품 부족으로 회의 대체</td></tr><tr><td></td><td>옴니 카 앱 연동 실험</td><td>O</td><td>부품 부족으로 회의 대체</td></tr><tr><td><strong>2019.08.30</strong></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>4차 발표 PPT 작성</td><td>O</td><td>면담 연기로 인해 추가</td></tr><tr><td></td><td><strong>데일리코인뉴스 특파 활동</strong></td><td></td><td></td></tr><tr><td></td><td>블로그 뉴스 공유</td><td>9건</td><td>면담 연기로 인해 추가</td></tr><tr><td></td><td>커뮤니티 뉴스 공유</td><td>106건</td><td>면담 연기로 인해 추가</td></tr><tr><td></td><td><strong>대학원 과정 준비</strong></td><td></td><td></td></tr><tr><td></td><td>블록체인 논문 정독</td><td>O</td><td>면담 연기로 인해 추가</td></tr><tr><td><strong>2019.08.31</strong></td><td><strong>데일리코인뉴스 특파 활동</strong></td><td></td><td></td></tr><tr><td></td><td>블로그 뉴스 공유</td><td>1건</td><td>-</td></tr><tr><td></td><td>커뮤니티 뉴스 공유</td><td>108건</td><td>-</td></tr><tr><td></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>4차 발표 PPT 보완</td><td>O</td><td>-</td></tr><tr><td><strong>2019.09.01</strong></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>WebioPi 커스텀 작업</td><td>O</td><td>-</td></tr><tr><td></td><td>옴니 카 앱 연동 실험</td><td>O</td><td>-</td></tr><tr><td></td><td><strong>대학원 과정 준비</strong></td><td></td><td></td></tr><tr><td></td><td>블록체인 논문 정독</td><td>O</td><td>-</td></tr></tbody></table>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜-2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan-2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/08/26/plan/weekly-report/190826/#disqus_thread</comments>
+      <comments>https://y8ncastle.me/2019/09/05/plan/weekly-report/2019/0902/#disqus_thread</comments>
       
     </item>
     
