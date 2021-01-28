@@ -412,7 +412,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'NanumSquareRound', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 code,
 pre {
@@ -1064,13 +1064,13 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: 'NanumSquareRound', sans-serif !important;
+  font-family: "Noto Sans KR", sans-serif !important;
 }
 .is-family-secondary {
-  font-family: 'NanumSquareRound', sans-serif !important;
+  font-family: "Noto Sans KR", sans-serif !important;
 }
 .is-family-sans-serif {
-  font-family: 'NanumSquareRound', sans-serif !important;
+  font-family: "Noto Sans KR", sans-serif !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
@@ -10281,7 +10281,7 @@ body > .section {
     background: rgba(0,0,0,0.24);
   }
 }
-@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css");
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
 @import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
 .ml-0,
 .mx-0 {
@@ -10808,7 +10808,6 @@ article.media .media-content .title {
 article.article .title {
   font-size: 2em;
   font-weight: 600;
-  font-family: 'NanumSquareRound';
   letter-spacing: -1.4px;
 }
 article.article .article-meta,
@@ -10822,7 +10821,6 @@ article.article .article-meta {
 article.article .content {
   word-wrap: break-word;
   font-size: 1.1rem;
-  font-family: 'NanumSquareRound';
   line-height: 1.9em;
   letter-spacing: -0.3px;
   color: #5d686f;
@@ -10851,11 +10849,11 @@ article.article .content pre {
   font-size: 0.85em;
 }
 article.article .content code {
-  padding: 0.1em;
-  background: #ececec;
+  background: #f6f6f6;
   overflow-wrap: break-word;
   font-family: 'D2 Coding';
-  font-size: 1em;
+  font-size: 0.85em;
+  font-color: #fa5151;
   font-weight: 600;
 }
 article.article .content blockquote.pullquote {
@@ -11592,7 +11590,7 @@ figure.highlight .section {
 .cc-window,
 .cc-revoke {
   font-size: 1.1rem !important;
-  font-family: 'NanumSquareRound', sans-serif !important;
+  font-family: "Noto Sans KR", sans-serif !important;
 }
 .cc-window {
   color: #4a4a4a !important;
