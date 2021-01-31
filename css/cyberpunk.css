@@ -10282,7 +10282,7 @@ body > .section {
     background: rgba(0,0,0,0.24);
   }
 }
-@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css");
 @import url("https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
 .ml-0,
 .mx-0 {
@@ -10808,7 +10808,7 @@ article.media .media-content .title {
 }
 article.article .title {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -1.4px;
 }
 article.article .article-meta,
@@ -10829,19 +10829,19 @@ article.article .content {
 }
 article.article .content h1 {
   font-size: 1.75em;
-  font-weight: 600;
+  font-weight: 700;
 }
 article.article .content h2 {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 700;
 }
 article.article .content h3 {
   font-size: 1.25em;
-  font-weight: 600;
+  font-weight: 700;
 }
 article.article .content h4 {
   font-size: 1.125em;
-  font-weight: 600;
+  font-weight: 700;
 }
 article.article .content h5 {
   font-size: 1em;
@@ -10853,9 +10853,9 @@ article.article .content code {
   background: #f6f6f6;
   overflow-wrap: break-word;
   font-family: 'D2 Coding';
-  font-size: 0.85em;
+  font-size: 1.1em;
   font-color: #fa5151;
-  font-weight: 600;
+  font-weight: 700;
 }
 article.article .content blockquote.pullquote {
   float: right;
