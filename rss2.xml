@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 22 Feb 2021 07:41:38 GMT</pubDate>
+    <pubDate>Mon, 22 Feb 2021 08:17:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -20,7 +20,7 @@
       
       <description>&lt;h3 id=&quot;2021-02-22-월&quot;&gt;&lt;a href=&quot;#2021-02-22-월&quot; class=&quot;headerlink&quot; title=&quot;2021.02.22 (월)&quot;&gt;&lt;/a&gt;2021.02.22 (월)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;09:50 &amp;gt; BaSE Lab 출근 (~17:50)&lt;/li&gt;
-&lt;li&gt;10:25 &amp;gt; 연구실 주간 세미나 (교수님) (~11:30)&lt;/li&gt;
+&lt;li&gt;10:25 &amp;gt; 연구실 주간 세미나 (박수용 교수님) (~11:30)&lt;/li&gt;
 &lt;li&gt;14:30 &amp;gt; 서울시 블록체인 교육 미팅 (이영주 교수님) (~15:20)&lt;/li&gt;
 &lt;li&gt;16:00 &amp;gt; 서울시 블록체인 교육 관련 자료 정리&lt;/li&gt;
 &lt;/ul&gt;
@@ -35,7 +35,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-02-22-월"><a href="#2021-02-22-월" class="headerlink" title="2021.02.22 (월)"></a>2021.02.22 (월)</h3><ul><li>09:50 &gt; BaSE Lab 출근 (~17:50)</li><li>10:25 &gt; 연구실 주간 세미나 (교수님) (~11:30)</li><li>14:30 &gt; 서울시 블록체인 교육 미팅 (이영주 교수님) (~15:20)</li><li>16:00 &gt; 서울시 블록체인 교육 관련 자료 정리</li></ul><br><blockquote><p>2021.02.23 (화) - 02.25 (목)</p><ul><li>대전 집 이사</li></ul></blockquote><br>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-02-22-월"><a href="#2021-02-22-월" class="headerlink" title="2021.02.22 (월)"></a>2021.02.22 (월)</h3><ul><li>09:50 &gt; BaSE Lab 출근 (~17:50)</li><li>10:25 &gt; 연구실 주간 세미나 (박수용 교수님) (~11:30)</li><li>14:30 &gt; 서울시 블록체인 교육 미팅 (이영주 교수님) (~15:20)</li><li>16:00 &gt; 서울시 블록체인 교육 관련 자료 정리</li></ul><br><blockquote><p>2021.02.23 (화) - 02.25 (목)</p><ul><li>대전 집 이사</li></ul></blockquote><br>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -371,9 +371,9 @@
       
       <category domain="https://y8ncastle.me/tags/thesis/">thesis</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/">학회</category>
       
@@ -4907,9 +4907,9 @@
       <category domain="https://y8ncastle.me/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/software-engineering-society/">software engineering society</category>
       
@@ -6294,13 +6294,13 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
-      
-      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul blockchain center</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
       <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%9C%EC%9A%B8%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0/">서울블록체인지원센터</category>
+      
+      <category domain="https://y8ncastle.me/tags/seoul-blockchain-center/">seoul blockchain center</category>
       
       
       <comments>https://y8ncastle.me/2020/01/12/education/ethereum/sogang/smart-contract/#disqus_thread</comments>
