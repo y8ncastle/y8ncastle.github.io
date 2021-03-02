@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Tue, 02 Mar 2021 10:41:38 GMT</pubDate>
+    <pubDate>Tue, 02 Mar 2021 12:26:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -30,7 +30,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-03-01-월"><a href="#2021-03-01-월" class="headerlink" title="2021.03.01 (월)"></a>2021.03.01 (월)</h3><ul><li>14:25 &gt; BaSE Lab 출근 (~18:35)</li><li>14:40 &gt; 대학원 강의 자료 정리 및 백업 (~15:25)</li><li>15:30 &gt; 사이버캠퍼스 Zoom 연동 강의 시청</li><li>16:30 &gt; 2021년 서울시 블록체인 교육 교재 1차 초안 작성 시작 (~18:30)</li></ul><br><h3 id="2021-03-02-화"><a href="#2021-03-02-화" class="headerlink" title="2021.03.02 (화)"></a>2021.03.02 (화)</h3><ul><li>10:20 &gt; BaSE Lab 출근 (~22:00)</li><li>10:30 &gt; 정보통신대학원 블록체인 산업동향 강의 자료 업로드</li><li>11:00 &gt; 서울시 블록체인 교육 교재 1차 초안본 전달</li><li>11:20 &gt; 정보통신대학원 출석 관련 공지 전체 수정 (지각 제외)</li><li>11:50 &gt; 고급 알고리즘 설계와 분석 1주차 강의 (~14:40)</li><li>15:20 &gt; 서울시 블록체인 교육 교재 제작 회의 준비 (~16:00)</li><li>16:30 &gt; 블록체인 교육 교재 제작 회의 (~17:05)</li><li>18:30 &gt; 인공지능을 위한 수학 1주차 강의 조교 업무 (~19:35)</li><li>20:10 &gt; 블록체인 산업동향 1주차 강의 조교 업무 (~21:40)</li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-03-01-월"><a href="#2021-03-01-월" class="headerlink" title="2021.03.01 (월)"></a>2021.03.01 (월)</h3><ul><li>14:25 &gt; BaSE Lab 출근 (~18:35)</li><li>14:40 &gt; 대학원 강의 자료 정리 및 백업 (~15:25)</li><li>15:30 &gt; 사이버캠퍼스 Zoom 연동 강의 시청</li><li>16:30 &gt; 2021년 서울시 블록체인 교육 교재 1차 초안 작성 시작 (~18:30)</li></ul><br><h3 id="2021-03-02-화"><a href="#2021-03-02-화" class="headerlink" title="2021.03.02 (화)"></a>2021.03.02 (화)</h3><ul><li>10:20 &gt; BaSE Lab 출근 (~21:30)</li><li>10:30 &gt; 정보통신대학원 블록체인 산업동향 강의 자료 업로드</li><li>11:00 &gt; 서울시 블록체인 교육 교재 1차 초안본 전달</li><li>11:20 &gt; 정보통신대학원 출석 관련 공지 전체 수정 (지각 제외)</li><li>11:50 &gt; 고급 알고리즘 설계와 분석 1주차 강의 (~14:40)</li><li>15:20 &gt; 서울시 블록체인 교육 교재 제작 회의 준비 (~16:00)</li><li>16:30 &gt; 블록체인 교육 교재 제작 회의 (~17:05)</li><li>18:30 &gt; 인공지능을 위한 수학 1주차 강의 조교 업무 (~19:35)</li><li>20:10 &gt; 블록체인 산업동향 1주차 강의 조교 업무 (~20:45)</li><li>20:50 &gt; 월요일 조교 출석부 정리</li></ul>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -401,9 +401,9 @@
       
       <category domain="https://y8ncastle.me/tags/thesis/">thesis</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/">학회</category>
       
@@ -2879,9 +2879,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
-      
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
@@ -4594,9 +4594,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
-      
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
@@ -4937,9 +4937,9 @@
       <category domain="https://y8ncastle.me/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/software-engineering-society/">software engineering society</category>
       
@@ -4976,9 +4976,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
-      
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
@@ -5016,9 +5016,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
-      
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
@@ -5062,17 +5062,17 @@
       
       <category domain="https://y8ncastle.me/tags/cryptocurrency/">cryptocurrency</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
-      
-      <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%81%AC%EB%A6%BD%ED%86%A0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/">크립토 커뮤니티</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BD%94%EC%9D%B8%EC%88%98%EC%9D%B5/">코인수익</category>
       
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
+      
       <category domain="https://y8ncastle.me/tags/crypto-community/">crypto community</category>
       
       <category domain="https://y8ncastle.me/tags/crypto-income/">crypto income</category>
+      
+      <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
       
       <comments>https://y8ncastle.me/2020/02/08/crypto-community/crypto-income-final/#disqus_thread</comments>
@@ -6318,9 +6318,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
-      
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
@@ -6360,9 +6360,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
-      
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
@@ -7616,13 +7616,13 @@
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
       
       <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
       
       <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation exhibition</category>
       
