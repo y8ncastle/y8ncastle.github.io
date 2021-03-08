@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 08 Mar 2021 09:45:16 GMT</pubDate>
+    <pubDate>Mon, 08 Mar 2021 09:48:24 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -622,11 +622,11 @@
       
       <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
+      
       <category domain="https://y8ncastle.me/tags/%EB%B9%85%EC%B2%B4%EC%9D%B8db/">빅체인db</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0/">빅데이터</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/bigchaindb/">bigchaindb</category>
       
