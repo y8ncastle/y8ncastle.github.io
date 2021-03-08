@@ -9,8 +9,38 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Sun, 07 Mar 2021 15:49:48 GMT</pubDate>
+    <pubDate>Mon, 08 Mar 2021 00:51:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>주간 진행 보고 (2021.03.08 - 03.14)</title>
+      <link>https://y8ncastle.me/2021/03/08/plan/weekly-report/2021/0308/</link>
+      <guid>https://y8ncastle.me/2021/03/08/plan/weekly-report/2021/0308/</guid>
+      <pubDate>Mon, 08 Mar 2021 00:51:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;2021-03-08-월&quot;&gt;&lt;a href=&quot;#2021-03-08-월&quot; class=&quot;headerlink&quot; title=&quot;2021.03.08 (월)&quot;&gt;&lt;/a&gt;2021.03.08 (월)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;BaSE Lab 출근&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="2021-03-08-월"><a href="#2021-03-08-월" class="headerlink" title="2021.03.08 (월)"></a>2021.03.08 (월)</h3><ul><li>BaSE Lab 출근</li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/03/08/plan/weekly-report/2021/0308/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>주간 진행 보고 (2021.03.01 - 03.07)</title>
@@ -5022,15 +5052,15 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
+      
+      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인 유통 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/distribution-system/">distribution system</category>
-      
-      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
       
       <category domain="https://y8ncastle.me/tags/blockchain-distribution-system/">blockchain distribution system</category>
       
@@ -9575,293 +9605,6 @@
       
       
       <comments>https://y8ncastle.me/2019/10/06/plan/weekly-report/2019/1007/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>한 주 계획표 (2019.09.30 - 10.06)</title>
-      <link>https://y8ncastle.me/2019/09/29/plan/weekly-report/2019/0930/</link>
-      <guid>https://y8ncastle.me/2019/09/29/plan/weekly-report/2019/0930/</guid>
-      <pubDate>Sun, 29 Sep 2019 04:26:00 GMT</pubDate>
-      
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;날짜&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;목표&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;달성 내용&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;특이사항 (비고)&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.09.30&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 컨트롤러 앱 수정&lt;/td&gt;
-&lt;td&gt;스트리밍 서버 연동&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.01&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;인공지능 강의 5주차&lt;/td&gt;
-&lt;td&gt;10:00&lt;/td&gt;
-&lt;td&gt;휴강&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 컨트롤러 앱 수정&lt;/td&gt;
-&lt;td&gt;전체 기능 수정,&lt;br&gt;서버 연동&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.02&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Python 프로그래밍 과제&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;컴퓨터 네트워크 과제&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Python 프로그래밍 강의 5주차&lt;/td&gt;
-&lt;td&gt;14:00&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;정보처리기사 실기 - 신기술 용어 (D-11)&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;전체 내용 자율 암기&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 컨트롤러 앱 수정&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;레이아웃 + 자이로스코프&lt;br&gt;(2019.10.03 보충)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.03&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;정보처리기사 실기 - 신기술 용어 (D-10)&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;전체 내용 자율 암기&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.04&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;컴퓨터 네트워크 강의 4주차&lt;/td&gt;
-&lt;td&gt;10:00&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 주간 발표 미팅&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;15:00&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;5차 PPT 제작&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.05&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;5차 PPT 내용 보완&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.06&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;정보처리기사 실기 - 데이터베이스 (D-7)&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;60~69 전체 내용 복습&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;70. SQL - SELECT&lt;/td&gt;
-&lt;td&gt;12/14&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;71. SQL - JOIN&lt;/td&gt;
-&lt;td&gt;4/5&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;72. SQL - DML&lt;/td&gt;
-&lt;td&gt;8/9&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;73. SQL - DCL&lt;/td&gt;
-&lt;td&gt;4/5&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;74. 뷰 (VIEW)&lt;/td&gt;
-&lt;td&gt;3/3&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;75. 내장 SQL&lt;/td&gt;
-&lt;td&gt;7/8&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;76. 스토어드 프로시저&lt;/td&gt;
-&lt;td&gt;5/7&lt;/td&gt;
-&lt;td&gt;추가 문제: 17/23&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;77. 이상 (Anomaly)&lt;/td&gt;
-&lt;td&gt;5/5&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;78. 함수적 종속&lt;/td&gt;
-&lt;td&gt;5/7&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;79. 정규화&lt;/td&gt;
-&lt;td&gt;8/12&lt;/td&gt;
-&lt;td&gt;추가 문제: 21/26&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;80. 시스템 카탈로그&lt;/td&gt;
-&lt;td&gt;7/7&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;81. 인덱스&lt;/td&gt;
-&lt;td&gt;2/3&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;82. 트랜잭션&lt;/td&gt;
-&lt;td&gt;6/6&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;83. 회복 (Recovery)&lt;/td&gt;
-&lt;td&gt;3/3&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;84. 병행 제어&lt;/td&gt;
-&lt;td&gt;5/6&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;85. 보안 (Security)&lt;/td&gt;
-&lt;td&gt;2/2&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;86. 튜닝 (Tuning)&lt;/td&gt;
-&lt;td&gt;4/4&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;87. 객체지향 DB&lt;/td&gt;
-&lt;td&gt;4/4&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;88. 고급 데이터베이스&lt;/td&gt;
-&lt;td&gt;8/8&lt;/td&gt;
-&lt;td&gt;추가 문제: 9/14&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-</description>
-      
-      
-      
-      <content:encoded><![CDATA[<table><thead><tr><th><strong>날짜</strong></th><th><strong>목표</strong></th><th><strong>달성 내용</strong></th><th><strong>특이사항 (비고)</strong></th></tr></thead><tbody><tr><td><strong>2019.09.30</strong></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>옴니 카 컨트롤러 앱 수정</td><td>스트리밍 서버 연동</td><td>-</td></tr><tr><td><strong>2019.10.01</strong></td><td>인공지능 강의 5주차</td><td>10:00</td><td>휴강</td></tr><tr><td></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>옴니 카 컨트롤러 앱 수정</td><td>전체 기능 수정,<br>서버 연동</td><td>-</td></tr><tr><td><strong>2019.10.02</strong></td><td>Python 프로그래밍 과제</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td>컴퓨터 네트워크 과제</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td>Python 프로그래밍 강의 5주차</td><td>14:00</td><td>-</td></tr><tr><td></td><td><strong>정보처리기사 실기 - 신기술 용어 (D-11)</strong></td><td></td><td></td></tr><tr><td></td><td>전체 내용 자율 암기</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>옴니 카 컨트롤러 앱 수정</td><td>O</td><td>레이아웃 + 자이로스코프<br>(2019.10.03 보충)</td></tr><tr><td><strong>2019.10.03</strong></td><td><strong>정보처리기사 실기 - 신기술 용어 (D-10)</strong></td><td></td><td></td></tr><tr><td></td><td>전체 내용 자율 암기</td><td>O</td><td>계획 추가</td></tr><tr><td><strong>2019.10.04</strong></td><td>컴퓨터 네트워크 강의 4주차</td><td>10:00</td><td>-</td></tr><tr><td></td><td><strong>캡스톤디자인 주간 발표 미팅</strong></td><td>15:00</td><td>-</td></tr><tr><td></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>5차 PPT 제작</td><td>O</td><td>-</td></tr><tr><td><strong>2019.10.05</strong></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>5차 PPT 내용 보완</td><td>O</td><td>계획 추가</td></tr><tr><td><strong>2019.10.06</strong></td><td><strong>정보처리기사 실기 - 데이터베이스 (D-7)</strong></td><td></td><td></td></tr><tr><td></td><td>60~69 전체 내용 복습</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td>70. SQL - SELECT</td><td>12/14</td><td>계획 추가</td></tr><tr><td></td><td>71. SQL - JOIN</td><td>4/5</td><td>계획 추가</td></tr><tr><td></td><td>72. SQL - DML</td><td>8/9</td><td>계획 추가</td></tr><tr><td></td><td>73. SQL - DCL</td><td>4/5</td><td>계획 추가</td></tr><tr><td></td><td>74. 뷰 (VIEW)</td><td>3/3</td><td>계획 추가</td></tr><tr><td></td><td>75. 내장 SQL</td><td>7/8</td><td>계획 추가</td></tr><tr><td></td><td>76. 스토어드 프로시저</td><td>5/7</td><td>추가 문제: 17/23</td></tr><tr><td></td><td>77. 이상 (Anomaly)</td><td>5/5</td><td>계획 추가</td></tr><tr><td></td><td>78. 함수적 종속</td><td>5/7</td><td>계획 추가</td></tr><tr><td></td><td>79. 정규화</td><td>8/12</td><td>추가 문제: 21/26</td></tr><tr><td></td><td>80. 시스템 카탈로그</td><td>7/7</td><td>계획 추가</td></tr><tr><td></td><td>81. 인덱스</td><td>2/3</td><td>계획 추가</td></tr><tr><td></td><td>82. 트랜잭션</td><td>6/6</td><td>계획 추가</td></tr><tr><td></td><td>83. 회복 (Recovery)</td><td>3/3</td><td>계획 추가</td></tr><tr><td></td><td>84. 병행 제어</td><td>5/6</td><td>계획 추가</td></tr><tr><td></td><td>85. 보안 (Security)</td><td>2/2</td><td>계획 추가</td></tr><tr><td></td><td>86. 튜닝 (Tuning)</td><td>4/4</td><td>계획 추가</td></tr><tr><td></td><td>87. 객체지향 DB</td><td>4/4</td><td>계획 추가</td></tr><tr><td></td><td>88. 고급 데이터베이스</td><td>8/8</td><td>추가 문제: 9/14</td></tr></tbody></table>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/09/29/plan/weekly-report/2019/0930/#disqus_thread</comments>
       
     </item>
     
