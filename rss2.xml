@@ -99,6 +99,36 @@
     </item>
     
     <item>
+      <title>주간 진행 보고 (2021.03.15 - 03.21)</title>
+      <link>https://y8ncastle.me/2021/03/08/plan/weekly-report/2021/0315/</link>
+      <guid>https://y8ncastle.me/2021/03/08/plan/weekly-report/2021/0315/</guid>
+      <pubDate>Mon, 08 Mar 2021 00:51:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;2021-03-15-월&quot;&gt;&lt;a href=&quot;#2021-03-15-월&quot; class=&quot;headerlink&quot; title=&quot;2021.03.15 (월)&quot;&gt;&lt;/a&gt;2021.03.15 (월)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;10:05 &amp;gt; BaSE Lab 출근 &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="2021-03-15-월"><a href="#2021-03-15-월" class="headerlink" title="2021.03.15 (월)"></a>2021.03.15 (월)</h3><ul><li>10:05 &gt; BaSE Lab 출근 </li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/03/08/plan/weekly-report/2021/0315/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>주간 진행 보고 (2021.03.01 - 03.07)</title>
       <link>https://y8ncastle.me/2021/03/01/plan/weekly-report/2021/0301/</link>
       <guid>https://y8ncastle.me/2021/03/01/plan/weekly-report/2021/0301/</guid>
@@ -5108,15 +5138,15 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
-      
-      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인 유통 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/distribution-system/">distribution system</category>
+      
+      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
       
       <category domain="https://y8ncastle.me/tags/blockchain-distribution-system/">blockchain distribution system</category>
       
@@ -9159,203 +9189,6 @@
       
       
       <comments>https://y8ncastle.me/2019/10/13/achievement/dpe/practical-test/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>한 주 계획표 (2019.10.14 - 10.20)</title>
-      <link>https://y8ncastle.me/2019/10/13/plan/weekly-report/2019/1014/</link>
-      <guid>https://y8ncastle.me/2019/10/13/plan/weekly-report/2019/1014/</guid>
-      <pubDate>Sun, 13 Oct 2019 09:51:00 GMT</pubDate>
-      
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;날짜&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;목표&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;달성 내용&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;특이사항 (비고)&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.14&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;ICDL Python 교육 신청&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 조이스틱 구현&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;다음 주 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;WebioPi 앱 통신 연동&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;다음 주 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;팀 미팅 발표 PPT 작성&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;족자/책자 자료 대체&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.15&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;파이썬 과제&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;정보통신대학원 면접 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;자기소개서 작성&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;전형 변경으로 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;서강대학교 대학원 원서 접수&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.16&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;데일리코인뉴스 경력 증명&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Python 프로그래밍 강의 6주차&lt;/td&gt;
-&lt;td&gt;14:00&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;학사 졸업 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;작품집 원고 자료 제출&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;2019.10.17 보완&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.17&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;옴니 카 자이로스코프 보완&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;다음 주 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;주요 기능 보완&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;다음 주 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.18&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;인공지능 강의 철회&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;학과 사무실 추가 확인 필요&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;컴퓨터 네트워크 강의 6주차&lt;/td&gt;
-&lt;td&gt;10:00&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;교수님 팀 미팅&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;교수님 학회 참석 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.19&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;캡스톤디자인 연구&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;주요 기능 보완&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;다음 주 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;중간고사 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;파이썬 프로그래밍 정리&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;컴퓨터 네트워크 정리&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;다음 주 연기&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.10.20&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;개인 일정&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-</description>
-      
-      
-      
-      <content:encoded><![CDATA[<table><thead><tr><th><strong>날짜</strong></th><th><strong>목표</strong></th><th><strong>달성 내용</strong></th><th><strong>특이사항 (비고)</strong></th></tr></thead><tbody><tr><td><strong>2019.10.14</strong></td><td>ICDL Python 교육 신청</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>옴니 카 조이스틱 구현</td><td>-</td><td>다음 주 연기</td></tr><tr><td></td><td>WebioPi 앱 통신 연동</td><td>-</td><td>다음 주 연기</td></tr><tr><td></td><td>팀 미팅 발표 PPT 작성</td><td>O</td><td>족자/책자 자료 대체</td></tr><tr><td><strong>2019.10.15</strong></td><td>파이썬 과제</td><td>O</td><td>-</td></tr><tr><td></td><td><strong>정보통신대학원 면접 준비</strong></td><td></td><td></td></tr><tr><td></td><td>자기소개서 작성</td><td>-</td><td>전형 변경으로 연기</td></tr><tr><td></td><td>서강대학교 대학원 원서 접수</td><td>O</td><td>-</td></tr><tr><td><strong>2019.10.16</strong></td><td>데일리코인뉴스 경력 증명</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td>Python 프로그래밍 강의 6주차</td><td>14:00</td><td>-</td></tr><tr><td></td><td><strong>학사 졸업 준비</strong></td><td></td><td></td></tr><tr><td></td><td>작품집 원고 자료 제출</td><td>O</td><td>2019.10.17 보완</td></tr><tr><td><strong>2019.10.17</strong></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>옴니 카 자이로스코프 보완</td><td>-</td><td>다음 주 연기</td></tr><tr><td></td><td>주요 기능 보완</td><td>-</td><td>다음 주 연기</td></tr><tr><td><strong>2019.10.18</strong></td><td>인공지능 강의 철회</td><td>O</td><td>학과 사무실 추가 확인 필요</td></tr><tr><td></td><td>컴퓨터 네트워크 강의 6주차</td><td>10:00</td><td>-</td></tr><tr><td></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>교수님 팀 미팅</td><td>O</td><td>교수님 학회 참석 연기</td></tr><tr><td><strong>2019.10.19</strong></td><td><strong>캡스톤디자인 연구</strong></td><td></td><td></td></tr><tr><td></td><td>주요 기능 보완</td><td>-</td><td>다음 주 연기</td></tr><tr><td></td><td><strong>중간고사 준비</strong></td><td></td><td></td></tr><tr><td></td><td>파이썬 프로그래밍 정리</td><td>O</td><td>-</td></tr><tr><td></td><td>컴퓨터 네트워크 정리</td><td>-</td><td>다음 주 연기</td></tr><tr><td><strong>2019.10.20</strong></td><td>개인 일정</td><td></td><td></td></tr></tbody></table>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/10/13/plan/weekly-report/2019/1014/#disqus_thread</comments>
       
     </item>
     
