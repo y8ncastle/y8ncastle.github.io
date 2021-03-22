@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 22 Mar 2021 02:48:57 GMT</pubDate>
+    <pubDate>Mon, 22 Mar 2021 02:59:16 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,12 +22,16 @@
 &lt;li&gt;08:40 &amp;gt; BaSE Lab 출근&lt;/li&gt;
 &lt;li&gt;10:00 &amp;gt; BaSE 교수님 세미나 (~11:30)&lt;/li&gt;
 &lt;li&gt;10:30 &amp;gt; 자연어처리론 4주차 강의 수강 (Zoom) (~11:40)&lt;/li&gt;
+&lt;li&gt;11:54 &amp;gt; 정보통신대학원 블록체인 산업동향 제출된 과제 확인&lt;/li&gt;
 &lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;세미나 발표 자료 정리&lt;br&gt;자연어처리론 형태소 분석기&lt;br&gt;서울시 블록체인 강의 자료 제작&lt;br&gt;고급 알고리즘 설계 및 분석 2차 과제&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-03-22-월"><a href="#2021-03-22-월" class="headerlink" title="2021.03.22 (월)"></a>2021.03.22 (월)</h3><ul><li>08:40 &gt; BaSE Lab 출근</li><li>10:00 &gt; BaSE 교수님 세미나 (~11:30)</li><li>10:30 &gt; 자연어처리론 4주차 강의 수강 (Zoom) (~11:40)</li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-03-22-월"><a href="#2021-03-22-월" class="headerlink" title="2021.03.22 (월)"></a>2021.03.22 (월)</h3><ul><li>08:40 &gt; BaSE Lab 출근</li><li>10:00 &gt; BaSE 교수님 세미나 (~11:30)</li><li>10:30 &gt; 자연어처리론 4주차 강의 수강 (Zoom) (~11:40)</li><li>11:54 &gt; 정보통신대학원 블록체인 산업동향 제출된 과제 확인</li></ul><blockquote><p>세미나 발표 자료 정리<br>자연어처리론 형태소 분석기<br>서울시 블록체인 강의 자료 제작<br>고급 알고리즘 설계 및 분석 2차 과제</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -565,9 +569,9 @@
       
       <category domain="https://y8ncastle.me/tags/thesis/">thesis</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/">학회</category>
       
@@ -5101,9 +5105,9 @@
       <category domain="https://y8ncastle.me/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/software-engineering-society/">software engineering society</category>
       
