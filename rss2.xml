@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 19 Apr 2021 00:41:56 GMT</pubDate>
+    <pubDate>Mon, 19 Apr 2021 02:07:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -20,12 +20,13 @@
       
       <description>&lt;h3 id=&quot;2021-04-19-월&quot;&gt;&lt;a href=&quot;#2021-04-19-월&quot; class=&quot;headerlink&quot; title=&quot;2021.04.19 (월)&quot;&gt;&lt;/a&gt;2021.04.19 (월)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;09:40 &amp;gt; BaSe Lab 출근&lt;/li&gt;
+&lt;li&gt;10:00 &amp;gt; 연구실 교수님 세미나 (~11:10)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-04-19-월"><a href="#2021-04-19-월" class="headerlink" title="2021.04.19 (월)"></a>2021.04.19 (월)</h3><ul><li>09:40 &gt; BaSe Lab 출근</li></ul>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-04-19-월"><a href="#2021-04-19-월" class="headerlink" title="2021.04.19 (월)"></a>2021.04.19 (월)</h3><ul><li>09:40 &gt; BaSe Lab 출근</li><li>10:00 &gt; 연구실 교수님 세미나 (~11:10)</li></ul>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -820,9 +821,9 @@
       
       <category domain="https://y8ncastle.me/tags/thesis/">thesis</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/">학회</category>
       
@@ -5148,9 +5149,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
-      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube seminar</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C-%EB%B3%B4%ED%98%B8/">프라이버시 보호</category>
+      
+      <category domain="https://y8ncastle.me/tags/youtube-seminar/">youtube seminar</category>
       
       <category domain="https://y8ncastle.me/tags/privacy-security/">privacy security</category>
       
@@ -5356,9 +5357,9 @@
       <category domain="https://y8ncastle.me/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/software-engineering-society/">software engineering society</category>
       
