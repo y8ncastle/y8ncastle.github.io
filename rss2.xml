@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 26 Apr 2021 02:02:44 GMT</pubDate>
+    <pubDate>Mon, 26 Apr 2021 04:01:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,6 +22,9 @@
 &lt;li&gt;10:25 &amp;gt; BaSE Lab 출근&lt;/li&gt;
 &lt;li&gt;10:32 &amp;gt; 학부 소프트웨어 공학 강의 영상 편집 (~10:52)&lt;/li&gt;
 &lt;li&gt;11:03 &amp;gt; Microsoft ION 테스트 진행&lt;/li&gt;
+&lt;li&gt;11:20 &amp;gt; 정보통신대학원 블록체인 응용서비스 조교 업무&lt;/li&gt;
+&lt;li&gt;11:50 &amp;gt; Bitcoin Core Testnet 풀 노드 다운로드 시작&lt;/li&gt;
+&lt;li&gt;12:55 &amp;gt; 정보통신대학원 출석부 정리 (~13:00)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 
@@ -31,7 +34,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-04-26-월"><a href="#2021-04-26-월" class="headerlink" title="2021.04.26 (월)"></a>2021.04.26 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근</li><li>10:32 &gt; 학부 소프트웨어 공학 강의 영상 편집 (~10:52)</li><li>11:03 &gt; Microsoft ION 테스트 진행</li></ul><br><blockquote><p>서울시 블록체인 교재 제작 (-04/28)<br>MS ION 테스트 마무리 (-04/28)<br>세미나 준비 (-04/29)</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-04-26-월"><a href="#2021-04-26-월" class="headerlink" title="2021.04.26 (월)"></a>2021.04.26 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근</li><li>10:32 &gt; 학부 소프트웨어 공학 강의 영상 편집 (~10:52)</li><li>11:03 &gt; Microsoft ION 테스트 진행</li><li>11:20 &gt; 정보통신대학원 블록체인 응용서비스 조교 업무</li><li>11:50 &gt; Bitcoin Core Testnet 풀 노드 다운로드 시작</li><li>12:55 &gt; 정보통신대학원 출석부 정리 (~13:00)</li></ul><br><blockquote><p>서울시 블록체인 교재 제작 (-04/28)<br>MS ION 테스트 마무리 (-04/28)<br>세미나 준비 (-04/29)</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -866,9 +869,9 @@
       
       <category domain="https://y8ncastle.me/tags/thesis/">thesis</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/">학회</category>
       
@@ -5402,9 +5405,9 @@
       <category domain="https://y8ncastle.me/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/software-engineering-society/">software engineering society</category>
       
@@ -8081,13 +8084,13 @@
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
       
       <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
       
       <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation exhibition</category>
       
