@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 03 May 2021 01:54:16 GMT</pubDate>
+    <pubDate>Mon, 03 May 2021 05:06:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -21,6 +21,8 @@
       <description>&lt;h3 id=&quot;2021-05-03-월&quot;&gt;&lt;a href=&quot;#2021-05-03-월&quot; class=&quot;headerlink&quot; title=&quot;2021.05.03 (월)&quot;&gt;&lt;/a&gt;2021.05.03 (월)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;10:25 &amp;gt; BaSE Lab 출근&lt;/li&gt;
 &lt;li&gt;10:41 &amp;gt; 정보통신대학원 출석부 정리 (~10:54)&lt;/li&gt;
+&lt;li&gt;12:30 &amp;gt; 이번 주 세미나 준비 진행&lt;/li&gt;
+&lt;li&gt;13:23 &amp;gt; 학부 소프트웨어 공학 영상 편집 (~14:06)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 
@@ -30,7 +32,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-05-03-월"><a href="#2021-05-03-월" class="headerlink" title="2021.05.03 (월)"></a>2021.05.03 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근</li><li>10:41 &gt; 정보통신대학원 출석부 정리 (~10:54)</li></ul><br><blockquote><p>알바트로스 실시간 강의 지원 (05/04)<br>CURG 블록체인 Publish (-05/08)<br>고급 알고리즘 설계와 분석 5차 과제 (-05/09)</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-05-03-월"><a href="#2021-05-03-월" class="headerlink" title="2021.05.03 (월)"></a>2021.05.03 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근</li><li>10:41 &gt; 정보통신대학원 출석부 정리 (~10:54)</li><li>12:30 &gt; 이번 주 세미나 준비 진행</li><li>13:23 &gt; 학부 소프트웨어 공학 영상 편집 (~14:06)</li></ul><br><blockquote><p>알바트로스 실시간 강의 지원 (05/04)<br>CURG 블록체인 Publish (-05/08)<br>고급 알고리즘 설계와 분석 5차 과제 (-05/09)</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -947,8 +949,6 @@
       <category domain="https://y8ncastle.me/categories/CURG-Publish/AI/">AI</category>
       
       
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
-      
       <category domain="https://y8ncastle.me/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/">강화학습</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/">마르코프 결정 과정</category>
@@ -968,6 +968,8 @@
       <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
       
       <category domain="https://y8ncastle.me/tags/ai/">ai</category>
+      
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.me/2020/08/07/curg/ai/mdp/#disqus_thread</comments>
@@ -1817,6 +1819,8 @@
       
       <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
       
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
+      
       <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
@@ -1824,8 +1828,6 @@
       <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data sharing platform</category>
       
       <category domain="https://y8ncastle.me/tags/review-system/">review system</category>
-      
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/curg/blockchain/data-sharing-2/#disqus_thread</comments>
@@ -1862,6 +1864,8 @@
       
       <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
       
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
+      
       <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
@@ -1869,8 +1873,6 @@
       <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data sharing platform</category>
       
       <category domain="https://y8ncastle.me/tags/review-system/">review system</category>
-      
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/curg/blockchain/data-sharing/#disqus_thread</comments>
