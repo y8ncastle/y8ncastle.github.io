@@ -9,8 +9,43 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 03 May 2021 12:19:17 GMT</pubDate>
+    <pubDate>Mon, 10 May 2021 02:01:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>주간 진행 보고 (2021.05.10 - 05.16)</title>
+      <link>https://y8ncastle.me/2021/05/10/plan/weekly-report/2021/0510/</link>
+      <guid>https://y8ncastle.me/2021/05/10/plan/weekly-report/2021/0510/</guid>
+      <pubDate>Mon, 10 May 2021 01:52:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;2021-05-10-월&quot;&gt;&lt;a href=&quot;#2021-05-10-월&quot; class=&quot;headerlink&quot; title=&quot;2021.05.10 (월)&quot;&gt;&lt;/a&gt;2021.05.10 (월)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;09:55 &amp;gt; BaSE Lab 출근&lt;/li&gt;
+&lt;li&gt;11:00 &amp;gt; 연구실 회의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;서울시 블록체인 교육 교재 제작 (-05/11)&lt;br&gt;한경원 블록체인 자료 준비 (-05/14)&lt;br&gt;고급 알고리즘 설계와 분석 6차 과제 (-05/23)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="2021-05-10-월"><a href="#2021-05-10-월" class="headerlink" title="2021.05.10 (월)"></a>2021.05.10 (월)</h3><ul><li>09:55 &gt; BaSE Lab 출근</li><li>11:00 &gt; 연구실 회의</li></ul><br><blockquote><p>서울시 블록체인 교육 교재 제작 (-05/11)<br>한경원 블록체인 자료 준비 (-05/14)<br>고급 알고리즘 설계와 분석 6차 과제 (-05/23)</p></blockquote>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
+      
+      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/05/10/plan/weekly-report/2021/0510/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>클레이튼 네트워크 구성과 IBFT (BaSE Lab 세미나 21-11차)</title>
@@ -999,6 +1034,8 @@
       <category domain="https://y8ncastle.me/categories/CURG-Publish/AI/">AI</category>
       
       
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
+      
       <category domain="https://y8ncastle.me/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/">강화학습</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/">마르코프 결정 과정</category>
@@ -1018,8 +1055,6 @@
       <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
       
       <category domain="https://y8ncastle.me/tags/ai/">ai</category>
-      
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.me/2020/08/07/curg/ai/mdp/#disqus_thread</comments>
@@ -1869,8 +1904,6 @@
       
       <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
       
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
@@ -1878,6 +1911,8 @@
       <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data sharing platform</category>
       
       <category domain="https://y8ncastle.me/tags/review-system/">review system</category>
+      
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/curg/blockchain/data-sharing-2/#disqus_thread</comments>
@@ -1914,8 +1949,6 @@
       
       <category domain="https://y8ncastle.me/tags/ipfs/">ipfs</category>
       
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
-      
       <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
@@ -1923,6 +1956,8 @@
       <category domain="https://y8ncastle.me/tags/data-sharing-platform/">data sharing platform</category>
       
       <category domain="https://y8ncastle.me/tags/review-system/">review system</category>
+      
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.me/2020/06/01/curg/blockchain/data-sharing/#disqus_thread</comments>
@@ -8129,9 +8164,9 @@
       
       <category domain="https://y8ncastle.me/tags/hbnu/">hbnu</category>
       
-      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
+      
+      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8/">실전문제연구단</category>
       
@@ -8174,13 +8209,13 @@
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
-      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
+      
+      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
       
       <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation exhibition</category>
       
@@ -8595,13 +8630,13 @@
       
       <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
       
+      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
+      
       <category domain="https://y8ncastle.me/tags/%EB%B0%95%EB%9E%8C%ED%9A%8C/">박람회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ict-%EB%A9%98%ED%86%A0%EB%A7%81/">한이음 ict 멘토링</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%B7%A8%EC%97%85%EC%BD%98%EC%84%9C%ED%8A%B8/">취업콘서트</category>
-      
-      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
       
       <category domain="https://y8ncastle.me/tags/hanium-ict-mentoring/">hanium ict mentoring</category>
       
@@ -8642,13 +8677,13 @@
       
       <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
       
+      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
+      
       <category domain="https://y8ncastle.me/tags/%EB%B0%95%EB%9E%8C%ED%9A%8C/">박람회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C-ict-%EB%A9%98%ED%86%A0%EB%A7%81/">한이음 ict 멘토링</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%B7%A8%EC%97%85%EC%BD%98%EC%84%9C%ED%8A%B8/">취업콘서트</category>
-      
-      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
       
       <category domain="https://y8ncastle.me/tags/hanium-ict-mentoring/">hanium ict mentoring</category>
       
@@ -8704,60 +8739,6 @@
       
       
       <comments>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hlf-env/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>IBM 하이퍼레저 패브릭과 아키텍처</title>
-      <link>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hyperledger-fabric/</link>
-      <guid>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hyperledger-fabric/</guid>
-      <pubDate>Thu, 07 Nov 2019 06:45:00 GMT</pubDate>
-      
-      <description>&lt;h3 id=&quot;하이퍼레저-패브릭&quot;&gt;&lt;a href=&quot;#하이퍼레저-패브릭&quot; class=&quot;headerlink&quot; title=&quot;하이퍼레저 패브릭&quot;&gt;&lt;/a&gt;하이퍼레저 패브릭&lt;/h3&gt;&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;IBM에서 최초로 제작되어 리눅스 재단에 기부한 기술이다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;하이퍼레저 패브릭 프로젝트는 크게 하이퍼레저 프레임워크와 하이퍼레저 툴로 나뉜다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;공개형 블록체인의 경우 프라이버시 문제가 발생할 수 있어 이를 보완하기 위해 개발되었다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;비트코인이나 이더리움과 달리 실체/실무적인 부분에 적용하기 때문에 기업 측면에서 좋다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;다른 블록체인에 비해 복잡한 구조로 되어있다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;채널(Channel)이라는 개념을 도입하여 프라이버시 문제를 해결하였다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;분산원장은 모든 정보가 해시화되어 Append-only 방식으로만 원장에 저장된다. (불가변성)  &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<h3 id="하이퍼레저-패브릭"><a href="#하이퍼레저-패브릭" class="headerlink" title="하이퍼레저 패브릭"></a>하이퍼레저 패브릭</h3><hr><ul><li><p>IBM에서 최초로 제작되어 리눅스 재단에 기부한 기술이다.</p></li><li><p>하이퍼레저 패브릭 프로젝트는 크게 하이퍼레저 프레임워크와 하이퍼레저 툴로 나뉜다.</p></li><li><p>공개형 블록체인의 경우 프라이버시 문제가 발생할 수 있어 이를 보완하기 위해 개발되었다.</p></li><li><p>비트코인이나 이더리움과 달리 실체/실무적인 부분에 적용하기 때문에 기업 측면에서 좋다.</p></li><li><p>다른 블록체인에 비해 복잡한 구조로 되어있다.</p></li><li><p>채널(Channel)이라는 개념을 도입하여 프라이버시 문제를 해결하였다.</p></li><li><p>분산원장은 모든 정보가 해시화되어 Append-only 방식으로만 원장에 저장된다. (불가변성)  </p></li></ul><p><br><br></p><h3 id="하이퍼레저-패브릭-합의-과정"><a href="#하이퍼레저-패브릭-합의-과정" class="headerlink" title="하이퍼레저 패브릭 합의 과정"></a>하이퍼레저 패브릭 합의 과정</h3><hr><ul><li>다른 블록체인에는 없는 개념으로, 기억해야 할 용어들이 있다.</li></ul><br><ul><li><p><code>Endorsing</code>: 보증 정책 확인</p></li><li><p><code>Ordering</code>: 트랜잭션을 정해진 순서에 맞춰 정렬</p></li><li><p><code>Validation &amp; Commit</code>: 정렬된 트랜잭션의 유효성 검증 및 최신 블록 업데이트</p></li></ul><br><ul><li><p>트랜잭션이 들어오면 Endorsing 동작을 통해 트랜잭션이 정상적인 것인지 판단한다.</p></li><li><p>정상적이라면 줄 세우기를 하여 순서대로 블록체인 상에 올릴 것인지 말 것인지를 판단한다.</p></li><li><p>특별한 이상이 없다면 Commit을 통해 블록체인 상에 업데이트한다.  </p></li></ul><p><br><br></p><h3 id="하이퍼레저-프레임워크"><a href="#하이퍼레저-프레임워크" class="headerlink" title="하이퍼레저 프레임워크"></a>하이퍼레저 프레임워크</h3><hr><p align="center"><img src="https://user-images.githubusercontent.com/52089296/102950398-e68fb080-450d-11eb-89a2-e905779090a7.png" width="70%" alt="한이음 ICT 멘토링 - 하이퍼레저 패브릭 강의 자료 일부"></p>  <p><br><br></p><ul><li><p>하이퍼레저 패브릭은 가장 활발하게 활동 중인 하이퍼레저 프로젝트로서 IBM이 제공한 44,000줄의 코드를 기반으로 개발되고 있다. 현재 합의 방법으로 Solo, Kafka, SBFT(개발 예정)을 채택하고 있다.</p></li><li><p>이외 내용 참고  </p></li></ul><p><br><br></p><h3 id="하이퍼레저-툴"><a href="#하이퍼레저-툴" class="headerlink" title="하이퍼레저 툴"></a>하이퍼레저 툴</h3><hr><ul><li><p><code>Caliper</code>: 블록체인의 성능을 측정하기 위한 프로젝트</p></li><li><p><code>Cello</code>: 블록체인의 운영 및 관리를 위한 프로젝트</p></li><li><p>이외 내용 참고  </p></li></ul><p><br><br></p><h3 id="HL-F-하이퍼레저-패브릭-프로젝트-개요"><a href="#HL-F-하이퍼레저-패브릭-프로젝트-개요" class="headerlink" title="HL.F (하이퍼레저 패브릭 프로젝트) 개요"></a>HL.F (하이퍼레저 패브릭 프로젝트) 개요</h3><hr><ul><li>허가형 프라이빗 블록체인 형태로 개발되었다.</li></ul><br><ul><li><code>MSP (Membership Services Provider)</code>: 멤버형 인증 관리 시스템에 등록된 사용자만이 하이퍼레저 패브릭 블록체인에 참여할 수 있다.</li></ul><br><ul><li><p>채널이라는 개념을 도입해서 블록체인 참여자들 간의 프라이버시를 강화할 수 있다.</p></li><li><p>거래 정보를 공개 또는 기밀로 할 수 있다.</p></li></ul><br><ul><li><code>하이퍼레저 구조</code>: Membership, Blockchain, Transactions, Chaincode (스마트 계약)</li></ul><br><ul><li><p>체인코드를 얼마나 잘 만드느냐가 중요하다.</p></li><li><p>특정 비즈니스 목적에 따라 채널을 설정하여 정보를 상호 간 공유할 수 있다.</p></li><li><p>체인코드는 현재 Go와 Node.js 언어를 지원한다.</p></li><li><p>하이퍼레저는 World state와 Blockchain으로 구성되어 있다.</p></li></ul><br><ul><li><code>vKVS (Versioned Key Value Store) = World state</code>: 트랜잭션을 실행한 결과 얻어지는 최신 상태를 기록한다.  <ul><li>예시) 은행 앱에서 최종 자산만 검색하여 메인에 보여주는 것, 중고차를 구입할 때 소유자가 계속해서 변경되는 것 등 최종 값을 가지고 검색하는 것이 빠르다. (버전이 계속해서 갱신되는 느낌)</li></ul></li></ul><p><br><br></p><h3 id="HL-F-특징"><a href="#HL-F-특징" class="headerlink" title="HL.F 특징"></a>HL.F 특징</h3><hr><ul><li><p>채널이 있기 때문에 프라이버시와 기밀성이 있다.</p></li><li><p>비트코인의 경우 분산하여 모든 노드에서 계속해서 똑같은 작업을 반복해야 하는 반면 하이퍼레저는 여러 개의 피어들이 각각 처리하는 트랜잭션을 서로 다르게끔 하여 분산 병렬 처리로 작업을 한다.</p></li></ul><br><ul><li><code>진행 과정</code>: 실행 &gt; 결과(디앱) &gt; 줄 세우기 &gt; 순서대로 검증 피어에 전달 &gt; 문제가 없다면 커밋 피어에서 커밋</li></ul><br><ul><li><p>체인코드의 로직을 통해 트랜잭션 처리 여부를 결정한다.</p></li><li><p>하이퍼레저를 이루는 네트워크 구성요소 피어들을 원하는 순서대로 모듈화 하여 네트워크를 설계할 수 있다.</p></li><li><p>교체 가능한 합의 프로토콜을 사용할 수 있다. (Solo, Kafka, PBFT 등)  </p></li></ul><p><br><br></p><h3 id="Fabric-V1-아키텍처"><a href="#Fabric-V1-아키텍처" class="headerlink" title="Fabric V1 아키텍처"></a>Fabric V1 아키텍처</h3><hr><ul><li><code>오더링 서비스</code>: 기본적으로 4개가 묶여있는데 Kafka 방식을 이용하여 합의 알고리즘을 수행한다.</li></ul><br><ul><li><p>여러 피어 중 하나가 작동이 안 된다던지 아니면 배신자 노드가 있을 수 있는데 그런 경우 1명을 제외하고 나머지 피어가 합의를 할 수 있다.</p></li><li><p>Solo의 경우 오더러의 개수는 1개만 있으면 된다.</p></li><li><p>Kafka 방식에서는 최소 오더러가 3개 이상 있어야 한다.  </p></li></ul><p><br><br></p><h3 id="HL-F-구성요소-Peer"><a href="#HL-F-구성요소-Peer" class="headerlink" title="HL.F 구성요소 - Peer"></a>HL.F 구성요소 - Peer</h3><hr><ul><li><code>Ledger</code> (World state + Blockchain) + <code>ChainCode</code> (비즈니스 로직 포함)</li></ul><br><ul><li><p>하이퍼레저 패브릭 블록체인을 구성하는 네트워크 노드를 나타내는 논리적 단위</p></li><li><p>Peer 노드 네트워크는 비즈니스 목적에 따라 달리 구성할 수 있다.</p></li></ul><br><ul><li><code>종류</code>: Endorsing, Anchor, Ordering, Committing, Validation peer</li></ul><br><ul><li><p>조직이 여러 개일 수 있지만 Ordering peer는 하나이고 이에 의해 모든 트랜잭션을 제어한다.</p></li><li><p>General peer = Commiting peer</p></li></ul><br><ul><li><code>Anchor peer</code>: 노드 간에 통신을 주고받게 해주는 역할  <ul><li>어떤 노드가 살아있고 죽었는지 확인, 패킷을 던져보는 역할</li></ul></li></ul><br><ul><li><p>오더러가 죽어버리면 전체 시스템이 죽어버리기 때문에 이중화 구성을 해야 한다.</p></li><li><p>일반 트랜잭션 영역은 RDBMS에 쌓고 블록체인 상에 올려야 할 것들은 LevelDB나 CouchDB를 통해 데이터를 저장한다.</p></li><li><p>블록체인 데이터는 파일 시스템 DB로 관리된다.</p></li></ul><br><ul><li><code>시스템 체인코드 종류</code>: <code>QSCC</code>(Query System ChainCode), <code>ESCC</code>(Endorsement), <code>VSCC</code>(Validation), <code>CSCC</code>(Configuration), <code>LSCC</code>(Lifecycle)</li></ul><br><ul><li>ChainCode 명령어는 DApp과도 연관되어 있어 외워둘 필요가 있다.  </li></ul><p><br><br></p><h3 id="HL-F-구성요소-DApp"><a href="#HL-F-구성요소-DApp" class="headerlink" title="HL.F 구성요소 - DApp"></a>HL.F 구성요소 - DApp</h3><hr><p align="center"><img src="https://user-images.githubusercontent.com/52089296/102950405-e7c0dd80-450d-11eb-9234-cd0ed137671c.png" width="70%" alt="한이음 ICT 멘토링 - 하이퍼레저 패브릭 강의 자료 일부"></p>  <p><br><br></p><h3 id="HL-F-구성요소-기타"><a href="#HL-F-구성요소-기타" class="headerlink" title="HL.F 구성요소 기타"></a>HL.F 구성요소 기타</h3><hr><ul><li><p><code>Endorsement Policy</code>: 어떤 트랜잭션이 발생했을 때 보증 그룹의 특정 Peer로부터 디지털 인증서를 획득해야 하는데 여러 가지 조건에 따라 설정이 가능하다.</p></li><li><p><code>Organization</code>: HL.F 네트워크에 참여하는 조직을 나타내는 논리적 단위이다.</p></li><li><p><code>Channel</code>: 하나의 조직과 조직을 연결할 수 있는 논리적으로 분리한 네트워크이다.</p></li><li><p><code>Gossip Protocol</code>: 오더러가 블록들을 순서대로 정렬시키는데 여러 개의 피어 모두에게 블록을 던지는 것이 아니라 리더 피어를 설정해서 리더 피어에게 전달하는 방식이다.  </p></li></ul><p><br><br></p><h3 id="HL-F-합의"><a href="#HL-F-합의" class="headerlink" title="HL.F 합의"></a>HL.F 합의</h3><hr><ul><li><p>트랜잭션 생성부터 최신 블록이 Peer에 저장되기까지의 모든 과정을 합의라고 한다.</p></li><li><p>PoW, PoS, BFT 등을 사용하지 않는다.</p></li><li><p>Kafka와 Solo를 이용하여 트랜잭션을 정렬한다.</p></li></ul><br><ul><li><code>합의 알고리즘</code> = <code>보증</code>(Endorsement) + <code>오더링</code>(가장 중요, Ordering), <code>검증</code>(Validation)</li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Education/">Education</category>
-      
-      <category domain="https://y8ncastle.me/categories/Education/Hyperledger-Fabric/">Hyperledger Fabric</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
-      
-      <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C/">한이음</category>
-      
-      <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저 패브릭</category>
-      
-      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger fabric</category>
-      
-      <category domain="https://y8ncastle.me/tags/ibm/">ibm</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hyperledger-fabric/#disqus_thread</comments>
       
     </item>
     
