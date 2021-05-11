@@ -9,8 +9,64 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 10 May 2021 06:57:03 GMT</pubDate>
+    <pubDate>Tue, 11 May 2021 06:18:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>The Eye of Horus, 이더리움 스마트 컨트랙트에 대한 공격 탐지 분석 프레임워크 (BaSE Lab 세미나 21-14차)</title>
+      <link>https://y8ncastle.me/2021/05/11/activity/seminar/seminar-21-14/</link>
+      <guid>https://y8ncastle.me/2021/05/11/activity/seminar/seminar-21-14/</guid>
+      <pubDate>Tue, 11 May 2021 06:14:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;Lab-세미나-발표-자료-2021-05-11&quot;&gt;&lt;a href=&quot;#Lab-세미나-발표-자료-2021-05-11&quot; class=&quot;headerlink&quot; title=&quot;Lab 세미나 발표 자료 (2021.05.11)&quot;&gt;&lt;/a&gt;Lab 세미나 발표 자료 (2021.05.11)&lt;/h3&gt;&lt;hr&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/117767039-63c48380-b26b-11eb-986e-d816ca642659.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="Lab-세미나-발표-자료-2021-05-11"><a href="#Lab-세미나-발표-자료-2021-05-11" class="headerlink" title="Lab 세미나 발표 자료 (2021.05.11)"></a>Lab 세미나 발표 자료 (2021.05.11)</h3><hr><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767039-63c48380-b26b-11eb-986e-d816ca642659.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767053-67580a80-b26b-11eb-9af6-289d9c3d673a.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767056-68893780-b26b-11eb-9939-613c22f71e11.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767058-6921ce00-b26b-11eb-9e64-f21cdd81b34f.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767061-69ba6480-b26b-11eb-8f1f-c1a85f805035.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767063-6a52fb00-b26b-11eb-8048-59c2ff2aa47a.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767067-6aeb9180-b26b-11eb-9775-f39cb9451895.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767076-6cb55500-b26b-11eb-8642-20643906d941.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767081-6d4deb80-b26b-11eb-8a8c-c6287a666a46.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767085-6de68200-b26b-11eb-920c-d51711a0c8da.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767087-6e7f1880-b26b-11eb-8bda-596015783a25.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767091-6f17af00-b26b-11eb-855e-b148cebfc195.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767095-6fb04580-b26b-11eb-9e18-b503d3834808.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767098-70e17280-b26b-11eb-9b63-bf936983081e.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767103-717a0900-b26b-11eb-9d3a-6ed705437eef.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767108-72129f80-b26b-11eb-8d0c-81bcf50548f4.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767110-72ab3600-b26b-11eb-815c-b219713b54c3.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767113-7343cc80-b26b-11eb-8c7a-33e90f95afee.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767117-7474f980-b26b-11eb-9b36-3c2c82f0f335.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/117767120-7474f980-b26b-11eb-99d3-979e61167990.png"></p>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Activity/">Activity</category>
+      
+      <category domain="https://y8ncastle.me/categories/Activity/Seminar/">Seminar</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
+      
+      <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
+      
+      <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
+      
+      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%B5%EA%B2%A9-%ED%83%90%EC%A7%80/">공격 탐지</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B3%B5%EA%B2%A9-%EB%B6%84%EC%84%9D/">공격 분석</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%B7%A8%EC%95%BD%EC%A0%90/">스마트 컨트랙트 취약점</category>
+      
+      <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
+      
+      <category domain="https://y8ncastle.me/tags/attack-detection/">attack detection</category>
+      
+      <category domain="https://y8ncastle.me/tags/attack-analysis/">attack analysis</category>
+      
+      <category domain="https://y8ncastle.me/tags/smart-contract-vulnerability/">smart contract vulnerability</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/05/11/activity/seminar/seminar-21-14/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>The Eye of Horus, 이더리움 스마트 컨트랙트에 대한 공격 탐지 분석 프레임워크</title>
@@ -46,21 +102,21 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
-      
-      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
-      
       <category domain="https://y8ncastle.me/tags/%EA%B3%B5%EA%B2%A9-%ED%83%90%EC%A7%80/">공격 탐지</category>
       
       <category domain="https://y8ncastle.me/tags/%EA%B3%B5%EA%B2%A9-%EB%B6%84%EC%84%9D/">공격 분석</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%98%B8%EB%A3%A8%EC%8A%A4%EC%9D%98-%EB%88%88/">호루스의 눈</category>
-      
-      <category domain="https://y8ncastle.me/tags/the-eye-of-horus/">the eye of horus</category>
+      <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
       
       <category domain="https://y8ncastle.me/tags/attack-detection/">attack detection</category>
       
       <category domain="https://y8ncastle.me/tags/attack-analysis/">attack analysis</category>
+      
+      <category domain="https://y8ncastle.me/tags/curg/">curg</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%98%B8%EB%A3%A8%EC%8A%A4%EC%9D%98-%EB%88%88/">호루스의 눈</category>
+      
+      <category domain="https://y8ncastle.me/tags/the-eye-of-horus/">the eye of horus</category>
       
       
       <comments>https://y8ncastle.me/2021/05/10/curg/blockchain/eye-of-horus/#disqus_thread</comments>
@@ -437,9 +493,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%B7%A8%EC%95%BD%EC%A0%90/">취약점</category>
-      
       <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%B7%A8%EC%95%BD%EC%A0%90/">취약점</category>
       
       <category domain="https://y8ncastle.me/tags/vulnerability/">vulnerability</category>
       
@@ -8709,52 +8765,6 @@
       
       
       <comments>https://y8ncastle.me/2019/11/07/activity/exposition/hanium-ict-mentoring/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>하이퍼레저 패브릭 동작환경</title>
-      <link>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hlf-env/</link>
-      <guid>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hlf-env/</guid>
-      <pubDate>Thu, 07 Nov 2019 07:12:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/102952252-1c369880-4512-11eb-850d-c8030f42a507.png&quot; width=&quot;70%&quot; alt=&quot;한이음 ICT 멘토링 - 하이퍼레저 패브릭 강의 자료 일부&quot;&gt;&lt;/p&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;기존 하이퍼레저 패브릭은 암호화폐를 지원하지 않았는데 V2.0부터 FabToken을 지원한다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;채굴하는 것이 아니기 때문에 최종성(블록이 무조건 생성되는 것)이 있다.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Kafka 합의 알고리즘을 가장 많이 사용하고 있고, SBFT를 지원할 예정이다.  &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/102952252-1c369880-4512-11eb-850d-c8030f42a507.png" width="70%" alt="한이음 ICT 멘토링 - 하이퍼레저 패브릭 강의 자료 일부"></p>  <p><br><br></p><ul><li><p>기존 하이퍼레저 패브릭은 암호화폐를 지원하지 않았는데 V2.0부터 FabToken을 지원한다.</p></li><li><p>채굴하는 것이 아니기 때문에 최종성(블록이 무조건 생성되는 것)이 있다.</p></li><li><p>Kafka 합의 알고리즘을 가장 많이 사용하고 있고, SBFT를 지원할 예정이다.  </p></li></ul><p><br><br></p><h3 id="HL-F-개발-구성-요소"><a href="#HL-F-개발-구성-요소" class="headerlink" title="HL.F 개발 구성 요소"></a>HL.F 개발 구성 요소</h3><hr><ul><li><p>리눅스 기반 위에 Docker(실행 이미지)를 설치해서 Peer를 여러개 논리적으로 설치해서 운용한다.</p></li><li><p>이후 하이퍼레저 패브릭 네트워크를 구성할 수 있다.</p></li><li><p>Go 또는 Node.js 언어를 이용하여 체인코드를 구현한다.</p></li></ul><br><ul><li><code>Docker</code>: 컨테이너 기반의 오픈소스 가상화 플랫폼</li></ul><br><ul><li>기본적인 가상화 솔루션과 비슷하긴 하지만 Docker는 위에 컨테이너를 계속해서 올린다는 점에서 다르다.  <ul><li>컨테이너는 일종의 격리된 프로세스로 그 안에서 OS 등이 동작한다.</li></ul></li></ul>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Education/">Education</category>
-      
-      <category domain="https://y8ncastle.me/categories/Education/Hyperledger-Fabric/">Hyperledger Fabric</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EC%9D%B4%EC%9D%8C/">한이음</category>
-      
-      <category domain="https://y8ncastle.me/tags/hanium/">hanium</category>
-      
-      <category domain="https://y8ncastle.me/tags/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD/">하이퍼레저 패브릭</category>
-      
-      <category domain="https://y8ncastle.me/tags/hyperledger-fabric/">hyperledger fabric</category>
-      
-      <category domain="https://y8ncastle.me/tags/hlf/">hlf</category>
-      
-      <category domain="https://y8ncastle.me/tags/ibm/">ibm</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/11/07/education/hyperledger/hanium/hlf-env/#disqus_thread</comments>
       
     </item>
     
