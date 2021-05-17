@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Zay Jeong IT Blog (Personal Development)</description>
-    <pubDate>Mon, 17 May 2021 10:00:35 GMT</pubDate>
+    <pubDate>Mon, 17 May 2021 11:09:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,6 +22,7 @@
 &lt;li&gt;09:08 &amp;gt; 학부 소프트웨어 공학 녹화본 편집 (~09:10)&lt;/li&gt;
 &lt;li&gt;17:25 &amp;gt; 정보통신대학원 블록체인 응용서비스 강의 조교 업무&lt;/li&gt;
 &lt;li&gt;17:50 &amp;gt; 정보통신대학원 블록체인 산업동향 14주차 실시간 강의 모니터링 (~19:00)&lt;/li&gt;
+&lt;li&gt;20:05 &amp;gt; 정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;발열 증세로 인해 재택 근무&lt;/p&gt;
@@ -30,7 +31,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-05-17"><a href="#2021-05-17" class="headerlink" title="2021.05.17"></a>2021.05.17</h3><ul><li>09:08 &gt; 학부 소프트웨어 공학 녹화본 편집 (~09:10)</li><li>17:25 &gt; 정보통신대학원 블록체인 응용서비스 강의 조교 업무</li><li>17:50 &gt; 정보통신대학원 블록체인 산업동향 14주차 실시간 강의 모니터링 (~19:00)</li></ul><blockquote><p>발열 증세로 인해 재택 근무</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-05-17"><a href="#2021-05-17" class="headerlink" title="2021.05.17"></a>2021.05.17</h3><ul><li>09:08 &gt; 학부 소프트웨어 공학 녹화본 편집 (~09:10)</li><li>17:25 &gt; 정보통신대학원 블록체인 응용서비스 강의 조교 업무</li><li>17:50 &gt; 정보통신대학원 블록체인 산업동향 14주차 실시간 강의 모니터링 (~19:00)</li><li>20:05 &gt; 정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무</li></ul><blockquote><p>발열 증세로 인해 재택 근무</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -8316,13 +8317,13 @@
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
-      
-      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
+      
+      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
       
       <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation exhibition</category>
       
