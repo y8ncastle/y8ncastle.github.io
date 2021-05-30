@@ -3,12 +3,12 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Zay Jeong Blog</title>
+    <title>Alec J Blog</title>
     <link>https://y8ncastle.me/</link>
     
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
-    <description>Zay Jeong IT Blog (Personal Development)</description>
+    <description>Alec J IT Blog (Personal Development)</description>
     <pubDate>Sun, 30 May 2021 05:20:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
@@ -693,9 +693,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
-      
       <category domain="https://y8ncastle.me/tags/cryptocurrency/">cryptocurrency</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
@@ -5802,19 +5802,19 @@
       <category domain="https://y8ncastle.me/categories/Crypto-Community/">Crypto Community</category>
       
       
+      <category domain="https://y8ncastle.me/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
+      
+      <category domain="https://y8ncastle.me/tags/cryptocurrency/">cryptocurrency</category>
+      
       <category domain="https://y8ncastle.me/tags/%ED%81%AC%EB%A6%BD%ED%86%A0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/">크립토 커뮤니티</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%BD%94%EC%9D%B8%EC%88%98%EC%9D%B5/">코인수익</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
       <category domain="https://y8ncastle.me/tags/crypto-community/">crypto community</category>
       
       <category domain="https://y8ncastle.me/tags/crypto-income/">crypto income</category>
-      
-      <category domain="https://y8ncastle.me/tags/cryptocurrency/">cryptocurrency</category>
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
