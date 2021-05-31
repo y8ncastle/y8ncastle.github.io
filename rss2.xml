@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Alec J IT Blog (Personal Development)</description>
-    <pubDate>Mon, 31 May 2021 01:55:01 GMT</pubDate>
+    <pubDate>Mon, 31 May 2021 05:17:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -21,6 +21,7 @@
       <description>&lt;h3 id=&quot;2021-05-31-월&quot;&gt;&lt;a href=&quot;#2021-05-31-월&quot; class=&quot;headerlink&quot; title=&quot;2021.05.31 (월)&quot;&gt;&lt;/a&gt;2021.05.31 (월)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;10:25 &amp;gt; BaSE Lab 출근&lt;/li&gt;
 &lt;li&gt;10:52 &amp;gt; 이번 주 세미나 준비&lt;/li&gt;
+&lt;li&gt;13:37 &amp;gt; 정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 
@@ -30,7 +31,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-05-31-월"><a href="#2021-05-31-월" class="headerlink" title="2021.05.31 (월)"></a>2021.05.31 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근</li><li>10:52 &gt; 이번 주 세미나 준비</li></ul><br><blockquote><p>서울시 블록체인 교육 교재 제작<br>백준 문제 10959, 2646 해결 (-6/20)<br>소프트웨어 코드 실적 세인트 등록<br>Coindesk Consensus 내용 정리</p></blockquote><br><blockquote><p>Coindesk Consensus</p><ol><li>Consensus Crypto State: Colombia</li><li>Institutionalizing Market Infrastructure: The Next Frontier of Crypto</li><li>Contest of the Century? Geopolitical Impacts of China’s Digital Yuan</li><li>Ethereum: Execution Layer</li><li>Consensus Crypto State: Brazil</li><li>Chainlink</li><li>Consensus Crypto State: Rocky Mountains</li><li>Consensus Crypto State: Space</li></ol></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-05-31-월"><a href="#2021-05-31-월" class="headerlink" title="2021.05.31 (월)"></a>2021.05.31 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근</li><li>10:52 &gt; 이번 주 세미나 준비</li><li>13:37 &gt; 정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무</li></ul><br><blockquote><p>서울시 블록체인 교육 교재 제작<br>백준 문제 10959, 2646 해결 (-6/20)<br>소프트웨어 코드 실적 세인트 등록<br>Coindesk Consensus 내용 정리</p></blockquote><br><blockquote><p>Coindesk Consensus</p><ol><li>Consensus Crypto State: Colombia</li><li>Institutionalizing Market Infrastructure: The Next Frontier of Crypto</li><li>Contest of the Century? Geopolitical Impacts of China’s Digital Yuan</li><li>Ethereum: Execution Layer</li><li>Consensus Crypto State: Brazil</li><li>Chainlink</li><li>Consensus Crypto State: Rocky Mountains</li><li>Consensus Crypto State: Space</li></ol></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -1180,9 +1181,9 @@
       
       <category domain="https://y8ncastle.me/tags/thesis/">thesis</category>
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%95%99%ED%9A%8C/">학회</category>
       
@@ -1883,9 +1884,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/deep-learning/">deep learning</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%84%A0%ED%98%95-%ED%9A%8C%EA%B7%80/">선형 회귀</category>
+      
+      <category domain="https://y8ncastle.me/tags/deep-learning/">deep learning</category>
       
       <category domain="https://y8ncastle.me/tags/linear-regression/">linear regression</category>
       
@@ -1923,9 +1924,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
-      
       <category domain="https://y8ncastle.me/tags/deep-learning/">deep learning</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/">머신러닝</category>
       
       <category domain="https://y8ncastle.me/tags/machine-learning/">machine learning</category>
       
@@ -5716,9 +5717,9 @@
       <category domain="https://y8ncastle.me/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
-      
       <category domain="https://y8ncastle.me/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
+      
+      <category domain="https://y8ncastle.me/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
       <category domain="https://y8ncastle.me/tags/software-engineering-society/">software engineering society</category>
       
@@ -8350,9 +8351,9 @@
       
       <category domain="https://y8ncastle.me/tags/hbnu/">hbnu</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
-      
       <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C%EC%97%B0%EA%B5%AC%EB%8B%A8/">실전문제연구단</category>
       
@@ -8395,13 +8396,13 @@
       
       <category domain="https://y8ncastle.me/tags/ice/">ice</category>
       
+      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
+      
       <category domain="https://y8ncastle.me/tags/%EC%A0%95%EB%B3%B4%EA%B8%B0%EC%88%A0%EB%8C%80%ED%95%99/">정보기술대학</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9E%91%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/">작품전시회</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%A0%84%EC%8B%9C%ED%9A%8C/">전시회</category>
-      
-      <category domain="https://y8ncastle.me/tags/exhibition/">exhibition</category>
       
       <category domain="https://y8ncastle.me/tags/graduation-exhibition/">graduation exhibition</category>
       
