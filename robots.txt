@@ -1,3 +1,3 @@
 User-agent: Googlebot,Yeti,Daum,Daumoa
 Allow: /
-Sitemap: https://y8ncastle.me/sitemap.xml
+Sitemap: https://y8ncastle.world/sitemap.xml
