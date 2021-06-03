@@ -9,8 +9,74 @@
     <atom:link href="https://y8ncastle.me/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Alec J IT Blog (Personal Development)</description>
-    <pubDate>Thu, 03 Jun 2021 02:56:49 GMT</pubDate>
+    <pubDate>Thu, 03 Jun 2021 03:37:46 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>그래프 신경망(GNN)을 이용한 스마트 컨트랙트 취약성 탐지 방법 (BaSE Lab 세미나 21-16차)</title>
+      <link>https://y8ncastle.me/2021/06/03/activity/seminar/seminar-21-16/</link>
+      <guid>https://y8ncastle.me/2021/06/03/activity/seminar/seminar-21-16/</guid>
+      <pubDate>Thu, 03 Jun 2021 03:27:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;Lab-세미나-발표-자료-2021-06-01&quot;&gt;&lt;a href=&quot;#Lab-세미나-발표-자료-2021-06-01&quot; class=&quot;headerlink&quot; title=&quot;Lab 세미나 발표 자료 (2021.06.01)&quot;&gt;&lt;/a&gt;Lab 세미나 발표 자료 (2021.06.01)&lt;/h3&gt;&lt;hr&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/120582817-1a311800-c468-11eb-8e3e-e3eb39ed185b.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="Lab-세미나-발표-자료-2021-06-01"><a href="#Lab-세미나-발표-자료-2021-06-01" class="headerlink" title="Lab 세미나 발표 자료 (2021.06.01)"></a>Lab 세미나 발표 자료 (2021.06.01)</h3><hr><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582817-1a311800-c468-11eb-8e3e-e3eb39ed185b.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582827-1dc49f00-c468-11eb-830e-755fa3ac89e6.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582834-1f8e6280-c468-11eb-9085-3ce569313ac2.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582835-1f8e6280-c468-11eb-9cc0-d6ee9b9584e0.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582837-2026f900-c468-11eb-9ca7-a4eed8f4887f.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582839-20bf8f80-c468-11eb-9840-1fb74591de78.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582842-20bf8f80-c468-11eb-969f-f4d1bcd1f212.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582843-21582600-c468-11eb-9570-eca8764bd5fd.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582845-21f0bc80-c468-11eb-82bb-a3a2022bb5d7.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582849-22895300-c468-11eb-88af-427e5b96f764.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582854-24531680-c468-11eb-8602-4532ecee3dd3.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582856-24531680-c468-11eb-8e43-c17b34f685ed.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582858-24ebad00-c468-11eb-95be-15979292e689.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582859-25844380-c468-11eb-93a4-3e0a5b27ded1.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582861-261cda00-c468-11eb-93d8-d0cfad79b875.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582863-274e0700-c468-11eb-8fdb-9279c4070ade.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582867-27e69d80-c468-11eb-94be-dd20eee99046.png"></p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/120582869-287f3400-c468-11eb-8e3f-ded9b552ec8d.png"></p>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.me/categories/Activity/">Activity</category>
+      
+      <category domain="https://y8ncastle.me/categories/Activity/Seminar/">Seminar</category>
+      
+      
+      <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
+      
+      <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/">이더리움</category>
+      
+      <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
+      
+      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%B7%A8%EC%95%BD%EC%A0%90/">스마트 컨트랙트 취약점</category>
+      
+      <category domain="https://y8ncastle.me/tags/smart-contract/">smart contract</category>
+      
+      <category domain="https://y8ncastle.me/tags/smart-contract-vulnerability/">smart contract vulnerability</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%B7%A8%EC%95%BD%EC%84%B1-%ED%83%90%EC%A7%80/">취약성 탐지</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%8B%A0%EA%B2%BD%EB%A7%9D/">신경망</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EA%B7%B8%EB%9E%98%ED%94%84-%EC%8B%A0%EA%B2%BD%EB%A7%9D/">그래프 신경망</category>
+      
+      <category domain="https://y8ncastle.me/tags/vulnerability-detection/">vulnerability detection</category>
+      
+      <category domain="https://y8ncastle.me/tags/ai/">ai</category>
+      
+      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
+      
+      <category domain="https://y8ncastle.me/tags/neural-network/">neural network</category>
+      
+      <category domain="https://y8ncastle.me/tags/graph-neural-network/">graph neural network</category>
+      
+      
+      <comments>https://y8ncastle.me/2021/06/03/activity/seminar/seminar-21-16/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>주간 진행 보고 (2021.05.31 - 06.06)</title>
@@ -30,7 +96,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-05-31-월"><a href="#2021-05-31-월" class="headerlink" title="2021.05.31 (월)"></a>2021.05.31 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근 (~18:05)</li><li>10:52 &gt; 이번 주 세미나 준비 (~21:00)</li><li>13:37 &gt; 정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무</li><li>14:59 &gt; 정보통신대학원 블록체인 응용서비스 강의 조교 업무</li><li>18:10 &gt; 정보통신대학원 상주 조교 업무 (~20:55)</li></ul><p><br><br></p><h3 id="2021-06-01-화"><a href="#2021-06-01-화" class="headerlink" title="2021.06.01 (화)"></a>2021.06.01 (화)</h3><ul><li>11:00 &gt; 오늘 세미나 자료 정리</li><li>12:00 &gt; 고급 알고리즘 설계와 분석 14주차 강의 수강 (Zoom) (~13:14)</li><li>15:27 &gt; BaSE Lab 출근 (~20:30)</li><li>16:00 &gt; BaSE 교수님 세미나 (~17:07)</li><li>18:00 &gt; 클레이튼 제안서 PPT 추가 수정 (v3) (~19:20)</li><li>18:20 &gt; 정보통신대학원 인공지능을 위한 수학 강의 조교 업무 (~19:58)</li><li>20:10 &gt; 정보통신대학원 블록체인 산업동향 강의 조교 업무 (~20:27)</li></ul><p><br><br></p><h3 id="2021-06-02-수"><a href="#2021-06-02-수" class="headerlink" title="2021.06.02 (수)"></a>2021.06.02 (수)</h3><ul><li>08:25 &gt; BaSE Lab 출근 (~17:10)</li><li>08:34 &gt; 정보통신대학원 오프라인 및 온라인 출석부 정리 (~10:47)</li><li>10:00 &gt; 교수님 부산과기협 외부 강의 Zoom 실시간 모니터링 (~11:30)</li><li>10:48 &gt; 정보통신대학원 블록체인 산업동향 제출된 과제 확인 (~11:11)</li><li>12:26 &gt; ITRC 영수 행정 처리 (~12:40)</li><li>14:30 &gt; 소셜 미디어 데이터 분석 개론 14주차 강의 수강 (Zoom) (~16:52)</li><li>17:08 &gt; 정보통신대학원 하이퍼레저 이론 및 응용 강의 조교 업무</li></ul><p><br><br></p><h3 id="2021-06-03-목"><a href="#2021-06-03-목" class="headerlink" title="2021.06.03 (목)"></a>2021.06.03 (목)</h3><ul><li>10:33 &gt; BaSE Lab 출근</li><li>11:00 &gt; 서울시 블록체인 교육 교재 관련 지급 청구서 작성 (~11:20)</li><li>11:32 &gt; 정보통신대학원 인공지능을 위한 수학 과제 채점</li><li>12:00 &gt; 고급 알고리즘 설계와 분석 14주차 2차 강의 수강 (Zoom)</li></ul><br><blockquote><p>서울시 블록체인 교육 교재 제작<br>백준 문제 10959, 2646 해결 (-6/20)<br>소프트웨어 코드 실적 세인트 등록</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-05-31-월"><a href="#2021-05-31-월" class="headerlink" title="2021.05.31 (월)"></a>2021.05.31 (월)</h3><ul><li>10:25 &gt; BaSE Lab 출근 (~18:05)</li><li>10:52 &gt; 이번 주 세미나 준비 (~21:00)</li><li>13:37 &gt; 정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무</li><li>14:59 &gt; 정보통신대학원 블록체인 응용서비스 강의 조교 업무</li><li>18:10 &gt; 정보통신대학원 상주 조교 업무 (~20:55)</li></ul><p><br><br></p><h3 id="2021-06-01-화"><a href="#2021-06-01-화" class="headerlink" title="2021.06.01 (화)"></a>2021.06.01 (화)</h3><ul><li>11:00 &gt; 오늘 세미나 자료 정리</li><li>12:00 &gt; 고급 알고리즘 설계와 분석 14주차 강의 수강 (Zoom) (~13:14)</li><li>15:27 &gt; BaSE Lab 출근 (~20:30)</li><li>16:00 &gt; BaSE 교수님 세미나 (~17:07)</li><li>18:00 &gt; 클레이튼 제안서 PPT 추가 수정 (v3) (~19:20)</li><li>18:20 &gt; 정보통신대학원 인공지능을 위한 수학 강의 조교 업무 (~19:58)</li><li>20:10 &gt; 정보통신대학원 블록체인 산업동향 강의 조교 업무 (~20:27)</li></ul><p><br><br></p><h3 id="2021-06-02-수"><a href="#2021-06-02-수" class="headerlink" title="2021.06.02 (수)"></a>2021.06.02 (수)</h3><ul><li>08:25 &gt; BaSE Lab 출근 (~17:10)</li><li>08:34 &gt; 정보통신대학원 오프라인 및 온라인 출석부 정리 (~10:47)</li><li>10:00 &gt; 교수님 부산과기협 외부 강의 Zoom 실시간 모니터링 (~11:30)</li><li>10:48 &gt; 정보통신대학원 블록체인 산업동향 제출된 과제 확인 (~11:11)</li><li>12:26 &gt; ITRC 영수 행정 처리 (~12:40)</li><li>14:30 &gt; 소셜 미디어 데이터 분석 개론 14주차 강의 수강 (Zoom) (~16:52)</li><li>17:08 &gt; 정보통신대학원 하이퍼레저 이론 및 응용 강의 조교 업무</li></ul><p><br><br></p><h3 id="2021-06-03-목"><a href="#2021-06-03-목" class="headerlink" title="2021.06.03 (목)"></a>2021.06.03 (목)</h3><ul><li>10:33 &gt; BaSE Lab 출근</li><li>11:00 &gt; 서울시 블록체인 교육 교재 관련 지급 청구서 작성 (~11:20)</li><li>11:32 &gt; 정보통신대학원 인공지능을 위한 수학 과제 채점 (~12:16)</li><li>12:00 &gt; 고급 알고리즘 설계와 분석 14주차 2차 강의 수강 (Zoom)</li><li>12:27 &gt; BaSE 연구실 21-16차 세미나 내용 업로드</li></ul><br><blockquote><p>서울시 블록체인 교육 교재 제작<br>백준 문제 10959, 2646 해결 (-6/20)<br>소프트웨어 코드 실적 세인트 등록</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
@@ -155,11 +221,11 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
@@ -302,6 +368,10 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
+      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
       <category domain="https://y8ncastle.me/tags/%ED%81%B4%EB%A0%88%EC%9D%B4%ED%8A%BC/">클레이튼</category>
       
       <category domain="https://y8ncastle.me/tags/%ED%81%B4%EB%A0%88%EC%9D%B4/">클레이</category>
@@ -315,10 +385,6 @@
       <category domain="https://y8ncastle.me/tags/klay/">klay</category>
       
       <category domain="https://y8ncastle.me/tags/klaytn-network/">klaytn network</category>
-      
-      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
       
       <comments>https://y8ncastle.me/2021/05/03/activity/seminar/seminar-21-11/#disqus_thread</comments>
@@ -599,11 +665,11 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
@@ -1220,13 +1286,17 @@
       <category domain="https://y8ncastle.me/categories/CURG-Publish/AI/">AI</category>
       
       
+      <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
+      
+      <category domain="https://y8ncastle.me/tags/ai/">ai</category>
+      
+      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
+      
       <category domain="https://y8ncastle.me/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/">강화학습</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/">마르코프 결정 과정</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B2%A8%EB%A7%8C-%EA%B8%B0%EB%8C%80-%EB%B0%A9%EC%A0%95%EC%8B%9D/">벨만 기대 방정식</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
       
       <category domain="https://y8ncastle.me/tags/reinforcement-learning/">reinforcement learning</category>
       
@@ -1235,10 +1305,6 @@
       <category domain="https://y8ncastle.me/tags/mdp/">mdp</category>
       
       <category domain="https://y8ncastle.me/tags/bellman-equation/">bellman equation</category>
-      
-      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
-      
-      <category domain="https://y8ncastle.me/tags/ai/">ai</category>
       
       <category domain="https://y8ncastle.me/tags/curg/">curg</category>
       
@@ -1314,11 +1380,11 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B9%85%EC%B2%B4%EC%9D%B8db/">빅체인db</category>
       
@@ -1877,9 +1943,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
       
-      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
-      
       <category domain="https://y8ncastle.me/tags/ai/">ai</category>
+      
+      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
       
@@ -1917,9 +1983,9 @@
       
       <category domain="https://y8ncastle.me/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
       
-      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
-      
       <category domain="https://y8ncastle.me/tags/ai/">ai</category>
+      
+      <category domain="https://y8ncastle.me/tags/artificial-intelligence/">artificial intelligence</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%AA%A8%EB%91%90%EC%9D%98-%EB%94%A5%EB%9F%AC%EB%8B%9D/">모두의 딥러닝</category>
       
@@ -2179,15 +2245,15 @@
       
       <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
+      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
+      
+      <category domain="https://y8ncastle.me/tags/data-sharing/">data sharing</category>
       
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
-      
-      <category domain="https://y8ncastle.me/tags/data-sharing/">data sharing</category>
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
@@ -4135,11 +4201,11 @@
       
       <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
@@ -5500,11 +5566,11 @@
       
       <category domain="https://y8ncastle.me/tags/sogang-university/">sogang university</category>
       
-      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
       
       <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.me/tags/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%84%B8%EB%AF%B8%EB%82%98/">유튜브 세미나</category>
       
@@ -5801,15 +5867,15 @@
       
       <category domain="https://y8ncastle.me/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
+      
+      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
+      
+      <category domain="https://y8ncastle.me/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인 유통 시스템</category>
       
       <category domain="https://y8ncastle.me/tags/distribution-system/">distribution system</category>
-      
-      <category domain="https://y8ncastle.me/tags/software-engineering/">software engineering</category>
       
       <category domain="https://y8ncastle.me/tags/blockchain-distribution-system/">blockchain distribution system</category>
       
@@ -6495,10 +6561,6 @@
       
       <category domain="https://y8ncastle.me/tags/blockchain/">blockchain</category>
       
-      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
-      
-      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
-      
       <category domain="https://y8ncastle.me/tags/%EC%8B%A0%EC%9B%90%EA%B4%80%EB%A6%AC/">신원관리</category>
       
       <category domain="https://y8ncastle.me/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0/">데이터 공유</category>
@@ -6506,6 +6568,10 @@
       <category domain="https://y8ncastle.me/tags/identity-management/">identity management</category>
       
       <category domain="https://y8ncastle.me/tags/data-sharing/">data sharing</category>
+      
+      <category domain="https://y8ncastle.me/tags/seminar/">seminar</category>
+      
+      <category domain="https://y8ncastle.me/tags/baselab/">baselab</category>
       
       
       <comments>https://y8ncastle.me/2020/01/19/activity/seminar/dns-idm/#disqus_thread</comments>
@@ -8488,149 +8554,6 @@
       
       
       <comments>https://y8ncastle.me/2019/11/19/qualification/certificates/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>한 주 계획표 (2019.11.18 - 11.24)</title>
-      <link>https://y8ncastle.me/2019/11/17/plan/weekly-report/2019/1118/</link>
-      <guid>https://y8ncastle.me/2019/11/17/plan/weekly-report/2019/1118/</guid>
-      <pubDate>Sun, 17 Nov 2019 06:36:00 GMT</pubDate>
-      
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;strong&gt;날짜&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;목표&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;달성 내용&lt;/strong&gt;&lt;/th&gt;
-&lt;th&gt;&lt;strong&gt;특이사항 (비고)&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.11.18&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;한이음 최종보고서 제출&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;2019 한밭대학교 실전문제연구단 (X-Corps) 경진대회&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;10:30-17:30&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;실전문제연구단 (X-Corps) 최종 발표&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;13:00-14:00&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;ICDL Computing Python 자격 시험&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;18:00&lt;/td&gt;
-&lt;td&gt;O (합격 - 350/360점)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.11.19&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;캡스톤디자인 문서 정리&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;실전문제연구단 문서 정리&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;대학원 면접 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;면접 대비 문제 정리&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.11.20&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Python 프로그래밍 강의 11주차&lt;/td&gt;
-&lt;td&gt;14:00-17:00&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.11.21&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;대학원 면접 준비&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;면접 대비 문제 정리&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;개인 일정으로 인해 연기&lt;br&gt;(2019.11.23 보충)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.11.22&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;정보처리기사 결과 확인&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;자격증 신청&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;ICDL 결과 확인&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;2019.11.19 확인&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;X-Corps UCC 제작&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;td&gt;계획 추가&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;컴퓨터 네트워크 강의 11주차&lt;/td&gt;
-&lt;td&gt;10:00-12:00&lt;/td&gt;
-&lt;td&gt;O&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.11.23&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;개인 일정&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;2019.11.24&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;개인 일정&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-</description>
-      
-      
-      
-      <content:encoded><![CDATA[<table><thead><tr><th><strong>날짜</strong></th><th><strong>목표</strong></th><th><strong>달성 내용</strong></th><th><strong>특이사항 (비고)</strong></th></tr></thead><tbody><tr><td><strong>2019.11.18</strong></td><td>한이음 최종보고서 제출</td><td>O</td><td>-</td></tr><tr><td></td><td><strong>2019 한밭대학교 실전문제연구단 (X-Corps) 경진대회</strong></td><td>10:30-17:30</td><td>O</td></tr><tr><td></td><td><strong>실전문제연구단 (X-Corps) 최종 발표</strong></td><td>13:00-14:00</td><td>O</td></tr><tr><td></td><td><strong>ICDL Computing Python 자격 시험</strong></td><td>18:00</td><td>O (합격 - 350/360점)</td></tr><tr><td><strong>2019.11.19</strong></td><td>캡스톤디자인 문서 정리</td><td>O</td><td>-</td></tr><tr><td></td><td>실전문제연구단 문서 정리</td><td>O</td><td>-</td></tr><tr><td></td><td><strong>대학원 면접 준비</strong></td><td></td><td></td></tr><tr><td></td><td>면접 대비 문제 정리</td><td>O</td><td>-</td></tr><tr><td><strong>2019.11.20</strong></td><td>Python 프로그래밍 강의 11주차</td><td>14:00-17:00</td><td>O</td></tr><tr><td><strong>2019.11.21</strong></td><td><strong>대학원 면접 준비</strong></td><td></td><td></td></tr><tr><td></td><td>면접 대비 문제 정리</td><td>O</td><td>개인 일정으로 인해 연기<br>(2019.11.23 보충)</td></tr><tr><td><strong>2019.11.22</strong></td><td>정보처리기사 결과 확인</td><td>O</td><td>자격증 신청</td></tr><tr><td></td><td>ICDL 결과 확인</td><td>O</td><td>2019.11.19 확인</td></tr><tr><td></td><td>X-Corps UCC 제작</td><td>O</td><td>계획 추가</td></tr><tr><td></td><td>컴퓨터 네트워크 강의 11주차</td><td>10:00-12:00</td><td>O</td></tr><tr><td><strong>2019.11.23</strong></td><td>개인 일정</td><td></td><td></td></tr><tr><td><strong>2019.11.24</strong></td><td>개인 일정</td><td></td><td></td></tr></tbody></table>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/">Personal Development</category>
-      
-      <category domain="https://y8ncastle.me/categories/Personal-Development/Plan/">Plan</category>
-      
-      
-      <category domain="https://y8ncastle.me/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/%EA%B3%84%ED%9A%8D/">계획</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan-2020/">plan 2020</category>
-      
-      <category domain="https://y8ncastle.me/tags/plan/">plan</category>
-      
-      
-      <comments>https://y8ncastle.me/2019/11/17/plan/weekly-report/2019/1118/#disqus_thread</comments>
       
     </item>
     
