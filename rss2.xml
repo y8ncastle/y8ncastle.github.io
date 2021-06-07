@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.world/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Alec J IT Blog (Personal Development)</description>
-    <pubDate>Mon, 07 Jun 2021 09:24:04 GMT</pubDate>
+    <pubDate>Mon, 07 Jun 2021 09:27:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,20 +22,20 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&quot;center&quot;&gt;&lt;strong&gt;시간&lt;/strong&gt;&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;내용&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;내용&lt;/strong&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;&lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;10:30&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;정보통신대학원 블록체인 응용서비스 강의 조교 업무&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;정보통신대학원 블록체인 응용서비스 강의 조교 업무&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;16:37&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&quot;center&quot;&gt;18:05 ~ 20:55&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;정보통신대학원 상주 조교 업무&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;정보통신대학원 상주 조교 업무&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;br&gt;
@@ -46,7 +46,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-06-07-월"><a href="#2021-06-07-월" class="headerlink" title="2021.06.07 (월)"></a>2021.06.07 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="center"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:30</td><td align="center">정보통신대학원 블록체인 응용서비스 강의 조교 업무</td></tr><tr><td align="center">16:37</td><td align="center">정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무</td></tr><tr><td align="center">18:05 ~ 20:55</td><td align="center">정보통신대학원 상주 조교 업무</td></tr></tbody></table><br><blockquote><p>서울시 블록체인 교육 교재 제작<br>백준 문제 10959, 2646 해결 (-6/20)<br>소프트웨어 코드 실적 세인트 등록<br>2021 KCBC 내용 업로드</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-06-07-월"><a href="#2021-06-07-월" class="headerlink" title="2021.06.07 (월)"></a>2021.06.07 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:30</td><td align="left">정보통신대학원 블록체인 응용서비스 강의 조교 업무</td></tr><tr><td align="center">16:37</td><td align="left">정보통신대학원 악성코드 및 취약성 분석 강의 조교 업무</td></tr><tr><td align="center">18:05 ~ 20:55</td><td align="left">정보통신대학원 상주 조교 업무</td></tr></tbody></table><br><blockquote><p>서울시 블록체인 교육 교재 제작<br>백준 문제 10959, 2646 해결 (-6/20)<br>소프트웨어 코드 실적 세인트 등록<br>2021 KCBC 내용 업로드</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.world/categories/Personal-Development/">Personal Development</category>
@@ -96,11 +96,11 @@
       
       <category domain="https://y8ncastle.world/tags/baselab/">baselab</category>
       
-      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%B7%A8%EC%95%BD%EC%A0%90/">스마트 컨트랙트 취약점</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
       
@@ -276,8 +276,6 @@
       
       <category domain="https://y8ncastle.world/tags/baselab/">baselab</category>
       
-      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
       <category domain="https://y8ncastle.world/tags/%EA%B3%B5%EA%B2%A9-%ED%83%90%EC%A7%80/">공격 탐지</category>
@@ -285,6 +283,8 @@
       <category domain="https://y8ncastle.world/tags/%EA%B3%B5%EA%B2%A9-%EB%B6%84%EC%84%9D/">공격 분석</category>
       
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%B7%A8%EC%95%BD%EC%A0%90/">스마트 컨트랙트 취약점</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
       
@@ -423,13 +423,13 @@
       
       <category domain="https://y8ncastle.world/tags/baselab/">baselab</category>
       
+      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
+      
       <category domain="https://y8ncastle.world/tags/%ED%81%B4%EB%A0%88%EC%9D%B4%ED%8A%BC/">클레이튼</category>
       
       <category domain="https://y8ncastle.world/tags/%ED%81%B4%EB%A0%88%EC%9D%B4/">클레이</category>
       
       <category domain="https://y8ncastle.world/tags/%ED%81%B4%EB%A0%88%EC%9D%B4%ED%8A%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">클레이튼 네트워크</category>
-      
-      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.world/tags/klaytn/">klaytn</category>
       
@@ -720,9 +720,9 @@
       
       <category domain="https://y8ncastle.world/tags/baselab/">baselab</category>
       
-      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
       
@@ -5918,15 +5918,15 @@
       
       <category domain="https://y8ncastle.world/tags/ethereum/">ethereum</category>
       
-      <category domain="https://y8ncastle.world/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
-      
       <category domain="https://y8ncastle.world/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99/">소프트웨어 공학</category>
+      
+      <category domain="https://y8ncastle.world/tags/software-engineering/">software engineering</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EB%AC%BC%EB%A5%98-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">물류 유통 시스템</category>
       
       <category domain="https://y8ncastle.world/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9C%A0%ED%86%B5-%EC%8B%9C%EC%8A%A4%ED%85%9C/">블록체인 유통 시스템</category>
       
       <category domain="https://y8ncastle.world/tags/distribution-system/">distribution system</category>
-      
-      <category domain="https://y8ncastle.world/tags/software-engineering/">software engineering</category>
       
       <category domain="https://y8ncastle.world/tags/blockchain-distribution-system/">blockchain distribution system</category>
       
