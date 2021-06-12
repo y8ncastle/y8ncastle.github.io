@@ -10,7 +10,7 @@
 
     <url>
         <loc>https://y8ncastle.world/2021/06/07/plan/weekly-report/2021/0607/</loc>
-        <lastmod>2021-06-12T01:07:46.222Z</lastmod>
+        <lastmod>2021-06-12T01:50:51.601Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -265,38 +265,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2020/02/08/crypto-community/crypto-income-final/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/04/06/crypto-community/crypto-income/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/01/10/crypto-community/dailycoinews-correspondent-id/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/04/07/crypto-community/yoonsung-token/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://y8ncastle.world/2019/05/12/boj/10250-c/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -361,7 +329,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/18/boj/14624-c/</loc>
+        <loc>https://y8ncastle.world/2019/05/13/boj/14490-java/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -369,7 +337,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/13/boj/14490-java/</loc>
+        <loc>https://y8ncastle.world/2019/05/18/boj/14624-c/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -513,7 +481,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2018/04/06/boj/4673-c/</loc>
+        <loc>https://y8ncastle.world/2019/05/03/boj/3062-java/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -521,7 +489,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/03/boj/3062-java/</loc>
+        <loc>https://y8ncastle.world/2018/04/06/boj/4673-c/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -538,6 +506,46 @@
 
     <url>
         <loc>https://y8ncastle.world/2018/04/04/boj/9012-java/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2020/02/08/crypto-community/crypto-income-final/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/04/06/crypto-community/crypto-income/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/01/10/crypto-community/dailycoinews-correspondent-id/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/04/07/crypto-community/yoonsung-token/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/07/02/education/hanium-elice-git/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -578,14 +586,6 @@
 
     <url>
         <loc>https://y8ncastle.world/2019/11/23/it-free-board/sogang-univ-grad-interview/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/07/02/education/hanium-elice-git/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -698,38 +698,6 @@
 
     <url>
         <loc>https://y8ncastle.world/2020/06/07/thesis/iot-oracle-problem/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/10/13/achievement/dpe/practical-test/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/08/04/achievement/dpe/written-test/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/12/20/achievement/sogang/univ-cert/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/12/07/achievement/sogang/univ-pass/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -857,6 +825,38 @@
     </url>
 
     <url>
+        <loc>https://y8ncastle.world/2019/10/13/achievement/dpe/practical-test/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/08/04/achievement/dpe/written-test/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/12/20/achievement/sogang/univ-cert/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/12/07/achievement/sogang/univ-pass/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://y8ncastle.world/2020/08/07/curg/ai/mdp/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -945,7 +945,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/06/01/team-project/mrm/capstone-design-1/</loc>
+        <loc>https://y8ncastle.world/2019/06/01/team-project/mrm/capstone-design-3/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -961,15 +961,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/06/01/team-project/mrm/capstone-design-3/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://y8ncastle.world/2019/09/14/team-project/mrm/capstone-design-4/</loc>
+        <loc>https://y8ncastle.world/2019/06/01/team-project/mrm/capstone-design-1/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -978,6 +970,14 @@
 
     <url>
         <loc>https://y8ncastle.world/2019/10/13/team-project/mrm/capstone-design-5/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/09/14/team-project/mrm/capstone-design-4/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1441,7 +1441,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/09/22/plan/weekly-report/2019/0923/</loc>
+        <loc>https://y8ncastle.world/2019/09/15/plan/weekly-report/2019/0916/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1449,7 +1449,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/09/15/plan/weekly-report/2019/0916/</loc>
+        <loc>https://y8ncastle.world/2019/09/22/plan/weekly-report/2019/0923/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1521,7 +1521,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/11/29/plan/weekly-report/2019/1201/</loc>
+        <loc>https://y8ncastle.world/2019/11/24/plan/weekly-report/2019/1125/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1529,7 +1529,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/11/24/plan/weekly-report/2019/1125/</loc>
+        <loc>https://y8ncastle.world/2019/11/29/plan/weekly-report/2019/1201/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1761,7 +1761,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190402/</loc>
+        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190326/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1769,7 +1769,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190326/</loc>
+        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190402/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1793,7 +1793,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190423/</loc>
+        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190430/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1801,7 +1801,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190430/</loc>
+        <loc>https://y8ncastle.world/2019/05/04/team-project/mrm/report/190423/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1817,14 +1817,6 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/05/21/team-project/mrm/report/190514/</loc>
-        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://y8ncastle.world/2019/05/29/team-project/mrm/report/190521/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1833,7 +1825,7 @@
     </url>
 
     <url>
-        <loc>https://y8ncastle.world/2019/06/07/team-project/mrm/report/190604/</loc>
+        <loc>https://y8ncastle.world/2019/05/21/team-project/mrm/report/190514/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1842,6 +1834,14 @@
 
     <url>
         <loc>https://y8ncastle.world/2019/05/31/team-project/mrm/report/190528/</loc>
+        <lastmod>2021-02-09T00:39:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://y8ncastle.world/2019/06/07/team-project/mrm/report/190604/</loc>
         <lastmod>2021-02-09T00:39:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
