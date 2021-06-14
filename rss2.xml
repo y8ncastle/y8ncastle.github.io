@@ -131,9 +131,13 @@
       
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.world/tags/%EC%B7%A8%EC%95%BD%EC%84%B1-%ED%83%90%EC%A7%80/">취약성 탐지</category>
-      
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%B7%A8%EC%95%BD%EC%A0%90/">스마트 컨트랙트 취약점</category>
+      
+      <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
+      
+      <category domain="https://y8ncastle.world/tags/smart-contract-vulnerability/">smart contract vulnerability</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EC%B7%A8%EC%95%BD%EC%84%B1-%ED%83%90%EC%A7%80/">취약성 탐지</category>
       
       <category domain="https://y8ncastle.world/tags/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5/">인공지능</category>
       
@@ -141,11 +145,7 @@
       
       <category domain="https://y8ncastle.world/tags/%EA%B7%B8%EB%9E%98%ED%94%84-%EC%8B%A0%EA%B2%BD%EB%A7%9D/">그래프 신경망</category>
       
-      <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
-      
       <category domain="https://y8ncastle.world/tags/vulnerability-detection/">vulnerability detection</category>
-      
-      <category domain="https://y8ncastle.world/tags/smart-contract-vulnerability/">smart contract vulnerability</category>
       
       <category domain="https://y8ncastle.world/tags/ai/">ai</category>
       
@@ -392,19 +392,19 @@
       
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%B7%A8%EC%95%BD%EC%A0%90/">스마트 컨트랙트 취약점</category>
-      
-      <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
-      
-      <category domain="https://y8ncastle.world/tags/smart-contract-vulnerability/">smart contract vulnerability</category>
-      
       <category domain="https://y8ncastle.world/tags/%EA%B3%B5%EA%B2%A9-%ED%83%90%EC%A7%80/">공격 탐지</category>
       
       <category domain="https://y8ncastle.world/tags/%EA%B3%B5%EA%B2%A9-%EB%B6%84%EC%84%9D/">공격 분석</category>
       
+      <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8-%EC%B7%A8%EC%95%BD%EC%A0%90/">스마트 컨트랙트 취약점</category>
+      
+      <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
+      
       <category domain="https://y8ncastle.world/tags/attack-detection/">attack detection</category>
       
       <category domain="https://y8ncastle.world/tags/attack-analysis/">attack analysis</category>
+      
+      <category domain="https://y8ncastle.world/tags/smart-contract-vulnerability/">smart contract vulnerability</category>
       
       
       <comments>https://y8ncastle.world/2021/05/11/activity/seminar/seminar-21-14/#disqus_thread</comments>
@@ -445,11 +445,11 @@
       
       <category domain="https://y8ncastle.world/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/">스마트 컨트랙트</category>
       
-      <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
-      
       <category domain="https://y8ncastle.world/tags/%EA%B3%B5%EA%B2%A9-%ED%83%90%EC%A7%80/">공격 탐지</category>
       
       <category domain="https://y8ncastle.world/tags/%EA%B3%B5%EA%B2%A9-%EB%B6%84%EC%84%9D/">공격 분석</category>
+      
+      <category domain="https://y8ncastle.world/tags/smart-contract/">smart contract</category>
       
       <category domain="https://y8ncastle.world/tags/attack-detection/">attack detection</category>
       
@@ -1962,8 +1962,6 @@
       
       <category domain="https://y8ncastle.world/tags/artificial-intelligence/">artificial intelligence</category>
       
-      <category domain="https://y8ncastle.world/tags/curg/">curg</category>
-      
       <category domain="https://y8ncastle.world/tags/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5/">강화학습</category>
       
       <category domain="https://y8ncastle.world/tags/%EB%A7%88%EB%A5%B4%EC%BD%94%ED%94%84-%EA%B2%B0%EC%A0%95-%EA%B3%BC%EC%A0%95/">마르코프 결정 과정</category>
@@ -1977,6 +1975,8 @@
       <category domain="https://y8ncastle.world/tags/mdp/">mdp</category>
       
       <category domain="https://y8ncastle.world/tags/bellman-equation/">bellman equation</category>
+      
+      <category domain="https://y8ncastle.world/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.world/2020/08/07/curg/ai/mdp/#disqus_thread</comments>
@@ -2826,6 +2826,8 @@
       
       <category domain="https://y8ncastle.world/tags/ipfs/">ipfs</category>
       
+      <category domain="https://y8ncastle.world/tags/curg/">curg</category>
+      
       <category domain="https://y8ncastle.world/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
       
       <category domain="https://y8ncastle.world/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
@@ -2833,8 +2835,6 @@
       <category domain="https://y8ncastle.world/tags/data-sharing-platform/">data sharing platform</category>
       
       <category domain="https://y8ncastle.world/tags/review-system/">review system</category>
-      
-      <category domain="https://y8ncastle.world/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.world/2020/06/01/curg/blockchain/data-sharing-2/#disqus_thread</comments>
@@ -2871,6 +2871,8 @@
       
       <category domain="https://y8ncastle.world/tags/ipfs/">ipfs</category>
       
+      <category domain="https://y8ncastle.world/tags/curg/">curg</category>
+      
       <category domain="https://y8ncastle.world/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%B5%EC%9C%A0-%ED%94%8C%EB%9E%AB%ED%8F%BC/">데이터 공유 플랫폼</category>
       
       <category domain="https://y8ncastle.world/tags/%EB%A6%AC%EB%B7%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C/">리뷰 시스템</category>
@@ -2878,8 +2880,6 @@
       <category domain="https://y8ncastle.world/tags/data-sharing-platform/">data sharing platform</category>
       
       <category domain="https://y8ncastle.world/tags/review-system/">review system</category>
-      
-      <category domain="https://y8ncastle.world/tags/curg/">curg</category>
       
       
       <comments>https://y8ncastle.world/2020/06/01/curg/blockchain/data-sharing/#disqus_thread</comments>
