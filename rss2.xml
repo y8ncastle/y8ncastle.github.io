@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.world/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Alec J IT Blog (Personal Development)</description>
-    <pubDate>Mon, 28 Jun 2021 01:06:30 GMT</pubDate>
+    <pubDate>Mon, 28 Jun 2021 02:15:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -29,6 +29,10 @@
 &lt;td align=&quot;center&quot;&gt;10:00&lt;/td&gt;
 &lt;td align=&quot;left&quot;&gt;BaSE Lab 출근&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;10:10 ~ 11:15&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;2021 BaSE Lab 저작물 등록 절차 진행&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 &lt;br&gt;
 
@@ -38,7 +42,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-06-28-월"><a href="#2021-06-28-월" class="headerlink" title="2021.06.28 (월)"></a>2021.06.28 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:00</td><td align="left">BaSE Lab 출근</td></tr></tbody></table><br><blockquote><p>서울시 블록체인 교육 교재 제작 (7/13- 리뷰)<br>소프트웨어 코드 실적 세인트 등록<br>2021 KCBC 내용 업로드</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-06-28-월"><a href="#2021-06-28-월" class="headerlink" title="2021.06.28 (월)"></a>2021.06.28 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:00</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">10:10 ~ 11:15</td><td align="left">2021 BaSE Lab 저작물 등록 절차 진행</td></tr></tbody></table><br><blockquote><p>서울시 블록체인 교육 교재 제작 (7/13- 리뷰)<br>소프트웨어 코드 실적 세인트 등록<br>2021 KCBC 내용 업로드</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.world/categories/Personal-Development/">Personal Development</category>
@@ -1446,9 +1450,9 @@
       
       <category domain="https://y8ncastle.world/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
       
-      <category domain="https://y8ncastle.world/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
-      
       <category domain="https://y8ncastle.world/tags/cryptocurrency/">cryptocurrency</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
       <category domain="https://y8ncastle.world/tags/blockchain/">blockchain</category>
       
@@ -2045,9 +2049,9 @@
       
       <category domain="https://y8ncastle.world/tags/thesis/">thesis</category>
       
-      <category domain="https://y8ncastle.world/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
-      
       <category domain="https://y8ncastle.world/tags/%ED%95%9C%EA%B5%AD%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%ED%95%99%ED%9A%8C/">한국블록체인학회</category>
+      
+      <category domain="https://y8ncastle.world/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
       
       <category domain="https://y8ncastle.world/tags/%ED%95%99%ED%9A%8C/">학회</category>
       
@@ -6581,9 +6585,9 @@
       <category domain="https://y8ncastle.world/categories/Activity/Academy/">Academy</category>
       
       
-      <category domain="https://y8ncastle.world/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
-      
       <category domain="https://y8ncastle.world/tags/%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">학술대회</category>
+      
+      <category domain="https://y8ncastle.world/tags/%ED%95%9C%EA%B5%AD-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C/">한국 소프트웨어 공학 학술대회</category>
       
       <category domain="https://y8ncastle.world/tags/software-engineering-society/">software engineering society</category>
       
@@ -6702,19 +6706,19 @@
       <category domain="https://y8ncastle.world/categories/Crypto-Community/">Crypto Community</category>
       
       
+      <category domain="https://y8ncastle.world/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
+      
+      <category domain="https://y8ncastle.world/tags/cryptocurrency/">cryptocurrency</category>
+      
       <category domain="https://y8ncastle.world/tags/%ED%81%AC%EB%A6%BD%ED%86%A0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/">크립토 커뮤니티</category>
       
       <category domain="https://y8ncastle.world/tags/%EC%BD%94%EC%9D%B8%EC%88%98%EC%9D%B5/">코인수익</category>
-      
-      <category domain="https://y8ncastle.world/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
       
       <category domain="https://y8ncastle.world/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
       <category domain="https://y8ncastle.world/tags/crypto-community/">crypto community</category>
       
       <category domain="https://y8ncastle.world/tags/crypto-income/">crypto income</category>
-      
-      <category domain="https://y8ncastle.world/tags/cryptocurrency/">cryptocurrency</category>
       
       <category domain="https://y8ncastle.world/tags/blockchain/">blockchain</category>
       
