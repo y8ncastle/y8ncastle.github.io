@@ -9,8 +9,55 @@
     <atom:link href="https://y8ncastle.world/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Alec J IT Blog (Personal Development)</description>
-    <pubDate>Sun, 11 Jul 2021 13:48:28 GMT</pubDate>
+    <pubDate>Mon, 12 Jul 2021 04:58:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>주간 진행 보고 (2021.07.12 ~ 07.18)</title>
+      <link>https://y8ncastle.world/2021/07/12/plan/weekly-report/2021/0712/</link>
+      <guid>https://y8ncastle.world/2021/07/12/plan/weekly-report/2021/0712/</guid>
+      <pubDate>Mon, 12 Jul 2021 04:57:00 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;2021-07-12-월&quot;&gt;&lt;a href=&quot;#2021-07-12-월&quot; class=&quot;headerlink&quot; title=&quot;2021.07.12 (월)&quot;&gt;&lt;/a&gt;2021.07.12 (월)&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;center&quot;&gt;&lt;strong&gt;시간&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;내용&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;13:52&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;BaSE Lab 출근&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot;&gt;14:00&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;br&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;기술이전 코드 개발 (-7/31)&lt;br&gt;소프트웨어 코드 실적 세인트 등록&lt;br&gt;언리얼 엔진 연구 (메타버스, 블록체인)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="2021-07-12-월"><a href="#2021-07-12-월" class="headerlink" title="2021.07.12 (월)"></a>2021.07.12 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">13:52</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">14:00</td><td align="left">서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행</td></tr></tbody></table><br><blockquote><p>기술이전 코드 개발 (-7/31)<br>소프트웨어 코드 실적 세인트 등록<br>언리얼 엔진 연구 (메타버스, 블록체인)</p></blockquote>]]></content:encoded>
+      
+      
+      <category domain="https://y8ncastle.world/categories/Personal-Development/">Personal Development</category>
+      
+      <category domain="https://y8ncastle.world/categories/Personal-Development/Plan/">Plan</category>
+      
+      
+      <category domain="https://y8ncastle.world/tags/%EA%B3%84%ED%9A%8D/">계획</category>
+      
+      <category domain="https://y8ncastle.world/tags/plan/">plan</category>
+      
+      
+      <comments>https://y8ncastle.world/2021/07/12/plan/weekly-report/2021/0712/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>주간 진행 보고 (2021.07.05 ~ 07.11)</title>
@@ -43,7 +90,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-07-05-월"><a href="#2021-07-05-월" class="headerlink" title="2021.07.05 (월)"></a>2021.07.05 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">17:00 ~ 17:40</td><td align="left">UZH DDiB Course Organisation</td></tr><tr><td align="center">17:40 ~ 18:34</td><td align="left">UZH DDiB T.1 Kickoff</td></tr><tr><td align="center">19:30 ~ 22:13</td><td align="left">UZH DDiB T.2 Introduction to Blockchains</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-06-화"><a href="#2021-07-06-화" class="headerlink" title="2021.07.06 (화)"></a>2021.07.06 (화)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:30 ~ 12:50</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">11:00 ~ 11:54</td><td align="left">Colet 연구 관련 보조</td></tr><tr><td align="center">16:00 ~ 18:05</td><td align="left">UZH DDiB T.3a Blockchain Platforms</td></tr><tr><td align="center">18:05 ~ 18:50</td><td align="left">UZH DDiB T.3b Blockchain Assessment</td></tr><tr><td align="center">19:30 ~ 22:08</td><td align="left">UZH DDiB E.1 Cryptocurrencies</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-07-수"><a href="#2021-07-07-수" class="headerlink" title="2021.07.07 (수)"></a>2021.07.07 (수)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">14:30 ~ 15:20</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">16:00 ~ 17:20</td><td align="left">UZH DDiB T.4a Ethereum</td></tr><tr><td align="center">17:20 ~ 19:40</td><td align="left">UZH DDiB T.4b Ethereum Hands On</td></tr><tr><td align="center">20:00 ~ 21:00</td><td align="left">UZH DDiB T.5 Blockchain Taxonomy</td></tr><tr><td align="center">21:00 ~ 21:20</td><td align="left">UZH DDiB T.5b Discussion</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-08-목"><a href="#2021-07-08-목" class="headerlink" title="2021.07.08 (목)"></a>2021.07.08 (목)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">17:00 ~ 18:12</td><td align="left">UZH DDiB E.2a Consortium Blockchains 1</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-09-금"><a href="#2021-07-09-금" class="headerlink" title="2021.07.09 (금)"></a>2021.07.09 (금)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">11:20 ~ 22:10</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">11:32 ~ 22:02</td><td align="left">서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행</td></tr><tr><td align="center">11:55 ~ 16:03</td><td align="left">UZH DDiB Assignments (Cardano, T.2, T.3) 진행</td></tr><tr><td align="center">17:00 ~ 18:30</td><td align="left">UZH DDiB E.3 Economics of Blockchain</td></tr><tr><td align="center">20:00 ~ 21:00</td><td align="left">UZH DDiB I.3 Algorand</td></tr><tr><td align="center">21:48 ~ 21:53</td><td align="left">UZH DDiB Assignment (Ethereum) 진행</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-10-토"><a href="#2021-07-10-토" class="headerlink" title="2021.07.10 (토)"></a>2021.07.10 (토)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:35 ~ 13:02</td><td align="left">CURG 활동 (디사이퍼 연합 회의 진행)</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-11-일"><a href="#2021-07-11-일" class="headerlink" title="2021.07.11 (일)"></a>2021.07.11 (일)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">15:00 ~ 22:23</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">15:10 ~ 22:20</td><td align="left">서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행</td></tr></tbody></table><br><blockquote><p>기술이전 코드 개발 (-7/31)<br>소프트웨어 코드 실적 세인트 등록<br>언리얼 엔진 연구 (메타버스, 블록체인)</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-07-05-월"><a href="#2021-07-05-월" class="headerlink" title="2021.07.05 (월)"></a>2021.07.05 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">17:00 ~ 17:40</td><td align="left">UZH DDiB Course Organisation</td></tr><tr><td align="center">17:40 ~ 18:34</td><td align="left">UZH DDiB T.1 Kickoff</td></tr><tr><td align="center">19:30 ~ 22:13</td><td align="left">UZH DDiB T.2 Introduction to Blockchains</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-06-화"><a href="#2021-07-06-화" class="headerlink" title="2021.07.06 (화)"></a>2021.07.06 (화)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:30 ~ 12:50</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">11:00 ~ 11:54</td><td align="left">Colet 연구 관련 보조</td></tr><tr><td align="center">16:00 ~ 18:05</td><td align="left">UZH DDiB T.3a Blockchain Platforms</td></tr><tr><td align="center">18:05 ~ 18:50</td><td align="left">UZH DDiB T.3b Blockchain Assessment</td></tr><tr><td align="center">19:30 ~ 22:08</td><td align="left">UZH DDiB E.1 Cryptocurrencies</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-07-수"><a href="#2021-07-07-수" class="headerlink" title="2021.07.07 (수)"></a>2021.07.07 (수)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">14:30 ~ 15:20</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">16:00 ~ 17:20</td><td align="left">UZH DDiB T.4a Ethereum</td></tr><tr><td align="center">17:20 ~ 19:40</td><td align="left">UZH DDiB T.4b Ethereum Hands On</td></tr><tr><td align="center">20:00 ~ 21:00</td><td align="left">UZH DDiB T.5 Blockchain Taxonomy</td></tr><tr><td align="center">21:00 ~ 21:20</td><td align="left">UZH DDiB T.5b Discussion</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-08-목"><a href="#2021-07-08-목" class="headerlink" title="2021.07.08 (목)"></a>2021.07.08 (목)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">17:00 ~ 18:12</td><td align="left">UZH DDiB E.2a Consortium Blockchains 1</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-09-금"><a href="#2021-07-09-금" class="headerlink" title="2021.07.09 (금)"></a>2021.07.09 (금)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">11:20 ~ 22:10</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">11:32 ~ 22:02</td><td align="left">서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행</td></tr><tr><td align="center">11:55 ~ 16:03</td><td align="left">UZH DDiB Assignments (Cardano, T.2, T.3) 진행</td></tr><tr><td align="center">17:00 ~ 18:30</td><td align="left">UZH DDiB E.3 Economics of Blockchain</td></tr><tr><td align="center">20:00 ~ 21:00</td><td align="left">UZH DDiB I.3 Algorand</td></tr><tr><td align="center">21:48 ~ 21:53</td><td align="left">UZH DDiB Assignment (Ethereum) 진행</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-10-토"><a href="#2021-07-10-토" class="headerlink" title="2021.07.10 (토)"></a>2021.07.10 (토)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">10:35 ~ 13:02</td><td align="left">CURG 활동 (디사이퍼 연합 회의 진행)</td></tr><tr><td align="center">14:30 ~ 15:38</td><td align="left">발성 레슨 (1/4)</td></tr></tbody></table><p><br><br></p><h3 id="2021-07-11-일"><a href="#2021-07-11-일" class="headerlink" title="2021.07.11 (일)"></a>2021.07.11 (일)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">15:00 ~ 22:23</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">15:10 ~ 22:20</td><td align="left">서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행</td></tr></tbody></table>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.world/categories/Personal-Development/">Personal Development</category>
@@ -756,13 +803,13 @@
       
       <category domain="https://y8ncastle.world/tags/baselab/">baselab</category>
       
-      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
-      
       <category domain="https://y8ncastle.world/tags/%ED%81%B4%EB%A0%88%EC%9D%B4%ED%8A%BC/">클레이튼</category>
       
       <category domain="https://y8ncastle.world/tags/%ED%81%B4%EB%A0%88%EC%9D%B4/">클레이</category>
       
       <category domain="https://y8ncastle.world/tags/%ED%81%B4%EB%A0%88%EC%9D%B4%ED%8A%BC-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">클레이튼 네트워크</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EC%84%B8%EB%AF%B8%EB%82%98/">세미나</category>
       
       <category domain="https://y8ncastle.world/tags/klaytn/">klaytn</category>
       
@@ -9159,48 +9206,6 @@
       
       
       <comments>https://y8ncastle.world/2019/11/23/it-free-board/sogang-univ-grad-interview/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>국가기술자격 정보처리기사 취득</title>
-      <link>https://y8ncastle.world/2019/11/23/qualification/data-processing-engineer/</link>
-      <guid>https://y8ncastle.world/2019/11/23/qualification/data-processing-engineer/</guid>
-      <pubDate>Sat, 23 Nov 2019 00:57:00 GMT</pubDate>
-      
-      <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/52089296/103062491-a99cea00-45f1-11eb-8979-857cf946e2ae.png&quot; width=&quot;40%&quot;&gt;&lt;/p&gt;  
-
-&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&quot;플랜-2020-세-번째-목표-달성&quot;&gt;&lt;a href=&quot;#플랜-2020-세-번째-목표-달성&quot; class=&quot;headerlink&quot; title=&quot;플랜 2020 세 번째 목표 달성&quot;&gt;&lt;/a&gt;플랜 2020 세 번째 목표 달성&lt;/h3&gt;&lt;hr&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p align="center"><img src="https://user-images.githubusercontent.com/52089296/103062491-a99cea00-45f1-11eb-8979-857cf946e2ae.png" width="40%"></p>  <p><br><br></p><h3 id="플랜-2020-세-번째-목표-달성"><a href="#플랜-2020-세-번째-목표-달성" class="headerlink" title="플랜 2020 세 번째 목표 달성"></a>플랜 2020 세 번째 목표 달성</h3><hr><p>지난 2019년 10월 13일에 응시한 제3회 정보처리기사 실기시험의 가채점 결과로 90~93점을 예상했었는데 예상했던 그대로 93점을 받아 정보처리기사 시험에 최종 합격했다.  </p><p>대학에서 가장 큰 목표로 삼았던 과제를 해결해서 속이 후련한 것도 있고 올해 처음으로 플랜 2020이라는 이름으로 계획하고 바로 취득한 만큼 더 보람있었던 것 같다.  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103062490-a9045380-45f1-11eb-8774-8b7f7cf901e0.jpg" width="50%"></p>  <p><br><br></p><p>내년에 유형이 바뀌기 전에 합격할 수 있어서 다행이고, 대학원 면접을 준비하는 과정에서도 많은 도움을 준 자격시험이어서 더욱더 좋았던 것 같다.  </p><p>이제 대학원에만 합격한다면 나머지 플랜 2020의 2가지를 더 달성할 수 있지 않을까 싶다. 물론, 토익에 대한 기준을 낮춰야 하는 부분도 있고, 백준 1천문제 풀이에 대한 부분은 내년까지 추가로 해결해야 할 일이지만 일단 지금 당장은 기사를 해결했으니 블록체인 학문 연구가 우선이다.  </p><p>12월 7일 서강대학교 대학원 면접 전까지 열심히 준비하고 대학원에 진학할 수 있도록 해야겠다.  </p><p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103062489-a9045380-45f1-11eb-833b-6267f30ef5c9.png" width="40%"></p>  <p><br><br></p><p align="center"><img src="https://user-images.githubusercontent.com/52089296/103062486-a7d32680-45f1-11eb-83da-0629c427b1b4.jpg" width="40%"></p>]]></content:encoded>
-      
-      
-      <category domain="https://y8ncastle.world/categories/Personal-Development/">Personal Development</category>
-      
-      <category domain="https://y8ncastle.world/categories/Personal-Development/Qualification/">Qualification</category>
-      
-      
-      <category domain="https://y8ncastle.world/tags/%ED%94%8C%EB%9E%9C-2020/">플랜 2020</category>
-      
-      <category domain="https://y8ncastle.world/tags/plan-2020/">plan 2020</category>
-      
-      <category domain="https://y8ncastle.world/tags/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC/">정보처리기사</category>
-      
-      <category domain="https://y8ncastle.world/tags/data-processing-engineer/">data processing engineer</category>
-      
-      <category domain="https://y8ncastle.world/tags/engineer-information-processing/">engineer information processing</category>
-      
-      <category domain="https://y8ncastle.world/tags/certificate/">certificate</category>
-      
-      <category domain="https://y8ncastle.world/tags/%EA%B5%AD%EA%B0%80%EA%B8%B0%EC%88%A0%EC%9E%90%EA%B2%A9/">국가기술자격</category>
-      
-      <category domain="https://y8ncastle.world/tags/national-technical-qualification/">national technical qualification</category>
-      
-      
-      <comments>https://y8ncastle.world/2019/11/23/qualification/data-processing-engineer/#disqus_thread</comments>
       
     </item>
     
