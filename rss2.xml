@@ -9,7 +9,7 @@
     <atom:link href="https://y8ncastle.world/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Alec J IT Blog (Personal Development)</description>
-    <pubDate>Mon, 12 Jul 2021 07:37:46 GMT</pubDate>
+    <pubDate>Mon, 12 Jul 2021 10:04:45 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -26,15 +26,15 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;13:52&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;13:52 ~ 19:05&lt;/td&gt;
 &lt;td align=&quot;left&quot;&gt;BaSE Lab 출근&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;14:00&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;14:00 ~ 19:02&lt;/td&gt;
 &lt;td align=&quot;left&quot;&gt;서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;16:30&lt;/td&gt;
+&lt;td align=&quot;center&quot;&gt;16:30 ~ 18:52&lt;/td&gt;
 &lt;td align=&quot;left&quot;&gt;UZH DDiB I.4a - Polkadot 1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
@@ -46,7 +46,7 @@
       
       
       
-      <content:encoded><![CDATA[<h3 id="2021-07-12-월"><a href="#2021-07-12-월" class="headerlink" title="2021.07.12 (월)"></a>2021.07.12 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">13:52</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">14:00</td><td align="left">서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행</td></tr><tr><td align="center">16:30</td><td align="left">UZH DDiB I.4a - Polkadot 1</td></tr></tbody></table><br><blockquote><p>기술이전 코드 개발 (-7/31)<br>소프트웨어 코드 실적 세인트 등록<br>언리얼 엔진 연구 (메타버스, 블록체인)</p></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="2021-07-12-월"><a href="#2021-07-12-월" class="headerlink" title="2021.07.12 (월)"></a>2021.07.12 (월)</h3><table><thead><tr><th align="center"><strong>시간</strong></th><th align="left"><strong>내용</strong></th></tr></thead><tbody><tr><td align="center">13:52 ~ 19:05</td><td align="left">BaSE Lab 출근</td></tr><tr><td align="center">14:00 ~ 19:02</td><td align="left">서울시 블록체인 교육 교재 (하이퍼레저 패브릭) 제작 진행</td></tr><tr><td align="center">16:30 ~ 18:52</td><td align="left">UZH DDiB I.4a - Polkadot 1</td></tr></tbody></table><br><blockquote><p>기술이전 코드 개발 (-7/31)<br>소프트웨어 코드 실적 세인트 등록<br>언리얼 엔진 연구 (메타버스, 블록체인)</p></blockquote>]]></content:encoded>
       
       
       <category domain="https://y8ncastle.world/categories/Personal-Development/">Personal Development</category>
@@ -1553,9 +1553,9 @@
       
       <category domain="https://y8ncastle.world/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
       
-      <category domain="https://y8ncastle.world/tags/cryptocurrency/">cryptocurrency</category>
-      
       <category domain="https://y8ncastle.world/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
+      
+      <category domain="https://y8ncastle.world/tags/cryptocurrency/">cryptocurrency</category>
       
       <category domain="https://y8ncastle.world/tags/blockchain/">blockchain</category>
       
@@ -6809,19 +6809,19 @@
       <category domain="https://y8ncastle.world/categories/Crypto-Community/">Crypto Community</category>
       
       
-      <category domain="https://y8ncastle.world/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
-      
-      <category domain="https://y8ncastle.world/tags/cryptocurrency/">cryptocurrency</category>
-      
       <category domain="https://y8ncastle.world/tags/%ED%81%AC%EB%A6%BD%ED%86%A0-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/">크립토 커뮤니티</category>
       
       <category domain="https://y8ncastle.world/tags/%EC%BD%94%EC%9D%B8%EC%88%98%EC%9D%B5/">코인수익</category>
+      
+      <category domain="https://y8ncastle.world/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/">암호화폐</category>
       
       <category domain="https://y8ncastle.world/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/">블록체인</category>
       
       <category domain="https://y8ncastle.world/tags/crypto-community/">crypto community</category>
       
       <category domain="https://y8ncastle.world/tags/crypto-income/">crypto income</category>
+      
+      <category domain="https://y8ncastle.world/tags/cryptocurrency/">cryptocurrency</category>
       
       <category domain="https://y8ncastle.world/tags/blockchain/">blockchain</category>
       
