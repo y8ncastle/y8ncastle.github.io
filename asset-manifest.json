@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.4caceadf.css",
-    "main.js": "/static/js/main.56872a0a.js",
+    "main.js": "/static/js/main.702ef5e3.js",
     "static/js/599.a6ce7f16.chunk.js": "/static/js/599.a6ce7f16.chunk.js",
-    "static/js/363.3b88d0cd.chunk.js": "/static/js/363.3b88d0cd.chunk.js",
+    "static/js/363.40e5fa00.chunk.js": "/static/js/363.40e5fa00.chunk.js",
     "static/js/19.41213b53.chunk.js": "/static/js/19.41213b53.chunk.js",
     "static/media/yoonsung.png": "/static/media/yoonsung.cffc34aeae5399678926.png",
     "static/media/screenshot-gangwon-nft.png": "/static/media/screenshot-gangwon-nft.8688a23cb1e10be4e6eb.png",
@@ -29,13 +29,13 @@
     "static/media/github.svg": "/static/media/github.0bee1227a2af3434a1007287bbe8aadd.svg",
     "index.html": "/index.html",
     "main.4caceadf.css.map": "/static/css/main.4caceadf.css.map",
-    "main.56872a0a.js.map": "/static/js/main.56872a0a.js.map",
+    "main.702ef5e3.js.map": "/static/js/main.702ef5e3.js.map",
     "599.a6ce7f16.chunk.js.map": "/static/js/599.a6ce7f16.chunk.js.map",
-    "363.3b88d0cd.chunk.js.map": "/static/js/363.3b88d0cd.chunk.js.map",
+    "363.40e5fa00.chunk.js.map": "/static/js/363.40e5fa00.chunk.js.map",
     "19.41213b53.chunk.js.map": "/static/js/19.41213b53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4caceadf.css",
-    "static/js/main.56872a0a.js"
+    "static/js/main.702ef5e3.js"
   ]
 }
