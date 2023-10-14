@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.915ce9f2.css",
-    "main.js": "/static/js/main.eb57957f.js",
-    "static/js/332.1fb97a11.chunk.js": "/static/js/332.1fb97a11.chunk.js",
+    "main.css": "/static/css/main.4caceadf.css",
+    "main.js": "/static/js/main.56872a0a.js",
+    "static/js/599.a6ce7f16.chunk.js": "/static/js/599.a6ce7f16.chunk.js",
+    "static/js/363.3b88d0cd.chunk.js": "/static/js/363.3b88d0cd.chunk.js",
+    "static/js/19.41213b53.chunk.js": "/static/js/19.41213b53.chunk.js",
     "static/media/yoonsung.png": "/static/media/yoonsung.cffc34aeae5399678926.png",
     "static/media/screenshot-gangwon-nft.png": "/static/media/screenshot-gangwon-nft.8688a23cb1e10be4e6eb.png",
     "static/media/yoonsung-back.png": "/static/media/yoonsung-back.58c2b916178fbebd8cf7.png",
@@ -11,6 +13,7 @@
     "static/media/screenshot-hyundai-dte.png": "/static/media/screenshot-hyundai-dte.291dfa58108039ace0db.png",
     "static/media/screenshot-nft-verification.png": "/static/media/screenshot-nft-verification.a06b7bbc6de459832618.png",
     "static/media/screenshot-kict-bim.png": "/static/media/screenshot-kict-bim.1c001c2b109bc292ce9e.png",
+    "static/media/loading.gif": "/static/media/loading.ec946dbc061018b1e84a.gif",
     "static/media/cv-button.png": "/static/media/cv-button.fbc7e862aa840dbdfca0.png",
     "static/media/cv-button-eng.png": "/static/media/cv-button-eng.388da7fc11c5ad07fd37.png",
     "static/media/cv-button-eng-hover.png": "/static/media/cv-button-eng-hover.766fe59b66bdec7af242.png",
@@ -25,12 +28,14 @@
     "static/media/birthday.svg": "/static/media/birthday.10e5e77056b74369834a9ee1fc0a9e0b.svg",
     "static/media/github.svg": "/static/media/github.0bee1227a2af3434a1007287bbe8aadd.svg",
     "index.html": "/index.html",
-    "main.915ce9f2.css.map": "/static/css/main.915ce9f2.css.map",
-    "main.eb57957f.js.map": "/static/js/main.eb57957f.js.map",
-    "332.1fb97a11.chunk.js.map": "/static/js/332.1fb97a11.chunk.js.map"
+    "main.4caceadf.css.map": "/static/css/main.4caceadf.css.map",
+    "main.56872a0a.js.map": "/static/js/main.56872a0a.js.map",
+    "599.a6ce7f16.chunk.js.map": "/static/js/599.a6ce7f16.chunk.js.map",
+    "363.3b88d0cd.chunk.js.map": "/static/js/363.3b88d0cd.chunk.js.map",
+    "19.41213b53.chunk.js.map": "/static/js/19.41213b53.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.915ce9f2.css",
-    "static/js/main.eb57957f.js"
+    "static/css/main.4caceadf.css",
+    "static/js/main.56872a0a.js"
   ]
 }
