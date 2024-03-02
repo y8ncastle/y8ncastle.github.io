@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/254.c62cd6c5.chunk.js","mappings":"mKAAA,MAIA,EAJiBA,KACRC,EAAAA,EAAAA,KAAA,S","sources":["pages/Timeline.tsx"],"sourcesContent":["const Timeline = () => {\n  return <div></div>;\n};\n\nexport default Timeline;\n"],"names":["Timeline","_jsx"],"sourceRoot":""}
