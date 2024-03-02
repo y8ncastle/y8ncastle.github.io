@@ -8,6 +8,13 @@
     "background": {
       "titleAbove": "Data Always Has",
       "titleBelow": "A Better Idea"
+    },
+    "scrollDown": "Scroll Down to See",
+    "profile": {
+      "role": "Frontend and Blockchain Service Developer",
+      "introPrev": "Hello.\nI'm ",
+      "name": "Yoonsung Jeong (Alec J)",
+      "introNext": ", a 'Frontend Developer'.\n\nI studied and developed blockchain in graduate school, and got my master's degree. Currently I'm working on frontend development focused on React.\n\nI enjoy learning new technologies and handling some data. Also, I quickly grasp new concepts and technologies based on my experience. That is my advantage.\n\nHope you enjoy looking around here."
     }
   }
 }
