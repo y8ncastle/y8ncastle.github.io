@@ -1,5 +1,5 @@
 const Snapshot = () => {
-  return <div></div>;
+  return <main></main>;
 };
 
 export default Snapshot;

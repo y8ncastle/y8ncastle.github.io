@@ -1,0 +1,13 @@
+{
+  "header": {
+    "about": "About",
+    "snapshot": "Snapshot",
+    "timeline": "Timeline"
+  },
+  "about": {
+    "background": {
+      "titleAbove": "Data Always Has",
+      "titleBelow": "A Better Idea"
+    }
+  }
+}

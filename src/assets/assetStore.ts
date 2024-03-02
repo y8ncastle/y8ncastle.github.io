@@ -1,3 +1,7 @@
+// images
 import loading from "./images/loading.gif";
 
-export { loading };
+// videos
+import background from "./videos/background.mp4";
+
+export { background, loading };

@@ -1,0 +1,13 @@
+{
+  "header": {
+    "about": "소개",
+    "snapshot": "스냅샷",
+    "timeline": "타임라인"
+  },
+  "about": {
+    "background": {
+      "titleAbove": "데이터는 항상 더 나은",
+      "titleBelow": "아이디어를 가진다"
+    }
+  }
+}

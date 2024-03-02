@@ -1,4 +1,23 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"); @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-body { background-color: #111111; margin: 0; padding: 0; font-family: 'Pretendard', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; display: flex; justify-content: center; color: white; } 
+/* Font */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"); /* Pretendard */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); /* Russo One */
 
-.loading-container { display: flex; align-items: center; }
+/* Default */
+body { background-color: #111111; margin: 0; padding: 0; font-family: 'Pretendard', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; display: flex; align-items: center; color: white; min-height: 100vh; flex-direction: column; } 
+p { margin: 0; } 
+
+/* Common */
+.russo { font-family: 'Russo One'; } 
+.loading-container { display: flex; align-items: center; } 
+
+/* Header */
+header { position: fixed; width: 1440px; background-color: rgba(17, 17, 17, 0.7); z-index: 99; } 
+header .container { display: flex; align-items: center; justify-content: space-between; padding: 0 92px; height: 92px; } 
+header .container .logo { font-size: 20px; cursor: default; } 
+header nav { display: flex; justify-content: space-between; width: 340px; } 
+header nav a { color: white; text-decoration: none; } 
+header nav a:hover { color: #d3d3d3; } 
+header .language { position: relative; display: flex; justify-content: space-between; width: 132px; } 
+header .language span { cursor: pointer; } 
+header .language::after { position: absolute; content: ''; width: 0.5px; height: 16px; background-color: #fff; left: 62px; top: 2px; } 
+header .language span:hover { color: #d3d3d3; } 
