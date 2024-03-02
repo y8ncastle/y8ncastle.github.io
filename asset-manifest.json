@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c0485ad.css",
-    "main.js": "/static/js/main.cb959c45.js",
-    "static/js/20.523065b1.chunk.js": "/static/js/20.523065b1.chunk.js",
-    "static/js/895.a252a023.chunk.js": "/static/js/895.a252a023.chunk.js",
-    "static/js/254.c62cd6c5.chunk.js": "/static/js/254.c62cd6c5.chunk.js",
-    "static/js/715.4b045209.chunk.js": "/static/js/715.4b045209.chunk.js",
+    "main.css": "/static/css/main.0a8ca16f.css",
+    "main.js": "/static/js/main.9f104b7e.js",
+    "static/js/20.a7625f94.chunk.js": "/static/js/20.a7625f94.chunk.js",
+    "static/js/895.da29112e.chunk.js": "/static/js/895.da29112e.chunk.js",
+    "static/js/254.bb548b45.chunk.js": "/static/js/254.bb548b45.chunk.js",
+    "static/js/715.9caaf401.chunk.js": "/static/js/715.9caaf401.chunk.js",
+    "static/media/background.mp4": "/static/media/background.0305f571bcddcbf16ee1.mp4",
     "static/media/loading.gif": "/static/media/loading.ec6d241040c8118eba6f.gif",
     "index.html": "/index.html",
-    "main.7c0485ad.css.map": "/static/css/main.7c0485ad.css.map",
-    "main.cb959c45.js.map": "/static/js/main.cb959c45.js.map",
-    "20.523065b1.chunk.js.map": "/static/js/20.523065b1.chunk.js.map",
-    "895.a252a023.chunk.js.map": "/static/js/895.a252a023.chunk.js.map",
-    "254.c62cd6c5.chunk.js.map": "/static/js/254.c62cd6c5.chunk.js.map",
-    "715.4b045209.chunk.js.map": "/static/js/715.4b045209.chunk.js.map"
+    "main.0a8ca16f.css.map": "/static/css/main.0a8ca16f.css.map",
+    "main.9f104b7e.js.map": "/static/js/main.9f104b7e.js.map",
+    "20.a7625f94.chunk.js.map": "/static/js/20.a7625f94.chunk.js.map",
+    "895.da29112e.chunk.js.map": "/static/js/895.da29112e.chunk.js.map",
+    "254.bb548b45.chunk.js.map": "/static/js/254.bb548b45.chunk.js.map",
+    "715.9caaf401.chunk.js.map": "/static/js/715.9caaf401.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0485ad.css",
-    "static/js/main.cb959c45.js"
+    "static/css/main.0a8ca16f.css",
+    "static/js/main.9f104b7e.js"
   ]
 }

@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/895.a252a023.chunk.js","mappings":"mKAAA,MAIA,EAJiBA,KACRC,EAAAA,EAAAA,KAAA,S","sources":["pages/Snapshot.tsx"],"sourcesContent":["const Snapshot = () => {\n  return <div></div>;\n};\n\nexport default Snapshot;\n"],"names":["Snapshot","_jsx"],"sourceRoot":""}

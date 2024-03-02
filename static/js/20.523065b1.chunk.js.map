@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/20.523065b1.chunk.js","mappings":"iKAAA,MAIA,EAJcA,KACLC,EAAAA,EAAAA,KAAA,S","sources":["pages/About.tsx"],"sourcesContent":["const About = () => {\n  return <div></div>;\n};\n\nexport default About;\n"],"names":["About","_jsx"],"sourceRoot":""}
