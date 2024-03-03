@@ -1,5 +1,8 @@
 import { background, cvDown, profile, scrollDown } from "assets/assetStore";
+import ImageLinkBox from "components/About/ImageLinkBox";
+import WorkExpBox from "components/About/WorkExpBox";
 import { Img } from "components/Image";
+import { profileContactData, workExpData } from "data/About";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
@@ -45,8 +48,44 @@ const About = () => {
 
             <div className="cv-box">
               <span>CV</span>
-              <Img src={cvDown} width={28} height={28} />
+              <Img src={cvDown} width={24} height={24} />
             </div>
+          </div>
+        </div>
+
+        <div className="about">
+          <p className="title russo">About</p>
+          <p className="sub-title">{t(`about.content.contact`)}</p>
+
+          <div className="link-box-group">
+            {profileContactData &&
+              profileContactData.map((item) => (
+                <ImageLinkBox
+                  key={item.content}
+                  icon={item.icon}
+                  content={item.content}
+                  noBoldContent={item.noBoldContent}
+                  link={item.link ? item.link : null}
+                />
+              ))}
+          </div>
+
+          <p className="sub-title" style={{ marginTop: 68 }}>
+            {t(`about.content.workExp`)}
+          </p>
+
+          <div className="work-exp-group">
+            {workExpData &&
+              workExpData.map((item) => (
+                <WorkExpBox
+                  key={item.companyName}
+                  startDate={item.startDate}
+                  endDate={item.endDate}
+                  companyName={item.companyName}
+                  link={item.link}
+                  description={item.description}
+                />
+              ))}
           </div>
         </div>
       </section>
