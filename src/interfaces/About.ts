@@ -5,10 +5,11 @@ export interface AboutProfileProps {
   link?: string;
 }
 
-export interface WorkExpProps {
+export interface WorkEduProps {
   startDate: string;
   endDate: string;
-  companyName: string;
+  name: string;
   link?: string;
+  tooltip?: string;
   description: string;
 }

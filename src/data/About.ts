@@ -53,8 +53,32 @@ export const workExpData = [
   {
     startDate: "2022.12",
     endDate: `about.content.current`,
-    companyName: `about.content.noncelab`,
+    name: `about.content.noncelab`,
     link: "https://www.noncelab.com",
     description: `about.content.noncelabDesc`,
+  },
+];
+
+export const eduData = [
+  {
+    startDate: "2020.03",
+    endDate: "2022.12",
+    name: `about.content.sogang`,
+    link: "https://baselab.sogang.ac.kr",
+    tooltip: `about.content.reasonNext`,
+    description: `about.content.sogangDesc`,
+  },
+  {
+    startDate: "2013.03",
+    endDate: "2019.12",
+    name: `about.content.hbnu`,
+    tooltip: `about.content.reasonPrev`,
+    description: `about.content.hbnuDesc`,
+  },
+  {
+    startDate: "2010.03",
+    endDate: "2012.12",
+    name: `about.content.seodaejeon`,
+    description: `about.content.seodaejeonDesc`,
   },
 ];

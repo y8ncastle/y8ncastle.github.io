@@ -18,6 +18,7 @@ const ImageLinkBox = (props: AboutProfileProps) => {
 
       {props.noBoldContent && (
         <span className="no-bold">
+          {/* 만 OO세 예외 */}
           {props.noBoldContent === "excp1"
             ? `(${t(`about.content.agePrev`)}${calculateAge()}${i18n.t(
                 `about.content.ageNext`
