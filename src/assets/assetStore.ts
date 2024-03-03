@@ -3,10 +3,10 @@ import cvDown from "./icons/cvDown.svg";
 import scrollDown from "./icons/scrollDown.svg";
 
 // images
-import loading from "./images/loading.gif";
 import profile from "./images/profile.png";
 
 // videos
-import background from "./videos/background.mp4";
+import background from "./videos/background.gif";
+import loading from "./videos/loading.gif";
 
 export { background, cvDown, loading, profile, scrollDown };

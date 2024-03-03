@@ -8,7 +8,7 @@ const About = () => {
   return (
     <main>
       <div className="background">
-        <video src={background} width={1440} height={800} autoPlay loop muted />
+        <Img src={background} width={1440} height={800} />
         <p className="title">
           {/* 데이터는 항상 더 나은 아이디어를 가진다 */}
           <span>{t(`about.background.titleAbove`)}</span>
