@@ -28,7 +28,8 @@
       "noncelab": "(주)논스랩",
       "noncelabDesc": "업무 직위: 책임 연구원 (프론트엔드 개발자)\n업무 설명: 블록체인과 관련된 웹 중심의 프론트엔드 개발자로 근무하며 필요에 따라 앱 개발 지원 및 일반 외주 업무(프로토타입 개발, SI 서비스 개발, 퍼블리싱 등)를 진행하였습니다.\n대표 프로젝트: 비트코인 커뮤니티 POW, 비트코인 P2P 거래 플랫폼 Pow2Pow, 암호화폐 지갑 Colet",
       "education": "학력",
-      "reasonNext": "개인 사유로 인해 1년 휴학 후 복학",
+      "more": "더보기",
+      "reasonNext": "개인 사유로 인해 총 1년 휴학 후 복학",
       "sogang": "서강대학교 (일반대학원 컴퓨터공학 공학석사)",
       "sogangDesc": "세부 전공: 블록체인 (Blockchain)\n평균 학점: 3.81 / 4.3\n연구실: BaSE Lab (Blockchain and Software Engineering Lab, 박수용 교수님)\n졸업 논문: NFT 사용권 제공을 위한 스마트 컨트랙트 기반의 접근 제어 기법",
       "reasonPrev": "진로 고민을 위해 1년 휴학 후 복학",
@@ -36,6 +37,11 @@
       "hbnuDesc": "평균 학점: 4.136 / 4.5\n졸업 작품: 앱을 이용한 다기능 옴니카 제어 설계",
       "seodaejeon": "서대전고등학교",
       "seodaejeonDesc": "세부 구분: 이과 (자연 계열)"
+    },
+    "skill": {
+      "active": "현재 활발히 사용하고 있는 기술 스택",
+      "applicable": "활용이 가능한 기술 스택",
+      "entry": "적은 경험이 있는 기술 스택"
     }
   }
 }

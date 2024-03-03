@@ -13,3 +13,9 @@ export interface WorkEduProps {
   tooltip?: string;
   description: string;
 }
+
+export interface SkillProps {
+  icon: string;
+  name: string;
+  period: string;
+}

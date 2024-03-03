@@ -1,8 +1,24 @@
-import { background, cvDown, profile, scrollDown } from "assets/assetStore";
+import {
+  background,
+  cvDown,
+  profile,
+  scrollDown,
+  skillOne,
+  skillThree,
+  skillTwo,
+} from "assets/assetStore";
 import ImageLinkBox from "components/About/ImageLinkBox";
+import SkillBox from "components/About/SkillBox";
 import WorkEduBox from "components/About/WorkEduBox";
 import { Img } from "components/Image";
-import { eduData, profileContactData, workExpData } from "data/About";
+import {
+  activeSkillData,
+  applicableSkillData,
+  eduData,
+  entrySkillData,
+  profileContactData,
+  workExpData,
+} from "data/About";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
@@ -13,7 +29,6 @@ const About = () => {
       <div className="background">
         <Img src={background} width={1440} height={800} />
         <p className="title">
-          {/* 데이터는 항상 더 나은 아이디어를 가진다 */}
           <span>{t(`about.background.titleAbove`)}</span>
           <br />
           <span>{t(`about.background.titleBelow`)}</span>
@@ -21,7 +36,6 @@ const About = () => {
       </div>
 
       <div className="scroll-down">
-        {/* 아래로 내리며 살펴보기 */}
         <p>{t(`about.scrollDown`)}</p>
         <Img src={scrollDown} width={24} height={24} />
       </div>
@@ -29,11 +43,9 @@ const About = () => {
       <section>
         <div className="profile">
           <div className="left-side">
-            {/* 프론트엔드 및 블록체인 서비스 개발자 */}
             <p>{t(`about.profile.role`)}</p>
             <p className="russo">Alec J</p>
             <p>
-              {/* 소개 내용 */}
               {t(`about.profile.introPrev`)}
               <span>{t(`about.profile.name`)}</span>
               {t(`about.profile.introNext`)}
@@ -57,8 +69,9 @@ const About = () => {
 
         <div className="about">
           <p className="title russo">About</p>
-          {/* 프로필 및 연락처 */}
-          <p className="sub-title">{t(`about.content.contact`)}</p>
+          <div className="sub-title">
+            <p>{t(`about.content.contact`)}</p>
+          </div>
 
           <div className="link-box-group">
             {profileContactData &&
@@ -73,10 +86,9 @@ const About = () => {
               ))}
           </div>
 
-          <p className="sub-title" style={{ marginTop: 68 }}>
-            {/* 업무 경력 */}
-            {t(`about.content.workExp`)}
-          </p>
+          <div className="sub-title" style={{ marginTop: 68 }}>
+            <p>{t(`about.content.workExp`)}</p>
+          </div>
 
           <div className="work-exp-group">
             {workExpData &&
@@ -92,9 +104,10 @@ const About = () => {
               ))}
           </div>
 
-          <p className="sub-title" style={{ marginTop: 92 }}>
-            {t(`about.content.education`)}
-          </p>
+          <div className="sub-title" style={{ marginTop: 92 }}>
+            <p>{t(`about.content.education`)}</p>
+            <a href="/snapshot">{t(`about.content.more`)}</a>
+          </div>
 
           <div className="work-exp-group">
             {eduData &&
@@ -107,6 +120,67 @@ const About = () => {
                   link={item.link}
                   tooltip={item.tooltip}
                   description={item.description}
+                />
+              ))}
+          </div>
+        </div>
+
+        <div className="skill">
+          <p className="title russo">Skill</p>
+
+          <p className="sub-title" style={{ marginTop: 68 }}>
+            <span>
+              <Img src={skillOne} width={24} height={24} />
+            </span>
+            {t(`about.skill.active`)}
+          </p>
+
+          <div className="skill-group">
+            {activeSkillData &&
+              activeSkillData.map((item) => (
+                <SkillBox
+                  key={item.name}
+                  icon={item.icon}
+                  name={item.name}
+                  period={item.period}
+                />
+              ))}
+          </div>
+
+          <p className="sub-title" style={{ marginTop: 112 }}>
+            <span>
+              <Img src={skillTwo} width={24} height={24} />
+            </span>
+            {t(`about.skill.applicable`)}
+          </p>
+
+          <div className="skill-group">
+            {applicableSkillData &&
+              applicableSkillData.map((item) => (
+                <SkillBox
+                  key={item.name}
+                  icon={item.icon}
+                  name={item.name}
+                  period={item.period}
+                />
+              ))}
+          </div>
+
+          <p className="sub-title" style={{ marginTop: 112 }}>
+            <span>
+              <Img src={skillThree} width={24} height={24} />
+            </span>
+            {t(`about.skill.entry`)}
+          </p>
+
+          <div className="skill-group">
+            {entrySkillData &&
+              entrySkillData.map((item) => (
+                <SkillBox
+                  key={item.name}
+                  icon={item.icon}
+                  name={item.name}
+                  period={item.period}
                 />
               ))}
           </div>

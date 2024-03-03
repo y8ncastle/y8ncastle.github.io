@@ -44,15 +44,12 @@ const Header = () => {
 
         <nav>
           <Link to="/" style={setUrlStyle("/")}>
-            {/* 소개 */}
             {t(`header.about`)}
           </Link>
           <Link to="/snapshot" style={setUrlStyle("/snapshot")}>
-            {/* 스냅샷 */}
             {t(`header.snapshot`)}
           </Link>
           <Link to="/timeline" style={setUrlStyle("/timeline")}>
-            {/* 타임라인 */}
             {t(`header.timeline`)}
           </Link>
         </nav>
