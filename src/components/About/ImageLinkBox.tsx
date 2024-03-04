@@ -3,6 +3,7 @@ import { Img } from "components/Image";
 import { AboutProfileProps } from "interfaces/About";
 import i18n from "locales/i18n";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import { calculateAge } from "utils/calculation";
 
 const ImageLinkBox = (props: AboutProfileProps) => {
@@ -27,9 +28,9 @@ const ImageLinkBox = (props: AboutProfileProps) => {
       )}
 
       {props.link && (
-        <a href={props.link} target="_blank">
+        <Link to={props.link} target="_blank">
           <Img src={iconLink} width={16} height={16} />
-        </a>
+        </Link>
       )}
     </div>
   );

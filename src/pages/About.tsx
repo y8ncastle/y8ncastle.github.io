@@ -24,6 +24,7 @@ import {
 } from "data/About";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const About = () => {
   const { t } = useTranslation();
@@ -143,7 +144,7 @@ const About = () => {
 
           <div className="sub-title" style={{ marginTop: 92 }}>
             <p>{t(`about.content.education`)}</p>
-            <a href="/snapshot">{t(`about.more`)}</a>
+            <Link to="/snapshot">{t(`about.more`)}</Link>
           </div>
 
           <div className="work-exp-group">
@@ -228,7 +229,7 @@ const About = () => {
 
           <div className="description">
             <p>{t(`about.project.recent`)}</p>
-            <a href="/snapshot">{t(`about.more`)}</a>
+            <Link to="/snapshot">{t(`about.more`)}</Link>
           </div>
 
           <div className="project-group">
@@ -251,7 +252,7 @@ const About = () => {
         <div className="footer">
           <p>
             {t(`about.footer.moreInfoPrev`)}{" "}
-            <a href="/snapshot">{t(`header.snapshot`)}</a>{" "}
+            <Link to="/snapshot">{t(`header.snapshot`)}</Link>{" "}
             {t(`about.footer.moreInfoNext`)}
           </p>
 
