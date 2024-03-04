@@ -7,7 +7,9 @@
   "about": {
     "background": {
       "titleAbove": "데이터는 항상 더 나은",
-      "titleBelow": "아이디어를 가진다"
+      "titleBelow": "아이디어를 가진다",
+      "titleAbove2": "살아가면서 만든 모든 데이터를",
+      "titleBelow2": "소중히 생각합니다"
     },
     "scrollDown": "아래로 내리며 살펴보기",
     "more": "더보기",

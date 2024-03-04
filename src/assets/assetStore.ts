@@ -6,6 +6,7 @@ import aboutGithub from "./icons/aboutGithub.svg";
 import aboutMail from "./icons/aboutMail.svg";
 import aboutQuestion from "./icons/aboutQuestion.svg";
 import cvDown from "./icons/cvDown.svg";
+import fabArrow from "./icons/fabArrow.svg";
 import iconLink from "./icons/link.svg";
 import scrollDown from "./icons/scrollDown.svg";
 
@@ -56,6 +57,7 @@ export {
   aboutQuestion,
   background,
   cvDown,
+  fabArrow,
   iconLink,
   loading,
   profile,

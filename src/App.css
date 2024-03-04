@@ -1,10 +1,20 @@
-main { width: 1440px; } 
+main { width: 1440px; position: relative; } 
 
 /* About */
-main .background { position: relative; } 
+main .background { position: relative; height: 892px; } 
 main .background img { object-fit: fill; opacity: 0.15; width: 1440px; height: 800px; margin-top: 92px; } 
-main .background .title { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 76px; font-weight: 900; text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4); line-height: 90px; text-align: center; } 
+main .background .title { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 76px; font-weight: 900; text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4); line-height: 90px; text-align: center; width: 1440px; } 
 main .background .title span:first-child { color: #A9A9A9; } 
+
+.fade-in-out { animation: fadeInOut 5s ease-in-out infinite; } 
+
+@keyframes fadeInOut { 
+ 0% { opacity: 0; } 
+ 25% { opacity: 1; } 
+ 75% { opacity: 1; } 
+ 100% { opacity: 0; } 
+ }
+
 main .scroll-down { display: flex; align-items: center; flex-direction: column; padding: 48px 0 144px 0; } 
 main .scroll-down p { margin-bottom: 16px; font-weight: 300; } 
 main .profile { height: 612px; padding: 0 136px 160px 92px; display: flex; justify-content: space-between; } 

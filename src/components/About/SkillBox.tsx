@@ -3,7 +3,7 @@ import { SkillProps } from "interfaces/About";
 import { useState } from "react";
 
 const SkillBox = (props: SkillProps) => {
-  const [onHover, setOnHover] = useState(false);
+  const [onHover, setOnHover] = useState<boolean>(false);
 
   return (
     <div
