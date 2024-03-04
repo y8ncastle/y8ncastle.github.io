@@ -4,6 +4,11 @@ import {
   aboutDBpia,
   aboutGithub,
   aboutMail,
+  projectBim,
+  projectDte,
+  projectGangwon,
+  projectKomsco,
+  projectPow,
   skillAndroid,
   skillAwsEc2,
   skillAwsS3,
@@ -28,7 +33,12 @@ import {
   skillSolidity,
   skillTypescript,
 } from "assets/assetStore";
-import { AboutProfileProps, SkillProps, WorkEduProps } from "interfaces/About";
+import {
+  AboutProfileProps,
+  ProjectProps,
+  SkillProps,
+  WorkEduProps,
+} from "interfaces/About";
 
 export const profileContactData: AboutProfileProps[] = [
   {
@@ -232,5 +242,138 @@ export const entrySkillData: SkillProps[] = [
     icon: skillMariaDb,
     name: "MariaDB",
     period: "2024",
+  },
+];
+
+export const projectData: ProjectProps[] = [
+  {
+    thumbnail: projectPow,
+    title: `about.project.pow`,
+    contRate: 70,
+    labels: [
+      {
+        label: "Next.js",
+        color: "#8b9cdb",
+      },
+      {
+        label: "TypeScript",
+        color: "#8b9cdb",
+      },
+      {
+        label: "PWA",
+        color: "#b081cd",
+      },
+      {
+        label: "SEO",
+        color: "#b081cd",
+      },
+      {
+        label: "Figma",
+        color: "#cd8181",
+      },
+    ],
+    contribution: `about.project.cont1`,
+    description: `about.project.cont1Desc`,
+  },
+  {
+    thumbnail: projectKomsco,
+    title: `about.project.komsco`,
+    contRate: 90,
+    labels: [
+      {
+        label: "React",
+        color: "#8b9cdb",
+      },
+      {
+        label: "TypeScript",
+        color: "#8b9cdb",
+      },
+      {
+        label: "Figma",
+        color: "#cd8181",
+      },
+    ],
+    contribution: `about.project.cont2`,
+    description: `about.project.cont2Desc`,
+  },
+  {
+    thumbnail: projectGangwon,
+    title: `about.project.gangwon`,
+    contRate: 90,
+    appContRate: 40,
+    labels: [
+      {
+        label: "React",
+        color: "#8b9cdb",
+      },
+      {
+        label: "React Native",
+        color: "#8b9cdb",
+      },
+      {
+        label: "TypeScript",
+        color: "#8b9cdb",
+      },
+      {
+        label: "Solidity",
+        color: "#68b997",
+      },
+      {
+        label: "Figma",
+        color: "#cd8181",
+      },
+    ],
+    contribution: `about.project.cont3`,
+    description: `about.project.cont3Desc`,
+  },
+  {
+    thumbnail: projectDte,
+    title: `about.project.dte`,
+    contRate: 100,
+    labels: [
+      {
+        label: "React",
+        color: "#8b9cdb",
+      },
+      {
+        label: "JavaScript",
+        color: "#8b9cdb",
+      },
+      {
+        label: "Solidity",
+        color: "#68b997",
+      },
+      {
+        label: "Design",
+        color: "#cd8181",
+      },
+    ],
+    contribution: `about.project.cont4`,
+    description: `about.project.cont4Desc`,
+  },
+  {
+    thumbnail: projectBim,
+    title: `about.project.bim`,
+    contRate: 95,
+    labels: [
+      {
+        label: "React",
+        color: "#8b9cdb",
+      },
+      {
+        label: "JavaScript",
+        color: "#8b9cdb",
+      },
+      {
+        label: "Solidity",
+        color: "#68b997",
+      },
+      {
+        label: "Design",
+        color: "#cd8181",
+      },
+    ],
+    contribution: `about.project.cont5`,
+    description: `about.project.cont5Desc`,
   },
 ];

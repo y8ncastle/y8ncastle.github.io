@@ -19,3 +19,18 @@ export interface SkillProps {
   name: string;
   period: string;
 }
+
+export interface ProjectLabelProps {
+  label: string;
+  color: string;
+}
+
+export interface ProjectProps {
+  thumbnail: string;
+  title: string;
+  contRate: number;
+  appContRate?: number;
+  labels: ProjectLabelProps[];
+  contribution: string;
+  description: string;
+}

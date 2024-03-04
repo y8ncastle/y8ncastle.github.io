@@ -8,6 +8,7 @@ import {
   skillTwo,
 } from "assets/assetStore";
 import ImageLinkBox from "components/About/ImageLinkBox";
+import ProjectBox from "components/About/ProjectBox";
 import SkillBox from "components/About/SkillBox";
 import WorkEduBox from "components/About/WorkEduBox";
 import { Img } from "components/Image";
@@ -17,6 +18,7 @@ import {
   eduData,
   entrySkillData,
   profileContactData,
+  projectData,
   workExpData,
 } from "data/About";
 import { useTranslation } from "react-i18next";
@@ -106,7 +108,7 @@ const About = () => {
 
           <div className="sub-title" style={{ marginTop: 92 }}>
             <p>{t(`about.content.education`)}</p>
-            <a href="/snapshot">{t(`about.content.more`)}</a>
+            <a href="/snapshot">{t(`about.more`)}</a>
           </div>
 
           <div className="work-exp-group">
@@ -184,6 +186,44 @@ const About = () => {
                 />
               ))}
           </div>
+        </div>
+
+        <div className="project">
+          <p className="title russo">Project</p>
+
+          <div className="description">
+            <p>{t(`about.project.recent`)}</p>
+            <a href="/snapshot">{t(`about.more`)}</a>
+          </div>
+
+          <div className="project-group">
+            {projectData &&
+              projectData.map((item) => (
+                <ProjectBox
+                  key={item.title}
+                  title={item.title}
+                  thumbnail={item.thumbnail}
+                  contRate={item.contRate}
+                  appContRate={item.appContRate}
+                  labels={item.labels}
+                  contribution={item.contribution}
+                  description={item.description}
+                />
+              ))}
+          </div>
+        </div>
+
+        <div className="footer">
+          <p>
+            {t(`about.footer.moreInfoPrev`)}{" "}
+            <a href="/snapshot">{t(`header.snapshot`)}</a>{" "}
+            {t(`about.footer.moreInfoNext`)}
+          </p>
+
+          <p>{t(`about.footer.visiting`)}</p>
+
+          <p>Designed and Developed by Alec J</p>
+          <p>© 2024 Alec J Portfolio. All rights are reserved.</p>
         </div>
       </section>
     </main>

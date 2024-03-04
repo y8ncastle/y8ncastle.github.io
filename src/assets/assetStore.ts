@@ -11,6 +11,11 @@ import scrollDown from "./icons/scrollDown.svg";
 
 // images
 import profile from "./images/profile.png";
+import projectBim from "./images/projectBim.png";
+import projectDte from "./images/projectDte.png";
+import projectGangwon from "./images/projectGangwon.png";
+import projectKomsco from "./images/projectKomsco.png";
+import projectPow from "./images/projectPow.png";
 import skillAndroid from "./images/skillAndroid.png";
 import skillAwsEc2 from "./images/skillAwsEc2.png";
 import skillAwsS3 from "./images/skillAwsS3.png";
@@ -54,6 +59,11 @@ export {
   iconLink,
   loading,
   profile,
+  projectBim,
+  projectDte,
+  projectGangwon,
+  projectKomsco,
+  projectPow,
   scrollDown,
   skillAndroid,
   skillAwsEc2,

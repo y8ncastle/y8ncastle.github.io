@@ -27,10 +27,10 @@ main .right-side .cv-box span { position: unset; opacity: unset; font-size: 28px
 main .about { background-color: white; padding: 64px 92px 92px; } 
 main .about p { color: #333; } 
 main .about .title { font-size: 32px; margin-bottom: 48px; line-height: 32px; } 
-main .about .sub-title { padding-left: 16px; margin-bottom: 40px; position: relative; display: flex; align-items: center; justify-content: space-between; } 
+main .about .sub-title { margin-bottom: 40px; position: relative; display: flex; align-items: center; justify-content: space-between; } 
 main .about .sub-title::after { position: absolute; content: ''; width: 100%; height: 1px; background-color: #dadada; bottom: -16px; left: 0; } 
 main .about .sub-title p { font-size: 24px; font-weight: 700; line-height: 24px; } 
-main .about .sub-title a { cursor: pointer; color: #737373; } 
+main .about .sub-title a { color: #737373; } 
 main .about .sub-title a:hover { color: #545454; } 
 main .link-box-group { display: flex; justify-content: space-between; flex-wrap: wrap; } 
 main .work-exp-group { margin-left: 26px; padding-left: 24px; position: relative; border-left: 1px dashed #d5d5d5; } 
@@ -56,7 +56,7 @@ main .work-exp-group { margin-left: 26px; padding-left: 24px; position: relative
 
 main .skill { padding: 64px 92px 92px; } 
 main .skill .title { font-size: 32px; margin-bottom: 48px; line-height: 32px; } 
-main .skill .sub-title { padding-left: 16px; font-size: 24px; font-weight: 700; margin-bottom: 40px; position: relative; line-height: 24px; display: flex; align-items: center; } 
+main .skill .sub-title { font-size: 24px; font-weight: 700; margin-bottom: 40px; position: relative; line-height: 24px; display: flex; align-items: center; } 
 main .skill .sub-title::after { position: absolute; content: ''; width: 100%; height: 1px; background-color: #3d3d3d; bottom: -16px; left: 0; } 
 main .skill .sub-title span { margin-right: 8px; } 
 main .skill .skill-group { display: flex; align-items: center; justify-content: space-between; } 
@@ -64,3 +64,29 @@ main .skill .skill-group { display: flex; align-items: center; justify-content: 
 .skill-box { background: rgba(41, 41, 41, 0.8); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; width: 120px; display: flex; align-items: center; flex-direction: column; padding: 24px 0; } 
 .skill-box:hover { background: rgba(51, 103, 181, 0.8); box-shadow: inset 0px 16px 16px rgba(0, 0, 0, 0.25); } 
 .skill-box p { font-weight: 700; line-height: 20px; margin-top: 16px; } 
+
+main .project { padding: 64px 92px 44px; background-color: #eee; } 
+main .project p { color: #333; } 
+main .project .title { font-size: 32px; margin-bottom: 24px; line-height: 32px; } 
+main .project .description { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #d1d1d1; padding-bottom: 16px; margin-bottom: 48px; } 
+main .project a { color: #737373; } 
+main .project a:hover { color: #545454; } 
+
+.project-box { padding: 8px 32px 8px 16px; border: 1px solid #c3c3c3; border-radius: 10px; background-color: white; display: flex; margin-bottom: 48px; } 
+.project-box .thumbnail-container { display: flex; align-items: center; } 
+.project-box .thumbnail { margin-right: 44px; } 
+.project-box .content { padding-top: 20px; } 
+.project-box .content .title { font-size: 20px; line-height: 32px; margin-bottom: 12px; font-weight: 700; } 
+.project-box .content .label-line { display: flex; align-items: center; margin-bottom: 20px; } 
+.project-box .content .label-line .label { padding: 4px 12px; border-radius: 5px; background-color: #6a6a6a; margin-right: 12px; } 
+.project-box .content .label-line .label p { font-size: 12px; font-weight: 700; color: white; } 
+.project-box .content .main-cont { line-height: 20px; margin-bottom: 16px; } 
+.project-box .content .main-cont span { font-weight: 700; } 
+.project-box .content .cont-desc { line-height: 24px; padding-bottom: 20px; } 
+
+main .footer { text-align: center; padding: 112px 0 92px; } 
+main .footer p:first-child { font-size: 20px; line-height: 28px; margin-bottom: 36px; } 
+main .footer p:first-child a { font-weight: 700; color: #f87070; cursor: pointer; } 
+main .footer p:first-child a:hover { color: #ee5555; } 
+main .footer p:nth-child(2) { font-size: 24px; line-height: 28px; font-weight: 700; margin-bottom: 88px; } 
+main .footer p:nth-child(3) { line-height: 24px; margin-bottom: 24px; color: #c5c5c5; } 

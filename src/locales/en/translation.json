@@ -10,6 +10,7 @@
       "titleBelow": "A Better Idea"
     },
     "scrollDown": "Scroll Down to See",
+    "more": "More",
     "profile": {
       "role": "Frontend and Blockchain Service Developer",
       "introPrev": "Hello.\nI'm ",
@@ -27,7 +28,6 @@
       "noncelab": "Nonce Lab Inc.",
       "noncelabDesc": "Job Title: Senior Researcher (Frontend Developer)\nJob Description: I have worked as a web-focused frontend developer related to blockchain, providing app development support and general oursourced work(Prototype development, SI service development, publishing, etc.) as needed.\nFlagship Project: Bitcoin Community POW, Bitcoin P2P Trading Platform Pow2Pow, Cryptocurrency Wallet Colet",
       "education": "Education",
-      "more": "More",
       "reasonNext": "Returned to school after taking 1 year off for personal reason",
       "sogang": "Sogang University (Master's Degree of Engineering, Graduate School of Computer Science)",
       "sogangDesc": "Major: Blockchain\nGPA: 3.81 / 4.3\nLaboratory: BaSE Lab (Blockchain and Software Engineering Lab, Professor Sooyong Park)\nThesis: Smart Contract-Based Access Control Method for NFT Use Rights",
@@ -41,6 +41,32 @@
       "active": "Active Skill Set in Use",
       "applicable": "Applicable Skill Set",
       "entry": "Skill Set in Entry Level"
+    },
+    "project": {
+      "recent": "Here are five recent representative projects.",
+      "pow": "Bitcoin Community POW",
+      "komsco": "NFT Trust Verification Service",
+      "gangwon": "Gangwon NFT",
+      "dte": "Drive To Earn (DTE) Scenario",
+      "bim": "Digital BIM Exchange",
+      "contribution": "Key Contributions",
+      "cont1": "Full Web Development (PC, Mobile PWA) and Service Operations Support",
+      "cont1Desc": "POW, the only community dedicated to Bitcoin in Korea, opened in April 2023 and surpassed 1,000 members in March 2024. I have been continuously researching SSR and SEO optimization using Next.js, and also experienced various libraries(Redux, Ckeditor, Cytoscape, Firebase, Next PWA, React Youtube, etc.) to implement community service. As a frontend developer, I was able to improve my capability to operational service for the first time.",
+      "cont2": "Full Web Prototype Development",
+      "cont2Desc": "NFT Trust Verification Service is a prototype project in collaboration with the Korea Minting and Security Printing Corporation (KOMSCO) and the Electronics and Telecommunications Research Institute (ETRI). This service enables the validation of personal health data issued as NFTs. Noncelab served as a bridge between ETRI's TDC blockchain and KOMSCO's validation logic. This project allowed me to experience the data call relationship between different systems.",
+      "cont3": "Full Web, Mobile App and Besu Smart Contract Development",
+      "cont3Desc": "Gangwon NFT is an NFT exhibition service created to use at the Gangwon Winter Youth Olympic Games 2024. Users can create their own experiences as NFTs and display them or transfer the rights to others. Even after the Winter Youth Olympic Games ended, stakeholders wanted to connect with the Metaverse to strengthen the local festival community and more. Through this service, I was able to develop web and app simultaneously, as well as develop the ability to link smart contracts between cross-platforms.",
+      "cont4": "Full Web Prototype and Ethereum Smart Contract Development",
+      "cont4Desc": "DTE is a prototype service that enables users to earn money while driving and efficiently utilize renewable energy at the same time. It is a project started by BaSE Lab at Sogang University in collaboration with Hyundai NGV, which utilizes blockchain and solar loops to allow users to trust and share the amount of sunlight they collect with each other. I organized and designed the storyboard by myself and developed for this project.",
+      "cont5": "Full Web Design, Prototype and Besu Smart Contract Development",
+      "cont5Desc": "Digital BIM Exchange is a construction drawing trading platform based on my thesis. This prototype was designed in collaboration with Korea Institute of Civil Engineering and Building Technology (KICT), and allows users to trade construction drawings as NFTs, separated into ownership and usage rights. All transactions are made by smart contract automatically. This project was my first experience for handling smart contracts and web integration development.",
+      "webCont": "Web Dev. Contribution",
+      "appCont": "App Dev. Contribution"
+    },
+    "footer": {
+      "moreInfoPrev": "Additional information about Alec J can be found in the",
+      "moreInfoNext": "tab.",
+      "visiting": "Thank you for visiting!"
     }
   }
 }
