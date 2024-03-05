@@ -1,6 +1,5 @@
 import {
   background,
-  cvDown,
   profile,
   scrollDown,
   skillOne,
@@ -13,6 +12,7 @@ import SkillBox from "components/About/SkillBox";
 import WorkEduBox from "components/About/WorkEduBox";
 import FabButton from "components/FabButton";
 import { Img } from "components/Image";
+import { copyrightNext, copyrightPrev } from "constants/common";
 import {
   activeSkillData,
   applicableSkillData,
@@ -35,7 +35,6 @@ const About = () => {
   const [currentTitleBelow, setCurrentTitleBelow] = useState<string>(
     `about.background.titleBelow`
   );
-  const [showText, setShowText] = useState<boolean>(false);
 
   useEffect(() => {
     window.addEventListener("scroll", function () {
@@ -98,10 +97,10 @@ const About = () => {
             <span className="str3">Music</span>
             <span className="str4">INFJ</span>
 
-            <div className="cv-box">
+            {/* <div className="cv-box">
               <span>CV</span>
               <Img src={cvDown} width={24} height={24} />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -144,7 +143,7 @@ const About = () => {
 
           <div className="sub-title" style={{ marginTop: 92 }}>
             <p>{t(`about.content.education`)}</p>
-            <Link to="/snapshot">{t(`about.more`)}</Link>
+            {/* <Link to="/snapshot">{t(`about.more`)}</Link> */}
           </div>
 
           <div className="work-exp-group">
@@ -229,7 +228,7 @@ const About = () => {
 
           <div className="description">
             <p>{t(`about.project.recent`)}</p>
-            <Link to="/snapshot">{t(`about.more`)}</Link>
+            {/* <Link to="/snapshot">{t(`about.more`)}</Link> */}
           </div>
 
           <div className="project-group">
@@ -258,8 +257,8 @@ const About = () => {
 
           <p>{t(`about.footer.visiting`)}</p>
 
-          <p>Designed and Developed by Alec J</p>
-          <p>© 2024 Alec J Portfolio. All rights are reserved.</p>
+          <p>{copyrightPrev}</p>
+          <p>{copyrightNext}</p>
         </div>
       </section>
 

@@ -11,6 +11,7 @@ a { text-decoration: none; }
 .russo { font-family: 'Russo One'; } 
 .loading-container { display: flex; align-items: center; } 
 .fab { width: 52px; height: 52px; position: fixed; right: 48px; bottom: 48px; background-color: #858484; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; } 
+.fab:hover { background-color: #6f6f6f; } 
 
 /* Header */
 header { position: fixed; width: 1440px; background-color: rgba(17, 17, 17, 0.95); z-index: 999; filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.05)); border-radius: 0 0 20px 20px; } 
@@ -23,3 +24,11 @@ header .language { position: relative; display: flex; justify-content: space-bet
 header .language span { cursor: pointer; } 
 header .language::after { position: absolute; content: ''; width: 0.5px; height: 16px; background-color: #fff; left: 60px; top: 0; } 
 header .language span:hover { color: #d3d3d3; } 
+
+/* Temp */
+.temp-container { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center } 
+.temp-container p { font-size: 18px; line-height: 48px; white-space: pre-line; } 
+
+@media (max-width: 500px){
+ .temp-container p { font-size: 14px; } 
+ }

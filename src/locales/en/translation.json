@@ -70,5 +70,24 @@
       "moreInfoNext": "tab.",
       "visiting": "Thank you for visiting!"
     }
+  },
+  "snapshot": {
+    "share": "Snapshot is where I share all my experiences",
+    "wantToKnow": "Want to know more about me?",
+    "detailedProfile": "Detailed Profile",
+    "schoolLife": "School Life",
+    "partProject": "Participated Project",
+    "certificate": "Acquired Certificate",
+    "award": "Award History",
+    "tpc": "Thesis / Patent / Copyright",
+    "foreignLang": "Foreign Language",
+    "extActivity": "External Activity",
+    "military": "Military Service",
+    "hobby": "Hobby",
+    "notReady": "TBD"
+  },
+  "temp": {
+    "notice": "Sorry!\nI currently do not support less than 1440px screen.\nI will update the responsive layout in the future.",
+    "preparing": "This page is being prepared"
   }
 }

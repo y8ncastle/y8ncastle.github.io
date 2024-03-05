@@ -43,6 +43,17 @@ import skillSolidity from "./images/skillSolidity.png";
 import skillThree from "./images/skillThree.png";
 import skillTwo from "./images/skillTwo.png";
 import skillTypescript from "./images/skillTypescript.png";
+import snapshotAward from "./images/snapshotAward.png";
+import snapshotCertificate from "./images/snapshotCertificate.png";
+import snapshotExternal from "./images/snapshotExternal.png";
+import snapshotForeign from "./images/snapshotForeign.png";
+import snapshotHobby from "./images/snapshotHobby.png";
+import snapshotMilitary from "./images/snapshotMilitary.png";
+import snapshotProfile from "./images/snapshotProfile.png";
+import snapshotProject from "./images/snapshotProject.png";
+import snapshotSchool from "./images/snapshotSchool.png";
+import snapshotTpc from "./images/snapshotTpc.png";
+import snapshotWork from "./images/snapshotWork.png";
 
 // videos
 import background from "./videos/background.gif";
@@ -93,4 +104,15 @@ export {
   skillThree,
   skillTwo,
   skillTypescript,
+  snapshotAward,
+  snapshotCertificate,
+  snapshotExternal,
+  snapshotForeign,
+  snapshotHobby,
+  snapshotMilitary,
+  snapshotProfile,
+  snapshotProject,
+  snapshotSchool,
+  snapshotTpc,
+  snapshotWork,
 };

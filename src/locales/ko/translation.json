@@ -70,5 +70,24 @@
       "moreInfoNext": "탭에서 더 많이 보실 수 있습니다.",
       "visiting": "방문해 주셔서 감사합니다!"
     }
+  },
+  "snapshot": {
+    "share": "스냅샷은 저의 기록을 공유하는 곳입니다",
+    "wantToKnow": "저를 더 알고 싶으신가요?",
+    "detailedProfile": "세부 프로필",
+    "schoolLife": "학교 생활",
+    "partProject": "참여한 프로젝트",
+    "certificate": "취득한 자격증",
+    "award": "수상 이력",
+    "tpc": "논문 / 특허 / 저작권",
+    "foreignLang": "외국어 능력",
+    "extActivity": "외부 활동",
+    "military": "병역사항",
+    "hobby": "취미 활동",
+    "notReady": "준비중"
+  },
+  "temp": {
+    "notice": "죄송합니다!\n현재 가로 1440px 미만의 화면은 지원하지 않습니다.\n추후 반응형 레이아웃을 업데이트 할 예정입니다.",
+    "preparing": "현재 페이지를 준비중입니다"
   }
 }

@@ -8,14 +8,18 @@ import { Suspense, useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import CustomRouter from "route";
 import "./App.css";
+import { useTranslation } from "react-i18next";
 
 const App = () => {
+  const { t } = useTranslation();
   const setCurrentLang = useGlobalStore((state) => state.setCurrentLang);
+  const [clientWidth, setClientWidth] = useState<number>(window.innerWidth);
   const [clientHeight, setClientHeight] = useState<number>(window.innerHeight);
 
   useEffect(() => {
     const handleResize = () => {
       setClientHeight(window.innerHeight);
+      setClientWidth(window.innerWidth);
     };
 
     window.addEventListener("resize", handleResize);
@@ -41,8 +45,16 @@ const App = () => {
           </div>
         }
       >
-        <Header />
-        <CustomRouter />
+        {clientWidth >= 1440 ? (
+          <>
+            <Header />
+            <CustomRouter />
+          </>
+        ) : (
+          <div className="temp-container">
+            <p>{t(`temp.notice`)}</p>
+          </div>
+        )}
       </Suspense>
     </BrowserRouter>
   );
