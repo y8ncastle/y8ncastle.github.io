@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunky8ncastle_portfolio=self.webpackChunky8ncastle_portfolio||[]).push([[254],{254:(e,n,s)=>{s.r(n),s.d(n,{default:()=>r});var t=s(117),c=s(960);const r=()=>{const{t:e}=(0,t.Bd)();return(0,c.jsx)("main",{children:(0,c.jsx)("section",{className:"timeline-container",children:(0,c.jsx)("p",{children:e("temp.preparing")})})})}}}]);
+//# sourceMappingURL=254.3aefa454.chunk.js.map
