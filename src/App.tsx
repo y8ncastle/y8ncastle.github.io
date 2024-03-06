@@ -5,12 +5,13 @@ import { Img } from "components/Image";
 import "locales/i18n";
 import i18n from "locales/i18n";
 import { Suspense, useEffect, useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, useLocation } from "react-router-dom";
 import CustomRouter from "route";
 import "./App.css";
 import { useTranslation } from "react-i18next";
 
 const App = () => {
+  const location = useLocation();
   const { t } = useTranslation();
   const setCurrentLang = useGlobalStore((state) => state.setCurrentLang);
   const [clientWidth, setClientWidth] = useState<number>(window.innerWidth);
@@ -36,6 +37,10 @@ const App = () => {
     i18n.changeLanguage(savedLang);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Suspense
@@ -51,7 +56,7 @@ const App = () => {
             <CustomRouter />
           </>
         ) : (
-          <div className="temp-container">
+          <div className="temp-container" style={{ height: clientHeight }}>
             <p>{t(`temp.notice`)}</p>
           </div>
         )}
