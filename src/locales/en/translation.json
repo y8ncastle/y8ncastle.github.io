@@ -84,7 +84,10 @@
     "extActivity": "External Activity",
     "military": "Military Service",
     "hobby": "Hobby",
-    "notReady": "TBD"
+    "notReady": "TBD",
+    "profile": {
+      "headerContent": "Detailed Profile"
+    }
   },
   "temp": {
     "notice": "Sorry!\nI currently do not support less than 1440px screen.\nI will update the responsive layout in the future.",

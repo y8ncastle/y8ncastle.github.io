@@ -1,3 +1,4 @@
+import ScrollToTop from "ScrollToTop";
 import useGlobalStore from "Store";
 import { loading } from "assets/assetStore";
 import Header from "components/Header";
@@ -5,13 +6,12 @@ import { Img } from "components/Image";
 import "locales/i18n";
 import i18n from "locales/i18n";
 import { Suspense, useEffect, useState } from "react";
-import { BrowserRouter, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { BrowserRouter } from "react-router-dom";
 import CustomRouter from "route";
 import "./App.css";
-import { useTranslation } from "react-i18next";
 
 const App = () => {
-  const location = useLocation();
   const { t } = useTranslation();
   const setCurrentLang = useGlobalStore((state) => state.setCurrentLang);
   const [clientWidth, setClientWidth] = useState<number>(window.innerWidth);
@@ -37,12 +37,9 @@ const App = () => {
     i18n.changeLanguage(savedLang);
   }, []);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
-
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <ScrollToTop />
       <Suspense
         fallback={
           <div className="loading-container" style={{ height: clientHeight }}>

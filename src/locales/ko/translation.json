@@ -84,7 +84,10 @@
     "extActivity": "외부 활동",
     "military": "병역사항",
     "hobby": "취미 활동",
-    "notReady": "준비중"
+    "notReady": "준비중",
+    "profile": {
+      "headerContent": "세부 프로필"
+    }
   },
   "temp": {
     "notice": "죄송합니다!\n현재 가로 1440px 미만의 화면은 지원하지 않습니다.\n추후 반응형 레이아웃을 업데이트 할 예정입니다.",
