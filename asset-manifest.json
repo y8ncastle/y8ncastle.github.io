@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.2198d354.css",
-    "main.js": "/static/js/main.bb72afb2.js",
-    "static/js/168.897b607b.chunk.js": "/static/js/168.897b607b.chunk.js",
-    "static/js/957.09251f84.chunk.js": "/static/js/957.09251f84.chunk.js",
+    "main.js": "/static/js/main.a918538c.js",
+    "static/js/168.cd2b38f6.chunk.js": "/static/js/168.cd2b38f6.chunk.js",
+    "static/js/957.e7aa8192.chunk.js": "/static/js/957.e7aa8192.chunk.js",
     "static/js/190.accfbcc4.chunk.js": "/static/js/190.accfbcc4.chunk.js",
     "static/js/254.3aefa454.chunk.js": "/static/js/254.3aefa454.chunk.js",
     "static/js/715.3714b1c7.chunk.js": "/static/js/715.3714b1c7.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/aboutDBpia.svg": "/static/media/aboutDBpia.506ffd2e0755925909c74ea30407c06d.svg",
     "static/media/link.svg": "/static/media/link.057a2c50c90ccb37b3d3332f7954cc79.svg",
     "static/media/aboutQuestion.svg": "/static/media/aboutQuestion.639915867b4c9929236e2e4691879f78.svg",
-    "static/media/aboutBOJ.svg": "/static/media/aboutBOJ.26721f575d2a446b26da3a04969643a9.svg",
+    "static/media/aboutInstagram.svg": "/static/media/aboutInstagram.457763b0c24ddb0799c62cf83c10133c.svg",
     "static/media/aboutBirthday.svg": "/static/media/aboutBirthday.f8090bef8bb5d649eff88dcf774358bc.svg",
     "static/media/aboutMail.svg": "/static/media/aboutMail.90409afa9a73d05306189c7eb1acf875.svg",
     "static/media/aboutGithub.svg": "/static/media/aboutGithub.0ca1a2ab3c72d57a6a4c3809310b76f0.svg",
@@ -28,9 +28,9 @@
     "index.html": "/index.html",
     "static/media/scrollDown.svg": "/static/media/scrollDown.bd60f03572466f5c95656b0473ff982a.svg",
     "main.2198d354.css.map": "/static/css/main.2198d354.css.map",
-    "main.bb72afb2.js.map": "/static/js/main.bb72afb2.js.map",
-    "168.897b607b.chunk.js.map": "/static/js/168.897b607b.chunk.js.map",
-    "957.09251f84.chunk.js.map": "/static/js/957.09251f84.chunk.js.map",
+    "main.a918538c.js.map": "/static/js/main.a918538c.js.map",
+    "168.cd2b38f6.chunk.js.map": "/static/js/168.cd2b38f6.chunk.js.map",
+    "957.e7aa8192.chunk.js.map": "/static/js/957.e7aa8192.chunk.js.map",
     "190.accfbcc4.chunk.js.map": "/static/js/190.accfbcc4.chunk.js.map",
     "254.3aefa454.chunk.js.map": "/static/js/254.3aefa454.chunk.js.map",
     "715.3714b1c7.chunk.js.map": "/static/js/715.3714b1c7.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.2198d354.css",
-    "static/js/main.bb72afb2.js"
+    "static/js/main.a918538c.js"
   ]
 }
