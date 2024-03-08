@@ -1,8 +1,8 @@
 import {
-  aboutBOJ,
   aboutBirthday,
   aboutDBpia,
   aboutGithub,
+  aboutInsta,
   aboutMail,
   projectBim,
   projectDte,
@@ -71,14 +71,14 @@ export const profileContactData: AboutProfileProps[] = [
     link: "https://www.github.com/alec-nl",
   },
   {
+    icon: aboutInsta,
+    content: "Instagram",
+    link: "https://www.instagram.com/y8ncastle.dev",
+  },
+  {
     icon: aboutDBpia,
     content: "DBpia",
     link: "https://www.dbpia.co.kr/author/authorDetail?ancId=5114939",
-  },
-  {
-    icon: aboutBOJ,
-    content: "Baekjoon Online Judge",
-    link: "https://www.acmicpc.net/user/zarch4894",
   },
 ];
 

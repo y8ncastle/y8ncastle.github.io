@@ -1,8 +1,8 @@
 // icons
-import aboutBOJ from "./icons/aboutBOJ.svg";
 import aboutBirthday from "./icons/aboutBirthday.svg";
 import aboutDBpia from "./icons/aboutDBpia.svg";
 import aboutGithub from "./icons/aboutGithub.svg";
+import aboutInsta from "./icons/aboutInstagram.svg";
 import aboutMail from "./icons/aboutMail.svg";
 import aboutQuestion from "./icons/aboutQuestion.svg";
 import cvDown from "./icons/cvDown.svg";
@@ -60,10 +60,10 @@ import background from "./videos/background.gif";
 import loading from "./videos/loading.gif";
 
 export {
-  aboutBOJ,
   aboutBirthday,
   aboutDBpia,
   aboutGithub,
+  aboutInsta,
   aboutMail,
   aboutQuestion,
   background,
