@@ -86,7 +86,23 @@
     "hobby": "Hobby",
     "notReady": "TBD",
     "profile": {
-      "headerContent": "Detailed Profile"
+      "headerContent": "Detailed Profile",
+      "jobRole": "Job Role",
+      "jobRoleContent": "Frontend(Web, App) and Blockchain Service Development",
+      "nickname": "Nickname",
+      "birthday": "Date of Birth",
+      "birthLoc": "Place of Birth",
+      "birthLocContent": "Dong-gu, Daejeon, Republic of Korea",
+      "currentLoc": "Place of Residence",
+      "currentLocContent": "Gangseo-gu, Seoul, Republic of Korea",
+      "education": "Education",
+      "educationContent": "Graduated from Daejeon Duncheon Elementary School\nGraduated from Daejeon Mannyeon Middle School\nGraduated from Seodaejeon High School\nB.S. in Information and Communication Engineering at Hanbat National University\nM.S. in Computer Science at Sogang University",
+      "jobTitle": "Organization / Job Title",
+      "jobTitleContent": "Nonce Lab Inc. / Senior Researcher",
+      "military": "Military Service",
+      "militaryContent": "Honorable Discharge from KATUSA\n(Army Sergeant, 2015.04 ~ 2017.01)",
+      "hobby": "Hobby",
+      "hobbyContent": "Singing, Organizing Data"
     }
   },
   "temp": {

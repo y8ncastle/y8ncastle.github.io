@@ -112,9 +112,6 @@ main .snapshot-container .category { padding: 64px 92px 44px; margin-top: 112px;
 main .snapshot-container .category p { color: #333333; width: 100%; text-align: center; } 
 main .snapshot-container .category .title { font-size: 28px; margin-bottom: 48px; line-height: 28px; } 
 main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-content: space-between; } 
-main .snapshot-container .snapshot-footer { text-align: center; padding-top: 92px; width: 100%; } 
-main .snapshot-container .snapshot-footer p { line-height: 24px; } 
-main .snapshot-container .snapshot-footer p:first-child { color: #c5c5c5; margin-bottom: 24px; } 
 
 .category-item-box { position: relative; width: 280px; border-radius: 20px; margin-bottom: 48px; display: flex; align-items: center; flex-direction: column; padding: 56px 0 48px; background-color: #f2f2f2; } 
 .category-item-box.active:hover { background: rgba(226, 226, 226, 0.8); box-shadow: inset 0px 8px 4px rgba(0, 0, 0, 0.25); } 
@@ -124,6 +121,15 @@ main .snapshot-container .snapshot-footer p:first-child { color: #c5c5c5; margin
 .not-ready span { font-size: 12px; font-weight: 700; color: white; } 
 
 /* Snapshot - Profile */
+.profile-container { display: flex; justify-content: center; margin-top: 98px; padding-bottom: 92px; } 
+.profile-container .profile-box { position: relative; min-width: 590px; display: flex; flex-direction: column; align-items: center; border: 7px solid #710bf2; border-radius: 20px; padding-bottom: 20px; background-color: #710bf2; } 
+.profile-container .profile-box .upper-box { width: 100%; background-color: #710bf2; text-align: center; padding: 88px 0 32px; } 
+.profile-container .profile-box .upper-box p { font-size: 20px; line-height: 20px; font-weight: 700; } 
+.profile-container .profile-box .img-container { position: absolute; top: -111px; width: 182px; height: 182px; border-radius: 50%; background-color: #710bf2; display: flex; align-items: center; justify-content: center; } 
+.profile-container .profile-box table { min-width: 590px; border-top: 0.5px solid #8d8d8d; } 
+.profile-container .profile-box table tr { height: 56px; } 
+.profile-container .profile-box table th { width: 216px; background-color: #710bf2; border-bottom: 0.5px solid #8d8d8d; } 
+.profile-container .profile-box table td { width: calc(100% - 216px); white-space: pre-line; line-height: 24px; background-color: #272a2d; padding: 16px 20px; border-bottom: 0.5px solid #8d8d8d; } 
 
 /* Timeline */
 main .timeline-container { height: calc(100vh - 92px); margin-top: 92px; display: flex; align-items: center; justify-content: center; } 

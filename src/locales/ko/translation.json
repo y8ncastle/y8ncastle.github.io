@@ -86,7 +86,23 @@
     "hobby": "취미 활동",
     "notReady": "준비중",
     "profile": {
-      "headerContent": "세부 프로필"
+      "headerContent": "세부 프로필",
+      "jobRole": "직무",
+      "jobRoleContent": "프론트엔드(웹, 앱) 및 블록체인 서비스 개발",
+      "nickname": "닉네임",
+      "birthday": "생년월일",
+      "birthLoc": "출생지",
+      "birthLocContent": "대한민국 대전광역시 동구",
+      "currentLoc": "거주지",
+      "currentLocContent": "대한민국 서울특별시 강서구",
+      "education": "학력",
+      "educationContent": "대전둔천초등학교 졸업\n대전만년중학교 졸업\n서대전고등학교 졸업\n한밭대학교 정보통신공학 공학사\n서강대학교 컴퓨터공학 공학석사",
+      "jobTitle": "소속 / 직급",
+      "jobTitleContent": "(주)논스랩 / 책임 연구원",
+      "military": "병역",
+      "militaryContent": "카투사 만기 전역\n(육군 병장, 2015.04 ~ 2017.01)",
+      "hobby": "취미",
+      "hobbyContent": "노래, 데이터 정리"
     }
   },
   "temp": {

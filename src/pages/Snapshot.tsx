@@ -1,5 +1,5 @@
+import Footer from "components/Footer";
 import CategoryItemBox from "components/Snapshot/CategoryItemBox";
-import { copyrightNext, copyrightPrev } from "constants/common";
 import { SnapshotCategoryData } from "data/Snapshot";
 import { useTranslation } from "react-i18next";
 
@@ -40,12 +40,9 @@ const Snapshot = () => {
             )}
           </div>
         </div>
-
-        <div className="snapshot-footer">
-          <p>{copyrightPrev}</p>
-          <p>{copyrightNext}</p>
-        </div>
       </section>
+
+      <Footer />
     </main>
   );
 };

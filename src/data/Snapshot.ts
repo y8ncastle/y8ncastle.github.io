@@ -17,8 +17,8 @@ export const SnapshotCategoryData: CategoryItemProps[] = [
   {
     icon: snapshotProfile,
     title: `snapshot.detailedProfile`,
-    // opened: true,
-    // link: "/snapshot/profile",
+    opened: true,
+    link: "/snapshot/profile",
   },
   {
     icon: snapshotSchool,

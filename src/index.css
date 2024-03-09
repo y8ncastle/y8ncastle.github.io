@@ -6,6 +6,7 @@
 body { background-color: #111111; margin: 0; padding: 0; font-family: 'Pretendard', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; display: flex; align-items: center; color: white; min-height: 100vh; flex-direction: column; } 
 p, span { margin: 0; line-height: 16px; } 
 a { text-decoration: none; } 
+table, th, td { padding: 0; border-spacing: 0; } 
 
 /* Header */
 header { position: fixed; width: 1440px; background-color: rgba(17, 17, 17, 0.95); z-index: 999; filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.05)); border-radius: 0 0 20px 20px; } 
@@ -18,6 +19,11 @@ header .language { position: relative; display: flex; justify-content: space-bet
 header .language span { cursor: pointer; } 
 header .language::after { position: absolute; content: ''; width: 0.5px; height: 16px; background-color: #fff; left: 60px; top: 0; } 
 header .language span:hover { color: #d3d3d3; } 
+footer { text-align: center; padding-bottom: 92px; width: 100%; } 
+
+/* Footer */
+footer p { line-height: 24px; } 
+footer p:first-child { color: #c5c5c5; margin-bottom: 24px; } 
 
 /* Common */
 .russo { font-family: 'Russo One'; } 
@@ -25,7 +31,7 @@ header .language span:hover { color: #d3d3d3; }
 .fab { width: 52px; height: 52px; position: fixed; right: 48px; bottom: 48px; background-color: #858484; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; } 
 .fab:hover { background-color: #6f6f6f; } 
 
-.content-header { padding: 68px 0 84px; text-align: center; } 
+.content-header { padding: 160px 0 84px; text-align: center; } 
 .content-header p { font-size: 24px; line-height: 24px; font-weight: 700; } 
 
 /* Temp */

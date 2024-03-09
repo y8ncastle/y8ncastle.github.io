@@ -1,6 +1,6 @@
 import useGlobalStore from "Store";
 import i18n from "locales/i18n";
-import { CSSProperties } from "react";
+import { CSSProperties, RefObject, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 
@@ -11,15 +11,9 @@ const Header = () => {
     state.currentLang,
     state.setCurrentLang,
   ]);
-
-  const setUrlStyle = (url: string): CSSProperties => {
-    let isCurrentUrl = location.pathname === url;
-
-    return {
-      fontWeight: isCurrentUrl ? "bold" : "normal",
-      textDecoration: isCurrentUrl ? "underline" : "none",
-    };
-  };
+  const aboutRef = useRef<HTMLAnchorElement>(null);
+  const snapshotRef = useRef<HTMLAnchorElement>(null);
+  const timelineRef = useRef<HTMLAnchorElement>(null);
 
   const setLangStyle = (lang: string): CSSProperties => {
     let isCurrentLang = currentLang === lang;
@@ -37,19 +31,46 @@ const Header = () => {
     setLangStyle(lang);
   };
 
+  useEffect(() => {
+    const applyStyle = (
+      ref: RefObject<HTMLAnchorElement>,
+      isBold: boolean,
+      isUnderline: boolean
+    ) => {
+      ref.current.style.setProperty("font-weight", isBold ? "bold" : "normal");
+      ref.current.style.setProperty(
+        "text-decoration",
+        isUnderline ? "underline" : "none"
+      );
+    };
+
+    const isAbout = location.pathname === "/";
+    const isSnapshot = location.pathname.startsWith("/snapshot");
+    const isTimeline = location.pathname.startsWith("/timeline");
+
+    /* About */
+    applyStyle(aboutRef, isAbout, isAbout);
+
+    /* Snapshot */
+    applyStyle(snapshotRef, isSnapshot, isSnapshot);
+
+    /* Timeline */
+    applyStyle(timelineRef, isTimeline, isTimeline);
+  }, [location]);
+
   return (
     <header>
       <div className="container">
         <p className="russo logo">Alec J Portfolio</p>
 
         <nav>
-          <Link to="/" style={setUrlStyle("/")}>
+          <Link to="/" ref={aboutRef}>
             {t(`header.about`)}
           </Link>
-          <Link to="/snapshot" style={setUrlStyle("/snapshot")}>
+          <Link to="/snapshot" ref={snapshotRef}>
             {t(`header.snapshot`)}
           </Link>
-          <Link to="/timeline" style={setUrlStyle("/timeline")}>
+          <Link to="/timeline" ref={timelineRef}>
             {t(`header.timeline`)}
           </Link>
         </nav>

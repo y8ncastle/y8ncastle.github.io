@@ -4,3 +4,8 @@ export interface CategoryItemProps {
   opened?: boolean;
   link?: string;
 }
+
+export interface ProfileProps {
+  type: string;
+  content: string;
+}

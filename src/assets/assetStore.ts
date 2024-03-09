@@ -11,6 +11,7 @@ import iconLink from "./icons/link.svg";
 import scrollDown from "./icons/scrollDown.svg";
 
 // images
+import alec from "./images/alec.png";
 import profile from "./images/profile.png";
 import projectBim from "./images/projectBim.png";
 import projectDte from "./images/projectDte.png";
@@ -66,6 +67,7 @@ export {
   aboutInsta,
   aboutMail,
   aboutQuestion,
+  alec,
   background,
   cvDown,
   fabArrow,
