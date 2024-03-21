@@ -5,8 +5,10 @@ const About = lazy(() => import("./pages/About"));
 
 const Snapshot = lazy(() => import("./pages/Snapshot"));
 const SnapshotProfile = lazy(() => import("./pages/snapshot/Profile"));
+const SnapshotSchool = lazy(() => import("./pages/snapshot/School"));
 
 const Timeline = lazy(() => import("./pages/Timeline"));
+
 const Page404 = lazy(() => import("./pages/404"));
 
 const CustomRouter = () => {
@@ -16,6 +18,7 @@ const CustomRouter = () => {
 
       <Route path="/snapshot" element={<Snapshot />} />
       <Route path="/snapshot/profile" element={<SnapshotProfile />} />
+      <Route path="/snapshot/school" element={<SnapshotSchool />} />
 
       <Route path="/timeline" element={<Timeline />} />
 

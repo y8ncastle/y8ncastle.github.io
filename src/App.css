@@ -120,6 +120,12 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 .not-ready { position: absolute; width: 280px; height: 32px; border-radius: 0 0 20px 20px; bottom: 0; background-color: rgba(86, 123, 255, 0.6); display: flex; align-items: center; justify-content: center; } 
 .not-ready span { font-size: 12px; font-weight: 700; color: white; } 
 
+/* Snapshot - Common */
+.snapshot-container .common-top-box { border-top: 1px solid #3e3e3e; border-bottom: 1px solid #3e3e3e; width: 600px; padding: 60px 0; display: flex; align-items: center; flex-direction: column; } 
+.snapshot-container .common-top-box p { font-size: 20px; line-height: 20px; } 
+.snapshot-container .common-top-box p:first-child { font-weight: 700; margin-bottom: 48px; } 
+.snapshot-container .common-container { background-color: white; padding: 92px; margin-top: 120px; } 
+
 /* Snapshot - Profile */
 .profile-container { display: flex; justify-content: center; margin-top: 98px; padding-bottom: 92px; } 
 .profile-container .profile-box { position: relative; min-width: 590px; display: flex; flex-direction: column; align-items: center; border: 7px solid #710bf2; border-radius: 20px; padding-bottom: 20px; background-color: #710bf2; } 
@@ -130,6 +136,13 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 .profile-container .profile-box table tr { height: 56px; } 
 .profile-container .profile-box table th { width: 216px; background-color: #710bf2; border-bottom: 0.5px solid #8d8d8d; } 
 .profile-container .profile-box table td { width: calc(100% - 216px); white-space: pre-line; line-height: 24px; background-color: #272a2d; padding: 16px 20px; border-bottom: 0.5px solid #8d8d8d; } 
+
+/* Snapshot - School */
+.school-banner { width: 100%; width: 1256px; height: 220px; display: flex; align-items: center; justify-content: space-between; } 
+.school-banner p { margin-right: 80px; display: flex; align-items: flex-end; flex-direction: column; } 
+.school-banner span { color: white; }
+.school-banner span:first-child { font-size: 28px; font-weight: 700; line-height: 32px; margin-bottom: 8px; }
+.school-banner span:last-child { font-size: 24px; line-height: 28px; }
 
 /* Timeline */
 main .timeline-container { height: calc(100vh - 92px); margin-top: 92px; display: flex; align-items: center; justify-content: center; } 

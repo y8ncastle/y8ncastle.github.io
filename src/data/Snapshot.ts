@@ -23,6 +23,8 @@ export const SnapshotCategoryData: CategoryItemProps[] = [
   {
     icon: snapshotSchool,
     title: `snapshot.schoolLife`,
+    opened: true,
+    link: "/snapshot/school",
   },
   {
     icon: snapshotWork,

@@ -103,6 +103,10 @@
       "militaryContent": "카투사 만기 전역\n(육군 병장, 2015.04 ~ 2017.01)",
       "hobby": "취미",
       "hobbyContent": "노래, 데이터 정리"
+    },
+    "school": {
+      "title": "학교 생활",
+      "subTitle": "고등학교부터의 전반적인 학교 생활을 소개합니다"
     }
   },
   "temp": {

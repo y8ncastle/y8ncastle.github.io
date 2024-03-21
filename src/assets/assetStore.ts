@@ -18,6 +18,9 @@ import projectDte from "./images/projectDte.png";
 import projectGangwon from "./images/projectGangwon.png";
 import projectKomsco from "./images/projectKomsco.png";
 import projectPow from "./images/projectPow.png";
+import schHanbat from "./images/schHanbat.png";
+import schSeodaejeon from "./images/schSeodaejeon.png";
+import schSogang from "./images/schSogang.png";
 import skillAndroid from "./images/skillAndroid.png";
 import skillAwsEc2 from "./images/skillAwsEc2.png";
 import skillAwsS3 from "./images/skillAwsS3.png";
@@ -79,6 +82,9 @@ export {
   projectGangwon,
   projectKomsco,
   projectPow,
+  schHanbat,
+  schSeodaejeon,
+  schSogang,
   scrollDown,
   skillAndroid,
   skillAwsEc2,
