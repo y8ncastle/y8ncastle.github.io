@@ -6,3 +6,13 @@ export interface SchoolBannerProps {
   hoverColor: string;
   link?: string;
 }
+
+export interface SchoolBannerMenuItemProps {
+  name: string;
+  link?: string;
+}
+
+export interface SchoolBannerMenuProps {
+  key: string;
+  items: SchoolBannerMenuItemProps[];
+}

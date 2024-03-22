@@ -106,7 +106,16 @@
     },
     "school": {
       "title": "School Life",
-      "subTitle": "Let me introduce the overall school life from high school"
+      "subTitle": "Let me introduce the overall school life from high school",
+      "diploma": "Diploma",
+      "grade": "Grade",
+      "award": "Award",
+      "seminar": "Seminar",
+      "academy": "Academy",
+      "tpc": "Thesis/Patent/Copyright",
+      "project": "Project",
+      "education": "Education",
+      "extActivity": "External Activity"
     }
   },
   "temp": {

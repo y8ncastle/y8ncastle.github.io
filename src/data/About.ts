@@ -163,7 +163,7 @@ export const applicableSkillData: SkillProps[] = [
   {
     icon: skillSolidity,
     name: "Solidity",
-    period: "2020 ~ 2023",
+    period: "2020 ~",
   },
   {
     icon: skillEthereum,

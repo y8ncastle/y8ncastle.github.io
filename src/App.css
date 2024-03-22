@@ -138,11 +138,15 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 .profile-container .profile-box table td { width: calc(100% - 216px); white-space: pre-line; line-height: 24px; background-color: #272a2d; padding: 16px 20px; border-bottom: 0.5px solid #8d8d8d; } 
 
 /* Snapshot - School */
-.school-banner { width: 100%; width: 1256px; height: 220px; display: flex; align-items: center; justify-content: space-between; } 
+.school-banner { width: 100%; width: 1256px; height: 220px; display: flex; align-items: center; justify-content: space-between; position: relative; transition: margin-bottom 0.3s ease; } 
 .school-banner p { margin-right: 80px; display: flex; align-items: flex-end; flex-direction: column; } 
-.school-banner span { color: white; }
-.school-banner span:first-child { font-size: 28px; font-weight: 700; line-height: 32px; margin-bottom: 8px; }
-.school-banner span:last-child { font-size: 24px; line-height: 28px; }
+.school-banner span { color: white; } 
+.school-banner span:first-child { font-size: 28px; font-weight: 700; line-height: 32px; margin-bottom: 8px; } 
+.school-banner span:last-child { font-size: 24px; line-height: 28px; } 
+.school-banner .school-banner-menu { position: absolute; height: 68px; box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25); bottom: -68px; width: 1256px; display: flex; align-items: center; justify-content: center; } 
+.school-banner .school-banner-menu a { font-size: 16px; line-height: 16px; font-weight: 700; color: white; }
+.school-banner .school-banner-menu a:not(:last-child) { margin-right: 60px; }
+.school-banner .school-banner-menu a:hover { text-decoration: underline; }
 
 /* Timeline */
 main .timeline-container { height: calc(100vh - 92px); margin-top: 92px; display: flex; align-items: center; justify-content: center; } 

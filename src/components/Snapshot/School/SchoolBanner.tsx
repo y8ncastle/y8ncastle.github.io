@@ -1,4 +1,5 @@
 import { Img } from "components/Image";
+import { schoolBannerMenuData } from "data/snapshot/School";
 import { SchoolBannerProps } from "interfaces/School";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -6,28 +7,22 @@ import { useTranslation } from "react-i18next";
 const SchoolBanner = (props: SchoolBannerProps) => {
   const { t } = useTranslation();
   const [currentHover, setCurrentHover] = useState<string>("");
+  const isHover = currentHover === props.engName;
 
-  const handleNoLink = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleLink = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     alert(t(`temp.preparing`));
   };
 
   return (
-    <a
-      href={props.link ? props.link : ""}
+    <div
       className="school-banner"
       onMouseOver={() => setCurrentHover(props.engName)}
       onMouseLeave={() => setCurrentHover("")}
-      onClick={(e) => (props.link ? "" : handleNoLink(e))}
       style={{
-        backgroundColor:
-          currentHover === props.engName
-            ? props.hoverColor
-            : props.backgroundColor,
-        boxShadow:
-          currentHover === props.engName
-            ? `0px 8px 40px rgba(0, 0, 0, 0.25)`
-            : "",
+        backgroundColor: isHover ? props.hoverColor : props.backgroundColor,
+        boxShadow: isHover ? `0px 8px 40px rgba(0, 0, 0, 0.25)` : "",
+        marginBottom: isHover ? 68 : 0,
       }}
     >
       <Img
@@ -35,7 +30,7 @@ const SchoolBanner = (props: SchoolBannerProps) => {
         width={645}
         height={220}
         style={{
-          opacity: currentHover === props.engName ? 1 : 0.1,
+          opacity: isHover ? 1 : 0.1,
         }}
       />
 
@@ -43,7 +38,29 @@ const SchoolBanner = (props: SchoolBannerProps) => {
         <span>{props.name}</span>
         <span>{props.engName}</span>
       </p>
-    </a>
+
+      {isHover && (
+        <div
+          className="school-banner-menu"
+          style={{
+            backgroundColor: isHover ? props.backgroundColor : "transparent",
+          }}
+        >
+          {schoolBannerMenuData &&
+            schoolBannerMenuData
+              .find((item) => item.key === props.engName)
+              .items.map((item2) => (
+                <a
+                  key={item2.name}
+                  href={item2.link ? item2.link : ""}
+                  onClick={(e) => handleLink(e)}
+                >
+                  {t(item2.name)}
+                </a>
+              ))}
+        </div>
+      )}
+    </div>
   );
 };
 

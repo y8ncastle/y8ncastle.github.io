@@ -1,5 +1,5 @@
 import { schHanbat, schSeodaejeon, schSogang } from "assets/assetStore";
-import { SchoolBannerProps } from "interfaces/School";
+import { SchoolBannerMenuProps, SchoolBannerProps } from "interfaces/School";
 
 export const schoolBannerData: SchoolBannerProps[] = [
   {
@@ -22,5 +22,68 @@ export const schoolBannerData: SchoolBannerProps[] = [
     image: schSeodaejeon,
     backgroundColor: "#30474f",
     hoverColor: "#38525b",
+  },
+];
+
+export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
+  {
+    key: "Sogang University",
+    items: [
+      {
+        name: `snapshot.school.diploma`,
+      },
+      {
+        name: `snapshot.school.grade`,
+      },
+      {
+        name: `snapshot.school.tpc`,
+      },
+      {
+        name: `snapshot.school.project`,
+      },
+      {
+        name: `snapshot.school.seminar`,
+      },
+      {
+        name: `snapshot.school.academy`,
+      },
+      {
+        name: `snapshot.school.education`,
+      },
+      {
+        name: `snapshot.school.award`,
+      },
+    ],
+  },
+  {
+    key: "Hanbat National University",
+    items: [
+      {
+        name: `snapshot.school.diploma`,
+      },
+      {
+        name: `snapshot.school.grade`,
+      },
+      {
+        name: `snapshot.school.project`,
+      },
+      {
+        name: `snapshot.school.award`,
+      },
+    ],
+  },
+  {
+    key: "Seodaejeon High School",
+    items: [
+      {
+        name: `snapshot.school.diploma`,
+      },
+      {
+        name: `snapshot.school.extActivity`,
+      },
+      {
+        name: `snapshot.school.award`,
+      },
+    ],
   },
 ];

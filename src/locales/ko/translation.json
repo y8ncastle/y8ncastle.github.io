@@ -106,7 +106,16 @@
     },
     "school": {
       "title": "학교 생활",
-      "subTitle": "고등학교부터의 전반적인 학교 생활을 소개합니다"
+      "subTitle": "고등학교부터의 전반적인 학교 생활을 소개합니다",
+      "diploma": "졸업장",
+      "grade": "성적",
+      "award": "수상 이력",
+      "seminar": "세미나",
+      "academy": "학회 활동",
+      "tpc": "논문/특허/저작권",
+      "project": "프로젝트",
+      "education": "교육 이수",
+      "extActivity": "대외 활동"
     }
   },
   "temp": {
