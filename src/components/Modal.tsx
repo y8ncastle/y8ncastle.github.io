@@ -55,7 +55,7 @@ const Modal = () => {
             <div className="modal-body">
               {currentModal === "schoolDiploma" &&
                 modalData &&
-                modalData?.image[currentIndex] &&
+                modalData?.image &&
                 !isChanging && (
                   <Img
                     src={modalData?.image[currentIndex]}
@@ -64,7 +64,7 @@ const Modal = () => {
                 )}
             </div>
 
-            {modalData?.image.length > 1 && (
+            {modalData?.image && modalData?.image.length > 1 && (
               <>
                 {currentIndex !== 0 && (
                   <button

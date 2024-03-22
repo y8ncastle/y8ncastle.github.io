@@ -62,11 +62,9 @@ const SchoolBanner = (props: SchoolBannerProps) => {
                           (item) => item.key === props.engName
                         );
 
-                        console.log(item);
-
                         setModalData({
-                          title: item.modalTitle,
-                          image: item.image,
+                          title: item.modalTitle ? item.modalTitle : null,
+                          image: item.image ? item.image : null,
                         });
                         setCurrentModal("schoolDiploma", true);
                       }}
