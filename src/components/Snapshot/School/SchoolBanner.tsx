@@ -1,11 +1,15 @@
+import useGlobalStore from "Store";
 import { Img } from "components/Image";
 import { schoolBannerMenuData } from "data/snapshot/School";
 import { SchoolBannerProps } from "interfaces/School";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const SchoolBanner = (props: SchoolBannerProps) => {
   const { t } = useTranslation();
+  const setCurrentModal = useGlobalStore((state) => state.setCurrentModal);
+  const setModalData = useGlobalStore((state) => state.setModalData);
+
   const [currentHover, setCurrentHover] = useState<string>("");
   const isHover = currentHover === props.engName;
 
@@ -26,7 +30,7 @@ const SchoolBanner = (props: SchoolBannerProps) => {
       }}
     >
       <Img
-        src={props.image}
+        src={props?.image}
         width={645}
         height={220}
         style={{
@@ -49,14 +53,35 @@ const SchoolBanner = (props: SchoolBannerProps) => {
           {schoolBannerMenuData &&
             schoolBannerMenuData
               .find((item) => item.key === props.engName)
-              .items.map((item2) => (
-                <a
-                  key={item2.name}
-                  href={item2.link ? item2.link : ""}
-                  onClick={(e) => handleLink(e)}
-                >
-                  {t(item2.name)}
-                </a>
+              .items.map((item2, index) => (
+                <Fragment key={item2.name}>
+                  {index === 0 ? (
+                    <button
+                      onClick={() => {
+                        const item = schoolBannerMenuData.find(
+                          (item) => item.key === props.engName
+                        );
+
+                        console.log(item);
+
+                        setModalData({
+                          title: item.modalTitle,
+                          image: item.image,
+                        });
+                        setCurrentModal("schoolDiploma", true);
+                      }}
+                    >
+                      {t(item2.name)}
+                    </button>
+                  ) : (
+                    <a
+                      href={item2.link ? item2.link : ""}
+                      onClick={(e) => handleLink(e)}
+                    >
+                      {t(item2.name)}
+                    </a>
+                  )}
+                </Fragment>
               ))}
         </div>
       )}

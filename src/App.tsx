@@ -3,6 +3,7 @@ import useGlobalStore from "Store";
 import { loading } from "assets/assetStore";
 import Header from "components/Header";
 import { Img } from "components/Image";
+import Modal from "components/Modal";
 import "locales/i18n";
 import i18n from "locales/i18n";
 import { Suspense, useEffect, useState } from "react";
@@ -14,6 +15,7 @@ import "./App.css";
 const App = () => {
   const { t } = useTranslation();
   const setCurrentLang = useGlobalStore((state) => state.setCurrentLang);
+
   const [clientWidth, setClientWidth] = useState<number>(window.innerWidth);
   const [clientHeight, setClientHeight] = useState<number>(window.innerHeight);
 
@@ -51,6 +53,7 @@ const App = () => {
           <>
             <Header />
             <CustomRouter />
+            <Modal />
           </>
         ) : (
           <div className="temp-container" style={{ height: clientHeight }}>

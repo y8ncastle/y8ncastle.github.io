@@ -6,12 +6,14 @@ export const Img = ({
   height,
   alt,
   style,
+  onClick,
 }: {
   src: string;
   width?: number;
   height?: number;
   alt?: string;
   style?: CSSProperties;
+  onClick?: () => void;
 }) => {
   return (
     <img
@@ -20,6 +22,7 @@ export const Img = ({
       height={height}
       alt={alt ? alt : ""}
       style={style}
+      onClick={onClick}
     />
   );
 };

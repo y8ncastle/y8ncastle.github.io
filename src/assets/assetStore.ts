@@ -8,6 +8,8 @@ import aboutQuestion from "./icons/aboutQuestion.svg";
 import cvDown from "./icons/cvDown.svg";
 import fabArrow from "./icons/fabArrow.svg";
 import iconLink from "./icons/link.svg";
+import modalArrow from "./icons/modalArrow.svg";
+import modalClose from "./icons/modalClose.svg";
 import scrollDown from "./icons/scrollDown.svg";
 
 // images
@@ -58,6 +60,8 @@ import snapshotProject from "./images/snapshotProject.png";
 import snapshotSchool from "./images/snapshotSchool.png";
 import snapshotTpc from "./images/snapshotTpc.png";
 import snapshotWork from "./images/snapshotWork.png";
+import sogangDiploma from "./images/sogangDiploma.png";
+import sogangEngDiploma from "./images/sogangEngDiploma.png";
 
 // videos
 import background from "./videos/background.gif";
@@ -76,6 +80,8 @@ export {
   fabArrow,
   iconLink,
   loading,
+  modalArrow,
+  modalClose,
   profile,
   projectBim,
   projectDte,
@@ -123,4 +129,6 @@ export {
   snapshotSchool,
   snapshotTpc,
   snapshotWork,
+  sogangDiploma,
+  sogangEngDiploma,
 };

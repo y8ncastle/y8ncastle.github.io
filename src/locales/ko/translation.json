@@ -115,7 +115,12 @@
       "tpc": "논문/특허/저작권",
       "project": "프로젝트",
       "education": "교육 이수",
-      "extActivity": "대외 활동"
+      "extActivity": "대외 활동",
+      "modal": {
+        "sogangDiploma": "서강대학교 졸업장",
+        "hanbatDiploma": "한밭대학교 졸업장",
+        "seodaejeonDiploma": "서대전고등학교 졸업장"
+      }
     }
   },
   "temp": {

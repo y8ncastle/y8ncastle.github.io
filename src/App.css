@@ -144,9 +144,11 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 .school-banner span:first-child { font-size: 28px; font-weight: 700; line-height: 32px; margin-bottom: 8px; } 
 .school-banner span:last-child { font-size: 24px; line-height: 28px; } 
 .school-banner .school-banner-menu { position: absolute; height: 68px; box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25); bottom: -68px; width: 1256px; display: flex; align-items: center; justify-content: center; } 
-.school-banner .school-banner-menu a { font-size: 16px; line-height: 16px; font-weight: 700; color: white; }
-.school-banner .school-banner-menu a:not(:last-child) { margin-right: 60px; }
-.school-banner .school-banner-menu a:hover { text-decoration: underline; }
+.school-banner .school-banner-menu button { font-size: 16px; line-height: 16px; font-weight: 700; color: white; border: 0; margin-right: 60px; background-color: transparent; cursor: pointer; } 
+.school-banner .school-banner-menu button:hover { text-decoration: underline; } 
+.school-banner .school-banner-menu a { font-size: 16px; line-height: 16px; font-weight: 700; color: white; } 
+.school-banner .school-banner-menu a:not(:last-child) { margin-right: 60px; } 
+.school-banner .school-banner-menu a:hover { text-decoration: underline; } 
 
 /* Timeline */
 main .timeline-container { height: calc(100vh - 92px); margin-top: 92px; display: flex; align-items: center; justify-content: center; } 

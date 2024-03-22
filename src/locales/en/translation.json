@@ -115,7 +115,12 @@
       "tpc": "Thesis/Patent/Copyright",
       "project": "Project",
       "education": "Education",
-      "extActivity": "External Activity"
+      "extActivity": "External Activity",
+      "modal": {
+        "sogangDiploma": "Sogang University Diploma",
+        "hanbatDiploma": "Hanbat National University Diploma",
+        "seodaejeonDiploma": "Seodaejeon High School Diploma"
+      }
     }
   },
   "temp": {

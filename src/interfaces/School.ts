@@ -15,4 +15,6 @@ export interface SchoolBannerMenuItemProps {
 export interface SchoolBannerMenuProps {
   key: string;
   items: SchoolBannerMenuItemProps[];
+  modalTitle: string;
+  image?: string[];
 }

@@ -1,4 +1,10 @@
-import { schHanbat, schSeodaejeon, schSogang } from "assets/assetStore";
+import {
+  schHanbat,
+  schSeodaejeon,
+  schSogang,
+  sogangDiploma,
+  sogangEngDiploma,
+} from "assets/assetStore";
 import { SchoolBannerMenuProps, SchoolBannerProps } from "interfaces/School";
 
 export const schoolBannerData: SchoolBannerProps[] = [
@@ -28,6 +34,8 @@ export const schoolBannerData: SchoolBannerProps[] = [
 export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
   {
     key: "Sogang University",
+    modalTitle: `snapshot.school.modal.sogangDiploma`,
+    image: [sogangDiploma, sogangEngDiploma],
     items: [
       {
         name: `snapshot.school.diploma`,
@@ -57,6 +65,7 @@ export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
   },
   {
     key: "Hanbat National University",
+    modalTitle: `snapshot.school.modal.hanbatDiploma`,
     items: [
       {
         name: `snapshot.school.diploma`,
@@ -74,6 +83,7 @@ export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
   },
   {
     key: "Seodaejeon High School",
+    modalTitle: `snapshot.school.modal.seodaejeonDiploma`,
     items: [
       {
         name: `snapshot.school.diploma`,
