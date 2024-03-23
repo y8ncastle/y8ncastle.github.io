@@ -1,3 +1,5 @@
+import { ModalDataImageProps } from "./common/modal";
+
 export interface SchoolBannerProps {
   name: string;
   engName: string;
@@ -16,5 +18,5 @@ export interface SchoolBannerMenuProps {
   key: string;
   items: SchoolBannerMenuItemProps[];
   modalTitle: string;
-  image?: string[];
+  image?: ModalDataImageProps[];
 }

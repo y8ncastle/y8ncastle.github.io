@@ -14,6 +14,8 @@ import scrollDown from "./icons/scrollDown.svg";
 
 // images
 import alec from "./images/alec.png";
+import hanbatDiploma from "./images/hanbatDiploma.png";
+import hanbatEngDiploma from "./images/hanbatEngDiploma.png";
 import profile from "./images/profile.png";
 import projectBim from "./images/projectBim.png";
 import projectDte from "./images/projectDte.png";
@@ -23,6 +25,7 @@ import projectPow from "./images/projectPow.png";
 import schHanbat from "./images/schHanbat.png";
 import schSeodaejeon from "./images/schSeodaejeon.png";
 import schSogang from "./images/schSogang.png";
+import seodaejeonDiploma from "./images/seodaejeonDiploma.png";
 import skillAndroid from "./images/skillAndroid.png";
 import skillAwsEc2 from "./images/skillAwsEc2.png";
 import skillAwsS3 from "./images/skillAwsS3.png";
@@ -78,6 +81,8 @@ export {
   background,
   cvDown,
   fabArrow,
+  hanbatDiploma,
+  hanbatEngDiploma,
   iconLink,
   loading,
   modalArrow,
@@ -92,6 +97,7 @@ export {
   schSeodaejeon,
   schSogang,
   scrollDown,
+  seodaejeonDiploma,
   skillAndroid,
   skillAwsEc2,
   skillAwsS3,

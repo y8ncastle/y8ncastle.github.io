@@ -1,7 +1,10 @@
 import {
+  hanbatDiploma,
+  hanbatEngDiploma,
   schHanbat,
   schSeodaejeon,
   schSogang,
+  seodaejeonDiploma,
   sogangDiploma,
   sogangEngDiploma,
 } from "assets/assetStore";
@@ -35,7 +38,10 @@ export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
   {
     key: "Sogang University",
     modalTitle: `snapshot.school.modal.sogangDiploma`,
-    image: [sogangDiploma, sogangEngDiploma],
+    image: [
+      { src: sogangDiploma, orientation: "vertical" },
+      { src: sogangEngDiploma, orientation: "horizontal" },
+    ],
     items: [
       {
         name: `snapshot.school.diploma`,
@@ -66,6 +72,10 @@ export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
   {
     key: "Hanbat National University",
     modalTitle: `snapshot.school.modal.hanbatDiploma`,
+    image: [
+      { src: hanbatDiploma, orientation: "vertical" },
+      { src: hanbatEngDiploma, orientation: "vertical" },
+    ],
     items: [
       {
         name: `snapshot.school.diploma`,
@@ -84,6 +94,7 @@ export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
   {
     key: "Seodaejeon High School",
     modalTitle: `snapshot.school.modal.seodaejeonDiploma`,
+    image: [{ src: seodaejeonDiploma, orientation: "vertical" }],
     items: [
       {
         name: `snapshot.school.diploma`,

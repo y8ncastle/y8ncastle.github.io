@@ -58,8 +58,12 @@ const Modal = () => {
                 modalData?.image &&
                 !isChanging && (
                   <Img
-                    src={modalData?.image[currentIndex]}
-                    width={currentIndex === 0 ? 450 : 600}
+                    src={modalData?.image[currentIndex].src}
+                    width={
+                      modalData?.image[currentIndex].orientation === "vertical"
+                        ? 450
+                        : 600
+                    }
                   />
                 )}
             </div>
