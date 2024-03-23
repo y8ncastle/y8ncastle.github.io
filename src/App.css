@@ -162,7 +162,7 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 
 .grade-container { margin-top: 92px; } 
 .grade-container .tab-line { display: flex; align-items: center; justify-content: space-between; width: 1256px; margin-bottom: 20px; } 
-.grade-container .tab-line .each-tab { width: 304px; height: 60px; background-color: #e4e4e4; border: 0; cursor: pointer; } 
+.grade-container .tab-line .each-tab { height: 60px; background-color: #e4e4e4; border: 0; cursor: pointer; } 
 .grade-container .tab-line .each-tab p { font-weight: 700; font-size: 18px; line-height: 18px; color: #a8a8a8; text-align: center; } 
 .grade-container .tab-line .each-tab:first-child { border-top-left-radius: 10px; } 
 .grade-container .tab-line .each-tab:last-child { border-top-right-radius: 10px; } 

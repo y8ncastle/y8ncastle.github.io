@@ -8,33 +8,15 @@ const GradeContainer = (props: SchoolGradeDataProps) => {
   const currentLang = useGlobalStore((state) => state.currentLang);
   const [currentTab, setCurrentTab] = useState<number>(0);
 
-  const getGradeAlpha = (grade: number, stdGradeType: number) => {
+  const getGradeAlpha = (grade: number) => {
     if (grade === 4.3 || grade === 4.5) return "A+";
-
-    if (grade === 4.0) {
-      if (stdGradeType === 4.3) return "A0";
-
-      return "A";
-    }
-
+    if (grade === 4.0) return "A0";
     if (grade === 3.7) return "A-";
     if (grade === 3.3 || grade === 3.5) return "B+";
-
-    if (grade === 3.0) {
-      if (stdGradeType === 4.3) return "B0";
-
-      return "B";
-    }
-
+    if (grade === 3.0) return "B0";
     if (grade === 2.7) return "B-";
     if (grade === 2.3 || grade === 2.5) return "C+";
-
-    if (grade === 2.0) {
-      if (stdGradeType === 4.3) return "C0";
-
-      return "C";
-    }
-
+    if (grade === 2.0) return "C0";
     if (grade === 0.5) return "P";
   };
 
@@ -53,13 +35,14 @@ const GradeContainer = (props: SchoolGradeDataProps) => {
   return (
     <div className="grade-container">
       <div className="tab-line">
-        {Array(4)
+        {Array(props.tabCount)
           .fill(0)
           .map((_, index) => (
             <button
               key={index}
               className={`each-tab ${currentTab === index ? "active" : ""}`}
               onClick={() => setCurrentTab(index)}
+              style={{ width: props.tabCount === 4 ? 304 : 146 }}
             >
               <p>
                 {currentLang === "en" &&
@@ -67,8 +50,6 @@ const GradeContainer = (props: SchoolGradeDataProps) => {
                 {index + 1}
                 {currentLang === "ko" &&
                   t(`snapshot.school.gradeDetail.semester`)}
-
-                {" (" + getTotalCredits(index) + ")"}
               </p>
             </button>
           ))}
@@ -91,7 +72,7 @@ const GradeContainer = (props: SchoolGradeDataProps) => {
                 <span>{t(item2.type)}</span>
                 <span>{item2.credits}</span>
                 <span>
-                  {getGradeAlpha(item2.gainedGrade, item2.stdGrade) +
+                  {getGradeAlpha(item2.gainedGrade) +
                     (item2.gainedGrade !== 0.5
                       ? " (" + item2.gainedGrade.toFixed(1) + ")"
                       : "")}

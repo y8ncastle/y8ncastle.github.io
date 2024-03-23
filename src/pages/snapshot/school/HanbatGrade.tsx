@@ -1,39 +1,39 @@
 import Footer from "components/Footer";
 import GPAContainer from "components/Snapshot/School/GPAContainer";
 import GradeContainer from "components/Snapshot/School/GradeContainer";
-import { schoolSogangGradeTableData } from "data/snapshot/School";
+import { schoolHanbatGradeTableData } from "data/snapshot/School";
 import { useTranslation } from "react-i18next";
 
-const SogangGrade = () => {
+const HanbatGrade = () => {
   const { t } = useTranslation();
 
   return (
     <main>
       <section className="snapshot-container">
         <div className="common-top-box">
-          <p>{t(`snapshot.school.gradeDetail.sogangTitle`)}</p>
-          <p>{t(`snapshot.school.gradeDetail.sogangSubTitle`)}</p>
+          <p>{t(`snapshot.school.gradeDetail.hanbatTitle`)}</p>
+          <p>{t(`snapshot.school.gradeDetail.hanbatSubTitle`)}</p>
         </div>
 
         <div className="common-container">
           <div className="gpa-line">
             <GPAContainer
               title={`snapshot.school.gradeDetail.totalGrade`}
-              gpa={3.81}
-              gpaType={4.3}
-              totalCredits={27}
-              stdCredits={24}
+              gpa={4.136}
+              gpaType={4.5}
+              totalCredits={140}
+              stdCredits={140}
             />
             <GPAContainer
               title={`snapshot.school.gradeDetail.majorGrade`}
-              gpa={3.81}
-              gpaType={4.3}
-              totalCredits={27}
-              stdCredits={24}
+              gpa={4.12}
+              gpaType={4.5}
+              totalCredits={82}
+              stdCredits={140}
             />
           </div>
 
-          <GradeContainer tabCount={4} items={schoolSogangGradeTableData} />
+          <GradeContainer tabCount={8} items={schoolHanbatGradeTableData} />
         </div>
       </section>
 
@@ -42,4 +42,4 @@ const SogangGrade = () => {
   );
 };
 
-export default SogangGrade;
+export default HanbatGrade;

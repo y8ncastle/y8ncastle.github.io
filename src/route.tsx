@@ -5,9 +5,13 @@ const About = lazy(() => import("./pages/About"));
 
 const Snapshot = lazy(() => import("./pages/Snapshot"));
 const SnapshotProfile = lazy(() => import("./pages/snapshot/Profile"));
+
 const SnapshotSchool = lazy(() => import("./pages/snapshot/School"));
 const SnapshotSchoolSogangGrade = lazy(
   () => import("./pages/snapshot/school/SogangGrade")
+);
+const SnapshotSchoolHanbatGrade = lazy(
+  () => import("./pages/snapshot/school/HanbatGrade")
 );
 
 const Timeline = lazy(() => import("./pages/Timeline"));
@@ -25,6 +29,10 @@ const CustomRouter = () => {
       <Route
         path="/snapshot/school/sogang/grade"
         element={<SnapshotSchoolSogangGrade />}
+      />
+      <Route
+        path="/snapshot/school/hanbat/grade"
+        element={<SnapshotSchoolHanbatGrade />}
       />
 
       <Route path="/timeline" element={<Timeline />} />

@@ -37,10 +37,10 @@ footer p:first-child { color: #c5c5c5; margin-bottom: 24px; }
 /* Modal */
 .modal-background { position: fixed; background-color: rgba(0, 0, 0, 0.7); width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; top: 0; left: 0; z-index: 999; } 
 .modal-background .modal-container { box-shadow: 0px 8px 40px 10px rgba(0, 0, 0, 0.25); min-width: 400px; position: relative; } 
-.modal-background .modal-title-header { height: 60px; background-color: #333333; display: flex; align-items: center; justify-content: space-between; padding: 0 28px 0 32px; border-radius: 10px 10px 0 0; } 
+.modal-background .modal-title-header { height: 60px; background-color: #333333; display: flex; align-items: center; justify-content: space-between; padding: 0 28px 0 32px; } 
 .modal-background .modal-title-header span { font-weight: 700; } 
 .modal-background .modal-title-header img { cursor: pointer; } 
-.modal-background .modal-body { padding: 44px; background-color: white; border-radius: 0 0 10px 10px; } 
+.modal-background .modal-body { padding: 44px; background-color: white; } 
 .modal-background button { background-color: transparent; border: 0; position: absolute; cursor: pointer; } 
 .modal-background .left-arrow { left: -71px; top: 50%; transform: translateY(-50%); } 
 .modal-background .right-arrow { right: -71px; top: 50%; transform: translateY(-50%); } 

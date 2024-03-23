@@ -39,6 +39,13 @@ const App = () => {
     i18n.changeLanguage(savedLang);
   }, []);
 
+  // 우클릭 방지 제어
+  useEffect(() => {
+    document.oncontextmenu = function () {
+      return false;
+    };
+  }, []);
+
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ScrollToTop />

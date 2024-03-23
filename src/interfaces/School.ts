@@ -31,5 +31,6 @@ export interface SchoolGradeTableDataProps {
 }
 
 export interface SchoolGradeDataProps {
+  tabCount: number;
   items: SchoolGradeTableDataProps[];
 }
