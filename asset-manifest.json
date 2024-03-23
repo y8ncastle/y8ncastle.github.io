@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.76b042be.css",
-    "main.js": "/static/js/main.0415b50e.js",
-    "static/js/693.f6994f20.chunk.js": "/static/js/693.f6994f20.chunk.js",
-    "static/js/957.30660958.chunk.js": "/static/js/957.30660958.chunk.js",
-    "static/js/423.fa2f81f1.chunk.js": "/static/js/423.fa2f81f1.chunk.js",
-    "static/js/290.d42617ad.chunk.js": "/static/js/290.d42617ad.chunk.js",
-    "static/js/254.3aefa454.chunk.js": "/static/js/254.3aefa454.chunk.js",
-    "static/js/715.3714b1c7.chunk.js": "/static/js/715.3714b1c7.chunk.js",
-    "static/js/178.eb4d4d1c.chunk.js": "/static/js/178.eb4d4d1c.chunk.js",
+    "main.css": "/static/css/main.074022b6.css",
+    "main.js": "/static/js/main.812ec0de.js",
+    "static/js/693.6de922d5.chunk.js": "/static/js/693.6de922d5.chunk.js",
+    "static/js/957.1c966d68.chunk.js": "/static/js/957.1c966d68.chunk.js",
+    "static/js/423.e6575bfd.chunk.js": "/static/js/423.e6575bfd.chunk.js",
+    "static/js/766.7d02d39a.chunk.js": "/static/js/766.7d02d39a.chunk.js",
+    "static/js/124.bca8ea01.chunk.js": "/static/js/124.bca8ea01.chunk.js",
+    "static/js/254.eaf94064.chunk.js": "/static/js/254.eaf94064.chunk.js",
+    "static/js/715.e8c31573.chunk.js": "/static/js/715.e8c31573.chunk.js",
+    "static/js/178.22d6f8d5.chunk.js": "/static/js/178.22d6f8d5.chunk.js",
     "static/media/background.gif": "/static/media/background.b4013c1189651be756f1.gif",
     "static/media/sogangEngDiploma.png": "/static/media/sogangEngDiploma.443dc3f4a2d827f04545.png",
     "static/media/sogangDiploma.png": "/static/media/sogangDiploma.21f0c9b8602fd84c5b5d.png",
@@ -30,6 +31,7 @@
     "static/media/link.svg": "/static/media/link.057a2c50c90ccb37b3d3332f7954cc79.svg",
     "static/media/aboutQuestion.svg": "/static/media/aboutQuestion.639915867b4c9929236e2e4691879f78.svg",
     "static/media/aboutInstagram.svg": "/static/media/aboutInstagram.457763b0c24ddb0799c62cf83c10133c.svg",
+    "static/media/gpaChange.svg": "/static/media/gpaChange.b3d0696d9ff3d2f1ffdfaf9ca62889b0.svg",
     "static/media/aboutBirthday.svg": "/static/media/aboutBirthday.f8090bef8bb5d649eff88dcf774358bc.svg",
     "static/media/aboutMail.svg": "/static/media/aboutMail.90409afa9a73d05306189c7eb1acf875.svg",
     "static/media/aboutGithub.svg": "/static/media/aboutGithub.0ca1a2ab3c72d57a6a4c3809310b76f0.svg",
@@ -39,18 +41,19 @@
     "static/media/modalArrow.svg": "/static/media/modalArrow.4639517f9d05d722cfafccd79f479f0f.svg",
     "index.html": "/index.html",
     "static/media/scrollDown.svg": "/static/media/scrollDown.bd60f03572466f5c95656b0473ff982a.svg",
-    "main.76b042be.css.map": "/static/css/main.76b042be.css.map",
-    "main.0415b50e.js.map": "/static/js/main.0415b50e.js.map",
-    "693.f6994f20.chunk.js.map": "/static/js/693.f6994f20.chunk.js.map",
-    "957.30660958.chunk.js.map": "/static/js/957.30660958.chunk.js.map",
-    "423.fa2f81f1.chunk.js.map": "/static/js/423.fa2f81f1.chunk.js.map",
-    "290.d42617ad.chunk.js.map": "/static/js/290.d42617ad.chunk.js.map",
-    "254.3aefa454.chunk.js.map": "/static/js/254.3aefa454.chunk.js.map",
-    "715.3714b1c7.chunk.js.map": "/static/js/715.3714b1c7.chunk.js.map",
-    "178.eb4d4d1c.chunk.js.map": "/static/js/178.eb4d4d1c.chunk.js.map"
+    "main.074022b6.css.map": "/static/css/main.074022b6.css.map",
+    "main.812ec0de.js.map": "/static/js/main.812ec0de.js.map",
+    "693.6de922d5.chunk.js.map": "/static/js/693.6de922d5.chunk.js.map",
+    "957.1c966d68.chunk.js.map": "/static/js/957.1c966d68.chunk.js.map",
+    "423.e6575bfd.chunk.js.map": "/static/js/423.e6575bfd.chunk.js.map",
+    "766.7d02d39a.chunk.js.map": "/static/js/766.7d02d39a.chunk.js.map",
+    "124.bca8ea01.chunk.js.map": "/static/js/124.bca8ea01.chunk.js.map",
+    "254.eaf94064.chunk.js.map": "/static/js/254.eaf94064.chunk.js.map",
+    "715.e8c31573.chunk.js.map": "/static/js/715.e8c31573.chunk.js.map",
+    "178.22d6f8d5.chunk.js.map": "/static/js/178.22d6f8d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76b042be.css",
-    "static/js/main.0415b50e.js"
+    "static/css/main.074022b6.css",
+    "static/js/main.812ec0de.js"
   ]
 }
