@@ -120,6 +120,29 @@
         "sogangDiploma": "Sogang University Diploma",
         "hanbatDiploma": "Hanbat National University Diploma",
         "seodaejeonDiploma": "Seodaejeon High School Diploma"
+      },
+      "gradeDetail": {
+        "title": "Sogang University Grade",
+        "subTitle": "Theses are courses and grades during master's program",
+        "totalGrade": "Total GPA",
+        "majorGrade": "Major GPA",
+        "subjectName": "Subject",
+        "majorType": "Subject Type",
+        "stdGrade": "Credits",
+        "gainedGrade": "Earned Credits",
+        "semester": "Semester",
+        "majorOpt": "Major Elective",
+        "majorMand": "Major Mandatory",
+        "softwareAdv": "Topics in Software Engineering",
+        "advComputerArch": "Advanced Computer Architecture",
+        "advIndustrialProject": "Advanced Industrial Project in Computer 1",
+        "advAlgorithmDesign": "Advanced Design and Analysis of Algorithm",
+        "software": "Software Engineering",
+        "blockchain": "Understanding and Applications of Blockchain",
+        "metaverse": "Metaverse UI/UX Research",
+        "socialMedia": "Introduction to Social Media Data Analysis",
+        "blockchainTheory": "Theory and Applications of Blockchain",
+        "thesis": "Thesis"
       }
     }
   },

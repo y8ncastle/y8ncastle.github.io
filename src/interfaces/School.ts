@@ -20,3 +20,16 @@ export interface SchoolBannerMenuProps {
   modalTitle: string;
   image?: ModalDataImageProps[];
 }
+
+export interface SchoolGradeTableDataProps {
+  semester: number;
+  name: string;
+  type: string;
+  credits: number;
+  gainedGrade: number;
+  stdGrade: number;
+}
+
+export interface SchoolGradeDataProps {
+  items: SchoolGradeTableDataProps[];
+}

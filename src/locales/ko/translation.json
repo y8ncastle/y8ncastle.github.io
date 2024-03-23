@@ -120,6 +120,29 @@
         "sogangDiploma": "서강대학교 졸업장",
         "hanbatDiploma": "한밭대학교 졸업장",
         "seodaejeonDiploma": "서대전고등학교 졸업장"
+      },
+      "gradeDetail": {
+        "title": "서강대학교 성적",
+        "subTitle": "석사과정 재학 중 이수한 과목과 성적입니다",
+        "totalGrade": "총 평균 학점",
+        "majorGrade": "전공 평균 학점",
+        "subjectName": "과목명",
+        "majorType": "전공 구분",
+        "stdGrade": "이수 학점",
+        "gainedGrade": "취득 학점",
+        "semester": "학기",
+        "majorOpt": "전공선택",
+        "majorMand": "전공필수",
+        "softwareAdv": "소프트웨어 공학 특론",
+        "advComputerArch": "고급 컴퓨터 구조",
+        "advIndustrialProject": "고급 컴퓨터학 현장실습 1",
+        "advAlgorithmDesign": "고급 알고리즘 설계와 분석",
+        "software": "소프트웨어 공학",
+        "blockchain": "블록체인의 이해와 응용",
+        "metaverse": "메타버스 UI/UX 연구",
+        "socialMedia": "소셜 미디어 데이터 분석 개론",
+        "blockchainTheory": "블록체인 이론 및 응용",
+        "thesis": "논문"
       }
     }
   },

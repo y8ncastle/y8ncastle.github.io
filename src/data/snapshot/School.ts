@@ -8,7 +8,11 @@ import {
   sogangDiploma,
   sogangEngDiploma,
 } from "assets/assetStore";
-import { SchoolBannerMenuProps, SchoolBannerProps } from "interfaces/School";
+import {
+  SchoolBannerMenuProps,
+  SchoolBannerProps,
+  SchoolGradeTableDataProps,
+} from "interfaces/School";
 
 export const schoolBannerData: SchoolBannerProps[] = [
   {
@@ -48,6 +52,7 @@ export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
       },
       {
         name: `snapshot.school.grade`,
+        link: "/snapshot/school/sogang/grade",
       },
       {
         name: `snapshot.school.tpc`,
@@ -106,5 +111,88 @@ export const schoolBannerMenuData: SchoolBannerMenuProps[] = [
         name: `snapshot.school.award`,
       },
     ],
+  },
+];
+
+export const schoolGradeTableData: SchoolGradeTableDataProps[] = [
+  {
+    semester: 1,
+    name: `snapshot.school.gradeDetail.softwareAdv`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 4.3,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 1,
+    name: `snapshot.school.gradeDetail.advComputerArch`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 3.0,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 1,
+    name: `snapshot.school.gradeDetail.advIndustrialProject`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 0.5,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 2,
+    name: `snapshot.school.gradeDetail.advAlgorithmDesign`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 3.3,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 3,
+    name: `snapshot.school.gradeDetail.software`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 4.3,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 3,
+    name: `snapshot.school.gradeDetail.metaverse`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 4.3,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 3,
+    name: `snapshot.school.gradeDetail.blockchain`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 4.3,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 3,
+    name: `snapshot.school.gradeDetail.socialMedia`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 3.0,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 4,
+    name: `snapshot.school.gradeDetail.blockchainTheory`,
+    type: `snapshot.school.gradeDetail.majorOpt`,
+    credits: 3,
+    gainedGrade: 4.0,
+    stdGrade: 4.3,
+  },
+  {
+    semester: 4,
+    name: `snapshot.school.gradeDetail.thesis`,
+    type: `snapshot.school.gradeDetail.majorMand`,
+    credits: 0,
+    gainedGrade: 0.5,
+    stdGrade: 4.3,
   },
 ];

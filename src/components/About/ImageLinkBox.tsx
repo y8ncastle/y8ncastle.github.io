@@ -1,7 +1,6 @@
 import { iconLink } from "assets/assetStore";
 import { Img } from "components/Image";
 import { AboutProfileProps } from "interfaces/About";
-import i18n from "locales/i18n";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { calculateAge } from "utils/calculation";
@@ -20,7 +19,7 @@ const ImageLinkBox = (props: AboutProfileProps) => {
       {props.noBoldContent && (
         <span className="no-bold">
           {props.noBoldContent === "excp1"
-            ? `(${t(`about.content.agePrev`)}${calculateAge()}${i18n.t(
+            ? `(${t(`about.content.agePrev`)}${calculateAge()}${t(
                 `about.content.ageNext`
               )})`
             : `(${t(props.noBoldContent)})`}

@@ -74,7 +74,7 @@ const SchoolBanner = (props: SchoolBannerProps) => {
                   ) : (
                     <a
                       href={item2.link ? item2.link : ""}
-                      onClick={(e) => handleLink(e)}
+                      onClick={(e) => (item2.link ? {} : handleLink(e))}
                     >
                       {t(item2.name)}
                     </a>

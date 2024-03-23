@@ -7,6 +7,7 @@ import aboutMail from "./icons/aboutMail.svg";
 import aboutQuestion from "./icons/aboutQuestion.svg";
 import cvDown from "./icons/cvDown.svg";
 import fabArrow from "./icons/fabArrow.svg";
+import gpaChange from "./icons/gpaChange.svg";
 import iconLink from "./icons/link.svg";
 import modalArrow from "./icons/modalArrow.svg";
 import modalClose from "./icons/modalClose.svg";
@@ -81,6 +82,7 @@ export {
   background,
   cvDown,
   fabArrow,
+  gpaChange,
   hanbatDiploma,
   hanbatEngDiploma,
   iconLink,
