@@ -169,12 +169,28 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 .grade-container .tab-line .each-tab.active { background-color: #710bf2; } 
 .grade-container .tab-line .each-tab.active p { font-weight: 700; font-size: 18px; line-height: 18px; color: white; text-align: center; } 
 .grade-container .table-header-line { display: flex; align-items: center; justify-content: space-between; width: 1256px; background-color: #e9e9e9; height: 60px; } 
-.grade-container .table-header-line span { text-align: center; width: 180px; color: #868686; font-weight: 700; padding: 0 20px; } 
-.grade-container .table-header-line span:first-child { width: 500px; } 
+.grade-container .table-header-line th { text-align: center; width: 180px; color: #868686; font-weight: 700; padding: 0 20px; } 
+.grade-container .table-header-line th:first-child { width: 500px; } 
 .grade-container .each-table-row { height: 60px; border-bottom: 1px solid #cdcdcd; display: flex; align-items: center; justify-content: space-between; } 
-.grade-container .each-table-row span { color: #333333; width: 180px; text-align: center; padding: 0 20px; } 
-.grade-container .each-table-row span:first-child { width: 500px; } 
-.grade-container .each-table-row span.left { text-align: left; } 
+.grade-container .each-table-row td { color: #333333; width: 180px; text-align: center; padding: 0 20px; } 
+.grade-container .each-table-row td:first-child { width: 500px; } 
+.grade-container .each-table-row td.left { text-align: left; } 
+
+/* Snapshot - Military */
+.military-table-header-line { display: flex; align-items: center; justify-content: space-between; width: 1256px; background-color: #e9e9e9; height: 60px; } 
+.military-table-header-line th { text-align: center; width: 220px; color: #868686; font-weight: 700; padding: 0 20px; } 
+.military-table-header-line th:nth-child(2) { width: 520px; } 
+.military-table-header-line th:nth-child(3) { width: 160px; } 
+.military-table-header-line th:nth-child(4) { width: 160px; } 
+.military-each-table-row { height: 60px; border-bottom: 1px solid #cdcdcd; display: flex; align-items: center; justify-content: space-between; } 
+.military-each-table-row td { color: #333333; width: 220px; text-align: center; padding: 0 20px; } 
+.military-each-table-row td:nth-child(2) { width: 520px; } 
+.military-each-table-row td:nth-child(3) { width: 160px; } 
+.military-each-table-row td:nth-child(4) { width: 160px; } 
+.military-each-table-row td.left { text-align: left; } 
+
+.military-title { margin-top: 112px; font-size: 32px; line-height: 32px; margin-bottom: 46px; color: #333333; } 
+.military-description { font-size: 18px; color: #333333; line-height: 32px; white-space: pre-line; text-align: center; }
 
 /* Timeline */
 main .timeline-container { height: calc(100vh - 92px); margin-top: 92px; display: flex; align-items: center; justify-content: center; } 

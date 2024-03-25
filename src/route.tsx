@@ -13,6 +13,7 @@ const SnapshotSchoolSogangGrade = lazy(
 const SnapshotSchoolHanbatGrade = lazy(
   () => import("./pages/snapshot/school/HanbatGrade")
 );
+const SnapshotMilitary = lazy(() => import("./pages/snapshot/Military"));
 
 const Timeline = lazy(() => import("./pages/Timeline"));
 
@@ -34,6 +35,7 @@ const CustomRouter = () => {
         path="/snapshot/school/hanbat/grade"
         element={<SnapshotSchoolHanbatGrade />}
       />
+      <Route path="/snapshot/military" element={<SnapshotMilitary />} />
 
       <Route path="/timeline" element={<Timeline />} />
 

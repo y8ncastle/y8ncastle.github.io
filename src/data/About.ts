@@ -145,12 +145,12 @@ export const activeSkillData: SkillProps[] = [
   {
     icon: skillReact,
     name: "React Native",
-    period: "2021 ~",
+    period: "2021 ~ 2023",
   },
   {
     icon: skillNextjs,
     name: "Next.js",
-    period: "2023 ~",
+    period: "2023",
   },
   {
     icon: skillGit,
@@ -178,7 +178,7 @@ export const applicableSkillData: SkillProps[] = [
   {
     icon: skillGanache,
     name: "Ganache",
-    period: "2022",
+    period: "2022 ~",
   },
   {
     icon: skillBesu,

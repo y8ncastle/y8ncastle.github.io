@@ -198,6 +198,22 @@
         "capstoneDesignTwo": "Capstone Design 2",
         "computerNetwork": "Computer Network"
       }
+    },
+    "militaryDetail": {
+      "subTitle": "Here is my military service experience",
+      "period": "Term of Service",
+      "affiliation": "Affiliation during Service",
+      "affiliationContent": "HHB 1-5 FA 2ID, EUSA-ROKA Support Group",
+      "occupation": "Occupation",
+      "occupationContent": "IT Specialist (25B)",
+      "rank": "Rank",
+      "rankContent": "Sergeant",
+      "militaryContentOne": "I served as a KATUSA from April 13, 2015 to January 12, 2017.\nKATUSA stands for Korean Augmentation To the United States Army,\nThe Republic of Korea Army serving in the Eighth United States Army stationed in South Korea.",
+      "militaryContentTwo": "I completed five weeks of basic military training at Nonsan Army Training Center,\nfollowed by three weeks of additional KATUSA training at Camp Jackson KTA.\nI got intensive physical training and learned English military terminology.",
+      "militaryContentThree": "After completing KTA, I was assigned to Camp Hovey.\nIt was 8 months rotational unit, and I experienced three different battalions during my service.\nThrough this experience, I met people from various ethnic backgrounds and learned about different cultures as well as military knowledge.",
+      "militaryContentFour": "I was assigned to the S-6 section, where I was responsible for computer work, network and equipment management.\nMy duties included managing computer access accounts for both US soldiers and KATUSAs\nas well as maintaining all computer equipment and networks within the battalion, and establishing communication cables.",
+      "militaryContentFive": "Before to be promoted to Sergeant, I was appointed as a Senior KATUSA of Headquarters Battery.\nFor four months, I was assigned to ROKA staff office, where I managed KATUSAs\nand assisted in coordinating opinions between ROK Army and US battery commander and first sergeant.",
+      "militaryContentSix": "I completed my military service after 640 days.\nThrough the military experience, I significantly improved my physical fitness and English proficiency\nand I think I gained valuable experiences by living and working with people from diverse backgrounds."
     }
   },
   "temp": {

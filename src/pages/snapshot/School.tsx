@@ -10,7 +10,7 @@ const School = () => {
     <main>
       <section className="snapshot-container">
         <div className="common-top-box">
-          <p>{t(`snapshot.school.title`)}</p>
+          <p>{t(`snapshot.schoolLife`)}</p>
           <p>{t(`snapshot.school.subTitle`)}</p>
         </div>
 

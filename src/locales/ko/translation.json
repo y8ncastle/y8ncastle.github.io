@@ -105,7 +105,6 @@
       "hobbyContent": "노래, 데이터 정리"
     },
     "school": {
-      "title": "학교 생활",
       "subTitle": "고등학교부터의 전반적인 학교 생활을 소개합니다",
       "diploma": "졸업장",
       "grade": "성적",
@@ -198,6 +197,22 @@
         "capstoneDesignTwo": "캡스톤디자인 2",
         "computerNetwork": "컴퓨터 네트워크"
       }
+    },
+    "militaryDetail": {
+      "subTitle": "군복무와 관련된 내용을 소개합니다",
+      "period": "군복무 기간",
+      "affiliation": "복무 당시 소속",
+      "affiliationContent": "주한 미8군 한국군지원단 미2사단 1-5 포병대대 본부포대",
+      "occupation": "보직",
+      "occupationContent": "전산병 (25B)",
+      "rank": "계급",
+      "rankContent": "병장",
+      "militaryContentOne": "저는 2015년 4월 13일부터 2017년 1월 12일까지 카투사로 군복무를 했습니다.\nKATUSA는 Korean Augmentation To the United States Army의 약자이며\n주한 미8군에서 복무하는 대한민국 육군입니다.",
+      "militaryContentTwo": "논산 육군훈련소에서 5주 간 기초 군사훈련을 받고\nCamp Jackson KTA에서 추가로 3주 간 카투사 훈련을 받았습니다.\nKTA에서는 훨씬 강도 높은 운동을 하고, 영문 군사 용어에 대해서도 배울 수 있었습니다.",
+      "militaryContentThree": "KTA 수료 후 Camp Hovey로 자대를 배정 받았습니다.\n해당 부대는 8개월 순환 부대였고, 군복무 기간 동안 총 3개의 서로 다른 대대를 경험하였습니다.\n이 과정에서 다양한 인종들을 만나며 군사 분야 뿐만 아니라 여러 문화도 알게 되었습니다.",
+      "militaryContentFour": "또한, S-6 통신과에서 전산 업무와 네트워크 및 장비 관리를 맡아 진행했습니다.\n일반적으로 미군과 카투사의 컴퓨터 접근 계정을 관리하는 전산 업무를 하였고\n그 외에는 대대 내의 모든 컴퓨터 장비 및 네트워크 관리, 통신 케이블 구축 등이 있었습니다.",
+      "militaryContentFive": "상병 말에는 본부포대의 선임병장으로 임명이 되었습니다.\n약 4개월 간 인사과 소속으로 중대원을 관리하고\n한국군과 미군 중대장 및 일등상사 사이의 의견 조율에도 일조하였습니다.",
+      "militaryContentSix": "640일의 군복무를 마치고 전역했습니다.\n군대 생활을 통해 기초 체력과 영어 능력이 많이 향상되었고\n다양한 사람들과 생활하며 좋은 경험을 했다고 생각합니다."
     }
   },
   "temp": {

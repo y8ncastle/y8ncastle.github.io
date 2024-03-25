@@ -57,6 +57,8 @@ export const SnapshotCategoryData: CategoryItemProps[] = [
   {
     icon: snapshotMilitary,
     title: `snapshot.military`,
+    opened: true,
+    link: "/snapshot/military",
   },
   {
     icon: snapshotHobby,

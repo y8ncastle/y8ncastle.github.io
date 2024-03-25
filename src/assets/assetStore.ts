@@ -17,6 +17,14 @@ import scrollDown from "./icons/scrollDown.svg";
 import alec from "./images/alec.png";
 import hanbatDiploma from "./images/hanbatDiploma.png";
 import hanbatEngDiploma from "./images/hanbatEngDiploma.png";
+import militaryCoa from "./images/militaryCoa.png";
+import militaryEngCoaOne from "./images/militaryEngCoaOne.png";
+import militaryEngCoaTwo from "./images/militaryEngCoaTwo.png";
+import militaryId from "./images/militaryId.png";
+import militaryKtaDiploma from "./images/militaryKtaDiploma.png";
+import militaryPhotoOne from "./images/militaryPhotoOne.png";
+import militaryPhotoTwo from "./images/militaryPhotoTwo.png";
+import militarySeniorKatusa from "./images/militarySeniorKatusa.png";
 import profile from "./images/profile.png";
 import projectBim from "./images/projectBim.png";
 import projectDte from "./images/projectDte.png";
@@ -87,6 +95,14 @@ export {
   hanbatEngDiploma,
   iconLink,
   loading,
+  militaryCoa,
+  militaryEngCoaOne,
+  militaryEngCoaTwo,
+  militaryId,
+  militaryKtaDiploma,
+  militaryPhotoOne,
+  militaryPhotoTwo,
+  militarySeniorKatusa,
   modalArrow,
   modalClose,
   profile,

@@ -20,18 +20,6 @@ const GradeContainer = (props: SchoolGradeDataProps) => {
     if (grade === 0.5) return "P";
   };
 
-  const getTotalCredits = (index: number) => {
-    let sum = 0;
-
-    if (props.items) {
-      sum += props.items
-        .filter((item) => item.semester - 1 === index)
-        .reduce((acc, cur) => acc + cur.credits, 0);
-    }
-
-    return sum;
-  };
-
   return (
     <div className="grade-container">
       <div className="tab-line">
@@ -55,31 +43,35 @@ const GradeContainer = (props: SchoolGradeDataProps) => {
           ))}
       </div>
 
-      <div className="grade-table">
-        <div className="table-header-line">
-          <span>{t(`snapshot.school.gradeDetail.subjectName`)}</span>
-          <span>{t(`snapshot.school.gradeDetail.majorType`)}</span>
-          <span>{t(`snapshot.school.gradeDetail.stdGrade`)}</span>
-          <span>{t(`snapshot.school.gradeDetail.gainedGrade`)}</span>
-        </div>
+      <table>
+        <thead>
+          <tr className="table-header-line">
+            <th>{t(`snapshot.school.gradeDetail.subjectName`)}</th>
+            <th>{t(`snapshot.school.gradeDetail.majorType`)}</th>
+            <th>{t(`snapshot.school.gradeDetail.stdGrade`)}</th>
+            <th>{t(`snapshot.school.gradeDetail.gainedGrade`)}</th>
+          </tr>
+        </thead>
 
-        {props.items &&
-          props.items
-            .filter((item) => item.semester - 1 === currentTab)
-            .map((item2) => (
-              <div className="each-table-row" key={item2.name}>
-                <span className="left">{t(item2.name)}</span>
-                <span>{t(item2.type)}</span>
-                <span>{item2.credits}</span>
-                <span>
-                  {getGradeAlpha(item2.gainedGrade) +
-                    (item2.gainedGrade !== 0.5
-                      ? " (" + item2.gainedGrade.toFixed(1) + ")"
-                      : "")}
-                </span>
-              </div>
-            ))}
-      </div>
+        <tbody>
+          {props.items &&
+            props.items
+              .filter((item) => item.semester - 1 === currentTab)
+              .map((item2) => (
+                <tr className="each-table-row" key={item2.name}>
+                  <td className="left">{t(item2.name)}</td>
+                  <td>{t(item2.type)}</td>
+                  <td>{item2.credits}</td>
+                  <td>
+                    {getGradeAlpha(item2.gainedGrade) +
+                      (item2.gainedGrade !== 0.5
+                        ? " (" + item2.gainedGrade.toFixed(1) + ")"
+                        : "")}
+                  </td>
+                </tr>
+              ))}
+        </tbody>
+      </table>
     </div>
   );
 };
