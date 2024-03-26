@@ -1,6 +1,6 @@
 import {
   snapshotAward,
-  snapshotCertificate,
+  snapshotCertification,
   snapshotExternal,
   snapshotForeign,
   snapshotHobby,
@@ -35,8 +35,10 @@ export const SnapshotCategoryData: CategoryItemProps[] = [
     title: `snapshot.partProject`,
   },
   {
-    icon: snapshotCertificate,
-    title: `snapshot.certificate`,
+    icon: snapshotCertification,
+    title: `snapshot.certification`,
+    opened: true,
+    link: "/snapshot/certification",
   },
   {
     icon: snapshotAward,

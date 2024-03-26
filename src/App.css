@@ -176,6 +176,28 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 .grade-container .each-table-row td:first-child { width: 500px; } 
 .grade-container .each-table-row td.left { text-align: left; } 
 
+/* Snapshot - Certification */
+.certification-table-header-line { display: flex; align-items: center; justify-content: space-between; width: 1256px; background-color: #e9e9e9; height: 60px; } 
+.certification-table-header-line th { text-align: center; width: 280px; color: #868686; font-weight: 700; padding: 0 20px; } 
+.certification-table-header-line th:nth-child(2) { width: 300px; } 
+.certification-table-header-line th:nth-child(3) { width: 160px; } 
+.certification-table-header-line th:nth-child(4) { width: 240px; white-space: pre-line; } 
+.certification-table-header-line th:last-child { width: 50px; } 
+.certification-each-table-row { height: 60px; border-bottom: 1px solid #cdcdcd; display: flex; align-items: center; justify-content: space-between; } 
+.certification-each-table-row td { color: #333333; width: 280px; text-align: center; padding: 0 20px; } 
+.certification-each-table-row td:nth-child(2) { width: 300px; } 
+.certification-each-table-row td:nth-child(3) { width: 160px; } 
+.certification-each-table-row td:nth-child(4) { width: 240px; } 
+.certification-each-table-row td:last-child { width: 50px; display: flex; align-items: center; justify-content: center; } 
+.certification-each-table-row td:last-child img { cursor: pointer; } 
+.certification-each-table-row td.left { text-align: left; } 
+.certification-each-table-row td.no-data { width: 1256px; text-align: center; padding: 0; } 
+.certification-no-data-button { width: 1256px; height: 60px; background-color: rgba(86, 123, 255, 0.1); display: flex; align-items: center; justify-content: center; margin-top: 16px; cursor: pointer; } 
+.certification-no-data-button span { font-size: 18px; line-height: 18px; color: #3d68ff; font-weight: 700; margin-right: 12px; } 
+
+.certification-title { margin-top: 112px; font-size: 32px; line-height: 32px; margin-bottom: 28px; color: #333333; } 
+.certification-subTitle { font-size: 18px; line-height: 18px; color: #333333; margin-bottom: 64px; } 
+
 /* Snapshot - Military */
 .military-table-header-line { display: flex; align-items: center; justify-content: space-between; width: 1256px; background-color: #e9e9e9; height: 60px; } 
 .military-table-header-line th { text-align: center; width: 220px; color: #868686; font-weight: 700; padding: 0 20px; } 
@@ -190,7 +212,7 @@ main .snapshot-container .item-group { display: flex; flex-wrap: wrap; justify-c
 .military-each-table-row td.left { text-align: left; } 
 
 .military-title { margin-top: 112px; font-size: 32px; line-height: 32px; margin-bottom: 46px; color: #333333; } 
-.military-description { font-size: 18px; color: #333333; line-height: 32px; white-space: pre-line; text-align: center; }
+.military-description { font-size: 18px; color: #333333; line-height: 32px; white-space: pre-line; text-align: center; } 
 
 /* Timeline */
 main .timeline-container { height: calc(100vh - 92px); margin-top: 92px; display: flex; align-items: center; justify-content: center; } 
