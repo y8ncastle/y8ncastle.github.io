@@ -1,5 +1,6 @@
 // icons
 import aboutBirthday from "./icons/aboutBirthday.svg";
+import aboutCode from "./icons/aboutCode.svg";
 import aboutDBpia from "./icons/aboutDBpia.svg";
 import aboutGithub from "./icons/aboutGithub.svg";
 import aboutInsta from "./icons/aboutInstagram.svg";
@@ -94,6 +95,7 @@ import loading from "./videos/loading.gif";
 
 export {
   aboutBirthday,
+  aboutCode,
   aboutDBpia,
   aboutGithub,
   aboutInsta,

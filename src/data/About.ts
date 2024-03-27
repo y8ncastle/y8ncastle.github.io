@@ -1,5 +1,6 @@
 import {
   aboutBirthday,
+  aboutCode,
   aboutDBpia,
   aboutGithub,
   aboutInsta,
@@ -79,6 +80,11 @@ export const profileContactData: AboutProfileProps[] = [
     icon: aboutDBpia,
     content: "DBpia",
     link: "https://www.dbpia.co.kr/author/authorDetail?ancId=5114939",
+  },
+  {
+    icon: aboutCode,
+    content: "Baekjoon Online Judge",
+    link: "https://www.acmicpc.net/user/zarch4894",
   },
 ];
 

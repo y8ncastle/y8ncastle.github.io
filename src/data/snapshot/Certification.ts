@@ -101,6 +101,7 @@ export const OtherCertificationData: CertificationDataProps[] = [
     issuer: `snapshot.certificationDetail.seoulPolice`,
     score: "-",
     acquisitionDate: "2013.08.05",
+    expirationDate: "2033.12.31",
   },
   {
     name: `snapshot.certificationDetail.taekwondo`,
