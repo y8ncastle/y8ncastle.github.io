@@ -94,8 +94,8 @@ const About = () => {
 
             <span className="str1">Frontend</span>
             <span className="str2">Blockchain</span>
-            <span className="str3">Music</span>
-            <span className="str4">INFJ</span>
+            <span className="str3">Data</span>
+            <span className="str4">Music</span>
 
             {/* <div className="cv-box">
               <span>CV</span>

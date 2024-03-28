@@ -37,6 +37,10 @@ const Certificate = () => {
     (item) => !isValid(item)
   );
 
+  const handleClick = () => {
+    alert(t(`temp.preparing`));
+  };
+
   return (
     <main>
       <section className="snapshot-container">
@@ -81,7 +85,12 @@ const Certificate = () => {
                         : t(`snapshot.certificationDetail.unlimited`)}
                     </td>
                     <td>
-                      <Img src={certificationGlass} width={20} height={20} />
+                      <Img
+                        src={certificationGlass}
+                        width={20}
+                        height={20}
+                        onClick={handleClick}
+                      />
                     </td>
                   </tr>
                 ))
@@ -130,7 +139,12 @@ const Certificate = () => {
                         : t(`snapshot.certificationDetail.unlimited`)}
                     </td>
                     <td>
-                      <Img src={certificationGlass} width={20} height={20} />
+                      <Img
+                        src={certificationGlass}
+                        width={20}
+                        height={20}
+                        onClick={handleClick}
+                      />
                     </td>
                   </tr>
                 ))
@@ -194,6 +208,7 @@ const Certificate = () => {
                                 src={certificationGlass}
                                 width={20}
                                 height={20}
+                                onClick={handleClick}
                               />
                             )}
                           </td>
@@ -241,7 +256,12 @@ const Certificate = () => {
                     </td>
                     <td>
                       {item.image && (
-                        <Img src={certificationGlass} width={20} height={20} />
+                        <Img
+                          src={certificationGlass}
+                          width={20}
+                          height={20}
+                          onClick={handleClick}
+                        />
                       )}
                     </td>
                   </tr>
