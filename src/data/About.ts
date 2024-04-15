@@ -62,36 +62,29 @@ export const profileContactData: AboutProfileProps[] = [
   {
     icon: aboutGithub,
     content: "@y8ncastle",
-    noBoldContent: `about.content.personal`,
     link: "https://www.github.com/y8ncastle",
-  },
-  {
-    icon: aboutGithub,
-    content: "@alec-nl",
-    noBoldContent: `about.content.work`,
-    link: "https://www.github.com/alec-nl",
   },
   {
     icon: aboutInsta,
     content: "Instagram",
     link: "https://www.instagram.com/y8ncastle.dev",
   },
-  {
-    icon: aboutDBpia,
-    content: "DBpia",
-    link: "https://www.dbpia.co.kr/author/authorDetail?ancId=5114939",
-  },
-  {
-    icon: aboutCode,
-    content: "Baekjoon Online Judge",
-    link: "https://www.acmicpc.net/user/zarch4894",
-  },
+  // {
+  //   icon: aboutDBpia,
+  //   content: "DBpia",
+  //   link: "https://www.dbpia.co.kr/author/authorDetail?ancId=5114939",
+  // },
+  // {
+  //   icon: aboutCode,
+  //   content: "Baekjoon Online Judge",
+  //   link: "https://www.acmicpc.net/user/zarch4894",
+  // },
 ];
 
 export const workExpData: WorkEduProps[] = [
   {
     startDate: "2022.12",
-    endDate: `about.content.current`,
+    endDate: "2024.04",
     name: `about.content.noncelab`,
     link: "https://www.noncelab.com",
     description: `about.content.noncelabDesc`,
@@ -169,7 +162,7 @@ export const applicableSkillData: SkillProps[] = [
   {
     icon: skillSolidity,
     name: "Solidity",
-    period: "2020 ~",
+    period: "2020 ~ 2024",
   },
   {
     icon: skillEthereum,
@@ -184,7 +177,7 @@ export const applicableSkillData: SkillProps[] = [
   {
     icon: skillGanache,
     name: "Ganache",
-    period: "2022 ~",
+    period: "2022 ~ 2024",
   },
   {
     icon: skillBesu,

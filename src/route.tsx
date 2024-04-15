@@ -1,5 +1,6 @@
-import { lazy } from "react";
-import { Route, Routes } from "react-router-dom";
+import { lazy, useEffect } from "react";
+import ReactGA from "react-ga4";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 const About = lazy(() => import("./pages/About"));
 

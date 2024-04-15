@@ -11,6 +11,7 @@ import { useTranslation } from "react-i18next";
 import { BrowserRouter } from "react-router-dom";
 import CustomRouter from "route";
 import "./App.css";
+import RouteCheckerForGA from "utils/RouteCheckerForGA";
 
 const App = () => {
   const { t } = useTranslation();
@@ -48,7 +49,9 @@ const App = () => {
 
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <RouteCheckerForGA />
       <ScrollToTop />
+
       <Suspense
         fallback={
           <div className="loading-container" style={{ height: clientHeight }}>

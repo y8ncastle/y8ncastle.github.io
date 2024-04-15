@@ -22,7 +22,7 @@ import {
   projectData,
   workExpData,
 } from "data/About";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -121,6 +121,15 @@ const About = () => {
                   link={item.link ? item.link : null}
                 />
               ))}
+
+            {profileContactData.length % 4 === 3 ? (
+              <div className="link-box" />
+            ) : (
+              <Fragment>
+                <div className="link-box" />
+                <div className="link-box" />
+              </Fragment>
+            )}
           </div>
 
           <div className="sub-title" style={{ marginTop: 68 }}>
