@@ -4,6 +4,7 @@ import {
   aboutDBpia,
   aboutGithub,
   aboutInsta,
+  aboutLinkedIn,
   aboutMail,
   projectBim,
   projectDte,
@@ -68,6 +69,11 @@ export const profileContactData: AboutProfileProps[] = [
     icon: aboutInsta,
     content: "Instagram",
     link: "https://www.instagram.com/y8ncastle.dev",
+  },
+  {
+    icon: aboutLinkedIn,
+    content: "LinkedIn",
+    link: "https://www.linkedin.com/in/y8ncastle",
   },
   // {
   //   icon: aboutDBpia,
@@ -192,7 +198,7 @@ export const applicableSkillData: SkillProps[] = [
   {
     icon: skillNodejs,
     name: "Node.js",
-    period: "2022",
+    period: "2022 ~ 2024",
   },
   {
     icon: skillFigma,

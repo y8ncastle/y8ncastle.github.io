@@ -1,5 +1,7 @@
+import useGlobalStore from "Store";
 import {
   background,
+  cvDown,
   profile,
   scrollDown,
   skillOne,
@@ -25,9 +27,11 @@ import {
 import { Fragment, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import ReactGA from "react-ga4";
 
 const About = () => {
   const { t } = useTranslation();
+  const currentLang = useGlobalStore((state) => state.currentLang);
   const [fabVisible, setFabVisible] = useState<boolean>(false);
   const [currentTitleAbove, setCurrentTitleAbove] = useState<string>(
     `about.background.titleAbove`
@@ -35,6 +39,26 @@ const About = () => {
   const [currentTitleBelow, setCurrentTitleBelow] = useState<string>(
     `about.background.titleBelow`
   );
+
+  const handleDownloadCv = () => {
+    let fileUrl =
+      currentLang === "ko"
+        ? "https://github.com/y8ncastle/y8ncastle.github.io/files/15020895/CV_KOR_Yoonsung_Jeong.pdf"
+        : "https://github.com/y8ncastle/y8ncastle.github.io/files/15020896/CV_ENG_Yoonsung_Jeong.pdf";
+
+    window.open(fileUrl, "_blank");
+
+    try {
+      ReactGA.event({
+        category: "click",
+        action: `CV for ${currentLang} is downloaded`,
+      });
+    } catch (err) {}
+  };
+
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", function () {
@@ -56,10 +80,6 @@ const About = () => {
 
     return () => clearTimeout(timer);
   }, [currentTitleAbove]);
-
-  const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <main>
@@ -97,10 +117,10 @@ const About = () => {
             <span className="str3">Data</span>
             <span className="str4">Music</span>
 
-            {/* <div className="cv-box">
+            <div className="cv-box" onClick={handleDownloadCv}>
               <span>CV</span>
               <Img src={cvDown} width={24} height={24} />
-            </div> */}
+            </div>
           </div>
         </div>
 
@@ -152,7 +172,7 @@ const About = () => {
 
           <div className="sub-title" style={{ marginTop: 92 }}>
             <p>{t(`about.content.education`)}</p>
-            {/* <Link to="/snapshot">{t(`about.more`)}</Link> */}
+            <Link to="/snapshot/school">{t(`about.more`)}</Link>
           </div>
 
           <div className="work-exp-group">

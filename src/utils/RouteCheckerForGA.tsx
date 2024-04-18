@@ -7,17 +7,21 @@ const RouteCheckerForGA = () => {
   const [initialized, setInitialized] = useState<boolean>(false);
 
   useEffect(() => {
-    if (!window.location.href.includes("localhost")) {
-      ReactGA.initialize(process.env.REACT_APP_GA_ID);
-      setInitialized(true);
-    }
+    try {
+      if (!window.location.href.includes("localhost")) {
+        ReactGA.initialize(process.env.REACT_APP_GA_ID);
+        setInitialized(true);
+      }
+    } catch (err) {}
   }, []);
 
   useEffect(() => {
-    if (initialized) {
-      ReactGA.set({ page: location.pathname });
-      ReactGA.send("pageview");
-    }
+    try {
+      if (initialized) {
+        ReactGA.set({ page: location.pathname });
+        ReactGA.send("pageview");
+      }
+    } catch (err) {}
   }, [initialized, location]);
 
   return null;
