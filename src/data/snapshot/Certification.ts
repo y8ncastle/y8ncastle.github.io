@@ -12,6 +12,7 @@ import {
   certificationToeicTwo,
 } from "assets/assetStore";
 import { CertificationDataProps } from "interfaces/Certification";
+import { ModalDataProps } from "interfaces/common/modal";
 
 export const ItCertificationData: CertificationDataProps[] = [
   {
@@ -46,7 +47,7 @@ export const ItCertificationData: CertificationDataProps[] = [
 
 export const ForeignCertificationData: CertificationDataProps[] = [
   {
-    name: "TOEIC",
+    name: "TOEIC 383",
     issuer: `snapshot.certificationDetail.toeicAgency`,
     score: "915 / 990",
     acquisitionDate: "2019.07.14",
@@ -54,7 +55,7 @@ export const ForeignCertificationData: CertificationDataProps[] = [
     image: certificationToeicThree,
   },
   {
-    name: "TEPS",
+    name: "TEPS 237",
     issuer: `snapshot.certificationDetail.tepsAgency`,
     score: "608 / 990",
     acquisitionDate: "2017.09.02",
@@ -62,7 +63,7 @@ export const ForeignCertificationData: CertificationDataProps[] = [
     image: certificationTeps,
   },
   {
-    name: "TOEIC",
+    name: "TOEIC 328",
     issuer: `snapshot.certificationDetail.toeicAgency`,
     score: "940 / 990",
     acquisitionDate: "2017.03.26",
@@ -70,7 +71,7 @@ export const ForeignCertificationData: CertificationDataProps[] = [
     image: certificationToeicTwo,
   },
   {
-    name: "TOEIC",
+    name: "TOEIC 274",
     issuer: `snapshot.certificationDetail.toeicAgency`,
     score: "780 / 990",
     acquisitionDate: "2014.08.09",
@@ -109,5 +110,52 @@ export const OtherCertificationData: CertificationDataProps[] = [
     score: "-",
     acquisitionDate: "2004.12.19",
     image: certificationTaekwondo,
+  },
+];
+
+export const CertificationImageData: ModalDataProps[] = [
+  {
+    title: `snapshot.certificationDetail.eip`,
+    image: [{ src: certificationEip, orientation: "vertical" }],
+  },
+  {
+    title: "ICDL Professional Computing Python",
+    image: [{ src: certificationIcdlPython, orientation: "horizontal" }],
+  },
+  {
+    title: "ICDL Start Certificate",
+    image: [{ src: certificationIcdlStart, orientation: "horizontal" }],
+  },
+  {
+    title: "ITQ OA Master",
+    image: [{ src: certificationItqOaMaster, orientation: "vertical" }],
+  },
+  {
+    title: "TOEIC 383",
+    image: [{ src: certificationToeicThree, orientation: "vertical" }],
+  },
+  {
+    title: "TEPS 237",
+    image: [{ src: certificationTeps, orientation: "vertical" }],
+  },
+  {
+    title: "TOEIC 328",
+    image: [{ src: certificationToeicTwo, orientation: "vertical" }],
+  },
+  {
+    title: "TOEIC 274",
+    image: [{ src: certificationToeicOne, orientation: "vertical" }],
+  },
+  {
+    title: `snapshot.certificationDetail.hskFourth`,
+    image: [{ src: certificationHskFourth, orientation: "vertical" }],
+  },
+  {
+    title: `snapshot.certificationDetail.hskThird`,
+    image: [{ src: certificationHskThird, orientation: "vertical" }],
+  },
+  {
+    title: `snapshot.certificationDetail.taekwondo`,
+    image: [{ src: certificationTaekwondo, orientation: "vertical" }],
   },
 ];

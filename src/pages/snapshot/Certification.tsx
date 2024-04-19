@@ -1,7 +1,9 @@
+import useGlobalStore from "Store";
 import { certificationArrow, certificationGlass } from "assets/assetStore";
 import Footer from "components/Footer";
 import { Img } from "components/Image";
 import {
+  CertificationImageData,
   ForeignCertificationData,
   ItCertificationData,
   OtherCertificationData,
@@ -13,6 +15,8 @@ import { useTranslation } from "react-i18next";
 
 const Certificate = () => {
   const { t } = useTranslation();
+  const setCurrentModal = useGlobalStore((state) => state.setCurrentModal);
+  const setModalData = useGlobalStore((state) => state.setModalData);
   const [unvalidForeignOpen, setUnvalidForeignOpen] = useState<boolean>(false);
 
   const isValid = (item: CertificationDataProps) => {
@@ -37,8 +41,14 @@ const Certificate = () => {
     (item) => !isValid(item)
   );
 
-  const handleClick = () => {
-    alert(t(`temp.preparing`));
+  const handleClick = (name: string) => {
+    const item = CertificationImageData.find((item) => item.title === name);
+
+    setModalData({
+      title: item.title ? item.title : null,
+      image: item.image ? item.image : null,
+    });
+    setCurrentModal("certification", true);
   };
 
   return (
@@ -89,7 +99,7 @@ const Certificate = () => {
                         src={certificationGlass}
                         width={20}
                         height={20}
-                        onClick={handleClick}
+                        onClick={() => handleClick(item.name)}
                       />
                     </td>
                   </tr>
@@ -143,7 +153,7 @@ const Certificate = () => {
                         src={certificationGlass}
                         width={20}
                         height={20}
-                        onClick={handleClick}
+                        onClick={() => handleClick(item.name)}
                       />
                     </td>
                   </tr>
@@ -208,7 +218,7 @@ const Certificate = () => {
                                 src={certificationGlass}
                                 width={20}
                                 height={20}
-                                onClick={handleClick}
+                                onClick={() => handleClick(item.name)}
                               />
                             )}
                           </td>
@@ -260,7 +270,7 @@ const Certificate = () => {
                           src={certificationGlass}
                           width={20}
                           height={20}
-                          onClick={handleClick}
+                          onClick={() => handleClick(item.name)}
                         />
                       )}
                     </td>

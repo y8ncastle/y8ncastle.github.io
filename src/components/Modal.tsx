@@ -53,7 +53,7 @@ const Modal = () => {
             </div>
 
             <div className="modal-body">
-              {currentModal === "schoolDiploma" &&
+              {["schoolDiploma", "certification"].includes(currentModal) &&
                 modalData &&
                 modalData?.image &&
                 !isChanging && (
