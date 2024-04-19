@@ -49,10 +49,12 @@ const About = () => {
     window.open(fileUrl, "_blank");
 
     try {
-      ReactGA.event({
-        category: "click",
-        action: `CV for ${currentLang} is downloaded`,
-      });
+      if (!window.location.href.includes("localhost")) {
+        ReactGA.event({
+          category: "click",
+          action: `CV for ${currentLang} is downloaded`,
+        });
+      }
     } catch (err) {}
   };
 

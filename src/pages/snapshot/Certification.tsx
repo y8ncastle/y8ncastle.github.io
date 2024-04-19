@@ -11,6 +11,7 @@ import {
 import { CertificationDataProps } from "interfaces/Certification";
 import moment from "moment";
 import { useState } from "react";
+import ReactGA from "react-ga4";
 import { useTranslation } from "react-i18next";
 
 const Certificate = () => {
@@ -49,6 +50,15 @@ const Certificate = () => {
       image: item.image ? item.image : null,
     });
     setCurrentModal("certification", true);
+
+    try {
+      if (!window.location.href.includes("localhost")) {
+        ReactGA.event({
+          category: "click",
+          action: `Certification ${item.title} is clicked`,
+        });
+      }
+    } catch (err) {}
   };
 
   return (

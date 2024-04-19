@@ -4,6 +4,7 @@ import { schoolBannerMenuData } from "data/snapshot/School";
 import { SchoolBannerProps } from "interfaces/School";
 import { Fragment, useState } from "react";
 import { useTranslation } from "react-i18next";
+import ReactGA from "react-ga4";
 
 const SchoolBanner = (props: SchoolBannerProps) => {
   const { t } = useTranslation();
@@ -12,6 +13,29 @@ const SchoolBanner = (props: SchoolBannerProps) => {
 
   const [currentHover, setCurrentHover] = useState<string>("");
   const isHover = currentHover === props.engName;
+
+  const handleClick = (index: number, isIndexOne: boolean) => {
+    const item = schoolBannerMenuData.find(
+      (item) => item.key === props.engName
+    );
+
+    if (isIndexOne) {
+      setModalData({
+        title: item.modalTitle ? item.modalTitle : null,
+        image: item.image ? item.image : null,
+      });
+      setCurrentModal("schoolDiploma", true);
+    }
+
+    try {
+      if (!window.location.href.includes("localhost")) {
+        ReactGA.event({
+          category: "click",
+          action: `${props.engName}'s ${t(item.items[index].name)} is clicked`,
+        });
+      }
+    } catch (err) {}
+  };
 
   const handleLink = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
@@ -56,25 +80,17 @@ const SchoolBanner = (props: SchoolBannerProps) => {
               .items.map((item2, index) => (
                 <Fragment key={item2.name}>
                   {index === 0 ? (
-                    <button
-                      onClick={() => {
-                        const item = schoolBannerMenuData.find(
-                          (item) => item.key === props.engName
-                        );
-
-                        setModalData({
-                          title: item.modalTitle ? item.modalTitle : null,
-                          image: item.image ? item.image : null,
-                        });
-                        setCurrentModal("schoolDiploma", true);
-                      }}
-                    >
+                    <button onClick={() => handleClick(index, true)}>
                       {t(item2.name)}
                     </button>
                   ) : (
                     <a
                       href={item2.link ? item2.link : ""}
-                      onClick={(e) => (item2.link ? {} : handleLink(e))}
+                      onClick={(e) => {
+                        handleClick(index, false);
+
+                        if (!item2.link) handleLink(e);
+                      }}
                     >
                       {t(item2.name)}
                     </a>

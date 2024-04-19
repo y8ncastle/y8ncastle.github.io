@@ -4,9 +4,21 @@ import { AboutProfileProps } from "interfaces/About";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { calculateAge } from "utils/calculation";
+import ReactGA from "react-ga4";
 
 const ImageLinkBox = (props: AboutProfileProps) => {
   const { t } = useTranslation();
+
+  const handleGA = () => {
+    try {
+      if (!window.location.href.includes("localhost")) {
+        ReactGA.event({
+          category: "click",
+          action: `Profile's ${props.content} is clicked`,
+        });
+      }
+    } catch (err) {}
+  };
 
   return (
     <div className="link-box">
@@ -27,7 +39,7 @@ const ImageLinkBox = (props: AboutProfileProps) => {
       )}
 
       {props.link && (
-        <Link to={props.link} target="_blank">
+        <Link to={props.link} target="_blank" onClick={handleGA}>
           <Img src={iconLink} width={16} height={16} />
         </Link>
       )}
