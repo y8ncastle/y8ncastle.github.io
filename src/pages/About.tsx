@@ -67,7 +67,7 @@ const About = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", function () {
-      if (window.scrollY > 900) setFabVisible(true);
+      if (window.scrollY > (isMobile ? 840 : 900)) setFabVisible(true);
       else setFabVisible(false);
     });
   }, []);
