@@ -1,23 +1,31 @@
 /* Font */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"); /* Pretendard */
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); /* Russo One */
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap"); /* Russo One */
 
 /* Default */
-body { background-color: #111111; margin: 0; padding: 0; font-family: 'Pretendard', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; display: flex; align-items: center; color: white; min-height: 100vh; flex-direction: column; position: relative; } 
-p, span { margin: 0; line-height: 16px; } 
+body { background-color: #111111; margin: 0; padding: 0; font-family: "Pretendard", sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; display: flex; align-items: center; color: white; min-height: 100vh; flex-direction: column; position: relative; } 
+p,
+span { margin: 0; line-height: 16px; } 
 a { text-decoration: none; } 
-table, th, td { padding: 0; border-spacing: 0; } 
+table,
+th,
+td { padding: 0; border-spacing: 0; } 
+
+* { scrollbar-width: none; } 
+::-webkit-scrollbar { width: 0; } 
+::-webkit-scrollbar-track { background-color: transparent; } 
+::-webkit-scrollbar-thumb { background-color: transparent; } 
 
 /* Header */
 header { position: fixed; width: 1440px; background-color: rgba(17, 17, 17, 0.95); z-index: 999; filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.05)); border-radius: 0 0 20px 20px; } 
 header .container { display: flex; align-items: center; justify-content: space-between; padding: 0 92px; height: 92px; } 
-header .container .logo { font-size: 20px; cursor: default; } 
+header .container .logo { font-size: 20px; cursor: default; line-height: 20px; } 
 header nav { display: flex; justify-content: space-between; width: 340px; } 
-header nav a { color: white; text-decoration: none; } 
+header nav a { color: white; text-decoration: none; line-height: 16px; } 
 header nav a:hover { color: #d3d3d3; } 
 header .language { position: relative; display: flex; justify-content: space-between; width: 132px; } 
 header .language span { cursor: pointer; } 
-header .language::after { position: absolute; content: ''; width: 0.5px; height: 16px; background-color: #fff; left: 60px; top: 0; } 
+header .language::after { position: absolute; content: ""; width: 0.5px; height: 16px; background-color: #fff; left: 60px; top: 0; } 
 header .language span:hover { color: #d3d3d3; } 
 footer { text-align: center; padding-bottom: 92px; width: 100%; } 
 
@@ -26,7 +34,7 @@ footer p { line-height: 24px; }
 footer p:first-child { color: #c5c5c5; margin-bottom: 24px; } 
 
 /* Common */
-.russo { font-family: 'Russo One'; } 
+.russo { font-family: "Russo One"; } 
 .loading-container { display: flex; align-items: center; } 
 .fab { width: 52px; height: 52px; position: fixed; right: 48px; bottom: 48px; background-color: #858484; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; } 
 .fab:hover { background-color: #6f6f6f; } 
@@ -46,9 +54,22 @@ footer p:first-child { color: #c5c5c5; margin-bottom: 24px; }
 .modal-background .right-arrow { right: -71px; top: 50%; transform: translateY(-50%); } 
 
 /* Temp */
-.temp-container { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center } 
+.temp-container { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; } 
 .temp-container p { font-size: 18px; line-height: 48px; white-space: pre-line; } 
 
-@media (max-width: 500px){
+@media (max-width: 500px) { /* Header */
+header { width: 100vw; border-radius: 0 0 10px 10px; } 
+header .container { padding: 0 28px; height: 52px; } 
+header .container .logo { font-size: 12px; line-height: 12px; } 
+header nav { display: none; } 
+header .language { display: none; } 
+footer { text-align: center; padding-bottom: 52px; width: 100vw; } 
+
+/* Common */
+.loading-container img { width: 48px; height: 48px; } 
+.fab { width: 32px; height: 32px; right: 24px; bottom: 24px; } 
+.fab img { width: 12px; height: 12px; } 
+
+/* Temp */
  .temp-container p { font-size: 14px; } 
  }

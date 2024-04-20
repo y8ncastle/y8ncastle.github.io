@@ -25,9 +25,10 @@ import {
   workExpData,
 } from "data/About";
 import { Fragment, useEffect, useState } from "react";
+import ReactGA from "react-ga4";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import ReactGA from "react-ga4";
+import useMediaQuery, { mobileQuery } from "utils/useMediaQuery";
 
 const About = () => {
   const { t } = useTranslation();
@@ -39,6 +40,8 @@ const About = () => {
   const [currentTitleBelow, setCurrentTitleBelow] = useState<string>(
     `about.background.titleBelow`
   );
+
+  const isMobile = useMediaQuery(mobileQuery);
 
   const handleDownloadCv = () => {
     let fileUrl =
@@ -82,6 +85,32 @@ const About = () => {
 
     return () => clearTimeout(timer);
   }, [currentTitleAbove]);
+
+  // ################################################
+  // 모바일 영역 구현 전 임시
+  const setTempDisplayAvailable = useGlobalStore(
+    (state) => state.setTempDisplayAvailable
+  );
+
+  useEffect(() => {
+    if (isMobile) setTempDisplayAvailable(true);
+    else setTempDisplayAvailable(false);
+  }, [isMobile]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (isMobile) setTempDisplayAvailable(true);
+      else setTempDisplayAvailable(false);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+  // 모바일 영역 구현 전 임시 종료
+  // ################################################
 
   return (
     <main>
@@ -154,7 +183,7 @@ const About = () => {
             )}
           </div>
 
-          <div className="sub-title" style={{ marginTop: 68 }}>
+          <div className="sub-title" style={{ marginTop: isMobile ? 48 : 68 }}>
             <p>{t(`about.content.workExp`)}</p>
           </div>
 
@@ -172,7 +201,7 @@ const About = () => {
               ))}
           </div>
 
-          <div className="sub-title" style={{ marginTop: 92 }}>
+          <div className="sub-title" style={{ marginTop: isMobile ? 60 : 92 }}>
             <p>{t(`about.content.education`)}</p>
             <Link to="/snapshot/school">{t(`about.more`)}</Link>
           </div>
@@ -196,7 +225,7 @@ const About = () => {
         <div className="skill">
           <p className="title russo">Skill</p>
 
-          <p className="sub-title" style={{ marginTop: 68 }}>
+          <p className="sub-title" style={{ marginTop: isMobile ? 0 : 68 }}>
             <span>
               <Img src={skillOne} width={24} height={24} />
             </span>
@@ -215,7 +244,7 @@ const About = () => {
               ))}
           </div>
 
-          <p className="sub-title" style={{ marginTop: 112 }}>
+          <p className="sub-title" style={{ marginTop: isMobile ? 36 : 112 }}>
             <span>
               <Img src={skillTwo} width={24} height={24} />
             </span>
@@ -234,7 +263,7 @@ const About = () => {
               ))}
           </div>
 
-          <p className="sub-title" style={{ marginTop: 112 }}>
+          <p className="sub-title" style={{ marginTop: isMobile ? 36 : 112 }}>
             <span>
               <Img src={skillThree} width={24} height={24} />
             </span>

@@ -11,6 +11,8 @@ interface StoreInterface {
   setCurrentModal: (modal: string, isOpen: boolean) => void;
   modalData: ModalDataProps | null;
   setModalData: (data: ModalDataProps) => void;
+  tempDisplayAvailable: boolean;
+  setTempDisplayAvailable: (available: boolean) => void;
 }
 
 const useGlobalStore = create<StoreInterface>((set) => {
@@ -25,6 +27,9 @@ const useGlobalStore = create<StoreInterface>((set) => {
       set({ currentModal: modal, isModalOpen: isOpen }),
     modalData: null,
     setModalData: (data: ModalDataProps) => set({ modalData: data }),
+    tempDisplayAvailable: false,
+    setTempDisplayAvailable: (available: boolean) =>
+      set({ tempDisplayAvailable: available }),
   };
 });
 

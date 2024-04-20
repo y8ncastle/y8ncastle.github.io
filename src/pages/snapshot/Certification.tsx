@@ -10,7 +10,7 @@ import {
 } from "data/snapshot/Certification";
 import { CertificationDataProps } from "interfaces/Certification";
 import moment from "moment";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ReactGA from "react-ga4";
 import { useTranslation } from "react-i18next";
 
@@ -60,6 +60,18 @@ const Certificate = () => {
       }
     } catch (err) {}
   };
+
+  // ################################################
+  // 모바일 영역 구현 전 임시
+  const setTempDisplayAvailable = useGlobalStore(
+    (state) => state.setTempDisplayAvailable
+  );
+
+  useEffect(() => {
+    setTempDisplayAvailable(false);
+  }, []);
+  // 모바일 영역 구현 전 임시 종료
+  // ################################################
 
   return (
     <main>

@@ -1,10 +1,24 @@
+import useGlobalStore from "Store";
 import Footer from "components/Footer";
 import CategoryItemBox from "components/Snapshot/CategoryItemBox";
 import { SnapshotCategoryData } from "data/Snapshot";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const Snapshot = () => {
   const { t } = useTranslation();
+
+  // ################################################
+  // 모바일 영역 구현 전 임시
+  const setTempDisplayAvailable = useGlobalStore(
+    (state) => state.setTempDisplayAvailable
+  );
+
+  useEffect(() => {
+    setTempDisplayAvailable(false);
+  }, []);
+  // 모바일 영역 구현 전 임시 종료
+  // ################################################
 
   return (
     <main>

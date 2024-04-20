@@ -16,6 +16,9 @@ import RouteCheckerForGA from "utils/RouteCheckerForGA";
 const App = () => {
   const { t } = useTranslation();
   const setCurrentLang = useGlobalStore((state) => state.setCurrentLang);
+  const tempDisplayAvailable = useGlobalStore(
+    (state) => state.tempDisplayAvailable
+  );
 
   const [clientWidth, setClientWidth] = useState<number>(window.innerWidth);
   const [clientHeight, setClientHeight] = useState<number>(window.innerHeight);
@@ -28,7 +31,9 @@ const App = () => {
 
     window.addEventListener("resize", handleResize);
 
-    return () => window.removeEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   useEffect(() => {
@@ -47,6 +52,32 @@ const App = () => {
     };
   }, []);
 
+  // ################################################
+  // 모바일 영역 구현 전 임시 시작
+  const setTempDisplayAvailable = useGlobalStore(
+    (state) => state.setTempDisplayAvailable
+  );
+
+  useEffect(() => {
+    if (window.location.pathname === "/") setTempDisplayAvailable(true);
+  }, []);
+
+  useEffect(() => {
+    const handleLocationChange = () => {
+      if (window.location.pathname === "/") setTempDisplayAvailable(true);
+    };
+
+    window.addEventListener("load", handleLocationChange);
+    window.addEventListener("popstate", handleLocationChange);
+
+    return () => {
+      window.removeEventListener("load", handleLocationChange);
+      window.removeEventListener("popstate", handleLocationChange);
+    };
+  }, []);
+  // 모바일 영역 구현 전 임시 종료
+  // ################################################
+
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <RouteCheckerForGA />
@@ -59,7 +90,7 @@ const App = () => {
           </div>
         }
       >
-        {clientWidth >= 1440 ? (
+        {tempDisplayAvailable || clientWidth >= 1440 ? (
           <>
             <Header />
             <CustomRouter />
