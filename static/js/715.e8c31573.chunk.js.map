@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/715.e8c31573.chunk.js","mappings":"oKAAA,MAIA,EAJgBA,KACPC,EAAAA,EAAAA,KAAA,U","sources":["pages/404.tsx"],"sourcesContent":["const Page404 = () => {\n  return <main></main>;\n};\n\nexport default Page404;\n"],"names":["Page404","_jsx"],"sourceRoot":""}

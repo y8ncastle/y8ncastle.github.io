@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunky8ncastle_portfolio=self.webpackChunky8ncastle_portfolio||[]).push([[715],{6715:(e,s,t)=>{t.r(s),t.d(s,{default:()=>n});var a=t(8860),l=t(5043),c=t(579);const n=()=>{const e=(0,a.A)((e=>e.setTempDisplayAvailable));return(0,l.useEffect)((()=>{e(!1)}),[]),(0,c.jsx)("main",{})}}}]);
+//# sourceMappingURL=715.35f6aa86.chunk.js.map
