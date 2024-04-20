@@ -19,9 +19,17 @@ const Modal = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [isChanging, setIsChanging] = useState<boolean>(false);
 
-  const handleInitModal = () => {
-    setCurrentModal(null, false);
-    setModalData(null);
+  const handleInitModal = (
+    event?: React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) => {
+    if (
+      ["modal-background", "modal-close"].some((className) =>
+        (event.target as HTMLElement).classList.contains(className)
+      )
+    ) {
+      setCurrentModal(null, false);
+      setModalData(null);
+    }
   };
 
   useEffect(() => {
@@ -45,6 +53,7 @@ const Modal = () => {
               <span>{modalData && t(modalData.title)}</span>
 
               <Img
+                className="modal-close"
                 src={modalClose}
                 width={16}
                 height={16}

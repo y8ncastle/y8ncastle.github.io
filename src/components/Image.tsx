@@ -6,6 +6,7 @@ export const Img = ({
   height,
   alt,
   style,
+  className,
   onClick,
 }: {
   src: string;
@@ -13,10 +14,12 @@ export const Img = ({
   height?: number;
   alt?: string;
   style?: CSSProperties;
+  className?: string;
   onClick?: () => void;
 }) => {
   return (
     <img
+      className={className}
       src={src}
       width={width}
       height={height}
