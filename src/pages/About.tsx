@@ -52,7 +52,7 @@ const About = () => {
       if (!window.location.href.includes("localhost")) {
         ReactGA.event({
           category: "click",
-          action: `CV for ${currentLang} is downloaded`,
+          action: `CV (${currentLang})`,
         });
       }
     } catch (err) {}

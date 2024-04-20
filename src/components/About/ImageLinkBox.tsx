@@ -14,7 +14,7 @@ const ImageLinkBox = (props: AboutProfileProps) => {
       if (!window.location.href.includes("localhost")) {
         ReactGA.event({
           category: "click",
-          action: `Profile's ${props.content} is clicked`,
+          action: `[Profile] ${props.content}`,
         });
       }
     } catch (err) {}

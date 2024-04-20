@@ -31,7 +31,7 @@ const SchoolBanner = (props: SchoolBannerProps) => {
       if (!window.location.href.includes("localhost")) {
         ReactGA.event({
           category: "click",
-          action: `${props.engName}'s ${t(item.items[index].name)} is clicked`,
+          action: `${t(item.items[index].name)} (${props.engName})`,
         });
       }
     } catch (err) {}

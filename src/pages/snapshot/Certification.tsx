@@ -46,7 +46,7 @@ const Certificate = () => {
     const item = CertificationImageData.find((item) => item.title === name);
 
     setModalData({
-      title: item.title ? item.title : null,
+      title: item.title ? t(item.title) : null,
       image: item.image ? item.image : null,
     });
     setCurrentModal("certification", true);
@@ -55,7 +55,7 @@ const Certificate = () => {
       if (!window.location.href.includes("localhost")) {
         ReactGA.event({
           category: "click",
-          action: `Certification ${item.title} is clicked`,
+          action: `[CERT] ${t(item.title)}`,
         });
       }
     } catch (err) {}

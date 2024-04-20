@@ -39,7 +39,7 @@ const Modal = () => {
   return (
     <>
       {isModalOpen && currentModal && (
-        <div className="modal-background">
+        <div className="modal-background" onClick={handleInitModal}>
           <div className="modal-container">
             <div className="modal-title-header">
               <span>{modalData && t(modalData.title)}</span>
