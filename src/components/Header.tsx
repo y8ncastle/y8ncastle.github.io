@@ -3,6 +3,8 @@ import i18n from "locales/i18n";
 import { CSSProperties, RefObject, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
+import { Img } from "./Image";
+import { headerDrawer } from "assets/assetStore";
 
 const Header = () => {
   const location = useLocation();
@@ -11,6 +13,10 @@ const Header = () => {
     state.currentLang,
     state.setCurrentLang,
   ]);
+  const setDrawerModalOpen = useGlobalStore(
+    (state) => state.setDrawerModalOpen
+  );
+
   const aboutRef = useRef<HTMLAnchorElement>(null);
   const snapshotRef = useRef<HTMLAnchorElement>(null);
   const timelineRef = useRef<HTMLAnchorElement>(null);
@@ -83,6 +89,14 @@ const Header = () => {
             English
           </span>
         </div>
+
+        <Img
+          className="mobile-drawer"
+          src={headerDrawer}
+          width={16}
+          height={14}
+          onClick={() => setDrawerModalOpen(true)}
+        />
       </div>
     </header>
   );

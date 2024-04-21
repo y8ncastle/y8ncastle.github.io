@@ -12,6 +12,7 @@ import certificationGlass from "./icons/certificationGlass.svg";
 import cvDown from "./icons/cvDown.svg";
 import fabArrow from "./icons/fabArrow.svg";
 import gpaChange from "./icons/gpaChange.svg";
+import headerDrawer from "./icons/headerDrawer.svg";
 import iconLink from "./icons/link.svg";
 import modalArrow from "./icons/modalArrow.svg";
 import modalClose from "./icons/modalClose.svg";
@@ -123,6 +124,7 @@ export {
   gpaChange,
   hanbatDiploma,
   hanbatEngDiploma,
+  headerDrawer,
   iconLink,
   loading,
   militaryCoa,

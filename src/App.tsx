@@ -3,7 +3,7 @@ import useGlobalStore from "Store";
 import { loading } from "assets/assetStore";
 import Header from "components/Header";
 import { Img } from "components/Image";
-import Modal from "components/Modal";
+import Modal, { DrawerModal } from "components/Modal";
 import "locales/i18n";
 import i18n from "locales/i18n";
 import { Suspense, useEffect, useState } from "react";
@@ -95,6 +95,7 @@ const App = () => {
             <Header />
             <CustomRouter />
             <Modal />
+            <DrawerModal />
           </>
         ) : (
           <div className="temp-container" style={{ height: clientHeight }}>
