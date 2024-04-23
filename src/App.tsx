@@ -16,8 +16,11 @@ import RouteCheckerForGA from "utils/RouteCheckerForGA";
 const App = () => {
   const { t } = useTranslation();
   const setCurrentLang = useGlobalStore((state) => state.setCurrentLang);
-  const tempDisplayAvailable = useGlobalStore(
-    (state) => state.tempDisplayAvailable
+  const [tempDisplayAvailable, setTempDisplayAvailable] = useGlobalStore(
+    (state) => [state.tempDisplayAvailable, state.setTempDisplayAvailable]
+  );
+  const setDrawerModalOpen = useGlobalStore(
+    (state) => state.setDrawerModalOpen
   );
 
   const [clientWidth, setClientWidth] = useState<number>(window.innerWidth);
@@ -52,19 +55,20 @@ const App = () => {
     };
   }, []);
 
+  // TODO: 일부 내용 유지 필요
   // ################################################
   // 모바일 영역 구현 전 임시 시작
-  const setTempDisplayAvailable = useGlobalStore(
-    (state) => state.setTempDisplayAvailable
-  );
-
   useEffect(() => {
-    if (window.location.pathname === "/") setTempDisplayAvailable(true);
+    if (["/", "/snapshot"].includes(window.location.pathname))
+      setTempDisplayAvailable(true);
   }, []);
 
   useEffect(() => {
     const handleLocationChange = () => {
-      if (window.location.pathname === "/") setTempDisplayAvailable(true);
+      setDrawerModalOpen(false);
+
+      if (["/", "/snapshot"].includes(window.location.pathname))
+        setTempDisplayAvailable(true);
     };
 
     window.addEventListener("load", handleLocationChange);

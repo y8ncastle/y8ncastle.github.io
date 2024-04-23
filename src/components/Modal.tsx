@@ -147,6 +147,10 @@ export const DrawerModal = () => {
     }
   };
 
+  const handleClose = () => {
+    setDrawerModalOpen(false);
+  };
+
   const setLangStyle = (lang: string): CSSProperties => {
     let isCurrentLang = currentLang === lang;
 
@@ -220,13 +224,13 @@ export const DrawerModal = () => {
 
             <div className="drawer-body">
               <nav>
-                <Link to="/" ref={aboutRef}>
+                <Link to="/" ref={aboutRef} onClick={handleClose}>
                   {t(`header.about`)}
                 </Link>
-                <Link to="/snapshot" ref={snapshotRef}>
+                <Link to="/snapshot" ref={snapshotRef} onClick={handleClose}>
                   {t(`header.snapshot`)}
                 </Link>
-                <Link to="/timeline" ref={timelineRef}>
+                <Link to="/timeline" ref={timelineRef} onClick={handleClose}>
                   {t(`header.timeline`)}
                 </Link>
               </nav>
