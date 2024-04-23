@@ -75,7 +75,7 @@ footer p:first-child { color: #c5c5c5; margin-bottom: 24px; }
 .temp-container p { font-size: 18px; line-height: 48px; white-space: pre-line; } 
 
 @media (max-width: 500px) { /* Header */
-header { width: 100vw; border-radius: 0 0 10px 10px; } 
+header { min-width: 320px; width: 100vw; border-radius: 0 0 10px 10px; } 
 header .container { padding: 0 28px; height: 52px; } 
 header .container .logo { font-size: 12px; line-height: 12px; } 
 header nav { display: none; } 

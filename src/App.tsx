@@ -59,7 +59,7 @@ const App = () => {
   // ################################################
   // 모바일 영역 구현 전 임시 시작
   useEffect(() => {
-    if (["/", "/snapshot"].includes(window.location.pathname))
+    if (["/", "/snapshot", "/timeline"].includes(window.location.pathname))
       setTempDisplayAvailable(true);
   }, []);
 
@@ -67,7 +67,7 @@ const App = () => {
     const handleLocationChange = () => {
       setDrawerModalOpen(false);
 
-      if (["/", "/snapshot"].includes(window.location.pathname))
+      if (["/", "/snapshot", "/timeline"].includes(window.location.pathname))
         setTempDisplayAvailable(true);
     };
 
