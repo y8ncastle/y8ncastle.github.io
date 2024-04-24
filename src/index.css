@@ -93,5 +93,5 @@ footer p:first-child { margin-bottom: 16px; }
 .fab img { width: 12px; height: 12px; } 
 
 /* Temp */
- .temp-container p { font-size: 14px; } 
+ .temp-container p { font-size: 12px; line-height: 12px; } 
  }
