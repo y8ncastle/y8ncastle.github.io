@@ -4,6 +4,7 @@ import {
   aboutDBpia,
   aboutGithub,
   aboutInsta,
+  aboutKakao,
   aboutLinkedIn,
   aboutMail,
   projectBim,
@@ -64,6 +65,11 @@ export const profileContactData: AboutProfileProps[] = [
     icon: aboutGithub,
     content: "@y8ncastle",
     link: "https://www.github.com/y8ncastle",
+  },
+  {
+    icon: aboutKakao,
+    content: "Kakaotalk",
+    link: "https://open.kakao.com/o/sriKqcpg",
   },
   {
     icon: aboutInsta,

@@ -4,6 +4,7 @@ import aboutCode from "./icons/aboutCode.svg";
 import aboutDBpia from "./icons/aboutDBpia.svg";
 import aboutGithub from "./icons/aboutGithub.svg";
 import aboutInsta from "./icons/aboutInstagram.svg";
+import aboutKakao from "./icons/aboutKakao.svg";
 import aboutLinkedIn from "./icons/aboutLinkedIn.svg";
 import aboutMail from "./icons/aboutMail.svg";
 import aboutQuestion from "./icons/aboutQuestion.svg";
@@ -101,6 +102,7 @@ export {
   aboutDBpia,
   aboutGithub,
   aboutInsta,
+  aboutKakao,
   aboutLinkedIn,
   aboutMail,
   aboutQuestion,
