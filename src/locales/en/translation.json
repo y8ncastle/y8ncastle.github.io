@@ -14,10 +14,10 @@
     "scrollDown": "Scroll Down to See",
     "more": "More",
     "profile": {
-      "role": "Frontend and Blockchain Service Developer",
+      "role": "EduTech, Blockchain and AI Service Developer",
       "introPrev": "Hello.\nI'm ",
       "name": "Yoonsung Jeong (Alec J)",
-      "introNext": ", a 'Frontend Developer'.\n\nI studied and developed blockchain in graduate school, and got my master's degree. Currently I'm working on frontend development focused on React.\n\nI enjoy learning new technologies and handling some data. Also, I quickly grasp new concepts and technologies based on my experience. That is my advantage.\n\nHope you enjoy looking around here."
+      "introNext": ", a developer striving on multiple fronts.\n\nAfter studying blockchain and obtaining a master's degree in graduate school, I am currently planning and developing a new edu-tech service that combines AI and blockchain.\n\nWhile my main focus is on frontend development, I also challenge myself in various fields such as design and server development.\n\nI have a keen interest in learning new technologies and handling data. Additionally, my advantage lies in my ability to quickly grasp new concepts and technologies based on my experience.\n\nThank you!"
     },
     "content": {
       "contact": "Profile and Contact",
@@ -29,6 +29,8 @@
       "current": "Current",
       "noncelab": "Nonce Lab Inc.",
       "noncelabDesc": "Job Title: Senior Researcher (Frontend Developer)\nJob Description: I have worked as a web-focused frontend developer related to blockchain, providing app development support and general oursourced work(Prototype development, SI service development, publishing, etc.) as needed.\nFlagship Project: Bitcoin Community POW, Bitcoin P2P Trading Platform Pow2Pow, Cryptocurrency Wallet Colet",
+      "iscream": "i-Scream Media Inc.",
+      "iscreamDesc": "Job Title: Staff (Developer)\nDepartment: Strategic Planning Team\nJob Description: Planning and Developing a new edu-tech service",
       "education": "Education",
       "reasonNext": "Returned to school after taking 1 year off for personal reason",
       "sogang": "Sogang University (Master's Degree of Engineering, Graduate School of Computer Science)",
@@ -98,7 +100,7 @@
       "education": "Education",
       "educationContent": "Graduated from Daejeon Duncheon Elementary School\nGraduated from Daejeon Mannyeon Middle School\nGraduated from Seodaejeon High School\nB.S. in Information and Communication Engineering at Hanbat National University\nM.S. in Computer Science at Sogang University",
       "jobTitle": "Organization / Job Title",
-      "jobTitleContent": "Nonce Lab Inc. / Senior Researcher",
+      "jobTitleContent": "Strategic Planning Team, i-Scream Media Inc. / Staff",
       "military": "Military Service",
       "militaryContent": "Honorable Discharge from KATUSA\n(Army Sergeant, 2015.04 ~ 2017.01)",
       "hobby": "Hobby",

@@ -63,7 +63,7 @@ export const profileContactData: AboutProfileProps[] = [
   },
   {
     icon: aboutGithub,
-    content: "@y8ncastle",
+    content: "Github",
     link: "https://www.github.com/y8ncastle",
   },
   {
@@ -94,6 +94,13 @@ export const profileContactData: AboutProfileProps[] = [
 ];
 
 export const workExpData: WorkEduProps[] = [
+  {
+    startDate: "2024.05",
+    endDate: `about.content.current`,
+    name: `about.content.iscream`,
+    link: "https://www.i-screammedia.com",
+    description: `about.content.iscreamDesc`,
+  },
   {
     startDate: "2022.12",
     endDate: "2024.04",

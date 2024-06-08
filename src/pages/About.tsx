@@ -130,7 +130,13 @@ const About = () => {
 
       <section>
         <div className="profile">
-          <div className="left-side">
+          <div
+            className="left-side"
+            style={{
+              paddingTop: currentLang === "en" && !isMobile ? 0 : "",
+              top: currentLang === "en" && !isMobile ? -30 : 0,
+            }}
+          >
             <p>{t(`about.profile.role`)}</p>
             <p className="russo">Alec J</p>
             <p>

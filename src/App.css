@@ -18,7 +18,7 @@ main .background .title span:first-child { color: #A9A9A9; }
 main .scroll-down { display: flex; align-items: center; flex-direction: column; padding: 48px 0 144px 0; } 
 main .scroll-down p { margin-bottom: 16px; font-weight: 300; } 
 main .profile { height: 612px; padding: 0 136px 160px 92px; display: flex; justify-content: space-between; } 
-main .left-side { width: 500px; padding-top: 52px; position: relative; } 
+main .left-side { width: 500px; padding-top: 26px; position: relative; } 
 main .left-side p { position: relative; z-index: 200; } 
 main .left-side p:first-child { font-size: 24px; line-height: 32px; color: #c8c8c8; } 
 main .left-side p:nth-child(2) { font-size: 76px; line-height: 84px; margin: 20px 0 40px; } 
